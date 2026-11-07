@@ -39,10 +39,12 @@ p.source,.source{font-size:7.5pt;color:var(--grey);margin-top:0}
 .toc li.l2{padding-left:7mm;font-size:9pt;color:var(--grey)}
 .toc li .t{flex:0 1 auto} .toc li .d{flex:1;border-bottom:1px dotted #B8C0CC;margin:0 2mm}
 .toc li .n{flex:0 0 auto;font-weight:600}
-.cite{color:var(--teal);font-size:7.5pt;vertical-align:super;line-height:0}
-.cite.bad{color:#C0392B}
-.refs{font-size:7.5pt;line-height:1.35;text-align:left}
-.refs li{margin-bottom:1mm}
+.cite.bad{color:#C0392B;font-weight:700}
+/* APA 7 reference list, styled as in the team's reference document */
+.refs{font-family:"Times New Roman","Liberation Serif",Times,serif;font-size:12pt;line-height:2;color:#000;text-align:left}
+.refs p.ref{margin:0 0 4mm;padding:0}
+.refs i{font-style:italic}
+.refs a{color:#1155CC;text-decoration:underline;overflow-wrap:anywhere}
 </style></head>
 <body>
 <section class="cover">
@@ -143,5 +145,5 @@ p.source,.source{font-size:7.5pt;color:var(--grey);margin-top:0}
 <h1>6 Appendix: assumptions and model documentation</h1>
 <!-- data-modeler: assumptions table, method, scenario definitions -->
 <h1>References</h1>
-<ol class="refs"></ol>
+<div class="refs"></div>
 </body></html>

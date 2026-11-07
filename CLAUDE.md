@@ -47,7 +47,11 @@ technology attractiveness, customer attractiveness, entry barriers, differentiat
   UNIDO INDSTAT, IEA (Critical Minerals Data Explorer, LNG tracker, Hydrogen Review), IRENA, OICA/ACEA, ICAO/IATA,
   Airbus GMF, Boeing CMO, Cefic, SEMI, WHO, company annual reports, scientific papers.
 - Paid market reports only to triangulate. Never the only source for a number.
-- Every number gets a row in data/sources.csv (use the source-log skill) and a [n] citation in the text.
+- Every number gets a row in data/sources.csv (use the source-log skill) and an APA 7 citation in the text.
+- Citation style is APA 7th edition, exactly as in the team's reference document: in text (Author, Year) or Author (Year),
+  reference list titled References, alphabetical, Times New Roman 12 pt, double spaced, titles in italics, full clickable URL.
+  In drafts write [DATA_ID] for (Author, Year), [ID1, ID2] for several sources and [@DATA_ID] for a narrative Author (Year).
+  The build converts these automatically. Never type citations or the reference list by hand.
 - Estimates are labelled "team estimate" and the assumption is written in the appendix.
 - Never invent a number. Missing data becomes `TODO(data): what was searched`.
 

@@ -8,7 +8,9 @@ description: Builds report/report.pdf from sections/*.md with the project design
 
 What it does:
 1. Concatenates sections/*.md in file name order (00_, 01_, 02_..., 06_).
-2. Converts `[data_id]` citations into [n], numbered by first use, and appends a reference list from data/sources.csv.
+2. Converts citations into APA 7th edition: `[data_id]` becomes (Author, Year), `[ID1, ID2]` becomes (Author, Year; Author, Year)
+   and `[@data_id]` becomes Author (Year). It adds 2026a and 2026b suffixes where needed and builds the References list
+   (alphabetical, Times New Roman 12 pt, double spaced, italic titles, full blue links) from the APA fields in data/sources.csv.
    Unknown ids are printed as warnings and shown as [?id] in red.
 3. Wraps the content in template.html (cover, table of contents, running footer with page numbers).
 4. Renders the PDF with the preinstalled Playwright Chromium (render.js), fills the table of contents page numbers in a second pass,
@@ -17,7 +19,7 @@ What it does:
 ## Section file conventions
 - Start each file with an H1 (chapter) or H2 (subchapter) using the fixed numbering in CLAUDE.md.
 - Figures: `![Figure 3: Message title that states the insight](fig/f3_prices.svg)` followed by a line
-  `Source: USGS MCS 2026 [USGS_NI_2026], team analysis`.
+  `Source: [USGS_NI_MINE_2025], team analysis`.
 - Fact or spotlight boxes: wrap in `<div class="box" markdown="1"> ... </div>`.
 - Force a page break: `<div class="pb"></div>`.
 

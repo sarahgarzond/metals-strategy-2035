@@ -19,29 +19,96 @@ def load_sources():
         return {r["data_id"]: r for r in csv.DictReader(f)}
 
 
+def _year(s):
+    d = (s.get("pub_date") or s.get("year") or "").strip()
+    return d[:4] if d[:4].isdigit() else "n.d."
+
+
+def _esc(t):
+    return html.escape(t or "")
+
+
+def _end(t):
+    t = (t or "").strip()
+    return t if t.endswith((".", "?", "!")) else t + "."
+
+
+def apa_reference(s, suffix):
+    """One APA 7 reference list entry as HTML."""
+    author = (s.get("author") or s.get("publisher") or "").strip()
+    date = (s.get("pub_date") or s.get("year") or "n.d.").strip()
+    if suffix:
+        date = date[:4] + suffix + date[4:] if date[:4].isdigit() else date + "-" + suffix
+    title = (s.get("title") or s.get("source") or "").strip()
+    rtype = (s.get("ref_type") or "webpage").strip()
+    container, pub = (s.get("container") or "").strip(), (s.get("apa_publisher") or "").strip()
+    parts = [_esc(_end(author)), f"({_esc(date)})."]
+    if rtype == "journal":
+        parts.append(_esc(_end(title)))
+        tail = f"<i>{_esc(container)}</i>"
+        if s.get("volume"):
+            tail += f", <i>{_esc(s['volume'])}</i>"
+            if s.get("issue"):
+                tail += f"({_esc(s['issue'])})"
+        if s.get("pages"):
+            tail += f", {_esc(s['pages'])}"
+        parts.append(tail + ".")
+    else:
+        parts.append(f"<i>{_esc(_end(title))}</i>")
+        extra = container or pub
+        if extra and extra != author:
+            parts.append(_esc(_end(extra)))
+    link = f"https://doi.org/{s['doi']}" if s.get("doi") else (s.get("url") or "")
+    if link.startswith("http"):
+        parts.append(f'<a href="{_esc(link)}">{_esc(link)}</a>')
+    return " ".join(parts)
+
+
 def cite(md, sources):
-    order, warn = [], []
+    """APA 7 citations. [ID] or [ID1, ID2] gives (Author, Year), [@ID] gives Author (Year)."""
+    pattern = re.compile(r"\[(@?)([A-Z][A-Z0-9_]+(?:\s*,\s*[A-Z][A-Z0-9_]+)*)\](?!\()")
+    used, warn = [], []
+    for m in pattern.finditer(md):
+        for i in [x.strip() for x in m.group(2).split(",")]:
+            (used if i in sources else warn).append(i)
+    used = list(dict.fromkeys(used))
+    # same author and year gets a, b, c ordered by title (APA 7 section 8.19)
+    groups, suffix = {}, {}
+    for i in used:
+        s = sources[i]
+        groups.setdefault(((s.get("intext_author") or s.get("author") or "").strip(), _year(s)), []).append(i)
+    for ids in groups.values():
+        if len(ids) > 1:
+            for k, i in enumerate(sorted(ids, key=lambda x: (sources[x].get("title") or "").lower())):
+                suffix[i] = "abcdefghijklmnopqrstuvwxyz"[k]
+
+    def who(i):
+        s = sources[i]
+        return (s.get("intext_author") or s.get("author") or s.get("publisher") or "").strip()
+
+    def yr(i):
+        y = _year(sources[i])
+        return y + ("-" if y == "n.d." and suffix.get(i) else "") + suffix.get(i, "")
 
     def rep(m):
-        out = []
-        for i in [x.strip() for x in m.group(1).split(",")]:
-            if i not in sources:
-                warn.append(i); out.append(f'<span class="cite bad">[?{i}]</span>'); continue
-            if i not in order:
-                order.append(i)
-            out.append(str(order.index(i) + 1))
-        nums = [o for o in out if not o.startswith("<")]
-        bad = "".join(o for o in out if o.startswith("<"))
-        return (f'<span class="cite">[{",".join(nums)}]</span>' if nums else "") + bad
+        narrative = m.group(1) == "@"
+        ids = [x.strip() for x in m.group(2).split(",")]
+        bad = "".join(f'<span class="cite bad">[?{i}]</span>' for i in ids if i not in sources)
+        ids = [i for i in ids if i in sources]
+        if not ids:
+            return bad
+        if narrative:
+            return " and ".join(f"{_esc(who(i))} ({yr(i)})" for i in ids) + bad
+        by_author = {}
+        for i in ids:
+            by_author.setdefault(who(i), []).append(yr(i))
+        inner = "; ".join(f"{_esc(a)}, {', '.join(sorted(ys))}" for a, ys in sorted(by_author.items(), key=lambda x: x[0].lower()))
+        return f"({inner})" + bad
 
-    md = re.sub(r"\[([A-Z][A-Z0-9_]+(?:\s*,\s*[A-Z][A-Z0-9_]+)*)\](?!\()", rep, md)
-    refs = []
-    for i in order:
-        s = sources[i]
-        url = f' <a href="{html.escape(s["url"])}">{html.escape(s["url"])}</a>' if s.get("url") else ""
-        refs.append(f'<li>{html.escape(s.get("publisher") or "")}: {html.escape(s.get("source") or "")}'
-                    f' ({html.escape(s.get("year") or "")}).{url} Retrieved {html.escape(s.get("retrieved") or "")}.</li>')
-    return md, "\n".join(refs), sorted(set(warn))
+    md = pattern.sub(rep, md)
+    order = sorted(used, key=lambda i: ((sources[i].get("author") or "").lower(), _year(sources[i]), suffix.get(i, "")))
+    refs = "\n".join(f'<p class="ref">{apa_reference(sources[i], suffix.get(i, ""))}</p>' for i in order)
+    return md, refs, sorted(set(warn))
 
 
 def toc_entries(content_html):

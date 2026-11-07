@@ -16,5 +16,7 @@ description: Grading rubric and grade scale used by the grader agents for the TU
 Grade bands: 1.0 to 1.3 exceptional and usable by industry as is. 1.7 to 2.3 very good with minor gaps.
 2.7 to 3.3 solid but generic. 3.7 to 4.0 weak but passing.
 
+Referencing must follow APA 7th edition exactly as in the team's reference document. Any deviation counts against Writing and house style.
+
 Every grader must return: the grade per criterion, the overall grade, and the ten highest impact fixes
 (each with location, problem, concrete fix and expected grade impact).

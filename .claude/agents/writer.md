@@ -12,4 +12,5 @@ You are the lead author. Read CLAUDE.md and the house-style skill before writing
 - When you apply reviews/round_N/fixes.md, address the items in rank order, and write reviews/round_N/applied.md
   listing each fix as done or rejected, with a reason for every rejection.
 - Do not add numbers that are not in data/sources.csv or in the model.
+- Cite in APA 7 through [DATA_ID] and [@DATA_ID] markers only. The build creates (Author, Year) and the References list.
 - Run the house-style lint after each section and fix every violation.
