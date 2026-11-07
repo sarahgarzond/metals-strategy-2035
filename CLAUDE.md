@@ -77,7 +77,9 @@ technology attractiveness, customer attractiveness, entry barriers, differentiat
 - Paid market reports only to triangulate. Never the only source for a number.
 - Every number gets a row in data/sources.csv (use the source-log skill) and an APA 7 citation in the text.
 - Citation style is APA 7th edition, exactly as in the team's reference document: in text (Author, Year) or Author (Year),
-  reference list titled References, alphabetical, Times New Roman 12 pt, double spaced, titles in italics, full clickable URL.
+  reference list titled References, alphabetical, laid out as in the team's Google Doc (Times New Roman 12 pt, 1.15 spacing,
+  indented 1.27 cm), titles in italics as APA 7 requires, full clickable URL. The in-text author must match the reference
+  entry exactly (for example "U.S. Geological Survey, 2026a", not "USGS, 2026a").
   In drafts write [DATA_ID] for (Author, Year), [ID1, ID2] for several sources and [@DATA_ID] for a narrative Author (Year).
   The build converts these automatically. Citations already typed in the imported draft, such as (USGS, 2026a), stay as
   they are, and their references (REF_* rows in data/sources.csv) are always listed. New sources get a row and a marker.
