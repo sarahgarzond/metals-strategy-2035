@@ -39,6 +39,13 @@ The main session is the orchestrator. Watch the scoreboard in reviews/scoreboard
 house-style (rules and lint.py), source-log (data/sources.csv format), build-report (PDF build in the brief's design),
 grading-rubric (TUM rubric), run-pipeline (orchestration).
 
+## Research depth
+Research follows the research-protocol skill: structured databases first, pulled with `tools/data/fetch.py`
+(UN Comtrade, Eurostat PRODCOM, World Bank Pink Sheet, USGS MCS 2026, OECD STAN, SEC EDGAR, WHO), then industry
+associations and official outlooks, then company filings for the 61 companies in data/companies.csv (profiles in
+research/companies/). `tools/research_audit.py` checks every research note against data/source_matrix.json and blocks
+writing until it passes. UNIDO INDSTAT and IEA datasets must be downloaded by the team into data/raw/unido/ and data/raw/iea/.
+
 ## Guard rails
 A PostToolUse hook lints every edit to sections/*.md and sends style violations back to the agent automatically.
 The build fails above 30 pages and warns on unknown citation ids.

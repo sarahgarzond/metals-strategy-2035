@@ -1,0 +1,38 @@
+{
+  "_comment": "Required sources per research unit. Every research note must contain a '## Source coverage' table with one row per required source: status used / not applicable / blocked, plus the evidence (data/clean file, data_id or URL). tools/research_audit.py enforces this before any writing.",
+  "thresholds": {"min_sources": 12, "min_primary": 7, "min_company_reports": 4, "min_spotlights": 3, "min_triangulated": 3},
+  "core_all": [
+    "UN Comtrade (tools/data/fetch.py comtrade)",
+    "World Bank Commodity Data / Pink Sheet (fetch.py pinksheet)",
+    "USGS Mineral Commodity Summaries 2026 (fetch.py usgs)",
+    "Company annual reports, 10-K/20-F, investor presentations (fetch.py sec, company IR sites)"
+  ],
+  "materials": {
+    "nickel":     ["Eurostat PRODCOM (fetch.py prodcom)", "IEA Global Critical Minerals Outlook 2026", "INSG (International Nickel Study Group)", "Nickel Institute", "LME / Indonesian RKAB policy sources", "WorldStainless"],
+    "cobalt":     ["Eurostat PRODCOM", "IEA Global Critical Minerals Outlook 2026", "Cobalt Institute Cobalt Market Report", "DRC export quota sources (ARECOMS)"],
+    "chromium":   ["Eurostat PRODCOM", "International Chromium Development Association (ICDA)", "WorldStainless"],
+    "molybdenum": ["Eurostat PRODCOM", "International Molybdenum Association (IMOA)"],
+    "titanium":   ["Eurostat PRODCOM", "International Titanium Association", "Airbus / Boeing outlooks (aerospace demand)"],
+    "tungsten":   ["Eurostat PRODCOM", "International Tungsten Industry Association (ITIA)"],
+    "zirconium":  ["Eurostat PRODCOM", "World Nuclear Association / IAEA PRIS (nuclear demand)", "Zircon producers' reports (Iluka, Tronox, Rio Tinto)"],
+    "copper":     ["Eurostat PRODCOM", "IEA Global Critical Minerals Outlook 2026", "ICSG (International Copper Study Group)", "International Copper Association"],
+    "aluminium":  ["Eurostat PRODCOM", "International Aluminium Institute", "European Aluminium"],
+    "manganese":  ["Eurostat PRODCOM", "International Manganese Institute"],
+    "trade_chapter_6": ["UN Comtrade for HS 7502, 7504, 7505, 7506, 7507, 8105, 8109, 7218 to 7223, 7409, 7606, 8311", "Eurostat Comext / PRODCOM exports and imports", "OECD ICIO (inter industry and trade in value added)"]
+  },
+  "sectors": {
+    "automotive":   ["OICA production statistics", "ACEA economic and market report", "IEA Global EV Outlook 2026", "OECD STAN (fetch.py stan, activity C29)", "Eurostat PRODCOM / short term statistics (C29)"],
+    "oil_gas":      ["IEA World Energy Outlook / World Energy Investment", "IEA Global LNG Capacity Tracker", "Energy Institute Statistical Review", "NACE / ISO 15156 sour service context", "OECD STAN (B, C19)"],
+    "energy_environment": ["IEA (Global Hydrogen Review, Renewables, Electricity)", "IRENA statistics (pxweb.irena.org)", "World Nuclear Association / IAEA PRIS", "GWEC wind report", "OECD STAN (C27, C28, D35)"],
+    "aerospace":    ["Airbus Global Market Forecast", "Boeing Commercial Market Outlook", "ICAO / IATA traffic data", "SIPRI military expenditure", "UN Comtrade HS 8411", "OECD STAN (C30)"],
+    "chemical":     ["Cefic Facts and Figures / Chemical Trends Report", "Eurostat short term statistics (C20)", "OECD STAN (C20)", "VCI (German Chemical Industry Association)", "ACC (American Chemistry Council)"],
+    "electronics":  ["SEMI World Fab Forecast / 300mm Fab Outlook", "WSTS semiconductor market", "ZVEI / electronics associations", "OECD STAN (C26, C27)", "Display industry sources (TrendForce, DSCC)"],
+    "medical":      ["WHO Global Health Observatory (fetch.py who)", "OECD Health Statistics / Health at a Glance", "MedTech Europe facts and figures", "U.S. FDA guidance", "UN World Population Prospects", "OECD STAN (C32)"]
+  },
+  "structural_cross_checks": [
+    "OECD STAN for industrial output by sector and country (fetch.py stan)",
+    "UNIDO INDSTAT for global manufacturing output (manual download by the team into data/raw/unido/)",
+    "OECD ICIO for inter industry relationships (manual or SDMX)"
+  ],
+  "company_universe": "data/companies.csv"
+}

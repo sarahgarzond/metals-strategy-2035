@@ -77,6 +77,9 @@ Scoring criteria for Phase III: market attractiveness, growth to 2035, strategic
 technology attractiveness, customer attractiveness, entry barriers, differentiation potential (weights in model.py).
 
 ## Source rules
+- Follow the research-protocol skill: structured databases first (tools/data/fetch.py), then industry associations and
+  official outlooks, then company filings (data/companies.csv, research/companies/). The research audit
+  (tools/research_audit.py, thresholds in data/source_matrix.json) must pass before any section is written.
 - Prefer primary and structured sources: UN Comtrade, Eurostat PRODCOM, World Bank Pink Sheet, USGS MCS, OECD STAN/ICIO,
   UNIDO INDSTAT, IEA (Critical Minerals Data Explorer, LNG tracker, Hydrogen Review), IRENA, OICA/ACEA, ICAO/IATA,
   Airbus GMF, Boeing CMO, Cefic, SEMI, WHO, company annual reports, scientific papers.

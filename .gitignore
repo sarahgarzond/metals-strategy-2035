@@ -5,3 +5,12 @@ report/build/
 ~$*.xlsx
 report/build/
 report/gdoc_sync/
+# re-fetchable API dumps (clean CSVs in data/clean are committed)
+data/raw/comtrade/
+data/raw/worldbank/
+data/raw/usgs/
+data/raw/prodcom/
+data/raw/eurostat/
+data/raw/oecd/
+data/raw/sec/
+data/raw/who/

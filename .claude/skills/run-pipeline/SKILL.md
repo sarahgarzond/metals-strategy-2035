@@ -9,12 +9,17 @@ Arguments: optional `research`, `draft`, `review` to run one stage only, or `rou
 ## Stage 0: Pull the Google Doc
 - Run the PULL steps of the gdoc-sync skill, so the round starts from the team's latest text.
 
-## Stage 1: Research (parallel)
-- Launch one `material-researcher` per metal of chapter 4 (nickel, cobalt, chromium, molybdenum, titanium, tungsten,
-  zirconium, copper, aluminium, manganese), with worktree isolation.
-- Launch seven `sector-analyst` agents (one per section of chapter 5), with worktree isolation.
-- Run them in the background, then merge each branch into main when it finishes and resolve conflicts in data/sources.csv
-  by keeping all rows and deduplicating on data_id.
+## Stage 1: Research (follows the research-protocol skill)
+1a. Data pull (main session or data-modeler, sequential because of API rate limits):
+    `python3 tools/data/fetch.py usgs`, `pinksheet`, `stan`, `prodcom` (all portfolio codes), and `comtrade` for every HS code
+    in `fetch.py list` across reporters 0 (World), 276, 842, 156, 392, 410, 356, 250, 826, 380, 360, years 2019 to latest.
+1b. Company research: launch `company-researcher` agents in parallel, 5 to 6 companies each, until every company in
+    data/companies.csv has a profile in research/companies/. Start with competitors and the largest customers.
+1c. Launch one `material-researcher` per metal (nickel, cobalt, chromium, molybdenum, titanium, tungsten, zirconium, copper,
+    aluminium, manganese, plus trade_chapter_6) and seven `sector-analyst` agents, with worktree isolation, notes only.
+1d. Research gate: `python3 tools/research_audit.py`. Every FAIL goes back to its agent with the problem list
+    (reviews/research_audit.md). No agent writes section text before its note passes.
+    Show the user the audit table and ask them to spot check two notes before Stage 2.
 
 ## Stage 2: Model and strategy
 - `data-modeler` integrates the numbers and regenerates the Excel model and figures.
