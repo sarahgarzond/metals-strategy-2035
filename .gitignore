@@ -4,3 +4,4 @@ report/build/
 .DS_Store
 ~$*.xlsx
 report/build/
+report/gdoc_sync/

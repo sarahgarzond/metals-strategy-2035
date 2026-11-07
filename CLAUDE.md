@@ -112,7 +112,8 @@ References in APA 7, 1.15 line spacing, indented 1.27 cm. Template: .claude/skil
 
 ## Team workflow
 - One git branch and worktree per sector or material while researching (`sector/<name>`, `material/<name>`), merged into main.
-- After the team edits the Google Doc, re-import it: export the doc JSON with the Google Docs connector to data/raw/gdoc_export.json,
-  then run `python3 tools/import_gdoc.py data/raw/gdoc_export.json` (writes to sections/_import/ for comparison, `--force` overwrites).
+- The Google Doc is where the report lives. Use the gdoc-sync skill: PULL at the start of every round, PUSH at the end.
+  Pushes are always tracked suggestions (SUGGEST mode), never direct edits, so the team accepts or rejects each change.
+  Only the main session can sync, because subagents have no Google Docs tools.
 - Review rounds stored in reviews/round_N/. Run the pipeline with the run-pipeline skill (`/run-pipeline`).
 - Agents write raw research notes to research/, final prose to sections/. Graders are read only.

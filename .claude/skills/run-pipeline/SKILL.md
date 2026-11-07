@@ -6,6 +6,9 @@ description: Orchestrates the full agent team for the Product Strategy 2035 repo
 
 Arguments: optional `research`, `draft`, `review` to run one stage only, or `round N`.
 
+## Stage 0: Pull the Google Doc
+- Run the PULL steps of the gdoc-sync skill, so the round starts from the team's latest text.
+
 ## Stage 1: Research (parallel)
 - Launch one `material-researcher` per metal of chapter 4 (nickel, cobalt, chromium, molybdenum, titanium, tungsten,
   zirconium, copper, aluminium, manganese), with worktree isolation.
@@ -32,6 +35,8 @@ Arguments: optional `research`, `draft`, `review` to run one stage only, or `rou
 - `writer` (prose), `data-modeler` (numbers and charts) and `sector-analyst` or `material-researcher`
   (missing evidence) apply fixes.md in rank order.
 - Commit with the message `round N: <average grade>`.
+- Run the PUSH steps of the gdoc-sync skill: the improvements appear in the team's Google Doc as tracked suggestions.
+  Ask the user before the first push of a session.
 - If the consolidator says CONTINUE, go back to Stage 3. If it says STOP, report the final grades and the open items to the user.
 
 Safety limits: at most 5 rounds without asking the user. Always tell the user the scoreboard after each round.
