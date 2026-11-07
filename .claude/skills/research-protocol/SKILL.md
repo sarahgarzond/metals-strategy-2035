@@ -39,6 +39,12 @@ the company-researcher). From annual reports, 10-K, 20-F, investor presentations
 revenue and margins, end market split, capacity and expansions (furnaces, presses, plants), order books, alloy and
 product form statements, named customers, guidance, and quotes on shortages or substitution, always with page numbers.
 
+## Reading web pages and PDFs
+WebFetch runs outside this container and can fail with DNS or host errors on company sites. When it does, use
+`python3 tools/read_url.py <url>` (any page or PDF, through the container network). For long annual reports use
+`--grep "nickel|aerospace|capacity"` to get matching lines with page numbers, then `--pages 40-48` to read a range.
+Page numbers from read_url go straight into citations.
+
 ## Rules
 - Every figure states what it measures (mine or refined, contained metal or gross weight, value or volume, year, unit).
 - Key numbers are triangulated: two independent sources, and the difference explained.

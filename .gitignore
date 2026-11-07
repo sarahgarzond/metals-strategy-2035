@@ -15,3 +15,4 @@ data/raw/oecd/
 data/raw/sec/
 data/raw/who/
 data/sources.csv.lock
+research/_cache/
