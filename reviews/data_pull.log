@@ -1,0 +1,8 @@
+  wrote 8886 rows to data/clean/usgs_mcs2026.csv
+  logged source USGS_MCS2026_DATA
+  wrote 7128 rows to data/clean/worldbank_pinksheet_monthly.csv
+  logged source WB_PINKSHEET
+  wrote 819 rows to data/clean/oecd_stan_P1.csv
+  logged source OECD_STAN_P1
+  wrote 821 rows to data/clean/oecd_stan_B1G.csv
+  logged source OECD_STAN_B1G
