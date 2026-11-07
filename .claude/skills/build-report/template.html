@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Product Strategy 2035</title>
+<style>
+:root{--navy:#26307A;--teal:#1590B8;--cyan:#33B6D6;--green:#6DBE45;--lime:#BFD630;--yellow:#F2E21C;--grey:#6B7385;--light:#EEF3F7}
+@page{size:A4}
+@page:first{margin:0}
+*{box-sizing:border-box}
+body{font-family:Inter,Arial,sans-serif;color:var(--navy);font-size:9.6pt;line-height:1.5;margin:0;text-align:justify;hyphens:none}
+.cover{height:297mm;width:214mm;margin:-18mm -20mm 0;position:relative;overflow:hidden;page-break-after:always;
+  background:linear-gradient(135deg,#0d1b4d 0%,#123a73 45%,#1590B8 100%);color:#fff}
+.cover:before{content:"";position:absolute;left:-10%;top:52%;width:130%;height:70%;background:#fff;transform:rotate(-8deg)}
+.cover .band{position:absolute;left:0;right:0;top:51%;height:7mm;transform:rotate(-8deg);transform-origin:left;
+  background:linear-gradient(90deg,var(--teal),var(--green),var(--yellow))}
+.cover .kicker{position:absolute;top:22mm;left:20mm;font-size:30pt;font-weight:800;letter-spacing:.5px}
+.cover h1{position:absolute;top:70mm;left:20mm;right:20mm;margin:0;font-size:30pt;line-height:1.15;font-weight:800;color:#fff;border:0}
+.cover h1 span{color:var(--yellow);display:block}
+.cover .meta{position:absolute;bottom:30mm;left:20mm;right:20mm;color:var(--navy);font-size:10.5pt}
+.cover .meta b{display:block;font-size:13pt;margin-bottom:2mm}
+h1{font-size:17pt;font-weight:800;margin:0 0 3mm;padding-bottom:2.5mm;page-break-before:always;
+  border-bottom:3px solid;border-image:linear-gradient(90deg,var(--teal),var(--green),var(--yellow)) 1;text-align:left}
+h2{font-size:12pt;font-weight:700;color:var(--teal);margin:5mm 0 2mm;text-align:left;page-break-after:avoid}
+h3{font-size:10pt;font-weight:700;margin:4mm 0 1.5mm;text-align:left;page-break-after:avoid}
+p{margin:0 0 2.6mm}
+table{width:100%;border-collapse:collapse;font-size:8pt;margin:2mm 0 4mm;text-align:left;page-break-inside:avoid}
+th{background:var(--navy);color:#fff;padding:1.6mm 2mm;font-weight:600}
+td{padding:1.4mm 2mm;border-bottom:1px solid #D5DCE4;vertical-align:top}
+tr:nth-child(even) td{background:var(--light)}
+img{width:100%;margin:1mm 0 0}
+p:has(> img){margin:0;text-align:center}
+p.source,.source{font-size:7.5pt;color:var(--grey);margin-top:0}
+.box{background:var(--light);border-left:5px solid;border-image:linear-gradient(180deg,var(--teal),var(--green),var(--yellow)) 1;
+  padding:3mm 4mm;margin:3mm 0;page-break-inside:avoid}
+.box h3{margin-top:0}
+.pb{page-break-after:always}
+.toc h1{page-break-before:avoid}
+.toc ol{list-style:none;padding:0;margin:0}
+.toc li{display:flex;align-items:baseline;margin:1.3mm 0;font-size:10pt}
+.toc li.l2{padding-left:7mm;font-size:9pt;color:var(--grey)}
+.toc li .t{flex:0 1 auto} .toc li .d{flex:1;border-bottom:1px dotted #B8C0CC;margin:0 2mm}
+.toc li .n{flex:0 0 auto;font-weight:600}
+.cite{color:var(--teal);font-size:7.5pt;vertical-align:super;line-height:0}
+.cite.bad{color:#C0392B}
+.refs{font-size:7.5pt;line-height:1.35;text-align:left}
+.refs li{margin-bottom:1mm}
+</style></head>
+<body>
+<section class="cover">
+  <div class="kicker">PROJECT STUDY</div>
+  <h1><span>Product Strategy 2035</span>Growth Strategy for High Performance Metals</h1>
+  <div class="band"></div>
+  <div class="meta"><b>Final report</b>{{TEAM}}<br>{{DATE}}</div>
+</section>
+<section class="toc"><h1>Table of contents</h1><ol>{{TOC}}</ol></section>
+{{CONTENT}}
+<h1>References</h1>
+<ol class="refs">{{REFS}}</ol>
+</body></html>

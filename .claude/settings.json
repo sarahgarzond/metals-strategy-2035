@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Bash(python3 .claude/skills/house-style/lint.py:*)",
+      "Bash(python3 .claude/skills/build-report/build.py:*)",
+      "Bash(python3 model/model.py:*)",
+      "Bash(pdftotext:*)",
+      "Bash(pdfinfo:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git merge:*)",
+      "Bash(git worktree:*)",
+      "Edit(sections/**)",
+      "Edit(research/**)",
+      "Edit(reviews/**)",
+      "Edit(data/**)",
+      "Edit(model/**)",
+      "Write(sections/**)",
+      "Write(research/**)",
+      "Write(reviews/**)",
+      "Write(data/**)",
+      "Write(model/**)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(rm -rf:*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/skills/house-style/lint.py\" --hook"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="487.180234pt" height="180.235297pt" viewBox="0 0 487.180234 180.235297" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-07T09:21:47.279125</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 180.235297 
+L 487.180234 180.235297 
+L 487.180234 0 
+L 0 0 
+L 0 180.235297 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 93.031562 140.256 
+L 472.471562 140.256 
+L 472.471562 7.2 
+L 93.031562 7.2 
+L 93.031562 140.256 
+z
+" style="fill: none"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 93.031562 24.244364 
+L 370.022762 24.244364 
+L 370.022762 13.248 
+L 93.031562 13.248 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #26307a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 93.031562 42.571636 
+L 347.256362 42.571636 
+L 347.256362 31.575273 
+L 93.031562 31.575273 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #26307a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 93.031562 60.898909 
+L 335.873162 60.898909 
+L 335.873162 49.902545 
+L 93.031562 49.902545 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #26307a"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 93.031562 79.226182 
+L 316.901162 79.226182 
+L 316.901162 68.229818 
+L 93.031562 68.229818 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #26307a"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 93.031562 97.553455 
+L 275.162762 97.553455 
+L 275.162762 86.557091 
+L 93.031562 86.557091 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #1590b8"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 93.031562 115.880727 
+L 184.097162 115.880727 
+L 184.097162 104.884364 
+L 93.031562 104.884364 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #1590b8"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 93.031562 134.208 
+L 180.302762 134.208 
+L 180.302762 123.211636 
+L 93.031562 123.211636 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #1590b8"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 370.022762 24.244364 
+L 472.471563 24.244364 
+L 472.471563 13.248 
+L 370.022762 13.248 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #e8eef4"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 347.256362 42.571636 
+L 472.471562 42.571636 
+L 472.471562 31.575273 
+L 347.256362 31.575273 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #e8eef4"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 335.873162 60.898909 
+L 472.471562 60.898909 
+L 472.471562 49.902545 
+L 335.873162 49.902545 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #e8eef4"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 316.901162 79.226182 
+L 472.471562 79.226182 
+L 472.471562 68.229818 
+L 316.901162 68.229818 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #e8eef4"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 275.162762 97.553455 
+L 472.471562 97.553455 
+L 472.471562 86.557091 
+L 275.162762 86.557091 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #e8eef4"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 184.097162 115.880727 
+L 472.471562 115.880727 
+L 472.471562 104.884364 
+L 184.097162 104.884364 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #e8eef4"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 180.302762 134.208 
+L 472.471562 134.208 
+L 472.471562 123.211636 
+L 180.302762 123.211636 
+z
+" clip-path="url(#pcd9da8a25a)" style="fill: #e8eef4"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m9b41ab9209" d="M 0 0 
+L 0 3.5 
+" style="stroke: #26307a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m9b41ab9209" x="93.031562" y="140.256" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #26307a" x="93.031562" y="155.97475" transform="rotate(-0 93.031562 155.97475)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m9b41ab9209" x="168.919562" y="140.256" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #26307a" x="168.919562" y="155.97475" transform="rotate(-0 168.919562 155.97475)">20</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m9b41ab9209" x="244.807562" y="140.256" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #26307a" x="244.807562" y="155.97475" transform="rotate(-0 244.807562 155.97475)">40</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m9b41ab9209" x="320.695562" y="140.256" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #26307a" x="320.695562" y="155.97475" transform="rotate(-0 320.695562 155.97475)">60</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m9b41ab9209" x="396.583562" y="140.256" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #26307a" x="396.583562" y="155.97475" transform="rotate(-0 396.583562 155.97475)">80</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m9b41ab9209" x="472.471562" y="140.256" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #26307a" x="472.471562" y="155.97475" transform="rotate(-0 472.471562 155.97475)">100</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #26307a" x="282.751562" y="170.864398" transform="rotate(-0 282.751562 170.864398)">Share of global output held by the largest producing country, 2025, %</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <defs>
+       <path id="mf9a1f08c25" d="M 0 0 
+L -3.5 0 
+" style="stroke: #26307a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mf9a1f08c25" x="93.031562" y="18.746182" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #26307a" x="86.031562" y="23.105557" transform="rotate(-0 86.031562 23.105557)">Cobalt mine</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mf9a1f08c25" x="93.031562" y="37.073455" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #26307a" x="86.031562" y="41.43283" transform="rotate(-0 86.031562 41.43283)">Nickel mine</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mf9a1f08c25" x="93.031562" y="55.400727" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #26307a" x="86.031562" y="59.760102" transform="rotate(-0 86.031562 59.760102)">Stainless melt</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mf9a1f08c25" x="93.031562" y="73.728" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #26307a" x="86.031562" y="78.087375" transform="rotate(-0 86.031562 78.087375)">Primary aluminium</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mf9a1f08c25" x="93.031562" y="92.055273" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #26307a" x="86.031562" y="96.414648" transform="rotate(-0 86.031562 96.414648)">Refined copper</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mf9a1f08c25" x="93.031562" y="110.382545" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #26307a" x="86.031562" y="114.74192" transform="rotate(-0 86.031562 114.74192)">Zircon</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mf9a1f08c25" x="93.031562" y="128.709818" style="fill: #26307a; stroke: #26307a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: end; fill: #26307a" x="86.031562" y="133.069193" transform="rotate(-0 86.031562 133.069193)">Copper mine</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_17">
+    <path d="M 93.031562 140.256 
+L 93.031562 7.2 
+" style="fill: none; stroke: #b8c0cc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 93.031562 140.256 
+L 472.471562 140.256 
+" style="fill: none; stroke: #b8c0cc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #ffffff" x="100.620362" y="21.656338" transform="rotate(-0 100.620362 21.656338)">DR Congo  73%</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #ffffff" x="100.620362" y="39.983611" transform="rotate(-0 100.620362 39.983611)">Indonesia  67%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #ffffff" x="100.620362" y="58.310884" transform="rotate(-0 100.620362 58.310884)">China  64%</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #ffffff" x="100.620362" y="76.638156" transform="rotate(-0 100.620362 76.638156)">China  59%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #ffffff" x="100.620362" y="94.965429" transform="rotate(-0 100.620362 94.965429)">China  48%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #ffffff" x="100.620362" y="113.292702" transform="rotate(-0 100.620362 113.292702)">Australia  24%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #ffffff" x="100.620362" y="131.619974" transform="rotate(-0 100.620362 131.619974)">Chile  23%</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcd9da8a25a">
+   <rect x="93.031562" y="7.2" width="379.44" height="133.056"/>
+  </clipPath>
+ </defs>
+</svg>
