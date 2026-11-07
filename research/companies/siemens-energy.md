@@ -2,14 +2,14 @@
 ## Snapshot
 • Revenue in fiscal 2025 (to 30 September 2025) was EUR 39.1bn, with orders of EUR 58.9bn and net income of EUR 1.685bn [1].
 • Profit before special items was EUR 2,355m against EUR 345m a year earlier, a margin of about 6.0% (team calculation from the two published values) [1].
-• Employees numbered 102,985 on 30 September 2025 according to the company ESG data factsheet [2]. Page numbers: TODO(data), the annual report PDF could not be opened in this session, so web release figures are used.
+• Employees numbered 102,985 on 30 September 2025 according to the company ESG data factsheet [2]. Page numbers are given for the capital markets day deck only, while the group figures come from the web earnings release and have no pages.
 • Order backlog reached EUR 138bn at year end and EUR 162bn after the third quarter of fiscal 2026 [1][3].
 
 ## Segments and end markets
 • Gas Services generated revenue of about EUR 12.2bn in fiscal 2025 (aggregator figure, TODO(data) verify in the annual report) and sold 194 gas turbines, with orders up 42.9% on a comparable basis [1].
 • Grid Technologies more than doubled sales to hyperscalers to above EUR 2bn in fiscal 2025 [1]. In the third quarter of fiscal 2026 it booked EUR 5.4bn of orders, held a EUR 51bn backlog and earned a 19.9% margin [3].
 • Gas Services booked about EUR 10bn of orders in the same quarter, with a EUR 73bn backlog and a 17.3% margin [4]. Revenue for the Transformation of Industry and Siemens Gamesa segments is TODO(data) because it was not found.
-• Guidance for fiscal 2026 is comparable revenue growth of 11% to 13% and a margin of 9% to 11%, rising to 14% to 16% by fiscal 2028 [1].
+• Gas Services earned a 13.0% margin in fiscal 2025 and Grid Technologies 15.8%, and fiscal 2026 guidance is 14% to 16% and 16% to 18% respectively [1]. Group guidance for fiscal 2026 is comparable revenue growth of 11% to 13% and a margin of 9% to 11%, rising to 14% to 16% by fiscal 2028 [1].
 
 ## Relevance to the Client
 • Siemens Energy is a customer, mainly as a buyer of nickel superalloy forgings and castings for gas turbine hot sections and as a buyer of electrical steel and copper for grid equipment.
@@ -17,12 +17,12 @@
 • Which alloys Siemens Energy buys, in which tonnes and from which melters is not disclosed, so every tonnage is TODO(data).
 
 ## Capacity and investments
-• Capital expenditure in fiscal 2025 was about EUR 1.7bn, mostly for capacity extensions [6].
+• The deck shows gas turbine capacity rising from about 110 units or 17 GW in fiscal 2024 to about 160 units or 22 GW on average in fiscal 2025 to 2027 and 210 to 230 units or above 30 GW in fiscal 2028 to 2030, an increase of 30% within the existing footprint (p.9) [6].
 • Medium turbine capacity was reported to rise from about 50 units in fiscal 2025 to about 80 in fiscal 2026, and large turbine capacity is about 35 units with 15 more planned for 2027 [4]. The two secondary summaries are worded differently, so this needs a transcript check.
 • Plant by plant furnace, press and foundry data: TODO(data), not published in the sources reached.
 
 ## Market statements
-• The capital markets day deck of November 2025 states that gas turbine capacity is sold out until fiscal 2028, with a EUR 54bn Gas Services backlog and about 78 GW of new unit backlog [6].
+• The capital markets day deck of November 2025 states on p.9 that capacity is sold out until fiscal 2028, and shows about 78 GW of new unit backlog on p.4 and p.5 [6]. It also lists the acquisition of Capital Injection Ceramics and 4,700 hires in the gas business (p.10).
 • By August 2026 the firm gas turbine backlog was 69 GW, with lead times of about three years and delivery slots mainly in 2029 and 2030 [4]. The 78 GW and 69 GW values differ because reservations are counted in the first.
 • Spotlight: hyperscaler demand for transformers and gas power is the stated driver of the grid and gas order boom in 2025 and 2026 [1][3].
 

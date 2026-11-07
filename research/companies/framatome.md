@@ -1,6 +1,6 @@
 # Framatome (customer and competitor, France)
 ## Snapshot
-• Revenue in 2025 was EUR 5,399m, up 15.5% organically, with new orders of EUR 5,924m and EBITDA of EUR 665m, up 6.7% [1].
+• Revenue in 2025 was EUR 5,399m, up 15.5% organically, with new orders of EUR 5,924m (trade press) [1]. EDF reports Framatome EBITDA of EUR 641m against EUR 629m, up 1.0%, and order intake of about EUR 5.9bn (EDF results release p.6) [8]. NEI Magazine gives EUR 665m for EBITDA, and the EDF figure is preferred as the primary source.
 • Operating margin is not published in the sources reached, so it is logged as TODO(data) here.
 • Employees are given as about 18,000 by an aggregator and need confirmation, TODO(data) [2]. Page numbers are TODO(data) because no Framatome annual report was reachable in this session. Framatome is owned mainly by EDF and its results are consolidated in the EDF group accounts.
 
@@ -27,7 +27,7 @@
 • Statements on lead times and on nickel or zirconium shortages are TODO(data) because none were found.
 
 ## Customers and suppliers
-• Customers named are EDF, Vattenfall and the Barakah operator in the United Arab Emirates [1][3]. Supplier agreements for nickel alloys are TODO(data) because none were found.
+• Customers named are EDF, Vattenfall and the Barakah operator in the United Arab Emirates [1][3]. Supplier agreements for nickel alloys with named mills are TODO(data) because none were found.
 
 ## Sources
 1. NEI Magazine (2026). EPR projects drive Framatome growth. https://www.neimagazine.com/news/epr-projects-drive-framatome-growth/
@@ -37,5 +37,6 @@
 5. American Nuclear Society (2026). Framatome licensed to produce LEU+ fuel at Richland. https://www.ans.org/news/2026-05-08/article-8017/framatome-licensed-to-produce-leu-fuel-at-its-richland-plant/
 6. American Nuclear Society (2025). Framatome opens new fuel workshop. https://www.ans.org/news/article-6977/framatome-opens-new-fuel-workshop-for-research-reactors-and-medical-targets
 7. France 2030 profile of Framatome (unaffiliated site, 2026). https://france2030.pages.dev/companies/framatome/
+8. EDF (2026). 2025 annual results press release. https://www.edf.fr/sites/groupe/files/2026-02/PR%202025%20annual%20results.pdf
 
 Data IDs are in framatome.sources.csv.

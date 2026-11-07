@@ -15,11 +15,11 @@ Subsea revenue USD 8,665.9 million, operating margin 15.0% (2024: 12.2%). Surfac
 TechnipFMC buys carbon steel, stainless steel, aluminum, "steel castings and forgings", polymers and electronics. The 10-K lists no nickel alloys and names no CRA, clad pipe or sour service grades (p. 11): TODO(data) from the annual report on grades. Subsea trees, manifolds, flexible jumpers and connectors under Subsea 2.0 are pressure parts where CRA weld overlay and solid nickel alloy forgings are used by the industry, and the company does "not typically use single source suppliers" (p. 11). Flexible pipe uses steel and polymer layers, so it is not a clad pipe user.
 
 ## Capacity and investments
-Manufacturing and service sites are listed by region in Item 2 (p. 30, including Brazil, Malaysia, Nigeria, Angola, Indonesia, India). Furnace or forge capacity: not applicable, no tonnes published (TODO(data)). Subsea 2.0 configure to order delivers "up to 25 percent lower product cost and as much as a 12 month reduction in delivery time" (10-K p. 41), which shifts buying to standard forging programs and long term supply.
+Manufacturing and service sites are listed by region in Item 2 (p. 36, including Brazil, Malaysia, Nigeria, Angola, Indonesia, India). Furnace or forge capacity: not applicable, no tonnes published (TODO(data)). Subsea 2.0 configure to order delivers "up to 25 percent lower product cost and as much as a 12 month reduction in delivery time" (10-K p. 41), which shifts buying to standard forging programs and long term supply.
 
 ## Market statements
 1. "We believe that offshore developments will continue to receive an increasing share of capital investment ... activity will remain strong through the end of the decade and beyond" (10-K p. 41).
-2. Lead times: backlog delivery depends on "access to raw materials", workforce and "sufficient manufacturing plant capacity" (risk factors, 10-K Item 1A).
+2. Lead times: backlog delivery depends on "access to raw materials", workforce and "sufficient manufacturing plant capacity" (risk factors, 10-K p. 24).
 3. Q3 2026 release: backlog USD 16,065.8 million, adjusted EBITDA margin 21.7%, Subsea 2026 revenue guidance raised to USD 9.6 to 9.8 billion. The Subsea opportunities list reached USD 32 billion (ninth quarterly increase). Orders "over the next five quarters" at least USD 14.5 billion. Press reports put Q3 Subsea orders at USD 2.05 billion and the USD 10 billion 2026 order target as "more likely than not" (secondary, not verified in the release) [CO_TECHNIPFMC_Q3_2026].
 4. Natural gas: demand from data centers to be met by growth in US LNG exports (10-K p. 40). Sour gas: TODO(data).
 

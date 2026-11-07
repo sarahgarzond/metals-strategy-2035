@@ -21,7 +21,7 @@ Capital investments (capex, APS investments and capitalized exploration data) we
 1. "Production and recovery activity is becoming a strategic priority for our customers ... higher demand particularly for intervention services, artificial lift, production chemicals and SLB OneSubsea" (10-K p. 15).
 2. Q3 2026 revenue USD 9.45 billion, up 5% sequentially. CEO: "a steady flow of new contract awards in the international markets which increased backlog and enhanced revenue visibility into 2027" and "deepwater momentum across Latin America, Europe, Sub-Saharan Africa and Asia" [CO_SLB_Q3_2026].
 3. "A very compelling outlook for 2027, with further upside as Middle East activity recovers" (Q3 2026 release).
-4. Risk factors list supply chain disruption, tariff policy and inflation (10-K p. 8). Sour gas, LNG and clad pipe are not discussed in the 10-K: TODO(data).
+4. Risk factors list supply chain disruption, tariff policy and inflation (10-K p. 9). Sour gas, LNG and clad pipe are not discussed in the 10-K: TODO(data).
 
 ## Customers and suppliers
 No customer above 10% is stated in the extracts read: TODO(data). Joint venture partners Aker Solutions and Subsea7 (OneSubsea). Alloy suppliers: TODO(data).

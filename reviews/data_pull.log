@@ -6,3 +6,5 @@
   logged source OECD_STAN_P1
   wrote 821 rows to data/clean/oecd_stan_B1G.csv
   logged source OECD_STAN_B1G
+  wrote 2346 rows to data/clean/prodcom_2019-2024.csv
+  logged source EUROSTAT_PRODCOM

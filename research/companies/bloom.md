@@ -1,7 +1,7 @@
 # Bloom Energy (customer, United States)
 ## Snapshot
-• Revenue in fiscal 2025 was USD 2.02bn, up 37.3%, with GAAP operating income of USD 72.8m, an operating margin of about 3.6% (team calculation), and non GAAP operating income of USD 221.0m [1].
-• Employees were reported as 2,214 by an aggregator, which needs checking in the 10-K [2]. Page numbers: TODO(data), sec.gov could not be opened by WebFetch, so the release text found by search is used.
+• Revenue in fiscal 2025 was USD 2,024.0m, up 37.3%, with GAAP operating income of USD 72.8m, an operating margin of about 3.6% (team calculation), and non GAAP operating income of USD 221.0m (results release p.1 and p.3) [1].
+• Employees were reported as 2,214 by an aggregator, which needs checking in the 10-K [2]. The 10-K itself could not be read because sec.gov returns a 403 error without a registered contact user agent, so page numbers refer to the results release PDF.
 • Latest fiscal year is calendar 2025, and the 10-K was filed in February 2026 (tools/data/fetch.py lists it) [3].
 • Third quarter 2026 revenue was USD 1.24bn, up 138.1%, with GAAP operating income of USD 225.4m [4].
 
@@ -22,7 +22,7 @@
 • Other plants such as Newark, Delaware and their capacity are TODO(data) because they were not confirmed.
 
 ## Market statements
-• Total backlog was about USD 20bn and product backlog about USD 6bn at the end of 2025, roughly 2.5 times the prior year [1].
+• Total current backlog was about USD 20bn and current product backlog about USD 6bn at the end of 2025, roughly 2.5 times the prior year (release p.1) [1].
 • Fourth quarter 2025 GAAP gross margin fell to 30.8% from 38.3%, so ramp up costs are visible [1].
 • Spotlight: AEP agreed in January 2026 to procure up to 1 GW for USD 2.65bn, with a first phase of 900 MW for a data centre in Wyoming (aggregator, low confidence) [6].
 • Spotlight: Oracle agreement expanded to 2.8 GW in April 2026, and a Brookfield financing framework of USD 5bn (aggregator, low confidence) [6].
@@ -32,7 +32,7 @@
 • Suppliers of strip, powders and ceramics: TODO(data), the 10-K supply chain text was not read.
 
 ## Sources
-1. Bloom Energy (2026). Fourth quarter and full year 2025 results. https://www.bloomenergy.com/news/bloom-energy-reports-fourth-quarter-and-full-year-2025-financial-results-with-record-full-year-revenues/
+1. Bloom Energy (2026). Fourth quarter and full year 2025 financial results. https://s29.q4cdn.com/452919417/files/doc_financials/2025/q4/Q4-2025-Financial-Results.pdf
 2. Bloom Energy (2026). Form 10-K for 2025. https://www.sec.gov/Archives/edgar/data/1664703/000162828026006516/be-20251231.htm
 3. U.S. Securities and Exchange Commission EDGAR filings list, via data/clean/sec_bloom_energy_corp_filings.csv (2026).
 4. Bloom Energy (2026). Record third quarter 2026 results. https://bloomenergy.com/news/bloom-energy-reports-record-third-quarter-2026-financial-results-and-raises-full-year-2026-guidance/
