@@ -54,6 +54,10 @@ technology attractiveness, customer attractiveness, entry barriers, differentiat
   The build converts these automatically. Never type citations or the reference list by hand.
 - Estimates are labelled "team estimate" and the assumption is written in the appendix.
 - Never invent a number. Missing data becomes `TODO(data): what was searched`.
+- Data access in the cloud environment `metals-strategy-2035`: USGS, World Bank API, UN Comtrade (public preview endpoint
+  https://comtradeapi.un.org/public/v1/preview/..., no key needed, max 500 rows), Eurostat, OECD SDMX and UNIDO work directly.
+  www.iea.org blocks automated downloads with a bot check, so use WebSearch for IEA facts and ask the team to download IEA
+  datasets (for example the Critical Minerals Data Explorer) into data/raw/ by hand. Raw downloads always go to data/raw/.
 
 ## Interesting facts standard
 Each sector needs at least three "spotlight" facts naming who, what, where, when, which metal, which product form and

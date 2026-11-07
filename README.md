@@ -49,6 +49,6 @@ Each member owns two sectors and one or two materials. Create a worktree per str
 Share drafts through Google Docs and the model through Google Sheets if you prefer commenting there.
 
 ## Data access
-Allow these hosts in the cloud environment network settings (or work locally):
+Start cloud sessions on the environment `metals-strategy-2035`, which already allows these hosts and installs the Python libraries:
 pubs.usgs.gov, comtradeapi.un.org, ec.europa.eu, api.worldbank.org, sdmx.oecd.org, stat.unido.org, www.iea.org.
 UN Comtrade needs a free API key. Store it as an environment secret, never in a file.
