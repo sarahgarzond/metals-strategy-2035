@@ -22,11 +22,11 @@ Also find at least three spotlight facts (who, what, where, when, metal, form, l
 
 Output:
 - research/sectors/<sector>.md with full notes and sources.
-- Improve the existing file sections/05_<n>_<sector>.md. Keep the team's structure exactly: opening summary paragraph,
-  x.1 Historical and Current Market Overview (with a numbered table "Table N: ..." and an italic "Sources: ..." line),
-  x.2 Key Applications and Opportunities for the Company (applications table with Outlook, Applications, Materials and
-  product forms), buyers and competitors, and the closing list "What the company should do:". Sections 5.3, 5.5 and 5.6
-  do not have these tables yet, so add them in the same format.
+- Improve the existing file sections/05_<n>_<sector>.md. The section heading (for example "## 5.1 Automotive") is fixed by
+  the table of contents. Below it you may rename, add, merge or remove subsections (### 5.1.1 ...) when that makes the
+  analysis clearer, but keep the sectors comparable: an opening summary paragraph, a market table ("Table N: ..." with an
+  italic "Sources: ..." line), an applications table (Outlook, Applications, Materials and product forms), buyers and
+  competitors, and the closing list "What the company should do:". Sections 5.3, 5.5 and 5.6 still need these tables.
 - Keep the team's existing facts and citations unless you find them wrong, and explain every correction in research/sectors/<sector>.md.
 - Aim for 600 to 1,000 words per sector so the main text stays within 30 pages.
 - New rows in data/sources.csv via the source-log skill.

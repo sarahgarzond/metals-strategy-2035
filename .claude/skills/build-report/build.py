@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build report/report.pdf from sections/*.md. See SKILL.md."""
-import csv, datetime, glob, html, os, re, subprocess, sys
+import csv, datetime, difflib, glob, html, json, os, re, subprocess, sys
 import markdown
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
@@ -237,6 +237,15 @@ def main():
         main_pages = pages["References"]
     for w in warn:
         print(f"WARNING unknown citation id: {w}")
+    toc = [(lvl, t) for lvl, t in json.load(open(os.path.join(ROOT, "data", "toc.json")))["entries"]]
+    norm_t = lambda s: re.sub(r"[.\s]+", " ", s).strip()
+    body = [(lvl, norm_t(t)) for lvl, t in entries]
+    want = [(lvl, norm_t(t)) for lvl, t in toc]
+    if body != want:
+        for d in difflib.unified_diff([f"{l} {t}" for l, t in want], [f"{l} {t}" for l, t in body], "table of contents", "body headings", lineterm="", n=0):
+            print("TOC MISMATCH", d)
+        print("FAIL: chapter and section headings must match data/toc.json (subsections below them may change)")
+        sys.exit(1)
     missing = [t for _, t in entries if t not in pages]
     if missing:
         print("WARNING headings not found for the table of contents:", missing)

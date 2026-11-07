@@ -18,7 +18,7 @@ accepts or rejects. Never use EDIT mode on the master doc unless the user explic
 ## PUSH (after the quality gate of a round)
 1. Pull a FRESH export as in PULL step 1 (indices must match the doc exactly). Do not re-import.
 2. `python3 tools/sync_to_gdoc.py data/raw/gdoc_export.json` (optionally `--sections 05_1,05_4,references`).
-3. Read `report/gdoc_sync/plan.md`. Check that no line says HEADING CHANGE, HEADING DELETE or MISSING SOURCE, and that
+3. Read `report/gdoc_sync/plan.md`. Check that no line says BLOCKED or MISSING SOURCE, and that
    the number of changes per section is plausible. Show the user the plan summary and ask before the first push of a session.
 4. Read `report/gdoc_sync/meta.json`. For each `chunk_NNN.json` in order, call `mcp__Google_Docs__update_doc` with
    `requests` = the file content and
@@ -34,5 +34,7 @@ accepts or rejects. Never use EDIT mode on the master doc unless the user explic
 - Changes edited paragraphs, bullets and table cells, deletes removed paragraphs and inserts new paragraphs, bullets,
   tables (with caption, grey header row, 1.15 spacing) and the italic Sources line, in the doc's own styles.
 - Converts [DATA_ID] citations to APA text and rebuilds the References list (alphabetical, italic titles, links).
-- Never changes headings or the order of sections (the structure is fixed). Images and charts are not pushed:
-  list them in the plan for the team to insert by hand.
+- Headings: subsection headings (for example 5.1.1) are added, renamed or deleted like any paragraph. Chapter and section
+  headings may only change into an entry of data/toc.json and are never deleted, so the body always follows the
+  table of contents. Anything else is listed as BLOCKED in the plan and not sent.
+- Images and charts are not pushed: list them in the plan for the team to insert by hand.

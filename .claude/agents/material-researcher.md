@@ -17,7 +17,7 @@ For the material named in your task, collect evidence for all eight Phase I dime
 8. Outlook to 2035: demand, supply, technology shifts (IEA scenarios where available).
 
 Where your work goes:
-- Improve the metal's existing section (sections/04_*.md, for 4.7 metals the matching 4.7.x subsection) without changing its heading or position.
+- Improve the metal's existing section (sections/04_*.md, for 4.7 metals the matching 4.7.x subsection). Chapter and section headings follow data/toc.json, subsections below them may be restructured.
 - Keep the team's analytical standard from chapter 3: say which stage a figure measures (mine, refined, contained metal, shipments), give observation years, and never add incomparable totals.
 - Put trade flows by HS code into research/materials/<metal>_trade.md for chapter 6.
 

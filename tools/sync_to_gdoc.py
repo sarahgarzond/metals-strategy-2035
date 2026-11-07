@@ -185,6 +185,35 @@ def style_text_requests(start, plain, italics, links, base_italic=False):
     return reqs
 
 
+TOC = [(lvl, t) for lvl, t in json.load(open(os.path.join(ROOT, "data", "toc.json")))["entries"]]
+TOC_TEXTS = {re.sub(r"[.\s]+", " ", t).strip() for _, t in TOC}
+
+
+def heading_plain(text):
+    plain = strip_inline(text)[0]
+    return re.sub(r"^(\d+(?:\.\d+)*\.?|A\d+)\s+", lambda m: m.group(1) + "\t", plain)
+
+
+def toc_ok(level, text):
+    """Chapter and section headings (levels 1 and 2) must be entries of the team's table of contents."""
+    return level > 2 or re.sub(r"[.\s]+", " ", norm(text)).strip() in TOC_TEXTS
+
+
+def replace_heading(d, m):
+    plain = heading_plain(m["text"])
+    s, e = d["start"], d["end"] - 1
+    reqs = [{"deleteContentRange": {"range": {"startIndex": s, "endIndex": e}}}] if e > s else []
+    reqs.append({"insertText": {"location": {"index": s}, "text": plain}})
+    reqs += style_text_requests(s, plain, [], [])
+    reqs.append({"updateTextStyle": {"range": {"startIndex": s, "endIndex": s + u16(plain)},
+                                     "textStyle": {"bold": m["level"] == 1}, "fields": "bold"}})
+    if d["level"] != m["level"]:
+        reqs.append({"updateParagraphStyle": {"range": {"startIndex": s, "endIndex": s + u16(plain) + 1},
+                                              "paragraphStyle": dict(HEAD_STYLE, namedStyleType=f"HEADING_{m['level']}"),
+                                              "fields": "namedStyleType,alignment,lineSpacing,spaceAbove,spaceBelow"}})
+    return reqs
+
+
 def replace_paragraph(d, new_text):
     plain, it, ln = strip_inline(new_text)
     s, e = d["start"], d["end"] - 1
@@ -204,7 +233,7 @@ def insert_block(at, b, refs=False, caption=None):
         return insert_table(at, b, caption)
     plain, it, ln = strip_inline(b["text"])
     if b["type"] == "h":
-        plain = re.sub(r"^(\d+(?:\.\d+)*\.?|A\d+)\s+", lambda m: m.group(1) + "\t", plain)
+        plain = heading_plain(b["text"])
     reqs = [{"insertText": {"location": {"index": at}, "text": plain + "\n"}}]
     rng = {"startIndex": at, "endIndex": at + u16(plain) + 1}
     if b["type"] == "h":
@@ -295,15 +324,19 @@ def plan_section(name, dblocks, mblocks, next_start, refs=False):
             elif d["type"] == m["type"] and d["type"] in ("p", "li"):
                 ops.append((d["start"], 0, replace_paragraph(d, m["text"])))
                 notes.append(f"edit paragraph: '{norm(d['text'])[:60]}...'")
-            elif d["type"] == "h" or m["type"] == "h":
-                notes.append(f"HEADING CHANGE SKIPPED (structure is fixed): '{d.get('text', '')[:50]}' vs '{m.get('text', '')[:50]}'")
+            elif d["type"] == "h" and m["type"] == "h":
+                if not toc_ok(m["level"], m["text"]):
+                    notes.append(f"BLOCKED: '{norm(m['text'])[:60]}' is not an entry of the table of contents (data/toc.json)")
+                else:
+                    ops.append((d["start"], 0, replace_heading(d, m)))
+                    notes.append(f"heading: '{norm(d['text'])[:50]}' -> '{norm(m['text'])[:50]}'")
             else:
                 dels.append(di)
                 ins.append(mj)
         for di in sorted(set(dels)):
             d = dlist[di]
-            if d["type"] == "h":
-                notes.append(f"HEADING DELETE SKIPPED: '{d['text'][:50]}'")
+            if d["type"] == "h" and d["level"] <= 2:
+                notes.append(f"BLOCKED: deleting the table of contents heading '{d['text'][:50]}'")
                 continue
             ops.append((d["start"], 1, [{"deleteContentRange": {"range": {"startIndex": d["start"], "endIndex": d["end"]}}}]))
             notes.append(f"delete {d['type']}: '{norm(d.get('text', 'table'))[:60]}'")
@@ -313,8 +346,8 @@ def plan_section(name, dblocks, mblocks, next_start, refs=False):
             m = mblocks[mj]
             if mj in merged:
                 continue
-            if m["type"] == "h":
-                notes.append(f"HEADING INSERT SKIPPED: '{m['text'][:50]}'")
+            if m["type"] == "h" and not toc_ok(m["level"], m["text"]):
+                notes.append(f"BLOCKED: '{norm(m['text'])[:60]}' is not an entry of the table of contents (data/toc.json)")
                 continue
             cap = None
             if m["type"] == "table" and (mj - 1) in ins_set and mblocks[mj - 1]["type"] == "p" \

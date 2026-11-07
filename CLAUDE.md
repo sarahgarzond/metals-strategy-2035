@@ -3,7 +3,7 @@ TUM project study. Four person consulting team. Target grade 1.0. Audience: clie
 
 ## Master text
 The team's Google Doc "my version munvest report" (id 1VUYfTdtTXdviMMfTqkBaUTKzgEWnJG8UhdZO_tIv9qE) is the master draft.
-It was imported into sections/*.md with tools/import_gdoc.py. Agents improve the sections. They never restructure them.
+It was imported into sections/*.md with tools/import_gdoc.py. Agents improve the sections within the table of contents below.
 
 ## Client naming
 Follow the team's draft: the industry chapters say "the company", other chapters use the names exactly as the draft does.
@@ -20,19 +20,25 @@ performance materials through 2035?
 2. Strategy deck: 22 to 27 main slides plus 5 to 10 backup slides (later phase).
 3. Prototype: the Metals Atlas, an interactive explorer on the market data (later phase).
 
-## Fixed table of contents (the team's own, keep numbering, names and order exactly)
+## Table of contents (the team's own, stored in data/toc.json)
+The chapters, sections and appendix sections listed here are the fixed skeleton: body headings at these two levels
+must match the table of contents exactly, in this order (the build and the sync check this). Everything below that
+level may change throughout the document: subsection headings (for example 5.1.1 or 4.7.1) can be added, renamed,
+merged, reordered or removed whenever that makes the report clearer, and paragraphs can move between subsections.
+If the team changes the table of contents in the Google Doc, update data/toc.json first.
 - 1. Introduction
 - 2. Report Objective and Scope
 - 3. Introduction to the Analytical Framework and Methodology
 - 4. Metal Markets: Production & Form
   - 4.1 Nickel, 4.2 Cobalt, 4.3 Chromium, 4.4 Molybdenum, 4.5 Titanium, 4.6 Tungsten,
-    4.7 Other Selected Metals (4.7.1 Zirconium, 4.7.2 Copper, 4.7.3 Aluminium, 4.7.4 Manganese, 4.7.5 Additional Metals)
+    4.7 Other Selected Metals (current subsections: 4.7.1 Zirconium, 4.7.2 Copper, 4.7.3 Aluminium, 4.7.4 Manganese,
+    4.7.5 Additional Metals, which may change)
 - 5. Industry Needs
   - 5.1 Automotive, 5.2 Oil and Gas, 5.3 Energy and Environmental Technology, 5.4 Aerospace, 5.5 Chemical Processing,
     5.6 Electronics and Electrical Engineering, 5.7 Medical Technology
-  - Each sector keeps the subsections x.1 Historical and Current Market Overview and
-    x.2 Key Applications and Opportunities for the Company, a numbered table with an italic Sources line,
-    and the closing list "What the company should do:"
+  - The current subsections x.1 Historical and Current Market Overview and x.2 Key Applications and Opportunities for
+    the Company may be renamed or restructured, but keep the sectors comparable: each needs a numbered table with an
+    italic Sources line and closes with "What the company should do:"
 - 6. Global Market Dynamics and Trade
 - 7. Market Scenarios to 2035 (7.1 Market Model and Scenario Assumptions, 7.2 Results by Industry, Product, and Region)
 - 8. Strategic Recommendations (8.1 Priority Products, Industries, Regions, and Customers,
@@ -41,7 +47,7 @@ performance materials through 2035?
 - References (generated automatically)
 - Appendices: Data, Sources, Calculations, and Assumptions (A1 Definitions and evidence, A2 Reproducible scenario
   calculations, A3 Interpretation of existing sector estimates, A4 Information needed before investment).
-  The appendices are the only part that may change: add, merge or rename A sections only when the content requires it.
+  The appendix sections may also be added, merged or renamed when the content requires it (update data/toc.json).
 
 ## The team's analytical framework (chapter 3)
 The team built its own metal centred value chain framework with four dimensions:
