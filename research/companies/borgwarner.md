@@ -21,7 +21,7 @@ BorgWarner lists nickel among its raw materials with aluminum, copper, steel and
 1. Q3 2026: net sales USD 3,487 million, down 2.9%, adjusted operating margin 10.9%. Turbos & Thermal USD 1,372 million against 1,437 million [CO_BORGWARNER_GUIDE_2026].
 2. 2026 guidance: net sales USD 14.0 to 14.2 billion, weighted light vehicle market down 1% to 2%.
 3. Awards: three conquest turbocharger awards for gasoline platforms in South America and Europe, start 2027, plus an internal combustion pickup engine control award for 2029 (Q3 2026 release). This shows turbo content persists in hybrids and gasoline.
-4. Tariffs added about USD 108 million to cost of sales in 2025, with customer recoveries of about USD 80 million (10-K p. 40).
+4. Tariffs added about USD 108 million to cost of sales in 2025, with customer recoveries of about USD 80 million (10-K p. 41).
 5. Strategy: "technology focused product portfolio that supports electric, hybrid and combustion vehicles" (10-K p. 6). Commodity cost is passed through "wherever possible", with selective hedging (risk factors).
 
 ## Customers and suppliers

@@ -19,7 +19,8 @@ os.makedirs(CACHE, exist_ok=True)
 key = hashlib.sha1(a.url.encode()).hexdigest()[:16]
 raw = os.path.join(CACHE, key + ".bin")
 if not os.path.exists(raw):
-    req = urllib.request.Request(a.url, headers={"User-Agent": UA, "Accept": "*/*"})
+    ua = os.environ.get("RESEARCH_USER_AGENT", "metals-strategy-2035 research (TUM project study)") if "sec.gov" in a.url else UA
+    req = urllib.request.Request(a.url, headers={"User-Agent": ua, "Accept": "*/*"})
     try:
         with urllib.request.urlopen(req, timeout=120) as r, open(raw, "wb") as f:
             f.write(r.read())
