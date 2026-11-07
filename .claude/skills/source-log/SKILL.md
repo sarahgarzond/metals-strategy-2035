@@ -40,3 +40,8 @@ Rules:
 - Do not record the same metric twice. Update the row instead and keep the old value in notes.
 - Market report figures need at least one primary or secondary cross check before they reach the executive summary.
 - If two sources disagree, record both and state in notes which one is used and why.
+
+## Parallel agents
+When several agents run at the same time, do not edit data/sources.csv directly. Write your rows (same columns) to
+research/<folder>/<slug>.sources.csv instead. The main session merges them with `python3 tools/merge_sources.py`.
+The fetchers in tools/data/fetch.py lock the file themselves and may be run in parallel.

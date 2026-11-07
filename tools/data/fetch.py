@@ -18,7 +18,7 @@ Codes: UN M49 reporter codes (276 Germany, 842 USA, 156 China, 392 Japan, 410 Ko
 826 UK, 380 Italy, 360 Indonesia, 0 World). Not reachable automatically: UNIDO INDSTAT (bot protection) and
 www.iea.org (bot check), so the team downloads those by hand into data/raw/unido/ and data/raw/iea/.
 """
-import argparse, csv, datetime, io, json, os, re, sys, time, urllib.parse, urllib.request
+import argparse, csv, fcntl, datetime, io, json, os, re, sys, time, urllib.parse, urllib.request
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 RAW, CLEAN = os.path.join(ROOT, "data", "raw"), os.path.join(ROOT, "data", "clean")
@@ -92,6 +92,8 @@ def write_clean(name, rows, fields):
 
 def log_source(data_id, metric, source, author, title, url, notes, year=""):
     path = os.path.join(ROOT, "data", "sources.csv")
+    lock = open(path + ".lock", "w")
+    fcntl.flock(lock, fcntl.LOCK_EX)  # several agents may log at the same time
     rows = list(csv.DictReader(open(path, encoding="utf-8")))
     fields = list(rows[0].keys())
     row = {k: "" for k in fields}
@@ -103,6 +105,7 @@ def log_source(data_id, metric, source, author, title, url, notes, year=""):
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         w.writerows(rows)
+    fcntl.flock(lock, fcntl.LOCK_UN)
     print(f"  logged source {data_id}")
 
 
