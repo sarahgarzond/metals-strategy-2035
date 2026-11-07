@@ -19,7 +19,7 @@ os.makedirs(FIG, exist_ok=True)
 NAVY, TEAL, CYAN, GREEN, LIME, YELLOW, GREY, LIGHT = (
     "#26307A", "#1590B8", "#33B6D6", "#6DBE45", "#BFD630", "#F2E21C", "#6B7385", "#E8EEF4")
 plt.rcParams.update({
-    "font.family": "Inter", "font.size": 9, "axes.edgecolor": "#B8C0CC", "axes.labelcolor": NAVY,
+    "font.family": "Liberation Serif", "font.size": 9, "axes.edgecolor": "#B8C0CC", "axes.labelcolor": NAVY,
     "xtick.color": NAVY, "ytick.color": NAVY, "axes.spines.top": False, "axes.spines.right": False,
     "svg.fonttype": "none", "axes.titleweight": "bold", "axes.titlecolor": NAVY, "axes.titlesize": 10,
 })

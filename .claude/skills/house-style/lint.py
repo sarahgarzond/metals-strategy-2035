@@ -37,7 +37,7 @@ def lint_text(text):
             out.append((n, "em or en dash"))
         if re.search(r"\s-\s", s) and not is_table:
             out.append((n, "spaced hyphen used as a dash"))
-        if ";" in s and not s.startswith("<"):
+        if ";" in s and not s.startswith("<") and not is_table:
             out.append((n, "semicolon"))
         low = " " + re.sub(r"[^a-z' ]", " ", s.lower()) + " "
         for w in BANNED:

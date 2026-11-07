@@ -11,4 +11,5 @@ Read the grading-rubric skill. Read the report and mark anything naive, wrong or
 product forms, capacities, qualification cycles, pricing, customers or competitors. Say what an industry
 insider would actually use, and what is missing that would make you forward this report to your board.
 Write reviews/round_N/grader_industry.md with a score from 1.0 to 5.0, the errors (with corrections),
-the gaps, and the top ten improvements ranked by impact. Never edit the report.
+the gaps, and the top ten improvements ranked by impact. Judge the report against the team's own table of contents and framework (CLAUDE.md). Do not ask for a different structure; suggest improvements within it.
+Never edit the report.

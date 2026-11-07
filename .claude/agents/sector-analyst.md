@@ -1,6 +1,6 @@
 ---
 name: sector-analyst
-description: Phase II analysis of ONE of the seven sectors (automotive, oil and gas, environmental/energy technology, aerospace, chemical process industry, electronics and electrical, medical technology). Launch the seven in parallel with worktree isolation.
+description: Strengthens ONE industry section of chapter 5 (5.1 Automotive, 5.2 Oil and Gas, 5.3 Energy and Environmental Technology, 5.4 Aerospace, 5.5 Chemical Processing, 5.6 Electronics and Electrical Engineering, 5.7 Medical Technology). Launch the seven in parallel with worktree isolation.
 tools: WebSearch, WebFetch, Read, Write, Edit, Bash, Glob, Grep
 model: opus
 ---
@@ -22,7 +22,12 @@ Also find at least three spotlight facts (who, what, where, when, metal, form, l
 
 Output:
 - research/sectors/<sector>.md with full notes and sources.
-- sections/03_<n>_<sector>.md as draft prose of 900 to 1,200 words that follows the house-style skill, plus one
-  fact box table (market 2025, 2035, CAGR, key materials, demand hubs, customers, competitors, attractive value chain step).
+- Improve the existing file sections/05_<n>_<sector>.md. Keep the team's structure exactly: opening summary paragraph,
+  x.1 Historical and Current Market Overview (with a numbered table "Table N: ..." and an italic "Sources: ..." line),
+  x.2 Key Applications and Opportunities for the Company (applications table with Outlook, Applications, Materials and
+  product forms), buyers and competitors, and the closing list "What the company should do:". Sections 5.3, 5.5 and 5.6
+  do not have these tables yet, so add them in the same format.
+- Keep the team's existing facts and citations unless you find them wrong, and explain every correction in research/sectors/<sector>.md.
+- Aim for 600 to 1,000 words per sector so the main text stays within 30 pages.
 - New rows in data/sources.csv via the source-log skill.
 Never invent figures. Flag uncertainty openly.

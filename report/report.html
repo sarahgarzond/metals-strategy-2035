@@ -1,149 +1,650 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
-<title>Product Strategy 2035</title>
+<title>Forging the Future</title>
+<!-- Design copied from the team's Google Doc "my version munvest report": A4, 2.5 cm margins, Times New Roman 12,
+     justified, line spacing 1.5, page number top right from page 2, H1 bold, H2 and H3 regular. -->
 <style>
-:root{--navy:#26307A;--teal:#1590B8;--cyan:#33B6D6;--green:#6DBE45;--lime:#BFD630;--yellow:#F2E21C;--grey:#6B7385;--light:#EEF3F7}
 @page{size:A4}
-@page:first{margin:0}
 *{box-sizing:border-box}
-body{font-family:Inter,Arial,sans-serif;color:var(--navy);font-size:9.6pt;line-height:1.5;margin:0;text-align:justify;hyphens:none}
-.cover{height:297mm;width:214mm;margin:-18mm -20mm 0;position:relative;overflow:hidden;page-break-after:always;
-  background:linear-gradient(135deg,#0d1b4d 0%,#123a73 45%,#1590B8 100%);color:#fff}
-.cover:before{content:"";position:absolute;left:-10%;top:52%;width:130%;height:70%;background:#fff;transform:rotate(-8deg)}
-.cover .band{position:absolute;left:0;right:0;top:51%;height:7mm;transform:rotate(-8deg);transform-origin:left;
-  background:linear-gradient(90deg,var(--teal),var(--green),var(--yellow))}
-.cover .kicker{position:absolute;top:22mm;left:20mm;font-size:30pt;font-weight:800;letter-spacing:.5px}
-.cover h1{position:absolute;top:70mm;left:20mm;right:20mm;margin:0;font-size:30pt;line-height:1.15;font-weight:800;color:#fff;border:0}
-.cover h1 span{color:var(--yellow);display:block}
-.cover .meta{position:absolute;bottom:30mm;left:20mm;right:20mm;color:var(--navy);font-size:10.5pt}
-.cover .meta b{display:block;font-size:13pt;margin-bottom:2mm}
-h1{font-size:17pt;font-weight:800;margin:0 0 3mm;padding-bottom:2.5mm;page-break-before:always;
-  border-bottom:3px solid;border-image:linear-gradient(90deg,var(--teal),var(--green),var(--yellow)) 1;text-align:left}
-h2{font-size:12pt;font-weight:700;color:var(--teal);margin:5mm 0 2mm;text-align:left;page-break-after:avoid}
-h3{font-size:10pt;font-weight:700;margin:4mm 0 1.5mm;text-align:left;page-break-after:avoid}
-p{margin:0 0 2.6mm}
-table{width:100%;border-collapse:collapse;font-size:8pt;margin:2mm 0 4mm;text-align:left;page-break-inside:avoid}
-th{background:var(--navy);color:#fff;padding:1.6mm 2mm;font-weight:600}
-td{padding:1.4mm 2mm;border-bottom:1px solid #D5DCE4;vertical-align:top}
-tr:nth-child(even) td{background:var(--light)}
-img{width:100%;margin:1mm 0 0}
-p:has(> img){margin:0;text-align:center}
-p.source,.source{font-size:7.5pt;color:var(--grey);margin-top:0}
-.box{background:var(--light);border-left:5px solid;border-image:linear-gradient(180deg,var(--teal),var(--green),var(--yellow)) 1;
-  padding:3mm 4mm;margin:3mm 0;page-break-inside:avoid}
-.box h3{margin-top:0}
-.pb{page-break-after:always}
-.toc h1{page-break-before:avoid}
+html,body{margin:0;padding:0}
+body{font-family:"Times New Roman","Liberation Serif",Times,serif;font-size:12pt;line-height:1.5;color:#000;text-align:justify;hyphens:none}
+p{margin:0 0 6pt}
+/* title page */
+.title-page{page-break-after:always;text-align:center;line-height:1.05}
+.title-page .t1{font-weight:700;margin:120pt 0 10pt}
+.title-page .t2{font-weight:700;margin:0;padding-bottom:14pt;border-bottom:1pt solid #000}
+.title-page p{margin:0;line-height:1}
+.title-page .authors{margin-top:36pt;margin-bottom:4pt}
+.title-page .gap2{margin-bottom:2pt}.title-page .gap4{margin-bottom:4pt}.title-page .gap14{margin-bottom:14pt}
+.title-page .gap36{margin-bottom:36pt}.title-page .gap48{margin-bottom:48pt}
+/* table of contents */
+.toc{page-break-after:always}
+.toc .toc-title{font-weight:700;margin:0 0 24pt;text-align:left}
 .toc ol{list-style:none;padding:0;margin:0}
-.toc li{display:flex;align-items:baseline;margin:1.3mm 0;font-size:10pt}
-.toc li.l2{padding-left:7mm;font-size:9pt;color:var(--grey)}
-.toc li .t{flex:0 1 auto} .toc li .d{flex:1;border-bottom:1px dotted #B8C0CC;margin:0 2mm}
-.toc li .n{flex:0 0 auto;font-weight:600}
+.toc li{display:flex;align-items:baseline;margin:3pt 0 0;line-height:1;text-align:left}
+.toc li.l1{font-weight:700}
+.toc li.l2{padding-left:18pt}
+.toc li.gap{margin-top:18pt}
+.toc .t{flex:0 1 auto}.toc .d{flex:1;border-bottom:1.2pt dotted #000;margin:0 1pt;transform:translateY(-3pt)}.toc .n{flex:0 0 auto}
+/* headings */
+h1,h2,h3{font-size:12pt;margin:18pt 0 6pt;line-height:1.5;text-align:justify;page-break-after:avoid;break-after:avoid}
+h1{font-weight:700}
+h2,h3{font-weight:400}
+.appendix h2{font-weight:700;margin-top:12pt;line-height:1.15}
+h1 .num,h2 .num,h3 .num{display:inline-block;min-width:36pt}
+/* tables */
+p.caption{margin:0 0 4pt;page-break-after:avoid;break-after:avoid}
+table{width:100%;border-collapse:collapse;margin:0;page-break-inside:avoid;line-height:1.15;text-align:justify}
+th,td{border:1pt solid #000;padding:5pt;vertical-align:top;font-weight:400}
+th{background:#EDEDED;text-align:left}
+td p,th p{margin:2pt 0}
+p.source{margin:4pt 0 12pt}
+/* lists */
+ul{margin:0 0 6pt;padding-left:36pt}
+ul li{list-style:none;position:relative;margin:0 0 4pt}
+ul li:before{content:"\25CF";position:absolute;left:-18pt;font-size:9pt;top:2pt}
+img{max-width:100%;display:block;margin:6pt auto}
 .cite.bad{color:#C0392B;font-weight:700}
-/* APA 7 reference list, styled as in the team's reference document */
-.refs{font-family:"Times New Roman","Liberation Serif",Times,serif;font-size:12pt;line-height:2;color:#000;text-align:left}
-.refs p.ref{margin:0 0 4mm;padding:0}
-.refs i{font-style:italic}
+/* references: APA 7, as in the team's document */
+.refs p.ref{line-height:1.15;margin:18pt 0 6pt;padding-left:36pt;text-align:justify}
 .refs a{color:#1155CC;text-decoration:underline;overflow-wrap:anywhere}
+.pb{page-break-after:always}
 </style></head>
 <body>
-<section class="cover">
-  <div class="kicker">PROJECT STUDY</div>
-  <h1><span>Product Strategy 2035</span>Growth Strategy for High Performance Metals</h1>
-  <div class="band"></div>
-  <div class="meta"><b>Final report</b>Consulting team: Member 1, Member 2, Member 3, Member 4 &nbsp;|&nbsp; Technical University of Munich<br>November 2026</div>
+<section class="title-page">
+  <p class="t1">Forging the Future: Market Intelligence and Growth Strategy</p>
+  <p class="t2">for High-Performance Metals Through 2035</p>
+  <p class="authors">Olivia Calistus, Sarah Garzon Diaz and Juhee Kim</p>
+  <p class="gap2">Technical University of Munich · Campus Heilbronn</p>
+  <p class="gap36">TUM School of Management</p>
+  <p class="gap4">Münvest Project Studies</p>
+  <p class="gap2">Prof. Dr. Miriam Bird</p>
+  <p class="gap14">Professorship for Entrepreneurship and Family Enterprise</p>
+  <p class="gap2">Dr. Nicolas Seitz</p>
+  <p class="gap48">Münvest</p>
+  <p>6 December 2026</p>
 </section>
-<section class="toc"><h1>Table of contents</h1><ol><li class="l1"><span class="t">Executive summary</span><span class="d"></span><span class="n">3</span></li>
-<li class="l1"><span class="t">1 Introduction, central question and approach</span><span class="d"></span><span class="n">4</span></li>
-<li class="l1"><span class="t">2 Phase I: Global metals data foundation</span><span class="d"></span><span class="n">5</span></li>
-<li class="l2"><span class="t">2.1 Model architecture and sources</span><span class="d"></span><span class="n">5</span></li>
-<li class="l2"><span class="t">2.2 Nickel and nickel alloys</span><span class="d"></span><span class="n">5</span></li>
-<li class="l2"><span class="t">2.3 Cobalt alloys</span><span class="d"></span><span class="n">5</span></li>
-<li class="l2"><span class="t">2.4 Zirconium</span><span class="d"></span><span class="n">5</span></li>
-<li class="l2"><span class="t">2.5 Specialty stainless steels</span><span class="d"></span><span class="n">5</span></li>
-<li class="l2"><span class="t">2.6 Aluminium and copper products</span><span class="d"></span><span class="n">5</span></li>
-<li class="l2"><span class="t">2.7 Additive manufacturing powders and welding consumables</span><span class="d"></span><span class="n">5</span></li>
-<li class="l2"><span class="t">2.8 Prices and supply risk synthesis</span><span class="d"></span><span class="n">5</span></li>
-<li class="l1"><span class="t">3 Phase II: Sector analyses</span><span class="d"></span><span class="n">6</span></li>
-<li class="l2"><span class="t">3.1 Automotive</span><span class="d"></span><span class="n">6</span></li>
-<li class="l2"><span class="t">3.2 Oil and gas</span><span class="d"></span><span class="n">6</span></li>
-<li class="l2"><span class="t">3.3 Environmental and energy technology</span><span class="d"></span><span class="n">6</span></li>
-<li class="l2"><span class="t">3.4 Aerospace</span><span class="d"></span><span class="n">6</span></li>
-<li class="l2"><span class="t">3.5 Chemical process industry</span><span class="d"></span><span class="n">6</span></li>
-<li class="l2"><span class="t">3.6 Electronics and electrical engineering</span><span class="d"></span><span class="n">6</span></li>
-<li class="l2"><span class="t">3.7 Medical technology</span><span class="d"></span><span class="n">6</span></li>
-<li class="l2"><span class="t">3.8 Cross sector competitor map</span><span class="d"></span><span class="n">6</span></li>
-<li class="l1"><span class="t">4 Phase III: From market analysis to strategy</span><span class="d"></span><span class="n">7</span></li>
-<li class="l1"><span class="t">5 Conclusion</span><span class="d"></span><span class="n">8</span></li>
-<li class="l1"><span class="t">6 Appendix: assumptions and model documentation</span><span class="d"></span><span class="n">9</span></li></ol></section>
-<h1>Executive summary</h1>
-<!-- writer, written last, one page: answer first, then evidence, then actions -->
-
-<h1>1 Introduction, central question and approach</h1>
-<!-- writer: client profile, central question, three phase approach, data chain, sources policy -->
-
-<h1>2 Phase I: Global metals data foundation</h1>
-<!-- writer: bridge from approach to data -->
-
-<h2>2.1 Model architecture and sources</h2>
-<!-- data-modeler + writer -->
-
-<h2>2.2 Nickel and nickel alloys</h2>
-<!-- material-researcher nickel: eight dimensions -->
-
-<h2>2.3 Cobalt alloys</h2>
-<!-- material-researcher cobalt -->
-
-<h2>2.4 Zirconium</h2>
-<!-- material-researcher zirconium -->
-
-<h2>2.5 Specialty stainless steels</h2>
-<!-- material-researcher stainless -->
-
-<h2>2.6 Aluminium and copper products</h2>
-<!-- material-researcher aluminium and copper -->
-
-<h2>2.7 Additive manufacturing powders and welding consumables</h2>
-<!-- material-researcher powders and welding -->
-
-<h2>2.8 Prices and supply risk synthesis</h2>
-<!-- data-modeler figures f3 and f4 + writer -->
-
-<h1>3 Phase II: Sector analyses</h1>
-<!-- writer: bridge, figure f5 sectors, figure f6 regions -->
-
-<h2>3.1 Automotive</h2>
-<!-- sector-analyst automotive: nine questions + fact box + three spotlights -->
-
-<h2>3.2 Oil and gas</h2>
-<!-- sector-analyst oil and gas -->
-
-<h2>3.3 Environmental and energy technology</h2>
-<!-- sector-analyst energy and environment -->
-
-<h2>3.4 Aerospace</h2>
-<!-- sector-analyst aerospace -->
-
-<h2>3.5 Chemical process industry</h2>
-<!-- sector-analyst chemical -->
-
-<h2>3.6 Electronics and electrical engineering</h2>
-<!-- sector-analyst electronics -->
-
-<h2>3.7 Medical technology</h2>
-<!-- sector-analyst medical -->
-
-<h2>3.8 Cross sector competitor map</h2>
-<!-- strategist -->
-
-<h1>4 Phase III: From market analysis to strategy</h1>
-<!-- strategist: 4.1 matrix f7, 4.2 priorities, 4.3 initiatives, 4.4 roadmap f8 f10, 4.5 risks -->
-
-<h1>5 Conclusion</h1>
-<!-- writer -->
-
-<h1>6 Appendix: assumptions and model documentation</h1>
-<!-- data-modeler: assumptions table, method, scenario definitions -->
+<section class="toc"><p class="toc-title">Table of Contents</p><ol><li class="l1"><span class="t">1. Introduction</span><span class="d"></span><span class="n">3</span></li>
+<li class="l1"><span class="t">2. Report Objective and Scope</span><span class="d"></span><span class="n">3</span></li>
+<li class="l1"><span class="t">3. Introduction to the Analytical Framework and Methodology</span><span class="d"></span><span class="n">4</span></li>
+<li class="l1"><span class="t">4. Metal Markets: Production &amp; Form</span><span class="d"></span><span class="n">5</span></li>
+<li class="l2"><span class="t">4.1 Nickel</span><span class="d"></span><span class="n">5</span></li>
+<li class="l2"><span class="t">4.2 Cobalt</span><span class="d"></span><span class="n">5</span></li>
+<li class="l2"><span class="t">4.3 Chromium</span><span class="d"></span><span class="n">6</span></li>
+<li class="l2"><span class="t">4.4 Molybdenum</span><span class="d"></span><span class="n">6</span></li>
+<li class="l2"><span class="t">4.5 Titanium</span><span class="d"></span><span class="n">6</span></li>
+<li class="l2"><span class="t">4.6 Tungsten</span><span class="d"></span><span class="n">7</span></li>
+<li class="l2"><span class="t">4.7 Other Selected Metals</span><span class="d"></span><span class="n">7</span></li>
+<li class="l1"><span class="t">5. Industry Needs</span><span class="d"></span><span class="n">9</span></li>
+<li class="l2"><span class="t">5.1 Automotive</span><span class="d"></span><span class="n">9</span></li>
+<li class="l2"><span class="t">5.2 Oil and Gas</span><span class="d"></span><span class="n">10</span></li>
+<li class="l2"><span class="t">5.3 Energy and Environmental Technology</span><span class="d"></span><span class="n">12</span></li>
+<li class="l2"><span class="t">5.4 Aerospace</span><span class="d"></span><span class="n">13</span></li>
+<li class="l2"><span class="t">5.5 Chemical Processing</span><span class="d"></span><span class="n">15</span></li>
+<li class="l2"><span class="t">5.6 Electronics and Electrical Engineering</span><span class="d"></span><span class="n">16</span></li>
+<li class="l2"><span class="t">5.7 Medical Technology</span><span class="d"></span><span class="n">17</span></li>
+<li class="l1"><span class="t">6. Global Market Dynamics and Trade</span><span class="d"></span><span class="n">20</span></li>
+<li class="l1"><span class="t">7. Market Scenarios to 2035</span><span class="d"></span><span class="n">20</span></li>
+<li class="l2"><span class="t">7.1 Market Model and Scenario Assumptions</span><span class="d"></span><span class="n">21</span></li>
+<li class="l2"><span class="t">7.2 Results by Industry, Product, and Region</span><span class="d"></span><span class="n">21</span></li>
+<li class="l1"><span class="t">8. Strategic Recommendations</span><span class="d"></span><span class="n">21</span></li>
+<li class="l2"><span class="t">8.1 Priority Products, Industries, Regions, and Customers</span><span class="d"></span><span class="n">22</span></li>
+<li class="l2"><span class="t">8.2 Recommended Actions and Implementation Roadmap</span><span class="d"></span><span class="n">22</span></li>
+<li class="l1"><span class="t">9. Conclusion</span><span class="d"></span><span class="n">22</span></li>
+<li class="l1 gap"><span class="t">References</span><span class="d"></span><span class="n">23</span></li>
+<li class="l1"><span class="t">Appendices: Data, Sources, Calculations, and Assumptions</span><span class="d"></span><span class="n">30</span></li>
+<li class="l2"><span class="t">A1 Definitions and evidence</span><span class="d"></span><span class="n">30</span></li>
+<li class="l2"><span class="t">A2 Reproducible scenario calculations</span><span class="d"></span><span class="n">30</span></li>
+<li class="l2"><span class="t">A3 Interpretation of existing sector estimates</span><span class="d"></span><span class="n">30</span></li>
+<li class="l2"><span class="t">A4 Information needed before investment</span><span class="d"></span><span class="n">31</span></li></ol></section>
+<h1><span class="num">1.</span>Introduction</h1>
+<p>For centuries, metals have been among the essential materials on which human societies are built, enabling the construction of cities, transport systems, power networks, machinery and technologies that support modern economies. Their uses have expanded with each wave of industrial development, and today they remain central to established industries as well as emerging technologies. This enduring role is reflected in the sector’s economic scale: according to McKinsey &amp; Company’s Global Materials Perspective, the global metals and mining industry generated approximately US$3.3 trillion in revenue in 2023, US$3.0 trillion in 2024 and US$3.1 trillion in 2025</p>
+<p>Within this broad market, high-performance alloys serve applications where ordinary materials may not meet the required operating conditions. These engineered materials combine metals such as nickel, cobalt, titanium, iron and chromium to provide properties such as strength at high temperatures, corrosion resistance, oxidation resistance or reliable performance under pressure. Nickel- and cobalt-based superalloys, titanium alloys and corrosion-resistant specialty steels are examples. Demand comes from aerospace and defence, power generation, chemical processing, oil and gas, medical technology and other industries with demanding technical requirements. The production and availability of metals including nickel, cobalt, chromium, molybdenum, titanium, tungsten, zirconium, copper, aluminium and manganese therefore provide important context for understanding this specialist market.</p>
+<p>The outlook for high-performance alloys to 2035 is positive, although growth is likely to differ across alloy types and applications. One market estimate places the segment at US$13.6 billion in 2025 and projects it to reach US$19.0 billion by 2034, while broader industry analysis points to continued demand from aerospace, defence, energy and other industrial uses. This growth will depend on the pace of investment and technology adoption, as well as the cost and availability of alloying metals. The strongest prospects are likely to be in applications where a particular combination of material properties, reliability and qualification requirements creates lasting value for customers.</p>
+<h1><span class="num">2.</span>Report Objective and Scope</h1>
+<p>The objective is to identify where changes in metal supply, trade and industrial demand create commercially relevant opportunities for Münvest through 2035. The central research question is: How do the production, availability, trade and industrial uses of selected metals shape opportunities in high-performance materials?</p>
+<p>The report covers ten named metals and a residual category for other materials. Its industrial scope comprises automotive, oil and gas, energy and environmental technology, aerospace, chemical processing, electronics and electrical engineering, and medical technology. The metal chapters provide market context; the industry chapters retain the existing application analysis and supporting evidence. VDM Metals’ published portfolio serves as an application benchmark, not as proof of Münvest’s own production capability, customer relationships or market share.</p>
+<p>The analysis combines the report’s existing industry and company sources with official mineral information. Observation years are retained explicitly. Global metal production, alloy melting output, finished-product shipments and industry revenue have different boundaries and are not interchangeable measures of market size. No aggregate addressable-market value is asserted where comparable data are unavailable.</p>
+<p>The scenarios are sensitivities for relevant application demand, not forecasts of metal prices, company revenue or investment returns. Internal sales, margins, approvals, capacity and customer information are required before converting market findings into a company business plan.</p>
+<h1><span class="num">3.</span>Introduction to the Analytical Framework and Methodology</h1>
+<p>The report uses a project-specific, metal-centred value chain framework organised around Supply, Trade, Demand and Outlook. The framework first examines the material available to industry, then its movement between markets, its industrial applications and its possible future development. It combines value chain reasoning with supply–demand analysis; it is an organising framework developed for this study, not a separately validated academic model.</p>
+<p>Supply is assessed metal by metal in Chapter 4 through commercial forms, production stages, producer structure, availability and relevant price measures. Trade is assessed in Chapter 6 through product classifications, exporting and importing markets, and sourcing dependence. Demand is examined industry by industry in Chapter 5, linking demand drivers to components, materials, delivery forms and buyers. Outlook is assessed in Chapter 7 through explicit scenarios to 2035. Recommendations integrate the four dimensions and test their relevance to Münvest.</p>
+<p>The sequence is deliberately metal first and industry second. It allows a reader to understand a material’s supply conditions before assessing the applications that consume it. Prices are interpreted within each metal market because different benchmarks represent different products and quality levels. A commodity benchmark does not directly measure the selling price or profitability of a qualified alloy product.</p>
+<p>Sources are evaluated for their geographic coverage, observation period, unit and production stage. The USGS Mineral Commodity Summaries provides an official reference for commodity definitions and production statistics, while company disclosures and the existing sector sources support application and competitive analysis (USGS, 2026a). Sources are not assumed to be comparable merely because they refer to the same metal.</p>
+<p>Quantitative comparisons require a common basis: contained-metal versus gross shipment weight; mine versus refined production; primary versus secondary production; actual output versus capacity; and total asset output versus ownership-attributable output. Missing observations remain missing. Geographic concentration should be calculated separately for extraction and processing, and global surplus claims require compatible supply, consumption and inventory series.</p>
+<p>Coverage is uneven. The existing research supports a deeper commercial discussion of nickel- and cobalt-based alloys and selected corrosion-resistant materials than of every metal in the expanded scope. The additional profiles therefore identify material-specific distinctions and analytical implications without inventing production totals, market shares or historical price series. The atlas should expose these coverage limits. The industry text is retained as supplied; its individual claims have not been independently revalidated as part of this restructuring.</p>
+<h1><span class="num">4.</span>Metal Markets: Production &amp; Form</h1>
+<p>Each profile distinguishes the physical metal market from the qualified products used downstream. The focus is on what a reported production or price figure represents and how it informs sourcing and commercial assessment. Country rankings and quantitative time series should be presented only where a dated, reproducible dataset is available.</p>
+<h2><span class="num">4.1</span>Nickel</h2>
+<p>Nickel provides the strongest connection between the upstream market and the report’s high-performance alloy applications. The existing evidence records global mined nickel output rising from approximately 3.6 million tonnes in 2023 to 3.9 million tonnes in 2024, with Indonesia accounting for more than 60% of 2024 production (IEA, 2025b). These are mine-production figures expressed as nickel content, not shipments of finished nickel alloys.</p>
+<p>The existing USGS reference reports a 21% decline in the annual average LME nickel cash price in 2024 relative to 2023 (USGS, 2025). This observation describes a benchmark and a historical period; it does not establish current alloy prices or margins. For Münvest, the relevant comparison is between feedstock availability and qualified demand for bar, sheet, plate, tube, wire and other supported forms. Conversion costs, alloy composition, testing and approvals separate those markets from the commodity benchmark.</p>
+<h2><span class="num">4.2</span>Cobalt</h2>
+<p>Cobalt is relevant to the aerospace, energy and medical applications discussed in the industry chapters. Those applications must be separated from other cobalt-consuming markets when defining commercial opportunity. Mine production, refined cobalt, chemical intermediates, metal and finished alloys require separate observations and cannot be combined into a single supply measure.</p>
+<p>The existing report’s cobalt sources support an application-specific assessment rather than an undifferentiated demand forecast (Cobalt Institute, 2026; USGS, 2026). Procurement analysis should identify the actual grade, form, origin and qualification required. No current global balance or price forecast is claimed here: demand growth in one end use does not establish availability for a different product or imply that prices will move in the same direction.</p>
+<h2><span class="num">4.3</span>Chromium</h2>
+<p>Chromium is considered in relation to the stainless and specialty-alloy applications already covered by the report. The supply assessment must distinguish chromite ore, ferrochromium and chromium metal from finished stainless and high-performance alloy products. Ore tonnage is not equivalent to chromium content or usable alloy feedstock.</p>
+<p>A useful market comparison therefore follows the required commercial form through extraction, conversion and alloy production. Pricing should identify the product specification and delivery basis rather than present one generic chromium price. The existing evidence does not establish a consistent country-production series or a product-specific price history for this expanded profile; neither is estimated from the size of the stainless-steel market.</p>
+<h2><span class="num">4.4</span>Molybdenum</h2>
+<p>Molybdenum links specialty-alloy demand to both primary molybdenum mining and recovery associated with copper production. USGS estimates world mine output at approximately 260,000 tonnes in 2025 and identifies China, Chile, the United States, Peru and Mexico as accounting for about 90% of production. The estimate concerns molybdenum mine production, not finished alloy shipments (USGS, 2026a).</p>
+<p>This production structure makes the distinction between dedicated supply and byproduct recovery commercially important. The price measure must also specify whether it represents molybdic oxide, ferromolybdenum or another form. USGS reports a decrease in the estimated average U.S. molybdic oxide price in 2025; that national product benchmark should not be presented as the realised price of every molybdenum-bearing alloy (USGS, 2026a).</p>
+<h2><span class="num">4.5</span>Titanium</h2>
+<p>Titanium requires a particularly clear separation between mineral feedstocks, titanium dioxide pigment and titanium metal. USGS identifies titanium dioxide as the predominant outlet for titanium, while the metal’s strength-to-weight ratio and corrosion resistance support applications including aerospace and implants (USGS, n.d.-a). Consequently, mineral or pigment production cannot be treated as the supply of aerospace-grade titanium products.</p>
+<p>The relevant downstream analysis follows the metal route through sponge, melting and qualified product forms. Supply and price comparisons must retain the grade and stage of processing. For this report, titanium provides an additional material context for the preserved aerospace and medical discussions; a quantified Münvest opportunity requires evidence of product capability and customer qualification.</p>
+<h2><span class="num">4.6</span>Tungsten</h2>
+<p>Tungsten’s largest use is in tungsten carbide for cemented carbides, with further applications in specialty alloys, electrical components and wear-resistant products (USGS, n.d.-b). These outlets differ materially from each other in processing requirements and buyer structure.</p>
+<p>A supply assessment should separate concentrates, intermediate compounds, metal powder, carbide and finished products. Prices must identify the specific product rather than apply one quotation to the whole chain. The implication for Münvest is to define the relevant alloy or product opportunity before interpreting broad tungsten-market developments. A production ranking, current market balance and price time series are not asserted without a verified dataset.</p>
+<h2><span class="num">4.7</span>Other Selected Metals</h2>
+<h3><span class="num">4.7.1</span>Zirconium</h3>
+<p>Zirconium illustrates why mineral output and specialty-metal supply must be kept separate. USGS identifies zircon as the principal economic mineral source and describes major zircon uses in ceramics, refractories and foundry applications. Zirconium metal has distinct applications in chemical equipment, heat exchangers and nuclear fuel cladding (USGS, n.d.-c).</p>
+<p>The market relevant to corrosion-resistant chemical equipment therefore cannot be inferred directly from total zircon production or ceramic demand. Grade, processing route and qualification determine whether material can serve a particular application. The existing VDM portfolio reference supports the commercial relevance of zirconium-based solutions, but does not establish Münvest’s capabilities or justify a single market-wide price assumption (VDM Metals, n.d.-f).</p>
+<h3><span class="num">4.7.2</span>Copper</h3>
+<p>Copper broadens the report’s connection to electrical infrastructure and industrial investment. Its profile separates mine production, smelting, refining and recycled material. Production at one stage cannot simply be added to output at another stage, because the same material may pass through several reporting categories.</p>
+<p>For market analysis, refined-metal benchmarks must be distinguished from premiums and conversion charges for particular delivered products. Electrical infrastructure and component demand provide useful context for Chapter 6, but the report does not assume that broad copper-market growth translates into demand for Münvest’s current portfolio. A commercial assessment requires an identified product, customer and route to supply.</p>
+<h3><span class="num">4.7.3</span>Aluminium</h3>
+<p>Aluminium is included as a major industrial material and a comparison point for transport, electrical and manufacturing applications. USGS emphasises both its widespread industrial use and the importance of secondary production (USGS, n.d.-d). Bauxite, alumina, primary aluminium and recycled aluminium are separate stages or supply routes, not additive measures of metal output.</p>
+<p>Price analysis should distinguish a primary-metal benchmark from regional premiums, alloy adjustments and conversion charges. The comparison with specialty metals is useful where customers choose between alternative material systems, but substitution depends on engineering requirements. The report does not treat aluminium demand as a proxy for demand for high-performance nickel or cobalt alloys.</p>
+<h3><span class="num">4.7.4</span>Manganese</h3>
+<p>Manganese is used extensively in iron and steel production through its alloying, deoxidising and sulfur-fixing functions; it also has uses in other alloys and batteries (USGS, n.d.-e). These applications require different commercial forms and quality levels.</p>
+<p>A consistent supply assessment separates ore, manganese content, ferroalloys and specialised chemical products. Ore and ferroalloy prices should not be presented as interchangeable with prices for battery-related chemicals. For Münvest, the analytical task is to establish which grades and applications overlap with its intended business before drawing conclusions from aggregate demand. The expanded scope does not itself establish a quantified market position.</p>
+<h3><span class="num">4.7.5</span>Additional Metals</h3>
+<p>Other metals may be included where a specific application, sourcing dependency or customer requirement makes them relevant. This category should remain an explicitly scoped extension rather than a residual total that combines incomparable materials. Iron and steel provide important context for several selected metals, but finished steel and stainless steel must not be added to the output of their alloying constituents as though they were independent volumes of the same market.</p>
+<p>Across the profiles, company comparisons require the same discipline. The existing report identifies ATI, Carpenter Technology, Special Metals, Alleima and Aperam Alloys as relevant to particular application and product segments. Their total revenues measure different businesses and do not establish directly comparable market shares. VDM and Haynes must be considered within the Acerinox group structure to avoid double counting (Acerinox, 2025).</p>
+<h1><span class="num">5.</span>Industry Needs</h1>
+<p>The following seven industry blocks retain the report’s existing analysis, tables and citations. They examine demand through the chain from industry driver to component, material, delivery form and buyer. Their role in the revised framework is to explain how the metals introduced in Chapter 4 become commercially relevant applications.</p>
+<p>Industry revenue indicates economic activity, not addressable alloy demand. Potential customers remain prospects unless a relationship is documented. To limit overlap in the scenario model, electrolysers and fuel cells are assigned to energy, process vessels to chemicals, and sensors and magnetic components to electronics. The preserved industry evidence is then brought together in Chapter 7’s application-demand scenarios.</p>
+<h2><span class="num">5.1</span>Automotive</h2>
+<p>Automotive is a shrinking market for the company. Most of its car alloys go into engine and exhaust parts. By 2035, about half of new cars will be electric, so fewer cars need these parts. The one growing area is magnetic alloys for sensors in electric cars.</p>
+<h3><span class="num">5.1.1</span>Historical and Current Market Overview</h3>
+<p>In 2025, the world built 96.4 million vehicles and sold 77.6 million cars. China alone built 36% of all vehicles (OICA, 2026; ACEA, 2026).</p>
+<p>About a quarter of new cars sold in 2025 were electric. The IEA expects about half by 2035, and more than 90% in China and Europe (IEA, 2026a). As a result, the number of cars without a plug falls by about a quarter (Table 1).</p>
+<p class="caption">Table 1: Car sales, 2025 and 2035</p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>2025</th>
+<th>2035</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cars sold (million)</td>
+<td>77.6</td>
+<td>85.7</td>
+<td>+10%</td>
+</tr>
+<tr>
+<td>Share electric</td>
+<td>about 25%</td>
+<td>about 50%</td>
+<td>+25 points</td>
+</tr>
+<tr>
+<td>Cars without a plug (million)</td>
+<td>58.2</td>
+<td>42.9</td>
+<td>-26%</td>
+</tr>
+</tbody>
+</table>
+<p class="source"><em>Sources: ACEA (2026), IEA (2026a). 2035 values are our estimate, assuming car sales grow 1% a year.</em></p>
+<p>In October 2026, two EU Parliament committees voted to soften the 2035 rule for new cars. If the full Parliament agrees in December, some petrol and hybrid cars could still be sold after 2035 (electrive, 2026).</p>
+<h3><span class="num">5.1.2</span>Key Applications and Opportunities for the Company</h3>
+<p>The company sells nickel alloys, stainless steel and catalyst foil to car parts makers. Eight of its eleven car applications depend on the engine (Table 2).</p>
+<p class="caption">Table 2: The company's car applications, outlook to 2035</p>
+<table>
+<thead>
+<tr>
+<th>Outlook</th>
+<th>Applications</th>
+<th>Materials</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grows</td>
+<td>Sensors and magnetic shielding in electric cars</td>
+<td>Nickel-iron alloys</td>
+</tr>
+<tr>
+<td>Stable</td>
+<td>Airbag parts; catalyst foil</td>
+<td>Nickel alloys; iron-chromium-aluminium foil</td>
+</tr>
+<tr>
+<td>Falls</td>
+<td>Spark and glow plugs, valves, fuel injectors, turbocharger parts, exhaust parts and sensors</td>
+<td>Nickel alloys; heat-resistant stainless steel</td>
+</tr>
+</tbody>
+</table>
+<p class="source"><em>Source: VDM Metals (n.d.-a). The outlook is our assessment.</em></p>
+<p>Turbochargers are the most important of these. About 50 million were built in 2025, and newer designs use more alloy per unit, which slows the decline (Garrett Motion, 2026).</p>
+<p>The main buyers are Garrett Motion, BorgWarner, Niterra, Eberspächer and Autoliv (Autoliv, 2026; BorgWarner, 2026; Eberspächer, 2026; Niterra, n.d.). The main competitors are Special Metals, Carpenter Technology and Aperam (Aperam, n.d.; Carpenter Technology, 2026; Special Metals, n.d.).</p>
+<p>What the company should do:</p>
+<ul>
+<li>Keep supplying turbocharger, exhaust and sensor makers while petrol cars are still sold, especially in North America.</li>
+<li>Grow sales of magnetic alloys for sensors in electric cars.</li>
+<li>Avoid diesel-only parts, such as glow plugs, which fall fastest.</li>
+</ul>
+<h2><span class="num">5.2</span>Oil and Gas</h2>
+<p>Oil and gas is a stable market for the company. Spending stays about the same to 2035, but it moves from oil to gas. The company's alloys are approved for sour gas, which few suppliers can offer.</p>
+<h3><span class="num">5.2.1</span>Historical and Current Market Overview</h3>
+<p>Oil and gas companies spent about USD 570 billion on new wells and fields in 2025 (Energy Intelligence, 2025). Gas spending is at a ten-year high, while oil spending has fallen for three years in a row (IEA, 2026b).</p>
+<p>By 2035, spending stays near today's level in the IEA base case, or rises to about USD 670 billion in its high case (Table 3).</p>
+<p class="caption">Table 3: Oil and gas market, today and in 2035</p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Today</th>
+<th>2035</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spending on new wells and fields</td>
+<td>USD 570 bn (2025)</td>
+<td>USD 570 bn (base case) to USD 670 bn (high case)</td>
+</tr>
+<tr>
+<td>Oil demand</td>
+<td>103 mb/d (2025)</td>
+<td>Peaks around 2030 (base case)</td>
+</tr>
+<tr>
+<td>LNG trade</td>
+<td>560 bcm (2024)</td>
+<td>880 bcm (high case)</td>
+</tr>
+</tbody>
+</table>
+<p class="source"><em>Sources: Energy Institute (2026), Energy Intelligence (2025), IEA (2025a). Base case = IEA Stated Policies; high case = IEA Current Policies.</em></p>
+<p>Growth is strongest in Africa and South America. The Middle East is slowing, partly because of damage to gas plants in Qatar (S&amp;P Global Commodity Insights, 2026; Oil &amp; Gas Journal, 2026).</p>
+<h3><span class="num">5.2.2</span>Key Applications and Opportunities for the Company</h3>
+<p>The company sells nickel alloys for wells and pipes that carry corrosive gas. Eleven of its alloys are approved for sour gas, which keeps many competitors out (VDM Metals, n.d.-b).</p>
+<p class="caption">Table 4: The company's oil and gas applications, outlook to 2035</p>
+<table>
+<thead>
+<tr>
+<th>Outlook</th>
+<th>Applications</th>
+<th>Product forms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grows</td>
+<td>Lined pipes (welding wire and strip); subsea tubes</td>
+<td>Wire, strip, tubes</td>
+</tr>
+<tr>
+<td>Stable</td>
+<td>Well tools; pipes, flanges and fittings; well casing</td>
+<td>Bar, plate, billets</td>
+</tr>
+</tbody>
+</table>
+<p class="source"><em>Source: VDM Metals (n.d.-b). The outlook is our assessment.</em></p>
+<p>The main buyers are SLB, TechnipFMC and BUTTING (BUTTING, n.d.; SLB, 2026; TechnipFMC, 2026). The main competitors are Special Metals, Alleima and Nippon Steel (Alleima, 2026; Nippon Steel &amp; Sumitomo Metal, 2015; Special Metals, n.d.).</p>
+<p>Two trends lower the amount of alloy per project: thinner alloy layers inside pipes, and cheaper stainless steel in some subsea tubes (BUTTING, n.d.).</p>
+<p>What the company should do:</p>
+<ul>
+<li>Focus on gas and offshore projects in the Americas and Africa.</li>
+<li>Sell more welding wire for lined pipes and bar for well tools, where the sour-gas approval protects prices.</li>
+<li>Work with pipe makers on thinner linings, so the company still supplies the alloy.</li>
+</ul>
+<h2><span class="num">5.3</span>Energy and Environmental Technology</h2>
+<p>Energy and environmental technology offers selective growth in electrolysis, fuel cells and equipment exposed to heat or corrosive media. The opportunity is component-specific. Growth in solar panels, wind capacity or electricity consumption cannot be applied directly to nickel-alloy demand.</p>
+<p>Prioritise repeatable orders and replacement demand in established equipment. Use small qualification programmes for emerging technologies, and release larger spending only when customers demonstrate financing, technical acceptance and firm demand.</p>
+<h3><span class="num">5.3.1</span>Historical and Current Market Overview</h3>
+<p>Global electricity demand increased 4.3% in 2024, compared with 2.5% in 2023. The IEA’s Electricity 2025 outlook projected about 3.9% annual growth over 2025–2027, with developing economies accounting for roughly 85% of the increase (IEA, 2025d, 2025e). These are demand indicators, not a forecast of specialty-alloy tonnage.</p>
+<p>Hydrogen illustrates the gap between activity and bankable orders. Global demand exceeded 100 Mt in 2025, but low-emissions output was only about 1 Mt. The announced 2030 pipeline fell to 27 Mt in the 2026 review; committed projects and those with strong potential represented just over 6 Mt. Installed electrolysis capacity exceeded 4 GW in 2025 (IEA, 2026c). Use project status, not announced capacity alone, to qualify opportunities.</p>
+<h3><span class="num">5.3.2</span>Key Applications and Opportunities for the Company</h3>
+<p>The portfolio benchmark identifies Nickel 201 strip for alkaline-electrolyser cathodes and Crofer 22 grades for solid-oxide fuel-cell and electrolyser interconnects. High-temperature alloys serve process equipment; corrosion-resistant products serve environmental treatment (VDM Metals, n.d.-e). These routes require different specifications and should be developed separately.</p>
+<p>Target electrolyser stack makers, fuel-cell component suppliers and specialist equipment fabricators. Start in Europe where technical collaboration is practical; evaluate Asian opportunities against local pricing and qualification costs. Compete on verified component life, forming and joining performance, delivery reliability and scrap recovery. Do not extrapolate one electrolyser design’s nickel requirement to all technologies. This is our commercial assessment, conditional on the client’s capabilities.</p>
+<h2><span class="num">5.4</span>Aerospace</h2>
+<p>Aerospace is the company's strongest growth market. The commercial fleet grows about 3.4% a year to 2035, engine output rose by about a quarter in 2025, and engine makers still report parts shortages. Nickel and cobalt superalloys for jet engines are the core products; ceramic parts in the hottest engine sections are the main long-term risk.</p>
+<h3><span class="num">5.4.1</span>Historical and Current Market Overview</h3>
+<p>Airbus and Boeing delivered 1,393 commercial aircraft in 2025, 793 and 600 respectively (Airbus, 2026a; Boeing, 2026a). Airbus expects the global fleet to grow from about 23,300 aircraft at the end of 2025 to 45,550 in 2045, which requires 42,060 new aircraft; on this path the fleet reaches about 32,600 aircraft in 2035, or 3.4% a year (Airbus, 2026b). Boeing expects 43,625 new aircraft over the same period (Boeing, 2026b). New-generation aircraft rise from about 39% of the fleet today to almost 100% in 2045, so replacing old aircraft adds to growth.</p>
+<p>Engine production is growing faster than aircraft deliveries. Safran delivered a record 1,802 LEAP engines in 2025, up 28%, and GE Aerospace's engine deliveries rose 25% (GE Aerospace, 2026; Safran, 2026). Supply is still tight: Rolls-Royce reports that parts availability remains constrained (Rolls-Royce, 2026). Defence adds demand, as world military spending reached a record USD 2,887 billion in 2025, with Europe up 14% (SIPRI, 2026).</p>
+<p class="caption">Table 5: Aerospace market, today and in 2035</p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Today</th>
+<th>2035</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Commercial aircraft in service</td>
+<td>23,300 (2025)</td>
+<td>about 32,600</td>
+<td>+3.4% a year</td>
+</tr>
+<tr>
+<td>Cobalt used in aviation</td>
+<td>11,499 t (2025)</td>
+<td>about 16,100 t</td>
+<td>+3.4% a year</td>
+</tr>
+<tr>
+<td>LEAP engines delivered (Safran)</td>
+<td>1,802 (2025)</td>
+<td>n/a</td>
+<td>+28% in 2025</td>
+</tr>
+<tr>
+<td>World military spending</td>
+<td>USD 2,887 bn (2025)</td>
+<td>n/a</td>
+<td>Europe +14% in 2025</td>
+</tr>
+<tr>
+<td>Aviation services market</td>
+<td>n/a</td>
+<td>over USD 420 bn by 2045</td>
+<td>+3.8% a year to 2045</td>
+</tr>
+</tbody>
+</table>
+<p class="source"><em>Sources: Airbus (2026b, 2026c), Cobalt Institute (2026), Safran (2026), SIPRI (2026). 2035 values are our estimate: the fleet is interpolated between the Airbus 2025 and 2045 figures, and cobalt use grows with the fleet.</em></p>
+<p>Aviation used 11,499 tonnes of cobalt in 2025, 72% of it in commercial aircraft (Cobalt Institute, 2026), and 51% of US cobalt use goes into superalloys, mainly for jet engines (U.S. Geological Survey, 2026). No official source publishes nickel use in aerospace, so cobalt is used as the measurable indicator. Cobalt supply is concentrated: the Democratic Republic of the Congo mines 73% of the world's cobalt and limits exports with quotas (U.S. Geological Survey, 2026), while the nickel market is expected to stay in a small surplus in 2026 and 2027 (International Nickel Study Group, 2026).</p>
+<p>Production is concentrated in Europe and North America. The largest exporters of jet engines and gas turbines in 2024 were the United Kingdom (USD 39.8 billion), France (USD 22.0 billion), Singapore (USD 19.7 billion) and the United States (USD 14.1 billion) (United Nations Statistics Division, 2026). In Asia, Japan's aerospace industry produced about USD 13.5 billion in fiscal year 2024, mostly engine and airframe parts for Western programmes (Society of Japanese Aerospace Companies, 2025).</p>
+<h3><span class="num">5.4.2</span>Key Applications and Opportunities for the Company</h3>
+<p>The company sells nickel superalloy bar and cobalt alloy sheet for engine hot-section parts such as blades, discs and combustors, and welding wire for engine repair. Table 6 shows these applications.</p>
+<p class="caption">Table 6: The company's aerospace applications, outlook to 2035</p>
+<table>
+<thead>
+<tr>
+<th>Outlook</th>
+<th>Applications</th>
+<th>Materials and product forms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grows</td>
+<td>Engine hot-section parts for civil and military engines; engine parts made in Japan</td>
+<td>Nickel alloy bar</td>
+</tr>
+<tr>
+<td>Grows</td>
+<td>Engine repair and overhaul</td>
+<td>Welding wire</td>
+</tr>
+<tr>
+<td>Grows</td>
+<td>3D-printed engine parts</td>
+<td>Alloy powders</td>
+</tr>
+<tr>
+<td>Stable</td>
+<td>Engine hot-section and wear parts, where nickel alloys and ceramics can replace cobalt</td>
+<td>Cobalt alloy sheet and plate</td>
+</tr>
+</tbody>
+</table>
+<p class="source"><em>Sources: Airbus (2026b, 2026c), NASA Glenn Research Center (2016, 2022), U.S. Geological Survey (2026). The outlook is our assessment.</em></p>
+<p>The direct buyers of superalloys are engine makers rather than aircraft makers: GE Aerospace, Safran and Rolls-Royce (GE Aerospace, 2026; Rolls-Royce, 2026; Safran, 2026). The main competitors depend heavily on aerospace: ATI earns about 68% of its USD 4.6 billion sales in aerospace and defence and Carpenter Technology 65%, and both supply the same engine makers, while Japan's Daido Steel forges engine shafts approved by the four major engine makers (ATI, 2026a; Carpenter Technology, 2026; Daido Steel, n.d.).</p>
+<p>Margins are highest in engine services and in premium alloys and forgings. GE's Commercial Engines &amp; Services earned a 26.6% operating margin with 76% of revenue from services, and Safran's propulsion business 23.0%, with services up 20% (GE Aerospace, 2026; Safran, 2026). Carpenter's specialty alloys reached a 27.7% operating margin and ATI's forgings and components a 23.6% EBITDA margin, while ATI's standard alloy products earned 16.3% (ATI, 2026b; Carpenter Technology, 2026b). Airbus expects the aviation services market to more than double to over USD 420 billion by 2045, with off-wing maintenance at USD 217 billion (Airbus, 2026c).</p>
+<p>Two technologies will change demand. 3D-printed high-temperature alloys such as NASA's GRX-810 last more than 1,000 times longer under stress at 2,000°F than current alloys, which creates demand for alloy powders (NASA Glenn Research Center, 2022). Ceramic matrix composites, which withstand up to 2,700°F, could replace nickel superalloys in the hottest engine parts (NASA Glenn Research Center, 2016).</p>
+<p>What the company should do:</p>
+<ul>
+<li>Sell nickel superalloy bar and sheet to engine makers, starting with Safran as the closest European customer, while LEAP production grows.</li>
+<li>Use the current parts shortages to get approved as an additional supplier; approval takes years, so it should start now.</li>
+<li>Grow welding wire and repair alloys for the expanding aftermarket.</li>
+<li>Develop powders for 3D-printed engine parts, and track ceramic composites as a substitution risk.</li>
+<li>Buy cobalt from more than one region to reduce the supply risk from the Congo.</li>
+</ul>
+<h2><span class="num">5.5</span>Chemical Processing</h2>
+<p>Chemical processing is a core market for corrosion-resistant materials, but growth in chemical sales does not automatically create new equipment orders. Replacement cycles, operating severity and plant investment determine demand for alloy plate, strip, bar and welding consumables.</p>
+<p>The strongest opportunity is equipment where longer service life offsets a higher material price. Maintain access to European replacement demand and qualify export projects through equipment makers; avoid broad exposure to commodity plant expansion without evidence of funding and competitive material selection.</p>
+<h3><span class="num">5.5.1</span>Historical and Current Market Overview</h3>
+<p>Cefic reports EU chemical sales of about EUR 635 billion in 2024. The EU share of global chemical sales declined from 21% in 2009 to 13% in 2024, while China’s rose from 24% to 46%. Global chemical sales in 2024 were 3.6 times their 2004 level in nominal terms (Cefic, 2025). These figures describe chemicals, not process equipment or alloy demand, and include price effects.</p>
+<p>Near-term conditions remain uneven. Acerinox’s 2025 results identify a slowdown in chemical processing (Acerinox, 2026a). European market weakness supports a cautious approach to new-build demand, while the installed base still requires maintenance. Regional sales shares should guide prospecting, not determine a regional alloy-demand forecast.</p>
+<h3><span class="num">5.5.2</span>Key Applications and Opportunities for the Company</h3>
+<p>The benchmark portfolio covers Nickel 200, Alloy 59, C-276, 625, 602 CA and zirconium-based solutions for demanding process conditions. Applications include acid and caustic service, heat exchangers, vessels, pumps, valves and industrial furnaces (VDM Metals, n.d.-f). Grade selection must follow the actual medium, concentration, temperature and welding requirements.</p>
+<p>Prioritise corrosion-resistant plate and welding consumables for replacement equipment, then high-temperature products for furnace upgrades. The direct sales route is usually through fabricators and equipment manufacturers; plant operators influence specifications. Require documented life-cycle savings and application testing before proposing a premium grade. Where stainless steel, linings or alternative materials meet the duty economically, accept a smaller addressable market rather than assume universal substitution by nickel alloys.</p>
+<h2><span class="num">5.6</span>Electronics and Electrical Engineering</h2>
+<p>Electronics and electrical engineering offers growth in precision materials for sensing, shielding, seals and resistance heating. The company’s role is in selected components and equipment, so semiconductor revenue growth is an indicator of activity rather than a direct multiplier for alloy volumes.</p>
+<p>Prioritise customers that value controlled magnetic properties, expansion behaviour and consistent strip or wire quality. High-volume consumer applications need separate margin tests because technical suitability alone does not protect pricing.</p>
+<h3><span class="num">5.6.1</span>Historical and Current Market Overview</h3>
+<p>WSTS reports semiconductor sales of USD 795.6 billion in 2025, up 26.2% from 2024’s USD 630.5 billion. Computer applications grew more than 60%, while industrial applications grew 5%; the expansion was therefore uneven across end markets (WSTS, 2026). Strong chip sales do not establish the material content of packages, sensors or production tools.</p>
+<p>Electrification provides a second demand driver through current measurement, protection devices and motor controls. Demand must be measured at component level: unit production × alloy content × share using the relevant design. Smaller devices, alternative packaging and competing magnetic materials can offset growth in unit sales.</p>
+<h3><span class="num">5.6.2</span>Key Applications and Opportunities for the Company</h3>
+<p>The benchmark lists expansion alloys 29-18 and 42, soft-magnetic MAG grades, and resistance alloys including HT 70, Konstantan and Aluchrom. Applications include glass/ceramic seals, shielding, toroidal cores, current-measuring modules and heating elements (VDM Metals, n.d.-g). These are distinct product markets with different specifications and buyers.</p>
+<p>Target precision stampers, core makers, sensor and sealing-component manufacturers, and heating-element producers. Europe offers accessible engineering partnerships; Japan, Korea and other Asian manufacturing centres warrant distributor-supported qualification where commercial returns justify it. Begin with strip and wire products the client can already produce consistently. Require sample acceptance, repeat orders and a contribution-margin target before adding dedicated finishing capacity.</p>
+<h2><span class="num">5.7</span>Medical Technology</h2>
+<p>Medical technology is a steady market for the company, driven by ageing rather than fast growth. Hip and knee implant numbers in OECD countries grow about 2.7% a year to 2035. The best fit is zirconium and cobalt alloys for joint implants, followed by stainless steel for instruments and nickel alloys for imaging equipment; China offers large volumes, but at much lower prices.</p>
+<h3><span class="num">5.7.1</span>Historical and Current Market Overview</h3>
+<p>The global medical device market was USD 529.1 billion in 2023 (Korea Health Industry Development Institute, 2025). At the institute's 5.3% annual growth rate for the bio-health industry, it reaches about USD 980 billion by 2035. The United States accounts for 46.4% of world device sales and Europe for 26.4%, or EUR 170 billion in 2024 (MedTech Europe, 2025). In Asia, China's market grew from CNY 941.7 billion in 2024 to about CNY 1.22 trillion in 2025 (China Federation of Logistics and Purchasing, 2025), and Japan imports more devices (JPY 3.45 trillion) than it produces (JPY 2.66 trillion) (Ministry of Health, Labour and Welfare, 2026).</p>
+<p>Ageing is the main driver. The number of people aged 60 and over rises from 1.0 billion in 2020 to 1.4 billion in 2030 (World Health Organization, 2024). Joint replacement rates are rising in almost all OECD countries: the OECD average in 2023 was 198 hip and 156 knee replacements per 100,000 people (OECD, 2025).</p>
+<p class="caption">Table 7: Medical technology market, today and in 2035</p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Today</th>
+<th>2035</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Global medical device market</td>
+<td>USD 529 bn (2023)</td>
+<td>about USD 980 bn</td>
+<td>+5.3% a year</td>
+</tr>
+<tr>
+<td>Hip and knee implants, 28 OECD countries</td>
+<td>2.7 million (2023)</td>
+<td>about 3.8 million</td>
+<td>+2.7% a year</td>
+</tr>
+<tr>
+<td>Hip replacements per 100,000 people (OECD)</td>
+<td>198 (2023)</td>
+<td>n/a</td>
+<td>158 in 2013</td>
+</tr>
+<tr>
+<td>Knee replacements per 100,000 people (OECD)</td>
+<td>156 (2023)</td>
+<td>n/a</td>
+<td>116 in 2013</td>
+</tr>
+<tr>
+<td>People aged 60 and over</td>
+<td>1.0 bn (2020)</td>
+<td>1.4 bn (2030)</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+<p class="source"><em>Sources: Korea Health Industry Development Institute (2025), OECD (2025), World Health Organization (2024). 2035 values are our estimate: the device market grows at the institute's bio-health rate, and implant numbers follow the 2013-2023 trend in replacement rates. The United States, Japan and China are not included, as the OECD has no rate for them.</em></p>
+<p>Germany, Switzerland and Austria have the highest rates, with Germany at 351 hip and 268 knee replacements per 100,000 people, and Central and Eastern Europe is catching up fastest: Lithuania's hip rate almost doubled since 2013 (OECD, 2025). No official source publishes the metal weight per implant, so implant numbers are used as the measurable indicator. Prices are under pressure in China, where central purchasing cut the prices of artificial hips and knees by 82% (National Healthcare Security Administration, 2022).</p>
+<h3><span class="num">5.7.2</span>Key Applications and Opportunities for the Company</h3>
+<p>Joint implants use cobalt-chromium and zirconium alloys. Oxidized zirconium parts cut polyethylene wear by 40-90% in simulator tests (ASTM International, n.d.), while titanium alloys can replace cobalt in some prostheses (U.S. Geological Survey, 2026). The company also sells stainless steel for surgical instruments, nickel-iron alloys for MRI and X-ray equipment, and cobalt-chromium powder for 3D-printed implants (VDM Metals, n.d.-c), and the FDA has issued technical guidance for 3D-printed devices (U.S. Food and Drug Administration, 2023). Table 8 shows these applications.</p>
+<p class="caption">Table 8: The company's medical technology applications, outlook to 2035</p>
+<table>
+<thead>
+<tr>
+<th>Outlook</th>
+<th>Applications</th>
+<th>Materials and product forms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grows</td>
+<td>Hip and knee implants in Germany, Switzerland, Austria, Central and Eastern Europe and Korea</td>
+<td>Cobalt alloy and zirconium bar</td>
+</tr>
+<tr>
+<td>Grows</td>
+<td>Oxidized zirconium joint parts</td>
+<td>Zirconium bar</td>
+</tr>
+<tr>
+<td>Grows</td>
+<td>3D-printed implants</td>
+<td>Cobalt-chromium powder</td>
+</tr>
+<tr>
+<td>Stable</td>
+<td>Surgical instruments; MRI and X-ray equipment parts</td>
+<td>Stainless steel wire; nickel alloy strip</td>
+</tr>
+<tr>
+<td>Falls</td>
+<td>Hip and knee implants in China</td>
+<td>Cobalt alloy bar</td>
+</tr>
+</tbody>
+</table>
+<p class="source"><em>Sources: ASTM International (n.d.), National Healthcare Security Administration (2022), OECD (2025), VDM Metals (n.d.-c). The outlook is our assessment.</em></p>
+<p>Customers are a few large implant makers. Stryker sold USD 2.7 billion of knees and USD 1.9 billion of hips in 2025, and Zimmer Biomet USD 3.3 billion and USD 2.1 billion; Smith &amp; Nephew (revenue USD 6.2 billion) and Johnson &amp; Johnson, which plans to separate its orthopaedics business, complete the group (Johnson &amp; Johnson, 2026; Smith &amp; Nephew, 2026; Stryker, 2026; Zimmer Biomet, 2026). Most of the value sits with these companies, which earn adjusted operating margins of 26-28% (Stryker, 2026; Zimmer Biomet, 2026).</p>
+<p>For alloy suppliers, medical is a smaller and less stable market: Carpenter's medical sales fell 24% to USD 224 million in fiscal year 2026, and medical is 3% of ATI's sales (ATI, 2026b; Carpenter Technology, 2026b). Other competitors are Daido Steel in titanium alloys for artificial joints and Aperam in instrument stainless steel and cobalt and magnetic alloys (Aperam, n.d.-b; Daido Steel, n.d.).</p>
+<p>What the company should do:</p>
+<ul>
+<li>Focus on zirconium and cobalt alloy bar for implant makers, with Germany, Switzerland and Austria as home markets and Central and Eastern Europe as the growth region.</li>
+<li>Develop medical-grade powders for 3D-printed implants.</li>
+<li>Grow stainless steel for surgical instruments and nickel alloys for imaging equipment, which depend less on implant prices.</li>
+<li>Be selective in China, where volumes are large but prices have been cut sharply.</li>
+<li>Approach the separated Johnson &amp; Johnson orthopaedics business as a new buyer.</li>
+</ul>
+<h1><span class="num">6.</span>Global Market Dynamics and Trade</h1>
+<p>Trade connects the metal supply base to the industrial locations where materials are processed and consumed. A country can export raw material while importing refined metal or finished alloys. Production leadership therefore does not establish access to the particular grades and forms required by a downstream buyer.</p>
+<p>The analysis should compare imports and exports for an explicitly defined metal, product form, reporting year and geographic scope. Each trade figure must identify its classification, value or quantity basis and treatment of re-exports. Bilateral imports and partner-reported exports may differ because of timing, valuation, classification and reporting coverage. Such differences require explanation rather than averaging without a method.</p>
+<p>The existing nickel product scope identifies HS 7505, 7506 and 7507 as covering bars and wire, flat products and tubes respectively. These categories do not isolate every specialty grade and do not cover the report’s entire steel-, cobalt- and zirconium-based scope. HS 8411 engine trade figures used in the aerospace analysis describe downstream equipment trade and are not a substitute for alloy trade.</p>
+<p>No complete, harmonised bilateral dataset has been established in the existing report, so this chapter does not assert a global trade total or rank countries using unlike product categories. The practical output is a product-specific sourcing and sales assessment: identify material origins, processing locations, importing markets and the direct buyers capable of purchasing Münvest’s proposed delivery forms. Quantification remains conditional on verified trade extracts and documented code coverage.</p>
+<p>In the Metals Atlas, import and export views should share the same selected metal and product classification. Flow thickness represents either volume or value, with that measure stated explicitly. Missing routes must not be interpreted as zero trade. An attractive trade route becomes commercially relevant only when specifications, approvals, logistics, delivery reliability and customer access are considered alongside its size.</p>
+<h1><span class="num">7.</span>Market Scenarios to 2035</h1>
+<p>The 2035 outlook is a sensitivity analysis of demand for relevant specialty-metal applications. It is not a forecast of total industry revenue, company sales or market value. Three cases test slower industrial investment, gradual expansion and stronger adoption; no probabilities are assigned.</p>
+<p>Demand is indexed to 100 in 2025 and compounded for ten years. The seven rates below are our assumptions, informed by the sector evidence and adjusted conceptually for material intensity and substitution. They are not published third-party alloy forecasts. Company growth would also depend on approvals, market share, capacity and execution.</p>
+<h2><span class="num">7.1</span>Market Model and Scenario Assumptions</h2>
+<p>For industry i and scenario s, the index is I(i,s,2035) = 100 × (1 + g(i,s))^10. A company-weighted index would equal Σ[w(i) × I(i,s)], where w(i) is the actual 2025 shipment share and the weights sum to one. Those weights were not supplied, so no company total is presented. Use shipment weights for volume and net-of-metal revenue weights for conversion-sales analysis.</p>
+<p>Downside assumes delayed projects, weak replacement spending and faster substitution. Base assumes steady replacement demand, gradual electrification and funded project execution. Upside assumes stronger aerospace output and faster commercial adoption of qualified energy and electrical components. Rates apply to relevant alloy applications, not whole sectors. Hold metal prices and exchange rates constant when interpreting the indices; test price, mix and working capital separately.</p>
+<h2><span class="num">7.2</span>Results by Industry, Product, and Region</h2>
+<p>2035 demand indices, with 2025 = 100; annual growth assumptions in brackets. Downside / base / upside:</p>
+<p>Automotive 82 / 90 / 100 (−2% / −1% / 0%);</p>
+<p>Oil and gas 90 / 105 / 116 (−1% / +0.5% / +1.5%);</p>
+<p>Energy and environmental technology 100 / 134 / 179 (0% / +3% / +6%);</p>
+<p>Aerospace 110 / 134 / 155 (+1% / +3% / +4.5%);</p>
+<p>Chemicals 95 / 116 / 134 (−0.5% / +1.5% / +3%);</p>
+<p>Electronics and electrical engineering 100 / 128 / 155 (0% / +2.5% / +4.5%);</p>
+<p>Medical technology 105 / 122 / 141 (+0.5% / +2% / +3.5%). Values are calculated and rounded, not observed.</p>
+<p>Products and regions are prioritised qualitatively because reliable base-year splits are unavailable. Base-case priorities are aerospace bar, sheet and repair wire in Europe and North America; chemical plate and welding products through fabricators; and precision strip and wire for electrical components. Energy products offer the widest scenario range and should follow committed projects. Asian chemical and electrical manufacturing merits targeted qualification, while gas projects require country and customer screening. These are sales priorities, not quantified regional forecasts.</p>
+<h1><span class="num">8.</span>Strategic Recommendations</h1>
+<p>Allocate resources first to applications with demonstrated technical fit and a credible route to repeat orders. Aerospace qualification, chemical replacement equipment and precision electrical products form the proposed core. Preserve profitable oil-and-gas and automotive accounts while reducing dependence on declining engine-only applications.</p>
+<p>Treat new energy products and powders as options that earn further funding through customer milestones. Market growth alone is insufficient: each proposal must show achievable qualification, contribution margin, production capacity and cash requirements.</p>
+<h2><span class="num">8.1</span>Priority Products, Industries, Regions, and Customers</h2>
+<p>First priority: qualified nickel-alloy aerospace products and repair consumables, initially through European and North American engine supply chains. Second: corrosion-resistant plate and matching welding products for chemical equipment fabricators. Third: magnetic, expansion and resistance strip/wire sold to component manufacturers. This ranking reflects the report’s application analysis; it must be checked against internal profitability and capabilities.</p>
+<p>Develop energy opportunities through stack and equipment makers with funded programmes. Retain sour-service gas applications where approvals and delivery performance support returns. In medical technology, pursue validated implant and instrument routes, subject to regulatory and customer requirements. Potential accounts are prospects, not confirmed customers; distinguish direct alloy buyers from the end users that specify materials.</p>
+<h2><span class="num">8.2</span>Recommended Actions and Implementation Roadmap</h2>
+<p>Months 0–3: the commercial lead and operations team should map 2025 sales by grade, form, application, region, margin and approval status, then select a small account shortlist. Months 3–12: application engineers should run customer-backed trials and document specifications, expected annual quantities, qualification cost and purchase milestones. Track sample-to-approval conversion, repeat orders, contribution per bottleneck hour, on-time delivery and working-capital days.</p>
+<p>Months 12–24: expand finishing, testing or inventory only where qualified demand demonstrates a capacity constraint and an acceptable return under the downside case. Management should approve investment gates using the company’s hurdle rate, not an invented project-wide target. Review the portfolio quarterly against funded project orders, aerospace production schedules, customer inventories and substitution. Use alloy-surcharge clauses where appropriate, diversify critical feedstocks and develop scrap-return arrangements.</p>
+<h1><span class="num">9.</span>Conclusion</h1>
+<p>The growth opportunity lies in a focused portfolio of technically demanding applications. Aerospace, chemical replacement equipment and precision electrical components provide the clearest starting points; emerging energy applications justify measured development rather than immediate large-scale expansion. Automotive exposure should shift with the component mix, while gas and medical opportunities require customer-specific validation.</p>
+<p>This project provides a market-based decision framework, not a verified company business plan. Its central limitation is the absence of internal application sales, margins, approvals and capacity data. The next decision is therefore to validate the proposed priorities against that evidence and convert the strongest opportunities into qualified orders. Investment should follow demonstrated returns and demand, with the 2035 scenarios used to test resilience.</p>
 <h1>References</h1>
-<div class="refs"></div>
+<div class="refs"><p class="ref">ACEA. (2026). Economic and market report: Global and EU auto industry, full year 2025. <a href="https://www.acea.auto/publication/economic-and-market-report-global-and-eu-auto-industry-full-year-2025/">https://www.acea.auto/publication/economic-and-market-report-global-and-eu-auto-industry-full-year-2025/</a></p>
+<p class="ref">Acerinox. (2025). Acerinox concludes a key year in its strategy implementation. <a href="https://www.acerinox.com/en/comunicacion/noticias/Acerinox-concludes-a-key-year-in-its-strategy-implementation/">https://www.acerinox.com/en/comunicacion/noticias/Acerinox-concludes-a-key-year-in-its-strategy-implementation/</a></p>
+<p class="ref">Acerinox. (2026a). Acerinox confirms the strength of its business model with an adjusted EBITDA of €422 million. <a href="https://www.acerinox.com/en/comunicacion/noticias/Acerinox-confirms-the-strength-of-its-business-model-with-an-adjusted-EBITDA-of-422-million/">https://www.acerinox.com/en/comunicacion/noticias/Acerinox-confirms-the-strength-of-its-business-model-with-an-adjusted-EBITDA-of-422-million/</a></p>
+<p class="ref">Acerinox. (2026b). Q2 2026 results presentation [High-performance alloys, p. 9]. <a href="https://www.cnmv.es/webservices/verdocumento/ver?t=%7B96256601-b6df-4c14-89fc-625636875666%7D">https://www.cnmv.es/webservices/verdocumento/ver?t=%7B96256601-b6df-4c14-89fc-625636875666%7D</a></p>
+<p class="ref">Acerinox. (n.d.). VDM Metals. Retrieved October 28, 2026, from <a href="https://acerinox.com/en/acerinox/fabricas/vdm-metals/">https://acerinox.com/en/acerinox/fabricas/vdm-metals/</a></p>
+<p class="ref">Airbus. (2026a). Airbus reports 793 commercial aircraft deliveries in 2025 [Press release]. <a href="https://www.airbus.com/en/newsroom/press-releases/2026-01-airbus-reports-793-commercial-aircraft-deliveries-in-2025">https://www.airbus.com/en/newsroom/press-releases/2026-01-airbus-reports-793-commercial-aircraft-deliveries-in-2025</a></p>
+<p class="ref">Airbus. (2026b). Global market forecast 2026-2045 [Press release]. <a href="https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-forecasts-traffic-growth-driven-by-urbanisation-and-increased-connectivity-made-possible-by">https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-forecasts-traffic-growth-driven-by-urbanisation-and-increased-connectivity-made-possible-by</a></p>
+<p class="ref">Airbus. (2026c). Airbus forecasts growing services market to double by 2045 [Press release]. <a href="https://www.airbus.com/en/newsroom/press-releases/2026-10-airbus-forecasts-growing-services-market-to-double-by-2045">https://www.airbus.com/en/newsroom/press-releases/2026-10-airbus-forecasts-growing-services-market-to-double-by-2045</a></p>
+<p class="ref">Alleima. (2026). Annual report 2025. <a href="https://mb.cision.com/Main/21386/4324612/3995611.pdf">https://mb.cision.com/Main/21386/4324612/3995611.pdf</a></p>
+<p class="ref">Aperam. (n.d.). Aperam Alloys Imphy. Retrieved October 25, 2026, from <a href="https://www.aperam.com/alloys/what-is-alloys/imphy/">https://www.aperam.com/alloys/what-is-alloys/imphy/</a></p>
+<p class="ref">Aperam. (n.d.-b). Aperam Alloys: Medical. Retrieved October 25, 2026, from <a href="https://www.aperam.com/alloys/markets/medical/">https://www.aperam.com/alloys/markets/medical/</a></p>
+<p class="ref">ASTM International. (n.d.). Oxidized zirconium for total joint arthroplasty (STP). <a href="https://store.astm.org/stp37544s.html">https://store.astm.org/stp37544s.html</a></p>
+<p class="ref">ATI. (2026a). Form 10-K for the fiscal year 2025. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/1018963/000162828026010140/ati-20251228.htm">https://www.sec.gov/Archives/edgar/data/1018963/000162828026010140/ati-20251228.htm</a></p>
+<p class="ref">ATI. (2026b). ATI announces fourth quarter and fiscal year 2025 results [Form 8-K, Exhibit 99.1]. <a href="https://s27.q4cdn.com/226628310/files/doc_financials/2025/q4/Form-8-K-Q4-2025-EX-99-1-2-2-2026.pdf">https://s27.q4cdn.com/226628310/files/doc_financials/2025/q4/Form-8-K-Q4-2025-EX-99-1-2-2-2026.pdf</a></p>
+<p class="ref">Autoliv. (2026). Form 10-K for the fiscal year 2025. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/alv-20251231.htm">https://www.sec.gov/Archives/edgar/data/1034670/000119312526058162/alv-20251231.htm</a></p>
+<p class="ref">Boeing. (2026a). Boeing announces fourth quarter deliveries [Press release]. <a href="https://boeing.mediaroom.com/2026-01-13-Boeing-Announces-Fourth-Quarter-Deliveries">https://boeing.mediaroom.com/2026-01-13-Boeing-Announces-Fourth-Quarter-Deliveries</a></p>
+<p class="ref">Boeing. (2026b). Boeing global commercial fleet will top 50,000 airplanes in 20 years as passenger traffic doubles [Press release]. <a href="https://boeing.mediaroom.com/2026-07-17-Boeing-Global-Commercial-Fleet-Will-Top-50,000-Airplanes-in-20-Years-as-Passenger-Traffic-Doubles">https://boeing.mediaroom.com/2026-07-17-Boeing-Global-Commercial-Fleet-Will-Top-50,000-Airplanes-in-20-Years-as-Passenger-Traffic-Doubles</a></p>
+<p class="ref">BorgWarner. (2026). Form 10-K for the fiscal year 2025. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/908255/000090825526000011/bwa-20251231.htm">https://www.sec.gov/Archives/edgar/data/908255/000090825526000011/bwa-20251231.htm</a></p>
+<p class="ref">BUTTING. (n.d.). Clad pipes. Retrieved October 25, 2026, from <a href="https://www.butting.com/en/clad-pipes/">https://www.butting.com/en/clad-pipes/</a></p>
+<p class="ref">Carpenter Technology. (2026). Form 10-K for the fiscal year 2026. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/0000017843/000001784326000034/crs-20260630.htm">https://www.sec.gov/Archives/edgar/data/0000017843/000001784326000034/crs-20260630.htm</a></p>
+<p class="ref">Carpenter Technology. (2026b). Carpenter Technology reports fourth quarter and fiscal year 2026 results [Form 8-K]. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/0000017843/000001784326000030/a4thqtr2026resultspressrel.htm">https://www.sec.gov/Archives/edgar/data/0000017843/000001784326000030/a4thqtr2026resultspressrel.htm</a></p>
+<p class="ref">Cefic. (2025). Facts and figures of the European chemical industry: Profile [2024 data]. <a href="https://cefic.org/facts-and-figures-of-the-european-chemical-industry/profile/">https://cefic.org/facts-and-figures-of-the-european-chemical-industry/profile/</a></p>
+<p class="ref">China Federation of Logistics and Purchasing. (2025, November 27). 2025年医疗器械市场规模预计达1.22万亿元 [China's 2025 medical device market expected to reach CNY 1.22 trillion]. Xinhua. <a href="https://www.news.cn/fortune/20251127/cb769f677e9b4017b3e87d3e905032f9/c.html">https://www.news.cn/fortune/20251127/cb769f677e9b4017b3e87d3e905032f9/c.html</a></p>
+<p class="ref">Cobalt Institute. (2026). Cobalt market report 2025. <a href="https://www.cobaltinstitute.org/wp-content/uploads/2026/05/Cobalt-Market-Report-2025.pdf">https://www.cobaltinstitute.org/wp-content/uploads/2026/05/Cobalt-Market-Report-2025.pdf</a></p>
+<p class="ref">Daido Steel. (n.d.). Forging products: Aerospace; Medical equipment. Retrieved October 25, 2026, from <a href="https://www.daido.co.jp/en/products/forging/aerospace/index.html">https://www.daido.co.jp/en/products/forging/aerospace/index.html</a></p>
+<p class="ref">Eberspächer. (2026). Annual report 2025 [Press release]. <a href="https://www.eberspaecher.com/fileadmin/data/corporatesite/presse/pressemeldungen/2026/PR-EB-Annual-Report-2025.pdf">https://www.eberspaecher.com/fileadmin/data/corporatesite/presse/pressemeldungen/2026/PR-EB-Annual-Report-2025.pdf</a></p>
+<p class="ref">electrive. (2026, October 23). EU Auto Package: Committee vote to relax CO2 rules. <a href="https://www.electrive.com/2026/10/23/eu-auto-package-committee-vote-to-relax-co%E2%82%82-rules/">https://www.electrive.com/2026/10/23/eu-auto-package-committee-vote-to-relax-co%E2%82%82-rules/</a></p>
+<p class="ref">Energy Institute. (2026). Statistical review of world energy 2026. <a href="https://www.energyinst.org/statistical-review/resources-and-data-downloads">https://www.energyinst.org/statistical-review/resources-and-data-downloads</a></p>
+<p class="ref">Energy Intelligence. (2025, November). Will IEA's fresh take on oil demand spur higher capex? <a href="https://www.energyintel.com/0000019a-a186-d672-a9be-a397f98f0000">https://www.energyintel.com/0000019a-a186-d672-a9be-a397f98f0000</a></p>
+<p class="ref">Garrett Motion. (2026). Form 10-K for the fiscal year 2025. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/1735707/000173570726000009/gtx-20251231.htm">https://www.sec.gov/Archives/edgar/data/1735707/000173570726000009/gtx-20251231.htm</a></p>
+<p class="ref">GE Aerospace. (2026). GE Aerospace announces fourth quarter 2025 results [Form 8-K]. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/40545/000004054526000005/ge4q2025earningsrelease.htm">https://www.sec.gov/Archives/edgar/data/40545/000004054526000005/ge4q2025earningsrelease.htm</a></p>
+<p class="ref">International Energy Agency. (2025a). World energy outlook 2025. <a href="https://www.iea.org/reports/world-energy-outlook-2025">https://www.iea.org/reports/world-energy-outlook-2025</a></p>
+<p class="ref">International Energy Agency. (2025b). Global critical minerals outlook 2025. <a href="https://www.iea.org/reports/global-critical-minerals-outlook-2025">https://www.iea.org/reports/global-critical-minerals-outlook-2025</a></p>
+<p class="ref">International Energy Agency. (2025c). Global hydrogen review 2025: Production highlights. <a href="https://www.iea.org/reports/global-hydrogen-review-2025/production-highlights-2">https://www.iea.org/reports/global-hydrogen-review-2025/production-highlights-2</a></p>
+<p class="ref">International Energy Agency. (2025d). Global energy review 2025: Electricity. <a href="https://www.iea.org/reports/global-energy-review-2025/electricity">https://www.iea.org/reports/global-energy-review-2025/electricity</a></p>
+<p class="ref">International Energy Agency. (2025e). Electricity 2025: Demand. <a href="https://www.iea.org/reports/electricity-2025/demand">https://www.iea.org/reports/electricity-2025/demand</a></p>
+<p class="ref">International Energy Agency. (2025f). Energy and AI: Executive summary. <a href="https://www.iea.org/reports/energy-and-ai/executive-summary">https://www.iea.org/reports/energy-and-ai/executive-summary</a></p>
+<p class="ref">International Energy Agency. (2026a). Global EV outlook 2026. <a href="https://www.iea.org/reports/global-ev-outlook-2026">https://www.iea.org/reports/global-ev-outlook-2026</a></p>
+<p class="ref">International Energy Agency. (2026b). World energy investment 2026. <a href="https://www.iea.org/reports/world-energy-investment-2026">https://www.iea.org/reports/world-energy-investment-2026</a></p>
+<p class="ref">International Energy Agency. (2026c). Global hydrogen review 2026: Executive summary. <a href="https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary">https://www.iea.org/reports/global-hydrogen-review-2026/executive-summary</a></p>
+<p class="ref">International Energy Agency. (2026d). Key questions on energy and AI: Executive summary. <a href="https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary">https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary</a></p>
+<p class="ref">International Nickel Study Group. (2026, October 13). Global nickel market set for surplus this year and next [Statement reported by Reuters]. Kitco. <a href="https://www.kitco.com/news/off-the-wire/2026-10-13/global-nickel-market-set-surplus-year-and-next-insg-says">https://www.kitco.com/news/off-the-wire/2026-10-13/global-nickel-market-set-surplus-year-and-next-insg-says</a></p>
+<p class="ref">Johnson &amp; Johnson. (2026). Johnson &amp; Johnson reports Q4 and full-year 2025 results [Press release]. <a href="https://jnj.com/media-center/press-releases/johnson-johnson-reports-q4-and-full-year-2025-results">https://jnj.com/media-center/press-releases/johnson-johnson-reports-q4-and-full-year-2025-results</a></p>
+<p class="ref">Korea Health Industry Development Institute. (2025). 2025 글로벌 바이오헬스산업 시장규모 2019~2030 [Global bio-health industry market size 2019-2030]. Reported by Seoul Economic Daily. <a href="https://m.sedaily.com/article/14058917">https://m.sedaily.com/article/14058917</a></p>
+<p class="ref">MedTech Europe. (2025). The European medical technology industry in figures 2025: Market. <a href="https://www.medtecheurope.org/?p=4574">https://www.medtecheurope.org/?p=4574</a></p>
+<p class="ref">Ministry of Health, Labour and Welfare. (2026). 薬事工業生産動態統計 令和6年年報 [Statistics of production by pharmaceutical industry, 2024 annual report]. e-Stat. <a href="https://www.e-stat.go.jp/statistics/00450151">https://www.e-stat.go.jp/statistics/00450151</a></p>
+<p class="ref">NASA Glenn Research Center. (2016). Ceramic composites revolutionize engine efficiency. <a href="https://www.nasa.gov/aeronautics/ceramic-composites-revolutionize-engine-efficiency">https://www.nasa.gov/aeronautics/ceramic-composites-revolutionize-engine-efficiency</a></p>
+<p class="ref">NASA Glenn Research Center. (2022). NASA's new material built to withstand extreme conditions. <a href="https://www.nasa.gov/aeronautics/nasas-new-material-built-to-withstand-extreme-conditions">https://www.nasa.gov/aeronautics/nasas-new-material-built-to-withstand-extreme-conditions</a></p>
+<p class="ref">National Healthcare Security Administration. (2022, February 12). China's national medical bulk-buy program to be expanded. State Council Information Office. <a href="https://english.www.gov.cn/statecouncil/ministries/202202/12/content_WS620713efc6d09c94e48a4f82.html">https://english.www.gov.cn/statecouncil/ministries/202202/12/content_WS620713efc6d09c94e48a4f82.html</a></p>
+<p class="ref">Nippon Steel &amp; Sumitomo Metal. (2015). Progress in pipe and tubes technology and its future prospects (Technical Report No. 107). <a href="https://www.nipponsteel.com/en/tech/report/nssmc/pdf/107-02.pdf">https://www.nipponsteel.com/en/tech/report/nssmc/pdf/107-02.pdf</a></p>
+<p class="ref">Niterra. (n.d.). Automotive products. Retrieved October 25, 2026, from <a href="https://www.ngkntk.com/uk/business/4-wheel/">https://www.ngkntk.com/uk/business/4-wheel/</a></p>
+<p class="ref">OECD. (2025). Health at a glance 2025: Hip and knee replacement (Figure 5.25). <a href="https://stat.link/4hez0r">https://stat.link/4hez0r</a></p>
+<p class="ref">OICA. (2026). World motor vehicle production by country and type, 2025. <a href="https://www.oica.net/category/production-statistics/">https://www.oica.net/category/production-statistics/</a></p>
+<p class="ref">Oil &amp; Gas Journal. (2026, July 21). Global LNG trade hits record in 2025 as 2026 tests market resilience. <a href="https://www.ogj.com/general-interest/economics-markets/news/55392446/global-lng-trade-hits-record-in-2025-as-2026-tests-market-resilience">https://www.ogj.com/general-interest/economics-markets/news/55392446/global-lng-trade-hits-record-in-2025-as-2026-tests-market-resilience</a></p>
+<p class="ref">Rolls-Royce. (2026). Rolls-Royce Holdings plc 2025 full year results [Press release]. <a href="https://www.rolls-royce.com/media/press-releases/2026/26-02-2026-rr-holdings-plc-2025-full-year-results.aspx">https://www.rolls-royce.com/media/press-releases/2026/26-02-2026-rr-holdings-plc-2025-full-year-results.aspx</a></p>
+<p class="ref">S&amp;P Global Commodity Insights. (2026, May 28). Energy investment to hit record highs in 2026 despite war impact: IEA. <a href="https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/052826-energy-investment-to-hit-record-highs-in-2026-despite-war-impact-iea">https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/052826-energy-investment-to-hit-record-highs-in-2026-despite-war-impact-iea</a></p>
+<p class="ref">Safran. (2026). Safran reports excellent financial performance in 2025 and raises its 2028 ambitions [Press release]. <a href="https://www.safran-group.com/pressroom/safran-reports-excellent-financial-performance-2025-and-raises-its-2028-ambitions-2026-02-13">https://www.safran-group.com/pressroom/safran-reports-excellent-financial-performance-2025-and-raises-its-2028-ambitions-2026-02-13</a></p>
+<p class="ref">SIPRI. (2026). Trends in world military expenditure 2025 [Press release]. Stockholm International Peace Research Institute. <a href="https://www.sipri.org/media/press-release/2026/global-military-spending-surges">https://www.sipri.org/media/press-release/2026/global-military-spending-surges</a></p>
+<p class="ref">SLB. (2026). Form 10-K for the fiscal year 2025. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/slb-20251231.htm">https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/slb-20251231.htm</a></p>
+<p class="ref">Smith &amp; Nephew. (2026). Annual report on Form 20-F for the fiscal year 2025. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/845982/000110465926028258/snn-20251231x20f.htm">https://www.sec.gov/Archives/edgar/data/845982/000110465926028258/snn-20251231x20f.htm</a></p>
+<p class="ref">Society of Japanese Aerospace Companies. (2025). 航空宇宙工業 生産額 令和6年度速報 [Aerospace industry production, fiscal year 2024 preliminary]. <a href="https://www.sjac.or.jp/pdf/publication/backnumber/202506/20250604.pdf">https://www.sjac.or.jp/pdf/publication/backnumber/202506/20250604.pdf</a></p>
+<p class="ref">Special Metals. (n.d.). Markets: Oil &amp; gas and automotive. Retrieved October 25, 2026, from <a href="https://www.specialmetals.com/markets/oil-and-gas.html">https://www.specialmetals.com/markets/oil-and-gas.html</a></p>
+<p class="ref">Stryker. (2026). Stryker reports 2025 operating results and 2026 outlook [Form 8-K, Exhibit 99.1]. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/310764/000031076426000006/sykex991earningsq42025.htm">https://www.sec.gov/Archives/edgar/data/310764/000031076426000006/sykex991earningsq42025.htm</a></p>
+<p class="ref">TechnipFMC. (2026). Form 10-K for the fiscal year 2025. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/1681459/000168145926000010/fti-20251231.htm">https://www.sec.gov/Archives/edgar/data/1681459/000168145926000010/fti-20251231.htm</a></p>
+<p class="ref">U.S. Food and Drug Administration. (2023). 3D printing of medical devices. <a href="https://www.fda.gov/medical-devices/products-and-medical-procedures/3d-printing-medical-devices">https://www.fda.gov/medical-devices/products-and-medical-procedures/3d-printing-medical-devices</a></p>
+<p class="ref">U.S. Geological Survey. (2025). Mineral commodity summaries 2025 (Version 1.2): Nickel. <a href="https://doi.org/10.3133/mcs2025">https://doi.org/10.3133/mcs2025</a></p>
+<p class="ref">U.S. Geological Survey. (2026). Mineral commodity summaries 2026: Cobalt. <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf">https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf</a></p>
+<p class="ref">U.S. Geological Survey. (2026a). Mineral commodity summaries 2026 (Version 1.3). <a href="https://doi.org/10.3133/mcs2026">https://doi.org/10.3133/mcs2026</a></p>
+<p class="ref">U.S. Geological Survey. (n.d.-a). Titanium statistics and information. Retrieved October 28, 2026, from <a href="https://www.usgs.gov/centers/national-minerals-information-center/titanium-statistics-and-information">https://www.usgs.gov/centers/national-minerals-information-center/titanium-statistics-and-information</a></p>
+<p class="ref">U.S. Geological Survey. (n.d.-b). Tungsten statistics and information. Retrieved October 28, 2026, from <a href="https://www.usgs.gov/centers/national-minerals-information-center/tungsten-statistics-and-information">https://www.usgs.gov/centers/national-minerals-information-center/tungsten-statistics-and-information</a></p>
+<p class="ref">U.S. Geological Survey. (n.d.-c). Zirconium and hafnium statistics and information. Retrieved October 28, 2026, from <a href="https://www.usgs.gov/centers/national-minerals-information-center/zirconium-and-hafnium-statistics-and-information">https://www.usgs.gov/centers/national-minerals-information-center/zirconium-and-hafnium-statistics-and-information</a></p>
+<p class="ref">U.S. Geological Survey. (n.d.-d). Aluminum statistics and information. Retrieved October 28, 2026, from <a href="https://www.usgs.gov/centers/national-minerals-information-center/aluminum-statistics-and-information">https://www.usgs.gov/centers/national-minerals-information-center/aluminum-statistics-and-information</a></p>
+<p class="ref">U.S. Geological Survey. (n.d.-e). Manganese statistics and information. Retrieved October 28, 2026, from <a href="https://www.usgs.gov/centers/national-minerals-information-center/manganese-statistics-and-information">https://www.usgs.gov/centers/national-minerals-information-center/manganese-statistics-and-information</a></p>
+<p class="ref">United Nations Statistics Division. (2026). UN Comtrade database [HS 8411, 2024]. Retrieved October 2026, from <a href="https://comtradeplus.un.org/">https://comtradeplus.un.org/</a></p>
+<p class="ref">VDM Metals. (n.d.-a). Alloys for the automotive industry [Brochure]. <a href="https://www.vdm-metals.com/fileadmin/user_upload/Downloads/Brochures/VDM_Metals_Automotive_EN.pdf">https://www.vdm-metals.com/fileadmin/user_upload/Downloads/Brochures/VDM_Metals_Automotive_EN.pdf</a></p>
+<p class="ref">VDM Metals. (n.d.-b). Oil and gas [Brochure]. <a href="https://www.vdm-metals.com/fileadmin/user_upload/Downloads/Brochures/VDM_Metals_Oil_and_Gas.pdf">https://www.vdm-metals.com/fileadmin/user_upload/Downloads/Brochures/VDM_Metals_Oil_and_Gas.pdf</a></p>
+<p class="ref">VDM Metals. (n.d.-c). Medical engineering. Retrieved October 25, 2026, from <a href="https://www.vdm-metals.com/en/our-business/fields-of-application/medical-engineering/">https://www.vdm-metals.com/en/our-business/fields-of-application/medical-engineering/</a></p>
+<p class="ref">VDM Metals. (n.d.-d). Fields of application. Retrieved October 28, 2026, from <a href="https://www.vdm-metals.com/en/products-and-services/fields-of-application">https://www.vdm-metals.com/en/products-and-services/fields-of-application</a></p>
+<p class="ref">VDM Metals. (n.d.-e). Energy, environment, sustainability. Retrieved October 28, 2026, from <a href="https://www.vdm-metals.com/en/products-and-services/fields-of-application/energy-environment-sustainability">https://www.vdm-metals.com/en/products-and-services/fields-of-application/energy-environment-sustainability</a></p>
+<p class="ref">VDM Metals. (n.d.-f). Chemical process industry. Retrieved October 28, 2026, from <a href="https://www.vdm-metals.com/en/products-and-services/fields-of-application/chemical-process-industry">https://www.vdm-metals.com/en/products-and-services/fields-of-application/chemical-process-industry</a></p>
+<p class="ref">VDM Metals. (n.d.-g). Electronics and electrical engineering. Retrieved October 28, 2026, from <a href="https://www.vdm-metals.com/en/products-and-services/fields-of-application/electronics-and-electrical-engineering">https://www.vdm-metals.com/en/products-and-services/fields-of-application/electronics-and-electrical-engineering</a></p>
+<p class="ref">World Health Organization. (2024). Ageing and health [Fact sheet]. <a href="https://www.who.int/news-room/fact-sheets/detail/ageing-and-health">https://www.who.int/news-room/fact-sheets/detail/ageing-and-health</a></p>
+<p class="ref">World Semiconductor Trade Statistics. (2026, March). Global semiconductor market grows 26% in 2025 to $796B. <a href="https://www.wsts.org/76/103/Global-Semiconductor-Market-grows-26-in-2025-to-796B">https://www.wsts.org/76/103/Global-Semiconductor-Market-grows-26-in-2025-to-796B</a></p>
+<p class="ref">Zimmer Biomet. (2026). Zimmer Biomet announces fourth quarter and full-year 2025 financial results [Form 8-K, Exhibit 99.1]. U.S. Securities and Exchange Commission. <a href="https://www.sec.gov/Archives/edgar/data/1136869/000119312526043620/zbh-ex99_1.htm">https://www.sec.gov/Archives/edgar/data/1136869/000119312526043620/zbh-ex99_1.htm</a></p></div>
+<div class="appendix"><h1>Appendices: Data, Sources, Calculations, and Assumptions</h1>
+<h2><span class="num">A1</span>Definitions and evidence</h2>
+<p>Mt means million tonnes; GW means gigawatts; EBITDA is earnings before interest, tax, depreciation and amortisation. Industry revenue, mined metal output, melting output and finished alloy shipments have different boundaries. Report figures retain their original currencies and observation years. No currency conversion or inflation adjustment is used for the scenario indices. Web sources for the newly completed sections were consulted on 28 October 2026; earlier observation years are used where stated.</p>
+<h2><span class="num">A2</span>Reproducible scenario calculations</h2>
+<p>Base year 2025 = 100; horizon = 10 years; index = 100 × (1 + annual rate)^10, rounded to the nearest integer. Example: energy base = 100 × 1.03^10 = 134.4 → 134. Aerospace upside = 100 × 1.045^10 = 155.3 → 155. The rates in Section 7 are author-selected sensitivities, not estimated statistical parameters or third-party alloy forecasts. No probabilities, company shipment weights or regional growth rates are assumed. Regional and product priorities are qualitative.</p>
+<h2><span class="num">A3</span>Interpretation of existing sector estimates</h2>
+<p>The automotive calculation groups battery-electric and plug-in hybrid cars together; cars with a plug can still contain combustion-engine components. Fleet growth is not a direct measure of new engine-alloy purchases, and holding cobalt intensity constant is a simplifying assumption. The medical-device value extrapolation applies a broader bio-health growth proxy and is not an independently sourced device-market forecast. These existing sector estimates should be read as illustrations, not validated specialty-metal demand projections. The scenario model therefore uses separate explicit application-demand assumptions.</p>
+<h2><span class="num">A4</span>Information needed before investment</h2>
+<p>Obtain actual shipments and net-of-metal sales by application; conversion margins; production yields and bottleneck hours; approved customer/grade/form combinations; qualification lead times; and firm order coverage. Validate the legal group structure when comparing competitors and avoid double-counting VDM and Haynes within Acerinox. Build trade estimates only after agreeing HS coverage and re-export treatment. Replace scenario assumptions with customer-level quantities when these become available.</p></div>
 </body></html>

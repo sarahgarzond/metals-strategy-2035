@@ -9,4 +9,5 @@ Read the grading-rubric skill and grade report/report.pdf (use `pdftotext -layou
 Use the TUM rubric weights from the skill. Be specific and strict. Praise only what earns it.
 Write reviews/round_N/grader_tum.md containing the grade per criterion with a justification, the overall grade,
 and the ten changes that would most improve the grade, each tied to a section or page, ranked by impact.
+Judge the report against the team's own table of contents and framework (CLAUDE.md). Do not ask for a different structure; suggest improvements within it.
 Never edit the report.

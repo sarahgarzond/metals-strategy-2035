@@ -1,4 +1,12 @@
-# Product Strategy 2035: agent team workspace
+# Forging the Future: Market Intelligence and Growth Strategy for High-Performance Metals Through 2035
+
+Agent team workspace for the TUM project study.
+
+## Your Google Doc is the master draft
+The team's Google Doc was imported into sections/ (one file per chapter or section, same headings and order).
+After you edit the Google Doc, ask Claude to "re-import the Google Doc": it exports the doc with the Google Docs connector to
+data/raw/gdoc_export.json and runs `python3 tools/import_gdoc.py data/raw/gdoc_export.json`. New text lands in
+sections/_import/ for comparison, and `--force` overwrites sections/.
 
 This repository is set up so that Claude Code runs a team of specialised agents that research, model, write,
 check and grade the report in repeated rounds until the graders are satisfied.

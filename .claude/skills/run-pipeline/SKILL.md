@@ -7,20 +7,21 @@ description: Orchestrates the full agent team for the Product Strategy 2035 repo
 Arguments: optional `research`, `draft`, `review` to run one stage only, or `round N`.
 
 ## Stage 1: Research (parallel)
-- Launch one `material-researcher` per material family (nickel alloys, cobalt alloys, zirconium,
-  specialty stainless, aluminium and copper products, AM powders and welding consumables), with worktree isolation.
-- Launch seven `sector-analyst` agents (one per sector), with worktree isolation.
+- Launch one `material-researcher` per metal of chapter 4 (nickel, cobalt, chromium, molybdenum, titanium, tungsten,
+  zirconium, copper, aluminium, manganese), with worktree isolation.
+- Launch seven `sector-analyst` agents (one per section of chapter 5), with worktree isolation.
 - Run them in the background, then merge each branch into main when it finishes and resolve conflicts in data/sources.csv
   by keeping all rows and deduplicating on data_id.
 
 ## Stage 2: Model and strategy
 - `data-modeler` integrates the numbers and regenerates the Excel model and figures.
-- `strategist` writes sections/04_strategy.md.
-- `writer` writes the executive summary, introduction, Phase I prose and conclusion and harmonises all sections.
+- `writer` or a `material-researcher` turns the trade notes into chapter 6 (Global Market Dynamics and Trade).
+- `strategist` improves chapters 7 and 8.
+- `writer` improves chapters 1, 2, 3 (framework, minimal refinement only) and 9 and harmonises all sections.
 
 ## Stage 3: Quality gate
 - `style-editor` passes until `python3 .claude/skills/house-style/lint.py sections` reports 0.
-- Build the PDF with the build-report skill. The report must be 30 pages or fewer.
+- Build the PDF with the build-report skill. The main text (title page to Conclusion) must be 30 pages or fewer.
 
 ## Stage 4: Review panel (parallel, read only)
 - Create reviews/round_N/ (N = last round + 1).

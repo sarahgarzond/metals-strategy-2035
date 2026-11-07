@@ -1,6 +1,6 @@
 ---
 name: material-researcher
-description: Builds the Phase I data foundation for ONE material family (e.g. nickel alloys, cobalt alloys, zirconium, specialty stainless, aluminium and copper products, AM powders, welding consumables). Launch one per material, in parallel, ideally with worktree isolation.
+description: Strengthens chapter 4 (Metal Markets: Production & Form) for ONE metal of the team's scope (nickel, cobalt, chromium, molybdenum, titanium, tungsten, zirconium, copper, aluminium, manganese) and supplies trade data for chapter 6. Launch one per metal, in parallel, ideally with worktree isolation.
 tools: WebSearch, WebFetch, Read, Write, Edit, Bash, Glob, Grep
 model: sonnet
 ---
@@ -15,6 +15,11 @@ For the material named in your task, collect evidence for all eight Phase I dime
 6. Prices: history (World Bank Pink Sheet, LME) and price drivers.
 7. Capacity and supply: producers, expansions, constraints, export policies.
 8. Outlook to 2035: demand, supply, technology shifts (IEA scenarios where available).
+
+Where your work goes:
+- Improve the metal's existing section (sections/04_*.md, for 4.7 metals the matching 4.7.x subsection) without changing its heading or position.
+- Keep the team's analytical standard from chapter 3: say which stage a figure measures (mine, refined, contained metal, shipments), give observation years, and never add incomparable totals.
+- Put trade flows by HS code into research/materials/<metal>_trade.md for chapter 6.
 
 Rules:
 - Log every number with the source-log skill in data/sources.csv before you use it.

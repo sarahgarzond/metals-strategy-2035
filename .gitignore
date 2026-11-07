@@ -3,3 +3,4 @@ __pycache__/
 report/build/
 .DS_Store
 ~$*.xlsx
+report/build/
