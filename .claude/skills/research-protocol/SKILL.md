@@ -20,7 +20,7 @@ Run the fetchers and cite the clean files. Each run logs itself in data/sources.
 | OECD STAN | Output (P1), value added (B1G), employment by ISIC sector and country | `python3 tools/data/fetch.py stan --activity <C24,...> --countries ...` |
 | OECD ICIO / TiVA | Inter industry relationships, trade in value added | data-explorer.oecd.org (SDMX) |
 | UNIDO INDSTAT | Global manufacturing output by ISIC | Blocked for automated access: check data/raw/unido/ for team downloads, otherwise mark blocked and ask the team |
-| IEA | Critical minerals demand and supply scenarios, EV, hydrogen, LNG, WEO | www.iea.org blocks scripts: use WebSearch for the report pages, check data/raw/iea/ for team downloads |
+| IEA | Critical minerals demand and supply scenarios, EV, hydrogen, LNG, WEO | www.iea.org blocks scripts: first read the team downloads in data/raw/ (for example data/raw/WorldEnergyOutlook2025.pdf, use `pdftotext`) and data/raw/iea/, otherwise WebSearch the report pages |
 | SEC EDGAR | 10-K, 20-F, 8-K, XBRL financials of listed companies | `python3 tools/data/fetch.py sec --ticker <T>` |
 | WHO GHO | Health and ageing indicators | `python3 tools/data/fetch.py who --indicator <code>` |
 | IRENA | Renewable capacity statistics | pxweb.irena.org API or IRENASTAT pages |
