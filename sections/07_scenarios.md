@@ -1,49 +1,84 @@
 # 7. Growth Scenarios to 2035
 
-The final link of the chain asks how large demand could become by 2035, and it answers with scenarios rather than a single forecast, because the decade ahead holds genuine uncertainty about engines, energy and electrification. The scenarios measure demand for the high performance metal applications identified in chapter 5, not industry revenue, metal prices or company sales, and no probabilities are assigned to them.
+The final link asks how large alloy demand could become by 2035, answered by a calibrated tier 1 model and a separate tier 2 register, both team estimates [MODEL_T1_RESULTS_2035].
 
 ## 7.1 Growth Model and Scenario Assumptions
 
-The model is deliberately simple so that every result can be traced to its evidence. Demand in each industry is indexed to 100 in 2025 and compounded over ten years with the formula I(2035) = 100 × (1 + g)^10, where g is the annual growth rate of relevant alloy demand, and metal prices and exchange rates are held constant. Each rate is a team assumption anchored to the strongest indicator in chapter 5 and adjusted for material intensity and substitution, as Table 12 shows.
+Tier 1 writes demand as D = A × I × S, the activity driver times alloy mass per unit times the share of units using a high performance alloy, each as a ratio of 2035 to 2025 and indexed to 2025 = 100. It is calibrated to measured end use, as 11,499 t of the 20.0 kt of superalloy cobalt went to aviation in 2025, and the IEA nickel path outside energy technologies sets the envelope [AERO_CI_AVIATION_CO_2025, IEA_CM_NI_OTHER_2025_2035].
 
-Table 12: Scenario assumptions and their evidence anchors
+Table 12: Tier 1 drivers and assumptions, low to high range
 
-| Industry | Downside / base / upside, % a year | Evidence anchor for the base case |
-|---|---|---|
-| Aerospace | 2.0 / 4.5 / 6.0 | Passenger fleet about 3.4% a year, engine output and services growing faster (services 3.8% a year) |
-| Energy and environmental technology | 0.5 / 4.0 / 6.5 | Gas turbine capacity from 17 GW to above 30 GW a year, nuclear from about 2030, hydrogen only in the upside |
-| Electronics and electrical engineering | 0.0 / 3.0 / 5.0 | 300 mm equipment spending of USD 227 bn in 2029, flat German real output |
-| Medical technology | 1.0 / 2.5 / 4.0 | Rising joint replacement rates, European spending growth of 1.8% in 2025 |
-| Chemical processing | −1.0 / 1.0 / 2.5 | EU utilisation of 75%, growth concentrated in Asia |
-| Oil and gas | −1.0 / 0.5 / 1.5 | Upstream investment flat near USD 550 bn, gas up, oil down |
-| Automotive | −3.0 / −1.5 / 0.0 | Electric share of car sales from 25% to about 50% by 2035 |
+| Industry | Activity driver | Growth range to 2035 | Intensity, share | Key source |
+|---|---|---|---|---|
+| Aerospace | New engines and aftermarket | 2.0 to 5.0% and 3.0 to 4.2% a year | Share 0.90 to 1.03 | [AERO_AIRBUS_GSF2026_SERVICES_2045] |
+| Energy | Gas turbines, nuclear, other | Turbine output ratio 1.15 to 1.85 | ±1% a year | [CO_SIEMENSENERGY_CMD_2025] |
+| Electronics | 300 mm fab capacity, components | Index 138 in 2031, then 0 to 6% | −1.5 to +1% a year | [SEMI_300MM_PATH] |
+| Medical | Hip and knee procedures | 3.0 to 4.1% a year | CoCr share 0.90 to 1.02 | [MED_OECD_HK_COUNT_2023] |
+| Chemical | Chemical activity | −1.0 to 2.5% a year | ±0.5% a year | [CEFIC_CAPUTIL_EU27_Q3_2026] |
+| Oil and gas | Upstream investment, LNG | Ratio 0.80 to 1.12 and 1.15 to 1.51 | −1.5 to +1% a year | [OG_WEI2026_UPSTREAM_OG_2026] |
+| Automotive | Car sales, electric share | Electric share 40 to 62% in 2035 | Turbo alloy 0 to 2% a year | [IEA_GEVO_EV_SHARE_2035] |
 
-*Source: team assumptions based on the evidence in chapter 5 [AERO_AIRBUS_GSF2026_SERVICES_2045, CO_SIEMENSENERGY_CMD_2025, SEMI_300MM_2029, MED_MTE_EUR_2025, CEFIC_CAPUTIL_EU27_Q3_2026, OG_WEI2026_UPSTREAM_OG_2026, IEA_GEVO_EV_SHARE_2035].*
+*Source: team assumptions, all parameters in Table A1.*
 
-The three scenarios tell coherent stories rather than mechanical ranges around one number: the downside assumes delayed projects and faster substitution, for example by ceramic matrix composites in engines, the base case assumes the engine and turbine ramp up that manufacturers have announced, and the upside adds faster electrolyser adoption and a stronger European defence build up.
+A backtest shows that past trends erred in both directions, because fitted to 2019 the trend underestimated gas power investment for 2020 to 2025 with a mean absolute percentage error of 36.5 percent and a bias of minus 36.0 percent, but overstated EU vehicle output by 23.0 percent [MODEL_BT_WEI_GASPWR, MODEL_BT_EUROSTAT_C29_EU27_2020]. Half of each growth error is corrected, capped at 1 percentage point a year, and the rest widens the ranges of a Monte Carlo simulation with 10,000 draws and seed 20261108, yielding the percentiles P10, P50 and P90.
 
 ## 7.2 Results by Industry, Product, and Region
 
-The results confirm that growth in high performance metals is concentrated in two industries. Aerospace reaches an index of 155 and energy technology 148 in the base case, and both remain above 100 even in the downside, while automotive is the only industry that shrinks in the base case, falling to 86, and appendix A2 lists every value.
+The results place growth in turbines, engines, electronics and implants, as Figure 3 and Table 13 show, while automotive stays near 98 because combustion parts fall to 66 and electric vehicle parts rise to 192 [MODEL_T1_RESULTS_2035].
 
-Figure 3: Aerospace and energy technology lead demand growth to 2035 in the base and upside cases
+Figure 3: Energy technology and aerospace lead alloy demand to 2035, while automotive stays flat
 
 ![Figure 3](fig/fig3_scenarios.svg)
 
-*Source: team calculation based on Table 12 and Table A1 in appendix A2.*
+*Source: team calculation, band P10 to P90, line P50 [MODEL_T1_RESULTS_2035].*
 
-Translated into product families, the scenarios favour vacuum melted bar and billet over flat products, because the two fastest growing industries buy mostly long products. Table 13 averages the indices of the industries that each product family serves.
+Table 13: Tier 1 alloy demand index 2035 by industry (2025 = 100)
 
-Table 13: Base case demand index 2035 by product family (2025 = 100)
+| Industry | P10 | P50 | P90 | P50 growth a year |
+|---|---|---|---|---|
+| Energy | 126 | 156 | 193 | 4.5% |
+| Aerospace | 137 | 147 | 158 | 3.9% |
+| Electronics | 112 | 141 | 176 | 3.5% |
+| Medical | 132 | 140 | 149 | 3.4% |
+| Oil and gas | 93 | 115 | 143 | 1.4% |
+| Chemical | 87 | 109 | 135 | 0.9% |
+| Automotive | 81 | 98 | 119 | −0.2% |
 
-| Product family | Industries served | Base index 2035 |
-|---|---|---|
-| Superalloy bar, billet and remelt stock | Aerospace, energy | About 152 |
-| Nickel alloy bars, rods and wire | Aerospace, energy, oil and gas | About 136 |
-| Plate, sheet, strip and foil | Chemical, electronics, energy, oil and gas | About 124 |
-| Tubes and fittings | Chemical, energy, oil and gas | About 121 |
-| Precision FeNi strip and foil | Electronics, automotive | About 110 |
+*Source: team calculation [MODEL_T1_RESULTS_2035].*
 
-*Source: team calculation, simple averages of the industry indices in Table A1, rounded.*
+Weighted into product families, the model favours precision FeNi and vacuum melted bar over flat products and tubes, although only the aerospace weight of 0.575 is measured and the others are team assumptions [MODEL_FAM_RESULTS_2035].
 
-Regionally, growth sits in the engine and turbine supply chains of Western Europe and the United States, in Asian chemical construction and in implant markets, while European automotive and base chemical demand declines. Converting these indices into revenue requires the sales mix of a specific producer, so chapter 8 translates them into priorities for producers of high performance metals in general.
+Table 14: Product family index 2035 (2025 = 100) and main industry weights
+
+| Product family | Main industry weights | P10 | P50 | P90 |
+|---|---|---|---|---|
+| Precision FeNi strip and foil | Electronics 0.60, electric vehicles 0.30 | 134 | 157 | 185 |
+| Superalloy bar, billet, remelt stock | Aerospace 0.575, energy 0.30 | 131 | 143 | 158 |
+| Nickel alloy bar, rod and wire | Chemical 0.25, oil and gas 0.25 | 115 | 128 | 142 |
+| Plate, sheet, strip and foil | Chemical 0.30, energy 0.20 | 113 | 125 | 139 |
+| Tubes and fittings | Oil and gas 0.35, chemical 0.25 | 111 | 125 | 141 |
+
+*Source: team calculation, weighted industry indices [MODEL_FAM_RESULTS_2035].*
+
+In the supply overlay, IEA cobalt mine supply falls 30 percent short of 2035 demand, 36 percent if the Congo quota stays at its 2026 level, yet superalloys need only 13 to 20 percent of it, so cobalt is a cost risk rather than a volume ceiling, while the refined nickel gap of 21 percent is an upper bound and copper mines cover 62 percent of demand before scrap [MODEL_SUPPLY_OVERLAY_2035, CO_USGS_QUOTA_2026].
+
+Regionally, engine and turbine growth sits in the United States, a fifth of superalloy cobalt, and Western Europe, while reactor tube demand follows the 40 of 81 reactors under construction in China and Asia takes more than 80 percent of chemical growth [AERO_USGS_CO_SUPER_SHARE, EE_NUC_WNA_UC, BASF_APAC_GROWTH_2035].
+
+Beyond these measured markets, Table 15 registers emerging options, partly from the team research workbook, which enter tier 1 only once their signpost occurs [MODEL_TIER2_REGISTER_2026, TEAM_WORKBOOK_2035].
+
+Table 15: Tier 2 register, not included in tier 1
+
+| Opportunity, alloy and form | TRL | Evidence | Earliest volume | Signpost |
+|---|---|---|---|---|
+| Solid oxide cells, ferritic strip | 9 | Early signal | 2026 | Strip contract at Bloom Energy |
+| Electrolysers, nickel strip and mesh | 8 to 9 | Early signal | 2026 | Nucera orders above EUR 356 m |
+| Additive engine parts, superalloy powder | 7 to 9 | Early signal | 2027 | Part specification with volume |
+| 800 VDC racks, less copper busbar | 6 to 7 | Early signal | 2027 | Eaton and Vertiv busbar launches |
+| Small reactors, zirconium, Alloy 690 tube | 7 to 8 | Early signal | 2030 | Serial tube order after licence |
+| Hydrogen turbines, castings and sheet | 5 to 7 | Speculative | 2030 | Order with hydrogen supply |
+| Fusion magnets, Alloy C-276 tape foil | 4 to 6 | Speculative | 2030 | Magnet order for a pilot plant |
+| sCO2 recuperators, nickel alloy plate | 5 to 6 | Speculative | 2032 | Pilot above 10 MW |
+
+*Sources: team register, TRL and years are team estimates [MODEL_TIER2_REGISTER_2026, TEAM_WORKBOOK_2035, CO_BLOOM_CAP_2026, NVDA_800VDC_ROWCUT].*
+
+Measured growth in four industries and these dated options define the opportunity space that chapter 8 scores.
