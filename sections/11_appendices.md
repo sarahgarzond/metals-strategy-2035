@@ -6,13 +6,13 @@ The report uses Mt for million tonnes, kt for thousand tonnes, t for metric tonn
 
 ## A2 Outlook model, backtest and opportunity scoring
 
-The tier 1 model of chapter 7 is fully reproducible from the repository, and this appendix documents its formulas, parameters, backtest, simulation settings and the scoring rules of chapter 8. Every value is a team estimate unless a source is given, and running python3 model/outlook_2035.py from the repository root rewrites data/clean/model_tier1_results.csv, model_backtest.csv, model_calibration.csv, model_supply_overlay.csv, model_tier2_register.csv, research/model/outlook_results.md and Figures 3 and 4 with identical numbers, while the option --no-log skips the update of the source register [MODEL_T1_RESULTS_2035].
+The tier 1 model of chapter 7 is fully reproducible from the repository, and this appendix documents its formulas, parameters, backtest, simulation settings and the scoring rules of chapter 8. Every value is a team estimate unless a source is given, and running python3 model/outlook_2035.py from the repository root rewrites data/clean/model_tier1_results.csv, model_backtest.csv, model_calibration.csv, model_supply_overlay.csv, model_supply_shocks.csv, model_family_tonnes.csv, model_tier2_register.csv, research/model/outlook_results.md and Figure 3 with identical numbers. The same run calls python3 model/scoring.py, which can also be run alone and rewrites data/clean/model_scores.csv from data/clean/model_scoring_inputs.csv, while the option --no-log skips the update of the source register [MODEL_T1_RESULTS_2035, MODEL_SCORING_2026].
 
 ### A2.1 Formulas and simulation settings
 
-For each industry j with components k, such as new engines and aftermarket in aerospace, the 2035 index is I(j) = 100 × Σ w(k) × A(k) × (1 + i(k))^10 × S(k) × exp(10 × (Δg(j) + σ(j) × ε)). Here A is the activity ratio 2035 to 2025, i the annual trend of alloy mass per unit, S the ratio of the high performance alloy share, w the component weight, Δg the backtest shift and σ the backtest error carried into the range, with ε a standard normal draw. The shift is Δg = −λ × e, where e is the mean annual growth error of the real backtest series of the industry, λ = 0.5 and the shift is capped at 1 percentage point a year, while σ = κ × the root mean square growth error of all series of the industry, with κ = 0.5 and a cap of 3 percentage points. A product family index is the weighted sum of the industry indices with the weights of Table A1, and cobalt tonnes multiply the 2025 base by the index and by the cobalt content ratio.
+For each industry j with components k, such as new engines and aftermarket in aerospace, the 2035 index is I(j) = 100 × Σ w(k) × H(j) × A(k) × (1 + i(k))^10 × S(k) × exp(10 × σ(j) × ε). Here A is the activity ratio 2035 to 2025, H the optimism haircut on drivers that are official guidance (aerospace, energy, oil and gas, automotive, otherwise 1), i the annual trend of alloy mass per unit, S the ratio of the high performance alloy share, w the component weight and σ the backtest error carried into the range, with ε a standard normal draw. Since round 5 no trend shift is applied, because the drivers are guidance and scenarios rather than trend extrapolations and a trend error must not be added on top of them, so σ = κ × the root mean square growth error of the backtest series of the industry, with κ = 0.5 and a cap of 3 percentage points, only widens the range. A product family index is the weighted sum of the industry indices with the weights of Table A1, and cobalt tonnes multiply the 2025 base by the index and by the cobalt content ratio.
 
-The simulation draws 10,000 values with the random seed 20261108 from triangular distributions with the low, mode and high values of Table A1. Activity drivers are linked by a Gaussian copula with a global cycle weight of 0.2 and an industry weight of 0.3, intensity and share draws are independent, and component and product weights vary around their mode in a Dirichlet distribution with concentration 40. All of these settings, λ, κ and both caps are team assumptions, because the backtest windows are short and the test period contains the pandemic.
+The simulation draws 10,000 values with the random seed 20261108 from triangular distributions with the low, mode and high values of Table A1. Activity drivers are linked by a Gaussian copula with a global cycle weight of 0.2 and an industry weight of 0.3, intensity and share draws are independent, and component and product weights vary around their mode in a Dirichlet distribution with concentration 40. All of these settings, κ and its cap are team assumptions, because the backtest windows are short and the test period contains the pandemic.
 
 ### A2.2 Parameters and their sources
 
@@ -28,7 +28,7 @@ Table A1: Tier 1 model parameters, low / mode / high
 | Aerospace | Superalloy mass per engine, trend a year | −1.0 / 0.0 / 1.0% | Team assumption [AERO_AIRBUS_GMF2026_NEWGEN_2035] |
 | Aerospace | Superalloy share of hot section, ratio | 0.90 / 0.98 / 1.03 | Team assumption, ceramic composites and TiAl |
 | Aerospace | Weights new engines and aftermarket | 0.5 and 0.5 | Team assumption [CO_GE_CES_2025] |
-| Energy | Gas turbine output ratio | 1.15 / 1.58 / 1.85 | Siemens Energy path 17 to 30 GW [CO_SIEMENSENERGY_CMD_2025, CO_SIEMENSENERGY_CAP_2026, IEA_WEI_GASPOWER_2025] |
+| Energy | Gas turbine output ratio | 1.00 / 1.58 / 2.00 | Siemens Energy path 17 to 30 GW, widened because only one OEM is evidenced [CO_SIEMENSENERGY_CMD_2025, CO_SIEMENSENERGY_CAP_2026, IEA_WEI_GASPOWER_2025] |
 | Energy | Nuclear fleet and tube ratio | 1.05 / 1.20 / 1.45 | Derived [EE_NUC_IAEA_2025, EE_NUC_WNA_2030, CO_WESTINGHOUSE_PIPE_2026] |
 | Energy | Other equipment growth a year | 2.0 / 3.0 / 3.6% | Electricity demand proxy, team assumption |
 | Energy | Alloy mass per GW, trend a year | −1.0 / 0.0 / 1.0% | Team assumption |
@@ -66,17 +66,28 @@ Table A1: Tier 1 model parameters, low / mode / high
 | Families | Nickel alloy bar, rod and wire | Chemical 0.25, oil and gas 0.25, energy 0.20, aerospace 0.15, medical, car thermal, electronics 0.05 each | Team assumption [ALLEIMA_CHEM_2025] |
 | Families | Plate, sheet, strip and foil | Chemical 0.30, energy 0.20, aerospace 0.20, oil and gas 0.15, car thermal 0.10, electronics 0.05 | Team assumption [AERO_ATI_JETENG_2025] |
 | Families | Tubes and fittings | Oil and gas 0.35, chemical 0.25, energy 0.25, aerospace, car thermal, medical 0.05 each | Team assumption [ALLEIMA_CHEM_2025, EE_NUC_IAEA_2025] |
-| Families | Precision FeNi strip and foil | Electronics 0.60, electric vehicle parts 0.30, medical 0.10 | Team assumption [DNP_INVAR_2024, IEA_GEVO_EV_SHARE_2035] |
+| Families | Precision FeNi strip and foil | OLED mask foil 0.40, EV sensor and shielding 0.25, lead frames and seals 0.35, Dirichlet concentration 8 | Team assumption, no SEMI weight [MODEL_FAM_PRECISIONFENIS] |
+| FeNi | OLED mask foil demand growth a year | −3.0 / 3.0 / 8.3% | High is DNP metal mask sales growth, low mask free routes [MODEL_FENI_OLED_G, DNP_INVAR_2024] |
+| FeNi | Share of OLED lines still using metal masks, ratio | 0.50 / 0.90 / 1.00 | Team assumption [MODEL_FENI_OLED_FMM_SHARE, CO_SDC_FMM_8G6_2025] |
+| FeNi | Foil mass per unit of mask demand, trend a year | −2.0 / 0.0 / 2.0% | Team assumption [MODEL_FENI_OLED_INT] |
+| FeNi | FeNi share of EV sensor and shielding parts, ratio | 0.50 / 0.85 / 1.05 | Team assumption, competes with FeCo and nanocrystalline cores [MODEL_FENI_EV_SHARE] |
+| Haircut | Aerospace activity, realised over guided | 0.80 / 0.92 / 1.02 | Derived, Boeing 0.894 and IEA 0.951, LEAP 1.068 [MODEL_HAIRCUT_AERO] |
+| Haircut | Energy, oil and gas, automotive activity | 0.85 / 0.95 / 1.02 | Derived, IEA 0.951 [MODEL_HAIRCUT_OFFICIAL] |
+| Tonnes | Virgin cobalt content of superalloy melt | 4 / 8 / 15% | Team assumption [MODEL_TON_CO_CONTENT] |
+| Tonnes | Share of melt leaving as bar, billet or remelt stock | 75 / 85 / 95% | Team assumption [MODEL_TON_SUPER_FORM_SHARE] |
+| Tonnes | EU27 share of world nickel mill product use | 12 / 20 / 30% | Team assumption [MODEL_TON_EU_SHARE] |
+| Tonnes | World bar output as multiple of traded floor | 1.0 / 1.5 / 2.5 | Team assumption [MODEL_TON_BAR_MULT] |
+| Severe case | Share of the lost aerospace level recovered by 2035 | 0.0 / 0.7 / 1.0 | Team assumption [MODEL_SEVERE_AERO_RECOVERY] |
 
 *Sources: model/outlook_2035.py and research/model/outlook_results.md [MODEL_AERO_MRO_G, MODEL_EN_GT_R, MODEL_FAM_SUPERALLOYBARB]. The calibration in data/clean/model_calibration.csv reproduces the 20.0 kt of superalloy cobalt in 2025 exactly and leaves the IEA nickel and cobalt totals for 2035 with plausible remainders [IEA_CM_NI_OTHER_2025_2035, IEA_CM_CO_DEMAND_2025_2035].*
 
 ### A2.3 Backtest
 
-The backtest fits a log linear trend to each series up to 2019 and compares its projection for 2020 to the latest year with the outcome, as Table A2 shows. Only real series correct the growth rate, while nominal OECD STAN output series only widen the ranges, because price inflation after 2021 would otherwise appear as volume.
+The backtest fits a log linear trend to each series up to 2019 and compares its projection for 2020 to the latest year with the outcome, as Table A2 shows. Since round 5 no series shifts the growth rate, and all of them only widen the ranges, while the plan against outcome tests in the last three rows set the optimism haircut.
 
 Table A2: Backtest of tier 1 drivers, trend to 2019 against outcome
 
-| Series | Industry | Basis | Test years | MAPE % | Bias % | Growth error, pp a year | Corrects growth |
+| Series | Industry | Basis | Test years | MAPE % | Bias % | Growth error, pp a year | Round 4 shift |
 |---|---|---|---|---|---|---|---|
 | IEA upstream investment | Oil and gas | Real | 2020 to 2025 | 17.3 | −7.6 | −3.45 | Yes |
 | IEA gas power investment | Energy | Real | 2020 to 2025 | 36.5 | −36.0 | −20.68 | Yes |
@@ -89,20 +100,36 @@ Table A2: Backtest of tier 1 drivers, trend to 2019 against outcome
 | OECD STAN C29 output | Automotive | Nominal | 2020 to 2023 | 14.8 | 14.8 | −1.07 | No |
 | Eurostat C29 volume, EU27 | Automotive | Real | 2020 to 2025 | 23.0 | 23.0 | 3.22 | Yes |
 | Eurostat C29 volume, DE, ES, FR, IT | Automotive | Real | 2020 to 2025 | 17.2 to 49.1 | 17.2 to 49.1 | 2.02 to 7.02 | No |
-| IEA WEI 2025 against WEI 2026 | Oil and gas | Real | 2025 | 5.2 | 5.2 | n/a | No |
+| IEA WEI 2025 against WEI 2026, upstream (570 against 542, ratio 0.951) | Oil and gas, energy | Outlook | 2025 | 4.9 | 5.2 | n/a | Haircut |
+| Boeing 737 rate, plan 47 against 42 a month (ratio 0.894) | Aerospace | Plan | 2025 | 10.6 | 11.9 | n/a | Haircut |
+| LEAP deliveries 2026, guidance 18 against 26 percent (ratio 1.068) | Aerospace | Guidance | 2026 | 6.8 | −6.3 | n/a | Haircut |
 
-*Sources: team calculation [MODEL_BT_WEI_UPSTREAM, MODEL_BT_WEI_GASPWR, MODEL_BT_WEI_NUC, MODEL_BT_OECD_HK, MODEL_BT_STAN_C30, MODEL_BT_EUROSTAT_C29_EU27_2020] on IEA, OECD and Eurostat data [IEA_WEI_UPSTREAM_REGION_2026, IEA_WEI_GASPOWER_2025, MED_OECD_HK_COUNT_2023, OECD_STAN_P1, EUROSTAT_C29_EU27_2025]. Bias is the mean of projection minus outcome over outcome. The growth error is the trend slope minus the realised slope.*
+*Sources: team calculation [MODEL_BT_WEI_UPSTREAM, MODEL_BT_WEI_GASPWR, MODEL_BT_WEI_NUC, MODEL_BT_OECD_HK, MODEL_BT_STAN_C30, MODEL_BT_EUROSTAT_C29_EU27_2020] and plan data [OG_WEO2025_UPSTREAM_2025, CO_BA_RATES_2025, CO_BA_737RATE_2026, CO_GE_Q2LEAP_2026, CO_GE_9M26_DELIV] on IEA, OECD and Eurostat data [IEA_WEI_UPSTREAM_REGION_2026, IEA_WEI_GASPOWER_2025, MED_OECD_HK_COUNT_2023, OECD_STAN_P1, EUROSTAT_C29_EU27_2025]. Bias is the mean of projection minus outcome over outcome. The growth error is the trend slope minus the realised slope.*
 
-The resulting corrections are a shift of plus 1.0 percentage point a year for energy and for oil and gas, plus 0.27 points for medical technology and minus 1.0 point for automotive, with no shift for aerospace, chemicals and electronics. Without the shift, the P50 indices would be 142 for energy, 104 for oil and gas, 137 for medical technology and 108 for automotive, against the earlier fixed rate workbook values of 148, 105, 128 and 86, which the model replaces [MODEL_T1_RESULTS_2035].
+The round 4 method would have shifted growth by plus 1.0 percentage point a year for energy and for oil and gas, plus 0.27 points for medical technology and minus 1.0 point for automotive, which gave P50 indices of 156, 115, 140 and 98. Round 5 drops the shift because the gas power error came from a naive trend while the driver is Siemens Energy capacity guidance, so the boom would have been counted twice. Without shift and without haircut the P50 indices are 147 for aerospace, 141 for energy, 104 for oil and gas and 108 for automotive, and the haircut lowers them to 134, 133, 98 and 102, against the earlier fixed rate workbook values of 155, 148, 105 and 86, which the model replaces [MODEL_T1_RESULTS_2035].
 
-### A2.4 Further tier 2 candidates
+### A2.4 Product family tonnes, supply shocks and severe aerospace case
 
-Table 15 in chapter 7 shows eight options, and Table A3 adds the remaining register rows and the team research workbook candidates that the register has not yet assessed, none of which enters tier 1.
+The tonnes of Table 14 are team estimates for each family that are never summed. Superalloy bar, billet and remelt stock divides the 20.0 kt of cobalt used in superalloys in 2025 by a virgin cobalt content of 4, 8 or 15 percent and multiplies by the 75, 85 or 95 percent of melt that leaves the mill as bar, billet or remelt stock, which gives 138, 193 and 279 kt [MODEL_TON_SUPERALLOYBARBIL, AERO_CI_SUPERALLOY_CO_2025]. Chinese reported output of 64.5 kt is a third of the P50 and the fifth VIM furnace at ATI Monroe adds about 9 kt, or 5 percent, so the range is plausible mainly in its upper half because the cobalt method understates revert rich melt [CO_BAOWU_CHINA_SUPERALLOY_2025, ARGUS_SUPERALLOY]. Bar, rod and wire multiplies the 82.6 kt of HS 7505 exports of eight reporters in 2024 by 1.0, 1.5 or 2.5, while flat products and tubes divide EU27 apparent consumption of 57.8 kt and 9.2 kt by an EU share of world use of 12, 20 or 30 percent [MODEL_TON_NICKELALLOYBARRO, MODEL_TON_FLATPRODUCTSPLAT, MODEL_TON_TUBESANDFITTINGS]. The 2035 tonnes multiply each draw by the family index, and FeNi foil is not estimable because no Invar foil tonnes, trade code or mask area are published.
+
+The FeNi family index weights three drivers, OLED fine metal mask foil (P50 105), EV magnetic sensor and shielding parts (158) and FeNi42 lead frames and glass seals (130), with the inputs of Table A1, and the electronics only variant without EV parts gives 89, 118 and 153 [MODEL_FENI_FAMILY_2035]. Round 4 had weighted SEMI fab equipment, which uses no Invar, and the EV sub index, which gave 157 and is replaced.
+
+The shock arithmetic of Table 15 is team arithmetic on logged prices. At 8 percent virgin cobalt a tonne of superalloy holds 176 lb of cobalt, worth USD 3,704 at USD 21 per lb, so a 25 percent rise from USD 16.77 adds about USD 746 per tonne, and CoCr with about 600 kg of cobalt per tonne adds about USD 5,595 [MODEL_SUPPLY_SHOCKS_2026]. A tonne of C-276 holds 40 kg of tungsten, or 5.04 mtu of WO3, which cost USD 1,271 at the 2024 concentrate price of USD 252 per mtu and USD 1,917 at USD 380 in 2025, an increase of USD 646, and ex China mine supply of 18 kt of tungsten means that 10 kt of C-276 use 2.2 percent of it. Nickel passes through the monthly surcharge, at about USD 10 per tonne of alloy per percentage point of nickel content for each USD 1,000 on LME nickel, so margin is exposed only on fixed price contracts and inventory [NI_ATI_NI_LB_2025]. The score changes follow from lowering supply security by one point for the affected positions in model/scoring.py.
+
+The severe aerospace case cuts aerospace activity by 20 percent in 2026 and in 2027, a level of 0.64 of the base path in 2027 motivated by 2020, and then lets growth resume at the base rate while a triangular share of 0, 0.7 or 1.0 of the lost level is recovered by 2035 [MODEL_SEVERE_AERO_RECOVERY]. The aerospace P50 falls from 134 to 113 (P10 96, P90 130), or to 86 without any recovery, the superalloy family from 129 to 116 and aviation cobalt from 15.2 to 12.8 kt, while cumulative aerospace metal demand from 2026 to 2035 is 22.5 percent below the base path and engine bar and billet falls to 3.60 and priority 2 [MODEL_SEVERE_AERO_2035].
+
+### A2.5 Further tier 2 candidates
+
+Table 16 in chapter 7 shows the four nearest options, and Table A3 adds the remaining register rows and the team research workbook candidates that the register has not yet assessed, none of which enters tier 1.
 
 Table A3: Further tier 2 candidates
 
 | Opportunity | Alloy and product form | TRL and evidence | Earliest volume | Signpost or status |
 |---|---|---|---|---|
+| Data centre 800 VDC racks, less copper | Copper busbar and strip | 6 to 7, early signal | 2027 | Eaton, Schneider and Vertiv busbar launches |
+| Hydrogen fuelled gas turbines | Superalloy castings, forgings, combustor sheet | 5 to 7, speculative | 2030 to 2035 | Firm order with a committed hydrogen supply |
+| Fusion magnet HTS substrate tape | Alloy C-276 cold rolled foil | 4 to 6, speculative | 2030 to 2035 | First magnet order for a pilot plant |
+| Supercritical CO2 recuperators | Nickel alloy plate and strip | 5 to 6, speculative | 2032 to 2035 | Pilot above 10 MW with a named plate supplier |
 | Molten salt reactor vessels and piping | NiMoCr plate and tube | 3 to 5, speculative | 2035 or later | Construction permit and ASME code case |
 | Superhot and enhanced geothermal casing | Nickel alloy tube and clad pipe | 4 to 6, speculative | 2032 to 2035 | Well above 400 °C with a published casing alloy |
 | Liquid hydrogen aircraft tanks | Aluminium sheet, austenitic tube | 3 to 4, speculative | 2038 or later | Airframer programme launch |
@@ -112,26 +139,26 @@ Table A3: Further tier 2 candidates
 | Smaller cardiovascular delivery systems | CoNiCrMo fine wire and tube | Not assessed | Not assessed | Workbook candidate |
 | Compact electronics cooling | CuCrZr and copper powder | Not assessed | Not assessed | Workbook candidate |
 
-*Sources: team register and team research workbook, TRL and years are team estimates [MODEL_TIER2_REGISTER_2026, TEAM_WORKBOOK_2035].*
+*Sources: team register and team research workbook, TRL and years are team estimates [MODEL_TIER2_REGISTER_2026, TEAM_WORKBOOK_2035, NVDA_800VDC_ROWCUT]. Captive powder metallurgy disc powder is established and sits inside the superalloy family, and open market AM powder is scored in Table 17.*
 
-### A2.5 Scoring rules for the opportunity matrix
+### A2.6 Scoring rules for the opportunity matrix
 
-The matrix in Table 16 takes the perspective of a qualified producer that already melts and rolls high performance alloys and enters or expands a segment, and Table A4 states how each score from 1 to 5 is derived. Scores of 2 and 4 lie between the anchors shown, early signal rows score growth on their earliest volume year because the model does not quantify them, and the weighted score is the sum of each score times its weight.
+The matrix in Table 17 takes the perspective of a qualified producer that already melts and rolls high performance alloys and enters or expands a segment, and model/scoring.py computes it from the rules in Table A4. Market, growth and supply security are computed from data and never typed in, while competition, technology, customers, entry barriers and differentiation are team judgement on the anchors shown, because the repository holds no measured series for them. The weighted score is the sum of each score times its weight, and the market pools behind the market scores are logged in data/clean/model_scoring_inputs.csv.
 
 Table A4: Scoring rules, weights and evidence
 
-| Criterion, weight | Evidence used | Score 5 | Score 3 | Score 1 |
+| Criterion, weight | Rule or evidence | Score 5 | Score 3 | Score 1 |
 |---|---|---|---|---|
-| Market attractiveness, 15% | Measured 2025 pool and unit value (chapters 5 and 6) | Largest measured pools, such as aviation cobalt or EU flat products of EUR 1.8 to 2.8 bn | Measured niche with premium unit value | No measured volume yet |
-| Growth to 2035, 20% | P50 growth a year of the most specific index in Tables 13 and 14 or driver in Table A1, tier 2 by earliest volume | 4.0% a year or more (4 from 3.0%) | 2.0 to 2.9% a year (2 from 0%), or tier 2 volume by 2028 | Below 0%, or tier 2 volume after 2033 |
-| Supply security, 15% | Concentration, quotas and licences of the main inputs (chapter 4, supply overlay) | Nickel, iron or chromium inputs without export restriction | Cobalt as a minor element under the Congo quota | An input under an active licence halt |
-| Competitive intensity, 10% | Number of qualified suppliers and long term agreements (A6) | Demand above qualified capacity, no dominant incumbent | Several qualified suppliers competing on service | Price competition with new Asian capacity (2 for an oligopoly with agreements) |
+| Market attractiveness, 15% (computed) | End use specific pool: contained cobalt in kt, or EU product code value times an end use weight, or one company end use | Cobalt pool of 10 kt or more (4 from 5 kt, derived pools capped at 4) | Cobalt pool of 2 to 5 kt, EUR 0.30 to 0.75 bn estimated, or a company end use below EUR 0.75 bn | No measured or estimable volume (2 for a mixed wider segment) |
+| Growth to 2035, 20% (computed) | P50 growth a year of the most specific index of Tables 13 and 14 or driver of Table A1, early signals by earliest volume year | 4.0% a year or more (4 from 3.0%) | 2.0 to 2.99% a year (2 from 0%), or early signal volume by 2028 | Below 0%, or early signal volume after 2033 |
+| Supply security, 15% (computed) | Weakest input of the lead grades and its restriction regime (chapter 4) | Nickel, iron or chromium without restriction (4 for a control on a form melters do not buy or a price only quota) | Cobalt below 10% of the alloy under the Congo quota | Active licence halt or a principal element under licence (2 for tungsten below 10% under the Chinese licence or cobalt above 10% under the quota) |
+| Competitive intensity, 10% | Qualified suppliers and long term agreements (A6) | Demand above qualified capacity, no dominant incumbent | Several qualified suppliers competing on service | Price competition with new Asian capacity (2 for an oligopoly with agreements) |
 | Technology attractiveness, 10% | Process route and how many producers master it | Triple melt, foil below 0.1 mm or similar rare routes | Standard grade on a qualified route | Commodity grade in decline |
 | Customer attractiveness, 10% | Buyer backlog, concentration and pricing (chapter 5) | Named buyers with sold out capacity or growing backlog | Fragmented or cyclical buyers | Collapsing orders or state price cuts |
-| Entry barriers, 10% | Time to approval and protection afterwards (A7) | Passable within about two years and protective thereafter (4 for three to five years) | Programme specific or moderate approvals | Captive supply chain closed to outsiders |
+| Entry barriers, 10% | Approval route and protection afterwards (A7) | Passable approval that protects thereafter | Programme specific or moderate approvals | Captive supply chain closed to outsiders |
 | Differentiation potential, 10% | Scope for grade, tolerance or service advantage | Customer specific grades or tolerances | Partly standardised products | Interchangeable products |
 
-*Source: team scoring rules [MODEL_SCORING_2026]. Priority 1 from a weighted score of 3.75, priority 2 from 3.00, and early signal rows are at most gated options. Under equal weights the three priority 1 rows score 4.00, 4.00 and 3.75, and with entry barriers at 20 percent they score 4.14, 4.00 and 3.82.*
+*Source: model/scoring.py [MODEL_SCORING_2026]. Priority 1 from a weighted score of 3.75 and priority 2 from 3.00 for measured rows, Monitor from 2.75 and Harvest below, while early signal rows (E) are Option from 3.00 and Monitor below. The sensitivities are computed, not rounded by hand. Under equal weights engine bar and billet, turbine remelt stock and FeNi36 foil score 3.875, 3.750 and 3.250. With entry barriers at 20 percent and the other weights rescaled proportionally they score 3.822, 3.800 and 3.178, and with the other weights cut equally 3.814, 3.793 and 3.171, so engine bar and billet stays priority 1 in every scheme while turbine remelt stock reaches priority 1 under equal weights and both barrier schemes.*
 
 ## A3 Data sources, product codes and reproducibility
 
@@ -141,7 +168,7 @@ The value range of Table 10 in chapter 6 is a team estimate that multiplies EU a
 
 ## A4 Limitations and further research
 
-The study has three limitations that further research on this market should address. Official statistics stop at the mill product and mix pure nickel with nickel alloys, so the market for specific alloys can only be approximated, and a producer level survey or customs data at the eight digit level would sharpen these estimates. The tier 1 model rests on published activity drivers, but its intensity, share and product family weights are team assumptions, nickel alloy tonnes by industry are not published, and the backtest windows are short, so the model should be rerun when the IEA World Energy Outlook 2026, the next Airbus and Boeing outlooks and new SEMI forecasts appear. Finally, the trade analysis covers ten large reporting countries, so a world mirror data analysis that includes Russia, Sweden and Austria would complete the picture of global corridors.
+The study has three limitations that further research on this market should address. Official statistics stop at the mill product and mix pure nickel with nickel alloys, so the market for specific alloys can only be approximated, and a producer level survey or customs data at the eight digit level would sharpen these estimates. The tier 1 model rests on published activity drivers, but its intensity, share and product family weights are team assumptions, nickel alloy tonnes by industry are not published, the optimism haircut rests on three plan against outcome tests, energy follows one turbine maker and FeNi foil has no measured volume, so the model should be rerun when the IEA World Energy Outlook 2026, the next Airbus and Boeing outlooks and new SEMI forecasts appear. Finally, the trade analysis covers ten large reporting countries, so a world mirror data analysis that includes Russia, Sweden and Austria would complete the picture of global corridors.
 
 ## A5 Sector market indicators
 
@@ -163,12 +190,12 @@ Table A6: Oil and gas indicators, today and 2035
 
 | Indicator | Today | 2035 | Source basis |
 |---|---|---|---|
-| Upstream oil and gas investment | USD 570 bn (2025), USD 546 bn (2026) | Near today's level (Stated Policies), about 10% higher (Current Policies) | IEA |
+| Upstream oil and gas investment | USD 542 bn (2025), USD 546 bn (2026), 2025 prices | Near today's level (Stated Policies), about 10% higher (Current Policies) | IEA |
 | Oil demand | 100 mb/d (2024) | Peak near 102 mb/d around 2030, back near 100 mb/d | IEA Stated Policies |
 | LNG trade | 560 bcm (2024) | 880 bcm (Current Policies) | IEA |
 | Upstream growth regions 2026 | Africa +12%, Central and South America +10% | Continued shift | IEA |
 
-*Sources: IEA World Energy Outlook 2025 and World Energy Investment 2026 [OG_WEO2025_UPSTREAM_2025, OG_WEO2025_CPS_EXTRA_UPSTREAM, OG_WEO2025_OIL_DEMAND_2024, OG_WEO2025_LNG_DEMAND_2024, OG_WEI2026_SSA_UPSTREAM_2026].*
+*Sources: IEA World Energy Outlook 2025 and World Energy Investment 2026 [IEA_WEI_UPSTREAM_REGION_2026, OG_WEO2025_CPS_EXTRA_UPSTREAM, OG_WEO2025_OIL_DEMAND_2024, OG_WEO2025_LNG_DEMAND_2024, OG_WEI2026_SSA_UPSTREAM_2026]. The WEO 2025 estimate of just under USD 570 bn for 2025 was on a 2024 price basis and is used only in the haircut test of A2.3 [OG_WEO2025_UPSTREAM_2025].*
 
 Table A7: Energy technology indicators relevant to high performance metals
 
@@ -241,46 +268,48 @@ Table A12: Peer benchmark of specialty metal producers
 | Company | Revenue, latest year | Margin | Capacity move |
 |---|---|---|---|
 | Howmet Aerospace | USD 8,252 m (2025) | 24.8% operating | Engine products capacity, USD 453 m capex |
-| Carpenter Technology | USD 3,124 m (FY2026) | 22.5% operating | Athens, Alabama expansion, capex USD 355 to 375 m guided |
+| Carpenter Technology | USD 3,124 m (FY2026) | 22.5% operating | Company capex USD 243 m (FY2026) and USD 355 to 375 m guided (FY2027), mainly Athens, Alabama |
 | ATI | USD 4,587 m (2025) | 14.0% operating | Fifth VIM furnace in Monroe, about 9 kt a year from 2027 |
 | PCC including Special Metals | USD 10.8 bn (2025) | Not published | Aerospace revenue up 7.5% |
 | Aubert & Duval | EUR 844 m (2024) | Not published | Owned by Airbus, Safran and Tikehau |
 | Alleima | SEK 18,630 m (2025) | 8.3% adjusted EBIT | Fourth VAR furnace at Sandviken |
 | Outokumpu | EUR 5,468 m (2025) | 3.1% adjusted EBITDA | About 13 kt high nickel flat at Avesta, about EUR 150 m |
-| Aperam | EUR 6,080 m (2025) | 5.6% adjusted EBITDA | New VIM complex at Imphy within EUR 160 m programme |
-| Daido Steel | JPY 578 bn (FY2025) | 7.3% operating | JPY 36 bn high alloy melting and forging base |
+| Aperam | EUR 6,080 m (2025) | 5.6% adjusted EBITDA | New VIM complex at Imphy within a EUR 160 m programme for four sites, VIM amount not disclosed |
+| Daido Steel | JPY 578 bn (FY2025) | 7.3% operating | About JPY 36 bn high alloy process reform at Chita and Shibukawa, single trade press report |
 | Nippon Yakin Kogyo | JPY 151 bn (FY2025) | 7.3% operating | Sales down 12% on weak high nickel demand |
 
 *Sources: company filings and reports [CO_HWM_SALES_2025, CO_HWM_CAPEX_2025, CO_CRS_SALES_2026, CO_CRS_OPINC_2026, CO_CRS_CAPEX_2026, CO_ATI_SALES_2025, ARGUS_SUPERALLOY, CO_PCC_REV_2025, CO_AD_REV_PRESS_2025, CO_ALLEIMA_REV_2025, CO_ALLEIMA_ADJEBIT_2025, CO_OUTOKUMPU_SALES_2025, CO_OUTOKUMPU_HINI_CAP_2026, CO_APERAM_SALES_2025, CO_APERAM_INVEST_2026, CO_DAIDO_SALES_2026, CO_NIPPONYAKIN_SALES_2026]. Margins as reported or calculated from reported figures, fiscal years differ.*
 
 ## A7 Qualification gates by industry
 
-The qualification gates below determine how quickly a producer can enter each application, and they underlie the entry barrier scores of Table 16 and the gates of Table 17.
+The qualification gates below determine how quickly a producer can enter each application, and they underlie the entry barrier scores of Table 17 and the gates of Table 18.
 
 Table A13: Qualification gates by industry
 
 | Industry | Approval gate | Who approves | Implication |
 |---|---|---|---|
-| Aerospace | AMS specifications, NADCAP accredited processes, part level approval | Engine makers and forgers | Years per part family, start in 2026 |
+| Aerospace | AMS specifications, NADCAP accredited processes, part level approval | Engine makers and forgers | A new raw material source takes a year or more to qualify (Boeing), isothermal forging lead times exceed two years (ATI) |
 | Energy | Casting house and turbine maker approvals, ASME III and RCC-M for nuclear | Turbine makers, utilities, tube makers | Nuclear approvals only with a named programme |
 | Oil and gas | NORSOK M-650, API 6ACRA and API 5LD, operator approval lists | Operators, pipe and equipment makers | Approval lists are the moat |
 | Chemical | Pressure equipment rules (VdTÜV, AD 2000, ASME), corrosion test data | Fabricators, plant operators | Life cycle cost evidence wins |
 | Medical | ASTM F75 and F1537 material standards, supplier audits | Implant makers with ISO 13485 | Few buyers, long relationships |
 
-*Source: team summary of the standards named in chapter 5.*
+*Sources: team summary of the standards named in chapter 5, with the only published time ranges [CO_BA_RAWMAT_2025, CO_ATI_LEAD_2026]. No source in the research base gives approval times for the other industries, so their entry barrier scores remain team judgement.*
 
 ## A8 Risks and kill criteria
 
-The roadmap in Table 17 carries known risks, and each of them can be met with a defined response and a point at which a producer should stop, as Table A14 shows.
+The roadmap in Table 18 carries known risks, and each of them can be met with a defined response and a point at which a producer should stop, as Table A14 shows.
 
 Table A14: Main risks, responses and kill criteria
 
-| Risk | Early signal | Response | Kill criterion |
-|---|---|---|---|
-| Qualification slower than planned | Part approvals behind schedule | Focus on repair and casting stock, which qualify faster | No long term agreement by end 2028, so no capacity step |
-| Substitution by ceramic matrix composites and titanium aluminide | New engine variants with lower nickel content | Join customer development programmes early | Falling hot section nickel content in new programmes |
-| New Asian superalloy capacity | Japanese and Chinese producers win Western approvals | Speed and service close to European customers | Prices below conversion cost in tenders |
-| Cobalt, tungsten and molybdenum supply | Quota and licence changes | Several sources, revert recovery, stocks | Single source above half of an input |
-| European demand weakness | Chemical utilisation below 75%, falling engine volumes | Shift sales to Asia and the United States | Contribution margin below plan for two years |
+| Risk | Likelihood, impact | Early signal | Response | Kill criterion, number and date |
+|---|---|---|---|---|
+| Qualification slower than planned | M, H | Fewer than two part family approvals by Q4 2027 | Shift effort to remelt stock and repair alloys | Agreements below 1.5 kt a year at Q2 2028, so no melt capacity step |
+| Aerospace downturn as in the severe case | L, H | Airbus and Boeing deliveries below the 1,393 of 2025 in 2027 | Defer capacity, serve the aftermarket | Two consecutive years of falling deliveries by 2028 put engine billet at priority 2 (3.60) |
+| Substitution by ceramic composites and TiAl | M, M | New engine variants with ceramic turbine parts | Join customer development programmes | Aerospace P50 below the current P10 of 121 in the 2028 model rerun |
+| New Asian superalloy capacity | M, M | Chinese output above the 64.5 kt of 2025, Western approvals for Chinese melters | Compete on lead time and service near customers | Two lost tenders in a row at prices below 2025 contract levels by 2029 |
+| Cobalt and tungsten supply | M, H | Congo quota at or below 96.6 kt in the 2027 review, tungsten licence halt | Second sources, revert recovery, stock | Any single source above 50% of an input after Q4 2027, or the quota at the CMOC entitlement ratio by 2028, which pauses CoCr capacity |
+| FeNi mask demand | M, M | A Gen 8.6 line announced mask free by a major panel maker | Keep the pilot small | No foil approval and offtake agreement by Q4 2028 |
+| European demand weakness | H, M | EU chemical utilisation below 75% (Q3 2026: 75.0%) | Shift sales to Asia and the United States | Utilisation below 75% in four consecutive quarters by 2028 stops chemical plate investment |
 
-*Source: team assessment based on chapters 4 to 7 [CO_DAIDO_HIGHALLOY_2026, CEFIC_CAPUTIL_EU27_Q3_2026].*
+*Source: team assessment based on chapters 4 to 7, thresholds are team proposals [CEFIC_CAPUTIL_EU27_Q3_2026, CO_AIRBUS_DELIV_2025, CO_BA_DELIV_2025, CO_USGS_QUOTA_2026, CO_BAOWU_CHINA_SUPERALLOY_2025, MODEL_SEVERE_AERO_2035]. Likelihood and impact are rated H high, M medium and L low.*
