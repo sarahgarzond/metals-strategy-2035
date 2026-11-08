@@ -45,6 +45,7 @@ SD_CAP = 0.030    # cap on the annual error carried into the range (team assumpt
 RHO_GLOBAL, RHO_IND = 0.2, 0.3   # copula weights: global cycle and industry factor (team assumption)
 CONC = 40.0       # Dirichlet concentration for component and product weights (team assumption)
 rng = np.random.default_rng(SEED)
+rng_new = np.random.default_rng(SEED + 1)   # round 5 additions use their own stream, so earlier draws stay reproducible
 
 # ------------------------------------------------------------------ helpers
 
@@ -85,10 +86,10 @@ def u_ind():
     return rng.random(N)
 
 
-def dirichlet(wdict):
+def dirichlet(wdict, conc=None, gen=None):
     keys = list(wdict)
-    a = np.array([wdict[k] for k in keys]) * CONC
-    g = rng.gamma(a, size=(N, len(keys)))
+    a = np.array([wdict[k] for k in keys]) * (CONC if conc is None else conc)
+    g = (gen or rng).gamma(a, size=(N, len(keys)))
     g = g / g.sum(axis=1, keepdims=True)
     return {k: g[:, i] for i, k in enumerate(keys)}
 
@@ -217,13 +218,47 @@ for ind, g in bt_df.groupby("industry"):
     shift = -LAMBDA * float(np.clip(mean_err, -SHIFT_CAP / LAMBDA, SHIFT_CAP / LAMBDA))
     rmse = float(np.sqrt((g.err ** 2).mean()))
     sd = KAPPA * min(rmse, SD_CAP)
-    BT_IND[ind] = dict(mean_err=mean_err, shift=shift, rmse=rmse, sd=sd, n_real=len(real), n=len(g))
-    par(f"MODEL_BT_{ind.upper()}", f"Backtest correction for {ind}: annual growth shift and annual sd carried into the range", shift, mean_err, sd,
-        "per year (shift, mean error, sd)", "derived from backtest", "OECD_STAN_P1 / IEA_WEI_UPSTREAM_REGION_2026 / MED_OECD_HK_COUNT_2023 / EUROSTAT_C29_EU27_2025",
-        f"Shift is minus {LAMBDA} times the mean annual growth error of real series (capped at {SHIFT_CAP*100:.1f} pp), sd is {KAPPA} times the RMSE of all series (capped at {SD_CAP*100:.1f} pp). Lambda, kappa and caps are team assumptions: windows are short and 2020 to 2025 contains the pandemic.")
+    # Round 5: the trend backtest bias is NOT added to drivers that are official guidance (Siemens Energy capacity, IEA scenarios, Airbus GMF).
+    # It is still computed (shift_old) so that Table 13 can be shown with and without it. Only the sd widens the range.
+    BT_IND[ind] = dict(mean_err=mean_err, shift_old=shift, shift=0.0, rmse=rmse, sd=sd, n_real=len(real), n=len(g))
+    par(f"MODEL_BT_{ind.upper()}", f"Backtest range widening for {ind}: annual sd carried into the range (trend shift computed but not applied)", 0.0, mean_err, sd,
+        "per year (shift applied, mean error, sd)", "derived from backtest", "OECD_STAN_P1 / IEA_WEI_UPSTREAM_REGION_2026 / MED_OECD_HK_COUNT_2023 / EUROSTAT_C29_EU27_2025",
+        f"Round 5: no growth shift is applied, because the drivers are official guidance and scenarios, not trend extrapolations, and a trend error must not be added on top. The round 4 shift would have been {shift*100:+.2f} pp a year (minus {LAMBDA} times the mean annual growth error of real series, capped at {SHIFT_CAP*100:.1f} pp). The sd is {KAPPA} times the RMSE of all series (capped at {SD_CAP*100:.1f} pp). Lambda, kappa and caps are team assumptions: windows are short and 2020 to 2025 contains the pandemic.")
 
 # one point outlook versus outcome (two vintages of the IEA investment series)
 OUTLOOK_CHECK = dict(series="BT_OUTLOOK_WEI2025_vs_WEI2026", outlook=570.0, outcome=542.0)
+
+# Round 5: outlook versus outcome tests that exist in the repository. Ratio = outcome / outlook (below 1 means the plan was optimistic).
+# Older Airbus GMF, Boeing CMO or IEA WEO editions with a year by year path are NOT in the repository (only AIRBUS_GMF_2025 as a 20 year total),
+# so no ten year outlook can be tested. TODO(data): GMF 2016 to 2019 and CMO 2016 to 2019 delivery paths against actual deliveries.
+OUTLOOK_TESTS = [
+    dict(id="OT_WEI_UPSTREAM", industry="oil_and_gas, energy", what="IEA WEI 2025 estimate of 2025 upstream oil and gas investment (just under USD 570 bn, 2024 prices) versus WEI 2026 outcome (USD 542 bn, 2025 prices)",
+         outlook=570.0, outcome=542.0, src="OG_WEO2025_UPSTREAM_2025, IEA_WEI_UPSTREAM_REGION_2026", note="One point, one year ahead, price base differs."),
+    dict(id="OT_BA_737_RATE", industry="aerospace", what="Boeing 737 production rate: plan of 47 a month in 2026 versus 42 a month reached in Q4 2025, with stabilisation at 47 pushed into 2027",
+         outlook=47.0, outcome=42.0, src="CO_BA_RATES_2025, CO_BA_737RATE_2026", note="Plan against rate reached at the start of the plan year. Wing supply is the stated bottleneck. The 2027 stabilisation is a statement, not a number."),
+    dict(id="OT_LEAP_2026", industry="aerospace", what="CFM LEAP deliveries 2026: GE guidance of high teens growth (18 percent) versus GE nine month growth of 26 percent",
+         outlook=1.18, outcome=1.26, src="CO_GE_Q2LEAP_2026, research/sectors/aerospace.md", note="Engines beat guidance while airframe rates missed plan: this is the counter evidence, a ratio above 1."),
+]
+for t in OUTLOOK_TESTS:
+    t["ratio"] = t["outcome"] / t["outlook"]
+OT = {t["id"]: t["ratio"] for t in OUTLOOK_TESTS}
+# Memo, not a test of a forecast: 2025 combined Airbus plus Boeing deliveries against the average annual requirement of the GMF 2025 path
+MEMO_DELIV_RATIO = (793 + 600) / (43420 / 20.0)
+
+# optimism haircut: ratio of realised to officially guided 2035 activity, applied to drivers that are official guidance
+HAIR_AERO = par("MODEL_HAIRCUT_AERO", "Optimism haircut on aerospace activity 2035 (realised over guided), ratio", 0.80, 0.92, 1.02, "ratio", "derived plus team assumption",
+                "CO_BA_RATES_2025 / CO_BA_737RATE_2026 / OG_WEO2025_UPSTREAM_2025 / IEA_WEI_UPSTREAM_REGION_2026 / CO_GE_Q2LEAP_2026 / CO_AIRBUS_DELIV_2025 / AIRBUS_GMF_2025",
+                f"Mode 0.92 is the mean of the Boeing 737 rate ratio ({OT['OT_BA_737_RATE']:.3f}) and the IEA WEI vintage ratio ({OT['OT_WEI_UPSTREAM']:.3f}), rounded. Low 0.80 doubles the Boeing shortfall (team assumption, a delivery ramp that slips about three years). High 1.02 allows the LEAP beat ({OT['OT_LEAP_2026']:.2f}) to persist. Memo: 2025 Airbus 793 plus Boeing 600 deliveries are {100*MEMO_DELIV_RATIO:.0f} percent of the Airbus GMF 2025 average annual requirement of 2,171 aircraft, so the ramp is behind the path (backlog 8,754 Airbus aircraft). Only two plan against outcome points and one vintage test exist: low evidence.")
+HAIR_OTH = par("MODEL_HAIRCUT_OFFICIAL", "Optimism haircut on energy, oil and gas, automotive activity 2035 (realised over guided), ratio", 0.85, 0.95, 1.02, "ratio", "derived plus team assumption",
+               "OG_WEO2025_UPSTREAM_2025 / IEA_WEI_UPSTREAM_REGION_2026",
+               f"Mode 0.95 is the IEA WEI vintage ratio ({OT['OT_WEI_UPSTREAM']:.3f}). Low 0.85 and high 1.02 are team assumptions: one point, one year ahead, so the width is deliberately generous. Siemens Energy capacity is one OEM only (GE Vernova and Mitsubishi Power are not in research/, TODO(data)).")
+HAIR = {}
+_hg = np.random.default_rng(SEED + 2)
+_u_ha = _hg.random(N)
+_u_ho = _hg.random(N)
+HAIR["aerospace"] = tri_ppf(_u_ha, *HAIR_AERO)
+for _k in ("energy", "oil_and_gas", "automotive"):
+    HAIR[_k] = tri_ppf(_u_ho, *HAIR_OTH)
 
 # ------------------------------------------------------------------ 2. Tier 1 specification
 
@@ -267,9 +302,9 @@ par("MODEL_AERO_W", "Weight of aftermarket versus new engine output in the aeros
     "GE Commercial Engines and Services takes 75 percent of revenue from services, but metal pull per revenue dollar is higher for new parts. Equal weights, Dirichlet noise.")
 
 # ENERGY
-e1 = par("MODEL_EN_GT_R", "Gas turbine output ratio 2035 to 2025", 1.15, gt_ratio, 1.85, "ratio", "derived plus team assumption",
+e1 = par("MODEL_EN_GT_R", "Gas turbine output ratio 2035 to 2025", 1.00, gt_ratio, 2.00, "ratio", "derived plus team assumption",
          "CO_SIEMENSENERGY_CMD_2025 / CO_SIEMENSENERGY_CAP_2026 / IEA_WEI_GASPOWER_2025",
-         "Mode: Siemens Energy path 17 GW (FY2024) to 30 GW (FY2029 midpoint of FY2028 to 2030), flat afterwards, as a proxy for world output. Low 1.15: order cycle turns once the backlog is delivered (IEA gas power investment 112 to 114 USD bn, flat). High 1.85: capacity keeps growing 3 percent a year after 2030.")
+         "Mode: Siemens Energy path 17 GW (FY2024) to 30 GW (FY2029 midpoint of FY2028 to 2030), flat afterwards, as a proxy for world output. This is ONE OEM: GE Vernova and Mitsubishi Power are not profiled in research/ (TODO(data): their announced capacity), so the range is widened in round 5 from 1.15 to 1.85 to 1.00 to 2.00. Low 1.00: order cycle turns once the backlog is delivered and output returns to the 2025 level (IEA gas power investment 112 in 2025 and 114 USD bn in 2026, flat). High 2.00: capacity keeps growing about 3 percent a year after 2030 or the other OEMs add more than Siemens Energy.")
 e2 = par("MODEL_EN_NUC_R", "Nuclear fleet and tube demand ratio 2035 to 2025", 1.05, 1.20, 1.45, "ratio", "derived plus team assumption",
          "EE_NUC_IAEA_2025 / EE_NUC_WNA_2030 / CO_WESTINGHOUSE_PIPE_2026",
          "Mode: 377 GW operating plus 56 GWe under construction gives 1.15 by 2030, then 4 percent more. Low: retirements offset additions. High: AP1000 and small reactor programmes beyond the build now under way.")
@@ -370,14 +405,15 @@ FAM = {
     "Tubes and fittings": dict(w=dict(oil_and_gas=0.35, chemical=0.25, energy=0.25, aerospace=0.05, automotive_thermal=0.05, medical=0.05),
         why="Team assumption: umbilical and downhole tube (Alleima oil and gas 24 percent), process tube, steam generator tube in nuclear.",
         src="ALLEIMA_CHEM_2025, EE_NUC_IAEA_2025"),
-    "Precision FeNi strip and foil": dict(w=dict(electronics=0.60, automotive_ev=0.30, medical=0.10),
-        why="Team assumption by design: electronics (invar masks, lead frames, shielding) and electric vehicle sensors and motors only. The combustion car index is excluded on purpose.",
-        src="DNP_INVAR_2024, IEA_GEVO_EV_SHARE_2035"),
+    "Precision FeNi strip and foil": dict(w=dict(oled=0.40, ev_sensor=0.25, leadframe=0.35), conc=8.0,
+        why="Round 5 rebuild, no SEMI fab equipment weight (fab tools use no Invar). Components: OLED fine metal mask foil (driver: DNP metal mask sales growth, mask free competition), EV magnetic sensor and shielding parts (driver: electric car production with an explicit FeNi share range against electrical steel, FeCo and nanocrystalline cores) and lead frames and glass to metal seals (driver: electronic components output). All three weights are team assumptions because no FeNi tonnes by use are published (TODO(data): Proterial, Aperam Imphy and VAC volumes). Dirichlet concentration 8 (low evidence).",
+        src="DNP_INVAR_2024, DNP_KUROSAKI_2024, CO_SDC_FMM_8G6_2025, IEA_GEVO_EV_SHARE_2035, ZVEI_PROD_REAL"),
 }
+FENI = "Precision FeNi strip and foil"
 for k, v in FAM.items():
     par("MODEL_FAM_" + "".join(c for c in k.upper() if c.isalpha())[:14],
         f"Product family weights: {k}", min(v['w'].values()), max(v['w'].values()), sum(v['w'].values()), "weights (min, max, sum)", "team assumption",
-        v["src"], v["why"] + " Weights: " + ", ".join(f"{a} {b:.3f}" for a, b in v["w"].items()) + f". Dirichlet noise, concentration {CONC:.0f}.")
+        v["src"], v["why"] + " Weights: " + ", ".join(f"{a} {b:.3f}" for a, b in v["w"].items()) + f". Dirichlet noise, concentration {v.get('conc', CONC):.0f}.")
 
 # metal content ratios (2035 over 2025)
 NI_CONT = par("MODEL_NI_CONTENT", "Nickel content of the alloy class, ratio 2035 to 2025", 0.98, 1.0, 1.02, "ratio", "team assumption", "(none, see reason)", "Grades are specified by standards, so the nickel content moves little.")
@@ -390,6 +426,19 @@ DC_EXT = par("MODEL_CU_DC_G", "Data centre power growth 2030 to 2035, annual", 0
              "IEA: data centre electricity 415 TWh (2024) to 945 TWh (2030). Nothing is published after 2030 (TODO(data)).")
 CU_INT = par("MODEL_CU_DC_INT", "Copper per TWh of data centre power, annual trend", -0.040, -0.020, 0.0, "per year", "team assumption", "NVDA_800VDC / NVDA_800VDC_ROWCUT",
              "800 VDC cuts row level copper by 45 percent from 2027 (single source), 54 VDC needs up to 200 kg busbar per MW rack.")
+
+# FeNi drivers (round 5)
+fo_g = par("MODEL_FENI_OLED_G", "OLED fine metal mask (Invar) foil demand growth, annual", -0.030, 0.030, 0.083, "per year", "sourced plus team assumption",
+           "DNP_INVAR_2024 / DNP_KUROSAKI_2024 / CO_SDC_FMM_8G6_2025 / CO_SDC_A6_INVEST_2023",
+           "LOW EVIDENCE. No OLED panel line capacity in square metres, no OLED shipments and no foil tonnes exist in research/sectors/electronics.md, dnp.md or samsung-display.md (SDC monthly substrate capacity: TODO(data)). Evidence that does exist: DNP doubled metal mask capacity at Kurosaki (2024) with full use planned beyond 2026, masks are jigs so sales follow product types, not panel units, and the DNP Q&A quotes a metal mask sales CAGR of +8.3 percent (page not re-read). High 8.3 percent is that figure. The USD 370 million paid market report with 14.9 percent growth is not used. Mode 3 percent: Gen 8.6 lines at Samsung Display and BOE add mask area but jigs limit unit growth. Low minus 3 percent: mask free routes at Visionox and TCL CSOT spread.")
+fo_i = par("MODEL_FENI_OLED_INT", "Foil mass per unit of mask demand, annual trend", -0.020, 0.0, 0.020, "per year", "team assumption", "(none, see reason)",
+           "Larger Gen 8.6 glass adds mask area per jig, thinner foil removes mass. No foil gauge or kilogram per mask is published (TODO(data)).")
+fo_s = par("MODEL_FENI_OLED_FMM_SHARE", "Share of OLED evaporation lines still using fine metal masks, ratio 2035 to 2025", 0.50, 0.90, 1.00, "ratio", "team assumption",
+           "CO_SDC_FMM_8G6_2025 / DNP_INVAR_2024",
+           "Samsung Display and BOE use FMM on Gen 8.6, Visionox and TCL CSOT pursue mask free routes, DNP does not expect an immediate switch. Low 0.5 means half of the 2025 mask based volume is displaced by 2035. No panel share data exist.")
+fe_s = par("MODEL_FENI_EV_SHARE", "FeNi share of EV magnetic sensor and shielding parts, ratio 2035 to 2025", 0.50, 0.85, 1.05, "ratio", "team assumption",
+           "(none, see reason)",
+           "LOW EVIDENCE. Traction motors do not use FeNi. Only resolvers, sensors and shielding are in scope, where FeNi competes with electrical (silicon) steel, FeCo (Hiperco, Vacoflux), ferrite and nanocrystalline cores (Vitroperm, Finemet). The 2025 FeNi share of these parts is TODO(data), so only the change is modelled: low 0.5 (half the parts lost to nanocrystalline and FeCo), mode 0.85, high 1.05.")
 
 # ------------------------------------------------------------------ 3. Monte Carlo
 
@@ -422,7 +471,7 @@ PATH = {}     # industry -> N x 11 array
 ACTR = {}     # (industry, component) -> activity ratio
 
 
-def run_industry(ind, comps, bt_key=None, extra=None):
+def run_industry(ind, comps, bt_key=None, extra=None, hair=None):
     ws = dirichlet({c["name"]: c["w"] for c in comps})
     btl = bt_log(bt_key or ind)
     tot = np.zeros(N)
@@ -430,6 +479,8 @@ def run_industry(ind, comps, bt_key=None, extra=None):
     for c in comps:
         a = extra[c["name"]] if extra else draw_act(ind, c["act"])
         a = a * np.exp(btl)
+        if hair is not None:
+            a = a * hair
         it = (1.0 + tri_ppf(u_ind(), *c["int"])) ** H
         sh = tri_ppf(u_ind(), *c["share"])
         R = a * it * sh
@@ -441,7 +492,7 @@ def run_industry(ind, comps, bt_key=None, extra=None):
 
 
 for ind in ["aerospace", "energy", "electronics", "medical", "chemical", "oil_and_gas"]:
-    IDX[ind], PATH[ind] = run_industry(ind, IND_COMP[ind])
+    IDX[ind], PATH[ind] = run_industry(ind, IND_COMP[ind], hair=HAIR.get(ind))
 
 # automotive: shared car sales and electric share draws feed both sub indices
 T = tri_ppf(u_act("automotive"), *t_car)
@@ -452,8 +503,8 @@ IND_COMP["automotive_thermal"] = [dict(name="Combustion and hybrid cars (turbo, 
                                        driver="New car sales x (1 minus electric share), 2025 electric share 25 percent", src="IEA_GEVO_EV_SHARE_2025, IEA_WEO_EV_STEPS_2035, IEA_WEO_EV_CPS_2035, ACEA_CAR_REG_2025")]
 IND_COMP["automotive_ev"] = [dict(name="Electric cars (motors, resolvers, sensors)", w=1.0, act=None, int=aei, share=aes,
                                   driver="New car sales x electric share, 20 million electric cars in 2025", src="IEA_GEVO_EV_SALES_2025, IEA_GEVO_EV_SHARE_2025, IEA_GEVO_ECARS_STEPS_2035")]
-IDX["automotive_thermal"], PATH["automotive_thermal"] = run_industry("automotive", IND_COMP["automotive_thermal"], extra={IND_COMP["automotive_thermal"][0]["name"]: th_act})
-IDX["automotive_ev"], PATH["automotive_ev"] = run_industry("automotive", IND_COMP["automotive_ev"], extra={IND_COMP["automotive_ev"][0]["name"]: ev_act})
+IDX["automotive_thermal"], PATH["automotive_thermal"] = run_industry("automotive", IND_COMP["automotive_thermal"], extra={IND_COMP["automotive_thermal"][0]["name"]: th_act}, hair=HAIR["automotive"])
+IDX["automotive_ev"], PATH["automotive_ev"] = run_industry("automotive", IND_COMP["automotive_ev"], extra={IND_COMP["automotive_ev"][0]["name"]: ev_act}, hair=HAIR["automotive"])
 IND_COMP["automotive"] = [dict(IND_COMP["automotive_thermal"][0], w=0.75), dict(IND_COMP["automotive_ev"][0], w=0.25)]
 wa = dirichlet(dict(t=0.75, e=0.25))
 IDX["automotive"] = wa["t"] * IDX["automotive_thermal"] + wa["e"] * IDX["automotive_ev"]
@@ -467,8 +518,33 @@ ORDER = ["aerospace", "energy", "electronics", "medical", "chemical", "oil_and_g
 
 # product families
 FAMIDX = {}
+FAMWS = {}
+# FeNi components (own random stream, activity correlated with the electronics and automotive factors)
+
+
+def _u_new(ind):
+    e = rng_new.standard_normal(N)
+    return phi(math.sqrt(RHO_GLOBAL) * Z0 + math.sqrt(RHO_IND) * ZI[ind] + math.sqrt(1 - RHO_GLOBAL - RHO_IND) * e)
+
+
+_be, _ba = BT_IND["electronics"], BT_IND["automotive"]
+FENI_C = {}
+FENI_C["oled"] = (1 + tri_ppf(_u_new("electronics"), *fo_g)) ** H * (1 + tri_ppf(rng_new.random(N), *fo_i)) ** H * tri_ppf(rng_new.random(N), *fo_s) \
+    * np.exp(_be["sd"] * H * rng_new.standard_normal(N)) * 100.0
+FENI_C["ev_sensor"] = ev_act * HAIR["automotive"] * (1 + tri_ppf(rng_new.random(N), *aei)) ** H * tri_ppf(rng_new.random(N), *fe_s) \
+    * np.exp(_ba["sd"] * H * rng_new.standard_normal(N)) * 100.0
+FENI_C["leadframe"] = (1 + tri_ppf(_u_new("electronics"), *l2)) ** H * (1 + tri_ppf(rng_new.random(N), *eli)) ** H * tri_ppf(rng_new.random(N), *els) \
+    * np.exp(_be["sd"] * H * rng_new.standard_normal(N)) * 100.0
 for fam, spec in FAM.items():
+    if fam == FENI:
+        ws = dirichlet(spec["w"], conc=spec["conc"], gen=rng_new)
+        FAMIDX[fam] = sum(ws[k] * FENI_C[k] for k in spec["w"])
+        w2 = dirichlet(dict(oled=0.40 / 0.75, leadframe=0.35 / 0.75), conc=spec["conc"], gen=rng_new)
+        FENI_ELEC = w2["oled"] * FENI_C["oled"] + w2["leadframe"] * FENI_C["leadframe"]
+        FAMWS[fam] = ws
+        continue
     ws = dirichlet(spec["w"])
+    FAMWS[fam] = ws
     FAMIDX[fam] = sum(ws[k] * IDX[k] for k in spec["w"])
 
 # metals
@@ -596,9 +672,15 @@ T2 = [
     ("SMR cladding and steam generator tubing", "Zirconium, nickel (Alloy 690)", "Cladding tube, steam generator tube, bar and hollows", "7 to 8 (team estimate, Darlington SMR-1 under construction)", "early signal", "2030 to 2033",
      "WEO 2025: agreements and expressions of interest for 30 GW of small reactors, mainly for data centres. Westinghouse AP300 four unit programme, AP1000 pipeline up to 91 reactors. Expressions of interest are not tube orders. Signpost: first serial tube order after a construction licence.",
      "EE_NUC_WNA_UC, CO_WESTINGHOUSE_AP300_2025, CO_WESTINGHOUSE_PIPE_2026, research/sectors/energy_environment.md"),
-    ("Additively manufactured engine parts and spare powder", "Nickel, cobalt", "Atomised superalloy powder", "7 to 9 (team estimate)", "early signal", "2027 to 2030",
-     "Carpenter powder and additive segment earned a 7.9 percent operating margin against 27.7 percent in premium alloys (fiscal 2026). Hoganas sells nickel and cobalt powders for powder bed fusion. Powder metal disc issue on the geared turbofan shows the value of qualified powder. Signpost: a named disc or hot section additive specification with a volume call.",
-     "research/sectors/aerospace.md, research/companies/hoganas.md, research/companies/carpenter.md"),
+    ("Captive powder metallurgy disc powder (René 88DT, René 104, ME3 type, Pratt in house powder)", "Nickel", "Atomised superalloy powder for HIP and forged discs", "9 (established, in production for decades; team estimate from the report review)", "measured (production fact), volume captive and unpublished", "in production",
+     "Established route, not an emerging option. RTX states that Pratt qualifies its own powder metal sources and that the geared turbofan powder metal contamination issue costs about USD 0.7 billion in 2026 with incremental shop visits (CO_RTX_POWDER_2025, CO_RTX_9M26_BACKLOG). Treated as tier 1, inside the superalloy bar, billet and remelt stock family, and closed to outsiders (captive). Disc powder tonnes: TODO(data).",
+     "research/companies/rtx.md, research/sectors/aerospace.md, CO_RTX_POWDER_2025"),
+    ("AM powder, CoCr and nickel superalloy (open market)", "Cobalt, nickel", "Atomised CoCr and nickel superalloy powder for powder bed fusion", "9 for serial parts (team estimate)", "measured at industry level, crowded", "in production",
+     "Not tier 2. The AM industry revenue was USD 21.8 bn in 2024 across all materials (Wohlers), Carpenter powder and additive earns 7.9 percent operating margin against 27.7 percent in premium alloys, and Hoganas, Sandvik Osprey, Oerlikon, Carpenter Additive and Chinese producers compete. The LEAP fuel nozzle tip is reported to be printed in CoCr and in serial production since about 2016 (stated in the round 4 industry review). TODO(data): no source for the nozzle in research/, so it is not asserted as fact. Scored in Table 16 with competition 2.",
+     "WOHLERS_2025, research/sectors/aerospace.md, research/companies/carpenter.md, research/companies/hoganas.md"),
+    ("Newly specified AM hot section parts beyond serial parts (combustors, turbine vanes, repair)", "Nickel, cobalt", "Atomised superalloy powder", "6 to 8 (team estimate)", "early signal", "2027 to 2030",
+     "Only genuinely new printed hot section parts remain here. Signpost: a named disc or hot section additive specification with a volume call in an engine programme. No such specification is logged in the repository (TODO(data)).",
+     "TODO(data), research/sectors/aerospace.md"),
     ("Hydrogen fuelled gas turbines", "Nickel (cobalt)", "Castings and forgings, combustor sheet", "5 to 7 (team estimate)", "speculative", "2030 to 2035",
      "No hydrogen turbine order or alloy requirement is logged in the repository. TODO(data): searched research/ for hydrogen turbine, hydrogen fuel and hydrogen fired, found only the hydrogen supply side. Signpost: first firm order of a hydrogen capable turbine with a committed hydrogen supply contract.",
      "TODO(data), research/sectors/energy_environment.md (committed low emissions hydrogen 4.3 Mt by 2030)"),
@@ -623,6 +705,7 @@ T2 = [
 LAB = {"aerospace": "Aerospace", "energy": "Energy and environmental technology", "electronics": "Electronics and electrical engineering",
        "medical": "Medical technology", "chemical": "Chemical processing", "oil_and_gas": "Oil and gas", "automotive": "Automotive",
        "automotive_thermal": "Automotive, combustion and hybrid parts", "automotive_ev": "Automotive, electric vehicle parts"}
+FENI_LAB = {"oled": "OLED fine metal mask foil", "ev_sensor": "EV magnetic sensor and shielding", "leadframe": "Lead frames and glass seals (FeNi42)"}
 PRIOR = {"aerospace": 4.5, "energy": 4.0, "electronics": 3.0, "medical": 2.5, "chemical": 1.0, "oil_and_gas": 0.5, "automotive": -1.5}
 
 
@@ -664,11 +747,32 @@ def sg(x):
 
 def bt_text(ind):
     b = BT_IND["automotive" if ind.startswith("automotive") else ind]
-    return (f"Annual growth shift {sg(b['shift']*100)} pp, extra sd {b['sd']*100:.2f} pp a year "
+    return (f"Annual growth shift {sg(b['shift']*100)} pp (round 4 method {sg(b['shift_old']*100)} pp, not applied), extra sd {b['sd']*100:.2f} pp a year "
             f"({b['n_real']} real and {b['n']-b['n_real']} nominal backtest series)")
 
 
 ROWS = []
+
+
+def _key(ind):
+    return "automotive" if ind.startswith("automotive") else ind
+
+
+def _p50v(ind, arr, scale, kind):
+    """P50 of an industry result under three treatments. Base = no trend shift, with optimism haircut.
+    noshift / nohair = no trend shift and no haircut (pure guidance). oldshift = round 4 method: trend shift on, no haircut."""
+    if not (ind in LAB and ind in IDX):
+        return ""
+    k = _key(ind)
+    hv = HAIR.get(k, np.ones(N))
+    x = arr * scale / hv
+    if kind == "oldshift":
+        x = x * math.exp(BT_IND[k]["shift_old"] * H)
+    return round(float(np.median(x)), 1)
+
+
+def _hmed(ind):
+    return round(float(np.median(HAIR.get(_key(ind), np.ones(N)))), 3) if ind in LAB else ""
 
 
 def row(level, ind, metal, unit, base, arr, scale, drv, intens, share_, anchor, evidence, src, note=""):
@@ -676,7 +780,8 @@ def row(level, ind, metal, unit, base, arr, scale, drv, intens, share_, anchor, 
     qi = pct(arr)
     ROWS.append(dict(level=level, industry=LAB.get(ind, ind), metal=metal, unit=unit, base_2025=base, p10_2035=round(q[0], 1), p50_2035=round(q[1], 1), p90_2035=round(q[2], 1),
                      index_p10=round(qi[0], 0), index_p50=round(qi[1], 0), index_p90=round(qi[2], 0),
-                     p50_2035_without_backtest_shift=(round(float(np.median(arr * scale)) / math.exp(BT_IND["automotive" if ind.startswith("automotive") else ind]["shift"] * H), 1) if level.startswith("industry") and ind in LAB else ""),
+                     p50_2035_without_backtest_shift=(_p50v(ind, arr, scale, "noshift") if level.startswith("industry") else ""), p50_2035_with_backtest_shift_round4_method=(_p50v(ind, arr, scale, "oldshift") if level.startswith("industry") else ""),
+                     haircut_median=(_hmed(ind) if level.startswith("industry") else ""),
                      activity_driver=drv, activity_ratio_p10_p50_p90=act_range(ind) if level == "industry" else "",
                      intensity_assumption_and_trend=intens, alloy_share_assumption=share_, backtest_adjustment=bt_text(ind) if level == "industry" else "",
                      calibration_anchor=anchor, evidence=evidence, sources=src, note=note))
@@ -714,18 +819,255 @@ row("industry", "electronics", "copper", "index 2025 = 100 (data centre power co
     "Index only", "index (tonnage not published)", "EE_IEA_DATACENTRE_TWH_2030, NVDA_800VDC, NVDA_800VDC_ROWCUT", "Low confidence, driver is a power forecast, not copper tonnes. Copper is not a nickel alloy.")
 for fam, spec in FAM.items():
     arr = FAMIDX[fam]
-    wtxt = ", ".join(f"{LAB.get(k, k)} {v:.3f}" for k, v in spec["w"].items())
+    wtxt = ", ".join(f"{LAB.get(k, FENI_LAB.get(k, k))} {v:.3f}" for k, v in spec["w"].items())
     ROWS.append(dict(level="product_family", industry=fam, metal="nickel and cobalt alloy index", unit="index 2025 = 100", base_2025=100,
                      p10_2035=round(pct(arr)[0], 1), p50_2035=round(pct(arr)[1], 1), p90_2035=round(pct(arr)[2], 1), index_p10=round(pct(arr)[0], 0), index_p50=round(pct(arr)[1], 0),
                      index_p90=round(pct(arr)[2], 0), activity_driver="Weighted industry indices: " + wtxt, activity_ratio_p10_p50_p90="", intensity_assumption_and_trend="Inherited from industry indices",
                      alloy_share_assumption="Inherited from industry indices", backtest_adjustment="Inherited", calibration_anchor="Aerospace weight in family 1 = 11,499/20,000 t cobalt (measured)" if fam.startswith("Superalloy") else "Weights are team assumptions",
                      evidence="index (weights are team assumptions)", sources=spec["src"], note=spec["why"]))
+_q = pct(FENI_ELEC)
+ROWS.append(dict(level="product_family_variant", industry="Precision FeNi strip and foil, electronics only variant (OLED mask foil 0.533, lead frames and seals 0.467, no EV)", metal="nickel and cobalt alloy index",
+                 unit="index 2025 = 100", base_2025=100, p10_2035=round(_q[0], 1), p50_2035=round(_q[1], 1), p90_2035=round(_q[2], 1), index_p10=round(_q[0], 0), index_p50=round(_q[1], 0),
+                 index_p90=round(_q[2], 0), activity_driver="OLED fine metal mask foil 0.533, lead frames and glass seals 0.467", evidence="index (weights are team assumptions)",
+                 sources=FAM[FENI]["src"], note="Requested variant without the EV component. Low evidence."))
+for _k, _lab in FENI_LAB.items():
+    _q = pct(FENI_C[_k])
+    ROWS.append(dict(level="feni_component", industry=_lab, metal="iron nickel alloy index", unit="index 2025 = 100", base_2025=100, p10_2035=round(_q[0], 1), p50_2035=round(_q[1], 1),
+                     p90_2035=round(_q[2], 1), index_p10=round(_q[0], 0), index_p50=round(_q[1], 0), index_p90=round(_q[2], 0), activity_driver="see MODEL_FENI_* and MODEL_EL_COMP_G / MODEL_AU_CARS_R parameters",
+                     evidence="index (low evidence)", sources=FAM[FENI]["src"], note="Component of the FeNi family before weighting."))
 t1 = pd.DataFrame(ROWS)
 _rev = {v: k for k, v in LAB.items()}
 t1["prior_team_workbook_base_2035_index"] = [
     (round(100 * (1 + PRIOR[_rev[r.industry]] / 100) ** 10) if (r.level == "industry" and r.metal == "nickel" and r.industry in _rev and _rev[r.industry] in PRIOR) else np.nan)
     for r in t1.itertuples()]
 t1.to_csv(os.path.join(CLEAN, "model_tier1_results.csv"), index=False)
+
+# ------------------------------------------------------------------ 7b. round 5: tonnes, shocks, severe aerospace case, scoring inputs
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import scoring  # noqa: E402
+
+rt = np.random.default_rng(SEED + 3)
+
+
+def tdraw(spec):
+    return tri_ppf(rt.random(N), *spec)
+
+
+T_CO = par("MODEL_TON_CO_CONTENT", "Average virgin cobalt content of superalloy melt, mass share", 0.04, 0.08, 0.15, "mass share", "team assumption", "AERO_CI_SUPERALLOY_CO_2025",
+           "TODO(data): no cobalt weighted average of world superalloy output is in the repository. Range logic: Alloy 718 and 625, the largest tonnage grades, carry no or little cobalt, wrought alloys such as 720Li and Waspaloy 13 to 15 percent, cast alloys 5 to 10 percent, cobalt base alloys about 40 to 60 percent. Revert (scrap) is not virgin cobalt, which lowers the content again. Wide on purpose.")
+T_FORM = par("MODEL_TON_SUPER_FORM_SHARE", "Share of superalloy melt that leaves the mill as bar, billet or remelt stock (rest sheet, strip, tube, powder)", 0.75, 0.85, 0.95, "share", "team assumption",
+             "AERO_ATI_JETENG_2025", "Superalloy melt is cast into ingot, remelt stock and billet before forging, casting or rolling. Flat and tube forms are the minority. No split is published (TODO(data)).")
+T_EU = par("MODEL_TON_EU_SHARE", "EU27 share of world apparent consumption of nickel and nickel alloy mill products", 0.12, 0.20, 0.30, "share", "team assumption",
+           "NI_WS_MELT_2025 / NI_INSG_USE_2025",
+           "EU27 is 8.8 percent of world stainless melt (5.659 of 64.157 Mt) and Asia is 87.7 percent of primary nickel use, but specialty alloys concentrate in the EU, the United States and Japan. Range 12 to 30 percent, mode 20 percent. No world apparent consumption of nickel mill products exists (TODO(data)).")
+T_BAR = par("MODEL_TON_BAR_MULT", "World nickel bar, rod and wire output as multiple of the traded floor (exports of eight reporters 2024)", 1.0, 1.5, 2.5, "ratio", "team assumption",
+            "COMTRADE_7505_2019_2024 / AC_EU_NI_BAR_2024",
+            "The PRODCOM production cell for EU bar is confidential (rounded 2.5 kt), so the EU method fails. Floor = 2024 exports of eight reporters (re-exports are counted twice, so it is not a strict floor). Multiplier covers production that does not cross a border (China, United States domestic).")
+
+ac = pd.read_csv(os.path.join(CLEAN, "apparent_consumption_prodcom_2019-2024.csv"))
+
+
+def eu_kt(code):
+    r = ac[(ac["product"].astype(str) == code) & (ac.reporter == "EU27_2020") & (ac.year == 2024)].iloc[0]
+    return float(r.apparent_consumption_qty) / 1e6
+
+
+def floor_kt(hs):
+    d = pd.read_csv(os.path.join(CLEAN, f"comtrade_{hs}_2019-2024.csv"))
+    w = d[(d.partner == "World") & (d.year == 2024) & (d.flow == "Export")]
+    return float(w.net_weight_kg.sum()) / 1e6
+
+
+EU_BAR, EU_FLAT, EU_TUBE = eu_kt("24452100"), eu_kt("24452200"), eu_kt("24452300")
+FL_BAR, FL_FLAT, FL_TUBE = floor_kt(7505), floor_kt(7506), floor_kt(7507)
+c_draw, f_draw, e_draw, b_draw = tdraw(T_CO), tdraw(T_FORM), tdraw(T_EU), tdraw(T_BAR)
+SUPER_ALL = 20.0 / c_draw                    # kt superalloy melt (virgin cobalt equivalent), all forms
+SUPER_AERO = 11.499 / c_draw
+TON = {
+    "Superalloy bar, billet and remelt stock": SUPER_ALL * f_draw,
+    "Nickel alloy bar, rod and wire (long products)": FL_BAR * b_draw,
+    "Flat products (plate, sheet, strip, foil)": EU_FLAT / e_draw,
+    "Tubes and fittings": EU_TUBE / e_draw,
+}
+TON_METHOD = {
+    "Superalloy bar, billet and remelt stock": "20.0 kt cobalt in superalloys (Cobalt Institute) divided by virgin cobalt content 4/8/15 percent, times 75/85/95 percent leaving as bar, billet or remelt stock. Melt tonnes, gross weight.",
+    "Nickel alloy bar, rod and wire (long products)": f"HS 7505 exports of eight reporters 2024 = {FL_BAR:.1f} kt (traded floor, includes pure nickel) times 1.0/1.5/2.5. EU27 PRODCOM apparent consumption {EU_BAR:.1f} kt is a lower bound (production cell confidential) and is not used.",
+    "Flat products (plate, sheet, strip, foil)": f"EU27 apparent consumption {EU_FLAT:.1f} kt (PRODCOM 24452200, 2024) divided by EU share of world 12/20/30 percent. Nickel and nickel alloy flat, all grades: an upper bound for high performance alloy. Traded floor (HS 7506 exports of eight reporters) = {FL_FLAT:.1f} kt.",
+    "Tubes and fittings": f"EU27 apparent consumption {EU_TUBE:.1f} kt (PRODCOM 24452300, 2024) divided by EU share of world 12/20/30 percent. Traded floor (HS 7507 exports of eight reporters) = {FL_TUBE:.1f} kt.",
+}
+q_super = pct(SUPER_ALL * f_draw)
+TON_CHECK = {
+    "Superalloy bar, billet and remelt stock": f"China reported output 64.5 kt in 2025 (demand about 66 kt, CO_BAOWU_CHINA_SUPERALLOY_2025, 2021 broker view) is {100*64.5/q_super[1]:.0f} percent of the P50. ATI Monroe fifth VIM furnace adds about 9 kt a year from 2027 (ARGUS_SUPERALLOY) = {100*9/q_super[1]:.0f} percent of the P50. Acerinox HPA melt 83 kt (VDM plus Haynes, includes corrosion resistant grades) = {100*83/q_super[1]:.0f} percent of the P50, so the range is plausible only at its upper half: the cobalt method probably understates revert rich melt.",
+    "Nickel alloy bar, rod and wire (long products)": "Germany alone exported 18.1 kt, the United States 31.0 kt and Italy 11.1 kt of HS 7505 in 2024 (Comtrade). INSG: stainless is just under 70 percent of 3,577 kt primary nickel use, so non stainless primary use is at most about 1,070 kt of nickel, a ceiling not a base.",
+    "Flat products (plate, sheet, strip, foil)": "Germany exports 17.8 kt, the United States 12.2 kt, Japan 9.1 kt of HS 7506 in 2024. Outokumpu Avesta high nickel flat project about 13 kt is a quarter of EU apparent consumption (CO_OUTOKUMPU_HINI_CAP_2026).",
+    "Tubes and fittings": "EU27 was a net exporter of nickel tubes in 2024 (16.5 kt out, 4.7 kt in, PRODCOM). Alleima and Sandvik tube capacity not in kt (TODO(data)).",
+}
+tonrows = []
+for fam in FAM:
+    if fam == FENI:
+        tonrows.append(dict(product_family=fam, base_2025_kt_p10="", base_2025_kt_p50="", base_2025_kt_p90="", kt_2035_p10="", kt_2035_p50="", kt_2035_p90="",
+                            index_2035_p10_p50_p90="/".join(f"{x:.0f}" for x in pct(FAMIDX[fam])), method="Not estimable. TODO(data): searched research/ and data/clean for FeNi36 or Invar foil tonnes, found none (Proterial, Aperam Imphy and VAC volumes are unpublished, Comtrade has no Invar foil code, DNP publishes no foil tonnes).",
+                            cross_checks="DNP doubled mask capacity (2024) but masks are jigs, so no tonne bridge exists. Paid report USD 370 million FMM market not used.", evidence="none (market score 1)", label="team estimate, not summable"))
+        continue
+    a = TON[fam]
+    b = pct(a)
+    k = pct(a * FAMIDX[fam] / 100.0)
+    tonrows.append(dict(product_family=fam, base_2025_kt_p10=round(b[0], 1), base_2025_kt_p50=round(b[1], 1), base_2025_kt_p90=round(b[2], 1),
+                        kt_2035_p10=round(k[0], 1), kt_2035_p50=round(k[1], 1), kt_2035_p90=round(k[2], 1),
+                        index_2035_p10_p50_p90="/".join(f"{x:.0f}" for x in pct(FAMIDX[fam])), method=TON_METHOD[fam], cross_checks=TON_CHECK[fam],
+                        evidence="low (wide team assumptions, see MODEL_TON_*)" if fam.startswith(("Superalloy", "Nickel alloy bar")) else "low to medium (measured EU apparent consumption, assumed EU share)",
+                        label="team estimate, not summable (families overlap and use different stages)"))
+b = pct(SUPER_AERO)
+tonrows.append(dict(product_family="Memo: aviation superalloy melt behind 11.499 kt aviation cobalt (cobalt method, all forms)", base_2025_kt_p10=round(b[0], 1), base_2025_kt_p50=round(b[1], 1), base_2025_kt_p90=round(b[2], 1),
+                    kt_2035_p10=round(pct(SUPER_AERO * IDX["aerospace"] / 100)[0], 1), kt_2035_p50=round(pct(SUPER_AERO * IDX["aerospace"] / 100)[1], 1), kt_2035_p90=round(pct(SUPER_AERO * IDX["aerospace"] / 100)[2], 1),
+                    index_2035_p10_p50_p90="/".join(f"{x:.0f}" for x in pct(IDX["aerospace"])), method="11.499 kt aviation cobalt (Cobalt Institute) divided by virgin cobalt content 4/8/15 percent, times the aerospace index.",
+                    cross_checks="Part of the superalloy family, not additional.", evidence="low", label="team estimate, memo, not summable"))
+tonrows.append(dict(product_family="Memo: China superalloy output 2025 (reported)", base_2025_kt_p10=64.5, base_2025_kt_p50=64.5, base_2025_kt_p90=64.5, kt_2035_p10="", kt_2035_p50="", kt_2035_p90="",
+                    index_2035_p10_p50_p90="", method="Industry source quoted in the Fushun, Western Superconducting and Baowu profiles (CO_BAOWU_CHINA_SUPERALLOY_2025), demand near 66 kt, mostly lower value grades, 2021 broker view.",
+                    cross_checks="Regional check only.", evidence="low (single secondary source)", label="reported, not a model output"))
+pd.DataFrame(tonrows).to_csv(os.path.join(CLEAN, "model_family_tonnes.csv"), index=False)
+
+# severe aerospace case: two years at minus 20 percent (2026, 2027), then recovery
+SEV_F = 0.8 * 0.8
+SEV_C = par("MODEL_SEVERE_AERO_RECOVERY", "Severe aerospace case: share of the lost level recovered by 2035", 0.0, 0.70, 1.0, "share", "team assumption", "(none, see reason)",
+            "Two years at minus 20 percent (level 0.64 of the base path in 2027, motivated by 2020), then growth resumes at the base rate. 0 means the lost level is never recovered, 1 means the base path is rejoined by 2035. Mode 0.7 is a team assumption: engine OEM backlogs (Airbus 8,754 aircraft) favour recovery, supply constraints slow it. No recovery series is in the repository.")
+sev_c = tdraw(SEV_C)
+sev_fac = SEV_F + (1 - SEV_F) * sev_c
+IDX_SEV = IDX["aerospace"] * sev_fac
+famw = FAMWS["Superalloy bar, billet and remelt stock"]
+FAM1 = "Superalloy bar, billet and remelt stock"
+FAM1_SEV = sum(famw[k] * (IDX_SEV if k == "aerospace" else IDX[k]) for k in FAM[FAM1]["w"])
+q_b, q_s = pct(IDX["aerospace"]), pct(IDX_SEV)
+q_s_nocatch = pct(IDX["aerospace"] * SEV_F)
+q_fam, q_fam_sev = pct(FAMIDX[FAM1]), pct(FAM1_SEV)
+co_sev = pct(co_aero_t * sev_fac / 1000.0)
+p_base = np.percentile(PATH["aerospace"], 50, axis=0)
+fac_t = np.array([1.0, 0.8, 0.64] + [SEV_F + (1 - SEV_F) * 0.70 * (t - 2) / (H - 2) for t in range(3, H + 1)])
+cum_loss = 100 * (1 - (p_base[1:] * fac_t[1:]).sum() / p_base[1:].sum())
+SEV = dict(base=q_b, sev=q_s, nocatch=q_s_nocatch, fam=q_fam, fam_sev=q_fam_sev, co_sev=co_sev, cum_loss=cum_loss)
+
+# scoring inputs
+EUR_USD = 1.08
+FAMW = {f: spec["w"] for f, spec in FAM.items()}
+
+
+UV = dict(flat=(31.0, 47.8), tube=(26.1, 41.1), bar=(25.4, 33.4))   # EUR per kg, extra EU export and import unit values 2024 (AC_EU_NI_UNITVAL_2024)
+
+
+def pool_eur(parts):
+    """parts: list of (kt, weight, (uv_lo, uv_hi)) -> (lo, hi) in EUR bn"""
+    lo = sum(kt * w * u[0] for kt, w, u in parts) / 1000.0
+    hi = sum(kt * w * u[1] for kt, w, u in parts) / 1000.0
+    return lo, hi
+
+
+wf, wb, wt = FAMW["Flat products (plate, sheet, strip, foil)"], FAMW["Nickel alloy bar, rod and wire (long products)"], FAMW["Tubes and fittings"]
+POOLS = {
+    "turbine": ("measured_kt_co", CO_SUPER_NONAV / 1000.0, "kt Co", "Cobalt Institute 20.0 kt in superalloys minus 11.499 kt aviation (derived remainder, mapped to industrial turbines)"),
+    "aviation": ("measured_kt_co", 11.499, "kt Co", "Cobalt Institute aviation cobalt 2025 (measured, Benchmark data)"),
+    "feni": ("none", "none", "", "No FeNi tonnes, EUR or capacity in square metres in research/. DNP capacity doubling is a signal, not a volume"),
+    "medical": ("company_end_use", round(278.4 / EUR_USD / 1000.0, 3), "EUR bn", "Carpenter medical end use sales USD 278.4 m (fiscal 2026) at 1.08 USD per EUR, bar, billet, wire and powder, mixed alloys"),
+    "alloy690": ("estimated_eur_bn", None, "EUR bn", "EU tubes 9.2 kt x energy weight 0.25 x EUR 26.1 to 41.1 per kg (nuclear share unmeasured, so an upper bound)"),
+    "car": ("estimated_eur_bn", None, "EUR bn", "EU flat, bar and tube apparent consumption x automotive thermal weights (0.10, 0.05, 0.05) x unit values"),
+    "sour": ("estimated_eur_bn", None, "EUR bn", "EU flat 57.8 kt x oil and gas weight 0.15 plus bar x 0.25, x unit values (end use weights are team assumptions)"),
+    "chemical": ("estimated_eur_bn", None, "EUR bn", "EU flat 57.8 kt x chemical weight 0.30 plus bar x 0.25, x unit values. The all end use pool of EUR 1.8 to 2.8 bn is NOT used (it covers every end use)"),
+    "am_powder": ("wider_segment", round(383.0 / EUR_USD / 1000.0, 3), "EUR bn", "Carpenter PEP segment USD 383.0 m mixes titanium, powder, Dynamet and additive, no powder split. Hoganas additive share is limited and undisclosed"),
+    "none": ("none", "none", "", "Signal only, no measured volume of the product"),
+}
+lo, hi = pool_eur([(EU_TUBE, FAMW["Tubes and fittings"]["energy"], UV["tube"])])
+POOLS["alloy690"] = ("estimated_eur_bn", round((lo + hi) / 2, 3), "EUR bn", POOLS["alloy690"][3] + f". Range {lo:.2f} to {hi:.2f}")
+lo, hi = pool_eur([(EU_FLAT, FAMW["Flat products (plate, sheet, strip, foil)"]["automotive_thermal"], UV["flat"]), (EU_BAR, wb["automotive_thermal"], UV["bar"]), (EU_TUBE, wt["automotive_thermal"], UV["tube"])])
+POOLS["car"] = ("estimated_eur_bn", round((lo + hi) / 2, 3), "EUR bn", POOLS["car"][3] + f". Range {lo:.2f} to {hi:.2f}")
+lo, hi = pool_eur([(EU_FLAT, wf["oil_and_gas"], UV["flat"]), (EU_BAR, wb["oil_and_gas"], UV["bar"])])
+POOLS["sour"] = ("estimated_eur_bn", round((lo + hi) / 2, 3), "EUR bn", POOLS["sour"][3] + f". Range {lo:.2f} to {hi:.2f}")
+lo_c, hi_c = pool_eur([(EU_FLAT, wf["chemical"], UV["flat"]), (EU_BAR, wb["chemical"], UV["bar"])])
+POOLS["chemical"] = ("estimated_eur_bn", round((lo_c + hi_c) / 2, 3), "EUR bn", POOLS["chemical"][3] + f". Range {lo_c:.2f} to {hi_c:.2f}")
+CHEM_POOL = (lo_c, hi_c)
+
+
+def cg(x):
+    return (float(np.percentile(x, 50)) / 100.0) ** (1.0 / H) - 1.0
+
+
+GROW = {"energy": cg(IDX["energy"]), "aerospace": cg(IDX["aerospace"]), "feni": cg(FAMIDX[FENI]), "medical": cg(IDX["medical"]), "oil_and_gas": cg(IDX["oil_and_gas"]),
+        "chemical": cg(IDX["chemical"]), "nuclear": float(np.median(ACTR[("energy", "Nuclear tube and cladding")])) ** (1.0 / H) - 1.0,
+        "aero_new": float(np.median(ACTR[("aerospace", "New engine output")])) ** (1.0 / H) - 1.0, "automotive_thermal": cg(IDX["automotive_thermal"])}
+GROW_SRC = {"energy": "Table 13 energy index", "aerospace": "Table 13 aerospace index", "feni": "Table 14 FeNi family (round 5 drivers)", "medical": "Table 13 medical index",
+            "oil_and_gas": "Table 13 oil and gas index", "chemical": "Table 13 chemical index", "nuclear": "Nuclear tube and cladding activity ratio (Table A1)",
+            "aero_new": "Aerospace new engine output activity ratio (Table A1)", "automotive_thermal": "Automotive combustion and hybrid sub index"}
+sc_rows = [dict(kind="growth", key=k, p50_cagr=v, pool_kind="", pool_value="", unit="", note=GROW_SRC[k]) for k, v in GROW.items()]
+sc_rows += [dict(kind="pool", key=k, p50_cagr="", pool_kind=v[0], pool_value=v[1], unit=v[2], note=v[3]) for k, v in POOLS.items()]
+with open(os.path.join(CLEAN, "model_scoring_inputs.csv"), "w", newline="", encoding="utf-8") as fh:
+    w_ = csv.DictWriter(fh, fieldnames=list(sc_rows[0].keys()))
+    w_.writeheader()
+    w_.writerows(sc_rows)
+INP = scoring.read_inputs()
+SC_BASE = scoring.score_all(INP, label="base")
+scoring.write(SC_BASE)
+sev_g = (float(np.percentile(IDX_SEV, 50)) / 100.0) ** (1.0 / H) - 1.0
+SC_CASES = {
+    "base": SC_BASE,
+    "severe aerospace (2 years at -20 percent, 70 percent recovery)": scoring.score_all(INP, growth_override={"aerospace": sev_g}, label="severe aerospace"),
+    "China tungsten licence halt": scoring.score_all(INP, supply_override={"tungsten": "halt"}, label="tungsten halt"),
+    "Indonesia ore quota cut": scoring.score_all(INP, supply_override={"nickel": "price_only"}, label="Indonesia"),
+}
+# Congo tightened: a minor cobalt input drops to principal level risk (score 2), a principal cobalt input to halt level (score 1)
+def congo_run():
+    rows_ = []
+    saved = {o["id"]: list(o["inputs"]) for o in scoring.OPPS}
+    for o in scoring.OPPS:
+        o["inputs"] = [(el, ("quota_principal" if rg == "quota_minor" else ("halt" if rg == "quota_principal" else rg))) if "cobalt" in el else (el, rg) for el, rg in o["inputs"]]
+    rows_ = scoring.score_all(INP, label="Congo tightened")
+    for o in scoring.OPPS:
+        o["inputs"] = saved[o["id"]]
+    return rows_
+
+
+SC_CASES["Congo cobalt quota tightened"] = congo_run()
+
+
+def tier_changes(case):
+    base = {r["opportunity"]: r for r in SC_BASE}
+    ch = [f"{r['opportunity']}: {base[r['opportunity']]['tier']} to {r['tier']} ({base[r['opportunity']]['weighted_score']:.2f} to {r['weighted_score']:.2f})"
+          for r in SC_CASES[case] if r["tier"] != base[r["opportunity"]]["tier"]]
+    mv = [f"{r['opportunity']} {base[r['opportunity']]['weighted_score']:.2f} to {r['weighted_score']:.2f}" for r in SC_CASES[case] if abs(r["weighted_score"] - base[r["opportunity"]]["weighted_score"]) > 1e-9]
+    return ("tier changes: " + "; ".join(ch) if ch else "no tier changes") + ("; score moves: " + "; ".join(mv) if mv else "")
+
+
+# supply shock table
+ovdf = pd.DataFrame(OV)
+def ovr(metal, case_start, scen="Stated Policies", stage="Mine supply"):
+    r = ovdf[(ovdf.metal == metal) & (ovdf.case.str.startswith(case_start)) & (ovdf.demand_scenario == scen) & (ovdf.supply_stage == stage)].iloc[0]
+    return r
+
+
+rb, r1, r2 = ovr("Cobalt", "Base"), ovr("Cobalt", "Stress: Congo quota stays"), ovr("Cobalt", "Stress: Congo quota tightened")
+n0, n1, n2, n3 = ovr("Nickel", "Base"), ovr("Nickel", "Stress: Indonesian ore quota 2026 revised"), ovr("Nickel", "Stress: Indonesian ore quota 2026 initial"), ovr("Nickel", "Stress: Weda")
+w_lo, w_mid = 252.0, 380.0       # Rotterdam concentrate USD per mtu WO3, 2024 and 2025 (USGS_MCS2026_TUNGSTEN)
+w_kg_t = 0.04 * 1000.0           # kg W per tonne of C-276 at 4 percent
+w_mtu = w_kg_t / 7.93
+c276_w_cost_24, c276_w_cost_25 = w_mtu * w_lo, w_mtu * w_mid
+co_pound = 2.2046
+co_lb_24, co_lb_25 = 16.77, 21.0      # US spot cathode USD per lb, 2024 and estimated 2025 (CO_USGS_CATHODE_2025)
+SHOCKS = [
+    dict(shock="Congo cobalt export quota (96.6 kt a year incl. 9.6 kt reserve, CMOC entitlement 31.2 kt of 117.5 kt)", affected_families="Superalloy bar, billet and remelt stock (Co bearing grades); CoCr bar and powder (Co about 60 percent)",
+         gap_or_exposure=f"Mine supply 2035 {rb.supply_2035_kt:.0f} kt base, {r1.supply_2035_kt:.0f} kt with quota held (gap {r1.gap_pct_of_demand:.0f} percent of IEA Stated Policies demand, base {rb.gap_pct_of_demand:.0f}), {r2.supply_2035_kt:.0f} kt at CMOC entitlement ratio (gap {r2.gap_pct_of_demand:.0f} percent). Model superalloy cobalt 2035 P50 {p50:.1f} kt = {100*p50/rb.supply_2035_kt:.0f} percent of base supply, {100*p50/r2.supply_2035_kt:.0f} percent in the tight case. Alloy grade metal is about 15 kt a year from four refiners outside the hydroxide chain (Cobalt Institute).",
+         cost_effect=f"Pass through by surcharge or alloy price, lagged, qualitative: no surcharge table is in the repository (TODO(data)). Team arithmetic: at 8 percent virgin cobalt a tonne of superalloy holds {80*co_pound:.0f} lb Co, worth USD {80*co_pound*co_lb_25:,.0f} at USD 21 per lb (2025 estimate), so the 25 percent price rise from USD 16.77 (2024) adds about USD {80*co_pound*(co_lb_25-co_lb_24):,.0f} per tonne. For CoCr (about 600 kg Co per tonne) the same move adds about USD {600*co_pound*(co_lb_25-co_lb_24):,.0f}. Fixed price long term agreements keep the risk with the melter.",
+         tier_effect=tier_changes("Congo cobalt quota tightened"), src="CO_USGS_QUOTA_2026, CO_CMOC_QUOTA_2026, IEA_CM_CO_SUPPLY_2025_2035, AERO_CI_SUPERALLOY_CO_2025, CO_USGS_CATHODE_2025"),
+    dict(shock="China tungsten export licence halt (licence regime since 4 February 2025, APT, oxide, unsintered carbide)", affected_families="Flat products and bar in C-276 and C-22 type grades (W about 4 and 3 percent); tungsten bearing cast and wrought superalloys (content TODO(data))",
+         gap_or_exposure=f"Ex China mine supply 2025 = 85,000 t minus 67,000 t = 18,000 t contained tungsten (21 percent of world). Each 10 kt of C-276 uses 0.4 kt W = {100*0.4/18:.1f} percent of ex China mine supply. No tungsten tonnes to 2035 exist (TODO(data)), so no gap is computed. Sintered carbide and wire are outside the licence.",
+         cost_effect=f"Tungsten is priced by surcharge or in the alloy price. Team arithmetic: 40 kg W per tonne of C-276 is {w_mtu:.2f} mtu WO3, which cost USD {c276_w_cost_24:,.0f} at the 2024 concentrate price (USD 252) and USD {c276_w_cost_25:,.0f} at the 2025 price (USD 380), an increase of USD {c276_w_cost_25-c276_w_cost_24:,.0f} per tonne. Another doubling would add about USD {c276_w_cost_25:,.0f} per tonne, about {100*c276_w_cost_25/32500:.1f} percent of the German export unit value of USD 32,500 per tonne for nickel flat (concentrate basis, metal costs more).",
+         tier_effect=tier_changes("China tungsten licence halt"), src="USGS_MCS2026_TUNGSTEN, W_MOFCOM_2025_10, W_MOFCOM_FAQ_2025, MO_HAYNES_C276_W"),
+    dict(shock="Indonesia nickel ore quota cut (RKAB 2026 revised -22 percent, initial -29 percent, Weda Bay style -71 percent)", affected_families="All nickel alloy families, first through the nickel price; class 1 alloy feed is mostly outside Indonesian NPI",
+         gap_or_exposure=f"Mine supply 2035 gap {n0.gap_pct_of_demand:.1f} percent of IEA Stated Policies demand in the base case, {n1.gap_pct_of_demand:.1f} percent at -22 percent, {n2.gap_pct_of_demand:.1f} percent at -29 percent, {n3.gap_pct_of_demand:.1f} percent at -71 percent. The primary refined gap is already {ovr('Nickel','Base',stage='Refined supply').gap_pct_of_demand:.1f} percent.",
+         cost_effect="Pass through by the monthly alloy surcharge on lagged LME nickel, molybdenum and chromium averages, so margin is exposed only on fixed price contracts and inventory. ATI: nickel use about 70 million lb, so USD 1.00 per lb is about USD 70 m of cost, mostly passed through (CO_ATI_SALES_2025). Team arithmetic: USD 1,000 per tonne on LME nickel adds about USD 10 per tonne of alloy for every percentage point of nickel content.",
+         tier_effect=tier_changes("Indonesia ore quota cut"), src="ARGUS_NI_RKAB_2026, NI_RKAB_2026_REV, CO_ERAMET_WBN_RKAB_2026, IEA_CM_NI_SUPPLY_2025_2035, CO_ATI_SALES_2025"),
+    dict(shock="Severe aerospace demand case: two years at minus 20 percent (2026 and 2027), then recovery (motivated by 2020)", affected_families="Superalloy bar, billet and remelt stock (aerospace weight 0.575), engine bar and billet",
+         gap_or_exposure=f"Aerospace 2035 index P10/P50/P90: base {q_b[0]:.0f}/{q_b[1]:.0f}/{q_b[2]:.0f}. Severe with {SEV_C[1]*100:.0f} percent recovery {q_s[0]:.0f}/{q_s[1]:.0f}/{q_s[2]:.0f}, no recovery of the lost level {q_s_nocatch[0]:.0f}/{q_s_nocatch[1]:.0f}/{q_s_nocatch[2]:.0f}. Superalloy family P50 {q_fam[1]:.0f} to {q_fam_sev[1]:.0f}. Aviation cobalt 2035 P50 {pct(co_aero_t/1000.0)[1]:.1f} to {co_sev[1]:.1f} kt. Cumulative metal demand 2026 to 2035 on the P50 path is {cum_loss:.1f} percent below base.",
+         cost_effect="Not a supply shock: volume loss. Mills with fixed capital in VIM and VAR lose utilisation. Backlogs (Airbus 8,754 aircraft, Boeing more than 6,300) and engine shop visits cushion the aftermarket half of the index.",
+         tier_effect=tier_changes("severe aerospace (2 years at -20 percent, 70 percent recovery)"), src="MODEL_SEVERE_AERO_RECOVERY, CO_AIRBUS_DELIV_2025, CO_BA_BACKLOG_2025"),
+]
+pd.DataFrame(SHOCKS).to_csv(os.path.join(CLEAN, "model_supply_shocks.csv"), index=False)
 
 # backtest csv
 brows = []
@@ -735,27 +1077,29 @@ for b in BT:
                       mape_pct=round(100 * b["mape"], 1), bias_pct=round(100 * b["bias"], 1), trend_growth_pct_per_year=round(100 * (math.exp(b["trend"]) - 1), 2),
                       realised_growth_2019_to_last_pct=round(100 * (math.exp(b["realised"]) - 1), 2), annual_growth_error_pp=round(100 * b["err"], 2),
                       used_to_shift=b["shift_ok"], source=b["src"], note=b["note"]))
-brows.append(dict(row_type="outlook_vs_outcome", series=OUTLOOK_CHECK["series"], industry="oil_and_gas",
-                  driver="IEA in year outlook for 2025 upstream investment (WEI 2025, just under USD 570 bn, 2024 prices) versus WEI 2026 outcome (USD 542 bn, 2025 prices)",
-                  price_basis="real, price base differs", train_window="n/a", test_window="2025", n_train="", n_test=1, mape_pct=round(100 * abs(570 / 542 - 1), 1),
-                  bias_pct=round(100 * (570 / 542 - 1), 1), trend_growth_pct_per_year="", realised_growth_2019_to_last_pct="", annual_growth_error_pp="", used_to_shift=False,
-                  source="OG_WEO2025_UPSTREAM_2025, IEA_WEI_UPSTREAM_REGION_2026",
-                  note="One point, one year ahead, different price base (2024 versus 2025 USD), so it is indicative only. TODO(data): a ten year outlook with outcome (for example an Airbus GMF or IEA EV Outlook from 2016 to 2019 versus 2025) is not in the repository."))
+for t in OUTLOOK_TESTS:
+    brows.append(dict(row_type="outlook_vs_outcome", series=t["id"], industry=t["industry"], driver=t["what"], price_basis="n/a", train_window="n/a", test_window="outlook year", n_train="", n_test=1,
+                      mape_pct=round(100 * abs(t["ratio"] - 1), 1), bias_pct=round(100 * (t["outlook"] / t["outcome"] - 1), 1) if t["id"] != "OT_LEAP_2026" else round(100 * (1.18 / 1.26 - 1), 1),
+                      trend_growth_pct_per_year="", realised_growth_2019_to_last_pct="", annual_growth_error_pp="", used_to_shift=False, source=t["src"],
+                      note=f"Outcome over outlook = {t['ratio']:.3f}. Used for the optimism haircut (MODEL_HAIRCUT_AERO, MODEL_HAIRCUT_OFFICIAL), not as a growth shift. {t['note']}"))
 brows.append(dict(row_type="todo", series="BT_AERO_DELIVERIES", industry="aerospace", driver="Aircraft deliveries or fleet history", price_basis="", train_window="", test_window="", n_train="", n_test="",
                   mape_pct="", bias_pct="", trend_growth_pct_per_year="", realised_growth_2019_to_last_pct="", annual_growth_error_pp="", used_to_shift=False, source="TODO(data)",
-                  note="TODO(data): only two LEAP delivery points are logged (1,407 in 2024, 1,802 in 2025). Aircraft fleet history is shown in Airbus charts but not as a table. STAN C30 is the only aerospace backtest."))
+                  note="TODO(data): only two LEAP delivery points are logged (1,407 in 2024, 1,802 in 2025). Aircraft fleet history is shown in Airbus charts but not as a table. STAN C30 is the only aerospace trend backtest. Older Airbus GMF and Boeing CMO editions with annual delivery paths (2016 to 2019 vintages) are not in the repository, so no ten year delivery outlook can be tested against outcome. Round 5 uses the Boeing 737 rate plan, the IEA WEI vintage and the LEAP guidance as the available plan against outcome points."))
 brows.append(dict(row_type="todo", series="BT_EV_SALES", industry="automotive", driver="IEA electric car sales history 2015 to 2025", price_basis="", train_window="", test_window="", n_train="", n_test="",
                   mape_pct="", bias_pct="", trend_growth_pct_per_year="", realised_growth_2019_to_last_pct="", annual_growth_error_pp="", used_to_shift=False, source="TODO(data)",
                   note="TODO(data): the history table behind data/raw/iea/GlobalEVOutlook2026.pdf is not in data/clean. SEMI and Cefic series have no multi year history in the repository."))
 for ind, b in BT_IND.items():
     brows.append(dict(row_type="applied_correction", series=f"CORR_{ind}", industry=ind, driver="Correction applied to 2035 range", price_basis="", train_window="", test_window="", n_train=b["n"], n_test="",
-                      mape_pct="", bias_pct="", trend_growth_pct_per_year="", realised_growth_2019_to_last_pct="", annual_growth_error_pp=round(100 * b["mean_err"], 2), used_to_shift=b["n_real"] > 0,
-                      source="derived", note=f"Growth shift {sg(b['shift']*100)} pp a year, extra sd {b['sd']*100:.2f} pp a year ({b['n_real']} real series used for the shift, RMSE of all series {b['rmse']*100:.2f} pp)."))
+                      mape_pct="", bias_pct="", trend_growth_pct_per_year="", realised_growth_2019_to_last_pct="", annual_growth_error_pp=round(100 * b["mean_err"], 2), used_to_shift=False,
+                      source="derived", note=f"Round 5: growth shift applied {sg(b['shift']*100)} pp a year (round 4 method would have been {sg(b['shift_old']*100)} pp), extra sd {b['sd']*100:.2f} pp a year ({b['n_real']} real series, RMSE of all series {b['rmse']*100:.2f} pp)."))
 pd.DataFrame(brows).to_csv(os.path.join(CLEAN, "model_backtest.csv"), index=False)
 pd.DataFrame(CAL).to_csv(os.path.join(CLEAN, "model_calibration.csv"), index=False)
 ovdf = pd.DataFrame(OV)
 ovdf.to_csv(os.path.join(CLEAN, "model_supply_overlay.csv"), index=False)
 t2 = pd.DataFrame(T2, columns=["opportunity", "metal", "product_form", "TRL", "evidence_strength", "earliest_volume_year", "signpost_and_evidence", "source"])
+t2["status"] = "tier 2 (emerging)"
+t2.loc[t2.opportunity.str.startswith("Captive powder metallurgy"), "status"] = "established, captive, tier 1 inside superalloy billet (not tier 2)"
+t2.loc[t2.opportunity.str.startswith("AM powder, CoCr"), "status"] = "established, crowded, scored in Table 16 (not tier 2)"
 t2.to_csv(os.path.join(CLEAN, "model_tier2_register.csv"), index=False)
 
 # ------------------------------------------------------------------ 8. figures

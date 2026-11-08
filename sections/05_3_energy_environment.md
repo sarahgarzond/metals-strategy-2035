@@ -12,14 +12,14 @@ Nuclear power offers a slower but steadier pull, with 81 reactors under construc
 
 ### 5.3.2 Applications and Opportunities
 
-The three resulting opportunities differ in timing more than in size, as Table 5 shows. Gas turbine parts are needed now, whereas fuel cells remain a weak metal market, because Bloom Energy, which doubles its solid oxide output to 2 GW a year by the end of 2026, does not disclose its interconnect material [CO_BLOOM_CAP_2026]. In nuclear power Alleima has reopened a Sandviken tube mill for steam generator tube, which places alloy producers as suppliers to tube makers rather than in fuel cladding [CO_ALLEIMA_NUCLEAR_2025].
+The three resulting opportunities differ in timing more than in size, as Table 5 shows. Gas turbine parts are needed now, whereas fuel cells remain a weak metal market, because Bloom Energy, which doubles its solid oxide output to 2 GW a year by the end of 2026, does not disclose its interconnect material [CO_BLOOM_CAP_2026]. In nuclear power Alleima is reopening a Sandviken tube mill to raise steam generator tube capacity by about 60 percent, but it melts and remelts its own alloys there, so this tube creates little open demand for bar or hollows from other producers [CO_ALLEIMA_NUCLEAR_2025, CO_ALLEIMA_VAR_2025].
 
 Table 5: High performance metal applications in energy technology, outlook to 2035
 
 | Outlook | Applications | Materials and product forms |
 |---|---|---|
 | Grows strongly | Gas turbine blades, vanes, combustors and repair | Superalloy remelt stock, combustor sheet, welding wire |
-| Grows from 2030 | Nuclear steam generator tube | Alloy 690 bar and hollows for tube makers |
+| Grows from 2030 | Nuclear steam generator tube | Alloy 690 tube, mostly from integrated mills |
 | Option | Solid oxide cell interconnects, alkaline electrolyser electrodes | Coated ferritic strip, nickel strip and mesh |
 
 *Sources: team assessment [CO_SIEMENSENERGY_CMD_2025, EE_NUC_WNA_UC, IEA_H2DB_ELECTROLYSIS_STATUS_2026, CO_TKNUCERA_ORDERS_2025].*
@@ -27,4 +27,4 @@ Table 5: High performance metal applications in energy technology, outlook to 20
 Implications for suppliers:
 
 * Qualify superalloy remelt stock and combustor sheet with turbine casting houses while capacity is sold out to 2028.
-* Treat electrolysers, fuel cells and nuclear tube as options that are released only against signed customer volumes.
+* Treat electrolysers, fuel cells and nuclear tube as options released only against signed volumes, and in nuclear tube only where a tube maker buys outside hollows.

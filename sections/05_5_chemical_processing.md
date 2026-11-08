@@ -8,7 +8,7 @@ Europe's chemical industry is shrinking in volume and running with spare capacit
 
 ### 5.5.2 Applications and Opportunities
 
-Corrosion resistant alloys remain indispensable wherever stainless steel fails, from sulphuric and hydrochloric acid to chlor alkali service. Table 7 shows that European demand is mostly replacement, while new construction and its plate and clad plate move to Asia.
+Corrosion resistant alloys remain indispensable wherever stainless steel fails, from sulphuric and hydrochloric acid to chlor alkali service. Table 7 shows that European demand is mostly replacement, while new construction and its plate and clad plate move to Asia. The leading suppliers are moving closer to that new demand, as Alleima is investing SEK 220 million in further processing and finishing at Mehsana in India for chemical and petrochemical customers, with a range that includes Sanicro 625 (UNS N06625) tube of 6 to 42 mm outside diameter [CO_ALLEIMA_MEHSANA_2026, MO_ALLEIMA_625_MO].
 
 Table 7: High performance metal applications in chemical processing, outlook to 2035
 
@@ -20,8 +20,6 @@ Table 7: High performance metal applications in chemical processing, outlook to 
 | Falls | New build in European base chemicals | Plate |
 
 *Sources: team assessment [CEFIC_CAPUTIL_EU27_Q3_2026, BASF_APAC_GROWTH_2035, CO_ALLEIMA_MEHSANA_2026].*
-
-The leading suppliers are moving closer to that new demand, and Alleima is investing SEK 220 million in finishing at Mehsana in India to serve Asian chemical and petrochemical customers [CO_ALLEIMA_MEHSANA_2026].
 
 Implications for suppliers:
 

@@ -1,0 +1,12 @@
+opportunity,evidence,market,growth,supply,competition,technology,customer,barrier,differentiation,growth_p50_cagr_pct,market_basis,supply_weakest,supply_if_untested_inputs_counted,weighted_score,tier,tier_without_early_signal_cap,score_equal_weights,tier_equal_weights,score_barriers_20pct_proportional,score_barriers_20pct_equal_cut,round4_score,case
+Turbine remelt stock and sheet,M,4,3,3,2,4,5,5,4,2.89904619827257,measured_kt_co 8.501 kt Co,cobalt,2,3.65,2,2,3.75,1,3.8000000000000003,3.7928571428571427,4.05,base
+Engine bar and billet,M,5,3,3,2,5,5,4,4,2.982869164524815,measured_kt_co 11.499 kt Co,cobalt,3,3.8000000000000003,1,1,3.875,1,3.822222222222223,3.8142857142857145,4.0,base
+FeNi36 foil and FeNi strip,E,1,3,5,2,5,3,3,4,2.5713725965349044,none none ,nickel,5,3.2,Option,2,3.25,Option,3.177777777777778,3.1714285714285713,3.9,base
+CoCr implant bar and powder,M,3,4,2,3,4,4,5,3,3.160053996492085,company_end_use 0.258 EUR bn,cobalt (about 60 percent of Co28Cr6Mo),2,3.45,2,2,3.5,2,3.6222222222222227,3.6214285714285714,3.45,base
+"Sour service bar, strip, wire",M,3,1,4,3,3,3,5,3,-0.18479039758260152,estimated_eur_bn 0.381 EUR bn,molybdenum (powder control only),4,2.95,Monitor,Monitor,3.125,2,3.177777777777778,3.164285714285714,3.3000000000000003,base
+"Chemical plate, welding wire",M,3,2,2,2,3,3,3,3,0.819702206050299,estimated_eur_bn 0.723 EUR bn,tungsten in C-276 (about 4 percent) under the Chinese licence,2,2.5500000000000003,Harvest,Harvest,2.625,Harvest,2.6000000000000005,2.592857142857143,3.1500000000000004,base
+Alloy 690 bar and hollows,M,2,2,5,3,4,4,3,3,1.4980115949123407,estimated_eur_bn 0.077 EUR bn,nickel,5,3.1500000000000004,2,2,3.25,2,3.1333333333333337,3.1214285714285714,3.1500000000000004,base
+Solid oxide cell strip,E,1,3,5,3,4,2,3,4,,none none ,chromium (ferritic steel),5,3.1,Option,2,3.125,Option,3.0888888888888895,3.085714285714286,3.1,base
+Alloy C-276 fusion tape foil,E,1,2,2,4,5,2,3,5,,none none ,tungsten in C-276 (about 4 percent) under the Chinese licence,2,2.75,Monitor,Monitor,3.0,Option,2.777777777777778,2.75,3.0500000000000003,base
+"AM powder, CoCr and nickel superalloy",M,2,4,2,2,4,4,3,3,3.863123581493677,wider_segment 0.355 EUR bn,cobalt (CoCr lead grade F75),2,3.0,2,2,3.0,2,3.0000000000000004,3.0,2.95,base
+Car exhaust and turbo alloys,M,2,1,5,3,1,2,3,2,-3.6792907625638804,estimated_eur_bn 0.251 EUR bn,nickel,5,2.35,Harvest,Harvest,2.375,Harvest,2.4222222222222225,2.4214285714285713,2.5,base

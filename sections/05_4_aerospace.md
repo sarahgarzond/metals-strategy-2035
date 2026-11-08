@@ -23,9 +23,9 @@ Table 6: High performance metal applications in aerospace, outlook to 2035
 
 *Sources: team assessment [AERO_AIRBUS_GMF2026_DELIVERIES, AERO_LEAP_2025, AERO_ATI_JETENG_2025].*
 
-The shortage shows in the market leaders, who lock in supply and build captive capacity. ATI earned USD 1,762.9 million from commercial jet engines in 2025 under long term agreements with GE Aerospace, Safran, Rolls-Royce and Pratt and Whitney and quotes forging lead times of more than two years [AERO_ATI_JETENG_2025, CO_ATI_LEAD_2026]. Safran committed EUR 150 million to a 30,000 t press at Gennevilliers for about 14,000 hot section parts a year from 2029 [AERO_SAFRAN_GENNEVILLIERS_2026]. The window for a new qualified European source is open today but narrows as these investments come on stream around 2030.
+The shortage shows in the market leaders, who lock in supply and build captive capacity. ATI earned USD 1,762.9 million from commercial jet engines in 2025 under long term agreements with GE Aerospace, Safran, Rolls-Royce and Pratt and Whitney and quotes forging lead times of more than two years [AERO_ATI_JETENG_2025, CO_ATI_LEAD_2026]. Safran committed EUR 150 million to a 30,000 t press at Gennevilliers for about 14,000 hot section parts a year from 2029 [AERO_SAFRAN_GENNEVILLIERS_2026]. Beyond the United States, voestalpine Böhler in Austria holds about EUR 1 billion of aerospace orders for the next five years, Proterial in Japan sells superalloys for gas turbines, and Aperam entered the US premium melt market by buying Universal Stainless in 2025 for EUR 415 million [CO_VOEST_AERO_ORDERS_2025, CO_PROTERIAL_SUPERALLOY, CO_APERAM_UNIVERSAL_2025]. The window for a new qualified European source is therefore open today but narrows as these investments come on stream around 2030.
 
 Implications for suppliers:
 
 * Start part level qualifications with engine makers and independent forgers now, because rotating approvals take several years.
-* Build the repair wire and powder business alongside, because the maintenance market grows by 3.8 percent a year [AERO_AIRBUS_GSF2026_SERVICES_2045].
+* Build the repair wire and powder business alongside, because off wing maintenance grows by 3.7 percent a year [AERO_AIRBUS_GSF2026_SERVICES_2045].
