@@ -59,10 +59,10 @@ PRODCOM = {
 }
 
 
-def get(url, binary=False, retries=6):
+def get(url, binary=False, retries=6, headers=None):
     for i in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity"})
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity", **(headers or {})})
             with urllib.request.urlopen(req, timeout=120) as r:
                 data = r.read()
             if binary:
@@ -129,11 +129,11 @@ def years(spec):
 
 # ------------------------------------------------------------------ UN Comtrade
 def comtrade_url(q):
-    """Prefer free subscribed Data API when COMTRADE_API_KEY is set; else public preview."""
+    """Subscribed Data API when COMTRADE_API_KEY is set (in the cloud environment the network proxy injects the
+    real key into the Ocp-Apim-Subscription-Key header, so set COMTRADE_API_KEY=proxy-injected); else public preview."""
     key = os.environ.get("COMTRADE_API_KEY", "").strip()
     params = {k: v for k, v in q.items() if v}
     if key:
-        params["subscription-key"] = key
         params.setdefault("maxRecords", "100000")
         return "https://comtradeapi.un.org/data/v1/get/C/A/HS?" + urllib.parse.urlencode(params), True
     return "https://comtradeapi.un.org/public/v1/preview/C/A/HS?" + urllib.parse.urlencode(params), False
@@ -149,7 +149,8 @@ def cmd_comtrade(a):
                      "flowCode": flow, "partnerCode": a.partners or None, "includeDesc": "true"}
                 url, used_key = comtrade_url(q)
                 try:
-                    txt = get(url)
+                    hdr = {"Ocp-Apim-Subscription-Key": os.environ.get("COMTRADE_API_KEY", "").strip()} if used_key else None
+                    txt = get(url, headers=hdr)
                 except Exception as e:  # noqa: BLE001
                     # Propagate hard quota so a sequential pull can stop for the day.
                     if getattr(e, "code", None) == 403 and "Quota" in str(e):
