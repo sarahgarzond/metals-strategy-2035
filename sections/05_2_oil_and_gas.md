@@ -1,14 +1,14 @@
 ## 5.2 Oil and Gas
 
-Oil and gas is a stable rather than a growing market for high performance metals, but beneath its flat total it is moving decisively from oil to gas and from the Middle East toward the Americas and Africa. Corrosion resistant alloys follow that shift, because sour gas, deep water and liquefied natural gas all need materials that ordinary steel cannot provide.
+Oil and gas is a stable market for high performance metals, in which investment moves from oil to gas and sour gas, deep water and LNG need alloys that ordinary steel cannot replace.
 
 ### 5.2.1 Demand, Geography and Market Size
 
-Upstream investment holds its level, and much of it serves to keep existing fields alive rather than to open new ones. Upstream oil and gas investment was just under USD 570 billion in 2025 and about USD 546 billion in 2026, with gas up 8 percent and oil slightly down, and about 40 percent of upstream spending only slows the decline of existing fields [OG_WEO2025_UPSTREAM_2025, OG_WEI2026_UPSTREAM_OG_2026, OG_WEI2025_UPSTREAM_OIL_2025]. Geography is shifting at the same time, as upstream investment rises by over 10 percent in Central and South America and in Africa in 2026, while Qatar's North Field East start up slips to at least the first half of 2027 [OG_WEI2026_SSA_UPSTREAM_2026, OG_LNG_NFE_CAPACITY]. By 2035 the IEA expects upstream spending near today's level in its Stated Policies Scenario, while LNG trade could grow from 560 bcm in 2024 to 880 bcm under current policies [OG_WEO2025_CPS_EXTRA_UPSTREAM, OG_WEO2025_LNG_DEMAND_2024].
+Upstream investment holds its level, and much of it keeps existing fields alive rather than opening new ones. World upstream oil and gas investment fell from USD 625 billion in 2019 to USD 542 billion in 2025 and about USD 546 billion in 2026, with gas up 8 percent in 2026, and about 40 percent of upstream spending only slows the decline of existing fields [IEA_WEI_UPSTREAM_REGION_2026, OG_WEI2026_UPSTREAM_OG_2026, OG_WEI2025_UPSTREAM_OIL_2025]. Behind this flat total, North America remains the largest region at USD 165 billion in 2026 but has fallen from USD 219 billion in 2019, while the Middle East is the largest region spending above its 2019 level, at USD 93 billion against USD 75 billion, and its gas investment roughly doubled from USD 22.9 billion to USD 45.4 billion [IEA_WEI_UPSTREAM_REGION_2026, IEA_WEI_ME_GAS_2026]. Central and South America grew fastest, from USD 42 billion to USD 68 billion, and Sub Saharan Africa recovers by 12 percent in 2026, while LNG trade could grow from 560 bcm in 2024 to 880 bcm in 2035 under current policies [IEA_WEI_UPSTREAM_REGION_2026, OG_WEI2026_SSA_UPSTREAM_2026, OG_WEO2025_LNG_DEMAND_2024]. Upstream investment is thus the best measured stage, since no public source counts the tonnes of nickel alloy, duplex or clad pipe that the industry buys.
 
 ### 5.2.2 Applications and Opportunities
 
-The real barrier to entry in this market is not metallurgy but customer approval. Every producer meets the sour service standard ISO 15156, so margins are protected by operator approval lists, NORSOK M-650 qualification of the mill and the API 6ACRA and API 5LD specifications for valves, wellheads and clad pipe. Clad pipe, which lines carbon steel with a thin nickel alloy layer, is the growing product form, and BUTTING, which describes itself as the global market leader, reports turnover of EUR 880 million [CO_BUTTING_SALES_2025]. Demand is visible in the order books, since TechnipFMC took inbound orders of USD 11.2 billion in 2025, of which USD 10.1 billion were subsea, and ended the year with a backlog of USD 16.6 billion [CO_TECHNIPFMC_ORDERS_2025].
+The real barrier to entry in this market is customer approval rather than metallurgy. ISO 15156 defines which corrosion resistant alloys in which metallurgical condition suit sour service, so a listed grade is a commodity, whereas each producer and product form must pass NORSOK M-650 qualification and operator approval [OG_ISO15156_2020, OG_NORSOK_M650_2011]. Orders then flow through the approved vendor lists of EPC contractors and subsea majors such as SLB and TechnipFMC, which took USD 10.1 billion of subsea orders in 2025 [CO_SLB_PRODSYS_2025, CO_TECHNIPFMC_ORDERS_2025]. Product forms reach from nickel alloy bar for wellheads and completion tools to umbilical tube, where Alleima offers hyper duplex SAF 3007 as successor to the standard super duplex SAF 2507, and clad pipe, for which BUTTING reports turnover of EUR 880 million [OG_ALLEIMA_UMBILICAL, CO_BUTTING_SALES_2025].
 
 Table 4: High performance metal applications in oil and gas, outlook to 2035
 
@@ -16,13 +16,13 @@ Table 4: High performance metal applications in oil and gas, outlook to 2035
 |---|---|---|
 | Grows | Clad and lined pipe, subsea equipment, LNG cryogenic parts | Nickel alloy strip, plate, welding wire, FeNi36 |
 | Stable | Well tools, wellheads, valves and fittings for sour gas | Nickel alloy bar, billet, plate |
-| Falls | Oil only refinery revamps in Europe | Plate |
+| Shifts to duplex | Umbilical tube | Super and hyper duplex tube |
 
-*Source: team assessment based on IEA, TechnipFMC and BUTTING evidence [OG_WEI2026_UPSTREAM_OG_2026, CO_TECHNIPFMC_ORDERS_2025, CO_BUTTING_SALES_2025].*
+*Sources: team assessment [OG_WEI2026_UPSTREAM_OG_2026, CO_TECHNIPFMC_ORDERS_2025, OG_ALLEIMA_UMBILICAL, CO_BUTTING_SALES_2025].*
 
-Competitors are investing despite the flat market, which shows how much the approved positions are worth. Alleima started a fourth vacuum arc remelting furnace at Sandviken in autumn 2025, and Outokumpu is adding about 13,000 t of high nickel flat capacity at Avesta from 2028 [CO_ALLEIMA_VAR_2025, CO_OUTOKUMPU_HINI_CAP_2026].
+Competitors invest despite the flat market, as Outokumpu adds about 13,000 t of high nickel flat capacity at Avesta from 2028, which shows how much approved positions are worth [CO_OUTOKUMPU_HINI_CAP_2026].
 
 Implications for suppliers:
 
-* Concentrate sales on gas and offshore projects in Central and South America and in Sub Saharan Africa.
-* Grow strip and welding wire for clad pipe makers once NORSOK and API approvals are secured.
+* Win places on the vendor lists of Middle East and South American operators and of their EPC contractors and subsea majors.
+* Grow strip and welding wire for clad pipe makers once NORSOK M-650 qualification is secured.
