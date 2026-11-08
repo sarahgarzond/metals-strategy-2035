@@ -2526,3 +2526,405 @@ hs,hs_desc,reporter,reporter_code,partner,partner_code,flow,year,value_usd,net_w
 7505,"Nickel bars, rods, profiles, wire",Italy,380,France,251,Import,2024,38259687.928,1090903.0,1090903.0,kg
 7505,"Nickel bars, rods, profiles, wire",Italy,380,Germany,276,Import,2024,69440005.844,2664228.0,2664228.0,kg
 7505,"Nickel bars, rods, profiles, wire",Italy,380,World,0,Import,2024,289311898.768,8268396.0,8268396.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovenia,705,Export,2022,233769.682,4449.0,4449.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Pakistan,586,Export,2022,1329.374,30.0,30.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,South Africa,710,Export,2022,177675.945,4121.0,4121.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Norway,579,Export,2022,6194862.393,136002.0,136002.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Spain,724,Export,2022,5182432.146,100317.039,100317.039,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Viet Nam,704,Export,2022,1131964.071,32340.0,32340.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,India,699,Export,2022,13673160.624,316184.0,316184.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Egypt,818,Export,2022,10282.204,234.0,234.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovakia,703,Export,2022,36446.097,157.0,157.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Singapore,702,Export,2022,13167590.656,359870.0,359870.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Germany,276,Export,2022,9869347.03,228291.0,228291.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,USA,842,Export,2022,43501550.698,1010583.0,1010583.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Malta,470,Export,2022,3387.524,,0.0,N/A
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Finland,246,Export,2022,234710.864,4836.829,4836.829,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,United Arab Emirates,784,Export,2022,7657462.245,191250.834,191250.834,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Türkiye,792,Export,2022,2855194.535,77921.677,77921.677,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"Other Asia, nes",490,Export,2022,1044451.2,30263.528,30263.528,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Denmark,208,Export,2022,186285.749,2059.899,2059.899,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,France,251,Export,2022,37411806.535,805156.787,805156.787,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Tunisia,788,Export,2022,451492.876,15683.0,15683.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"Areas, nes",899,Export,2022,583.509,6.0,6.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Luxembourg,442,Export,2022,25360.653,190.0,190.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Morocco,504,Export,2022,11084.223,308.0,308.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ukraine,804,Export,2022,111042.43,2944.0,2944.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Oman,512,Export,2022,312671.527,3398.0,3398.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Thailand,764,Export,2022,1613932.457,55047.0,55047.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Jordan,400,Export,2022,1405.06,15.0,15.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Mexico,484,Export,2022,5982769.203,159806.0,159806.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Bulgaria,100,Export,2022,2377.981,30.0,30.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Kenya,404,Export,2022,13504.929,304.0,304.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Rep. of Korea,410,Export,2022,1140566.551,29049.0,29049.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Lithuania,440,Export,2022,15261.559,411.0,411.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Sweden,752,Export,2022,8551957.824,106451.0,106451.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Malaysia,458,Export,2022,442980.73,9367.0,9367.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Greece,300,Export,2022,3492.507,116.0,116.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Canada,124,Export,2022,1688569.073,23498.0,23498.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ireland,372,Export,2022,1522098.204,36555.8,36555.8,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Angola,24,Export,2022,1413.605,15.0,15.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Serbia,688,Export,2022,7408.607,22.0,22.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Costa Rica,188,Export,2022,2778.38,59.0,59.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Senegal,686,Export,2022,3446.119,32.0,32.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Romania,642,Export,2022,9141362.605,189336.0,189336.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Azerbaijan,31,Export,2022,516189.093,6724.0,6724.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Argentina,32,Export,2022,91265.393,1139.0,1139.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Colombia,170,Export,2022,12069.352,214.0,214.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Brazil,76,Export,2022,4126495.103,76691.0,76691.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Israel,376,Export,2022,632098.571,33015.0,33015.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Croatia,191,Export,2022,49645.844,699.0,699.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Hungary,348,Export,2022,85645.155,3521.0,3521.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Netherlands,528,Export,2022,1854219.613,59364.0,59364.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Qatar,634,Export,2022,2028742.414,34022.0,34022.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Russian Federation,643,Export,2022,125343.275,4379.0,4379.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Indonesia,360,Export,2022,105510.084,2756.0,2756.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Portugal,620,Export,2022,37952.477,567.0,567.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Czechia,203,Export,2022,6458210.349,132951.0,132951.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"China, Hong Kong SAR",344,Export,2022,217151.893,4279.0,4279.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Saudi Arabia,682,Export,2022,2100940.013,22395.0,22395.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,New Zealand,554,Export,2022,7771.163,133.0,133.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Italy,380,Export,2022,22411279.683,548950.0,548950.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Australia,36,Export,2022,792379.122,17382.0,17382.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,China,156,Export,2022,23039891.852,671718.0,671718.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Poland,616,Export,2022,4120016.692,101618.0,101618.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Belgium,56,Export,2022,323244.265,5820.0,5820.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Japan,392,Export,2022,902601.222,13714.129,13714.129,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Kazakhstan,398,Export,2022,220638.296,4403.0,4403.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Austria,40,Export,2022,17120310.044,255005.0,255005.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Peru,604,Export,2022,11847.179,109.0,109.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ethiopia,231,Export,2022,3927.087,38.0,38.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Switzerland,757,Export,2022,2287981.394,39870.0,39870.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Romania,642,Export,2023,21080838.648,287860.393,287860.393,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Colombia,170,Export,2023,61653.948,806.0,806.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Canada,124,Export,2023,3251719.661,37270.0,37270.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Oman,512,Export,2023,317583.147,2315.0,2315.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Netherlands,528,Export,2023,2804062.01,53360.032,53360.032,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Spain,724,Export,2023,7498682.67,99275.11,99275.11,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Singapore,702,Export,2023,45382866.427,895599.77,895599.77,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Viet Nam,704,Export,2023,1164542.803,7390.0,7390.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Azerbaijan,31,Export,2023,723144.637,8854.0,8854.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,India,699,Export,2023,26923909.663,533815.0,533815.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Poland,616,Export,2023,8136112.373,156975.0,156975.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Chile,152,Export,2023,1909.168,32.0,32.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Iraq,368,Export,2023,1126.111,17.0,17.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Tunisia,788,Export,2023,9075214.246,150081.0,150081.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Portugal,620,Export,2023,74391.678,705.0,705.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"China, Hong Kong SAR",344,Export,2023,509468.21,9348.0,9348.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Saudi Arabia,682,Export,2023,1953402.099,37841.0,37841.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Malaysia,458,Export,2023,2584255.364,40938.564,40938.564,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Malta,470,Export,2023,9397.93,143.0,143.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovenia,705,Export,2023,387921.572,6080.0,6080.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Nigeria,566,Export,2023,4273.255,5.0,5.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Denmark,208,Export,2023,553229.922,13193.0,13193.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Finland,246,Export,2023,173115.306,2411.742,2411.742,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Costa Rica,188,Export,2023,401598.972,5705.0,5705.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Argentina,32,Export,2023,54229.819,970.0,970.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Peru,604,Export,2023,16036.515,228.0,228.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Qatar,634,Export,2023,1758388.535,20460.0,20460.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Sweden,752,Export,2023,13339175.811,112776.0,112776.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Croatia,191,Export,2023,4521.845,2.0,2.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ukraine,804,Export,2023,15163.965,226.0,226.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Br. Indian Ocean Terr.,86,Export,2023,1508.939,8.0,8.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Brazil,76,Export,2023,5769764.43,104867.0,104867.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovakia,703,Export,2023,50080.859,293.0,293.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Bahrain,48,Export,2023,2150.3,20.0,20.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Indonesia,360,Export,2023,201772.714,2459.0,2459.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Thailand,764,Export,2023,1362394.016,31792.0,31792.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,USA,842,Export,2023,49184364.344,964432.0,964432.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Luxembourg,442,Export,2023,24983.254,189.0,189.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Belgium,56,Export,2023,257632.038,2192.0,2192.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"Other Asia, nes",490,Export,2023,692805.52,12150.615,12150.615,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Türkiye,792,Export,2023,3192145.166,78370.655,78370.655,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Switzerland,757,Export,2023,3648919.84,41740.567,41740.567,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Hungary,348,Export,2023,269984.455,3787.0,3787.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Kuwait,414,Export,2023,2324.313,32.0,32.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,South Africa,710,Export,2023,358492.294,2576.0,2576.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Mexico,484,Export,2023,9482679.932,248974.0,248974.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Serbia,688,Export,2023,7934.98,5.0,5.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Austria,40,Export,2023,4709329.706,93133.0,93133.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,China,156,Export,2023,27403990.855,627606.0,627606.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ireland,372,Export,2023,1333647.116,24967.0,24967.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Germany,276,Export,2023,15696583.228,300325.0,300325.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Rep. of Korea,410,Export,2023,1471283.715,22062.453,22062.453,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,France,251,Export,2023,53768598.795,818515.724,818515.724,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Equatorial Guinea,226,Export,2023,1541.255,9.0,9.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Egypt,818,Export,2023,22969.678,680.0,680.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Kazakhstan,398,Export,2023,19208.518,199.0,199.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Lithuania,440,Export,2023,4209.865,98.0,98.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Japan,392,Export,2023,1638252.643,43929.0,43929.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Jordan,400,Export,2023,2323.07,30.0,30.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,New Zealand,554,Export,2023,29650.524,570.0,570.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Israel,376,Export,2023,451703.447,3538.0,3538.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Australia,36,Export,2023,529088.144,8564.0,8564.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Czechia,203,Export,2023,7892848.813,114668.0,114668.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Norway,579,Export,2023,9593877.786,169807.0,169807.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,United Arab Emirates,784,Export,2023,11874075.762,193812.0,193812.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Italy,380,Export,2023,29854759.823,516983.0,516983.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"Areas, nes",899,Export,2023,13790.508,25.0,25.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Bunkers,837,Export,2024,1598709.906,19356.0,19356.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Germany,276,Export,2024,13550545.103,265518.0,265518.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Estonia,233,Export,2024,4718.076,155.0,155.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Denmark,208,Export,2024,755069.722,3721.0,3721.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,USA,842,Export,2024,57981770.216,1134637.917,1134637.917,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Lithuania,440,Export,2024,3646.363,58.326,58.326,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovenia,705,Export,2024,433198.011,7289.0,7289.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,France,251,Export,2024,35260189.667,563579.0,563579.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,India,699,Export,2024,30203284.785,502159.0,502159.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Sweden,752,Export,2024,18696373.034,139926.0,139926.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Sri Lanka,144,Export,2024,5612.227,1.0,1.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Iraq,368,Export,2024,14071.789,100.0,100.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Saudi Arabia,682,Export,2024,2713066.189,23451.0,23451.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,South Africa,710,Export,2024,114120.366,2093.0,2093.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Thailand,764,Export,2024,3598035.197,106182.0,106182.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"China, Hong Kong SAR",344,Export,2024,141582.866,811.0,811.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Türkiye,792,Export,2024,2529763.863,68140.162,68140.162,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Latvia,428,Export,2024,1591.716,4.0,4.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Norway,579,Export,2024,6877058.699,107830.0,107830.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Romania,642,Export,2024,19555944.334,266436.0,266436.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Malaysia,458,Export,2024,6569218.192,106188.0,106188.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Brazil,76,Export,2024,3517116.388,50003.0,50003.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Viet Nam,704,Export,2024,236814.439,2001.0,2001.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,New Zealand,554,Export,2024,9873.716,128.0,128.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Hungary,348,Export,2024,114830.614,1642.0,1642.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Spain,724,Export,2024,9578360.137,120744.0,120744.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Argentina,32,Export,2024,33453.949,600.0,600.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Australia,36,Export,2024,1588300.968,25084.0,25084.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Kuwait,414,Export,2024,1861.864,56.0,56.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Canada,124,Export,2024,2001689.402,21587.0,21587.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Finland,246,Export,2024,400942.606,4888.0,4888.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Nigeria,566,Export,2024,12340.559,400.0,400.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Italy,380,Export,2024,26535413.186,471093.792,471093.792,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Bahrain,48,Export,2024,26729.423,587.321,587.321,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Qatar,634,Export,2024,3747506.888,45325.0,45325.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,China,156,Export,2024,30131752.665,824184.0,824184.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Jordan,400,Export,2024,1138.933,14.0,14.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Morocco,504,Export,2024,52363.034,810.0,810.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,United Arab Emirates,784,Export,2024,13878664.459,274725.0,274725.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Rep. of Korea,410,Export,2024,486668.271,7670.0,7670.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Czechia,203,Export,2024,7422724.482,118238.0,118238.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Mexico,484,Export,2024,9695036.128,227304.0,227304.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Belgium,56,Export,2024,286413.847,3221.0,3221.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"Other Asia, nes",490,Export,2024,2672609.955,52620.0,52620.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Kenya,404,Export,2024,24078.676,486.0,486.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Netherlands,528,Export,2024,2386454.841,43995.0,43995.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Tunisia,788,Export,2024,24931202.662,413703.0,413703.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Greece,300,Export,2024,3812.51,29.0,29.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Kazakhstan,398,Export,2024,7829.216,26.0,26.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Indonesia,360,Export,2024,106959.544,1319.0,1319.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Japan,392,Export,2024,4428181.937,89712.472,89712.472,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Mauritania,478,Export,2024,2288.013,12.0,12.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Turkmenistan,795,Export,2024,3102.262,29.0,29.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Chile,152,Export,2024,5629.984,945.0,945.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Azerbaijan,31,Export,2024,120045.863,1597.0,1597.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Luxembourg,442,Export,2024,11069.722,87.0,87.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Serbia,688,Export,2024,12495.292,20.0,20.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Singapore,702,Export,2024,38763386.463,837355.305,837355.305,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Peru,604,Export,2024,17203.221,239.0,239.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Angola,24,Export,2024,1464423.57,6901.0,6901.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Portugal,620,Export,2024,86527.231,1124.0,1124.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Egypt,818,Export,2024,61340.061,913.0,913.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Oman,512,Export,2024,804036.248,4086.0,4086.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Poland,616,Export,2024,6877222.31,114379.0,114379.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Colombia,170,Export,2024,46262.511,371.0,371.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Pakistan,586,Export,2024,3896.218,158.737,158.737,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Switzerland,757,Export,2024,2288507.837,26909.07,26909.07,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Costa Rica,188,Export,2024,140512.42,2553.0,2553.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ukraine,804,Export,2024,7140.529,133.0,133.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Bulgaria,100,Export,2024,12591.682,126.0,126.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovakia,703,Export,2024,19096.793,123.0,123.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Austria,40,Export,2024,3287620.04,67139.0,67139.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Israel,376,Export,2024,1562014.182,25404.0,25404.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ireland,372,Export,2024,1271726.947,22591.588,22591.588,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Switzerland,757,Import,2022,1308914.903,41305.0,41305.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Poland,616,Import,2022,45832.286,1102.0,1102.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Spain,724,Import,2022,2307853.648,1046044.0,1046044.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Sweden,752,Import,2022,10835074.612,454155.0,454155.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,United Kingdom,826,Import,2022,753093.608,21207.0,21207.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Philippines,608,Import,2022,13092.323,7.0,7.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Lithuania,440,Import,2022,3658.526,14.0,14.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Mexico,484,Import,2022,536277.416,6426.0,6426.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Malaysia,458,Import,2022,117498.868,4333.0,4333.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"Other Asia, nes",490,Import,2022,5883238.251,225209.0,225209.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,USA,842,Import,2022,66733578.035,1690311.0,1690311.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Germany,276,Import,2022,75562526.686,3087471.0,3087471.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Norway,579,Import,2022,227994.411,15611.0,15611.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Japan,392,Import,2022,3035441.336,120974.0,120974.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Czechia,203,Import,2022,1780671.887,72597.0,72597.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ukraine,804,Import,2022,14389.958,4.0,4.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Denmark,208,Import,2022,2298.633,30.0,30.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,India,699,Import,2022,1849262.231,62151.0,62151.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Finland,246,Import,2022,4889.021,1.0,1.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,New Zealand,554,Import,2022,1627.232,1.0,1.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Australia,36,Import,2022,5753612.658,227608.0,227608.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Brazil,76,Import,2022,741685.892,34795.0,34795.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Canada,124,Import,2022,45042.474,1084.0,1084.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Rep. of Korea,410,Import,2022,67666.252,1918.0,1918.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Belgium,56,Import,2022,468794.274,5894.0,5894.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,China,156,Import,2022,1916277.834,71893.0,71893.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,France,251,Import,2022,10333379.239,356437.0,356437.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Austria,40,Import,2022,42714504.943,1385185.0,1385185.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Italy,380,Import,2022,37546301.619,1162807.0,1162807.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Romania,642,Import,2022,80905.062,7627.0,7627.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Netherlands,528,Import,2022,2098100.597,44851.0,44851.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Portugal,620,Import,2022,8016.53,240.0,240.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ireland,372,Import,2022,19762.388,52.0,52.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Sweden,752,Import,2023,16967660.344,665663.0,665663.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Spain,724,Import,2023,979332.37,419327.0,419327.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Czechia,203,Import,2023,1284376.658,76853.0,76853.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Austria,40,Import,2023,62750696.352,1711917.0,1711917.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,United Kingdom,826,Import,2023,896557.008,17622.412,17622.412,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Israel,376,Import,2023,20445.251,20.0,20.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Brazil,76,Import,2023,159701.412,4242.0,4242.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ireland,372,Import,2023,70288.707,866.0,866.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Germany,276,Import,2023,118218761.735,3461419.217,3461419.217,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovakia,703,Import,2023,27385.872,117.0,117.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Italy,380,Import,2023,48146968.903,1414096.029,1414096.029,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,India,699,Import,2023,1890566.107,54197.0,54197.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,United Arab Emirates,784,Import,2023,15467.244,248.0,248.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Malaysia,458,Import,2023,205767.549,4489.0,4489.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Switzerland,757,Import,2023,2892856.969,76410.0,76410.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Australia,36,Import,2023,7548390.644,189053.0,189053.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Türkiye,792,Import,2023,147976.683,3281.0,3281.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Denmark,208,Import,2023,1699.11,25.0,25.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Singapore,702,Import,2023,223511.874,5411.0,5411.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovenia,705,Import,2023,3348.502,13.0,13.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,France,251,Import,2023,13613280.638,1031806.0,1031806.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Romania,642,Import,2023,597715.03,34146.0,34146.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"Other Asia, nes",490,Import,2023,16640018.018,508121.0,508121.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Mexico,484,Import,2023,547532.249,3843.0,3843.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Belgium,56,Import,2023,82731.859,1350.0,1350.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Netherlands,528,Import,2023,1842835.663,45264.26,45264.26,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Canada,124,Import,2023,57007.808,2952.0,2952.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,USA,842,Import,2023,91113832.859,2081404.0,2081404.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"China, Hong Kong SAR",344,Import,2023,82689.599,2486.0,2486.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Japan,392,Import,2023,16533026.301,576465.0,576465.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,China,156,Import,2023,3003614.819,80848.0,80848.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Poland,616,Import,2023,44229.06,2729.0,2729.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Austria,40,Import,2024,75059914.206,2010895.945,2010895.945,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Romania,642,Import,2024,266339.195,25069.0,25069.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Poland,616,Import,2024,102137.467,2318.0,2318.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Sweden,752,Import,2024,18353316.908,669963.0,669963.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,France,251,Import,2024,16637045.739,561553.0,561553.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Philippines,608,Import,2024,77768.351,29.0,29.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,USA,842,Import,2024,89199554.22,1699855.937,1699855.937,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Italy,380,Import,2024,67344329.108,1775824.039,1775824.039,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Canada,124,Import,2024,286257.847,4596.0,4596.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,India,699,Import,2024,1590018.246,49008.0,49008.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Norway,579,Import,2024,2248.696,1.0,1.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Israel,376,Import,2024,30317.443,115.0,115.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Japan,392,Import,2024,24097857.269,648900.0,648900.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,China,156,Import,2024,4140715.401,139214.8,139214.8,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Brazil,76,Import,2024,2968896.25,74535.0,74535.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Rep. of Korea,410,Import,2024,1590.448,129.0,129.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Myanmar,104,Import,2024,10122.302,115.0,115.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Malaysia,458,Import,2024,226735.259,1364.0,1364.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Australia,36,Import,2024,14648082.459,316145.0,316145.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Czechia,203,Import,2024,1566966.894,68769.0,68769.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Slovenia,705,Import,2024,7962.387,65.0,65.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Netherlands,528,Import,2024,1357617.491,19417.0,19417.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,"Other Asia, nes",490,Import,2024,25397739.207,597523.0,597523.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Germany,276,Import,2024,116422539.47,3057941.0,3057941.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Türkiye,792,Import,2024,153975.425,3475.0,3475.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Indonesia,360,Import,2024,17719.419,264.0,264.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Pakistan,586,Import,2024,65275.596,1935.0,1935.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Ireland,372,Import,2024,5846.863,2.0,2.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Spain,724,Import,2024,35294.252,104.0,104.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Mexico,484,Import,2024,759720.578,4680.0,4680.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,United Kingdom,826,Import,2024,1732416.629,30701.57,30701.57,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Hungary,348,Import,2024,54922.463,994.0,994.0,kg
+7505,"Nickel bars, rods, profiles, wire",United Kingdom,826,Switzerland,757,Import,2024,3806022.446,90015.0,90015.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,China,156,Export,2022,21539.0,757.0,757.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Malaysia,458,Export,2022,61343.62,6905.6,6905.6,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Singapore,702,Export,2022,462993.3,38494.0,38494.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Brazil,76,Export,2023,82550.7,2010.0,2010.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,China,156,Export,2023,0.99,,0.0,N/A
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Malaysia,458,Export,2023,774.8,46.0,46.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Oman,512,Export,2023,4867.928,305.0,305.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Singapore,702,Export,2023,11244.926,961.0,961.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,China,156,Export,2024,40.613,,0.0,N/A
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Japan,392,Export,2024,20400.0,87.26,87.26,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Malaysia,458,Export,2024,212.64,1.0,1.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Peru,604,Export,2024,144371.48,42398.91,42398.91,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,India,699,Export,2024,19873.212,405.0,405.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Singapore,702,Export,2024,27488.52,1869.72,1869.72,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Viet Nam,704,Export,2024,31162.191,1325.661,1325.661,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Netherlands,528,Import,2022,101.0,1.0,1.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,India,699,Import,2022,505453.0,17883.0,17883.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Singapore,702,Import,2022,267424.0,5230.0,5230.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Slovakia,703,Import,2022,1486.0,16.0,16.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Sweden,752,Import,2022,22069.0,456.0,456.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Switzerland,757,Import,2022,2736325.0,75082.0,75082.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Thailand,764,Import,2022,5454.0,102.0,102.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,United Arab Emirates,784,Import,2022,1106.0,15.0,15.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,United Kingdom,826,Import,2022,88501.0,1571.0,1571.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,USA,842,Import,2022,1288362.0,5049.0,5049.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Czechia,203,Import,2022,17935.0,542.0,542.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,France,251,Import,2022,3442691.0,100035.0,100035.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Germany,276,Import,2022,1408767.0,31112.0,31112.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Guatemala,320,Import,2022,82.0,3.0,3.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,"China, Hong Kong SAR",344,Import,2022,149678.0,14230.0,14230.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Ireland,372,Import,2022,1993.0,17.0,17.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Italy,380,Import,2022,66003.0,2018.0,2018.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Japan,392,Import,2022,3483202.0,111048.0,111048.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Rep. of Korea,410,Import,2022,85999.0,4125.0,4125.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Malaysia,458,Import,2022,10187.0,175.0,175.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,"Other Asia, nes",490,Import,2022,61893.0,2576.0,2576.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Australia,36,Import,2022,30788.0,1161.0,1161.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Austria,40,Import,2022,807680.0,31923.0,31923.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,China,156,Import,2022,4845580.0,2444871.0,2444871.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Costa Rica,188,Import,2022,219030.0,5912.724,0.0,N/A
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Australia,36,Import,2023,516.0,205.0,205.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Austria,40,Import,2023,1735811.0,29890.0,29890.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,China,156,Import,2023,3302625.0,151622.0,151622.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Czechia,203,Import,2023,5969.0,130.0,130.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,France,251,Import,2023,784726.0,18469.0,18469.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Germany,276,Import,2023,2867512.0,75209.0,75209.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,"China, Hong Kong SAR",344,Import,2023,15165.0,271.0,271.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Ireland,372,Import,2023,6698.0,142.0,142.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Italy,380,Import,2023,417445.0,11865.0,11865.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Japan,392,Import,2023,5458579.0,134072.0,134072.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Rep. of Korea,410,Import,2023,215557.0,7269.0,7269.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Malaysia,458,Import,2023,23775.0,609.0,609.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,"Other Asia, nes",490,Import,2023,96874.0,2679.0,2679.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Netherlands,528,Import,2023,4261.0,136.0,136.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,New Zealand,554,Import,2023,3244.0,1195.0,1195.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Romania,642,Import,2023,3262.0,28.0,28.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Saudi Arabia,682,Import,2023,756416.0,20011.0,20011.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Seychelles,690,Import,2023,2.0,1.0,1.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,India,699,Import,2023,819605.0,23442.0,23442.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Singapore,702,Import,2023,149438.0,4084.0,4084.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Viet Nam,704,Import,2023,8819.0,495.0,495.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Sweden,752,Import,2023,114560.0,1710.0,1710.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Switzerland,757,Import,2023,13081957.0,311422.0,311422.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Thailand,764,Import,2023,85.0,2.0,2.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,United Arab Emirates,784,Import,2023,85347.0,1720.0,1720.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,United Kingdom,826,Import,2023,180046.0,3553.0,3553.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,USA,842,Import,2023,610971.0,8979.0,8979.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Ireland,372,Import,2024,1036.0,28.0,28.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Jordan,400,Import,2024,845.0,46.0,46.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Czechia,203,Import,2024,382099.0,2066.0,2066.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,United Arab Emirates,784,Import,2024,85733.0,2055.0,2055.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Sweden,752,Import,2024,13511.0,530.0,530.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Austria,40,Import,2024,540948.0,18018.0,18018.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Switzerland,757,Import,2024,19383920.0,497321.0,497321.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Belgium,56,Import,2024,368.0,40.0,40.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Netherlands,528,Import,2024,2751.0,82.0,82.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,France,251,Import,2024,15627.0,437.0,437.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Viet Nam,704,Import,2024,13884.0,780.0,780.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Australia,36,Import,2024,2500.0,805.0,805.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,"China, Hong Kong SAR",344,Import,2024,48025.0,1053.0,1053.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Italy,380,Import,2024,56702.0,1403.0,1403.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,United Kingdom,826,Import,2024,292346.0,7119.0,7119.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Malaysia,458,Import,2024,28947.0,545.0,545.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Thailand,764,Import,2024,280465.0,7535.0,7535.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,"Other Asia, nes",490,Import,2024,125685.0,4345.0,4345.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Singapore,702,Import,2024,840499.0,29663.0,29663.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Germany,276,Import,2024,1665509.0,32894.0,32894.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,India,699,Import,2024,644150.0,15642.0,15642.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,USA,842,Import,2024,407414.0,9486.0,9486.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Rep. of Korea,410,Import,2024,75810.0,2364.0,2364.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Japan,392,Import,2024,3622179.0,107715.0,107715.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,FS Micronesia,583,Import,2024,3112.0,15.0,15.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,China,156,Import,2024,2649338.0,122632.0,122632.0,kg
+7505,"Nickel bars, rods, profiles, wire",Indonesia,360,Mexico,484,Import,2024,1682.0,2.0,2.0,kg

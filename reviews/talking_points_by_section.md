@@ -409,7 +409,7 @@ CO_GE_CES_2025 (26.6% margin, services 75% of CES), CO_SAFRAN_PROP_2025, CO_MTU_
 - Capacity follows the **trade result**, not a growth story. Named grade + named form + buyer who can repeat.
 - **Bar / rod / wire**: EU net import; AC 5,380,347 kg (band ~5.1–5.6 M kg). **No bar capacity vote** until UK supply footnote + HS 7502 are in the text [AC_EU_NI_BAR_2024].
 - **Flat**: EU net export of mixed code; 57.8 M kg = ceiling only. Pursue plate/strip only where named grade is imported or displaces a named supplier [AC_EU_NI_FLAT_2024].
-- Aerospace wrought offer: billet (via named forger, e.g. Aubert & Duval), approved sheet, repair wire → HS 7505 / 7502. Alloy plate → HS 750620 once split exists.
+- Aerospace wrought offer: billet (via named forger, e.g. Aubert & Duval), approved sheet, repair wire → HS 7505 / 7502. Alloy plate → HS 750620 (DE 2024 World export ~15.0 M kg / USD 500 M; not-alloyed 750610 ~2.8 M kg) [COMTRADE_750610_750620_2019_2024].
 - Expansion alloys / Crofer 22 / Aluchrom / Konstantan → HS ch. 72/74. Nickel 201 electrolyser strip → unalloyed HS 7506.
 - Acerinox HPA = VDM + Haynes **once**: 83 kt melt / 47 kt finish / EUR 1,683 m (2025) [NI_ACX_HPA_2025]. Haynes = aero + IGT book; VDM = weaker chemical / O&G book [CO_HAYN_SYN_2026].
 - Special Metals / PCC Hereford = outside EU27 → UK billet/bar absent from EU AC [CO_PCC_REV_2025]. Cast blades stay Howmet/PCC.
@@ -475,7 +475,7 @@ Auto-generated from `data/sources.csv` + in-text markers. APA 7. Author string m
 - How paid reports were triangulated; what was rejected.
 
 ### A4 Information needed before investment
-- Plant nameplate by alloy family; customer tonnes and margins; HS 750610/750620 split; Co/Ti/W mill AC; IEA CME file once downloaded.
+- Plant nameplate by alloy family; customer tonnes and margins; Co/Ti/W mill AC; IEA CME file once downloaded. HS 750610/750620 World split is available in `data/clean/`.
 
 ---
 

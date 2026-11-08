@@ -92,8 +92,8 @@ Reading: EU is **net importer**. Sold production cell is Eurostat `:R` (rounding
 ## C. Trade (Comtrade)
 
 Portfolio World partner 2019–2024: `data/clean/comtrade_portfolio_world_2019-2024.csv` [COMTRADE_PORTFOLIO_WORLD_2019_2024]  
-Reporters: DE, US, CN, JP, KR, UK, IT, ID, FR (code 251), IN (code 699)  
-Bilateral priority 2022–2024: `data/clean/comtrade_bilateral_priority_2022-2024.csv` [COMTRADE_BILATERAL_PRIORITY_2022_2024]
+Reporters: DE 276, US 842, CN 156, JP 392, KR 410, UK 826, IT 380, ID 360, FR 251, IN 699  
+Bilateral priority 2022–2024: `data/clean/comtrade_bilateral_priority_2022-2024.csv` (45,277 rows; UK+ID added 2026-11-08) [COMTRADE_BILATERAL_PRIORITY_2022_2024]
 
 ### Germany HS 7506 → World
 
@@ -103,6 +103,17 @@ Bilateral priority 2022–2024: `data/clean/comtrade_bilateral_priority_2022-202
 | 2023 | ~580 M | 14.2 M | COMTRADE_7506 |
 
 PRODCOM DE export 24452200 2024: 18,087,152 kg ≈ Comtrade (gap ~1.8%).
+
+### Germany HS 750610 / 750620 split → World 2024 (TOTAL)
+
+| HS | Flow | Value USD | Net weight kg | Unit value USD/t |
+|---|---|---:|---:|---:|
+| 750610 not alloyed | Export | 77,997,958 | 2,816,709 | ~27,700 |
+| 750610 not alloyed | Import | 81,505,999 | 3,741,786 | ~21,800 |
+| 750620 nickel alloys | Export | 499,779,572 | 14,958,302 | ~33,400 |
+| 750620 nickel alloys | Import | 82,241,322 | 2,147,089 | ~38,300 |
+
+Export kg 2.82 M + 14.96 M = 17.78 M ≈ HS 7506. Alloy share of DE flat exports ≈ **84% by weight**. Files: `comtrade_750610_2019-2024.csv`, `comtrade_750620_2019-2024.csv`, `comtrade_7506_split_2019-2024.csv` [COMTRADE_750610_750620_2019_2024]. PRODCOM 24452200 AC remains a mixed-code ceiling; use HS 750620 for alloy plate corridors.
 
 ### Top German HS 7506 export partners 2024
 
@@ -174,7 +185,7 @@ Profiles: `research/companies/acerinox.md`, `outokumpu.md`, `ati.md`, `haynes.md
 
 **Present:** 10 metal notes + trade + AC; 7 sectors; 61 companies; Comtrade 27 HS; bilateral 14 HS; PRODCOM AC; USGS; Pink Sheet; ICIO; UNIDO; STAN.
 
-**Open:** HS 750610/750620 split; Acerinox nameplate by plant; Co/Ti/W mill AC; IEA CME raw file; customer tonnes/margins (A4).
+**Open:** Acerinox nameplate by plant; Co/Ti/W mill AC; IEA CME raw file; customer tonnes/margins (A4). HS 750610/750620 World pull is done (see §C).
 
 ---
 

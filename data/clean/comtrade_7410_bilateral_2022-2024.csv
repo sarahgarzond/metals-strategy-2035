@@ -2424,3 +2424,343 @@ hs,hs_desc,reporter,reporter_code,partner,partner_code,flow,year,value_usd,net_w
 7410,Copper foil,Italy,380,France,251,Import,2024,3199961.498,107679.0,107679.0,kg
 7410,Copper foil,Italy,380,Germany,276,Import,2024,11923980.477,833972.0,833972.0,kg
 7410,Copper foil,Italy,380,World,0,Import,2024,36922071.332,2293774.0,2293774.0,kg
+7410,Copper foil,United Kingdom,826,Pakistan,586,Export,2022,4466.649,90.0,90.0,kg
+7410,Copper foil,United Kingdom,826,South Africa,710,Export,2022,273832.801,3905.0,3905.0,kg
+7410,Copper foil,United Kingdom,826,Nigeria,566,Export,2022,14138.488,20.0,20.0,kg
+7410,Copper foil,United Kingdom,826,Norway,579,Export,2022,5041.612,99.0,99.0,kg
+7410,Copper foil,United Kingdom,826,Spain,724,Export,2022,344820.657,22355.579,22355.579,kg
+7410,Copper foil,United Kingdom,826,Singapore,702,Export,2022,104815.489,4062.0,4062.0,kg
+7410,Copper foil,United Kingdom,826,USA,842,Export,2022,578265.625,6200.818,6200.818,kg
+7410,Copper foil,United Kingdom,826,Germany,276,Export,2022,1520824.983,73570.378,73570.378,kg
+7410,Copper foil,United Kingdom,826,India,699,Export,2022,139696.611,4215.026,4215.026,kg
+7410,Copper foil,United Kingdom,826,Rep. of Korea,410,Export,2022,389219.807,1963.751,1963.751,kg
+7410,Copper foil,United Kingdom,826,France,251,Export,2022,3208605.465,110280.17,110280.17,kg
+7410,Copper foil,United Kingdom,826,Fiji,242,Export,2022,1481.966,37.0,37.0,kg
+7410,Copper foil,United Kingdom,826,Tunisia,788,Export,2022,1928.752,72.0,72.0,kg
+7410,Copper foil,United Kingdom,826,"Areas, nes",899,Export,2022,29318.258,17600.0,17600.0,kg
+7410,Copper foil,United Kingdom,826,Luxembourg,442,Export,2022,75699.872,512.0,512.0,kg
+7410,Copper foil,United Kingdom,826,Estonia,233,Export,2022,7032.622,217.0,217.0,kg
+7410,Copper foil,United Kingdom,826,Thailand,764,Export,2022,2572.077,4.0,4.0,kg
+7410,Copper foil,United Kingdom,826,Gibraltar,292,Export,2022,9171.34,329.0,329.0,kg
+7410,Copper foil,United Kingdom,826,Bulgaria,100,Export,2022,2508.599,125.0,125.0,kg
+7410,Copper foil,United Kingdom,826,Finland,246,Export,2022,70834.045,1244.0,1244.0,kg
+7410,Copper foil,United Kingdom,826,Lithuania,440,Export,2022,21998.765,197.0,197.0,kg
+7410,Copper foil,United Kingdom,826,Sweden,752,Export,2022,284763.212,5510.0,5510.0,kg
+7410,Copper foil,United Kingdom,826,Malaysia,458,Export,2022,968410.745,584389.0,584389.0,kg
+7410,Copper foil,United Kingdom,826,Denmark,208,Export,2022,134452.358,2204.0,2204.0,kg
+7410,Copper foil,United Kingdom,826,United Arab Emirates,784,Export,2022,13187.54,99.0,99.0,kg
+7410,Copper foil,United Kingdom,826,Canada,124,Export,2022,160872.605,3258.0,3258.0,kg
+7410,Copper foil,United Kingdom,826,Türkiye,792,Export,2022,533884.787,10148.0,10148.0,kg
+7410,Copper foil,United Kingdom,826,Hungary,348,Export,2022,26722.988,237.653,237.653,kg
+7410,Copper foil,United Kingdom,826,China,156,Export,2022,678868.377,11143.525,11143.525,kg
+7410,Copper foil,United Kingdom,826,Saudi Arabia,682,Export,2022,2512.261,4.0,4.0,kg
+7410,Copper foil,United Kingdom,826,Romania,642,Export,2022,80576.686,1287.0,1287.0,kg
+7410,Copper foil,United Kingdom,826,Colombia,170,Export,2022,89434.299,160.0,160.0,kg
+7410,Copper foil,United Kingdom,826,Brazil,76,Export,2022,34601.575,31.0,31.0,kg
+7410,Copper foil,United Kingdom,826,Israel,376,Export,2022,15251.793,264.0,264.0,kg
+7410,Copper foil,United Kingdom,826,Croatia,191,Export,2022,11787.363,68.0,68.0,kg
+7410,Copper foil,United Kingdom,826,Netherlands,528,Export,2022,428618.848,145548.0,145548.0,kg
+7410,Copper foil,United Kingdom,826,Russian Federation,643,Export,2022,115412.641,1986.0,1986.0,kg
+7410,Copper foil,United Kingdom,826,Cyprus,196,Export,2022,3156.806,30.0,30.0,kg
+7410,Copper foil,United Kingdom,826,Czechia,203,Export,2022,257728.938,2397.0,2397.0,kg
+7410,Copper foil,United Kingdom,826,"China, Hong Kong SAR",344,Export,2022,11833.751,32.0,32.0,kg
+7410,Copper foil,United Kingdom,826,New Zealand,554,Export,2022,19857.605,291.0,291.0,kg
+7410,Copper foil,United Kingdom,826,Italy,380,Export,2022,924972.309,35975.0,35975.0,kg
+7410,Copper foil,United Kingdom,826,Australia,36,Export,2022,43578.819,580.0,580.0,kg
+7410,Copper foil,United Kingdom,826,Poland,616,Export,2022,1259216.567,60103.0,60103.0,kg
+7410,Copper foil,United Kingdom,826,Ireland,372,Export,2022,36225.145,2359.0,2359.0,kg
+7410,Copper foil,United Kingdom,826,Belgium,56,Export,2022,431544.937,4787.0,4787.0,kg
+7410,Copper foil,United Kingdom,826,Japan,392,Export,2022,52446.198,736.686,736.686,kg
+7410,Copper foil,United Kingdom,826,Kazakhstan,398,Export,2022,76777.776,3552.0,3552.0,kg
+7410,Copper foil,United Kingdom,826,Austria,40,Export,2022,5290.641,43.0,43.0,kg
+7410,Copper foil,United Kingdom,826,Peru,604,Export,2022,14206.849,20.0,20.0,kg
+7410,Copper foil,United Kingdom,826,Switzerland,757,Export,2022,34716.324,307.0,307.0,kg
+7410,Copper foil,United Kingdom,826,Kuwait,414,Export,2022,117746.676,16859.0,16859.0,kg
+7410,Copper foil,United Kingdom,826,Ecuador,218,Export,2023,2851.323,59.0,59.0,kg
+7410,Copper foil,United Kingdom,826,Cyprus,196,Export,2023,2018.547,3.0,3.0,kg
+7410,Copper foil,United Kingdom,826,Libya,434,Export,2023,5216.653,36.0,36.0,kg
+7410,Copper foil,United Kingdom,826,Thailand,764,Export,2023,13602.822,66.0,66.0,kg
+7410,Copper foil,United Kingdom,826,Italy,380,Export,2023,637049.361,24090.0,24090.0,kg
+7410,Copper foil,United Kingdom,826,Poland,616,Export,2023,997632.293,18516.0,18516.0,kg
+7410,Copper foil,United Kingdom,826,India,699,Export,2023,79162.113,1825.0,1825.0,kg
+7410,Copper foil,United Kingdom,826,China,156,Export,2023,1049464.466,26586.69,26586.69,kg
+7410,Copper foil,United Kingdom,826,Norway,579,Export,2023,4263.312,30.0,30.0,kg
+7410,Copper foil,United Kingdom,826,United Arab Emirates,784,Export,2023,36292.837,904.0,904.0,kg
+7410,Copper foil,United Kingdom,826,Sri Lanka,144,Export,2023,6090.445,1.0,1.0,kg
+7410,Copper foil,United Kingdom,826,USA,842,Export,2023,551551.943,8347.985,8347.985,kg
+7410,Copper foil,United Kingdom,826,Ireland,372,Export,2023,18700.152,650.226,650.226,kg
+7410,Copper foil,United Kingdom,826,Malaysia,458,Export,2023,1912330.126,594547.541,594547.541,kg
+7410,Copper foil,United Kingdom,826,"Other Asia, nes",490,Export,2023,15231.084,789.0,789.0,kg
+7410,Copper foil,United Kingdom,826,Luxembourg,442,Export,2023,140627.132,881.0,881.0,kg
+7410,Copper foil,United Kingdom,826,Spain,724,Export,2023,124491.182,7635.72,7635.72,kg
+7410,Copper foil,United Kingdom,826,Japan,392,Export,2023,64293.969,8426.155,8426.155,kg
+7410,Copper foil,United Kingdom,826,Gibraltar,292,Export,2023,86759.011,21072.0,21072.0,kg
+7410,Copper foil,United Kingdom,826,Viet Nam,704,Export,2023,8238.259,85.0,85.0,kg
+7410,Copper foil,United Kingdom,826,Nigeria,566,Export,2023,6412.369,7.0,7.0,kg
+7410,Copper foil,United Kingdom,826,Saudi Arabia,682,Export,2023,7097.233,215.0,215.0,kg
+7410,Copper foil,United Kingdom,826,Finland,246,Export,2023,91154.075,1141.0,1141.0,kg
+7410,Copper foil,United Kingdom,826,Romania,642,Export,2023,43578.998,1109.0,1109.0,kg
+7410,Copper foil,United Kingdom,826,Denmark,208,Export,2023,10378.615,105.0,105.0,kg
+7410,Copper foil,United Kingdom,826,Belgium,56,Export,2023,250480.116,3068.0,3068.0,kg
+7410,Copper foil,United Kingdom,826,Estonia,233,Export,2023,10223.247,434.0,434.0,kg
+7410,Copper foil,United Kingdom,826,Israel,376,Export,2023,6608.754,169.0,169.0,kg
+7410,Copper foil,United Kingdom,826,Rep. of Korea,410,Export,2023,89248.635,2150.789,2150.789,kg
+7410,Copper foil,United Kingdom,826,Switzerland,757,Export,2023,29876.74,880.44,880.44,kg
+7410,Copper foil,United Kingdom,826,Russian Federation,643,Export,2023,20431.579,326.0,326.0,kg
+7410,Copper foil,United Kingdom,826,Germany,276,Export,2023,1374377.277,38383.0,38383.0,kg
+7410,Copper foil,United Kingdom,826,Sweden,752,Export,2023,204697.371,4298.092,4298.092,kg
+7410,Copper foil,United Kingdom,826,Singapore,702,Export,2023,37908.67,464.0,464.0,kg
+7410,Copper foil,United Kingdom,826,Czechia,203,Export,2023,132487.066,2075.0,2075.0,kg
+7410,Copper foil,United Kingdom,826,Netherlands,528,Export,2023,355238.256,135026.0,135026.0,kg
+7410,Copper foil,United Kingdom,826,Colombia,170,Export,2023,74021.28,151.0,151.0,kg
+7410,Copper foil,United Kingdom,826,Greece,300,Export,2023,1383.401,3.0,3.0,kg
+7410,Copper foil,United Kingdom,826,Canada,124,Export,2023,188233.282,3832.0,3832.0,kg
+7410,Copper foil,United Kingdom,826,Austria,40,Export,2023,5321.06,38.0,38.0,kg
+7410,Copper foil,United Kingdom,826,Türkiye,792,Export,2023,989222.507,21804.194,21804.194,kg
+7410,Copper foil,United Kingdom,826,Slovakia,703,Export,2023,1145.998,4.0,4.0,kg
+7410,Copper foil,United Kingdom,826,Croatia,191,Export,2023,5949.992,44.0,44.0,kg
+7410,Copper foil,United Kingdom,826,Qatar,634,Export,2023,6084.23,33.0,33.0,kg
+7410,Copper foil,United Kingdom,826,Hungary,348,Export,2023,45178.672,226.0,226.0,kg
+7410,Copper foil,United Kingdom,826,Australia,36,Export,2023,40779.88,399.0,399.0,kg
+7410,Copper foil,United Kingdom,826,France,251,Export,2023,4952478.915,194741.115,194741.115,kg
+7410,Copper foil,United Kingdom,826,Kazakhstan,398,Export,2023,7691.362,75.0,75.0,kg
+7410,Copper foil,United Kingdom,826,New Zealand,554,Export,2023,16225.443,174.0,174.0,kg
+7410,Copper foil,United Kingdom,826,"China, Hong Kong SAR",344,Export,2023,183967.485,3150.0,3150.0,kg
+7410,Copper foil,United Kingdom,826,South Africa,710,Export,2023,465773.618,6362.0,6362.0,kg
+7410,Copper foil,United Kingdom,826,Philippines,608,Export,2023,8706.85,202.108,202.108,kg
+7410,Copper foil,United Kingdom,826,Pakistan,586,Export,2023,2313.126,364.0,364.0,kg
+7410,Copper foil,United Kingdom,826,Germany,276,Export,2024,3201799.252,103442.0,103442.0,kg
+7410,Copper foil,United Kingdom,826,Qatar,634,Export,2024,10051.278,11.0,11.0,kg
+7410,Copper foil,United Kingdom,826,Estonia,233,Export,2024,5747.936,51.0,51.0,kg
+7410,Copper foil,United Kingdom,826,Thailand,764,Export,2024,520890.81,347747.0,347747.0,kg
+7410,Copper foil,United Kingdom,826,Switzerland,757,Export,2024,34500.297,2929.362,2929.362,kg
+7410,Copper foil,United Kingdom,826,France,251,Export,2024,1183109.557,51344.966,51344.966,kg
+7410,Copper foil,United Kingdom,826,Denmark,208,Export,2024,14612.084,92.0,92.0,kg
+7410,Copper foil,United Kingdom,826,Norway,579,Export,2024,7362.481,61.0,61.0,kg
+7410,Copper foil,United Kingdom,826,Czechia,203,Export,2024,132486.618,846.0,846.0,kg
+7410,Copper foil,United Kingdom,826,USA,842,Export,2024,560603.82,6065.279,6065.279,kg
+7410,Copper foil,United Kingdom,826,Spain,724,Export,2024,60945.62,186.0,186.0,kg
+7410,Copper foil,United Kingdom,826,Lithuania,440,Export,2024,70725.481,267.0,267.0,kg
+7410,Copper foil,United Kingdom,826,India,699,Export,2024,106821.299,658.0,658.0,kg
+7410,Copper foil,United Kingdom,826,Sweden,752,Export,2024,162398.205,3348.0,3348.0,kg
+7410,Copper foil,United Kingdom,826,Algeria,12,Export,2024,1255.617,4.0,4.0,kg
+7410,Copper foil,United Kingdom,826,Saudi Arabia,682,Export,2024,64742.91,543.0,543.0,kg
+7410,Copper foil,United Kingdom,826,South Africa,710,Export,2024,541328.196,6968.0,6968.0,kg
+7410,Copper foil,United Kingdom,826,Türkiye,792,Export,2024,1098692.778,23016.0,23016.0,kg
+7410,Copper foil,United Kingdom,826,Gibraltar,292,Export,2024,8875.563,1000.0,1000.0,kg
+7410,Copper foil,United Kingdom,826,Romania,642,Export,2024,113899.682,1190.0,1190.0,kg
+7410,Copper foil,United Kingdom,826,Malaysia,458,Export,2024,5174228.973,2857817.0,2857817.0,kg
+7410,Copper foil,United Kingdom,826,Viet Nam,704,Export,2024,1993.768,5.0,5.0,kg
+7410,Copper foil,United Kingdom,826,Netherlands,528,Export,2024,454056.473,139725.0,139725.0,kg
+7410,Copper foil,United Kingdom,826,Italy,380,Export,2024,701490.389,19229.0,19229.0,kg
+7410,Copper foil,United Kingdom,826,Australia,36,Export,2024,63389.634,743.074,743.074,kg
+7410,Copper foil,United Kingdom,826,Canada,124,Export,2024,332798.115,4962.0,4962.0,kg
+7410,Copper foil,United Kingdom,826,Hungary,348,Export,2024,17494.93,81.418,81.418,kg
+7410,Copper foil,United Kingdom,826,Finland,246,Export,2024,85687.616,1620.785,1620.785,kg
+7410,Copper foil,United Kingdom,826,Rep. of Korea,410,Export,2024,54186.849,223.416,223.416,kg
+7410,Copper foil,United Kingdom,826,China,156,Export,2024,1488552.978,14632.0,14632.0,kg
+7410,Copper foil,United Kingdom,826,Morocco,504,Export,2024,5231.738,76.0,76.0,kg
+7410,Copper foil,United Kingdom,826,United Arab Emirates,784,Export,2024,16968.586,181.0,181.0,kg
+7410,Copper foil,United Kingdom,826,Bahrain,48,Export,2024,3769.388,6.0,6.0,kg
+7410,Copper foil,United Kingdom,826,Croatia,191,Export,2024,3757.973,1.0,1.0,kg
+7410,Copper foil,United Kingdom,826,Japan,392,Export,2024,45694.312,1267.0,1267.0,kg
+7410,Copper foil,United Kingdom,826,Kazakhstan,398,Export,2024,3979.925,5.0,5.0,kg
+7410,Copper foil,United Kingdom,826,Azerbaijan,31,Export,2024,11774.897,19.0,19.0,kg
+7410,Copper foil,United Kingdom,826,Luxembourg,442,Export,2024,158082.18,1065.0,1065.0,kg
+7410,Copper foil,United Kingdom,826,Singapore,702,Export,2024,65812.087,2472.0,2472.0,kg
+7410,Copper foil,United Kingdom,826,Serbia,688,Export,2024,1699.522,2.0,2.0,kg
+7410,Copper foil,United Kingdom,826,Chile,152,Export,2024,2060.988,2.0,2.0,kg
+7410,Copper foil,United Kingdom,826,Poland,616,Export,2024,631166.958,12963.0,12963.0,kg
+7410,Copper foil,United Kingdom,826,Ireland,372,Export,2024,58936.633,960.0,960.0,kg
+7410,Copper foil,United Kingdom,826,Colombia,170,Export,2024,73561.4,165.0,165.0,kg
+7410,Copper foil,United Kingdom,826,Belgium,56,Export,2024,481506.29,4064.0,4064.0,kg
+7410,Copper foil,United Kingdom,826,Bulgaria,100,Export,2024,1305.081,41.0,41.0,kg
+7410,Copper foil,United Kingdom,826,Slovakia,703,Export,2024,11207.967,140.0,140.0,kg
+7410,Copper foil,United Kingdom,826,Austria,40,Export,2024,6922.381,36.0,36.0,kg
+7410,Copper foil,United Kingdom,826,Israel,376,Export,2024,51149.271,430.0,430.0,kg
+7410,Copper foil,United Kingdom,826,Switzerland,757,Import,2022,76868.11,268.227,268.227,kg
+7410,Copper foil,United Kingdom,826,Poland,616,Import,2022,339111.306,34612.0,34612.0,kg
+7410,Copper foil,United Kingdom,826,Spain,724,Import,2022,2948.062,36.0,36.0,kg
+7410,Copper foil,United Kingdom,826,Sweden,752,Import,2022,92548.379,7041.0,7041.0,kg
+7410,Copper foil,United Kingdom,826,United Kingdom,826,Import,2022,56699.219,1173.0,1173.0,kg
+7410,Copper foil,United Kingdom,826,Qatar,634,Import,2022,3819.662,232.0,232.0,kg
+7410,Copper foil,United Kingdom,826,South Africa,710,Import,2022,29163.226,1140.0,1140.0,kg
+7410,Copper foil,United Kingdom,826,Mexico,484,Import,2022,45544.194,1275.0,1275.0,kg
+7410,Copper foil,United Kingdom,826,Hungary,348,Import,2022,12054.703,162.0,162.0,kg
+7410,Copper foil,United Kingdom,826,New Zealand,554,Import,2022,20439.893,179.0,179.0,kg
+7410,Copper foil,United Kingdom,826,"Other Asia, nes",490,Import,2022,804041.971,11290.0,11290.0,kg
+7410,Copper foil,United Kingdom,826,Serbia,688,Import,2022,93793.523,23182.0,23182.0,kg
+7410,Copper foil,United Kingdom,826,USA,842,Import,2022,12756248.791,54972.0,54972.0,kg
+7410,Copper foil,United Kingdom,826,Luxembourg,442,Import,2022,1702717.327,119161.0,119161.0,kg
+7410,Copper foil,United Kingdom,826,Germany,276,Import,2022,4160527.818,260470.0,260470.0,kg
+7410,Copper foil,United Kingdom,826,Ecuador,218,Import,2022,42865.913,2100.0,2100.0,kg
+7410,Copper foil,United Kingdom,826,"China, Hong Kong SAR",344,Import,2022,2006.879,41.0,41.0,kg
+7410,Copper foil,United Kingdom,826,Japan,392,Import,2022,311315.297,4488.0,4488.0,kg
+7410,Copper foil,United Kingdom,826,Czechia,203,Import,2022,10493.39,211.0,211.0,kg
+7410,Copper foil,United Kingdom,826,Denmark,208,Import,2022,2320.607,21.0,21.0,kg
+7410,Copper foil,United Kingdom,826,India,699,Import,2022,552703.551,44933.0,44933.0,kg
+7410,Copper foil,United Kingdom,826,Rep. of Korea,410,Import,2022,414769.673,4424.832,4424.832,kg
+7410,Copper foil,United Kingdom,826,France,251,Import,2022,818348.92,17296.162,17296.162,kg
+7410,Copper foil,United Kingdom,826,Singapore,702,Import,2022,18666.173,241.0,241.0,kg
+7410,Copper foil,United Kingdom,826,Slovakia,703,Import,2022,2552.545,11.0,11.0,kg
+7410,Copper foil,United Kingdom,826,Brazil,76,Import,2022,1929.973,102.0,102.0,kg
+7410,Copper foil,United Kingdom,826,Bulgaria,100,Import,2022,40799.218,2901.0,2901.0,kg
+7410,Copper foil,United Kingdom,826,Türkiye,792,Import,2022,438174.718,47518.0,47518.0,kg
+7410,Copper foil,United Kingdom,826,Belgium,56,Import,2022,1169811.566,43222.0,43222.0,kg
+7410,Copper foil,United Kingdom,826,China,156,Import,2022,5782603.76,443429.0,443429.0,kg
+7410,Copper foil,United Kingdom,826,Austria,40,Import,2022,10018.526,355.0,355.0,kg
+7410,Copper foil,United Kingdom,826,Italy,380,Import,2022,762742.254,51240.0,51240.0,kg
+7410,Copper foil,United Kingdom,826,Canada,124,Import,2022,93719.059,10102.0,10102.0,kg
+7410,Copper foil,United Kingdom,826,Thailand,764,Import,2022,31138.366,5804.0,5804.0,kg
+7410,Copper foil,United Kingdom,826,Netherlands,528,Import,2022,8830251.17,867083.0,867083.0,kg
+7410,Copper foil,United Kingdom,826,Ireland,372,Import,2022,646797.374,17443.0,17443.0,kg
+7410,Copper foil,United Kingdom,826,Singapore,702,Import,2023,8176.112,70.0,70.0,kg
+7410,Copper foil,United Kingdom,826,"Other Asia, nes",490,Import,2023,588410.321,9149.0,9149.0,kg
+7410,Copper foil,United Kingdom,826,India,699,Import,2023,74999.48,6955.0,6955.0,kg
+7410,Copper foil,United Kingdom,826,China,156,Import,2023,3870721.418,329251.0,329251.0,kg
+7410,Copper foil,United Kingdom,826,Norway,579,Import,2023,9109.566,3.0,3.0,kg
+7410,Copper foil,United Kingdom,826,Czechia,203,Import,2023,1144.755,5.0,5.0,kg
+7410,Copper foil,United Kingdom,826,Netherlands,528,Import,2023,10663792.474,935310.849,935310.849,kg
+7410,Copper foil,United Kingdom,826,Thailand,764,Import,2023,222409.379,51137.0,51137.0,kg
+7410,Copper foil,United Kingdom,826,Luxembourg,442,Import,2023,1656090.189,99639.0,99639.0,kg
+7410,Copper foil,United Kingdom,826,"China, Hong Kong SAR",344,Import,2023,26275.92,2293.0,2293.0,kg
+7410,Copper foil,United Kingdom,826,Switzerland,757,Import,2023,36849.678,162.0,162.0,kg
+7410,Copper foil,United Kingdom,826,Austria,40,Import,2023,10096.466,318.0,318.0,kg
+7410,Copper foil,United Kingdom,826,Canada,124,Import,2023,216156.108,15496.0,15496.0,kg
+7410,Copper foil,United Kingdom,826,New Zealand,554,Import,2023,10460.65,1557.926,1557.926,kg
+7410,Copper foil,United Kingdom,826,Serbia,688,Import,2023,98836.736,8447.0,8447.0,kg
+7410,Copper foil,United Kingdom,826,Ecuador,218,Import,2023,73076.639,3214.0,3214.0,kg
+7410,Copper foil,United Kingdom,826,Türkiye,792,Import,2023,433239.455,40157.0,40157.0,kg
+7410,Copper foil,United Kingdom,826,Ireland,372,Import,2023,533403.659,14434.0,14434.0,kg
+7410,Copper foil,United Kingdom,826,Iran,364,Import,2023,2328.042,2.0,2.0,kg
+7410,Copper foil,United Kingdom,826,USA,842,Import,2023,4652477.266,50744.0,50744.0,kg
+7410,Copper foil,United Kingdom,826,Belgium,56,Import,2023,1125030.73,30771.0,30771.0,kg
+7410,Copper foil,United Kingdom,826,Hungary,348,Import,2023,6716.891,19.0,19.0,kg
+7410,Copper foil,United Kingdom,826,Italy,380,Import,2023,580796.022,39364.0,39364.0,kg
+7410,Copper foil,United Kingdom,826,Mexico,484,Import,2023,157354.726,2171.0,2171.0,kg
+7410,Copper foil,United Kingdom,826,Japan,392,Import,2023,292259.326,4256.0,4256.0,kg
+7410,Copper foil,United Kingdom,826,Spain,724,Import,2023,14766.222,622.0,622.0,kg
+7410,Copper foil,United Kingdom,826,United Kingdom,826,Import,2023,160012.149,2560.127,2560.127,kg
+7410,Copper foil,United Kingdom,826,France,251,Import,2023,1595334.893,85378.18,85378.18,kg
+7410,Copper foil,United Kingdom,826,Bulgaria,100,Import,2023,1129471.783,88275.0,88275.0,kg
+7410,Copper foil,United Kingdom,826,Sweden,752,Import,2023,59932.465,2678.0,2678.0,kg
+7410,Copper foil,United Kingdom,826,Germany,276,Import,2023,4648969.667,292793.0,292793.0,kg
+7410,Copper foil,United Kingdom,826,Rep. of Korea,410,Import,2023,139680.006,536.0,536.0,kg
+7410,Copper foil,United Kingdom,826,Poland,616,Import,2023,79127.31,7886.0,7886.0,kg
+7410,Copper foil,United Kingdom,826,USA,842,Import,2024,5287045.526,51753.0,51753.0,kg
+7410,Copper foil,United Kingdom,826,New Zealand,554,Import,2024,10354.401,242.282,242.282,kg
+7410,Copper foil,United Kingdom,826,Greece,300,Import,2024,1893.572,8.0,8.0,kg
+7410,Copper foil,United Kingdom,826,Bulgaria,100,Import,2024,112617.43,7374.0,7374.0,kg
+7410,Copper foil,United Kingdom,826,Austria,40,Import,2024,3347.044,3.0,3.0,kg
+7410,Copper foil,United Kingdom,826,Poland,616,Import,2024,48584.768,4296.0,4296.0,kg
+7410,Copper foil,United Kingdom,826,Sweden,752,Import,2024,1225.178,14.0,14.0,kg
+7410,Copper foil,United Kingdom,826,Canada,124,Import,2024,84557.561,6718.0,6718.0,kg
+7410,Copper foil,United Kingdom,826,China,156,Import,2024,5046953.8,417001.0,417001.0,kg
+7410,Copper foil,United Kingdom,826,Japan,392,Import,2024,334255.392,4596.0,4596.0,kg
+7410,Copper foil,United Kingdom,826,Ireland,372,Import,2024,240250.264,4266.0,4266.0,kg
+7410,Copper foil,United Kingdom,826,Rep. of Korea,410,Import,2024,196609.329,1676.0,1676.0,kg
+7410,Copper foil,United Kingdom,826,France,251,Import,2024,643347.712,24767.614,24767.614,kg
+7410,Copper foil,United Kingdom,826,Czechia,203,Import,2024,3510.654,15.0,15.0,kg
+7410,Copper foil,United Kingdom,826,Singapore,702,Import,2024,2688.796,44.0,44.0,kg
+7410,Copper foil,United Kingdom,826,Netherlands,528,Import,2024,9049985.089,760435.0,760435.0,kg
+7410,Copper foil,United Kingdom,826,"Other Asia, nes",490,Import,2024,874497.923,9431.0,9431.0,kg
+7410,Copper foil,United Kingdom,826,Luxembourg,442,Import,2024,1687764.859,103068.0,103068.0,kg
+7410,Copper foil,United Kingdom,826,Germany,276,Import,2024,3625449.501,189496.0,189496.0,kg
+7410,Copper foil,United Kingdom,826,Türkiye,792,Import,2024,319697.844,27214.0,27214.0,kg
+7410,Copper foil,United Kingdom,826,Italy,380,Import,2024,881062.644,64020.0,64020.0,kg
+7410,Copper foil,United Kingdom,826,Spain,724,Import,2024,64230.517,696.0,696.0,kg
+7410,Copper foil,United Kingdom,826,Israel,376,Import,2024,2411.038,67.465,67.465,kg
+7410,Copper foil,United Kingdom,826,"China, Hong Kong SAR",344,Import,2024,61104.157,5691.0,5691.0,kg
+7410,Copper foil,United Kingdom,826,Mexico,484,Import,2024,15029.355,191.0,191.0,kg
+7410,Copper foil,United Kingdom,826,Belgium,56,Import,2024,1203440.406,32291.0,32291.0,kg
+7410,Copper foil,United Kingdom,826,Switzerland,757,Import,2024,66691.019,274.0,274.0,kg
+7410,Copper foil,United Kingdom,826,United Kingdom,826,Import,2024,33536.389,112.0,112.0,kg
+7410,Copper foil,Indonesia,360,"China, Hong Kong SAR",344,Export,2022,110.66,10.884,10.884,kg
+7410,Copper foil,Indonesia,360,India,699,Export,2022,0.09,0.2,0.2,kg
+7410,Copper foil,Indonesia,360,China,156,Export,2022,268563.359,158095.09,158095.09,kg
+7410,Copper foil,Indonesia,360,Malaysia,458,Export,2022,330701.17,31456.85,31456.85,kg
+7410,Copper foil,Indonesia,360,Singapore,702,Export,2022,153919.31,20746.45,20746.45,kg
+7410,Copper foil,Indonesia,360,Myanmar,104,Export,2022,95.63,0.5,0.5,kg
+7410,Copper foil,Indonesia,360,Angola,24,Export,2023,2000.0,7.0,7.0,kg
+7410,Copper foil,Indonesia,360,"China, Hong Kong SAR",344,Export,2023,53.79,0.26,0.26,kg
+7410,Copper foil,Indonesia,360,Rep. of Korea,410,Export,2023,31310.88,1050.5,1050.5,kg
+7410,Copper foil,Indonesia,360,Viet Nam,704,Export,2023,22896.52,378.061,378.061,kg
+7410,Copper foil,Indonesia,360,USA,842,Export,2023,7958.57,50.75,50.75,kg
+7410,Copper foil,Indonesia,360,Japan,392,Export,2023,15.0,124.92,124.92,kg
+7410,Copper foil,Indonesia,360,Malaysia,458,Export,2023,23261.17,2174.0,2174.0,kg
+7410,Copper foil,Indonesia,360,India,699,Export,2023,645.13,0.5,0.5,kg
+7410,Copper foil,Indonesia,360,Singapore,702,Export,2023,1000.5,26.2,26.2,kg
+7410,Copper foil,Indonesia,360,China,156,Export,2023,6700.07,,0.0,N/A
+7410,Copper foil,Indonesia,360,Switzerland,757,Export,2024,1.08,0.6,0.6,kg
+7410,Copper foil,Indonesia,360,Italy,380,Export,2024,9209.2,1001.0,1001.0,kg
+7410,Copper foil,Indonesia,360,"China, Hong Kong SAR",344,Export,2024,169.56,9.068,9.068,kg
+7410,Copper foil,Indonesia,360,"Other Asia, nes",490,Export,2024,3.0,1.5,1.5,kg
+7410,Copper foil,Indonesia,360,India,699,Export,2024,19780.0,23.4,23.4,kg
+7410,Copper foil,Indonesia,360,USA,842,Export,2024,11714.72,902.79,902.79,kg
+7410,Copper foil,Indonesia,360,Thailand,764,Export,2024,5017.68,704.48,704.48,kg
+7410,Copper foil,Indonesia,360,Japan,392,Export,2024,2.896,1.1,1.1,kg
+7410,Copper foil,Indonesia,360,Malaysia,458,Export,2024,72109.54,6985.7,6985.7,kg
+7410,Copper foil,Indonesia,360,Singapore,702,Export,2024,495.8,7.902,7.902,kg
+7410,Copper foil,Indonesia,360,China,156,Export,2024,269218511.795,1438450.7,1438450.7,kg
+7410,Copper foil,Indonesia,360,Thailand,764,Import,2022,1975306.0,320684.0,320684.0,kg
+7410,Copper foil,Indonesia,360,Italy,380,Import,2022,9950.0,44.0,44.0,kg
+7410,Copper foil,Indonesia,360,Australia,36,Import,2022,6583.0,34.0,34.0,kg
+7410,Copper foil,Indonesia,360,Viet Nam,704,Import,2022,19435.0,449.0,449.0,kg
+7410,Copper foil,Indonesia,360,"China, Hong Kong SAR",344,Import,2022,648926.0,4862.0,4862.0,kg
+7410,Copper foil,Indonesia,360,Netherlands,528,Import,2022,1358049.0,120075.0,120075.0,kg
+7410,Copper foil,Indonesia,360,Denmark,208,Import,2022,5943.0,37.0,37.0,kg
+7410,Copper foil,Indonesia,360,Ireland,372,Import,2022,60876.0,767.0,767.0,kg
+7410,Copper foil,Indonesia,360,"China, Macao SAR",446,Import,2022,1111988.0,203565.0,203565.0,kg
+7410,Copper foil,Indonesia,360,Malaysia,458,Import,2022,1745458.0,171842.0,171842.0,kg
+7410,Copper foil,Indonesia,360,"Other Asia, nes",490,Import,2022,4296528.0,781776.0,781776.0,kg
+7410,Copper foil,Indonesia,360,Germany,276,Import,2022,65491.0,933.0,933.0,kg
+7410,Copper foil,Indonesia,360,India,699,Import,2022,88086.0,5400.0,5400.0,kg
+7410,Copper foil,Indonesia,360,USA,842,Import,2022,155775.0,315.0,315.0,kg
+7410,Copper foil,Indonesia,360,Rep. of Korea,410,Import,2022,1500268.0,20059.0,20059.0,kg
+7410,Copper foil,Indonesia,360,Singapore,702,Import,2022,2275478.0,44043.0,44043.0,kg
+7410,Copper foil,Indonesia,360,Japan,392,Import,2022,1231395.0,53246.0,53246.0,kg
+7410,Copper foil,Indonesia,360,Samoa,882,Import,2022,4955.0,14.0,14.0,kg
+7410,Copper foil,Indonesia,360,China,156,Import,2022,19765284.0,2120814.0,2120814.0,kg
+7410,Copper foil,Indonesia,360,United Kingdom,826,Import,2022,41.0,3.0,3.0,kg
+7410,Copper foil,Indonesia,360,Italy,380,Import,2023,13546.0,79.0,79.0,kg
+7410,Copper foil,Indonesia,360,Viet Nam,704,Import,2023,504811.0,49758.0,49758.0,kg
+7410,Copper foil,Indonesia,360,"China, Hong Kong SAR",344,Import,2023,1445533.0,8994.0,8994.0,kg
+7410,Copper foil,Indonesia,360,Netherlands,528,Import,2023,553174.0,49080.0,49080.0,kg
+7410,Copper foil,Indonesia,360,Ireland,372,Import,2023,27014.0,278.0,278.0,kg
+7410,Copper foil,Indonesia,360,"China, Macao SAR",446,Import,2023,279730.0,31520.0,31520.0,kg
+7410,Copper foil,Indonesia,360,Thailand,764,Import,2023,1005796.0,164173.0,164173.0,kg
+7410,Copper foil,Indonesia,360,Malaysia,458,Import,2023,2535397.0,260365.0,260365.0,kg
+7410,Copper foil,Indonesia,360,"Other Asia, nes",490,Import,2023,4242546.0,793481.0,793481.0,kg
+7410,Copper foil,Indonesia,360,Germany,276,Import,2023,780373.0,4372.0,4372.0,kg
+7410,Copper foil,Indonesia,360,India,699,Import,2023,199496.0,18885.0,18885.0,kg
+7410,Copper foil,Indonesia,360,France,251,Import,2023,5054.0,25.0,25.0,kg
+7410,Copper foil,Indonesia,360,Singapore,702,Import,2023,262087.0,7923.0,7923.0,kg
+7410,Copper foil,Indonesia,360,USA,842,Import,2023,146091.0,153.0,153.0,kg
+7410,Copper foil,Indonesia,360,Rep. of Korea,410,Import,2023,3226254.0,60758.0,60758.0,kg
+7410,Copper foil,Indonesia,360,Japan,392,Import,2023,2310039.0,119133.0,119133.0,kg
+7410,Copper foil,Indonesia,360,Philippines,608,Import,2023,2258.0,15.0,15.0,kg
+7410,Copper foil,Indonesia,360,China,156,Import,2023,18954750.0,2412709.0,2412709.0,kg
+7410,Copper foil,Indonesia,360,United Kingdom,826,Import,2023,85.0,2.0,2.0,kg
+7410,Copper foil,Indonesia,360,United Kingdom,826,Import,2024,3829.0,24.0,24.0,kg
+7410,Copper foil,Indonesia,360,Curaçao,531,Import,2024,3986.0,499.0,499.0,kg
+7410,Copper foil,Indonesia,360,"China, Macao SAR",446,Import,2024,689401.0,101536.0,101536.0,kg
+7410,Copper foil,Indonesia,360,Ireland,372,Import,2024,6528.0,70.0,70.0,kg
+7410,Copper foil,Indonesia,360,Philippines,608,Import,2024,309637.0,2273.0,2273.0,kg
+7410,Copper foil,Indonesia,360,Netherlands,528,Import,2024,277054.0,27126.0,27126.0,kg
+7410,Copper foil,Indonesia,360,Viet Nam,704,Import,2024,156853.0,2068.0,2068.0,kg
+7410,Copper foil,Indonesia,360,"China, Hong Kong SAR",344,Import,2024,357552.0,15151.0,15151.0,kg
+7410,Copper foil,Indonesia,360,Italy,380,Import,2024,17563.0,369.0,369.0,kg
+7410,Copper foil,Indonesia,360,Malaysia,458,Import,2024,2173200.0,215319.0,215319.0,kg
+7410,Copper foil,Indonesia,360,Thailand,764,Import,2024,1598193.0,263071.0,263071.0,kg
+7410,Copper foil,Indonesia,360,"Other Asia, nes",490,Import,2024,5289452.0,1010519.0,1010519.0,kg
+7410,Copper foil,Indonesia,360,Singapore,702,Import,2024,227666.0,18631.0,18631.0,kg
+7410,Copper foil,Indonesia,360,Germany,276,Import,2024,751970.0,6703.0,6703.0,kg
+7410,Copper foil,Indonesia,360,India,699,Import,2024,34946.0,440.0,440.0,kg
+7410,Copper foil,Indonesia,360,USA,842,Import,2024,131663.0,242.0,242.0,kg
+7410,Copper foil,Indonesia,360,Rep. of Korea,410,Import,2024,2655381.0,23121.0,23121.0,kg
+7410,Copper foil,Indonesia,360,Japan,392,Import,2024,1430911.0,32854.0,32854.0,kg
+7410,Copper foil,Indonesia,360,China,156,Import,2024,48905168.0,4668091.0,4668091.0,kg
+7410,Copper foil,Indonesia,360,Samoa,882,Import,2024,912.0,7.0,7.0,kg
+7410,Copper foil,Indonesia,360,Spain,724,Import,2024,134.0,4.0,4.0,kg
+7410,Copper foil,Indonesia,360,France,251,Import,2024,112.0,1.0,1.0,kg
+7410,Copper foil,Indonesia,360,Hungary,348,Import,2024,74.0,1.0,1.0,kg

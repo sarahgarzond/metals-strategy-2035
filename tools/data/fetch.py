@@ -33,7 +33,10 @@ TODAY = datetime.date.today().isoformat()
 # The Client portfolio expressed in trade (HS 2022) and PRODCOM codes
 HS = {
     "7501": "Nickel mattes and intermediates", "7502": "Unwrought nickel", "7504": "Nickel powders and flakes",
-    "7505": "Nickel bars, rods, profiles, wire", "7506": "Nickel plates, sheets, strip, foil", "7507": "Nickel tubes, pipes, fittings",
+    "7505": "Nickel bars, rods, profiles, wire", "7506": "Nickel plates, sheets, strip, foil",
+    "750610": "Nickel plates, sheets, strip, foil, not alloyed",
+    "750620": "Nickel plates, sheets, strip, foil, of nickel alloys",
+    "7507": "Nickel tubes, pipes, fittings",
     "7508": "Other articles of nickel", "8105": "Cobalt mattes, unwrought cobalt, powders, articles",
     "8109": "Zirconium, unwrought, powders, articles", "8108": "Titanium and articles", "8101": "Tungsten and articles",
     "8102": "Molybdenum and articles", "7202": "Ferro alloys (incl. ferrochromium, ferromolybdenum)",

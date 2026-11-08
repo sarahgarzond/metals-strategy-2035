@@ -2476,3 +2476,421 @@ hs,hs_desc,reporter,reporter_code,partner,partner_code,flow,year,value_usd,net_w
 8101,Tungsten and articles,Italy,380,France,251,Import,2024,1979030.927,30261.0,30261.0,kg
 8101,Tungsten and articles,Italy,380,Germany,276,Import,2024,3114925.36,89274.0,89274.0,kg
 8101,Tungsten and articles,Italy,380,World,0,Import,2024,14471278.464,306287.0,306287.0,kg
+8101,Tungsten and articles,United Kingdom,826,Panama,591,Export,2022,1341.582,1861.0,1861.0,kg
+8101,Tungsten and articles,United Kingdom,826,Slovenia,705,Export,2022,1340368.217,42296.0,42296.0,kg
+8101,Tungsten and articles,United Kingdom,826,Pakistan,586,Export,2022,1331166.358,740643.0,740643.0,kg
+8101,Tungsten and articles,United Kingdom,826,South Africa,710,Export,2022,861158.679,13592.0,13592.0,kg
+8101,Tungsten and articles,United Kingdom,826,Spain,724,Export,2022,1243850.025,78441.308,78441.308,kg
+8101,Tungsten and articles,United Kingdom,826,Norway,579,Export,2022,64184.732,92.447,92.447,kg
+8101,Tungsten and articles,United Kingdom,826,Viet Nam,704,Export,2022,5682.495,45.0,45.0,kg
+8101,Tungsten and articles,United Kingdom,826,Egypt,818,Export,2022,3606.035,22.0,22.0,kg
+8101,Tungsten and articles,United Kingdom,826,Slovakia,703,Export,2022,19938.173,29.0,29.0,kg
+8101,Tungsten and articles,United Kingdom,826,USA,842,Export,2022,5384023.401,133968.924,133968.924,kg
+8101,Tungsten and articles,United Kingdom,826,Germany,276,Export,2022,15726641.12,658366.669,658366.669,kg
+8101,Tungsten and articles,United Kingdom,826,Singapore,702,Export,2022,49400.478,298.514,298.514,kg
+8101,Tungsten and articles,United Kingdom,826,India,699,Export,2022,458857.536,159830.378,159830.378,kg
+8101,Tungsten and articles,United Kingdom,826,Luxembourg,442,Export,2022,11633.551,122.97,122.97,kg
+8101,Tungsten and articles,United Kingdom,826,Lithuania,440,Export,2022,2288.868,25.098,25.098,kg
+8101,Tungsten and articles,United Kingdom,826,Rep. of Korea,410,Export,2022,54080.754,302.81,302.81,kg
+8101,Tungsten and articles,United Kingdom,826,United Arab Emirates,784,Export,2022,5780.154,63.873,63.873,kg
+8101,Tungsten and articles,United Kingdom,826,Canada,124,Export,2022,77938.69,487.984,487.984,kg
+8101,Tungsten and articles,United Kingdom,826,France,251,Export,2022,1523265.221,12085.753,12085.753,kg
+8101,Tungsten and articles,United Kingdom,826,Tunisia,788,Export,2022,4030.849,73.0,73.0,kg
+8101,Tungsten and articles,United Kingdom,826,Morocco,504,Export,2022,20212.838,50.0,50.0,kg
+8101,Tungsten and articles,United Kingdom,826,Ukraine,804,Export,2022,14084.776,551.0,551.0,kg
+8101,Tungsten and articles,United Kingdom,826,Thailand,764,Export,2022,811850.977,371674.0,371674.0,kg
+8101,Tungsten and articles,United Kingdom,826,Latvia,428,Export,2022,14592.599,1125.0,1125.0,kg
+8101,Tungsten and articles,United Kingdom,826,Gibraltar,292,Export,2022,16427.356,26.0,26.0,kg
+8101,Tungsten and articles,United Kingdom,826,Bahrain,48,Export,2022,24475.625,185.0,185.0,kg
+8101,Tungsten and articles,United Kingdom,826,Mexico,484,Export,2022,308922.667,2746.0,2746.0,kg
+8101,Tungsten and articles,United Kingdom,826,Bulgaria,100,Export,2022,27863.149,876.0,876.0,kg
+8101,Tungsten and articles,United Kingdom,826,Kenya,404,Export,2022,57673.361,4643.0,4643.0,kg
+8101,Tungsten and articles,United Kingdom,826,Finland,246,Export,2022,3319826.122,121765.0,121765.0,kg
+8101,Tungsten and articles,United Kingdom,826,Sweden,752,Export,2022,839888.69,21972.0,21972.0,kg
+8101,Tungsten and articles,United Kingdom,826,"Other Asia, nes",490,Export,2022,233090.956,821.0,821.0,kg
+8101,Tungsten and articles,United Kingdom,826,Malaysia,458,Export,2022,172281.542,102960.0,102960.0,kg
+8101,Tungsten and articles,United Kingdom,826,Greece,300,Export,2022,31132.262,104200.0,104200.0,kg
+8101,Tungsten and articles,United Kingdom,826,Türkiye,792,Export,2022,218625.313,31233.0,31233.0,kg
+8101,Tungsten and articles,United Kingdom,826,Guyana,328,Export,2022,12.207,,0.0,N/A
+8101,Tungsten and articles,United Kingdom,826,"China, Hong Kong SAR",344,Export,2022,1774160.516,,0.0,N/A
+8101,Tungsten and articles,United Kingdom,826,Israel,376,Export,2022,102487.558,474.872,474.872,kg
+8101,Tungsten and articles,United Kingdom,826,Hungary,348,Export,2022,34845.721,350.119,350.119,kg
+8101,Tungsten and articles,United Kingdom,826,Qatar,634,Export,2022,15182.212,233.564,233.564,kg
+8101,Tungsten and articles,United Kingdom,826,Czechia,203,Export,2022,91370.376,110265.571,110265.571,kg
+8101,Tungsten and articles,United Kingdom,826,Australia,36,Export,2022,2914938.253,34871.44,34871.44,kg
+8101,Tungsten and articles,United Kingdom,826,Saudi Arabia,682,Export,2022,27175.878,130.055,130.055,kg
+8101,Tungsten and articles,United Kingdom,826,Belgium,56,Export,2022,242020.592,4837.973,4837.973,kg
+8101,Tungsten and articles,United Kingdom,826,China,156,Export,2022,1989863.403,232855.19,232855.19,kg
+8101,Tungsten and articles,United Kingdom,826,Netherlands,528,Export,2022,2371019.071,81931.389,81931.389,kg
+8101,Tungsten and articles,United Kingdom,826,Italy,380,Export,2022,886016.392,8487.096,8487.096,kg
+8101,Tungsten and articles,United Kingdom,826,Ireland,372,Export,2022,727643.842,1486.366,1486.366,kg
+8101,Tungsten and articles,United Kingdom,826,Croatia,191,Export,2022,1886.027,4.0,4.0,kg
+8101,Tungsten and articles,United Kingdom,826,Bosnia Herzegovina,70,Export,2022,1392.852,15.0,15.0,kg
+8101,Tungsten and articles,United Kingdom,826,Romania,642,Export,2022,67391.588,1013.0,1013.0,kg
+8101,Tungsten and articles,United Kingdom,826,Chile,152,Export,2022,3078.68,79.0,79.0,kg
+8101,Tungsten and articles,United Kingdom,826,Philippines,608,Export,2022,18403.717,102.0,102.0,kg
+8101,Tungsten and articles,United Kingdom,826,Indonesia,360,Export,2022,5039.171,112.0,112.0,kg
+8101,Tungsten and articles,United Kingdom,826,Colombia,170,Export,2022,10300.515,50.0,50.0,kg
+8101,Tungsten and articles,United Kingdom,826,Portugal,620,Export,2022,33474.842,319.0,319.0,kg
+8101,Tungsten and articles,United Kingdom,826,New Zealand,554,Export,2022,6757.958,12.0,12.0,kg
+8101,Tungsten and articles,United Kingdom,826,Poland,616,Export,2022,256277.491,1493.0,1493.0,kg
+8101,Tungsten and articles,United Kingdom,826,Japan,392,Export,2022,1750970.319,75961.097,75961.097,kg
+8101,Tungsten and articles,United Kingdom,826,Kazakhstan,398,Export,2022,20566.849,237.0,237.0,kg
+8101,Tungsten and articles,United Kingdom,826,Austria,40,Export,2022,1662178.124,69783.0,69783.0,kg
+8101,Tungsten and articles,United Kingdom,826,Ethiopia,231,Export,2022,2297.413,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Mongolia,496,Export,2022,8767.279,95.0,95.0,kg
+8101,Tungsten and articles,United Kingdom,826,Peru,604,Export,2022,5833.866,60.0,60.0,kg
+8101,Tungsten and articles,United Kingdom,826,Algeria,12,Export,2022,9433.797,200.0,200.0,kg
+8101,Tungsten and articles,United Kingdom,826,Tajikistan,762,Export,2022,24191.195,302.0,302.0,kg
+8101,Tungsten and articles,United Kingdom,826,Iceland,352,Export,2022,7934.741,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Denmark,208,Export,2022,31288.516,306.574,306.574,kg
+8101,Tungsten and articles,United Kingdom,826,Switzerland,757,Export,2022,195850.164,1001.612,1001.612,kg
+8101,Tungsten and articles,United Kingdom,826,Kuwait,414,Export,2022,5150.257,56.475,56.475,kg
+8101,Tungsten and articles,United Kingdom,826,Indonesia,360,Export,2023,42214.242,196.0,196.0,kg
+8101,Tungsten and articles,United Kingdom,826,Lithuania,440,Export,2023,3428.05,17.0,17.0,kg
+8101,Tungsten and articles,United Kingdom,826,Romania,642,Export,2023,68343.494,1052.811,1052.811,kg
+8101,Tungsten and articles,United Kingdom,826,China,156,Export,2023,141417.647,234.735,234.735,kg
+8101,Tungsten and articles,United Kingdom,826,Switzerland,757,Export,2023,183301.265,962.017,962.017,kg
+8101,Tungsten and articles,United Kingdom,826,Czechia,203,Export,2023,73384.891,1081.476,1081.476,kg
+8101,Tungsten and articles,United Kingdom,826,Kazakhstan,398,Export,2023,20535.986,289.671,289.671,kg
+8101,Tungsten and articles,United Kingdom,826,Pakistan,586,Export,2023,2228.606,155.0,155.0,kg
+8101,Tungsten and articles,United Kingdom,826,Bosnia Herzegovina,70,Export,2023,6518.019,76.0,76.0,kg
+8101,Tungsten and articles,United Kingdom,826,"Other Asia, nes",490,Export,2023,484897.615,17443.0,17443.0,kg
+8101,Tungsten and articles,United Kingdom,826,Sweden,752,Export,2023,118832.04,1612.0,1612.0,kg
+8101,Tungsten and articles,United Kingdom,826,France,251,Export,2023,2662920.297,25491.815,25491.815,kg
+8101,Tungsten and articles,United Kingdom,826,Hungary,348,Export,2023,48277.342,195.866,195.866,kg
+8101,Tungsten and articles,United Kingdom,826,Portugal,620,Export,2023,39929.703,310.859,310.859,kg
+8101,Tungsten and articles,United Kingdom,826,India,699,Export,2023,570129.043,1121.169,1121.169,kg
+8101,Tungsten and articles,United Kingdom,826,Poland,616,Export,2023,362234.81,2128.0,2128.0,kg
+8101,Tungsten and articles,United Kingdom,826,USA,842,Export,2023,2134480.972,37869.61,37869.61,kg
+8101,Tungsten and articles,United Kingdom,826,Australia,36,Export,2023,2895925.808,37722.8,37722.8,kg
+8101,Tungsten and articles,United Kingdom,826,Brazil,76,Export,2023,9758.384,193.418,193.418,kg
+8101,Tungsten and articles,United Kingdom,826,Rep. of Korea,410,Export,2023,237866.68,2952.255,2952.255,kg
+8101,Tungsten and articles,United Kingdom,826,United Arab Emirates,784,Export,2023,94022.798,832.486,832.486,kg
+8101,Tungsten and articles,United Kingdom,826,Finland,246,Export,2023,1654676.958,62638.0,62638.0,kg
+8101,Tungsten and articles,United Kingdom,826,Norway,579,Export,2023,57036.396,107.915,107.915,kg
+8101,Tungsten and articles,United Kingdom,826,Japan,392,Export,2023,2211612.108,28203.981,28203.981,kg
+8101,Tungsten and articles,United Kingdom,826,Canada,124,Export,2023,116259.137,1409.745,1409.745,kg
+8101,Tungsten and articles,United Kingdom,826,Austria,40,Export,2023,1196046.562,52089.252,52089.252,kg
+8101,Tungsten and articles,United Kingdom,826,Ireland,372,Export,2023,670472.232,2814.93,2814.93,kg
+8101,Tungsten and articles,United Kingdom,826,Slovakia,703,Export,2023,7435.315,14.0,14.0,kg
+8101,Tungsten and articles,United Kingdom,826,Luxembourg,442,Export,2023,4075.626,14.516,14.516,kg
+8101,Tungsten and articles,United Kingdom,826,Saudi Arabia,682,Export,2023,20435.307,150.0,150.0,kg
+8101,Tungsten and articles,United Kingdom,826,Kenya,404,Export,2023,307241.82,20000.0,20000.0,kg
+8101,Tungsten and articles,United Kingdom,826,Chile,152,Export,2023,3774.833,33.0,33.0,kg
+8101,Tungsten and articles,United Kingdom,826,"China, Hong Kong SAR",344,Export,2023,26206.315,10.0,10.0,kg
+8101,Tungsten and articles,United Kingdom,826,Egypt,818,Export,2023,3728.844,29.0,29.0,kg
+8101,Tungsten and articles,United Kingdom,826,Serbia,688,Export,2023,7537.236,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Germany,276,Export,2023,11644639.998,514397.698,514397.698,kg
+8101,Tungsten and articles,United Kingdom,826,Mexico,484,Export,2023,608405.625,2870.0,2870.0,kg
+8101,Tungsten and articles,United Kingdom,826,Mongolia,496,Export,2023,11903.713,122.0,122.0,kg
+8101,Tungsten and articles,United Kingdom,826,Bulgaria,100,Export,2023,37309.569,403.0,403.0,kg
+8101,Tungsten and articles,United Kingdom,826,Jordan,400,Export,2023,15252.214,13.0,13.0,kg
+8101,Tungsten and articles,United Kingdom,826,Malaysia,458,Export,2023,29396.962,3527.0,3527.0,kg
+8101,Tungsten and articles,United Kingdom,826,Türkiye,792,Export,2023,148759.741,308.0,308.0,kg
+8101,Tungsten and articles,United Kingdom,826,Costa Rica,188,Export,2023,1501.481,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Spain,724,Export,2023,8706380.625,13283.694,13283.694,kg
+8101,Tungsten and articles,United Kingdom,826,Iraq,368,Export,2023,3689.07,35.0,35.0,kg
+8101,Tungsten and articles,United Kingdom,826,Belgium,56,Export,2023,333197.06,9509.89,9509.89,kg
+8101,Tungsten and articles,United Kingdom,826,Singapore,702,Export,2023,734921.569,35544.409,35544.409,kg
+8101,Tungsten and articles,United Kingdom,826,Kuwait,414,Export,2023,1096.28,3.904,3.904,kg
+8101,Tungsten and articles,United Kingdom,826,Cyprus,196,Export,2023,8203.457,198.0,198.0,kg
+8101,Tungsten and articles,United Kingdom,826,Uzbekistan,860,Export,2023,27747.57,52.0,52.0,kg
+8101,Tungsten and articles,United Kingdom,826,Denmark,208,Export,2023,20747.287,33.0,33.0,kg
+8101,Tungsten and articles,United Kingdom,826,Greece,300,Export,2023,20701.298,94.547,94.547,kg
+8101,Tungsten and articles,United Kingdom,826,Thailand,764,Export,2023,47648.41,336.437,336.437,kg
+8101,Tungsten and articles,United Kingdom,826,Italy,380,Export,2023,1574673.369,5630.806,5630.806,kg
+8101,Tungsten and articles,United Kingdom,826,Ukraine,804,Export,2023,4679.699,43.0,43.0,kg
+8101,Tungsten and articles,United Kingdom,826,Bahrain,48,Export,2023,30050.753,204.0,204.0,kg
+8101,Tungsten and articles,United Kingdom,826,New Zealand,554,Export,2023,9733.525,12.0,12.0,kg
+8101,Tungsten and articles,United Kingdom,826,Netherlands,528,Export,2023,440228.551,86017.279,86017.279,kg
+8101,Tungsten and articles,United Kingdom,826,South Africa,710,Export,2023,837152.796,13471.636,13471.636,kg
+8101,Tungsten and articles,United Kingdom,826,Mali,466,Export,2023,8425.944,3974.0,3974.0,kg
+8101,Tungsten and articles,United Kingdom,826,Slovenia,705,Export,2023,505073.146,16077.0,16077.0,kg
+8101,Tungsten and articles,United Kingdom,826,Colombia,170,Export,2023,31808.281,128.109,128.109,kg
+8101,Tungsten and articles,United Kingdom,826,Israel,376,Export,2023,53246.648,263.483,263.483,kg
+8101,Tungsten and articles,United Kingdom,826,Ghana,288,Export,2024,1598.058,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Uruguay,858,Export,2024,1217.568,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Germany,276,Export,2024,14234015.485,626824.18,626824.18,kg
+8101,Tungsten and articles,United Kingdom,826,Philippines,608,Export,2024,29377.633,67.0,67.0,kg
+8101,Tungsten and articles,United Kingdom,826,Finland,246,Export,2024,15763.701,286.0,286.0,kg
+8101,Tungsten and articles,United Kingdom,826,Rep. of Korea,410,Export,2024,433805.527,2322.324,2322.324,kg
+8101,Tungsten and articles,United Kingdom,826,USA,842,Export,2024,2287522.368,37863.233,37863.233,kg
+8101,Tungsten and articles,United Kingdom,826,Denmark,208,Export,2024,61246.207,256.0,256.0,kg
+8101,Tungsten and articles,United Kingdom,826,India,699,Export,2024,7479648.322,147144.394,147144.394,kg
+8101,Tungsten and articles,United Kingdom,826,Japan,392,Export,2024,824746.319,7126.458,7126.458,kg
+8101,Tungsten and articles,United Kingdom,826,Australia,36,Export,2024,5994712.536,43990.234,43990.234,kg
+8101,Tungsten and articles,United Kingdom,826,Sri Lanka,144,Export,2024,28950.216,237.0,237.0,kg
+8101,Tungsten and articles,United Kingdom,826,Slovenia,705,Export,2024,490402.146,16478.0,16478.0,kg
+8101,Tungsten and articles,United Kingdom,826,South Africa,710,Export,2024,409657.095,1514.0,1514.0,kg
+8101,Tungsten and articles,United Kingdom,826,Algeria,12,Export,2024,34516.784,80.0,80.0,kg
+8101,Tungsten and articles,United Kingdom,826,Mali,466,Export,2024,4612.807,65.0,65.0,kg
+8101,Tungsten and articles,United Kingdom,826,Libya,434,Export,2024,20948.511,115.0,115.0,kg
+8101,Tungsten and articles,United Kingdom,826,"China, Hong Kong SAR",344,Export,2024,14913.94,111.0,111.0,kg
+8101,Tungsten and articles,United Kingdom,826,Türkiye,792,Export,2024,620517.043,697.0,697.0,kg
+8101,Tungsten and articles,United Kingdom,826,Thailand,764,Export,2024,17799.322,109.604,109.604,kg
+8101,Tungsten and articles,United Kingdom,826,Singapore,702,Export,2024,6346.573,36.542,36.542,kg
+8101,Tungsten and articles,United Kingdom,826,Malaysia,458,Export,2024,16541.169,59.689,59.689,kg
+8101,Tungsten and articles,United Kingdom,826,China,156,Export,2024,193176.041,384.093,384.093,kg
+8101,Tungsten and articles,United Kingdom,826,Pakistan,586,Export,2024,3546.167,44.0,44.0,kg
+8101,Tungsten and articles,United Kingdom,826,Romania,642,Export,2024,90223.057,1858.0,1858.0,kg
+8101,Tungsten and articles,United Kingdom,826,New Zealand,554,Export,2024,5283.738,11.0,11.0,kg
+8101,Tungsten and articles,United Kingdom,826,Hungary,348,Export,2024,43985.912,37.0,37.0,kg
+8101,Tungsten and articles,United Kingdom,826,Saudi Arabia,682,Export,2024,98446.714,513.0,513.0,kg
+8101,Tungsten and articles,United Kingdom,826,Sweden,752,Export,2024,559684.302,16008.0,16008.0,kg
+8101,Tungsten and articles,United Kingdom,826,France,251,Export,2024,2298148.185,31012.745,31012.745,kg
+8101,Tungsten and articles,United Kingdom,826,Norway,579,Export,2024,124492.523,154.169,154.169,kg
+8101,Tungsten and articles,United Kingdom,826,Spain,724,Export,2024,484054.305,3196.194,3196.194,kg
+8101,Tungsten and articles,United Kingdom,826,Latvia,428,Export,2024,2361.575,15.0,15.0,kg
+8101,Tungsten and articles,United Kingdom,826,Iceland,352,Export,2024,1118.641,9.0,9.0,kg
+8101,Tungsten and articles,United Kingdom,826,Kuwait,414,Export,2024,12841.538,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Nigeria,566,Export,2024,8030.876,11.0,11.0,kg
+8101,Tungsten and articles,United Kingdom,826,Canada,124,Export,2024,235376.187,463.023,463.023,kg
+8101,Tungsten and articles,United Kingdom,826,Israel,376,Export,2024,178199.955,281.732,281.732,kg
+8101,Tungsten and articles,United Kingdom,826,Belgium,56,Export,2024,259676.815,8690.993,8690.993,kg
+8101,Tungsten and articles,United Kingdom,826,Morocco,504,Export,2024,1428.106,126.0,126.0,kg
+8101,Tungsten and articles,United Kingdom,826,United Arab Emirates,784,Export,2024,153754.741,6135.0,6135.0,kg
+8101,Tungsten and articles,United Kingdom,826,Czechia,203,Export,2024,30009.246,43.0,43.0,kg
+8101,Tungsten and articles,United Kingdom,826,Mexico,484,Export,2024,656597.642,2042.0,2042.0,kg
+8101,Tungsten and articles,United Kingdom,826,"Other Asia, nes",490,Export,2024,940188.253,25247.0,25247.0,kg
+8101,Tungsten and articles,United Kingdom,826,Bahrain,48,Export,2024,15998.336,82.0,82.0,kg
+8101,Tungsten and articles,United Kingdom,826,Kenya,404,Export,2024,141891.063,4630.0,4630.0,kg
+8101,Tungsten and articles,United Kingdom,826,Italy,380,Export,2024,1371841.475,6035.0,6035.0,kg
+8101,Tungsten and articles,United Kingdom,826,Jordan,400,Export,2024,7863.46,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Greece,300,Export,2024,80185.731,306.0,306.0,kg
+8101,Tungsten and articles,United Kingdom,826,Kazakhstan,398,Export,2024,2503.624,88.0,88.0,kg
+8101,Tungsten and articles,United Kingdom,826,Netherlands,528,Export,2024,1028441.641,50781.148,50781.148,kg
+8101,Tungsten and articles,United Kingdom,826,Serbia,688,Export,2024,1490.253,14.0,14.0,kg
+8101,Tungsten and articles,United Kingdom,826,Indonesia,360,Export,2024,51350.93,127.0,127.0,kg
+8101,Tungsten and articles,United Kingdom,826,Poland,616,Export,2024,262839.955,1265.0,1265.0,kg
+8101,Tungsten and articles,United Kingdom,826,Austria,40,Export,2024,1216350.432,53028.0,53028.0,kg
+8101,Tungsten and articles,United Kingdom,826,Colombia,170,Export,2024,19677.674,64.0,64.0,kg
+8101,Tungsten and articles,United Kingdom,826,Switzerland,757,Export,2024,113353.044,307.502,307.502,kg
+8101,Tungsten and articles,United Kingdom,826,Bulgaria,100,Export,2024,53385.284,1019.0,1019.0,kg
+8101,Tungsten and articles,United Kingdom,826,Slovakia,703,Export,2024,15140.965,30.0,30.0,kg
+8101,Tungsten and articles,United Kingdom,826,Ireland,372,Export,2024,1862081.279,21278.0,21278.0,kg
+8101,Tungsten and articles,United Kingdom,826,Egypt,818,Export,2024,47500.372,144.466,144.466,kg
+8101,Tungsten and articles,United Kingdom,826,Portugal,620,Export,2024,11575.774,76.157,76.157,kg
+8101,Tungsten and articles,United Kingdom,826,Switzerland,757,Import,2022,10943.839,9.0,9.0,kg
+8101,Tungsten and articles,United Kingdom,826,Sweden,752,Import,2022,242115.809,2083.058,2083.058,kg
+8101,Tungsten and articles,United Kingdom,826,Poland,616,Import,2022,484450.129,3013.0,3013.0,kg
+8101,Tungsten and articles,United Kingdom,826,Spain,724,Import,2022,259584.447,13902.0,13902.0,kg
+8101,Tungsten and articles,United Kingdom,826,United Kingdom,826,Import,2022,102664.564,646.0,646.0,kg
+8101,Tungsten and articles,United Kingdom,826,Viet Nam,704,Import,2022,7517.252,54.0,54.0,kg
+8101,Tungsten and articles,United Kingdom,826,South Africa,710,Import,2022,5644997.038,253719.0,253719.0,kg
+8101,Tungsten and articles,United Kingdom,826,Denmark,208,Import,2022,22489.498,49.409,49.409,kg
+8101,Tungsten and articles,United Kingdom,826,Germany,276,Import,2022,7210060.034,204264.68,204264.68,kg
+8101,Tungsten and articles,United Kingdom,826,Japan,392,Import,2022,1731788.998,73784.467,73784.467,kg
+8101,Tungsten and articles,United Kingdom,826,USA,842,Import,2022,5738773.471,142775.05,142775.05,kg
+8101,Tungsten and articles,United Kingdom,826,Mexico,484,Import,2022,53452.079,704.0,704.0,kg
+8101,Tungsten and articles,United Kingdom,826,Malaysia,458,Import,2022,47829.399,318.0,318.0,kg
+8101,Tungsten and articles,United Kingdom,826,Hungary,348,Import,2022,95003.266,809.0,809.0,kg
+8101,Tungsten and articles,United Kingdom,826,New Zealand,554,Import,2022,33294.174,2108.0,2108.0,kg
+8101,Tungsten and articles,United Kingdom,826,"Other Asia, nes",490,Import,2022,343241.033,10811.0,10811.0,kg
+8101,Tungsten and articles,United Kingdom,826,Estonia,233,Import,2022,1344.023,25.0,25.0,kg
+8101,Tungsten and articles,United Kingdom,826,Egypt,818,Import,2022,17718.887,910.0,910.0,kg
+8101,Tungsten and articles,United Kingdom,826,Iceland,352,Import,2022,3580.399,363.0,363.0,kg
+8101,Tungsten and articles,United Kingdom,826,Cyprus,196,Import,2022,8571.962,29.0,29.0,kg
+8101,Tungsten and articles,United Kingdom,826,Nepal,524,Import,2022,1958.05,34.0,34.0,kg
+8101,Tungsten and articles,United Kingdom,826,Czechia,203,Import,2022,558134.576,15413.0,15413.0,kg
+8101,Tungsten and articles,United Kingdom,826,India,699,Import,2022,59283.503,262.0,262.0,kg
+8101,Tungsten and articles,United Kingdom,826,China,156,Import,2022,16016485.007,297766.34,297766.34,kg
+8101,Tungsten and articles,United Kingdom,826,Kenya,404,Import,2022,65776.563,20162.0,20162.0,kg
+8101,Tungsten and articles,United Kingdom,826,Singapore,702,Import,2022,127333.064,3819.0,3819.0,kg
+8101,Tungsten and articles,United Kingdom,826,United Arab Emirates,784,Import,2022,5554.319,17.0,17.0,kg
+8101,Tungsten and articles,United Kingdom,826,Brazil,76,Import,2022,21749.736,128.0,128.0,kg
+8101,Tungsten and articles,United Kingdom,826,Canada,124,Import,2022,17705.459,70.0,70.0,kg
+8101,Tungsten and articles,United Kingdom,826,Rep. of Korea,410,Import,2022,4490873.066,102223.0,102223.0,kg
+8101,Tungsten and articles,United Kingdom,826,Türkiye,792,Import,2022,31486.274,1829.0,1829.0,kg
+8101,Tungsten and articles,United Kingdom,826,Belgium,56,Import,2022,232393.92,5185.0,5185.0,kg
+8101,Tungsten and articles,United Kingdom,826,France,251,Import,2022,1116374.136,44070.0,44070.0,kg
+8101,Tungsten and articles,United Kingdom,826,Bulgaria,100,Import,2022,1220.729,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Greece,300,Import,2022,5348.016,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Austria,40,Import,2022,4142484.216,75460.242,75460.242,kg
+8101,Tungsten and articles,United Kingdom,826,Israel,376,Import,2022,594723.499,27949.431,27949.431,kg
+8101,Tungsten and articles,United Kingdom,826,Italy,380,Import,2022,240382.373,3124.352,3124.352,kg
+8101,Tungsten and articles,United Kingdom,826,Netherlands,528,Import,2022,1052721.642,23200.463,23200.463,kg
+8101,Tungsten and articles,United Kingdom,826,Morocco,504,Import,2022,58165.315,3.0,3.0,kg
+8101,Tungsten and articles,United Kingdom,826,Thailand,764,Import,2022,47516.892,2107.0,2107.0,kg
+8101,Tungsten and articles,United Kingdom,826,Portugal,620,Import,2022,1258.572,8.0,8.0,kg
+8101,Tungsten and articles,United Kingdom,826,Ireland,372,Import,2022,10934.073,22.0,22.0,kg
+8101,Tungsten and articles,United Kingdom,826,Italy,380,Import,2023,268465.573,2097.0,2097.0,kg
+8101,Tungsten and articles,United Kingdom,826,Norway,579,Import,2023,2233.577,65.0,65.0,kg
+8101,Tungsten and articles,United Kingdom,826,India,699,Import,2023,45375.058,201.0,201.0,kg
+8101,Tungsten and articles,United Kingdom,826,Czechia,203,Import,2023,287938.839,7069.0,7069.0,kg
+8101,Tungsten and articles,United Kingdom,826,Austria,40,Import,2023,3239498.997,45203.0,45203.0,kg
+8101,Tungsten and articles,United Kingdom,826,Lithuania,440,Import,2023,1742.613,4.0,4.0,kg
+8101,Tungsten and articles,United Kingdom,826,Chile,152,Import,2023,1569.843,17.0,17.0,kg
+8101,Tungsten and articles,United Kingdom,826,Poland,616,Import,2023,709057.065,2975.0,2975.0,kg
+8101,Tungsten and articles,United Kingdom,826,Australia,36,Import,2023,2339.228,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Malaysia,458,Import,2023,30567.819,77.0,77.0,kg
+8101,Tungsten and articles,United Kingdom,826,Denmark,208,Import,2023,21780.177,130.063,130.063,kg
+8101,Tungsten and articles,United Kingdom,826,Latvia,428,Import,2023,86951.667,3669.0,3669.0,kg
+8101,Tungsten and articles,United Kingdom,826,Belgium,56,Import,2023,1588.487,59.0,59.0,kg
+8101,Tungsten and articles,United Kingdom,826,Germany,276,Import,2023,6809030.508,209824.008,209824.008,kg
+8101,Tungsten and articles,United Kingdom,826,South Africa,710,Import,2023,2803648.108,131956.0,131956.0,kg
+8101,Tungsten and articles,United Kingdom,826,Mexico,484,Import,2023,69474.576,514.0,514.0,kg
+8101,Tungsten and articles,United Kingdom,826,Ireland,372,Import,2023,170163.305,5892.0,5892.0,kg
+8101,Tungsten and articles,United Kingdom,826,USA,842,Import,2023,4747023.346,59921.964,59921.964,kg
+8101,Tungsten and articles,United Kingdom,826,"Other Asia, nes",490,Import,2023,128694.832,316.0,316.0,kg
+8101,Tungsten and articles,United Kingdom,826,Israel,376,Import,2023,192234.331,15342.0,15342.0,kg
+8101,Tungsten and articles,United Kingdom,826,United Kingdom,826,Import,2023,54076.937,1759.986,1759.986,kg
+8101,Tungsten and articles,United Kingdom,826,Iceland,352,Import,2023,10547.656,263.0,263.0,kg
+8101,Tungsten and articles,United Kingdom,826,Singapore,702,Import,2023,20719.942,755.0,755.0,kg
+8101,Tungsten and articles,United Kingdom,826,Rep. of Korea,410,Import,2023,2039681.331,51511.0,51511.0,kg
+8101,Tungsten and articles,United Kingdom,826,France,251,Import,2023,2279459.665,71023.0,71023.0,kg
+8101,Tungsten and articles,United Kingdom,826,Spain,724,Import,2023,244627.074,450.0,450.0,kg
+8101,Tungsten and articles,United Kingdom,826,Japan,392,Import,2023,94711.392,3087.089,3087.089,kg
+8101,Tungsten and articles,United Kingdom,826,Switzerland,757,Import,2023,69063.16,390.0,390.0,kg
+8101,Tungsten and articles,United Kingdom,826,Sweden,752,Import,2023,136188.565,172.0,172.0,kg
+8101,Tungsten and articles,United Kingdom,826,Kenya,404,Import,2023,66348.562,11788.0,11788.0,kg
+8101,Tungsten and articles,United Kingdom,826,China,156,Import,2023,16261140.135,310409.0,310409.0,kg
+8101,Tungsten and articles,United Kingdom,826,Portugal,620,Import,2023,39027.323,112.0,112.0,kg
+8101,Tungsten and articles,United Kingdom,826,Türkiye,792,Import,2023,46340.829,1916.0,1916.0,kg
+8101,Tungsten and articles,United Kingdom,826,Hungary,348,Import,2023,14476.615,9.0,9.0,kg
+8101,Tungsten and articles,United Kingdom,826,Egypt,818,Import,2023,34542.767,4078.0,4078.0,kg
+8101,Tungsten and articles,United Kingdom,826,Canada,124,Import,2023,14786.109,74.0,74.0,kg
+8101,Tungsten and articles,United Kingdom,826,"China, Hong Kong SAR",344,Import,2023,412969.46,11553.0,11553.0,kg
+8101,Tungsten and articles,United Kingdom,826,Netherlands,528,Import,2023,1047864.792,23826.0,23826.0,kg
+8101,Tungsten and articles,United Kingdom,826,Poland,616,Import,2024,517056.739,1678.0,1678.0,kg
+8101,Tungsten and articles,United Kingdom,826,Czechia,203,Import,2024,455535.311,16981.0,16981.0,kg
+8101,Tungsten and articles,United Kingdom,826,Canada,124,Import,2024,91041.111,536.0,536.0,kg
+8101,Tungsten and articles,United Kingdom,826,"China, Hong Kong SAR",344,Import,2024,643771.324,15945.0,15945.0,kg
+8101,Tungsten and articles,United Kingdom,826,Egypt,818,Import,2024,32996.093,2032.0,2032.0,kg
+8101,Tungsten and articles,United Kingdom,826,Norway,579,Import,2024,13391.98,5.0,5.0,kg
+8101,Tungsten and articles,United Kingdom,826,Switzerland,757,Import,2024,42708.734,1889.0,1889.0,kg
+8101,Tungsten and articles,United Kingdom,826,Kenya,404,Import,2024,68101.368,19746.0,19746.0,kg
+8101,Tungsten and articles,United Kingdom,826,Sweden,752,Import,2024,206489.386,262.567,262.567,kg
+8101,Tungsten and articles,United Kingdom,826,France,251,Import,2024,469073.145,5838.829,5838.829,kg
+8101,Tungsten and articles,United Kingdom,826,USA,842,Import,2024,6160724.128,93753.207,93753.207,kg
+8101,Tungsten and articles,United Kingdom,826,Germany,276,Import,2024,6832044.196,189926.861,189926.861,kg
+8101,Tungsten and articles,United Kingdom,826,Italy,380,Import,2024,155172.7,906.371,906.371,kg
+8101,Tungsten and articles,United Kingdom,826,Rep. of Korea,410,Import,2024,1701500.548,51029.0,51029.0,kg
+8101,Tungsten and articles,United Kingdom,826,Israel,376,Import,2024,381172.345,13545.0,13545.0,kg
+8101,Tungsten and articles,United Kingdom,826,Japan,392,Import,2024,198310.12,7838.0,7838.0,kg
+8101,Tungsten and articles,United Kingdom,826,India,699,Import,2024,91143.843,334.599,334.599,kg
+8101,Tungsten and articles,United Kingdom,826,Netherlands,528,Import,2024,1528182.28,36362.532,36362.532,kg
+8101,Tungsten and articles,United Kingdom,826,Ukraine,804,Import,2024,4270.366,8.0,8.0,kg
+8101,Tungsten and articles,United Kingdom,826,Brazil,76,Import,2024,47705.836,14.0,14.0,kg
+8101,Tungsten and articles,United Kingdom,826,Malaysia,458,Import,2024,52082.739,192.0,192.0,kg
+8101,Tungsten and articles,United Kingdom,826,Portugal,620,Import,2024,6531.745,4.0,4.0,kg
+8101,Tungsten and articles,United Kingdom,826,United Kingdom,826,Import,2024,604829.441,2403.533,2403.533,kg
+8101,Tungsten and articles,United Kingdom,826,Denmark,208,Import,2024,6479.745,56.839,56.839,kg
+8101,Tungsten and articles,United Kingdom,826,Singapore,702,Import,2024,104868.117,2917.0,2917.0,kg
+8101,Tungsten and articles,United Kingdom,826,South Africa,710,Import,2024,857415.191,45034.0,45034.0,kg
+8101,Tungsten and articles,United Kingdom,826,Austria,40,Import,2024,8506055.61,167085.0,167085.0,kg
+8101,Tungsten and articles,United Kingdom,826,Spain,724,Import,2024,7557.8,61.0,61.0,kg
+8101,Tungsten and articles,United Kingdom,826,Ireland,372,Import,2024,2539.137,1.0,1.0,kg
+8101,Tungsten and articles,United Kingdom,826,Mexico,484,Import,2024,35280.301,389.0,389.0,kg
+8101,Tungsten and articles,United Kingdom,826,China,156,Import,2024,15316011.093,279550.049,279550.049,kg
+8101,Tungsten and articles,United Kingdom,826,"Other Asia, nes",490,Import,2024,12601.829,194.0,194.0,kg
+8101,Tungsten and articles,United Kingdom,826,Türkiye,792,Import,2024,24281.604,1051.0,1051.0,kg
+8101,Tungsten and articles,United Kingdom,826,Hungary,348,Import,2024,5679.447,13.495,13.495,kg
+8101,Tungsten and articles,United Kingdom,826,Belgium,56,Import,2024,48422.426,1001.0,1001.0,kg
+8101,Tungsten and articles,Indonesia,360,Japan,392,Export,2022,158794.559,31872.0,31872.0,kg
+8101,Tungsten and articles,Indonesia,360,Rep. of Korea,410,Export,2022,53506.0,3076.11,3076.11,kg
+8101,Tungsten and articles,Indonesia,360,Netherlands,528,Export,2022,50047.2,11895.0,11895.0,kg
+8101,Tungsten and articles,Indonesia,360,Timor-Leste,626,Export,2022,672.5,565.0,565.0,kg
+8101,Tungsten and articles,Indonesia,360,Singapore,702,Export,2022,1617086.969,74656.7,74656.7,kg
+8101,Tungsten and articles,Indonesia,360,Thailand,764,Export,2022,35781.51,1779.3,1779.3,kg
+8101,Tungsten and articles,Indonesia,360,USA,842,Export,2022,141.68,4.5,4.5,kg
+8101,Tungsten and articles,Indonesia,360,Bangladesh,50,Export,2022,561.82,4.351,4.351,kg
+8101,Tungsten and articles,Indonesia,360,Brunei Darussalam,96,Export,2022,1464.93,1350.0,1350.0,kg
+8101,Tungsten and articles,Indonesia,360,Germany,276,Export,2022,654589.05,26835.0,26835.0,kg
+8101,Tungsten and articles,Indonesia,360,"China, Hong Kong SAR",344,Export,2022,77.0,0.17,0.17,kg
+8101,Tungsten and articles,Indonesia,360,Cambodia,116,Export,2023,15409.62,1378.57,1378.57,kg
+8101,Tungsten and articles,Indonesia,360,China,156,Export,2023,22865.598,10683.5,10683.5,kg
+8101,Tungsten and articles,Indonesia,360,Germany,276,Export,2023,149539.99,9708.0,9708.0,kg
+8101,Tungsten and articles,Indonesia,360,"China, Hong Kong SAR",344,Export,2023,455263.2,24610.36,24610.36,kg
+8101,Tungsten and articles,Indonesia,360,Japan,392,Export,2023,159629.319,11617.0,11617.0,kg
+8101,Tungsten and articles,Indonesia,360,Rep. of Korea,410,Export,2023,425219.24,19464.46,19464.46,kg
+8101,Tungsten and articles,Indonesia,360,"Other Asia, nes",490,Export,2023,74695.34,3572.5,3572.5,kg
+8101,Tungsten and articles,Indonesia,360,Netherlands,528,Export,2023,72400.0,5200.0,5200.0,kg
+8101,Tungsten and articles,Indonesia,360,Timor-Leste,626,Export,2023,1977.44,1368.0,1368.0,kg
+8101,Tungsten and articles,Indonesia,360,India,699,Export,2023,40240.63,10792.5,10792.5,kg
+8101,Tungsten and articles,Indonesia,360,Singapore,702,Export,2023,1735516.076,79006.8,79006.8,kg
+8101,Tungsten and articles,Indonesia,360,Thailand,764,Export,2023,317884.164,14068.6,14068.6,kg
+8101,Tungsten and articles,Indonesia,360,United Arab Emirates,784,Export,2023,2330.82,7.76,7.76,kg
+8101,Tungsten and articles,Indonesia,360,USA,842,Export,2023,19.09,0.4,0.4,kg
+8101,Tungsten and articles,Indonesia,360,Japan,392,Export,2024,2497.533,154.013,154.013,kg
+8101,Tungsten and articles,Indonesia,360,Rep. of Korea,410,Export,2024,533718.91,20700.648,20700.648,kg
+8101,Tungsten and articles,Indonesia,360,"Other Asia, nes",490,Export,2024,248305.79,19356.0,19356.0,kg
+8101,Tungsten and articles,Indonesia,360,Netherlands,528,Export,2024,23466.68,1008.0,1008.0,kg
+8101,Tungsten and articles,Indonesia,360,Timor-Leste,626,Export,2024,2142.43,1637.026,1637.026,kg
+8101,Tungsten and articles,Indonesia,360,Singapore,702,Export,2024,1156456.576,61972.8,61972.8,kg
+8101,Tungsten and articles,Indonesia,360,Thailand,764,Export,2024,13901.22,681.45,681.45,kg
+8101,Tungsten and articles,Indonesia,360,Poland,616,Import,2022,711.0,3.0,3.0,kg
+8101,Tungsten and articles,Indonesia,360,India,699,Import,2022,82455.0,848.0,848.0,kg
+8101,Tungsten and articles,Indonesia,360,Singapore,702,Import,2022,31859.0,599.0,599.0,kg
+8101,Tungsten and articles,Indonesia,360,Spain,724,Import,2022,9215.0,304.0,304.0,kg
+8101,Tungsten and articles,Indonesia,360,Sweden,752,Import,2022,23898.0,681.0,681.0,kg
+8101,Tungsten and articles,Indonesia,360,Switzerland,757,Import,2022,38402.0,900.0,900.0,kg
+8101,Tungsten and articles,Indonesia,360,Thailand,764,Import,2022,131799.0,494.0,494.0,kg
+8101,Tungsten and articles,Indonesia,360,United Kingdom,826,Import,2022,6759.0,88.0,88.0,kg
+8101,Tungsten and articles,Indonesia,360,USA,842,Import,2022,127991.0,1857.0,1857.0,kg
+8101,Tungsten and articles,Indonesia,360,Finland,246,Import,2022,994.0,4.0,4.0,kg
+8101,Tungsten and articles,Indonesia,360,Germany,276,Import,2022,109256.0,1921.0,1921.0,kg
+8101,Tungsten and articles,Indonesia,360,"China, Hong Kong SAR",344,Import,2022,690635.0,34506.0,34506.0,kg
+8101,Tungsten and articles,Indonesia,360,Hungary,348,Import,2022,3461.0,128.0,128.0,kg
+8101,Tungsten and articles,Indonesia,360,Italy,380,Import,2022,66634.0,473.0,473.0,kg
+8101,Tungsten and articles,Indonesia,360,Japan,392,Import,2022,627448.0,3350.0,3350.0,kg
+8101,Tungsten and articles,Indonesia,360,Rep. of Korea,410,Import,2022,142645.0,7340.0,7340.0,kg
+8101,Tungsten and articles,Indonesia,360,"China, Macao SAR",446,Import,2022,4149.0,26.0,26.0,kg
+8101,Tungsten and articles,Indonesia,360,Malaysia,458,Import,2022,5225.0,19.0,19.0,kg
+8101,Tungsten and articles,Indonesia,360,"Other Asia, nes",490,Import,2022,45231.0,1514.0,1514.0,kg
+8101,Tungsten and articles,Indonesia,360,Oman,512,Import,2022,410.0,1.0,1.0,kg
+8101,Tungsten and articles,Indonesia,360,Australia,36,Import,2022,11409.0,649.0,649.0,kg
+8101,Tungsten and articles,Indonesia,360,Austria,40,Import,2022,5090.0,17.0,17.0,kg
+8101,Tungsten and articles,Indonesia,360,Canada,124,Import,2022,189900.0,1800.0,1800.0,kg
+8101,Tungsten and articles,Indonesia,360,China,156,Import,2022,2360544.0,246078.0,246078.0,kg
+8101,Tungsten and articles,Indonesia,360,Australia,36,Import,2023,3977.0,21.0,21.0,kg
+8101,Tungsten and articles,Indonesia,360,Austria,40,Import,2023,17094.0,24.0,24.0,kg
+8101,Tungsten and articles,Indonesia,360,Bulgaria,100,Import,2023,150.0,3.0,3.0,kg
+8101,Tungsten and articles,Indonesia,360,Cambodia,116,Import,2023,581.0,35.0,35.0,kg
+8101,Tungsten and articles,Indonesia,360,China,156,Import,2023,1977098.0,194544.0,194544.0,kg
+8101,Tungsten and articles,Indonesia,360,Finland,246,Import,2023,13777.0,71.0,71.0,kg
+8101,Tungsten and articles,Indonesia,360,France,251,Import,2023,67.0,2.0,2.0,kg
+8101,Tungsten and articles,Indonesia,360,Germany,276,Import,2023,210437.0,1486.0,1486.0,kg
+8101,Tungsten and articles,Indonesia,360,"China, Hong Kong SAR",344,Import,2023,378869.0,21425.0,21425.0,kg
+8101,Tungsten and articles,Indonesia,360,Hungary,348,Import,2023,493.0,8.0,8.0,kg
+8101,Tungsten and articles,Indonesia,360,Italy,380,Import,2023,3795.0,5.0,5.0,kg
+8101,Tungsten and articles,Indonesia,360,Japan,392,Import,2023,968032.0,6179.0,6179.0,kg
+8101,Tungsten and articles,Indonesia,360,Rep. of Korea,410,Import,2023,400831.0,5833.0,5833.0,kg
+8101,Tungsten and articles,Indonesia,360,"China, Macao SAR",446,Import,2023,2722.0,11.0,11.0,kg
+8101,Tungsten and articles,Indonesia,360,"Other Asia, nes",490,Import,2023,31456.0,984.0,984.0,kg
+8101,Tungsten and articles,Indonesia,360,Netherlands,528,Import,2023,2705.0,6.0,6.0,kg
+8101,Tungsten and articles,Indonesia,360,Philippines,608,Import,2023,216.0,5.0,5.0,kg
+8101,Tungsten and articles,Indonesia,360,Poland,616,Import,2023,518.0,2.0,2.0,kg
+8101,Tungsten and articles,Indonesia,360,India,699,Import,2023,57729.0,584.0,584.0,kg
+8101,Tungsten and articles,Indonesia,360,Singapore,702,Import,2023,60980.0,1024.0,1024.0,kg
+8101,Tungsten and articles,Indonesia,360,Viet Nam,704,Import,2023,147.0,2.0,2.0,kg
+8101,Tungsten and articles,Indonesia,360,Spain,724,Import,2023,23976.0,762.0,762.0,kg
+8101,Tungsten and articles,Indonesia,360,Sweden,752,Import,2023,33916.0,839.0,839.0,kg
+8101,Tungsten and articles,Indonesia,360,Switzerland,757,Import,2023,4233.0,5.0,5.0,kg
+8101,Tungsten and articles,Indonesia,360,Thailand,764,Import,2023,160386.0,596.0,596.0,kg
+8101,Tungsten and articles,Indonesia,360,United Kingdom,826,Import,2023,51441.0,351.0,351.0,kg
+8101,Tungsten and articles,Indonesia,360,USA,842,Import,2023,255511.0,3285.0,3285.0,kg
+8101,Tungsten and articles,Indonesia,360,Austria,40,Import,2024,3822.0,23.0,23.0,kg
+8101,Tungsten and articles,Indonesia,360,Andorra,20,Import,2024,5971.0,313.0,313.0,kg
+8101,Tungsten and articles,Indonesia,360,Poland,616,Import,2024,16698.0,35.0,35.0,kg
+8101,Tungsten and articles,Indonesia,360,Sweden,752,Import,2024,29635.0,986.0,986.0,kg
+8101,Tungsten and articles,Indonesia,360,Australia,36,Import,2024,1481.0,131.0,131.0,kg
+8101,Tungsten and articles,Indonesia,360,"China, Hong Kong SAR",344,Import,2024,443252.0,26514.0,26514.0,kg
+8101,Tungsten and articles,Indonesia,360,Italy,380,Import,2024,25665.0,80.0,80.0,kg
+8101,Tungsten and articles,Indonesia,360,United Kingdom,826,Import,2024,72182.0,2088.0,2088.0,kg
+8101,Tungsten and articles,Indonesia,360,Malaysia,458,Import,2024,8.0,72.0,72.0,kg
+8101,Tungsten and articles,Indonesia,360,Thailand,764,Import,2024,104486.0,709.0,709.0,kg
+8101,Tungsten and articles,Indonesia,360,"Other Asia, nes",490,Import,2024,15296.0,248.0,248.0,kg
+8101,Tungsten and articles,Indonesia,360,Singapore,702,Import,2024,129925.0,2958.0,2958.0,kg
+8101,Tungsten and articles,Indonesia,360,Germany,276,Import,2024,135112.0,2053.0,2053.0,kg
+8101,Tungsten and articles,Indonesia,360,India,699,Import,2024,58101.0,723.0,723.0,kg
+8101,Tungsten and articles,Indonesia,360,USA,842,Import,2024,310619.0,3667.0,3667.0,kg
+8101,Tungsten and articles,Indonesia,360,Rep. of Korea,410,Import,2024,248205.0,2394.0,2394.0,kg
+8101,Tungsten and articles,Indonesia,360,Japan,392,Import,2024,397898.0,2905.0,2905.0,kg
+8101,Tungsten and articles,Indonesia,360,Finland,246,Import,2024,8608.0,15.0,15.0,kg
+8101,Tungsten and articles,Indonesia,360,Hungary,348,Import,2024,973.0,16.0,16.0,kg
+8101,Tungsten and articles,Indonesia,360,China,156,Import,2024,1505881.0,137569.0,137569.0,kg
+8101,Tungsten and articles,Indonesia,360,Switzerland,757,Import,2024,8241.0,6.0,6.0,kg
+8101,Tungsten and articles,Indonesia,360,Netherlands,528,Import,2024,1866.0,2.0,2.0,kg
+8101,Tungsten and articles,Indonesia,360,Türkiye,792,Import,2024,4.0,2.0,2.0,kg
+8101,Tungsten and articles,Indonesia,360,Philippines,608,Import,2024,214.0,1.0,1.0,kg

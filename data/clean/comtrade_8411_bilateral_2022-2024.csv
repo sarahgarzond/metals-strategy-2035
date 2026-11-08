@@ -4128,3 +4128,969 @@ hs,hs_desc,reporter,reporter_code,partner,partner_code,flow,year,value_usd,net_w
 8411,"Turbojets, turbines",Italy,380,Switzerland,757,Import,2024,90275419.477,341871.0,0.0,N/A
 8411,"Turbojets, turbines",Italy,380,Spain,724,Import,2024,10912882.347,159882.0,0.0,N/A
 8411,"Turbojets, turbines",Italy,380,World,0,Import,2024,2975262701.402,20933393.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Papua New Guinea,598,Export,2022,2233560.056,60.0,60.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Niger,562,Export,2022,30377.851,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Panama,591,Export,2022,1188.99,10.0,10.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Paraguay,600,Export,2022,1158.472,4.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nigeria,566,Export,2022,31495122.74,50040.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Norway,579,Export,2022,108091409.478,97493.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovenia,705,Export,2022,26066363.268,16461.704,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,South Africa,710,Export,2022,48939194.638,23604.81,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bunkers,837,Export,2022,7085.113,50.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uruguay,858,Export,2022,165322.163,68.0,68.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,French Polynesia,258,Export,2022,7900.561,7.0,7.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Georgia,268,Export,2022,6159268.365,9315.0,9315.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Germany,276,Export,2022,2632253077.147,1406750.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Egypt,818,Export,2022,115658109.271,51068.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Rep. of Tanzania,834,Export,2022,274998.597,206.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,India,699,Export,2022,745389885.34,292025.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovakia,703,Export,2022,1328070.588,36219.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Viet Nam,704,Export,2022,27154481.18,16204.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Gabon,266,Export,2022,6961498.773,23471.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Singapore,702,Export,2022,2779241579.049,886704.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Korea,410,Export,2022,365950395.589,135203.028,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kuwait,414,Export,2022,39005345.486,16291.53,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Austria,40,Export,2022,25329274.643,84464.992,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bahrain,48,Export,2022,68590600.442,17251.5,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Arab Emirates,784,Export,2022,1421139917.908,524582.163,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tunisia,788,Export,2022,3254481.697,15332.453,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Latvia,428,Export,2022,875689.022,3431.606,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Libya,434,Export,2022,1310468.891,5443.42,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Luxembourg,442,Export,2022,359966775.538,281459.461,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Canada,124,Export,2022,297670523.273,277567.188,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Morocco,504,Export,2022,64432088.049,19752.342,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Oman,512,Export,2022,97159727.562,57923.917,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Estonia,233,Export,2022,17594125.178,14794.764,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sweden,752,Export,2022,112079842.526,254810.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mexico,484,Export,2022,47429970.247,71484.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Jordan,400,Export,2022,54086871.397,18416.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kenya,404,Export,2022,40410325.69,20719.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kyrgyzstan,417,Export,2022,1375403.151,5340.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lebanon,422,Export,2022,14448471.508,5396.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uzbekistan,860,Export,2022,48218967.948,15339.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bangladesh,50,Export,2022,33829936.197,14978.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ghana,288,Export,2022,1401474.269,3639.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Greece,300,Export,2022,94107231.415,45204.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Thailand,764,Export,2022,39675108.443,80479.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Equatorial Guinea,226,Export,2022,1343722.781,7689.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lithuania,440,Export,2022,30850647.193,51650.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malaysia,458,Export,2022,196136919.794,174404.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brunei Darussalam,96,Export,2022,3385072.888,3189.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bulgaria,100,Export,2022,53471957.033,20142.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Faroe Isds,234,Export,2022,33931.395,10.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Fiji,242,Export,2022,10215195.542,4510.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Türkiye,792,Export,2022,655867426.717,,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Zambia,894,Export,2022,28338.013,70.785,70.785,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Trinidad and Tobago,780,Export,2022,44672.593,22.127,22.127,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Moldova,498,Export,2022,50694.451,125.731,125.731,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ecuador,218,Export,2022,1156915.78,1600.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Eswatini,748,Export,2022,15375.087,7.0,7.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tuvalu,798,Export,2022,1191.432,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malawi,454,Export,2022,46508.57,61.0,61.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Togo,768,Export,2022,4036.952,35.0,35.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nepal,524,Export,2022,317123.528,168.0,168.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Liberia,430,Export,2022,1341.582,5.0,5.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cambodia,116,Export,2022,1741.981,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Armenia,51,Export,2022,1804.238,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uganda,800,Export,2022,886763.479,678.0,678.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Maldives,462,Export,2022,9731.655,5.0,5.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Falkland Isds (Malvinas),238,Export,2022,1948.284,108.0,108.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mauritius,480,Export,2022,69909.953,50.0,50.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ukraine,804,Export,2022,1182404.61,1265.0,1265.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malta,470,Export,2022,581892.412,624.0,624.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"Areas, nes",899,Export,2022,1600.376,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Zealand,554,Export,2022,88508856.475,24177.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Colombia,170,Export,2022,16288824.855,14029.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cyprus,196,Export,2022,2993588.628,1767.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Hungary,348,Export,2022,168859600.276,465144.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Senegal,686,Export,2022,4053438.11,2693.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iraq,368,Export,2022,6898952.261,12582.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Angola,24,Export,2022,20793265.108,28400.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Argentina,32,Export,2022,40181182.572,27230.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Chile,152,Export,2022,22556421.969,10785.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Qatar,634,Export,2022,1059171548.978,319713.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Romania,642,Export,2022,14983957.892,31939.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Russian Federation,643,Export,2022,5806149.189,10556.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Philippines,608,Export,2022,43233299.072,18646.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Poland,616,Export,2022,160127348.042,202614.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Belgium,56,Export,2022,170647782.09,202021.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Italy,380,Export,2022,567840598.444,540995.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Saudi Arabia,682,Export,2022,821040289.895,241506.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brazil,76,Export,2022,414503544.317,252440.215,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Croatia,191,Export,2022,2990158.379,11747.584,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Czechia,203,Export,2022,110705492.865,199894.826,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Hong Kong SAR",344,Export,2022,2550441636.611,308394.694,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Israel,376,Export,2022,267841847.549,105323.958,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Serbia,688,Export,2022,41775959.343,34891.839,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Indonesia,360,Export,2022,38351784.051,52660.554,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Azerbaijan,31,Export,2022,78856434.281,100542.311,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Australia,36,Export,2022,87306618.674,89841.19,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,China,156,Export,2022,602127004.431,483383.086,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Portugal,620,Export,2022,110019062.069,75040.268,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Greenland,304,Export,2022,1591.831,20.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sri Lanka,144,Export,2022,138950.746,54.715,54.715,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bosnia Herzegovina,70,Export,2022,1574.741,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cabo Verde,132,Export,2022,3298.411,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Vanuatu,548,Export,2022,2319.386,95.0,95.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Holy See (Vatican City State),336,Export,2022,20142.035,9.0,9.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Honduras,340,Export,2022,58289.829,512.0,512.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bolivia (Plurinational State of),68,Export,2022,11985.121,86.0,86.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Congo,178,Export,2022,477011.004,1730.0,1730.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bermuda,60,Export,2022,35811.318,51.0,51.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Seychelles,690,Export,2022,1430177.279,2845.0,2845.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Costa Rica,188,Export,2022,23241.467,22.0,22.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guyana,328,Export,2022,83821.385,349.0,349.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Botswana,72,Export,2022,118408.311,8.0,8.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Dem. Rep. of the Congo,180,Export,2022,22908.208,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Albania,8,Export,2022,50856.808,100.0,100.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Grenada,308,Export,2022,74783.104,5.0,5.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Japan,392,Export,2022,782890692.815,344902.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kazakhstan,398,Export,2022,12703081.143,19009.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Jamaica,388,Export,2022,131758.208,1314.0,1314.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Côte d'Ivoire,384,Export,2022,43433.552,188.0,188.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Pakistan,586,Export,2022,14304665.921,16845.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Finland,246,Export,2022,30057638.174,34989.889,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Denmark,208,Export,2022,12761058.465,44660.794,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iceland,352,Export,2022,2264799.743,26520.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"Other Asia, nes",490,Export,2022,46141602.661,26441.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ireland,372,Export,2022,599590294.536,632542.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,USA,842,Export,2022,3951442268.337,2449068.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ethiopia,231,Export,2022,256028617.11,81332.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bouvet Island,74,Export,2022,5102.649,21.0,21.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Caledonia,540,Export,2022,5677.612,91.0,91.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Namibia,516,Export,2022,3205.635,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mongolia,496,Export,2022,2023.969,8.0,8.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Peru,604,Export,2022,142719.138,343.0,343.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guinea,324,Export,2022,1589.39,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Turkmenistan,795,Export,2022,37669.268,16.0,16.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,El Salvador,222,Export,2022,108572.894,23.0,23.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Macao SAR",446,Export,2022,16990.112,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cameroon,120,Export,2022,35889.445,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bahamas,44,Export,2022,4714.457,284.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Switzerland,757,Export,2022,159862254.443,276862.473,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Netherlands,528,Export,2022,1123012904.092,610713.959,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,France,251,Export,2022,2125678210.732,2761314.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Algeria,12,Export,2022,17042842.556,16739.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Spain,724,Export,2022,1013384565.769,548629.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cabo Verde,132,Export,2023,2569.173,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,North Macedonia,807,Export,2023,29618.207,32.0,32.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Luxembourg,442,Export,2023,341246010.284,146756.727,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Seychelles,690,Export,2023,1517187.026,2937.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Turkmenistan,795,Export,2023,3573346.118,9363.0,2.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Moldova,498,Export,2023,20241.408,72.0,72.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bouvet Island,74,Export,2023,3956144.259,3145.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Philippines,608,Export,2023,115870211.564,48161.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Thailand,764,Export,2023,249239006.207,124693.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kuwait,414,Export,2023,118971784.355,39005.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Italy,380,Export,2023,706589423.067,557540.197,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Türkiye,792,Export,2023,900063101.701,342707.081,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Switzerland,757,Export,2023,251583010.917,358093.523,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Spain,724,Export,2023,810195524.286,456932.974,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uzbekistan,860,Export,2023,110162.478,344.0,344.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brunei Darussalam,96,Export,2023,545432.91,412.0,412.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iraq,368,Export,2023,1298421.97,3361.0,3361.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bermuda,60,Export,2023,159250.221,181.0,181.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Belgium,56,Export,2023,201998309.193,132796.006,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Czechia,203,Export,2023,148599158.035,188808.208,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Germany,276,Export,2023,3354487836.644,1695907.594,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Canada,124,Export,2023,526377460.971,283294.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bolivia (Plurinational State of),68,Export,2023,2758791.359,6300.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Chad,148,Export,2023,5845.584,1.49,1.49,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brazil,76,Export,2023,450349379.48,283033.658,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iceland,352,Export,2023,35206835.32,9215.192,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,France,251,Export,2023,2341752179.776,2963762.29,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ukraine,804,Export,2023,962691.783,6264.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Australia,36,Export,2023,110486696.941,62589.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bangladesh,50,Export,2023,120204056.635,32525.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,South Africa,710,Export,2023,49250297.761,46940.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"Areas, nes",899,Export,2023,14.915,,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Senegal,686,Export,2023,2036566.504,2506.276,2506.276,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Togo,768,Export,2023,1415.718,0.471,0.471,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lebanon,422,Export,2023,331941.682,148.607,148.607,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nepal,524,Export,2023,325876.096,225.0,225.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Zambia,894,Export,2023,835858.887,6169.0,6169.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rwanda,646,Export,2023,6934.407,14.0,14.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovakia,703,Export,2023,910438.251,42630.0,42630.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Austria,40,Export,2023,47403374.043,36780.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Pakistan,586,Export,2023,5120280.618,6901.635,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"Other Asia, nes",490,Export,2023,233362856.773,96279.132,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Viet Nam,704,Export,2023,15718869.285,13868.595,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Greece,300,Export,2023,13632064.068,18630.327,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,USA,842,Export,2023,5605892971.829,3012971.282,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cook Isds,184,Export,2023,99834.823,406.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ecuador,218,Export,2023,1955.157,72.0,72.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Papua New Guinea,598,Export,2023,3833.252,39.0,39.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Fiji,242,Export,2023,18334.725,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lao People's Dem. Rep.,418,Export,2023,14400.795,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Azerbaijan,31,Export,2023,66883925.893,79769.422,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Romania,642,Export,2023,2896921.409,21993.081,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Serbia,688,Export,2023,7642332.651,14704.115,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Maldives,462,Export,2023,2031310.077,416.895,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Finland,246,Export,2023,63794676.931,55594.913,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Korea,410,Export,2023,794903127.847,321364.072,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Qatar,634,Export,2023,1033012149.089,263096.016,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Trinidad and Tobago,780,Export,2023,1094491.499,2221.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Armenia,51,Export,2023,14687.916,208.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Croatia,191,Export,2023,6463251.086,6786.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Yemen,887,Export,2023,94828.229,784.0,784.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,French Polynesia,258,Export,2023,26415.13,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nigeria,566,Export,2023,18353856.813,88825.819,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Oman,512,Export,2023,149617052.866,37394.46,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Hong Kong SAR",344,Export,2023,4155166319.701,468976.408,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,China,156,Export,2023,892448628.485,317843.205,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Dem. Rep. of the Congo,180,Export,2023,1568983.153,6141.809,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Netherlands,528,Export,2023,846597802.095,452353.561,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malaysia,458,Export,2023,155022618.628,115462.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kazakhstan,398,Export,2023,4458551.282,7020.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Saudi Arabia,682,Export,2023,1269416141.551,467731.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Morocco,504,Export,2023,39266871.385,12078.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Estonia,233,Export,2023,15925601.362,11459.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mali,466,Export,2023,5426.711,3.379,3.379,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Costa Rica,188,Export,2023,13659.998,233.0,233.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Niger,562,Export,2023,4259.583,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uruguay,858,Export,2023,4391.335,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Colombia,170,Export,2023,41685533.764,18115.704,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ireland,372,Export,2023,932969952.556,590882.481,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kenya,404,Export,2023,23165288.479,6791.557,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Latvia,428,Export,2023,10898710.882,6176.268,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tunisia,788,Export,2023,3358732.509,11889.523,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Equatorial Guinea,226,Export,2023,2550575.203,16301.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,India,699,Export,2023,541102078.781,216093.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Panama,591,Export,2023,8157601.7,3605.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Curaçao,531,Export,2023,509906.971,430.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guam,316,Export,2023,778679.552,38.0,38.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bosnia Herzegovina,70,Export,2023,17623.759,25.0,25.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Chile,152,Export,2023,60715928.394,14533.516,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mauritius,480,Export,2023,542308.139,221.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mexico,484,Export,2023,128742030.241,195777.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bulgaria,100,Export,2023,24727764.8,19289.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Arab Emirates,784,Export,2023,1596111185.041,491999.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Zealand,554,Export,2023,223915507.637,46917.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Jordan,400,Export,2023,139822483.731,57036.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sweden,752,Export,2023,100172836.578,268637.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Libya,434,Export,2023,3687411.453,30471.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Georgia,268,Export,2023,1209365.992,633.578,633.578,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Montenegro,499,Export,2023,74876.428,5.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,El Salvador,222,Export,2023,18032.689,48.0,48.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Rep. of Tanzania,834,Export,2023,1983052.622,751.0,751.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tajikistan,762,Export,2023,3462.853,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Hungary,348,Export,2023,253658274.119,463030.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kyrgyzstan,417,Export,2023,9943499.16,9100.949,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Norway,579,Export,2023,124824464.601,109023.449,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovenia,705,Export,2023,17090463.602,17581.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Paraguay,600,Export,2023,1859.45,5.171,5.171,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ghana,288,Export,2023,371681.214,2289.748,2289.748,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Caledonia,540,Export,2023,36456.907,21.351,21.351,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cameroon,120,Export,2023,4991.679,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Turks and Caicos Isds,796,Export,2023,14418.196,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Macao SAR",446,Export,2023,8363.797,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Indonesia,360,Export,2023,52629254.277,55243.682,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Egypt,818,Export,2023,49458646.913,38568.014,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cyprus,196,Export,2023,20412647.226,5167.295,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guinea,324,Export,2023,283878.128,289.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Israel,376,Export,2023,425638880.47,135034.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Falkland Isds (Malvinas),238,Export,2023,914759.981,3723.0,3723.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Belize,84,Export,2023,5021.51,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Denmark,208,Export,2023,14074104.837,76124.339,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Japan,392,Export,2023,954112941.088,393656.215,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Côte d'Ivoire,384,Export,2023,535386.161,983.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Argentina,32,Export,2023,12781729.809,42095.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lithuania,440,Export,2023,8477828.598,9409.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uganda,800,Export,2023,814910.242,566.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Angola,24,Export,2023,12321289.681,14453.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bahrain,48,Export,2023,41672321.227,19997.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Holy See (Vatican City State),336,Export,2023,4725.688,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Dominican Rep.,214,Export,2023,3996.078,38.0,38.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Portugal,620,Export,2023,165325549.75,72385.622,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malta,470,Export,2023,18325185.732,12779.574,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Algeria,12,Export,2023,30718029.441,33678.372,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Singapore,702,Export,2023,3498377004.967,1023513.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Poland,616,Export,2023,273955747.302,212858.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sri Lanka,144,Export,2023,31928691.828,17835.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Peru,604,Export,2023,4302873.293,15671.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Gabon,266,Export,2023,2085409.387,7482.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Albania,8,Export,2023,30290.642,150.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ethiopia,231,Export,2023,98363666.161,26131.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,USA,842,Export,2024,5318773026.223,2808389.27,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guatemala,320,Export,2024,3347.044,17.0,17.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,French Polynesia,258,Export,2024,1469.96,5.0,5.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Faroe Isds,234,Export,2024,5916.619,8.0,8.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Türkiye,792,Export,2024,527749683.814,591365.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Germany,276,Export,2024,3507857260.741,1662572.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Estonia,233,Export,2024,3727635.164,12023.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Arab Emirates,784,Export,2024,1536362879.483,639570.487,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bahrain,48,Export,2024,145445578.519,48327.655,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Romania,642,Export,2024,4901777.84,28183.821,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,France,251,Export,2024,2364875268.31,3108404.276,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Morocco,504,Export,2024,233991178.234,103607.249,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Spain,724,Export,2024,932182928.972,597300.824,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sweden,752,Export,2024,134103468.401,275335.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,China,156,Export,2024,986539124.124,339406.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Albania,8,Export,2024,5267989.319,5985.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iceland,352,Export,2024,6409427.611,13915.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Argentina,32,Export,2024,41248619.045,162492.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mexico,484,Export,2024,202786679.673,186007.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cayman Isds,136,Export,2024,13431.297,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Dem. Rep. of the Congo,180,Export,2024,5683.252,15.0,15.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nepal,524,Export,2024,26399.664,64.0,64.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Falkland Isds (Malvinas),238,Export,2024,189239.238,139.0,139.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,South Africa,710,Export,2024,45009656.157,26262.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Finland,246,Export,2024,51356135.503,35351.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iraq,368,Export,2024,50101075.287,15247.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Israel,376,Export,2024,181449959.699,66930.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malaysia,458,Export,2024,442734531.589,209740.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guinea,324,Export,2024,6132.23,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Zimbabwe,716,Export,2024,4274.171,70.0,70.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Rep. of Tanzania,834,Export,2024,1377101.115,1931.0,1931.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Senegal,686,Export,2024,23932.821,11.0,11.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lao People's Dem. Rep.,418,Export,2024,6723.258,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lebanon,422,Export,2024,211366.0,25.0,25.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lesotho,426,Export,2024,3548.703,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mali,466,Export,2024,1677.961,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bermuda,60,Export,2024,18229.276,46.388,46.388,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"Other Asia, nes",490,Export,2024,208966451.13,66219.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Korea,410,Export,2024,748310858.714,232648.419,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Serbia,688,Export,2024,2289958.772,8081.801,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Libya,434,Export,2024,3942705.868,9450.592,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guyana,328,Export,2024,10443276.054,5859.554,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Hong Kong SAR",344,Export,2024,5060945129.885,537940.465,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uganda,800,Export,2024,2842477.179,693.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mauritius,480,Export,2024,1113637.156,178.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Qatar,634,Export,2024,989081050.984,332422.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Croatia,191,Export,2024,2404528.116,2316.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Panama,591,Export,2024,50634.341,158.0,158.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Zambia,894,Export,2024,221377.96,503.042,503.042,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Italy,380,Export,2024,588025858.193,587184.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Peru,604,Export,2024,1723902.531,6215.676,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kyrgyzstan,417,Export,2024,9929779.433,10191.764,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Singapore,702,Export,2024,3933596473.402,1207516.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Gibraltar,292,Export,2024,8062.583,34.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Viet Nam,704,Export,2024,107858005.083,48251.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Pakistan,586,Export,2024,12924013.781,11123.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Azerbaijan,31,Export,2024,51961345.434,95394.889,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bangladesh,50,Export,2024,134395256.036,35750.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Belgium,56,Export,2024,494362177.146,214309.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Czechia,203,Export,2024,47391252.141,62018.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Latvia,428,Export,2024,1544403.837,430.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cook Isds,184,Export,2024,575954.054,350.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Armenia,51,Export,2024,2743.333,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bosnia Herzegovina,70,Export,2024,1147.812,8.0,8.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cabo Verde,132,Export,2024,8954.198,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Seychelles,690,Export,2024,1214610.324,1375.0,1375.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Hungary,348,Export,2024,241797106.878,488977.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Luxembourg,442,Export,2024,303362558.939,134480.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brunei Darussalam,96,Export,2024,1314273.338,881.002,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nigeria,566,Export,2024,37480900.527,72035.432,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uzbekistan,860,Export,2024,3873102.833,3311.0,3311.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Saudi Arabia,682,Export,2024,832411961.081,255403.543,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Namibia,516,Export,2024,558676.004,271.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kazakhstan,398,Export,2024,18875464.604,18629.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kuwait,414,Export,2024,74188063.225,27846.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Zealand,554,Export,2024,394734263.349,89580.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Burkina Faso,854,Export,2024,337672.192,406.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Chile,152,Export,2024,96322018.823,,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malta,470,Export,2024,50842377.612,22594.8,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Norway,579,Export,2024,264779583.078,121718.141,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brazil,76,Export,2024,535247341.996,283091.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Japan,392,Export,2024,1221861419.989,427125.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Gabon,266,Export,2024,423232.978,697.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ghana,288,Export,2024,4142466.923,15698.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovenia,705,Export,2024,191755.545,619.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Jordan,400,Export,2024,204882000.053,76983.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tunisia,788,Export,2024,13962320.259,7782.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ireland,372,Export,2024,736211435.252,529024.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Indonesia,360,Export,2024,139236334.306,82452.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rwanda,646,Export,2024,23619.551,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Macao SAR",446,Export,2024,59582.197,8.0,8.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cyprus,196,Export,2024,111470.887,148.0,148.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mauritania,478,Export,2024,2986.847,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sri Lanka,144,Export,2024,1515411.767,1189.0,1189.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,El Salvador,222,Export,2024,25209.999,16.0,16.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Turkmenistan,795,Export,2024,94085.031,15.0,15.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ukraine,804,Export,2024,199050.807,25.0,25.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Madagascar,450,Export,2024,2704.016,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malawi,454,Export,2024,11584.652,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Congo,178,Export,2024,14375607.228,5474.0,2.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Australia,36,Export,2024,128964389.094,89546.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lithuania,440,Export,2024,9642911.534,22670.852,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Algeria,12,Export,2024,23679935.931,24325.5,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kenya,404,Export,2024,73402181.423,21061.905,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Denmark,208,Export,2024,36151275.686,133133.242,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Maldives,462,Export,2024,922679.372,485.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,India,699,Export,2024,759505480.761,285496.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Canada,124,Export,2024,1005391589.376,553604.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Dominican Rep.,214,Export,2024,43415.177,83.588,83.588,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bolivia (Plurinational State of),68,Export,2024,890475.967,979.773,979.773,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bulgaria,100,Export,2024,48219694.286,26329.606,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Thailand,764,Export,2024,287221560.55,188829.639,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Philippines,608,Export,2024,14301608.265,7122.648,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Netherlands,528,Export,2024,1402439929.49,897351.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Austria,40,Export,2024,6712021.162,10702.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ethiopia,231,Export,2024,342030599.681,88037.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Colombia,170,Export,2024,39240755.558,13669.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Greece,300,Export,2024,24415170.71,12646.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Angola,24,Export,2024,38497533.027,35573.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Oman,512,Export,2024,175252496.725,64837.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Georgia,268,Export,2024,491858.155,862.0,862.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Moldova,498,Export,2024,4401.001,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Costa Rica,188,Export,2024,99168.377,93.0,93.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovakia,703,Export,2024,442488.309,20619.0,20619.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Jamaica,388,Export,2024,142994.484,822.0,822.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Papua New Guinea,598,Export,2024,68209.174,18.361,18.361,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Switzerland,757,Export,2024,284108169.418,313319.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Portugal,620,Export,2024,119018233.371,46159.115,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Egypt,818,Export,2024,134079200.749,89430.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Poland,616,Export,2024,500338510.747,345701.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Côte d'Ivoire,384,Export,2024,526104.791,496.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Equatorial Guinea,226,Export,2024,2759691.433,6824.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Liberia,430,Export,2024,10334491.427,20513.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Rep. of Tanzania,834,Import,2022,15040.607,302.0,302.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Switzerland,757,Import,2022,140909103.42,373654.993,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Spain,724,Import,2022,318699903.084,805603.621,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sweden,752,Import,2022,48826725.175,94145.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Poland,616,Import,2022,36522030.296,108815.251,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Qatar,634,Import,2022,193855.492,420.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Russian Federation,643,Import,2022,17934929.636,3867.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Saudi Arabia,682,Import,2022,11652023.355,7178.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Kingdom,826,Import,2022,3104272156.776,3082380.776,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Papua New Guinea,598,Import,2022,1174191.543,38.0,38.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Venezuela,862,Import,2022,3328.929,153.0,153.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Wallis and Futuna Isds,876,Import,2022,9395.954,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Philippines,608,Import,2022,154854.409,106.0,106.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovenia,705,Import,2022,44028.048,257.0,257.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sudan,729,Import,2022,1573.52,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Finland,246,Import,2022,490913.891,725.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Japan,392,Import,2022,559122927.823,603327.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nigeria,566,Import,2022,317210.199,2509.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cyprus,196,Import,2022,65378.605,107.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malta,470,Import,2022,175244.252,11.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Egypt,818,Import,2022,2892272.97,21370.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Latvia,428,Import,2022,7221775.374,5700.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lithuania,440,Import,2022,4900007.852,2375.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Luxembourg,442,Import,2022,2755529.303,63486.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malaysia,458,Import,2022,141084483.173,192804.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"Other Asia, nes",490,Import,2022,48599217.835,39757.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Hong Kong SAR",344,Import,2022,1132708.716,143.383,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Germany,276,Import,2022,599905231.738,2502135.668,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Denmark,208,Import,2022,4294018.241,18759.641,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Norway,579,Import,2022,16815220.467,16886.918,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Czechia,203,Import,2022,74425141.356,1415920.554,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mexico,484,Import,2022,92098889.831,125776.441,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Serbia,688,Import,2022,193280.529,1057.076,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,India,699,Import,2022,158525596.023,686282.387,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,USA,842,Import,2022,13223953743.613,8280211.581,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iceland,352,Import,2022,1542246.343,1010.206,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Indonesia,360,Import,2022,15615579.158,25554.398,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nepal,524,Import,2022,1929.973,59.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lebanon,422,Import,2022,161602.601,20.026,20.026,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Pakistan,586,Import,2022,438219.885,585.0,585.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Zealand,554,Import,2022,23412.369,2406.0,2406.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Estonia,233,Import,2022,203681.144,21.0,21.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ukraine,804,Import,2022,33939.94,23.0,23.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iran,364,Import,2022,101902.829,9.0,9.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Oman,512,Import,2022,95041.109,30.0,30.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guatemala,320,Import,2022,11626.227,25.0,25.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ethiopia,231,Import,2022,78657.7,28.0,28.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Faroe Isds,234,Import,2022,2771.056,8.0,8.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Côte d'Ivoire,384,Import,2022,11971.693,165.0,165.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lesotho,426,Import,2022,134204.55,20.0,20.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mongolia,496,Import,2022,3481.52,7.0,7.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Seychelles,690,Import,2022,1626.012,30.0,30.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United States Minor Outlying Islands,581,Import,2022,10287.087,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Algeria,12,Import,2022,3014596.161,4663.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Antigua and Barbuda,28,Import,2022,11077501.707,13713.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Argentina,32,Import,2022,550033.816,22068.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Colombia,170,Import,2022,311025.984,6226.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brazil,76,Import,2022,70853685.06,69405.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bulgaria,100,Import,2022,96440.065,957.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Jordan,400,Import,2022,4320495.862,33451.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ghana,288,Import,2022,1220.729,73.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Greece,300,Import,2022,3912908.961,5779.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Croatia,191,Import,2022,1942721.274,49650.705,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tunisia,788,Import,2022,1787007.472,1819.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Australia,36,Import,2022,1433282.815,31629.493,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Canada,124,Import,2022,420682747.193,344390.181,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Singapore,702,Import,2022,365328709.84,205838.513,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kenya,404,Import,2022,331320.611,384.502,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Korea,410,Import,2022,53240728.91,102829.719,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Belgium,56,Import,2022,34108123.339,49950.114,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Arab Emirates,784,Import,2022,5276019.366,81425.228,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Türkiye,792,Import,2022,75421494.597,26264.868,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,France,251,Import,2022,1282850856.255,1244242.764,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,China,156,Import,2022,156029793.992,1949370.327,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bangladesh,50,Import,2022,752695.651,611.0,2.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brunei Darussalam,96,Import,2022,595305.787,440.0,2.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bahrain,48,Import,2022,150972.489,110.623,110.623,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kazakhstan,398,Import,2022,25292.293,12.139,12.139,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cayman Isds,136,Import,2022,294460.686,166.0,166.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Congo,178,Import,2022,81964.656,76.0,76.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Dem. Rep. of the Congo,180,Import,2022,8126.396,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Gabon,266,Import,2022,78857.899,370.0,370.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Armenia,51,Import,2022,1484.407,14.0,14.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Barbados,52,Import,2022,1624.791,17.0,17.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bermuda,60,Import,2022,3667.071,10.0,10.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kuwait,414,Import,2022,52791.664,182.0,182.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Georgia,268,Import,2022,100198.691,8.0,8.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bosnia Herzegovina,70,Import,2022,1286.649,48.0,48.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovakia,703,Import,2022,2793016.683,65907.0,65907.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Chile,152,Import,2022,3620.683,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Israel,376,Import,2022,32556660.489,52383.183,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Austria,40,Import,2022,6438529.749,15889.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Italy,380,Import,2022,311284145.262,889561.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mauritius,480,Import,2022,100997.048,2170.0,2170.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Hungary,348,Import,2022,19221475.893,91331.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Romania,642,Import,2022,6034619.685,44411.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Netherlands,528,Import,2022,18247100.664,61412.91,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,South Africa,710,Import,2022,515487.174,4904.471,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ireland,372,Import,2022,44203947.414,125340.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Morocco,504,Import,2022,2949993.94,8595.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Portugal,620,Import,2022,21150144.13,20879.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Viet Nam,704,Import,2022,20901629.257,30647.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Thailand,764,Import,2022,23185363.734,25057.258,25057.258,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Naoero,520,Import,2022,1750818.949,292.0,292.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sri Lanka,144,Import,2022,1358.672,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,North Macedonia,807,Import,2022,28572.393,29.0,29.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sweden,752,Import,2023,65569894.982,210088.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,India,699,Import,2023,91543076.237,542318.894,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Viet Nam,704,Import,2023,38470402.761,52782.392,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mauritius,480,Import,2023,4178.791,5.0,5.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Norway,579,Import,2023,4037072.601,3271.807,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Austria,40,Import,2023,11964052.765,217535.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ireland,372,Import,2023,20038246.442,91952.2,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Portugal,620,Import,2023,41876850.799,18663.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Greenland,304,Import,2023,26657.505,63.0,63.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Oman,512,Import,2023,11666809.218,4594.0,4594.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Angola,24,Import,2023,13463.612,38.0,38.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Greece,300,Import,2023,452937.694,306.0,306.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tonga,776,Import,2023,11090.825,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Macao SAR",446,Import,2023,3840.709,38.569,38.569,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Czechia,203,Import,2023,93439736.518,1646566.823,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Denmark,208,Import,2023,2212377.764,47066.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Finland,246,Import,2023,5762714.429,5719.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Indonesia,360,Import,2023,18632256.026,23591.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Côte d'Ivoire,384,Import,2023,26463.605,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Chile,152,Import,2023,1982.502,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Thailand,764,Import,2023,18383396.714,14321.831,14321.831,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mexico,484,Import,2023,124540166.357,115301.177,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bulgaria,100,Import,2023,244884.364,3524.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Hong Kong SAR",344,Import,2023,139573.112,6115.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Israel,376,Import,2023,90939550.425,69078.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cayman Isds,136,Import,2023,11645.179,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Georgia,268,Import,2023,101921.733,196.0,196.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Türkiye,792,Import,2023,170356105.684,99357.185,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Serbia,688,Import,2023,350655.507,4388.908,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,South Africa,710,Import,2023,18886146.791,11409.922,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Japan,392,Import,2023,710056518.265,636909.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,El Salvador,222,Import,2023,2792.904,4.0,4.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovenia,705,Import,2023,113745.897,150.0,150.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sao Tome and Principe,678,Import,2023,3379.576,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Korea,410,Import,2023,77278499.568,80623.483,80623.483,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kenya,404,Import,2023,631447.394,387.743,387.743,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tunisia,788,Import,2023,940866.86,1434.6,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Romania,642,Import,2023,4062960.721,39362.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Libya,434,Import,2023,2052.107,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Venezuela,862,Import,2023,2594.032,99.0,99.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Estonia,233,Import,2023,585824.99,292.0,292.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Zealand,554,Import,2023,13821.581,7.0,7.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Italy,380,Import,2023,347619436.007,479408.313,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lithuania,440,Import,2023,1235200.665,4785.0,2.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bahrain,48,Import,2023,27532.54,419.0,419.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Dem. Rep. of the Congo,180,Import,2023,56088.027,75.0,75.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cyprus,196,Import,2023,43337.867,83.489,83.489,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Hungary,348,Import,2023,13654453.29,40817.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Netherlands,528,Import,2023,30675007.284,128606.547,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,France,251,Import,2023,2130466712.579,10375905.604,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Belgium,56,Import,2023,32678189.448,16987.641,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Pakistan,586,Import,2023,11110296.67,13370.164,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Egypt,818,Import,2023,1818302.356,16349.888,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malaysia,458,Import,2023,163705334.767,280144.245,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kazakhstan,398,Import,2023,7521.078,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cambodia,116,Import,2023,4825.124,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malawi,454,Import,2023,23719.176,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iceland,352,Import,2023,361410.735,339.776,339.776,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,USA,842,Import,2023,14581141548.428,9304818.634,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Latvia,428,Import,2023,36095.209,421.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Philippines,608,Import,2023,14742.606,1523.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Jordan,400,Import,2023,67244.728,474.0,474.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Niger,562,Import,2023,50921.092,71.0,71.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Namibia,516,Import,2023,131180.728,22.0,22.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Morocco,504,Import,2023,2340237.334,7015.325,7015.325,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Spain,724,Import,2023,488947329.832,933325.763,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Australia,36,Import,2023,3614474.023,36574.161,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Poland,616,Import,2023,67779051.025,38743.161,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Switzerland,757,Import,2023,80553942.134,189480.886,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Canada,124,Import,2023,392345423.081,293761.136,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Saudi Arabia,682,Import,2023,1167851.53,1523.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mali,466,Import,2023,10505.396,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovakia,703,Import,2023,1166315.246,67558.0,67558.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Seychelles,690,Import,2023,62597.345,10.0,10.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malta,470,Import,2023,1413.232,2.723,2.723,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lebanon,422,Import,2023,42623.171,20.019,20.019,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,China,156,Import,2023,184711300.716,2801705.87,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Singapore,702,Import,2023,207350787.406,111431.026,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nigeria,566,Import,2023,29155.83,531.695,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Luxembourg,442,Import,2023,101880383.57,85900.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brazil,76,Import,2023,129036147.774,138825.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Grenada,308,Import,2023,41335.477,442.0,442.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uganda,800,Import,2023,11938.515,61.0,61.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Colombia,170,Import,2023,109150.718,232.051,232.051,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Russian Federation,643,Import,2023,26214668.642,,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Arab Emirates,784,Import,2023,14552742.967,79709.875,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"Other Asia, nes",490,Import,2023,72015902.651,23272.982,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Croatia,191,Import,2023,8831024.69,23959.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Qatar,634,Import,2023,139666.333,220.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Azerbaijan,31,Import,2023,77809.785,28.0,28.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Rep. of Tanzania,834,Import,2023,10356.242,22.0,22.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ghana,288,Import,2023,74235.067,49.0,49.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iran,364,Import,2023,52694.779,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Kingdom,826,Import,2023,4136127168.502,3450589.046,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Germany,276,Import,2023,779613591.431,3321812.107,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Serbia,688,Import,2024,89661.2,304.0,304.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Jordan,400,Import,2024,1344283.853,300.0,300.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Zambia,894,Import,2024,2115.524,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Venezuela,862,Import,2024,162937.233,23.0,23.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Japan,392,Import,2024,903488557.184,787560.489,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,India,699,Import,2024,72927611.465,506906.715,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,USA,842,Import,2024,14799267739.215,9112020.801,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Thailand,764,Import,2024,37970497.303,32920.628,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Netherlands,528,Import,2024,22876958.713,77891.329,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Arab Emirates,784,Import,2024,4853867.808,21045.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ghana,288,Import,2024,421005.844,10400.0,2.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lebanon,422,Import,2024,13011.49,10.714,10.714,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Morocco,504,Import,2024,5091088.103,9513.588,9513.588,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Zealand,554,Import,2024,16660.389,18.0,18.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Costa Rica,188,Import,2024,11640.457,5.0,5.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,New Caledonia,540,Import,2024,7480.433,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United States Minor Outlying Islands,581,Import,2024,209790.771,45.0,45.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Argentina,32,Import,2024,29593.244,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Montenegro,499,Import,2024,26674.886,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nepal,524,Import,2024,7434.775,7.0,7.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brunei Darussalam,96,Import,2024,95612.064,9.0,9.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Greece,300,Import,2024,58576.436,332.771,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Australia,36,Import,2024,9742497.182,38607.905,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Eswatini,748,Import,2024,232466.707,13.0,13.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Honduras,340,Import,2024,3737.68,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kenya,404,Import,2024,41468.337,289.594,289.594,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Egypt,818,Import,2024,4975660.12,4500.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Latvia,428,Import,2024,2504146.74,1450.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Philippines,608,Import,2024,753465.323,1695.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Algeria,12,Import,2024,15616505.607,19397.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Poland,616,Import,2024,69233529.178,55976.699,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Norway,579,Import,2024,27795128.063,40495.851,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Czechia,203,Import,2024,117952974.25,1972972.999,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Finland,246,Import,2024,10224971.185,7961.105,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Croatia,191,Import,2024,4397842.933,70699.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovakia,703,Import,2024,1740654.237,59139.352,59139.352,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cyprus,196,Import,2024,43096.834,35.488,35.488,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Nigeria,566,Import,2024,157586.275,232.398,232.398,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bosnia Herzegovina,70,Import,2024,1591.716,59.0,59.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Cameroon,120,Import,2024,347199.662,459.0,459.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Denmark,208,Import,2024,2019360.626,51550.412,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Hungary,348,Import,2024,52577858.454,83396.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iceland,352,Import,2024,5035232.171,5307.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Chile,152,Import,2024,1148378.43,5600.0,1.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bahrain,48,Import,2024,124407.547,92.813,92.813,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uzbekistan,860,Import,2024,3084.506,5.0,5.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"China, Hong Kong SAR",344,Import,2024,23561.209,61.0,61.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Israel,376,Import,2024,34244332.099,40209.302,40209.302,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Viet Nam,704,Import,2024,135511628.915,70735.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Bulgaria,100,Import,2024,5231643.646,4821.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,United Kingdom,826,Import,2024,4644089481.06,3720462.459,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Romania,642,Import,2024,10088978.986,86277.925,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Brazil,76,Import,2024,24063476.193,25888.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ukraine,804,Import,2024,10260610.415,9439.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Spain,724,Import,2024,543691214.125,880324.552,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Austria,40,Import,2024,12119707.384,24744.565,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Canada,124,Import,2024,546477319.175,398284.338,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Italy,380,Import,2024,380665977.893,692287.307,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Lithuania,440,Import,2024,4095387.627,4832.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Iraq,368,Import,2024,4987793.946,4090.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Luxembourg,442,Import,2024,14356972.096,6271.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,El Salvador,222,Import,2024,7849.509,159.0,8.0,u
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Rep. of Korea,410,Import,2024,62070806.196,66984.0,66984.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,French Polynesia,258,Import,2024,5109.981,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Russian Federation,643,Import,2024,20330594.072,2674.0,2674.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Tunisia,788,Import,2024,955245.511,1077.0,1077.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Uruguay,858,Import,2024,85198.053,11.0,11.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ethiopia,231,Import,2024,11320.846,18.0,18.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Indonesia,360,Import,2024,1479501.121,2785.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,South Africa,710,Import,2024,193910.387,337.216,337.216,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Pakistan,586,Import,2024,6834890.261,349.0,349.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Seychelles,690,Import,2024,15045.843,41.0,41.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Slovenia,705,Import,2024,86375.035,2009842.0,2009842.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Saudi Arabia,682,Import,2024,5678432.76,4708.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Malaysia,458,Import,2024,133564330.559,229279.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Angola,24,Import,2024,27123360.285,20911.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Türkiye,792,Import,2024,245813569.464,54340.108,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,France,251,Import,2024,1849622999.231,1612596.743,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mexico,484,Import,2024,144722875.813,127242.499,127242.499,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mongolia,496,Import,2024,118319.707,72.0,72.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Br. Virgin Isds,92,Import,2024,9881.325,6.0,6.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Peru,604,Import,2024,4212.024,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Mauritius,480,Import,2024,11719.092,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Estonia,233,Import,2024,456594.341,4048.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,"Other Asia, nes",490,Import,2024,106571531.613,16344.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Germany,276,Import,2024,880659830.652,2881755.573,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Singapore,702,Import,2024,90345307.269,34557.565,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Ireland,372,Import,2024,75051857.965,,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Afghanistan,4,Import,2024,1575.229,12.0,12.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kuwait,414,Import,2024,1596.79,126.0,126.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Belgium,56,Import,2024,36856345.217,17410.833,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Portugal,620,Import,2024,12088376.57,17139.616,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Sweden,752,Import,2024,79469420.426,62140.868,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,China,156,Import,2024,287528680.663,2530922.688,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Switzerland,757,Import,2024,51597845.581,122361.447,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Guatemala,320,Import,2024,8673.904,7.141,7.141,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Solomon Isds,90,Import,2024,42970.004,29.0,29.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Dem. Rep. of the Congo,180,Import,2024,7848.24,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Kyrgyzstan,417,Import,2024,1842.84,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",United Kingdom,826,Qatar,634,Import,2024,45420.36,14.0,14.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Belgium,56,Export,2022,193218.883,2861.0,2861.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Pakistan,586,Export,2022,5692.94,90.622,90.622,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Qatar,634,Export,2022,13019.71,38.7,38.7,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Cambodia,116,Export,2022,2736.0,1500.0,1500.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Poland,616,Export,2022,2952.55,12.5,12.5,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Chile,152,Export,2022,548781.52,1106.0,1106.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Serbia,688,Export,2022,57245.0,209.0,209.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Netherlands,528,Export,2022,968481.87,624.364,624.364,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Arab Emirates,784,Export,2022,15000.0,714.0,714.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Germany,276,Export,2022,538728.923,47392.1,47392.1,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,"China, Hong Kong SAR",344,Export,2022,21522.95,157.0,157.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,India,699,Export,2022,80.0,400.0,400.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Australia,36,Export,2022,2140647.041,12699.936,12699.936,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Viet Nam,704,Export,2022,720.0,49.0,49.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Japan,392,Export,2022,702983.006,32750.0,32750.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Brazil,76,Export,2022,300.0,10.0,10.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Thailand,764,Export,2022,549923.32,9535.0,0.07,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,New Zealand,554,Export,2022,20000.0,10000.0,0.003,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Switzerland,757,Export,2022,30000.0,15000.0,0.004,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Czechia,203,Export,2022,1782502.0,7845.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Canada,124,Export,2022,958434.55,4147.6,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Kingdom,826,Export,2022,18458184.15,29841.5,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Singapore,702,Export,2022,24577983.736,136520.8,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Rep. of Korea,410,Export,2022,66063.62,5149.5,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,China,156,Export,2022,39317.731,10231.3,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,USA,842,Export,2022,26509650.682,114586.59,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,France,251,Export,2022,373535.448,430.8,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Malaysia,458,Export,2022,3956620.886,33051.8,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Iran,364,Export,2022,2040.0,73.645,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Türkiye,792,Export,2023,3401.36,300.9,0.012,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Switzerland,757,Export,2023,200000.0,4529.0,0.026,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,New Zealand,554,Export,2023,50000.0,4800.0,0.006,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Serbia,688,Export,2023,4980.0,410.0,410.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Cameroon,120,Export,2023,3150.0,1.5,1.5,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Argentina,32,Export,2023,2388699.83,2933.65,2933.65,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Denmark,208,Export,2023,1000.0,300.0,300.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Egypt,818,Export,2023,124364.87,4100.0,4100.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Pakistan,586,Export,2023,3774814.02,3000.0,3000.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Belgium,56,Export,2023,431162.33,13370.0,13370.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Mexico,484,Export,2023,444405.18,5171.0,5171.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Papua New Guinea,598,Export,2023,40688.64,32.0,32.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Spain,724,Export,2023,90.0,10.4,10.4,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Saudi Arabia,682,Export,2023,10000.0,100.0,100.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Netherlands,528,Export,2023,149337.0,959.3,959.3,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,France,251,Export,2023,3072.828,18.5,18.5,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,"China, Hong Kong SAR",344,Export,2023,10585.2,18.0,18.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,India,699,Export,2023,286.03,954.6,954.6,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Philippines,608,Export,2023,100.0,13.0,13.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Rep. of Korea,410,Export,2023,1848998.79,2331.9,2331.9,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Thailand,764,Export,2023,2688127.032,2668.97,2668.97,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Japan,392,Export,2023,2104784.187,54127.1,54127.1,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,USA,842,Export,2023,50941934.551,126249.659,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,China,156,Export,2023,219530.144,20186.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Canada,124,Export,2023,7562395.3,12932.55,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Malaysia,458,Export,2023,1346186.33,5309.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Viet Nam,704,Export,2023,91113.16,9193.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Kingdom,826,Export,2023,1919183.08,13200.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Arab Emirates,784,Export,2023,256340.138,4313.938,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Australia,36,Export,2023,2643694.14,10127.66,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Singapore,702,Export,2023,1421263.837,60039.775,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Dem. Rep. of the Congo,180,Export,2023,3450.0,3467.5,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Czechia,203,Export,2023,4331174.96,21065.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Ireland,372,Export,2023,4000.0,1070.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Denmark,208,Export,2024,1500.0,210.0,0.004,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Viet Nam,704,Export,2024,300000.0,440.0,0.771,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Ireland,372,Export,2024,5225000.0,5941.0,1.218,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,San Marino,674,Export,2024,1064678.7,56.7,2.735,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Pakistan,586,Export,2024,35000.0,380.0,0.09,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,India,699,Export,2024,427024.54,3655.0,3655.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Uzbekistan,860,Export,2024,2656.1,0.12,0.12,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Trinidad and Tobago,780,Export,2024,10448247.02,22448.98,22448.98,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Jamaica,388,Export,2024,43964.84,4161.82,4161.82,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Côte d'Ivoire,384,Export,2024,708545.55,14560.8,14560.8,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Morocco,504,Export,2024,848494.84,1429.2,1429.2,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Jordan,400,Export,2024,1070.76,2767.75,2767.75,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Argentina,32,Export,2024,27982.95,20.7,20.7,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Greece,300,Export,2024,322442.52,1199.0,1199.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Chile,152,Export,2024,1073766.33,15340.0,15340.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Switzerland,757,Export,2024,18227.05,77.0,77.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Poland,616,Export,2024,1026.8,66.412,66.412,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Bangladesh,50,Export,2024,1595335.0,13123.0,13123.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Mexico,484,Export,2024,320743.36,3822.75,3822.75,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Belgium,56,Export,2024,156536.0,3598.498,3598.498,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Papua New Guinea,598,Export,2024,82.96,713.82,713.82,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Spain,724,Export,2024,45666.0,396.0,396.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Saudi Arabia,682,Export,2024,1062220.88,6189.53,6189.53,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,New Zealand,554,Export,2024,100.0,48.4,48.4,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Italy,380,Export,2024,880104.212,7353.0,7353.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Netherlands,528,Export,2024,3507676.2,10084.1,10084.1,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,France,251,Export,2024,92671.098,87.3,87.3,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Germany,276,Export,2024,548450.839,8751.2,8751.2,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,"Other Asia, nes",490,Export,2024,2512454.08,5223.6,5223.6,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Rep. of Korea,410,Export,2024,80.0,42.0,42.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Thailand,764,Export,2024,10937984.09,8837.18,8837.18,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Malaysia,458,Export,2024,8287192.38,7403.36,7403.36,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Australia,36,Export,2024,12662738.001,383222.13,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,USA,842,Export,2024,65048618.75,153197.476,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Japan,392,Export,2024,785424.25,5352.69,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Canada,124,Export,2024,24082685.071,32351.954,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Kingdom,826,Export,2024,7506901.596,18021.22,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Czechia,203,Export,2024,2634101.83,19492.77,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Singapore,702,Export,2024,9824593.484,34426.561,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,China,156,Export,2024,1778931.84,22154.08,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Arab Emirates,784,Export,2024,38240.02,9115.43,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Serbia,688,Export,2024,56.1,,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Sweden,752,Export,2024,705604.228,,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Philippines,608,Import,2022,1869.0,116.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,USA,842,Import,2022,214614383.0,539614.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Türkiye,792,Import,2022,8032810.0,1432839.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Singapore,702,Import,2022,8220231.0,44911.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Kingdom,826,Import,2022,9166553.0,54450.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Japan,392,Import,2022,40903007.0,1372314.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Rep. of Korea,410,Import,2022,13221011.0,6710.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Canada,124,Import,2022,13132502.0,19977.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Malaysia,458,Import,2022,3959914.0,18460.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,China,156,Import,2022,1721206.0,104725.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Austria,40,Import,2022,2122839.0,41353.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Thailand,764,Import,2022,39516.0,846.0,846.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Italy,380,Import,2022,5588479.0,28453.0,28453.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Australia,36,Import,2022,6412833.0,20824.0,20824.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,"China, Hong Kong SAR",344,Import,2022,2238.0,84.0,84.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,France,251,Import,2022,27185174.0,18607.0,18607.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Netherlands,528,Import,2022,833965.0,1513.0,1513.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Spain,724,Import,2022,101281.0,555.0,555.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Belgium,56,Import,2022,19385.0,7830.0,7830.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Switzerland,757,Import,2022,1903776.0,6731.0,6731.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Sweden,752,Import,2022,3489254.0,2878.0,2878.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Poland,616,Import,2022,17769.0,292.0,292.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Arab Emirates,784,Import,2022,24453.0,1687.0,1687.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Brazil,76,Import,2022,22897.0,357.0,357.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Mexico,484,Import,2022,967687.0,6033.0,6033.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Czechia,203,Import,2022,37665.0,275.0,275.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Finland,246,Import,2022,48239.0,127.0,127.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Indonesia,360,Import,2022,674804.0,1682.0,1682.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Hungary,348,Import,2022,13790098.0,31516.0,31516.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Portugal,620,Import,2022,169885.0,295.0,295.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Romania,642,Import,2022,11213.0,347.0,347.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Ireland,372,Import,2022,951.0,62.0,62.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Slovenia,705,Import,2022,51779.0,1433.0,1433.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Ukraine,804,Import,2022,2464.0,124.0,124.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Chile,152,Import,2022,1774548.0,14807.0,14807.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Serbia,688,Import,2022,26250.0,124.0,124.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Jamaica,388,Import,2022,67667.0,1244.0,1244.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Tunisia,788,Import,2022,1880.0,76.0,76.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Iran,364,Import,2022,9633.0,419.0,419.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Denmark,208,Import,2022,100116.0,18.0,18.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,"Other Asia, nes",490,Import,2022,84429.0,386.0,386.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Saudi Arabia,682,Import,2022,1130.0,19.0,19.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Germany,276,Import,2022,5896763.0,16249.0,16249.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,India,699,Import,2022,265574.0,2234.0,2234.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Belarus,112,Import,2022,608.0,13.0,13.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,South Africa,710,Import,2022,295.0,10.0,10.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Croatia,191,Import,2022,88.0,10.0,10.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Viet Nam,704,Import,2022,1031.0,8.0,8.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Dominican Rep.,214,Import,2022,986.0,5.0,5.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Albania,8,Import,2022,79.0,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,New Zealand,554,Import,2022,262.0,3.0,3.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Israel,376,Import,2022,1733.0,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Qatar,634,Import,2022,1533.0,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Slovakia,703,Import,2022,41.0,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Brunei Darussalam,96,Import,2022,4.0,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Luxembourg,442,Import,2022,1187.0,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Kingdom,826,Import,2023,24227688.0,66276.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Singapore,702,Import,2023,2368226.0,42308.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Japan,392,Import,2023,32415877.0,746019.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Canada,124,Import,2023,33104409.0,25720.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Sweden,752,Import,2023,46912628.0,718903.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Türkiye,792,Import,2023,80802233.0,9736613.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,USA,842,Import,2023,252333782.0,465442.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Arab Emirates,784,Import,2023,2888265.0,3756.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Czechia,203,Import,2023,3464596.0,18932.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,France,251,Import,2023,9623174.0,20342.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Malaysia,458,Import,2023,4038217.0,7351.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Viet Nam,704,Import,2023,1085099.0,706236.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Germany,276,Import,2023,16631843.0,384273.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Italy,380,Import,2023,85392811.0,1630827.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,China,156,Import,2023,2039190.0,124641.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Rep. of Korea,410,Import,2023,735857.0,19882.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Austria,40,Import,2023,2430557.0,62312.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Slovenia,705,Import,2023,1151268.0,27203.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Iran,364,Import,2023,2700.0,300.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Australia,36,Import,2023,7702704.0,29739.0,29739.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Netherlands,528,Import,2023,2042732.0,7841.0,7841.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Spain,724,Import,2023,504065.0,868.0,868.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Belgium,56,Import,2023,44760.0,4141.0,4141.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Switzerland,757,Import,2023,12726077.0,10284.0,10284.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Poland,616,Import,2023,1131541.0,23770.0,23770.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Brazil,76,Import,2023,645207.0,667.0,667.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Mexico,484,Import,2023,868150.0,3774.0,3774.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Indonesia,360,Import,2023,521233.0,3742.0,3742.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Finland,246,Import,2023,4027.0,36.0,36.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Hungary,348,Import,2023,7578451.0,61882.0,61882.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Norway,579,Import,2023,240313.0,55.0,55.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Romania,642,Import,2023,283771.0,2365.0,2365.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Sri Lanka,144,Import,2023,524400.0,1200.0,1200.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Bangladesh,50,Import,2023,3118.0,2296.0,2296.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Papua New Guinea,598,Import,2023,373768.0,298.0,298.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Thailand,764,Import,2023,531350.0,1108.0,1108.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,"Other Asia, nes",490,Import,2023,108096.0,624.0,624.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,India,699,Import,2023,782697.0,4252.0,4252.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Tunisia,788,Import,2023,1289.0,11.0,11.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Serbia,688,Import,2023,17.0,9.0,9.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Iceland,352,Import,2023,292.0,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Bulgaria,100,Import,2023,48.0,1.0,1.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Sweden,752,Import,2024,42829683.0,667352.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,France,251,Import,2024,32075899.0,34756.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Rep. of Korea,410,Import,2024,430300.0,16102.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Denmark,208,Import,2024,19639.0,140.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Japan,392,Import,2024,35542658.0,454479.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Kingdom,826,Import,2024,9396448.0,24942.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Viet Nam,704,Import,2024,1340291.0,1224413.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Canada,124,Import,2024,4075776.0,5920.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Poland,616,Import,2024,156922.0,14.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Malaysia,458,Import,2024,12033871.0,102341.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Thailand,764,Import,2024,2207485.0,323920.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Germany,276,Import,2024,31649381.0,692193.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Singapore,702,Import,2024,5931717.0,54071.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Australia,36,Import,2024,2612720.0,20361.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,USA,842,Import,2024,195968627.0,459913.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Italy,380,Import,2024,31102354.0,180227.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Türkiye,792,Import,2024,12981460.0,811716.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,India,699,Import,2024,1403111.0,84320.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Czechia,203,Import,2024,2423040.0,12102.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,China,156,Import,2024,38884786.0,8316439.557,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Romania,642,Import,2024,61962.0,6363.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Austria,40,Import,2024,868807.0,20863.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Finland,246,Import,2024,127264.0,4999.0,0.0,N/A
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Indonesia,360,Import,2024,916609.0,858.0,1.537,u
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Br. Virgin Isds,92,Import,2024,3902.0,19.0,19.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Brazil,76,Import,2024,4312.0,32.0,32.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Peru,604,Import,2024,2464133.0,1795.0,1795.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Iran,364,Import,2024,2848624.0,22084.0,22084.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Luxembourg,442,Import,2024,16938.0,461.0,461.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Oman,512,Import,2024,5000.0,55.0,55.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Slovenia,705,Import,2024,11877.0,66.0,66.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Hungary,348,Import,2024,5074318.0,37424.0,37424.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Mexico,484,Import,2024,1290100.0,4206.0,4206.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,United Arab Emirates,784,Import,2024,514286.0,1430.0,1430.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Switzerland,757,Import,2024,19622753.0,44424.0,44424.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Belgium,56,Import,2024,32172.0,1842.0,1842.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Spain,724,Import,2024,25495.0,601.0,601.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Netherlands,528,Import,2024,11834343.0,26886.0,26886.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,"China, Hong Kong SAR",344,Import,2024,10920.0,286.0,286.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,"Other Asia, nes",490,Import,2024,69579.0,359.0,359.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Philippines,608,Import,2024,6517.0,14.0,14.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Estonia,233,Import,2024,1030.0,10.0,10.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Sri Lanka,144,Import,2024,3121.0,4.0,4.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Serbia,688,Import,2024,212.0,2.0,2.0,kg
+8411,"Turbojets, turbines (aerospace demand indicator)",Indonesia,360,Cameroon,120,Import,2024,356.0,2.0,2.0,kg
