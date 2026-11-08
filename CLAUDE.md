@@ -1,14 +1,14 @@
 # Forging the Future: Market Intelligence and Growth Strategy for High-Performance Metals Through 2035
-TUM project study. Four person consulting team. Target grade 1.0. Audience: client board and alloy industry experts.
+TUM project study. Four person consulting team. Target grade 1.0. Audience: TUM examiners and alloy industry experts.
 
 ## Master text
 The team's Google Doc "my version munvest report" (id 1VUYfTdtTXdviMMfTqkBaUTKzgEWnJG8UhdZO_tIv9qE) is the master draft.
 It was imported into sections/*.md with tools/import_gdoc.py. Agents improve the sections within the table of contents below.
 
-## Client naming
-Follow the team's draft: the industry chapters say "the company", other chapters use the names exactly as the draft does.
-VDM Metals' portfolio is an application benchmark only, never proof of the company's own capabilities or customers.
-VDM and Haynes both belong to Acerinox, so never count them as separate competitors.
+## No client naming (user instruction, overrides the draft)
+This is pure metal market research. Never mention the client company, VDM Metals, Acerinox, Münvest or "the company"
+anywhere in the report body. Recommendations address "producers of high performance metals" in general.
+Haynes may appear only as the source of a public alloy datasheet.
 
 ## Central question (from the draft, chapter 2)
 How do the production, availability, trade and industrial uses of selected metals shape opportunities in high
@@ -29,51 +29,36 @@ If the team changes the table of contents in the Google Doc, update data/toc.jso
 - 1. Introduction
 - 2. Report Objective and Scope
 - 3. Introduction to the Analytical Framework and Methodology
-- 4. Metal Markets: Production & Form
+- 4. Metal Markets: Materials, Product Forms and Applications
   - 4.1 Nickel, 4.2 Cobalt, 4.3 Chromium, 4.4 Molybdenum, 4.5 Titanium, 4.6 Tungsten,
-    4.7 Other Selected Metals (current subsections: 4.7.1 Zirconium, 4.7.2 Copper, 4.7.3 Aluminium, 4.7.4 Manganese,
-    4.7.5 Additional Metals, which may change)
-- 5. Industry Needs
+    4.7 Other Selected Metals (subsections 4.7.1 Zirconium, 4.7.2 Copper, 4.7.3 Aluminium, 4.7.4 Manganese, may change)
+- 5. Industry Needs: Demand, Geography and Market Size
   - 5.1 Automotive, 5.2 Oil and Gas, 5.3 Energy and Environmental Technology, 5.4 Aerospace, 5.5 Chemical Processing,
     5.6 Electronics and Electrical Engineering, 5.7 Medical Technology
-  - The current subsections x.1 Historical and Current Market Overview and x.2 Key Applications and Opportunities for
-    the Company may be renamed or restructured, but keep the sectors comparable: each needs a numbered table with an
-    italic Sources line and closes with "What the company should do:"
-- 6. Global Market Dynamics and Trade
-- 7. Market Scenarios to 2035 (7.1 Market Model and Scenario Assumptions, 7.2 Results by Industry, Product, and Region)
+  - Subsections x.1 Demand, Geography and Market Size and x.2 Applications and Opportunities. Keep the sectors
+    comparable: each has a numbered table with an italic Sources line and closes with "Implications for suppliers:"
+- 6. Global Market Size and Trade
+- 7. Growth Scenarios to 2035 (7.1 Growth Model and Scenario Assumptions, 7.2 Results by Industry, Product, and Region)
 - 8. Strategic Recommendations (8.1 Priority Products, Industries, Regions, and Customers,
   8.2 Recommended Actions and Implementation Roadmap)
 - 9. Conclusion
 - References (generated automatically)
-- Appendices: Data, Sources, Calculations, and Assumptions (A1 Definitions and evidence, A2 Reproducible scenario
-  calculations, A3 Interpretation of existing sector estimates, A4 Information needed before investment).
-  The appendix sections may also be added, merged or renamed when the content requires it (update data/toc.json).
+- Appendices: Data, Sources, Calculations, and Assumptions (A1 to A8, see data/toc.json).
+  The appendix sections may be added, merged or renamed when the content requires it (update data/toc.json).
 
-## The team's analytical framework (chapter 3)
-The team built its own metal centred value chain framework with four dimensions:
-Supply (chapter 4: commercial forms, production stages, producer structure, availability, prices),
-Trade (chapter 6: product classifications, exporting and importing markets, sourcing dependence),
-Demand (chapter 5: industry drivers linked to components, materials, delivery forms and buyers) and
-Outlook (chapter 7: explicit scenarios to 2035). Chapter 8 integrates the four dimensions for the company.
-The sequence is metal first, industry second.
-
-Rules for chapter 3:
-- Explain the framework clearly, as the team designed it. Keep its four dimensions, their names, the chapter mapping
-  and the metal first sequence.
-- Refine only where necessary and only a little. Allowed refinements:
-  (1) one short paragraph or one simple table showing how the dimensions map onto the data chain below,
-  (2) naming the assessment criteria that chapter 8 uses to integrate the dimensions.
-  Nothing else: no new dimensions, no renaming, no new chapters.
-- Every refinement is listed in reviews/framework_changes.md with the reason, so the team can accept or reject it.
+## The team's analytical framework (chapter 3, user instruction)
+The framework is the seven-link metal value chain, metal first and industry second:
+Material (ch 4) > Product form (ch 4) > Application (ch 4) > Industry (ch 5) > Geography (ch 5) > Market size (ch 5 and 6)
+> Growth (ch 7). Chapter 8 assesses the opportunities on eight criteria (market attractiveness, growth to 2035, supply
+security, competitive intensity, technology attractiveness, customer attractiveness, entry barriers, differentiation).
+Chapter titles follow the chain. Do not add links or rename them. Changes are logged in reviews/framework_changes.md.
 
 ## Data chain (every figure in the report must map onto it)
 Material > Product form > Application > Industry > Geography > Market size > Growth
-Framework mapping: Supply covers Material and Product form, Demand covers Application and Industry,
-Trade covers Geography, Outlook covers Market size and Growth.
 model/model.py and the Excel file hold earlier team estimates (for example an addressable market of EUR 50.6bn).
 The team's methodology says no aggregate addressable market value is asserted where comparable data are unavailable,
 so model figures enter the report only if they meet that standard and are labelled as team estimates.
-Scoring criteria for Phase III: market attractiveness, growth to 2035, strategic fit, competitive intensity,
+Scoring criteria for Phase III: market attractiveness, growth to 2035, supply security, competitive intensity,
 technology attractiveness, customer attractiveness, entry barriers, differentiation potential (weights in model.py).
 
 ## Source rules
