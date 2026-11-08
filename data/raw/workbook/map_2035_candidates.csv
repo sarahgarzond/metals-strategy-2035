@@ -1,0 +1,26 @@
+material,product_form,industry,application,workbook_source
+Nickel alloys,AM powder (Ni superalloys),Energy,"Compact high-temperature sCO2 recuperators; tested Haynes 282 design",Experimental AM recuperator 2026
+Nickel alloys,Billet / bar / sheet,Energy,"Hydrogen-fuelled gas-turbine components: qualify superalloys against hydrogen damage",MPI Hydrogen turbines 2026
+Nickel alloys,Plate / tube / forging feedstock,Energy,"Gen-3 concentrating-solar receivers, piping and heat exchangers",DOE / OSTI Gen 3 CSP
+Nickel alloys,Plate / tube / forging feedstock,Energy,"Molten-salt-reactor containment and salt circuits (Hastelloy N / advanced Ni alloys)",DOE / INL MSR alloys
+Nickel alloys,Sheet / plate / tube feedstock,Energy,"Superhot-geothermal heat-transfer equipment",Karlsdottir et al. Geothermal
+Nickel alloys,Ultra-thin strip (C-276),Energy,"HTS fusion-magnet substrate tape",HTS substrate tape
+Nickel alloys,Wire / powder (Ni-rich multi-principal-element),Energy,"Hydrogen-service coatings / welded joints using new alloy designs",Fraunhofer IWM EWIG
+Nickel alloys,Billet / bar / sheet,Aerospace,"Hydrogen-combustion aircraft-engine components",MPI Hydrogen turbines 2026
+Nickel alloys,Wire / strip (Ni-Cr grades),Chemical,"Electrified process-heater elements for chemical plants",Electrical applications
+Nickel alloys,Wire / precision tube (NiTi),Medical,"Miniaturised robotic-surgery components (superelastic NiTi)",Alleima Minimally invasive
+Cobalt alloys,Sheet / plate (Co superalloys),Energy,"Future turbine combustor designs where Co alloys outperform Ni alloys and ceramics",Haynes High-temperature alloys
+Cobalt alloys,Fine wire / precision tube (Co-Ni-Cr-Mo),Medical,"Smaller cardiovascular delivery systems",Carpenter Cardiology
+Zirconium,Tube (nuclear-qualified Zr alloys),Energy,"Fuel cladding for light-water SMRs",Alleima Nuclear & SMRs
+Zirconium,Getter element (Zr-based),Electronics,"Vacuum-dependent advanced sensors and electronic packages",Agilent Zr-V-Fe getters
+Specialty stainless,Coated thin strip,Energy,"Stationary PEM fuel-cell bipolar plates",Fraunhofer IWS Bipolar plates
+Specialty stainless,Tube / pipe (nuclear-qualified),Energy,"SMR heat-transfer and process circuits",Alleima Nuclear & SMRs
+Specialty stainless,Tube / plate (cryogenic stainless),Energy,"Fusion magnet cases and conductor jackets",ITER Magnet systems
+Specialty stainless,Thin sheet (cryogenic stainless),Aerospace,"Lightweight vacuum-insulated hydrogen-aircraft tanks (NASA concept study)",NASA Aircraft LH2 tank study
+Aluminium,Foil / formed sheet,Automotive,"Higher-power battery cooling and enclosure designs",European Aluminium Uses
+Aluminium,Sheet / fin stock,Energy,"Hydrogen-liquefaction heat exchangers",Chart Cryogenic exchangers
+Aluminium,Formed sheet / plate (Al-Li),Aerospace,"Reusable or in-space cryogenic tanks",NASA Al-Li 2195 tanks
+Copper,Wire / stabiliser stock,Energy,"Future fusion-magnet conductor production",ITER Magnet systems
+Copper,AM powder (CuCrZr / Cu),Electronics,"Custom compact cooling parts for future electronics",EOS Copper AM
+Copper,Plate / strip / bar,Electronics,"Higher-density AI power distribution and direct-to-chip cooling",CDA Data-centre cooling
+Copper,Wire / foil,Medical,"Thinner or lower-temperature MRI coil designs",MRI conductor study 2020
