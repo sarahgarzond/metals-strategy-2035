@@ -6,6 +6,12 @@ The Trade dimension connects the supply base of chapter 4 to the industries of c
 
 Germany is the world's largest exporter of nickel plate, sheet, strip and foil and the second largest exporter of nickel bars, rods and wire, which places the company's home base at the centre of the qualified product trade. German exports of the three nickel mill product codes reached USD 1.42 billion in 2024, against USD 0.97 billion in 2019, an increase of 47 percent [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].
 
+Figure 2: German exports of nickel mill products rose by 47 percent from 2019 to 2024
+
+![Figure 2](fig/fig2_de_nickel_exports.svg)
+
+*Source: UN Comtrade, Germany as reporter, exports to the world in current USD [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].*
+
 Table 17: Exports of nickel mill products and related codes by leading country, 2024
 
 | HS code and product | Leading exporters (USD million) | Germany net trade (USD million) |

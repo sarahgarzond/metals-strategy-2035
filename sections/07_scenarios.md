@@ -40,4 +40,10 @@ Table 19: Demand index 2035 by industry (2025 = 100)
 
 *Source: team calculation, I(2035) = 100 × (1 + g)^10 with the rates of Table 18, rounded.*
 
+Figure 3: Aerospace and energy technology lead demand growth to 2035 in every scenario
+
+![Figure 3](fig/fig3_scenarios.svg)
+
+*Source: team calculation based on Tables 18 and 19.*
+
 Two results of the scenario analysis matter most for the strategy of the company. Aerospace and energy technology together are the only industries that grow by more than 40 percent in the base case, and both depend on the same product family of vacuum melted superalloy bar and billet, so one capacity decision serves two markets. The spread between downside and upside is widest in energy technology, which argues for staged investment that follows signed orders. Regionally the growth sits in European and American engine and turbine supply chains, in Asian chemical construction and in European and American implant markets, which is the geography that chapter 8 turns into priorities.
