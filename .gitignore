@@ -16,3 +16,9 @@ data/raw/sec/
 data/raw/who/
 data/sources.csv.lock
 research/_cache/
+
+# ICIO SML ZIPs and full extracts exceed GitHub 100MB; keep clean ICIO CSVs only
+data/raw/icio/*.zip
+data/raw/icio/extracted/
+*.backup.csv
+reviews/comtrade_pull.log

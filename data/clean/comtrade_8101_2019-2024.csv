@@ -1,0 +1,121 @@
+hs,hs_desc,reporter,reporter_code,partner,partner_code,flow,year,value_usd,net_weight_kg,qty,qty_unit
+8101,Tungsten and articles,China,156,World,0,Import,2019,40122329.0,205753.219,205753.219,kg
+8101,Tungsten and articles,China,156,World,0,Import,2020,40793615.0,210381.547,210381.547,kg
+8101,Tungsten and articles,China,156,World,0,Import,2021,43172045.0,131356.279,131356.279,kg
+8101,Tungsten and articles,China,156,World,0,Import,2022,43354065.0,119064.297,119064.297,kg
+8101,Tungsten and articles,China,156,World,0,Import,2023,56256746.0,78264.958,78264.958,kg
+8101,Tungsten and articles,China,156,World,0,Import,2024,63231198.0,76476.762,76476.762,kg
+8101,Tungsten and articles,China,156,World,0,Export,2019,235756311.0,5188408.516,5188408.516,kg
+8101,Tungsten and articles,China,156,World,0,Export,2020,176860077.0,4383351.426,4383351.426,kg
+8101,Tungsten and articles,China,156,World,0,Export,2021,239790772.0,5173877.174,5173877.174,kg
+8101,Tungsten and articles,China,156,World,0,Export,2022,296601760.0,5744680.17,5744680.17,kg
+8101,Tungsten and articles,China,156,World,0,Export,2023,268310154.0,5266365.456,5266365.456,kg
+8101,Tungsten and articles,China,156,World,0,Export,2024,275863267.0,5000344.31,5000344.31,kg
+8101,Tungsten and articles,Germany,276,World,0,Import,2019,137790332.765,5280200.354,5280200.354,kg
+8101,Tungsten and articles,Germany,276,World,0,Import,2020,118028041.009,4764279.202,4764279.202,kg
+8101,Tungsten and articles,Germany,276,World,0,Import,2021,169115761.137,6192838.025,6192838.025,kg
+8101,Tungsten and articles,Germany,276,World,0,Import,2022,252498108.37,8251365.203,8251365.203,kg
+8101,Tungsten and articles,Germany,276,World,0,Import,2023,208580854.892,6701144.22,6701144.22,kg
+8101,Tungsten and articles,Germany,276,World,0,Import,2024,219472899.882,7551167.491,7551167.491,kg
+8101,Tungsten and articles,Germany,276,World,0,Export,2019,119885153.435,5368639.588,5368639.588,kg
+8101,Tungsten and articles,Germany,276,World,0,Export,2020,112810848.0,5265300.57,5265300.57,kg
+8101,Tungsten and articles,Germany,276,World,0,Export,2021,177286539.557,7478622.217,7478622.217,kg
+8101,Tungsten and articles,Germany,276,World,0,Export,2022,260407886.593,9217367.302,9217367.302,kg
+8101,Tungsten and articles,Germany,276,World,0,Export,2023,197551167.49,7379539.652,7379539.652,kg
+8101,Tungsten and articles,Germany,276,World,0,Export,2024,229080668.317,8966567.962,8966567.962,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Import,2019,3758232.0,393132.0,393132.0,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Import,2020,2294527.0,151956.0,151956.0,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Import,2021,3918052.0,347517.0,347517.0,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Import,2022,4716120.0,303600.0,303600.0,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Import,2023,4661137.0,238092.0,238092.0,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Import,2024,3524143.0,183510.0,183510.0,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Export,2019,1762126.762,141290.23,141290.23,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Export,2020,1529183.658,129027.1,129027.1,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Export,2021,1157428.131,63274.106,63274.106,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Export,2022,2572723.218,152038.131,152038.131,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Export,2023,3472990.527,191478.45,191478.45,kg
+8101,Tungsten and articles,Indonesia,360,World,0,Export,2024,1980489.139,105509.937,105509.937,kg
+8101,Tungsten and articles,Italy,380,World,0,Import,2019,20531610.763,674399.0,674399.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Import,2020,11642090.866,189962.0,189962.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Import,2021,25230574.663,589212.0,589212.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Import,2022,25974721.807,515876.0,515876.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Import,2023,17961808.33,270192.0,270192.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Import,2024,14471278.464,306287.0,306287.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Export,2019,13903651.48,783329.0,783329.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Export,2020,7516740.477,293847.0,293847.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Export,2021,19268083.893,543576.028,543576.028,kg
+8101,Tungsten and articles,Italy,380,World,0,Export,2022,21633518.299,594593.782,594593.782,kg
+8101,Tungsten and articles,Italy,380,World,0,Export,2023,10601457.131,538084.0,538084.0,kg
+8101,Tungsten and articles,Italy,380,World,0,Export,2024,8116777.564,687321.0,687321.0,kg
+8101,Tungsten and articles,Japan,392,World,0,Import,2019,106627555.13,2344972.0,2344972.0,kg
+8101,Tungsten and articles,Japan,392,World,0,Import,2020,70859667.705,1553806.804,1553806.804,kg
+8101,Tungsten and articles,Japan,392,World,0,Import,2021,115168013.139,2482524.0,2482524.0,kg
+8101,Tungsten and articles,Japan,392,World,0,Import,2022,126444969.793,2500344.907,2500344.907,kg
+8101,Tungsten and articles,Japan,392,World,0,Import,2023,100100834.023,1974203.423,1974203.423,kg
+8101,Tungsten and articles,Japan,392,World,0,Import,2024,112743233.47,2152415.136,2152415.136,kg
+8101,Tungsten and articles,Japan,392,World,0,Export,2019,72609304.523,1563463.747,1563463.747,kg
+8101,Tungsten and articles,Japan,392,World,0,Export,2020,71518046.336,1419831.925,1419831.925,kg
+8101,Tungsten and articles,Japan,392,World,0,Export,2021,100920377.952,2278532.902,2278532.902,kg
+8101,Tungsten and articles,Japan,392,World,0,Export,2022,102455870.975,2385987.286,2385987.286,kg
+8101,Tungsten and articles,Japan,392,World,0,Export,2023,100608179.578,1452671.303,1452671.303,kg
+8101,Tungsten and articles,Japan,392,World,0,Export,2024,118798061.736,1855929.59,1855929.59,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Import,2019,55974782.0,1045649.748,1045649.748,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Import,2020,60152170.0,1382547.148,1382547.148,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Import,2021,85531710.0,1775407.167,1775407.167,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Import,2022,89249338.0,1807568.831,1807568.831,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Import,2023,98330732.0,2166191.045,2166191.045,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Import,2024,95675631.0,2413694.54,2413694.54,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Export,2019,22706634.0,1005411.6,1005411.6,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Export,2020,22985914.0,928495.005,928495.005,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Export,2021,27941159.0,820583.375,820583.375,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Export,2022,33097872.0,1002588.967,1002588.967,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Export,2023,32450147.0,799415.812,799415.812,kg
+8101,Tungsten and articles,Rep. of Korea,410,World,0,Export,2024,31424583.0,685836.679,685836.679,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Import,2019,40236139.912,1635471.442,1635471.442,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Import,2020,33114369.963,1356101.0,1356101.0,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Import,2021,39336297.512,1339403.416,1339403.416,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Import,2022,50959283.301,1333231.492,1333231.492,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Import,2023,42505950.265,978509.11,978509.11,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Import,2024,45231027.776,958583.882,958583.882,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Export,2019,42663936.382,0.0,0.0,N/A
+8101,Tungsten and articles,United Kingdom,826,World,0,Export,2020,28880717.844,1624141.776,1624141.776,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Export,2021,42657711.941,1944952.882,1944952.882,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Export,2022,49585386.531,,0.0,N/A
+8101,Tungsten and articles,United Kingdom,826,World,0,Export,2023,42383761.023,1006007.22,1006007.22,kg
+8101,Tungsten and articles,United Kingdom,826,World,0,Export,2024,45712955.142,1120943.88,1120943.88,kg
+8101,Tungsten and articles,USA,842,World,0,Import,2019,212063915.0,7025701.0,7025701.0,kg
+8101,Tungsten and articles,USA,842,World,0,Import,2020,164826425.0,4852173.0,5766892.0,kg
+8101,Tungsten and articles,USA,842,World,0,Import,2021,182949913.0,5071987.0,6171488.0,kg
+8101,Tungsten and articles,USA,842,World,0,Import,2022,279437174.0,6659857.0,8060776.0,kg
+8101,Tungsten and articles,USA,842,World,0,Import,2023,246885304.0,5588288.67,6779950.67,kg
+8101,Tungsten and articles,USA,842,World,0,Import,2024,217456661.0,6001672.0,6001672.0,kg
+8101,Tungsten and articles,USA,842,World,0,Export,2019,123976751.0,2741555.0,2741555.0,kg
+8101,Tungsten and articles,USA,842,World,0,Export,2020,100135067.0,2617716.0,2617716.0,kg
+8101,Tungsten and articles,USA,842,World,0,Export,2021,104635489.0,2663311.0,2663311.0,kg
+8101,Tungsten and articles,USA,842,World,0,Export,2022,129768623.0,4154187.0,4154187.0,kg
+8101,Tungsten and articles,USA,842,World,0,Export,2023,141319793.0,3231881.0,3231881.0,kg
+8101,Tungsten and articles,USA,842,World,0,Export,2024,152093113.0,3472162.0,3472162.0,kg
+8101,Tungsten and articles,France,251,World,0,Export,2019,36958023.396,1480535.542,1480535.542,kg
+8101,Tungsten and articles,France,251,World,0,Export,2020,30651160.156,632520.912,632520.912,kg
+8101,Tungsten and articles,France,251,World,0,Export,2021,35387758.665,486426.929,486426.929,kg
+8101,Tungsten and articles,France,251,World,0,Export,2022,12483924.738,443986.39,443986.39,kg
+8101,Tungsten and articles,France,251,World,0,Export,2023,11505025.398,379830.941,379830.941,kg
+8101,Tungsten and articles,France,251,World,0,Export,2024,11967046.231,523198.722,523198.722,kg
+8101,Tungsten and articles,France,251,World,0,Import,2019,36148366.289,961431.616,961431.616,kg
+8101,Tungsten and articles,France,251,World,0,Import,2020,38100451.525,696158.44,696158.44,kg
+8101,Tungsten and articles,France,251,World,0,Import,2021,37675518.94,1020698.194,1020698.194,kg
+8101,Tungsten and articles,France,251,World,0,Import,2022,44509930.491,940662.466,940662.466,kg
+8101,Tungsten and articles,France,251,World,0,Import,2023,42553505.457,859155.898,859155.898,kg
+8101,Tungsten and articles,France,251,World,0,Import,2024,47952562.975,753090.473,753090.473,kg
+8101,Tungsten and articles,India,699,World,0,Export,2019,12691622.511,262856.482,262856.482,kg
+8101,Tungsten and articles,India,699,World,0,Export,2020,10301478.398,308322.858,308322.858,kg
+8101,Tungsten and articles,India,699,World,0,Export,2021,29995118.613,1058897.436,1058897.436,kg
+8101,Tungsten and articles,India,699,World,0,Export,2022,35650983.371,,0.0,N/A
+8101,Tungsten and articles,India,699,World,0,Export,2023,27419127.44,712568.962,712568.962,kg
+8101,Tungsten and articles,India,699,World,0,Export,2024,42611526.324,1125308.176,1125308.176,kg
+8101,Tungsten and articles,India,699,World,0,Import,2019,21718059.425,385138.553,385138.553,kg
+8101,Tungsten and articles,India,699,World,0,Import,2020,18063047.453,323152.553,323152.553,kg
+8101,Tungsten and articles,India,699,World,0,Import,2021,24596389.379,378747.419,378747.419,kg
+8101,Tungsten and articles,India,699,World,0,Import,2022,26925136.485,366635.42,366635.42,kg
+8101,Tungsten and articles,India,699,World,0,Import,2023,41734026.58,599558.011,599558.011,kg
+8101,Tungsten and articles,India,699,World,0,Import,2024,46451263.897,704700.046,704700.046,kg

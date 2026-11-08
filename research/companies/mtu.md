@@ -1,0 +1,27 @@
+# MTU Aero Engines (customer, Germany)
+
+## Snapshot
+Fiscal 2025 adjusted revenue was EUR 8,700 million (OEM EUR 2,870 million, commercial MRO EUR 5,960 million, military EUR 614 million), with adjusted EBIT of EUR 1,351 million (15.5% margin) and free cash flow of EUR 378 million [CO_MTU_REV_2025]. Source: FY 2025 press release. The group had 13,674 employees at 31 December 2025 (2024: 12,892) [CO_MTU_EMPLOYEES_2025]. Order backlog was EUR 29.5 billion (more than three years of revenue). H1 2026 revenue was approximately EUR 4.7 billion (up 13%), adjusted EBIT EUR 692 million (14.8% margin), with full year 2026 guidance of EUR 9.2 to 9.7 billion revenue and EBIT EUR 1.35 to 1.45 billion [CO_MTU_GUIDE_2026, CO_MTU_H1_2026].
+
+## Segments and end markets
+MTU operates as a risk-and-revenue-sharing partner (RRSP) in commercial OEM programs with shares typically ranging from 10 to 20% in commercial and 20 to 40% in military [CO_MTU_OEM_2026]. Major program shares include GP7000 for A380 (22.5%), PW1100G-JM for A320neo (18%), V2500 for A320ceo (16%), GE9X for B777X, GEnx for B787/B747-8 and Trent XWB for A350. GTF commitments exceed 13,000 engines. Commercial MRO covers more than 30 engine families at over 1,300 shop visits per year, with GTF (Geared Turbofan) accounting for approximately 40% of commercial MRO revenue in 2025 [CO_MTU_REV_2025]. Medium-term (2030) revenue target is EUR 13 to 14 billion with EBIT margin of 14.5 to 15.5%.
+
+## Relevance to the Client
+MTU manufactures high-pressure compressor stages, low-pressure turbine modules and blisks (bladed discs) that require nickel superalloy for the hot section and titanium for fan and compressor blisks. OEM component production consumes approximately EUR 500 million of production material per year in series production (2022 baseline) [CO_MTU_SUPCHAIN_2022]. Titanium aluminide (TiAl) low-pressure turbine blades for PW1100G-JM are supplied under long-term contract by AMG Advanced Metallurgical Group since 2016 [CO_MTU_TIAL_2016]. As an RRSP, MTU does not buy alloy directly from integrated mills for final engine assembly; instead it sources forgings and semi-finished forms from tier-two suppliers. The 30% approximate in-house value added (2025) means the remainder, including alloy and forged parts, flows through MTU's network of approximately 419 external suppliers [CO_MTU_OEM_2026].
+
+## Capacity and investments
+MTU manufactures blisks (BLISK process: milling from solid titanium or nickel discs) in Munich and Rzeszow (Poland). New LEAP MRO capacity is being added at Fort Worth, Texas (EUR 120 million capex, EUR 100 million free cash flow headwind to end of decade) and also at Hannover, Berlin, China (Zhuhai) and Poland [CO_MTU_FW_2026]. The global production and MRO network spans Hannover, Munich, Berlin (Brandenburg), Poland (Rzeszow), Zhuhai (China), Hannover Leasing, Fort Worth, Canada, Serbia, Brazil and Australia. Furnace and press details for alloy processing: TODO(data).
+
+## Market statements
+FY 2025 press release states that military revenue was flat due to "ongoing supply chain issues" and that MRO growth in H2 2025 benefited from "improved material availability" [CO_MTU_REV_2025]. The 2022 Investor and Analyst Day (most recent public detail on materials) disclosed long-term contracts with alloy and part suppliers, intensified multi-sourcing, early replacement of Russian titanium supplier by western alternatives, and financial and physical nickel hedging of up to 80% of exposure [CO_MTU_SUPCHAIN_2022]. MTU returns titanium chips to the supply chain through a contracted revert loop with raw material suppliers.
+
+## Customers and suppliers
+Primary OEM customers are Pratt and Whitney, GE Aerospace and Rolls-Royce Power Systems (military), plus IAE (V2500 consortium). Named material suppliers: AMG Advanced Metallurgical Group (TiAl for PW1100G-JM). No other named alloy or forging suppliers are publicly disclosed. TODO(data): names of nickel superalloy forging and casting suppliers for HPT components.
+
+## Sources
+1. MTU Aero Engines AG (2026, February 24). *Figures for 2025: MTU stays on course for growth*. https://www.mtu.de/newsroom/press/latest-press-releases/press-release-detail/figures-for-2025-mtu-stays-on-course-for-growth/
+2. MTU Aero Engines AG (2026, July 30). *MTU Aero Engines remains on track with growth in first half of 2026 and raises free cash flow guidance*. https://www.mtu.de/newsroom/press/latest-press-releases/press-release-detail/mtu-aero-engines-remains-on-track-with-growth-in-first-half-of-2026-and-raises-free-cash-flow-guidance/
+3. MTU Aero Engines AG (2026). *MTU Investor Presentation 2026*. https://www.mtu.de/fileadmin/EN/5_Investors/3_Company_Profile/2026_MTU_Investor_Presentation.pdf
+4. MTU Aero Engines AG (2022). *MTU Investor and Analyst Day 2022 (Supply Chain and Production slide deck)*. https://www.mtu.de/fileadmin/EN/5_Investors/7_Financial_Reports/PDFs/2022_CMD_London.pdf
+5. MarketBeat (2026, April 30). *MTU Aero Engines Q1 earnings call highlights*. https://www.marketbeat.com/instant-alerts/mtu-aero-engines-q1-earnings-call-highlights-2026-04-30/
+6. AMG Advanced Metallurgical Group (2016, May 26). *AMG selected by MTU to provide titanium aluminides for the PW1100G-JM engine*. https://amg-nv.com/investors/press-release/amg-advanced-metallurgical-group-n-v-selected-by-mtu-to-provide-titanium-aluminides-for-the-pratt-whitney-purepower-pw1100g-jm-engine/

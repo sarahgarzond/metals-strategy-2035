@@ -1,0 +1,121 @@
+hs,hs_desc,reporter,reporter_code,partner,partner_code,flow,year,value_usd,net_weight_kg,qty,qty_unit
+8108,Titanium and articles,China,156,World,0,Import,2019,660500337.0,16828409.275,16828409.275,kg
+8108,Titanium and articles,China,156,World,0,Import,2020,510730767.0,11977046.986,11977046.986,kg
+8108,Titanium and articles,China,156,World,0,Import,2021,610561230.0,23768321.999,23768321.999,kg
+8108,Titanium and articles,China,156,World,0,Import,2022,680491557.0,20605336.28,20605336.28,kg
+8108,Titanium and articles,China,156,World,0,Import,2023,616944573.0,7716570.058,7716570.058,kg
+8108,Titanium and articles,China,156,World,0,Import,2024,721703469.0,7720435.99,7720435.99,kg
+8108,Titanium and articles,China,156,World,0,Export,2019,517199061.0,22415762.449,22415762.449,kg
+8108,Titanium and articles,China,156,World,0,Export,2020,428951392.0,16161185.114,16161185.114,kg
+8108,Titanium and articles,China,156,World,0,Export,2021,576092852.0,22901207.686,22901207.686,kg
+8108,Titanium and articles,China,156,World,0,Export,2022,798467148.0,30052827.945,30052827.945,kg
+8108,Titanium and articles,China,156,World,0,Export,2023,862913590.0,37681825.553,37681825.553,kg
+8108,Titanium and articles,China,156,World,0,Export,2024,1004751109.0,42837563.714,42837563.714,kg
+8108,Titanium and articles,Germany,276,World,0,Import,2019,1029132004.506,30509317.495,30509317.495,kg
+8108,Titanium and articles,Germany,276,World,0,Import,2020,733774430.111,22261554.581,22261554.581,kg
+8108,Titanium and articles,Germany,276,World,0,Import,2021,550143763.579,19776708.825,19776708.825,kg
+8108,Titanium and articles,Germany,276,World,0,Import,2022,799022664.976,25221188.748,25221188.748,kg
+8108,Titanium and articles,Germany,276,World,0,Import,2023,1020737479.947,28705856.543,28705856.543,kg
+8108,Titanium and articles,Germany,276,World,0,Import,2024,1046381754.447,26635048.321,26635048.321,kg
+8108,Titanium and articles,Germany,276,World,0,Export,2019,618728828.705,21487770.001,21487770.001,kg
+8108,Titanium and articles,Germany,276,World,0,Export,2020,431898814.339,14717935.971,14717935.971,kg
+8108,Titanium and articles,Germany,276,World,0,Export,2021,411342235.595,15406041.136,15406041.136,kg
+8108,Titanium and articles,Germany,276,World,0,Export,2022,614486401.308,19202426.733,19202426.733,kg
+8108,Titanium and articles,Germany,276,World,0,Export,2023,685652643.281,18103838.005,18103838.005,kg
+8108,Titanium and articles,Germany,276,World,0,Export,2024,674446968.942,18435486.567,18435486.567,kg
+8108,Titanium and articles,Indonesia,360,World,0,Import,2019,8944713.0,2009551.0,2009551.0,kg
+8108,Titanium and articles,Indonesia,360,World,0,Import,2020,19488541.0,1936416.0,1936416.0,kg
+8108,Titanium and articles,Indonesia,360,World,0,Import,2021,16054352.0,775391.0,775391.0,kg
+8108,Titanium and articles,Indonesia,360,World,0,Import,2022,12051712.0,388343.0,388343.0,kg
+8108,Titanium and articles,Indonesia,360,World,0,Import,2023,24470734.0,1257330.0,1257330.0,kg
+8108,Titanium and articles,Indonesia,360,World,0,Import,2024,24028960.0,996747.0,996747.0,kg
+8108,Titanium and articles,Indonesia,360,World,0,Export,2019,346170.88,76739.978,76739.978,kg
+8108,Titanium and articles,Indonesia,360,World,0,Export,2020,300866.063,53322.1,53322.1,kg
+8108,Titanium and articles,Indonesia,360,World,0,Export,2021,586100.678,96953.924,96953.924,kg
+8108,Titanium and articles,Indonesia,360,World,0,Export,2022,529519.38,94928.458,94928.458,kg
+8108,Titanium and articles,Indonesia,360,World,0,Export,2023,517798.68,93368.341,93368.341,kg
+8108,Titanium and articles,Indonesia,360,World,0,Export,2024,3471674.464,700301.534,700301.534,kg
+8108,Titanium and articles,Italy,380,World,0,Import,2019,285069792.854,9847979.0,9847979.0,kg
+8108,Titanium and articles,Italy,380,World,0,Import,2020,224325366.373,7268853.0,7268853.0,kg
+8108,Titanium and articles,Italy,380,World,0,Import,2021,167069863.046,6394351.054,6394351.054,kg
+8108,Titanium and articles,Italy,380,World,0,Import,2022,225882967.47,9207101.0,9207101.0,kg
+8108,Titanium and articles,Italy,380,World,0,Import,2023,266916295.954,9563408.0,9563408.0,kg
+8108,Titanium and articles,Italy,380,World,0,Import,2024,294717085.98,9952243.0,9952243.0,kg
+8108,Titanium and articles,Italy,380,World,0,Export,2019,146552138.64,8385088.161,8385088.161,kg
+8108,Titanium and articles,Italy,380,World,0,Export,2020,123117542.132,5732654.0,5732654.0,kg
+8108,Titanium and articles,Italy,380,World,0,Export,2021,130558957.082,6311356.62,6311356.62,kg
+8108,Titanium and articles,Italy,380,World,0,Export,2022,164828812.749,8170332.73,8170332.73,kg
+8108,Titanium and articles,Italy,380,World,0,Export,2023,192657644.388,9342213.161,9342213.161,kg
+8108,Titanium and articles,Italy,380,World,0,Export,2024,182079448.725,9440721.426,9440721.426,kg
+8108,Titanium and articles,Japan,392,World,0,Import,2019,318083575.218,5251367.309,5251367.309,kg
+8108,Titanium and articles,Japan,392,World,0,Import,2020,240473316.964,4143188.838,4143188.838,kg
+8108,Titanium and articles,Japan,392,World,0,Import,2021,103768891.819,2237357.495,2237357.495,kg
+8108,Titanium and articles,Japan,392,World,0,Import,2022,128168203.224,3041480.525,3041480.525,kg
+8108,Titanium and articles,Japan,392,World,0,Import,2023,172782741.541,3890839.717,3890839.717,kg
+8108,Titanium and articles,Japan,392,World,0,Import,2024,236090378.877,5978677.592,5978677.592,kg
+8108,Titanium and articles,Japan,392,World,0,Export,2019,640457176.67,53520885.484,53520885.484,kg
+8108,Titanium and articles,Japan,392,World,0,Export,2020,454454680.199,35069825.77,35069825.77,kg
+8108,Titanium and articles,Japan,392,World,0,Export,2021,518228137.699,42220600.22,42220600.22,kg
+8108,Titanium and articles,Japan,392,World,0,Export,2022,654773106.167,50290001.0,50290001.0,kg
+8108,Titanium and articles,Japan,392,World,0,Export,2023,702086076.725,52761943.219,52761943.219,kg
+8108,Titanium and articles,Japan,392,World,0,Export,2024,668336787.431,49771299.747,49771299.747,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Import,2019,329230761.0,14902013.87,14902013.87,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Import,2020,297456234.0,13311142.378,13311142.378,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Import,2021,251246623.0,12857967.387,12857967.387,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Import,2022,310813154.0,15099311.514,15099311.514,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Import,2023,321931378.0,15737104.386,15737104.386,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Import,2024,377588128.0,19611669.697,19611669.697,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Export,2019,77916173.0,5098855.464,5098855.464,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Export,2020,62085682.0,3594778.328,3594778.328,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Export,2021,77134571.0,4330077.582,4330077.582,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Export,2022,63888392.0,3488760.03,3488760.03,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Export,2023,71993175.0,4999030.168,4999030.168,kg
+8108,Titanium and articles,Rep. of Korea,410,World,0,Export,2024,86660890.0,7016882.637,7016882.637,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Import,2019,692082885.996,29618738.832,29618738.832,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Import,2020,489615505.021,0.0,0.0,N/A
+8108,Titanium and articles,United Kingdom,826,World,0,Import,2021,349993073.706,17255602.83,17255602.83,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Import,2022,447789640.679,21885247.15,21885247.15,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Import,2023,630476164.839,26332094.407,26332094.407,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Import,2024,646714240.193,25687825.274,25687825.274,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Export,2019,563217901.243,0.0,0.0,N/A
+8108,Titanium and articles,United Kingdom,826,World,0,Export,2020,376927771.737,0.0,0.0,N/A
+8108,Titanium and articles,United Kingdom,826,World,0,Export,2021,384626585.006,8101571.166,8101571.166,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Export,2022,524046255.797,10577434.549,10577434.549,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Export,2023,738360342.539,16229344.089,16229344.089,kg
+8108,Titanium and articles,United Kingdom,826,World,0,Export,2024,892755841.119,17461626.98,17461626.98,kg
+8108,Titanium and articles,USA,842,World,0,Import,2019,981308957.0,73299640.329,73299640.329,kg
+8108,Titanium and articles,USA,842,World,0,Import,2020,670921817.0,43456934.736,43456934.736,kg
+8108,Titanium and articles,USA,842,World,0,Import,2021,529918793.0,33846757.571,33846757.571,kg
+8108,Titanium and articles,USA,842,World,0,Import,2022,785924136.0,58733577.298,58733577.298,kg
+8108,Titanium and articles,USA,842,World,0,Import,2023,1082760980.0,77846282.776,77846282.776,kg
+8108,Titanium and articles,USA,842,World,0,Import,2024,1164550812.0,76437369.821,76437369.821,kg
+8108,Titanium and articles,USA,842,World,0,Export,2019,1998442709.0,48020574.0,48020574.0,kg
+8108,Titanium and articles,USA,842,World,0,Export,2020,1384421765.0,36201638.0,36201638.0,kg
+8108,Titanium and articles,USA,842,World,0,Export,2021,1099214898.0,28349574.0,28349574.0,kg
+8108,Titanium and articles,USA,842,World,0,Export,2022,1460061101.0,31265276.0,31265276.0,kg
+8108,Titanium and articles,USA,842,World,0,Export,2023,1915540232.0,38357067.0,38357067.0,kg
+8108,Titanium and articles,USA,842,World,0,Export,2024,2303801056.0,45116465.0,45116465.0,kg
+8108,Titanium and articles,France,251,World,0,Export,2019,215319897.525,12597130.838,12597130.838,kg
+8108,Titanium and articles,France,251,World,0,Export,2020,138951495.16,7416885.726,7416885.726,kg
+8108,Titanium and articles,France,251,World,0,Export,2021,120502476.297,5316432.241,5316432.241,kg
+8108,Titanium and articles,France,251,World,0,Export,2022,372284913.77,8645616.612,8645616.612,kg
+8108,Titanium and articles,France,251,World,0,Export,2023,509542066.324,12105604.484,12105604.484,kg
+8108,Titanium and articles,France,251,World,0,Export,2024,590162399.698,,0.0,N/A
+8108,Titanium and articles,France,251,World,0,Import,2019,829125749.08,22513761.721,22513761.721,kg
+8108,Titanium and articles,France,251,World,0,Import,2020,499277635.351,12635896.201,12635896.201,kg
+8108,Titanium and articles,France,251,World,0,Import,2021,438132250.1,9421683.09,9421683.09,kg
+8108,Titanium and articles,France,251,World,0,Import,2022,702484568.18,22195558.43,22195558.43,kg
+8108,Titanium and articles,France,251,World,0,Import,2023,985963856.715,20425767.518,20425767.518,kg
+8108,Titanium and articles,France,251,World,0,Import,2024,1186482562.493,23665835.063,23665835.063,kg
+8108,Titanium and articles,India,699,World,0,Export,2019,4509628.275,290318.497,290318.497,kg
+8108,Titanium and articles,India,699,World,0,Export,2020,8719842.373,458574.735,458574.735,kg
+8108,Titanium and articles,India,699,World,0,Export,2021,4428177.816,104222.594,104222.594,kg
+8108,Titanium and articles,India,699,World,0,Export,2022,6496027.858,216590.395,216590.395,kg
+8108,Titanium and articles,India,699,World,0,Export,2023,8301534.514,365597.009,365597.009,kg
+8108,Titanium and articles,India,699,World,0,Export,2024,8059476.898,436642.816,436642.816,kg
+8108,Titanium and articles,India,699,World,0,Import,2019,111411731.487,8567113.755,8567113.755,kg
+8108,Titanium and articles,India,699,World,0,Import,2020,71786929.938,8174799.498,8174799.498,kg
+8108,Titanium and articles,India,699,World,0,Import,2021,106182844.561,9968497.145,9968497.145,kg
+8108,Titanium and articles,India,699,World,0,Import,2022,122780379.506,9293576.005,9293576.005,kg
+8108,Titanium and articles,India,699,World,0,Import,2023,137294182.881,10775605.791,10775605.791,kg
+8108,Titanium and articles,India,699,World,0,Import,2024,137557383.519,12477549.68,12477549.68,kg

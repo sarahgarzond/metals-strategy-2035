@@ -1,54 +1,40 @@
 ## 5.4 Aerospace
 
-Aerospace is the company's strongest growth market. The commercial fleet grows about 3.4% a year to 2035, engine output rose by about a quarter in 2025, and engine makers still report parts shortages. Nickel and cobalt superalloys for jet engines are the core products; ceramic parts in the hottest engine sections are the main long-term risk.
+Aerospace is the first qualification priority, because new engine hardware and shop visits are both pulling 718, 625, X and 230, and the mill sees billet, approved sheet and weld wire rather than the engine maker's margin. The passenger fleet path of about 3.4 percent a year, from 23,310 aircraft at the end of 2025 to about 32,600 in 2035, is a team interpolation between the Airbus 2025 and 2045 stocks and is not an Airbus 2035 figure and not an alloy tonne forecast [AERO_AIRBUS_GMF2026_FLEET_2025, TE_AERO_FLEET_2035]. The published Airbus figure for 2035 that this chapter uses is the 82 percent share of new generation aircraft [AERO_AIRBUS_GMF2026_NEWGEN_2035]. Cobalt in aviation is an indicator in section 4.2, and it is not resized here into a nickel market.
 
 ### 5.4.1 Historical and Current Market Overview
 
-Airbus and Boeing delivered 1,393 commercial aircraft in 2025, 793 and 600 respectively (Airbus, 2026a; Boeing, 2026a). Airbus expects the global fleet to grow from about 23,300 aircraft at the end of 2025 to 45,550 in 2045, which requires 42,060 new aircraft; on this path the fleet reaches about 32,600 aircraft in 2035, or 3.4% a year (Airbus, 2026b). Boeing expects 43,625 new aircraft over the same period (Boeing, 2026b). New-generation aircraft rise from about 39% of the fleet today to almost 100% in 2045, so replacing old aircraft adds to growth.
+Airbus and Boeing delivered 793 and 600 commercial aircraft in 2025 [CO_AIRBUS_DELIV_2025]. Over 2026 to 2045 Airbus expects 42,060 new passenger aircraft of at least 100 seats, while Boeing expects 43,625 deliveries that include 1,435 regional jets and 930 freighters, so the two totals are not the same perimeter [AERO_AIRBUS_GMF2026_DELIVERIES, AERO_BOEING_CMO2026_FLEET_CAGR]. Engine output has to be read on the same careful basis, because Safran delivered 1,802 LEAP engines in 2025, up 28 percent from 1,407, and full year 2025 commercial engine deliveries at GE Aerospace were 2,386, which already contains the LEAP engines and must not be added to them [CO_SAFRAN_LEAP_2025, CO_GE_LEAP_2025]. The commercial engine increase of 25 percent, 1,989 against 1,592, is the first nine months of 2026, and defence engines of 635 against 490 are the 2025 increase [CO_GE_9M26_DELIV, CO_GE_DEFENG_2025].
 
-Engine production is growing faster than aircraft deliveries. Safran delivered a record 1,802 LEAP engines in 2025, up 28%, and GE Aerospace's engine deliveries rose 25% (GE Aerospace, 2026; Safran, 2026). Supply is still tight: Rolls-Royce reports that parts availability remains constrained (Rolls-Royce, 2026). Defence adds demand, as world military spending reached a record USD 2,887 billion in 2025, with Europe up 14% (SIPRI, 2026).
+Table 8: Aerospace activity, with the 2035 fleet as a team interpolation
 
-Table 5: Aerospace market, today and in 2035
+| Measure | Today | Later reading |
+| --- | --- | --- |
+| Passenger aircraft of at least 100 seats | 23,310 at the end of 2025 | About 32,600 in 2035, team interpolation, and 82 percent new generation |
+| Cobalt used in aviation | 11,499 tonnes in 2025, a cobalt indicator | About 16,100 tonnes if intensity is held constant, team estimate, not a nickel market |
+| LEAP engines | 1,802 in 2025, up 28 percent from 1,407 | Not added to the 2,386 commercial engines delivered in 2025 |
+| GE commercial engines | 2,386 in full year 2025 | 1,989 in the first nine months of 2026, up 25 percent on 1,592 |
+| Aviation services | USD 209 billion in 2026 | USD 422 billion in 2045 |
 
-| Measure | Today | 2035 | Change |
-|---|---|---|---|
-| Commercial aircraft in service | 23,300 (2025) | about 32,600 | +3.4% a year |
-| Cobalt used in aviation | 11,499 t (2025) | about 16,100 t | +3.4% a year |
-| LEAP engines delivered (Safran) | 1,802 (2025) | n/a | +28% in 2025 |
-| World military spending | USD 2,887 bn (2025) | n/a | Europe +14% in 2025 |
-| Aviation services market | n/a | over USD 420 bn by 2045 | +3.8% a year to 2045 |
+*Sources: Fleet and the new generation share are [AERO_AIRBUS_GMF2026_FLEET_2025, AERO_AIRBUS_GMF2026_NEWGEN_2035, TE_AERO_FLEET_2035], cobalt is [AERO_CI_AVIATION_CO_2025, TE_AERO_CO_2035], engines are [CO_SAFRAN_LEAP_2025, CO_GE_LEAP_2025, CO_GE_9M26_DELIV, CO_GE_DEFENG_2025], and services are [AERO_AIRBUS_GSF2026_SERVICES_2026, AERO_AIRBUS_GSF2026_SERVICES_2045].*
 
-*Sources: Airbus (2026b, 2026c), Cobalt Institute (2026), Safran (2026), SIPRI (2026). 2035 values are our estimate: the fleet is interpolated between the Airbus 2025 and 2045 figures, and cobalt use grows with the fleet.*
-
-Aviation used 11,499 tonnes of cobalt in 2025, 72% of it in commercial aircraft (Cobalt Institute, 2026), and 51% of US cobalt use goes into superalloys, mainly for jet engines (U.S. Geological Survey, 2026). No official source publishes nickel use in aerospace, so cobalt is used as the measurable indicator. Cobalt supply is concentrated: the Democratic Republic of the Congo mines 73% of the world's cobalt and limits exports with quotas (U.S. Geological Survey, 2026), while the nickel market is expected to stay in a small surplus in 2026 and 2027 (International Nickel Study Group, 2026).
-
-Production is concentrated in Europe and North America. The largest exporters of jet engines and gas turbines in 2024 were the United Kingdom (USD 39.8 billion), France (USD 22.0 billion), Singapore (USD 19.7 billion) and the United States (USD 14.1 billion) (United Nations Statistics Division, 2026). In Asia, Japan's aerospace industry produced about USD 13.5 billion in fiscal year 2024, mostly engine and airframe parts for Western programmes (Society of Japanese Aerospace Companies, 2025).
+Shop visits are the larger profit pool at the engine makers, and they are a different purchase from the original billet. GE Commercial Engines and Services earned a 26.6 percent margin on USD 33,314 million, with services at 75 percent of that segment, and Safran propulsion earned 23.0 percent on EUR 15,668 million, with services up 30 percent in dollar terms and civil spare parts up 17.6 percent in dollar terms [CO_GE_CES_2025, CO_SAFRAN_PROP_2025]. MTU's commercial maintenance revenue was EUR 6.0 billion against OEM revenue of EUR 2.9 billion in 2025 [CO_MTU_REV_2025]. Airbus puts the services market at USD 209 billion in 2026 and USD 422 billion in 2045, and it describes off wing work by growth of 3.7 percent a year and by a materials share above 85 percent [AERO_AIRBUS_GSF2026_SERVICES_2026, AERO_AIRBUS_GSF2026_SERVICES_2045]. HS 8411 includes parts, so the 2024 export ranking is not a ranking of complete engines only. The United Kingdom exported USD 39.8 billion, France USD 22.0 billion and the United States USD 14.1 billion [CT_UK_8411_2024_X]. The route in the next subsection is what a wrought mill can offer into that flow.
 
 ### 5.4.2 Key Applications and Opportunities for the Company
 
-The company sells nickel superalloy bar and cobalt alloy sheet for engine hot-section parts such as blades, discs and combustors, and welding wire for engine repair. Table 6 shows these applications.
+Hot gas path blades are cast, single crystal or directionally solidified, and the casters are Howmet and PCC, so a wrought mill does not sell blade bar into LEAP. Discs and rings are billet and then a forging, and in Europe that forger is Aubert and Duval, while qualified melters already on rotating grades include ATI, Carpenter, Special Metals and Aubert and Duval. Combustor and casing sheet is the Haynes book of 188, 230, 625, X and similar grades, and Haynes is Acerinox High Performance Alloys, so the competitor and the benchmark portfolio are the same group [NI_ACX_HPA_2025, CO_ACX_HPA_MIX_2025]. The offer is billet for forged discs through a named forger, sheet only where this mill is already approved, and weld wire for shop visits. Powders and the laboratory alloy GRX-810 are a watch item, because that alloy has its own atomisation route and is not a powder volume for 2035.
 
-Table 6: The company's aerospace applications, outlook to 2035
+Table 9: What a wrought mill can offer into aerospace
 
-| Outlook | Applications | Materials and product forms |
-|---|---|---|
-| Grows | Engine hot-section parts for civil and military engines; engine parts made in Japan | Nickel alloy bar |
-| Grows | Engine repair and overhaul | Welding wire |
-| Grows | 3D-printed engine parts | Alloy powders |
-| Stable | Engine hot-section and wear parts, where nickel alloys and ceramics can replace cobalt | Cobalt alloy sheet and plate |
+| Outlook | Applications | Form |
+| --- | --- | --- |
+| Qualify | Forged discs and rings, through a named forger | Billet |
+| Qualify, only if already approved | Combustor and casing | Sheet |
+| Qualify | Shop visits | Weld wire |
+| Watch | Printed parts and the hottest static hardware | Powder, and ceramic matrix composites on static parts only |
 
-*Sources: Airbus (2026b, 2026c), NASA Glenn Research Center (2016, 2022), U.S. Geological Survey (2026). The outlook is our assessment.*
+*Sources: The route is the team reading of the engine supply chain in this section. Services growth and the materials share are [AERO_AIRBUS_GSF2026_SERVICES_2045]. Ceramic matrix composites are limited to the hottest static parts and do not retire the disc.*
 
-The direct buyers of superalloys are engine makers rather than aircraft makers: GE Aerospace, Safran and Rolls-Royce (GE Aerospace, 2026; Rolls-Royce, 2026; Safran, 2026). The main competitors depend heavily on aerospace: ATI earns about 68% of its USD 4.6 billion sales in aerospace and defence and Carpenter Technology 65%, and both supply the same engine makers, while Japan's Daido Steel forges engine shafts approved by the four major engine makers (ATI, 2026a; Carpenter Technology, 2026; Daido Steel, n.d.).
+The buyers are GE Aerospace, Safran, Rolls-Royce, MTU and Pratt and Whitney [CO_GE_CES_2025, CO_SAFRAN_PROP_2025, CO_RR_CIVIL_2025, CO_MTU_REV_2025]. Approval for a rotating grade is an AMS specification, a NADCAP approval and an engine test, and it is measured in years. A shortage in 2025 is a weld wire and second source conversation for a grade the mill already makes, and it is not an entry ticket to a LEAP disc [CO_GE_SUPPLY_2025]. ATI takes about 68 percent of sales from aerospace and defence, and Carpenter about 65 percent, while Acerinox High Performance Alloys finished 47 thousand tonnes in 2025 [CO_ATI_ADSHARE_2025, CO_CRS_END_2026, NI_ACX_HPA_2025]. Carpenter specialty alloys at 27.7 percent and ATI high performance materials at 23.6 percent are cycle margins, and ATI advanced alloys at 16.3 percent is the closer comparison for a new source [CO_CRS_SEG_2026, CO_ATI_SEG_2025]. The one competitor line is Acerinox High Performance Alloys, together with Aubert and Duval, Special Metals, ATI, Carpenter, Howmet and PCC for castings, Proterial, and Daido on shafts. Chinese mills matter less for a vacuum remelted disc billet than they do for standard 625 plate.
 
-Margins are highest in engine services and in premium alloys and forgings. GE's Commercial Engines & Services earned a 26.6% operating margin with 76% of revenue from services, and Safran's propulsion business 23.0%, with services up 20% (GE Aerospace, 2026; Safran, 2026). Carpenter's specialty alloys reached a 27.7% operating margin and ATI's forgings and components a 23.6% EBITDA margin, while ATI's standard alloy products earned 16.3% (ATI, 2026b; Carpenter Technology, 2026b). Airbus expects the aviation services market to more than double to over USD 420 billion by 2045, with off-wing maintenance at USD 217 billion (Airbus, 2026c).
-
-Two technologies will change demand. 3D-printed high-temperature alloys such as NASA's GRX-810 last more than 1,000 times longer under stress at 2,000°F than current alloys, which creates demand for alloy powders (NASA Glenn Research Center, 2022). Ceramic matrix composites, which withstand up to 2,700°F, could replace nickel superalloys in the hottest engine parts (NASA Glenn Research Center, 2016).
-
-What the company should do:
-
-* Sell nickel superalloy bar and sheet to engine makers, starting with Safran as the closest European customer, while LEAP production grows.
-* Use the current parts shortages to get approved as an additional supplier; approval takes years, so it should start now.
-* Grow welding wire and repair alloys for the expanding aftermarket.
-* Develop powders for 3D-printed engine parts, and track ceramic composites as a substitution risk.
-* Buy cobalt from more than one region to reduce the supply risk from the Congo.
+What the company should do: the company should qualify for repeating orders in billet sold through a named forger, in sheet only where the mill is already approved, and in repair wire, and it should treat a 2025 shortage as a second source conversation rather than as an entry to a disc. Powders stay an option until a printer programme is financed, and ceramic matrix composites are tracked only as a substitute for the hottest static parts. Industrial gas turbines use the same grades and sit on this qualification list, with Haynes the part of Acerinox High Performance Alloys that faces that demand and VDM the part that faces the weak chemical and oil and gas year [CO_ACX_HPA_MIX_2025].

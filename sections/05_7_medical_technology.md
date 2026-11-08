@@ -1,51 +1,40 @@
 ## 5.7 Medical Technology
 
-Medical technology is a steady market for the company, driven by ageing rather than fast growth. Hip and knee implant numbers in OECD countries grow about 2.7% a year to 2035. The best fit is zirconium and cobalt alloys for joint implants, followed by stainless steel for instruments and nickel alloys for imaging equipment; China offers large volumes, but at much lower prices.
+Medical technology is an option, not a growth mandate, because procedure counts rise on a logged path and the alloy mill ceiling is far smaller than implant maker revenue. The constant reporting set of hip and knee procedures rose from 1,797,396 in 2013 to 2,501,707 in 2023, a compound rate of 3.36 percent a year, and members reporting both procedures in 2023 recorded 2,751,272 [MED_OECD_HK_COUNT_2023]. A 2035 count of about 3.72 million is that logged rate applied to the constant set for twelve years, and it is a team estimate of procedures rather than of bar [TE_MED_IMPLANT_2035]. The device market path is an illustration from 2023 to 2035 at 5.3 percent a year, which is a different window from the Chapter 7 medical rate that starts in 2025, and Appendix A3 already requires that label.
 
 ### 5.7.1 Historical and Current Market Overview
 
-The global medical device market was USD 529.1 billion in 2023 (Korea Health Industry Development Institute, 2025). At the institute's 5.3% annual growth rate for the bio-health industry, it reaches about USD 980 billion by 2035. The United States accounts for 46.4% of world device sales and Europe for 26.4%, or EUR 170 billion in 2024 (MedTech Europe, 2025). In Asia, China's market grew from CNY 941.7 billion in 2024 to about CNY 1.22 trillion in 2025 (China Federation of Logistics and Purchasing, 2025), and Japan imports more devices (JPY 3.45 trillion) than it produces (JPY 2.66 trillion) (Ministry of Health, Labour and Welfare, 2026).
+Germany recorded 292,143 hip procedures and 223,133 knee procedures in 2023, and Lithuania's hip count almost doubled over 2013 to 2023, so the procedure growth is real and uneven [MED_OECD_HK_COUNT_2023]. No official source used here publishes the metal weight per implant, so the procedure count stays the indicator and is not converted into tonnes. The device market illustration is kept in the table only to show that a 5.3 percent value path from 2023 is not the 2 percent application rate from 2025 in Chapter 7.
 
-Ageing is the main driver. The number of people aged 60 and over rises from 1.0 billion in 2020 to 1.4 billion in 2030 (World Health Organization, 2024). Joint replacement rates are rising in almost all OECD countries: the OECD average in 2023 was 198 hip and 156 knee replacements per 100,000 people (OECD, 2025).
+Table 12: Medical activity, with the device path labelled as an illustration from 2023
 
-Table 7: Medical technology market, today and in 2035
+| Measure | Logged reading | Later reading |
+| --- | --- | --- |
+| Device market illustration | 2023 base | 2035 at 5.3 percent a year from 2023, illustration only, not the Chapter 7 rate |
+| Hip and knee procedures, members reporting both | 2,751,272 in 2023 | Not a 28 country total |
+| Constant reporting set | 1,797,396 in 2013 to 2,501,707 in 2023 | About 3.72 million in 2035 if 3.36 percent a year continues, team estimate |
+| Carpenter medical sales | USD 224 million excluding surcharge in fiscal 2026, down 24 percent | USD 278 million including surcharge, down 21 percent |
 
-| Measure | Today | 2035 | Change |
-|---|---|---|---|
-| Global medical device market | USD 529 bn (2023) | about USD 980 bn | +5.3% a year |
-| Hip and knee implants, 28 OECD countries | 2.7 million (2023) | about 3.8 million | +2.7% a year |
-| Hip replacements per 100,000 people (OECD) | 198 (2023) | n/a | 158 in 2013 |
-| Knee replacements per 100,000 people (OECD) | 156 (2023) | n/a | 116 in 2013 |
-| People aged 60 and over | 1.0 bn (2020) | 1.4 bn (2030) | n/a |
+*Sources: Procedures are [MED_OECD_HK_COUNT_2023, TE_MED_IMPLANT_2035], Carpenter medical sales are [MED_CRS_MED_EXSUR_2026], and the device row is the illustration required by Appendix A3.*
 
-*Sources: Korea Health Industry Development Institute (2025), OECD (2025), World Health Organization (2024). 2035 values are our estimate: the device market grows at the institute's bio-health rate, and implant numbers follow the 2013-2023 trend in replacement rates. The United States, Japan and China are not included, as the OECD has no rate for them.*
-
-Germany, Switzerland and Austria have the highest rates, with Germany at 351 hip and 268 knee replacements per 100,000 people, and Central and Eastern Europe is catching up fastest: Lithuania's hip rate almost doubled since 2013 (OECD, 2025). No official source publishes the metal weight per implant, so implant numbers are used as the measurable indicator. Prices are under pressure in China, where central purchasing cut the prices of artificial hips and knees by 82% (National Healthcare Security Administration, 2022).
+Prices are under pressure in China, where central purchasing cut the prices of artificial hips and knees by 82 percent, which is why China tenders are on the stop list [MED_NHSA_VBP_2022]. The alloy opportunity, if any, is a bar the company itself has qualified, and the next subsection says how far the public record is from that point.
 
 ### 5.7.2 Key Applications and Opportunities for the Company
 
-Joint implants use cobalt-chromium and zirconium alloys. Oxidized zirconium parts cut polyethylene wear by 40-90% in simulator tests (ASTM International, n.d.), while titanium alloys can replace cobalt in some prostheses (U.S. Geological Survey, 2026). The company also sells stainless steel for surgical instruments, nickel-iron alloys for MRI and X-ray equipment, and cobalt-chromium powder for 3D-printed implants (VDM Metals, n.d.-c), and the FDA has issued technical guidance for 3D-printed devices (U.S. Food and Drug Administration, 2023). Table 8 shows these applications.
+The benchmark application, from the VDM Metals portfolio, covers cobalt chromium and zirconium bar for joints, stainless wire for instruments, nickel iron strip for imaging equipment, and cobalt chromium powder for printed implants. What Münvest would need before this is an order is an implant maker and a regulatory path that are the company's own. Oxidized zirconium is Smith and Nephew's OXINIUM route, not a generic zirconium bar for every implant maker, and shipment, approval and share are unconfirmed.
 
-Table 8: The company's medical technology applications, outlook to 2035
+Table 13: Benchmark medical applications, outlook to 2035
 
-| Outlook | Applications | Materials and product forms |
-|---|---|---|
-| Grows | Hip and knee implants in Germany, Switzerland, Austria, Central and Eastern Europe and Korea | Cobalt alloy and zirconium bar |
-| Grows | Oxidized zirconium joint parts | Zirconium bar |
-| Grows | 3D-printed implants | Cobalt-chromium powder |
-| Stable | Surgical instruments; MRI and X-ray equipment parts | Stainless steel wire; nickel alloy strip |
-| Falls | Hip and knee implants in China | Cobalt alloy bar |
+| Outlook | Applications | Form |
+| --- | --- | --- |
+| Option | Hip and knee implants where the company holds the path | Cobalt alloy and zirconium bar |
+| Not a generic bar | Oxidized zirconium parts | Smith and Nephew OXINIUM route |
+| Option, financed printer only | Printed implants | Cobalt chromium powder |
+| Keep only if already profitable | Instruments and imaging | Stainless wire and nickel alloy strip |
+| Stop | China implant tenders | Cobalt alloy bar |
 
-*Sources: ASTM International (n.d.), National Healthcare Security Administration (2022), OECD (2025), VDM Metals (n.d.-c). The outlook is our assessment.*
+*Sources: The application list is the VDM Metals portfolio used as a benchmark only, the China price cut is [MED_NHSA_VBP_2022], and the outlook is the Chapter 8 verb rather than a Münvest qualification.*
 
-Customers are a few large implant makers. Stryker sold USD 2.7 billion of knees and USD 1.9 billion of hips in 2025, and Zimmer Biomet USD 3.3 billion and USD 2.1 billion; Smith & Nephew (revenue USD 6.2 billion) and Johnson & Johnson, which plans to separate its orthopaedics business, complete the group (Johnson & Johnson, 2026; Smith & Nephew, 2026; Stryker, 2026; Zimmer Biomet, 2026). Most of the value sits with these companies, which earn adjusted operating margins of 26-28% (Stryker, 2026; Zimmer Biomet, 2026).
+Stryker sold about USD 2.7 billion of knees and USD 1.9 billion of hips in 2025, and Zimmer Biomet sold about USD 3.3 billion and USD 2.1 billion, while Smith and Nephew reported revenue of about USD 6.2 billion [CO_STRYKER_ORTHO_2025, CO_ZBH_PRODUCTS_2025, CO_SNN_REV_2025]. Those figures are OEM revenues, and for an alloy mill Carpenter medical sales of USD 224 million exclude surcharge, with the same book at USD 278 million including surcharge and down 21 percent [MED_CRS_MED_EXSUR_2026]. That Carpenter figure is the ceiling this chapter uses for the mill, because the OEM totals are implant maker revenue. Acerinox High Performance Alloys is named once if a cobalt chromium grade is contested, and its 47 thousand finished tonnes are not medical tonnes [NI_ACX_HPA_2025].
 
-For alloy suppliers, medical is a smaller and less stable market: Carpenter's medical sales fell 24% to USD 224 million in fiscal year 2026, and medical is 3% of ATI's sales (ATI, 2026b; Carpenter Technology, 2026b). Other competitors are Daido Steel in titanium alloys for artificial joints and Aperam in instrument stainless steel and cobalt and magnetic alloys (Aperam, n.d.-b; Daido Steel, n.d.).
-
-What the company should do:
-
-* Focus on zirconium and cobalt alloy bar for implant makers, with Germany, Switzerland and Austria as home markets and Central and Eastern Europe as the growth region.
-* Develop medical-grade powders for 3D-printed implants.
-* Grow stainless steel for surgical instruments and nickel alloys for imaging equipment, which depend less on implant prices.
-* Be selective in China, where volumes are large but prices have been cut sharply.
-* Approach the separated Johnson & Johnson orthopaedics business as a new buyer.
+What the company should do: the company should treat zirconium and cobalt implant bar as an option until an implant maker and a regulatory path are its own, and it should not approach a buyer on the strength of a catalogue. Powders stay inside the same financed programme gate used in energy and in aerospace. China implant tenders are on the stop list after the price cuts, and instrument and imaging business is harvested only where it is already profitable and less exposed to those implant prices.

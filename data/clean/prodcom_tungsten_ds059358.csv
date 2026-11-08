@@ -1,0 +1,29 @@
+product,product_name,reporter,year,indicator,value,unit,flag,rounding_base,notes
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2022,Sold production quantity,9000000,KG,:R,3000000,"gross kg of the product, not contained tungsten"
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2022,Sold production value,300000000,EUR,:R,300000000,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2023,Sold production quantity,9500000,KG,:R,500000,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2023,Sold production value,390000000,EUR,:R,30000000,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2024,Sold production quantity,9600000,KG,:R,800000,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2024,Sold production value,400000000,EUR,:R,40000000,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2024,Production on own account quantity,8908119,KG,:E,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2024,Exports quantity,109111,KG,,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2024,Exports value,5448317,EUR,,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2024,Imports quantity,313001,KG,,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",EU27_2020,2024,Imports value,15929921,EUR,,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",AT,2023,Sold production quantity,5618344,KG,,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",AT,2023,Sold production value,243505000,EUR,,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",AT,2024,Sold production quantity,6440477,KG,,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",AT,2024,Sold production value,268561000,EUR,,,
+24453014,"Tungsten powder and unwrought tungsten, incl. bars and rods obtained simply by sintering",AT,2022,Sold production quantity,,KG,:C,,confidential
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2022,Sold production quantity,1746926,KG,:E,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2022,Sold production value,170743820,EUR,:E,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2023,Sold production quantity,1963994,KG,:E,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2023,Sold production value,190428164,EUR,:E,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2024,Sold production quantity,2377218,KG,:E,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2024,Sold production value,310906092,EUR,:E,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2024,Exports quantity,168190,KG,,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2024,Exports value,29171555,EUR,,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2024,Imports quantity,424198,KG,,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",EU27_2020,2024,Imports value,62929370,EUR,,,
+24453015,"Tungsten mill products: bars and rods other than simply sintered, profiles, wire, plates, sheets, strip and foil",AT,2024,Sold production quantity,,KG,:C,,confidential
+24453013,"Code returned data for 2019 to 2021 and empty from 2022. Official heading not confirmed on the list page opened, so the tonnes are not used as a continuous series.",EU27_2020,2021,Sold production quantity,14000000,KG,:R,2000000,not used in the note as a continuous series

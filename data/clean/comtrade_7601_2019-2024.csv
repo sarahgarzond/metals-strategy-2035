@@ -1,0 +1,121 @@
+hs,hs_desc,reporter,reporter_code,partner,partner_code,flow,year,value_usd,net_weight_kg,qty,qty_unit
+7601,Unwrought aluminium,China,156,World,0,Import,2019,519949391.0,291288063.085,291288063.085,kg
+7601,Unwrought aluminium,China,156,World,0,Import,2020,3817815634.0,2298842430.408,2298842430.408,kg
+7601,Unwrought aluminium,China,156,World,0,Import,2021,6656985331.0,2733976168.886,2733976168.886,kg
+7601,Unwrought aluminium,China,156,World,0,Import,2022,4802595103.0,1946041434.771,1946041434.771,kg
+7601,Unwrought aluminium,China,156,World,0,Import,2023,6002153562.0,2675299744.559,2675299744.559,kg
+7601,Unwrought aluminium,China,156,World,0,Import,2024,7976815025.0,3349947841.619,3349947841.619,kg
+7601,Unwrought aluminium,China,156,World,0,Export,2019,1100532854.0,577707821.0,577707821.0,kg
+7601,Unwrought aluminium,China,156,World,0,Export,2020,419065356.0,223910475.0,223910475.0,kg
+7601,Unwrought aluminium,China,156,World,0,Export,2021,416916985.0,157765355.642,157765355.642,kg
+7601,Unwrought aluminium,China,156,World,0,Export,2022,1312762255.0,421141548.08,421141548.08,kg
+7601,Unwrought aluminium,China,156,World,0,Export,2023,992808456.0,,0.0,N/A
+7601,Unwrought aluminium,China,156,World,0,Export,2024,942003775.0,363440277.224,363440277.224,kg
+7601,Unwrought aluminium,Germany,276,World,0,Import,2019,5076877537.596,,0.0,N/A
+7601,Unwrought aluminium,Germany,276,World,0,Import,2020,3908365101.114,1989571864.499,1989571864.499,kg
+7601,Unwrought aluminium,Germany,276,World,0,Import,2021,6345555355.845,2372080124.8,2372080124.8,kg
+7601,Unwrought aluminium,Germany,276,World,0,Import,2022,8692651439.871,2556676606.05,2556676606.05,kg
+7601,Unwrought aluminium,Germany,276,World,0,Import,2023,6635367714.107,2490831307.777,2490831307.777,kg
+7601,Unwrought aluminium,Germany,276,World,0,Import,2024,6166446956.667,2211839811.406,2211839811.406,kg
+7601,Unwrought aluminium,Germany,276,World,0,Export,2019,961632594.139,455186302.068,455186302.068,kg
+7601,Unwrought aluminium,Germany,276,World,0,Export,2020,1009170436.216,492498646.588,492498646.588,kg
+7601,Unwrought aluminium,Germany,276,World,0,Export,2021,1363307651.869,506952246.019,506952246.019,kg
+7601,Unwrought aluminium,Germany,276,World,0,Export,2022,1778729977.696,530044560.909,530044560.909,kg
+7601,Unwrought aluminium,Germany,276,World,0,Export,2023,1402996141.09,,0.0,N/A
+7601,Unwrought aluminium,Germany,276,World,0,Export,2024,1251632545.283,449498423.032,0.0,N/A
+7601,Unwrought aluminium,Indonesia,360,World,0,Import,2019,521644628.0,269650042.02,269650042.02,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Import,2020,353010303.0,192220521.016,192220521.016,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Import,2021,705042469.0,273259864.845,273259864.845,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Import,2022,726628999.0,243368421.762,0.0,N/A
+7601,Unwrought aluminium,Indonesia,360,World,0,Import,2023,657125849.0,,0.0,N/A
+7601,Unwrought aluminium,Indonesia,360,World,0,Import,2024,613171853.0,238892836.359,238892836.359,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Export,2019,121009065.243,71648451.07,71648451.07,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Export,2020,273295892.187,168052443.25,168052443.25,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Export,2021,303184803.523,122611381.03,122611381.03,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Export,2022,359398206.227,129525469.775,129525469.775,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Export,2023,414239489.093,1161569939.671,1161569939.671,kg
+7601,Unwrought aluminium,Indonesia,360,World,0,Export,2024,975102102.288,,0.0,N/A
+7601,Unwrought aluminium,Italy,380,World,0,Import,2019,2561970084.493,1272851911.0,1272851911.0,kg
+7601,Unwrought aluminium,Italy,380,World,0,Import,2020,1974199302.345,1064741763.0,1064741763.0,kg
+7601,Unwrought aluminium,Italy,380,World,0,Import,2021,3451641621.831,1338878263.0,1338878263.0,kg
+7601,Unwrought aluminium,Italy,380,World,0,Import,2022,4807957003.563,1443754221.0,1443754221.0,kg
+7601,Unwrought aluminium,Italy,380,World,0,Import,2023,3326553360.117,1262366177.497,1262366177.497,kg
+7601,Unwrought aluminium,Italy,380,World,0,Import,2024,3373235916.46,,0.0,N/A
+7601,Unwrought aluminium,Italy,380,World,0,Export,2019,750510346.314,400519549.179,400519549.179,kg
+7601,Unwrought aluminium,Italy,380,World,0,Export,2020,731919167.103,422553359.029,422553359.029,kg
+7601,Unwrought aluminium,Italy,380,World,0,Export,2021,1098690852.143,427180556.308,427180556.308,kg
+7601,Unwrought aluminium,Italy,380,World,0,Export,2022,1696491954.001,513555167.0,513555167.0,kg
+7601,Unwrought aluminium,Italy,380,World,0,Export,2023,1516321849.008,,0.0,N/A
+7601,Unwrought aluminium,Italy,380,World,0,Export,2024,1685266620.015,,0.0,N/A
+7601,Unwrought aluminium,Japan,392,World,0,Import,2019,4790822910.375,0.0,0.0,N/A
+7601,Unwrought aluminium,Japan,392,World,0,Import,2020,3582813919.403,2052150535.0,2052150535.0,kg
+7601,Unwrought aluminium,Japan,392,World,0,Import,2021,6229741791.906,2537179132.735,2537179132.735,kg
+7601,Unwrought aluminium,Japan,392,World,0,Import,2022,7001187632.488,2456757475.346,2456757475.346,kg
+7601,Unwrought aluminium,Japan,392,World,0,Import,2023,5058755400.741,2109193954.0,2109193954.0,kg
+7601,Unwrought aluminium,Japan,392,World,0,Import,2024,5253851280.501,2116206448.919,2116206448.919,kg
+7601,Unwrought aluminium,Japan,392,World,0,Export,2019,56613941.091,18092974.902,18092974.902,kg
+7601,Unwrought aluminium,Japan,392,World,0,Export,2020,56891741.082,0.0,0.0,N/A
+7601,Unwrought aluminium,Japan,392,World,0,Export,2021,95634340.485,28629603.034,28629603.034,kg
+7601,Unwrought aluminium,Japan,392,World,0,Export,2022,80998579.731,21657264.0,21657264.0,kg
+7601,Unwrought aluminium,Japan,392,World,0,Export,2023,43904497.742,12110436.0,12110436.0,kg
+7601,Unwrought aluminium,Japan,392,World,0,Export,2024,53143087.834,,0.0,N/A
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Import,2019,2944235512.0,1508644593.463,1508644593.463,kg
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Import,2020,2527212714.0,1389826077.541,1389826077.541,kg
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Import,2021,4040362586.0,1544513210.41,1544513210.41,kg
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Import,2022,4514363404.0,,0.0,N/A
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Import,2023,3752158532.0,,0.0,N/A
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Import,2024,4044920819.0,1570032687.765,1570032687.765,kg
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Export,2019,445527542.0,,0.0,N/A
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Export,2020,635262180.0,,0.0,N/A
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Export,2021,928488838.0,,0.0,N/A
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Export,2022,902028158.0,297331135.237,297331135.237,kg
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Export,2023,606775795.0,245058450.655,245058450.655,kg
+7601,Unwrought aluminium,Rep. of Korea,410,World,0,Export,2024,704346206.0,,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Import,2019,484533646.541,,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Import,2020,357056356.282,0.0,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Import,2021,625904578.295,0.0,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Import,2022,726403376.665,,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Import,2023,407381687.72,,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Import,2024,517220130.384,,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Export,2019,517529682.746,,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Export,2020,413174071.167,0.0,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Export,2021,667685514.365,0.0,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Export,2022,851457928.496,,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Export,2023,620044378.545,,0.0,N/A
+7601,Unwrought aluminium,United Kingdom,826,World,0,Export,2024,668662103.205,,0.0,N/A
+7601,Unwrought aluminium,USA,842,World,0,Import,2019,8954041747.0,0.0,0.0,N/A
+7601,Unwrought aluminium,USA,842,World,0,Import,2020,6973439361.0,0.0,0.0,N/A
+7601,Unwrought aluminium,USA,842,World,0,Import,2021,11538565639.0,0.0,0.0,N/A
+7601,Unwrought aluminium,USA,842,World,0,Import,2022,15327815199.0,4401079959.963,4401079959.963,kg
+7601,Unwrought aluminium,USA,842,World,0,Import,2023,11832957579.0,4157745491.529,4157745491.529,kg
+7601,Unwrought aluminium,USA,842,World,0,Import,2024,11068096915.0,3917445830.219,3917445830.219,kg
+7601,Unwrought aluminium,USA,842,World,0,Export,2019,1050376526.0,465694621.401,465694621.401,kg
+7601,Unwrought aluminium,USA,842,World,0,Export,2020,852079876.0,424146477.744,424146477.744,kg
+7601,Unwrought aluminium,USA,842,World,0,Export,2021,1257548582.0,0.0,0.0,N/A
+7601,Unwrought aluminium,USA,842,World,0,Export,2022,1827929418.0,543329357.452,543329357.452,kg
+7601,Unwrought aluminium,USA,842,World,0,Export,2023,1664636492.0,,0.0,N/A
+7601,Unwrought aluminium,USA,842,World,0,Export,2024,1709784804.0,776959758.426,776959758.426,kg
+7601,Unwrought aluminium,France,251,World,0,Export,2019,577347614.412,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Export,2020,531865427.91,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Export,2021,872330536.074,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Export,2022,892253364.066,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Export,2023,668840760.897,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Export,2024,825537184.655,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Import,2019,1189456342.815,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Import,2020,935155766.482,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Import,2021,1452628652.356,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Import,2022,1946280250.253,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Import,2023,1592772750.898,,0.0,N/A
+7601,Unwrought aluminium,France,251,World,0,Import,2024,1441103806.003,,0.0,N/A
+7601,Unwrought aluminium,India,699,World,0,Export,2019,3766634456.252,1962131130.988,1962131130.988,kg
+7601,Unwrought aluminium,India,699,World,0,Export,2020,3919966433.081,2144802390.816,2144802390.816,kg
+7601,Unwrought aluminium,India,699,World,0,Export,2021,6972390667.361,2667991889.745,2667991889.745,kg
+7601,Unwrought aluminium,India,699,World,0,Export,2022,7079708837.833,2445921172.85,2445921172.85,kg
+7601,Unwrought aluminium,India,699,World,0,Export,2023,4759298481.017,1957292778.135,1957292778.135,kg
+7601,Unwrought aluminium,India,699,World,0,Export,2024,4753326030.17,2013322253.976,2013322253.976,kg
+7601,Unwrought aluminium,India,699,World,0,Import,2019,537694387.159,267071698.601,267071698.601,kg
+7601,Unwrought aluminium,India,699,World,0,Import,2020,463737987.001,240888105.558,240888105.558,kg
+7601,Unwrought aluminium,India,699,World,0,Import,2021,604385360.622,240725986.0,240725986.0,kg
+7601,Unwrought aluminium,India,699,World,0,Import,2022,804902703.102,257897842.491,257897842.491,kg
+7601,Unwrought aluminium,India,699,World,0,Import,2023,901796632.279,,0.0,N/A
+7601,Unwrought aluminium,India,699,World,0,Import,2024,1059238716.761,,0.0,N/A

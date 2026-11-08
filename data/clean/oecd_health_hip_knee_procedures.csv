@@ -1,0 +1,957 @@
+country,country_name,procedure,year,procedures
+AUS,Australia,hip,2013,41281
+AUS,Australia,hip,2014,43084
+AUS,Australia,hip,2015,45650
+AUS,Australia,hip,2016,47043
+AUS,Australia,hip,2017,48014
+AUS,Australia,hip,2018,48999
+AUS,Australia,hip,2019,43375
+AUS,Australia,hip,2020,50669
+AUS,Australia,hip,2021,47735
+AUS,Australia,hip,2022,55537
+AUS,Australia,hip,2023,57550
+AUS,Australia,hip,2024,57273
+AUS,Australia,knee,2013,44193
+AUS,Australia,knee,2014,46238
+AUS,Australia,knee,2015,49474
+AUS,Australia,knee,2016,51380
+AUS,Australia,knee,2017,52060
+AUS,Australia,knee,2018,52630
+AUS,Australia,knee,2019,51418
+AUS,Australia,knee,2020,64538
+AUS,Australia,knee,2021,55144
+AUS,Australia,knee,2022,68615
+AUS,Australia,knee,2023,72502
+AUS,Australia,knee,2024,70472
+AUT,Austria,hip,2013,23409
+AUT,Austria,hip,2014,23822
+AUT,Austria,hip,2015,23401
+AUT,Austria,hip,2016,23837
+AUT,Austria,hip,2017,25114
+AUT,Austria,hip,2018,26388
+AUT,Austria,hip,2019,26183
+AUT,Austria,hip,2020,23470
+AUT,Austria,hip,2021,25728
+AUT,Austria,hip,2022,27334
+AUT,Austria,hip,2023,28640
+AUT,Austria,hip,2024,30260
+AUT,Austria,knee,2013,18260
+AUT,Austria,knee,2014,18881
+AUT,Austria,knee,2015,18559
+AUT,Austria,knee,2016,18497
+AUT,Austria,knee,2017,20008
+AUT,Austria,knee,2018,20327
+AUT,Austria,knee,2019,20296
+AUT,Austria,knee,2020,16112
+AUT,Austria,knee,2021,17493
+AUT,Austria,knee,2022,19251
+AUT,Austria,knee,2023,21417
+AUT,Austria,knee,2024,22532
+BEL,Belgium,hip,2013,27630
+BEL,Belgium,hip,2014,28523
+BEL,Belgium,hip,2016,29991
+BEL,Belgium,hip,2017,31177
+BEL,Belgium,hip,2018,31378
+BEL,Belgium,hip,2019,32552
+BEL,Belgium,hip,2020,26469
+BEL,Belgium,hip,2021,31438
+BEL,Belgium,hip,2022,32931
+BEL,Belgium,hip,2023,33956
+BEL,Belgium,hip,2024,34244
+BEL,Belgium,knee,2013,21215
+BEL,Belgium,knee,2014,22673
+BEL,Belgium,knee,2016,24684
+BEL,Belgium,knee,2017,23835
+BEL,Belgium,knee,2018,23683
+BEL,Belgium,knee,2019,24373
+BEL,Belgium,knee,2020,15818
+BEL,Belgium,knee,2021,18959
+BEL,Belgium,knee,2022,21021
+BEL,Belgium,knee,2023,23084
+BEL,Belgium,knee,2024,26121
+BGR,Bulgaria,hip,2017,8023
+BGR,Bulgaria,hip,2018,8271
+BGR,Bulgaria,hip,2019,9241
+BGR,Bulgaria,hip,2020,7463
+BGR,Bulgaria,hip,2021,8768
+BGR,Bulgaria,hip,2022,10453
+BGR,Bulgaria,hip,2023,11566
+BGR,Bulgaria,hip,2024,11946
+BGR,Bulgaria,knee,2017,2128
+BGR,Bulgaria,knee,2018,2216
+BGR,Bulgaria,knee,2019,2525
+BGR,Bulgaria,knee,2020,1918
+BGR,Bulgaria,knee,2021,2169
+BGR,Bulgaria,knee,2022,3227
+BGR,Bulgaria,knee,2023,3807
+BGR,Bulgaria,knee,2024,4574
+CAN,Canada,hip,2013,49605
+CAN,Canada,hip,2014,51377
+CAN,Canada,hip,2015,52990
+CAN,Canada,hip,2016,55720
+CAN,Canada,hip,2017,58241
+CAN,Canada,hip,2018,61731
+CAN,Canada,hip,2019,63208
+CAN,Canada,hip,2020,54991
+CAN,Canada,hip,2021,58393
+CAN,Canada,hip,2022,70763
+CAN,Canada,hip,2023,75553
+CAN,Canada,hip,2024,79060
+CAN,Canada,knee,2013,59958
+CAN,Canada,knee,2014,61166
+CAN,Canada,knee,2015,63756
+CAN,Canada,knee,2016,66768
+CAN,Canada,knee,2017,70028
+CAN,Canada,knee,2018,74846
+CAN,Canada,knee,2019,74559
+CAN,Canada,knee,2020,54918
+CAN,Canada,knee,2021,58083
+CAN,Canada,knee,2022,78846
+CAN,Canada,knee,2023,90143
+CAN,Canada,knee,2024,95356
+CHE,Switzerland,hip,2014,24552
+CHE,Switzerland,hip,2015,25262
+CHE,Switzerland,hip,2016,26267
+CHE,Switzerland,hip,2017,26080
+CHE,Switzerland,hip,2018,26163
+CHE,Switzerland,hip,2019,26835
+CHE,Switzerland,hip,2020,26431
+CHE,Switzerland,hip,2021,28081
+CHE,Switzerland,hip,2022,29694
+CHE,Switzerland,hip,2023,30991
+CHE,Switzerland,hip,2024,32246
+CHE,Switzerland,knee,2014,17549
+CHE,Switzerland,knee,2015,19843
+CHE,Switzerland,knee,2016,21379
+CHE,Switzerland,knee,2017,21207
+CHE,Switzerland,knee,2018,21021
+CHE,Switzerland,knee,2019,22042
+CHE,Switzerland,knee,2020,21833
+CHE,Switzerland,knee,2021,23493
+CHE,Switzerland,knee,2022,26290
+CHE,Switzerland,knee,2023,27991
+CHE,Switzerland,knee,2024,29568
+COL,Colombia,hip,2015,4051
+COL,Colombia,hip,2016,3296
+COL,Colombia,hip,2017,4096
+COL,Colombia,hip,2018,4221
+COL,Colombia,hip,2019,5778
+COL,Colombia,hip,2020,4878
+COL,Colombia,hip,2021,4801
+COL,Colombia,hip,2022,6147
+COL,Colombia,hip,2023,5868
+COL,Colombia,hip,2024,7305
+COL,Colombia,knee,2015,3477
+COL,Colombia,knee,2016,2596
+COL,Colombia,knee,2017,4342
+COL,Colombia,knee,2018,3930
+COL,Colombia,knee,2019,5654
+COL,Colombia,knee,2020,3712
+COL,Colombia,knee,2021,3185
+COL,Colombia,knee,2022,5466
+COL,Colombia,knee,2023,6027
+COL,Colombia,knee,2024,8990
+CRI,Costa Rica,hip,2013,616
+CRI,Costa Rica,hip,2014,720
+CRI,Costa Rica,hip,2015,773
+CRI,Costa Rica,hip,2016,804
+CRI,Costa Rica,hip,2017,1018
+CRI,Costa Rica,hip,2018,965
+CRI,Costa Rica,hip,2019,1177
+CRI,Costa Rica,hip,2020,722
+CRI,Costa Rica,hip,2021,922
+CRI,Costa Rica,hip,2022,1097
+CRI,Costa Rica,hip,2023,1192
+CRI,Costa Rica,hip,2024,1322
+CRI,Costa Rica,knee,2013,319
+CRI,Costa Rica,knee,2014,413
+CRI,Costa Rica,knee,2015,569
+CRI,Costa Rica,knee,2016,602
+CRI,Costa Rica,knee,2017,954
+CRI,Costa Rica,knee,2018,868
+CRI,Costa Rica,knee,2019,1408
+CRI,Costa Rica,knee,2020,507
+CRI,Costa Rica,knee,2021,498
+CRI,Costa Rica,knee,2022,1127
+CRI,Costa Rica,knee,2023,1285
+CRI,Costa Rica,knee,2024,1549
+CYP,Cyprus,hip,2013,417
+CYP,Cyprus,hip,2014,412
+CYP,Cyprus,hip,2015,434
+CYP,Cyprus,hip,2016,398
+CYP,Cyprus,hip,2017,497
+CYP,Cyprus,hip,2018,483
+CYP,Cyprus,hip,2019,522
+CYP,Cyprus,hip,2020,200
+CYP,Cyprus,hip,2021,925
+CYP,Cyprus,hip,2022,1123
+CYP,Cyprus,hip,2023,1454
+CYP,Cyprus,hip,2024,1399
+CYP,Cyprus,knee,2013,395
+CYP,Cyprus,knee,2014,380
+CYP,Cyprus,knee,2015,327
+CYP,Cyprus,knee,2016,353
+CYP,Cyprus,knee,2017,445
+CYP,Cyprus,knee,2018,473
+CYP,Cyprus,knee,2019,410
+CYP,Cyprus,knee,2020,132
+CYP,Cyprus,knee,2021,980
+CYP,Cyprus,knee,2022,1337
+CYP,Cyprus,knee,2023,2066
+CYP,Cyprus,knee,2024,1801
+CZE,Czechia,hip,2013,18760
+CZE,Czechia,hip,2014,19873
+CZE,Czechia,hip,2015,19856
+CZE,Czechia,hip,2016,20710
+CZE,Czechia,hip,2017,21502
+CZE,Czechia,hip,2018,21940
+CZE,Czechia,hip,2019,18446
+CZE,Czechia,hip,2020,19503
+CZE,Czechia,hip,2021,20804
+CZE,Czechia,hip,2022,28070
+CZE,Czechia,hip,2023,29576
+CZE,Czechia,hip,2024,30154
+CZE,Czechia,knee,2013,12247
+CZE,Czechia,knee,2014,13342
+CZE,Czechia,knee,2015,13622
+CZE,Czechia,knee,2016,14360
+CZE,Czechia,knee,2017,14657
+CZE,Czechia,knee,2018,15417
+CZE,Czechia,knee,2019,12252
+CZE,Czechia,knee,2020,11818
+CZE,Czechia,knee,2021,10860
+CZE,Czechia,knee,2022,18270
+CZE,Czechia,knee,2023,21354
+CZE,Czechia,knee,2024,23169
+DEU,Germany,hip,2013,228162
+DEU,Germany,hip,2014,237067
+DEU,Germany,hip,2015,244496
+DEU,Germany,hip,2016,250661
+DEU,Germany,hip,2017,255720
+DEU,Germany,hip,2018,257487
+DEU,Germany,hip,2019,261675
+DEU,Germany,hip,2020,244590
+DEU,Germany,hip,2021,250277
+DEU,Germany,hip,2022,273309
+DEU,Germany,hip,2023,292143
+DEU,Germany,hip,2024,299948
+DEU,Germany,knee,2013,153210
+DEU,Germany,knee,2014,159686
+DEU,Germany,knee,2015,168141
+DEU,Germany,knee,2016,179993
+DEU,Germany,knee,2017,184666
+DEU,Germany,knee,2018,184688
+DEU,Germany,knee,2019,188985
+DEU,Germany,knee,2020,169116
+DEU,Germany,knee,2021,167359
+DEU,Germany,knee,2022,193623
+DEU,Germany,knee,2023,223133
+DEU,Germany,knee,2024,240820
+DNK,Denmark,hip,2013,12831
+DNK,Denmark,hip,2014,13209
+DNK,Denmark,hip,2015,13450
+DNK,Denmark,hip,2016,14141
+DNK,Denmark,hip,2017,14287
+DNK,Denmark,hip,2018,14303
+DNK,Denmark,hip,2019,15028
+DNK,Denmark,hip,2020,14525
+DNK,Denmark,hip,2021,13796
+DNK,Denmark,hip,2022,16716
+DNK,Denmark,hip,2023,18005
+DNK,Denmark,hip,2024,17771
+DNK,Denmark,knee,2013,9461
+DNK,Denmark,knee,2014,9727
+DNK,Denmark,knee,2015,9533
+DNK,Denmark,knee,2016,9346
+DNK,Denmark,knee,2017,9477
+DNK,Denmark,knee,2018,10617
+DNK,Denmark,knee,2019,11813
+DNK,Denmark,knee,2020,11246
+DNK,Denmark,knee,2021,10060
+DNK,Denmark,knee,2022,13471
+DNK,Denmark,knee,2023,15622
+DNK,Denmark,knee,2024,15772
+ESP,Spain,hip,2013,49487
+ESP,Spain,hip,2014,51556
+ESP,Spain,hip,2015,52002
+ESP,Spain,hip,2016,51975
+ESP,Spain,hip,2017,55808
+ESP,Spain,hip,2018,58657
+ESP,Spain,hip,2019,60501
+ESP,Spain,hip,2020,51366
+ESP,Spain,hip,2021,61199
+ESP,Spain,hip,2022,65504
+ESP,Spain,hip,2023,71043
+ESP,Spain,hip,2024,73611
+ESP,Spain,knee,2013,51784
+ESP,Spain,knee,2014,55885
+ESP,Spain,knee,2015,54969
+ESP,Spain,knee,2016,56312
+ESP,Spain,knee,2017,62816
+ESP,Spain,knee,2018,63887
+ESP,Spain,knee,2019,65316
+ESP,Spain,knee,2020,45764
+ESP,Spain,knee,2021,57315
+ESP,Spain,knee,2022,64080
+ESP,Spain,knee,2023,70230
+ESP,Spain,knee,2024,77298
+EST,Estonia,hip,2013,1877
+EST,Estonia,hip,2014,1869
+EST,Estonia,hip,2015,2048
+EST,Estonia,hip,2016,1923
+EST,Estonia,hip,2017,2052
+EST,Estonia,hip,2018,2250
+EST,Estonia,hip,2019,2241
+EST,Estonia,hip,2020,2290
+EST,Estonia,hip,2021,2285
+EST,Estonia,hip,2022,2479
+EST,Estonia,hip,2023,2835
+EST,Estonia,hip,2024,2797
+EST,Estonia,knee,2013,1275
+EST,Estonia,knee,2014,1305
+EST,Estonia,knee,2015,1231
+EST,Estonia,knee,2016,1171
+EST,Estonia,knee,2017,1084
+EST,Estonia,knee,2018,1432
+EST,Estonia,knee,2019,1458
+EST,Estonia,knee,2020,1377
+EST,Estonia,knee,2021,1248
+EST,Estonia,knee,2022,1466
+EST,Estonia,knee,2023,1693
+EST,Estonia,knee,2024,1657
+FIN,Finland,hip,2013,13179
+FIN,Finland,hip,2014,13360
+FIN,Finland,hip,2015,13583
+FIN,Finland,hip,2016,14468
+FIN,Finland,hip,2017,15056
+FIN,Finland,hip,2018,15528
+FIN,Finland,hip,2019,15295
+FIN,Finland,hip,2020,14646
+FIN,Finland,hip,2021,15752
+FIN,Finland,hip,2022,14462
+FIN,Finland,hip,2023,16570
+FIN,Finland,hip,2024,17959
+FIN,Finland,knee,2013,10963
+FIN,Finland,knee,2014,10436
+FIN,Finland,knee,2015,10267
+FIN,Finland,knee,2016,12099
+FIN,Finland,knee,2017,12451
+FIN,Finland,knee,2018,13370
+FIN,Finland,knee,2019,13285
+FIN,Finland,knee,2020,12931
+FIN,Finland,knee,2021,14458
+FIN,Finland,knee,2022,11809
+FIN,Finland,knee,2023,14714
+FIN,Finland,knee,2024,17928
+FRA,France,hip,2013,155153
+FRA,France,hip,2014,158124
+FRA,France,hip,2015,160267
+FRA,France,hip,2016,162061
+FRA,France,hip,2017,165810
+FRA,France,hip,2018,166505
+FRA,France,hip,2019,169458
+FRA,France,hip,2020,149181
+FRA,France,hip,2021,166560
+FRA,France,hip,2022,174098
+FRA,France,hip,2023,184264
+FRA,France,hip,2024,187699
+FRA,France,knee,2013,95525
+FRA,France,knee,2014,103298
+FRA,France,knee,2015,106561
+FRA,France,knee,2016,111505
+FRA,France,knee,2017,116665
+FRA,France,knee,2018,121754
+FRA,France,knee,2019,124648
+FRA,France,knee,2020,97790
+FRA,France,knee,2021,113628
+FRA,France,knee,2022,126238
+FRA,France,knee,2023,140047
+FRA,France,knee,2024,144317
+GBR,United Kingdom,hip,2013,117173
+GBR,United Kingdom,hip,2014,119882
+GBR,United Kingdom,hip,2015,118798
+GBR,United Kingdom,hip,2016,122917
+GBR,United Kingdom,hip,2017,119512
+GBR,United Kingdom,hip,2018,124322
+GBR,United Kingdom,hip,2019,121853
+GBR,United Kingdom,hip,2020,65482
+GBR,United Kingdom,hip,2021,121443
+GBR,United Kingdom,hip,2022,135199
+GBR,United Kingdom,hip,2023,141914
+GBR,United Kingdom,hip,2024,155553
+GBR,United Kingdom,knee,2013,90703
+GBR,United Kingdom,knee,2014,95948
+GBR,United Kingdom,knee,2015,96914
+GBR,United Kingdom,knee,2016,101523
+GBR,United Kingdom,knee,2017,96065
+GBR,United Kingdom,knee,2018,98651
+GBR,United Kingdom,knee,2019,95004
+GBR,United Kingdom,knee,2020,30808
+GBR,United Kingdom,knee,2021,73011
+GBR,United Kingdom,knee,2022,86638
+GBR,United Kingdom,knee,2023,98744
+GBR,United Kingdom,knee,2024,117444
+GRC,Greece,hip,2013,4236
+GRC,Greece,hip,2014,5039
+GRC,Greece,hip,2015,5537
+GRC,Greece,hip,2016,6809
+GRC,Greece,hip,2017,5464
+GRC,Greece,hip,2023,8168
+GRC,Greece,knee,2023,13672
+HRV,Croatia,hip,2013,5006
+HRV,Croatia,hip,2014,6291
+HRV,Croatia,hip,2015,5609
+HRV,Croatia,hip,2016,6933
+HRV,Croatia,hip,2017,6513
+HRV,Croatia,hip,2018,6997
+HRV,Croatia,hip,2019,5885
+HRV,Croatia,hip,2020,5457
+HRV,Croatia,hip,2021,6005
+HRV,Croatia,hip,2022,6377
+HRV,Croatia,hip,2023,7435
+HRV,Croatia,hip,2024,8328
+HRV,Croatia,knee,2013,1931
+HRV,Croatia,knee,2014,2355
+HRV,Croatia,knee,2015,2515
+HRV,Croatia,knee,2016,2919
+HRV,Croatia,knee,2017,2735
+HRV,Croatia,knee,2018,2978
+HRV,Croatia,knee,2019,3020
+HRV,Croatia,knee,2020,2258
+HRV,Croatia,knee,2021,2519
+HRV,Croatia,knee,2022,2832
+HRV,Croatia,knee,2023,3828
+HRV,Croatia,knee,2024,4783
+HUN,Hungary,hip,2013,11813
+HUN,Hungary,hip,2014,12592
+HUN,Hungary,hip,2015,13590
+HUN,Hungary,hip,2016,13503
+HUN,Hungary,hip,2017,13622
+HUN,Hungary,hip,2018,13571
+HUN,Hungary,hip,2019,14340
+HUN,Hungary,hip,2020,10481
+HUN,Hungary,hip,2021,8492
+HUN,Hungary,hip,2022,13350
+HUN,Hungary,hip,2023,14162
+HUN,Hungary,hip,2024,13926
+HUN,Hungary,knee,2013,5671
+HUN,Hungary,knee,2014,7020
+HUN,Hungary,knee,2015,8522
+HUN,Hungary,knee,2016,8584
+HUN,Hungary,knee,2017,8278
+HUN,Hungary,knee,2018,8665
+HUN,Hungary,knee,2019,9171
+HUN,Hungary,knee,2020,5578
+HUN,Hungary,knee,2021,3077
+HUN,Hungary,knee,2022,6842
+HUN,Hungary,knee,2023,8554
+HUN,Hungary,knee,2024,8666
+IRL,Ireland,hip,2013,5822
+IRL,Ireland,hip,2014,5781
+IRL,Ireland,hip,2015,6121
+IRL,Ireland,hip,2016,6031
+IRL,Ireland,hip,2017,6258
+IRL,Ireland,hip,2018,5999
+IRL,Ireland,hip,2019,6165
+IRL,Ireland,hip,2020,9811
+IRL,Ireland,hip,2021,11159
+IRL,Ireland,hip,2022,12830
+IRL,Ireland,hip,2023,13491
+IRL,Ireland,hip,2024,13870
+IRL,Ireland,knee,2013,2286
+IRL,Ireland,knee,2014,2107
+IRL,Ireland,knee,2015,2437
+IRL,Ireland,knee,2016,2364
+IRL,Ireland,knee,2017,2346
+IRL,Ireland,knee,2018,2313
+IRL,Ireland,knee,2019,2426
+IRL,Ireland,knee,2020,5483
+IRL,Ireland,knee,2021,5969
+IRL,Ireland,knee,2022,8023
+IRL,Ireland,knee,2023,8385
+IRL,Ireland,knee,2024,8507
+ISL,Iceland,hip,2013,606
+ISL,Iceland,hip,2014,597
+ISL,Iceland,hip,2015,495
+ISL,Iceland,hip,2016,784
+ISL,Iceland,hip,2017,771
+ISL,Iceland,hip,2018,761
+ISL,Iceland,hip,2019,765
+ISL,Iceland,hip,2020,629
+ISL,Iceland,hip,2021,832
+ISL,Iceland,hip,2022,689
+ISL,Iceland,hip,2023,793
+ISL,Iceland,hip,2024,753
+ISL,Iceland,knee,2021,891
+ISL,Iceland,knee,2022,753
+ISL,Iceland,knee,2023,1346
+ISL,Iceland,knee,2024,1225
+ISR,Israel,hip,2013,4978
+ISR,Israel,hip,2014,4959
+ISR,Israel,hip,2015,5264
+ISR,Israel,hip,2016,5522
+ISR,Israel,hip,2017,5849
+ISR,Israel,hip,2018,6009
+ISR,Israel,hip,2019,6403
+ISR,Israel,hip,2020,6047
+ISR,Israel,hip,2021,6896
+ISR,Israel,hip,2022,7440
+ISR,Israel,hip,2023,7639
+ISR,Israel,hip,2024,7273
+ISR,Israel,knee,2013,4208
+ISR,Israel,knee,2014,4256
+ISR,Israel,knee,2015,4613
+ISR,Israel,knee,2016,5183
+ISR,Israel,knee,2017,6014
+ISR,Israel,knee,2018,6336
+ISR,Israel,knee,2019,6648
+ISR,Israel,knee,2020,5851
+ISR,Israel,knee,2021,6755
+ISR,Israel,knee,2022,7287
+ISR,Israel,knee,2023,7082
+ISR,Israel,knee,2024,6661
+ITA,Italy,hip,2013,99743
+ITA,Italy,hip,2014,101510
+ITA,Italy,hip,2015,104414
+ITA,Italy,hip,2016,107287
+ITA,Italy,hip,2017,110783
+ITA,Italy,hip,2018,111710
+ITA,Italy,hip,2019,115821
+ITA,Italy,hip,2020,96630
+ITA,Italy,hip,2021,114852
+ITA,Italy,hip,2022,124842
+ITA,Italy,hip,2023,130640
+ITA,Italy,hip,2024,135245
+ITA,Italy,knee,2013,62896
+ITA,Italy,knee,2014,65279
+ITA,Italy,knee,2015,67685
+ITA,Italy,knee,2016,72952
+ITA,Italy,knee,2017,75164
+ITA,Italy,knee,2018,77877
+ITA,Italy,knee,2019,82067
+ITA,Italy,knee,2020,61909
+ITA,Italy,knee,2021,75026
+ITA,Italy,knee,2022,91342
+ITA,Italy,knee,2023,101274
+ITA,Italy,knee,2024,108204
+KOR,Korea,hip,2013,10159
+KOR,Korea,hip,2014,26036
+KOR,Korea,hip,2015,27235
+KOR,Korea,hip,2016,27867
+KOR,Korea,hip,2017,28690
+KOR,Korea,hip,2018,29317
+KOR,Korea,hip,2019,30436
+KOR,Korea,hip,2020,31301
+KOR,Korea,hip,2021,33282
+KOR,Korea,hip,2022,35235
+KOR,Korea,hip,2023,36035
+KOR,Korea,hip,2024,35437
+KOR,Korea,knee,2013,57488
+KOR,Korea,knee,2014,57738
+KOR,Korea,knee,2015,61734
+KOR,Korea,knee,2016,69755
+KOR,Korea,knee,2017,69770
+KOR,Korea,knee,2018,71769
+KOR,Korea,knee,2019,79342
+KOR,Korea,knee,2020,72382
+KOR,Korea,knee,2021,77614
+KOR,Korea,knee,2022,82544
+KOR,Korea,knee,2023,88829
+KOR,Korea,knee,2024,86269
+LTU,Lithuania,hip,2013,3776
+LTU,Lithuania,hip,2014,4718
+LTU,Lithuania,hip,2015,5683
+LTU,Lithuania,hip,2016,5763
+LTU,Lithuania,hip,2017,5485
+LTU,Lithuania,hip,2018,5620
+LTU,Lithuania,hip,2019,5474
+LTU,Lithuania,hip,2020,4697
+LTU,Lithuania,hip,2021,5265
+LTU,Lithuania,hip,2022,6349
+LTU,Lithuania,hip,2023,7199
+LTU,Lithuania,hip,2024,7462
+LTU,Lithuania,knee,2013,1918
+LTU,Lithuania,knee,2014,2193
+LTU,Lithuania,knee,2015,2420
+LTU,Lithuania,knee,2016,2859
+LTU,Lithuania,knee,2017,3672
+LTU,Lithuania,knee,2018,3486
+LTU,Lithuania,knee,2019,3652
+LTU,Lithuania,knee,2020,1887
+LTU,Lithuania,knee,2021,2064
+LTU,Lithuania,knee,2022,3231
+LTU,Lithuania,knee,2023,3805
+LTU,Lithuania,knee,2024,4844
+LUX,Luxembourg,hip,2013,996
+LUX,Luxembourg,hip,2014,965
+LUX,Luxembourg,hip,2015,1017
+LUX,Luxembourg,hip,2016,1057
+LUX,Luxembourg,hip,2017,1083
+LUX,Luxembourg,hip,2018,1136
+LUX,Luxembourg,hip,2019,1267
+LUX,Luxembourg,hip,2020,1056
+LUX,Luxembourg,hip,2021,1261
+LUX,Luxembourg,hip,2022,1333
+LUX,Luxembourg,hip,2023,1535
+LUX,Luxembourg,hip,2024,1427
+LUX,Luxembourg,knee,2013,892
+LUX,Luxembourg,knee,2014,926
+LUX,Luxembourg,knee,2015,1037
+LUX,Luxembourg,knee,2016,1163
+LUX,Luxembourg,knee,2017,1261
+LUX,Luxembourg,knee,2018,1259
+LUX,Luxembourg,knee,2019,1311
+LUX,Luxembourg,knee,2020,1035
+LUX,Luxembourg,knee,2021,1221
+LUX,Luxembourg,knee,2022,1185
+LUX,Luxembourg,knee,2023,1357
+LUX,Luxembourg,knee,2024,1421
+LVA,Latvia,hip,2020,3202
+LVA,Latvia,hip,2021,2868
+LVA,Latvia,hip,2022,3935
+LVA,Latvia,hip,2023,4348
+LVA,Latvia,hip,2024,4229
+LVA,Latvia,knee,2020,1745
+LVA,Latvia,knee,2021,1219
+LVA,Latvia,knee,2022,1890
+LVA,Latvia,knee,2023,2393
+LVA,Latvia,knee,2024,2457
+MDA,Moldova,hip,2018,1244
+MDA,Moldova,hip,2019,2311
+MDA,Moldova,hip,2020,1503
+MDA,Moldova,hip,2021,2634
+MDA,Moldova,hip,2022,3102
+MDA,Moldova,hip,2023,3630
+MDA,Moldova,hip,2024,2679
+MDA,Moldova,knee,2018,284
+MDA,Moldova,knee,2019,746
+MDA,Moldova,knee,2020,1118
+MDA,Moldova,knee,2021,1115
+MDA,Moldova,knee,2022,1218
+MDA,Moldova,knee,2023,2671
+MDA,Moldova,knee,2024,4547
+MEX,Mexico,hip,2013,9257
+MEX,Mexico,hip,2014,9560
+MEX,Mexico,hip,2015,9859
+MEX,Mexico,hip,2016,10114
+MEX,Mexico,hip,2017,10451
+MEX,Mexico,hip,2018,10753
+MEX,Mexico,hip,2019,11050
+MEX,Mexico,hip,2020,7735
+MEX,Mexico,hip,2021,8859
+MEX,Mexico,hip,2022,9297
+MEX,Mexico,hip,2023,9683
+MEX,Mexico,hip,2024,9704
+MEX,Mexico,knee,2013,3962
+MEX,Mexico,knee,2014,4053
+MEX,Mexico,knee,2015,4144
+MEX,Mexico,knee,2016,4232
+MEX,Mexico,knee,2017,4325
+MEX,Mexico,knee,2018,4416
+MEX,Mexico,knee,2019,4506
+MEX,Mexico,knee,2020,3154
+MEX,Mexico,knee,2021,3602
+MEX,Mexico,knee,2022,3846
+MEX,Mexico,knee,2023,3896
+MEX,Mexico,knee,2024,3881
+MKD,North Macedonia,hip,2013,1166
+MKD,North Macedonia,hip,2014,1106
+MKD,North Macedonia,hip,2015,1161
+MKD,North Macedonia,hip,2016,1275
+MKD,North Macedonia,hip,2017,1163
+MKD,North Macedonia,hip,2018,1269
+MKD,North Macedonia,hip,2019,1417
+MKD,North Macedonia,hip,2020,1064
+MKD,North Macedonia,hip,2021,1322
+MKD,North Macedonia,knee,2013,228
+MKD,North Macedonia,knee,2014,262
+MKD,North Macedonia,knee,2015,244
+MKD,North Macedonia,knee,2016,312
+MKD,North Macedonia,knee,2017,278
+MKD,North Macedonia,knee,2018,313
+MKD,North Macedonia,knee,2019,400
+MKD,North Macedonia,knee,2020,242
+MKD,North Macedonia,knee,2021,324
+MLT,Malta,hip,2013,360
+MLT,Malta,hip,2014,326
+MLT,Malta,hip,2015,341
+MLT,Malta,hip,2016,408
+MLT,Malta,hip,2017,416
+MLT,Malta,hip,2018,427
+MLT,Malta,hip,2019,386
+MLT,Malta,hip,2020,329
+MLT,Malta,hip,2021,403
+MLT,Malta,hip,2022,438
+MLT,Malta,hip,2023,506
+MLT,Malta,knee,2013,695
+MLT,Malta,knee,2014,636
+MLT,Malta,knee,2015,727
+MLT,Malta,knee,2016,919
+MLT,Malta,knee,2017,783
+MLT,Malta,knee,2018,723
+MLT,Malta,knee,2019,681
+MLT,Malta,knee,2020,389
+MLT,Malta,knee,2021,439
+MLT,Malta,knee,2022,566
+MLT,Malta,knee,2023,699
+NLD,Netherlands,hip,2013,37980
+NLD,Netherlands,hip,2014,38670
+NLD,Netherlands,hip,2015,39420
+NLD,Netherlands,hip,2016,40120
+NLD,Netherlands,hip,2017,40970
+NLD,Netherlands,hip,2018,42650
+NLD,Netherlands,hip,2019,44030
+NLD,Netherlands,hip,2020,37850
+NLD,Netherlands,hip,2021,42290
+NLD,Netherlands,hip,2022,47770
+NLD,Netherlands,hip,2023,48280
+NLD,Netherlands,hip,2024,48300
+NLD,Netherlands,knee,2013,23580
+NLD,Netherlands,knee,2014,25410
+NLD,Netherlands,knee,2015,25180
+NLD,Netherlands,knee,2016,26216
+NLD,Netherlands,knee,2017,26511
+NLD,Netherlands,knee,2018,26790
+NLD,Netherlands,knee,2019,26940
+NLD,Netherlands,knee,2020,20520
+NLD,Netherlands,knee,2021,22480
+NLD,Netherlands,knee,2022,27840
+NLD,Netherlands,knee,2023,29610
+NLD,Netherlands,knee,2024,29530
+NOR,Norway,hip,2013,12360
+NOR,Norway,hip,2014,12467
+NOR,Norway,hip,2015,12671
+NOR,Norway,hip,2016,13206
+NOR,Norway,hip,2017,13293
+NOR,Norway,hip,2018,13790
+NOR,Norway,hip,2019,14303
+NOR,Norway,hip,2020,12890
+NOR,Norway,hip,2021,13807
+NOR,Norway,hip,2022,15097
+NOR,Norway,hip,2023,15671
+NOR,Norway,hip,2024,16153
+NOR,Norway,knee,2013,4493
+NOR,Norway,knee,2014,4950
+NOR,Norway,knee,2015,5214
+NOR,Norway,knee,2016,6181
+NOR,Norway,knee,2017,6646
+NOR,Norway,knee,2018,6943
+NOR,Norway,knee,2019,6279
+NOR,Norway,knee,2020,5800
+NOR,Norway,knee,2021,6572
+NOR,Norway,knee,2022,6697
+NOR,Norway,knee,2023,7239
+NOR,Norway,knee,2024,7367
+NZL,New Zealand,hip,2013,6734
+NZL,New Zealand,hip,2014,7259
+NZL,New Zealand,hip,2015,7208
+NZL,New Zealand,hip,2016,7410
+NZL,New Zealand,hip,2017,8059
+NZL,New Zealand,hip,2018,7811
+NZL,New Zealand,hip,2019,7947
+NZL,New Zealand,hip,2020,7477
+NZL,New Zealand,hip,2021,7625
+NZL,New Zealand,hip,2022,7491
+NZL,New Zealand,hip,2023,7986
+NZL,New Zealand,knee,2013,4296
+NZL,New Zealand,knee,2014,5033
+NZL,New Zealand,knee,2015,4890
+NZL,New Zealand,knee,2016,5229
+NZL,New Zealand,knee,2017,5833
+NZL,New Zealand,knee,2018,5679
+NZL,New Zealand,knee,2019,5434
+NZL,New Zealand,knee,2020,5214
+NZL,New Zealand,knee,2021,5566
+NZL,New Zealand,knee,2022,5277
+NZL,New Zealand,knee,2023,6027
+PER,Peru,hip,2023,829
+POL,Poland,hip,2013,32475
+POL,Poland,hip,2014,37152
+POL,Poland,hip,2015,42417
+POL,Poland,hip,2016,49716
+POL,Poland,hip,2017,60922
+POL,Poland,hip,2018,61437
+POL,Poland,hip,2019,68021
+POL,Poland,hip,2020,53154
+POL,Poland,hip,2021,69118
+POL,Poland,hip,2022,57530
+POL,Poland,hip,2023,64312
+POL,Poland,hip,2024,64052
+POL,Poland,knee,2013,9975
+POL,Poland,knee,2014,11780
+POL,Poland,knee,2015,15143
+POL,Poland,knee,2016,18219
+POL,Poland,knee,2017,24096
+POL,Poland,knee,2018,25382
+POL,Poland,knee,2019,28508
+POL,Poland,knee,2020,20758
+POL,Poland,knee,2021,26354
+POL,Poland,knee,2022,32375
+POL,Poland,knee,2023,38717
+POL,Poland,knee,2024,39776
+PRT,Portugal,hip,2013,10559
+PRT,Portugal,hip,2014,10249
+PRT,Portugal,hip,2015,10720
+PRT,Portugal,hip,2016,10566
+PRT,Portugal,hip,2017,10169
+PRT,Portugal,hip,2018,10154
+PRT,Portugal,hip,2019,10573
+PRT,Portugal,hip,2020,8923
+PRT,Portugal,hip,2021,11218
+PRT,Portugal,hip,2022,11905
+PRT,Portugal,hip,2023,12116
+PRT,Portugal,hip,2024,13102
+PRT,Portugal,knee,2013,7137
+PRT,Portugal,knee,2014,6442
+PRT,Portugal,knee,2015,6801
+PRT,Portugal,knee,2016,7533
+PRT,Portugal,knee,2017,6439
+PRT,Portugal,knee,2018,6294
+PRT,Portugal,knee,2019,6940
+PRT,Portugal,knee,2020,5081
+PRT,Portugal,knee,2021,7808
+PRT,Portugal,knee,2022,8383
+PRT,Portugal,knee,2023,8779
+PRT,Portugal,knee,2024,9271
+ROU,Romania,hip,2013,11443
+ROU,Romania,hip,2014,12853
+ROU,Romania,hip,2015,12961
+ROU,Romania,hip,2016,13765
+ROU,Romania,hip,2017,13462
+ROU,Romania,hip,2018,13895
+ROU,Romania,hip,2019,14966
+ROU,Romania,hip,2020,10399
+ROU,Romania,hip,2021,12509
+ROU,Romania,hip,2022,16556
+ROU,Romania,hip,2023,17605
+ROU,Romania,hip,2024,18731
+ROU,Romania,knee,2013,4238
+ROU,Romania,knee,2014,4604
+ROU,Romania,knee,2015,4519
+ROU,Romania,knee,2016,4785
+ROU,Romania,knee,2017,5124
+ROU,Romania,knee,2018,4802
+ROU,Romania,knee,2019,5127
+ROU,Romania,knee,2020,3148
+ROU,Romania,knee,2021,3408
+ROU,Romania,knee,2022,4682
+ROU,Romania,knee,2023,4626
+ROU,Romania,knee,2024,4764
+SRB,Serbia,hip,2014,8217
+SRB,Serbia,hip,2015,8099
+SRB,Serbia,hip,2016,8287
+SRB,Serbia,hip,2017,8627
+SRB,Serbia,hip,2018,8803
+SRB,Serbia,hip,2019,10272
+SRB,Serbia,hip,2020,5792
+SRB,Serbia,hip,2021,6286
+SRB,Serbia,hip,2022,8981
+SRB,Serbia,hip,2023,10822
+SRB,Serbia,hip,2024,11422
+SRB,Serbia,knee,2014,1469
+SRB,Serbia,knee,2015,1541
+SRB,Serbia,knee,2016,1810
+SRB,Serbia,knee,2017,1805
+SRB,Serbia,knee,2018,1767
+SRB,Serbia,knee,2019,2693
+SRB,Serbia,knee,2020,874
+SRB,Serbia,knee,2021,635
+SRB,Serbia,knee,2022,1401
+SRB,Serbia,knee,2023,3032
+SRB,Serbia,knee,2024,4958
+SVK,Slovak Republic,hip,2013,7076
+SVK,Slovak Republic,hip,2014,7244
+SVK,Slovak Republic,hip,2015,7200
+SVK,Slovak Republic,hip,2016,7299
+SVK,Slovak Republic,hip,2017,7385
+SVK,Slovak Republic,hip,2018,7026
+SVK,Slovak Republic,hip,2019,6957
+SVK,Slovak Republic,hip,2020,5709
+SVK,Slovak Republic,hip,2021,5375
+SVK,Slovak Republic,hip,2022,7577
+SVK,Slovak Republic,hip,2023,8610
+SVK,Slovak Republic,hip,2024,9187
+SVK,Slovak Republic,knee,2013,4837
+SVK,Slovak Republic,knee,2014,5631
+SVK,Slovak Republic,knee,2015,5803
+SVK,Slovak Republic,knee,2016,6089
+SVK,Slovak Republic,knee,2017,5773
+SVK,Slovak Republic,knee,2018,5766
+SVK,Slovak Republic,knee,2019,5469
+SVK,Slovak Republic,knee,2020,3929
+SVK,Slovak Republic,knee,2021,2681
+SVK,Slovak Republic,knee,2022,5069
+SVK,Slovak Republic,knee,2023,6559
+SVK,Slovak Republic,knee,2024,7934
+SVN,Slovenia,hip,2013,3312
+SVN,Slovenia,hip,2014,3407
+SVN,Slovenia,hip,2015,3569
+SVN,Slovenia,hip,2016,3506
+SVN,Slovenia,hip,2017,4140
+SVN,Slovenia,hip,2018,3892
+SVN,Slovenia,hip,2019,4164
+SVN,Slovenia,hip,2020,3470
+SVN,Slovenia,hip,2021,3693
+SVN,Slovenia,hip,2022,4413
+SVN,Slovenia,hip,2023,5729
+SVN,Slovenia,hip,2024,5570
+SVN,Slovenia,knee,2013,2222
+SVN,Slovenia,knee,2014,2178
+SVN,Slovenia,knee,2015,2214
+SVN,Slovenia,knee,2016,2562
+SVN,Slovenia,knee,2017,2648
+SVN,Slovenia,knee,2018,2754
+SVN,Slovenia,knee,2019,2865
+SVN,Slovenia,knee,2020,2199
+SVN,Slovenia,knee,2021,2356
+SVN,Slovenia,knee,2022,3069
+SVN,Slovenia,knee,2023,3588
+SVN,Slovenia,knee,2024,3879
+SWE,Sweden,hip,2013,23008
+SWE,Sweden,hip,2014,22776
+SWE,Sweden,hip,2015,23047
+SWE,Sweden,hip,2016,23486
+SWE,Sweden,hip,2017,24708
+SWE,Sweden,hip,2018,25081
+SWE,Sweden,hip,2019,25626
+SWE,Sweden,hip,2020,21066
+SWE,Sweden,hip,2021,22588
+SWE,Sweden,hip,2022,27736
+SWE,Sweden,hip,2023,29560
+SWE,Sweden,hip,2024,29565
+SWE,Sweden,knee,2013,13211
+SWE,Sweden,knee,2014,12701
+SWE,Sweden,knee,2015,12197
+SWE,Sweden,knee,2016,12679
+SWE,Sweden,knee,2017,13946
+SWE,Sweden,knee,2018,13792
+SWE,Sweden,knee,2019,14454
+SWE,Sweden,knee,2020,10144
+SWE,Sweden,knee,2021,10569
+SWE,Sweden,knee,2022,15093
+SWE,Sweden,knee,2023,18149
+SWE,Sweden,knee,2024,18484
+THA,Thailand,hip,2020,4390
+THA,Thailand,hip,2021,3784
+THA,Thailand,hip,2022,6050
+THA,Thailand,hip,2023,6084
+THA,Thailand,hip,2024,6603
+THA,Thailand,knee,2020,21529
+THA,Thailand,knee,2021,15011
+THA,Thailand,knee,2022,30567
+THA,Thailand,knee,2023,24406
+THA,Thailand,knee,2024,56731
+TUR,Türkiye,hip,2018,47003
+TUR,Türkiye,hip,2019,49540
+TUR,Türkiye,hip,2020,41603
+TUR,Türkiye,hip,2021,46535
+TUR,Türkiye,hip,2022,53442
+TUR,Türkiye,hip,2023,55004
+TUR,Türkiye,hip,2024,57845
+TUR,Türkiye,knee,2018,97140
+TUR,Türkiye,knee,2019,101132
+TUR,Türkiye,knee,2020,53359
+TUR,Türkiye,knee,2021,75532
+TUR,Türkiye,knee,2022,97013
+TUR,Türkiye,knee,2023,92964
+TUR,Türkiye,knee,2024,110709

@@ -1,0 +1,121 @@
+hs,hs_desc,reporter,reporter_code,partner,partner_code,flow,year,value_usd,net_weight_kg,qty,qty_unit
+8102,Molybdenum and articles,China,156,World,0,Import,2019,44906081.0,554963.315,554963.315,kg
+8102,Molybdenum and articles,China,156,World,0,Import,2020,43218746.0,513544.596,513544.596,kg
+8102,Molybdenum and articles,China,156,World,0,Import,2021,56955638.0,547478.581,547478.581,kg
+8102,Molybdenum and articles,China,156,World,0,Import,2022,53605954.0,466987.61,466987.61,kg
+8102,Molybdenum and articles,China,156,World,0,Import,2023,40788584.0,378436.889,378436.889,kg
+8102,Molybdenum and articles,China,156,World,0,Import,2024,40392228.0,341080.461,341080.461,kg
+8102,Molybdenum and articles,China,156,World,0,Export,2019,189475851.0,5399789.153,5399789.153,kg
+8102,Molybdenum and articles,China,156,World,0,Export,2020,150111133.0,4241236.15,4241236.15,kg
+8102,Molybdenum and articles,China,156,World,0,Export,2021,190815682.0,4553584.569,4553584.569,kg
+8102,Molybdenum and articles,China,156,World,0,Export,2022,216802131.0,4410895.928,4410895.928,kg
+8102,Molybdenum and articles,China,156,World,0,Export,2023,394799248.0,6019031.456,6019031.456,kg
+8102,Molybdenum and articles,China,156,World,0,Export,2024,404889591.0,6674326.535,6674326.535,kg
+8102,Molybdenum and articles,Germany,276,World,0,Import,2019,104837704.121,2803536.692,2803536.692,kg
+8102,Molybdenum and articles,Germany,276,World,0,Import,2020,83267510.403,2434192.226,2434192.226,kg
+8102,Molybdenum and articles,Germany,276,World,0,Import,2021,115080601.993,2608283.117,2608283.117,kg
+8102,Molybdenum and articles,Germany,276,World,0,Import,2022,145546147.209,2934187.721,2934187.721,kg
+8102,Molybdenum and articles,Germany,276,World,0,Import,2023,163516954.826,2433506.804,2433506.804,kg
+8102,Molybdenum and articles,Germany,276,World,0,Import,2024,153734840.227,3023222.539,3023222.539,kg
+8102,Molybdenum and articles,Germany,276,World,0,Export,2019,71269049.371,1536246.845,1536246.845,kg
+8102,Molybdenum and articles,Germany,276,World,0,Export,2020,42386159.227,988176.818,988176.818,kg
+8102,Molybdenum and articles,Germany,276,World,0,Export,2021,73448979.166,1538383.184,1538383.184,kg
+8102,Molybdenum and articles,Germany,276,World,0,Export,2022,82702882.192,1568554.371,1568554.371,kg
+8102,Molybdenum and articles,Germany,276,World,0,Export,2023,118082430.21,1784679.084,1784679.084,kg
+8102,Molybdenum and articles,Germany,276,World,0,Export,2024,89617359.31,1392642.787,1392642.787,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Import,2019,324228.0,6417.698,6417.698,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Import,2020,188935.0,8275.0,8275.0,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Import,2021,203529.0,18494.0,18494.0,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Import,2022,294573.0,13193.0,13193.0,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Import,2023,296449.0,18416.0,18416.0,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Import,2024,335140.0,11554.0,11554.0,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Export,2019,44118.325,0.0,0.0,N/A
+8102,Molybdenum and articles,Indonesia,360,World,0,Export,2020,172455.01,0.0,0.0,N/A
+8102,Molybdenum and articles,Indonesia,360,World,0,Export,2021,10725.316,1458.68,1458.68,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Export,2022,130533.175,7587.0,7587.0,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Export,2023,26233.0,1461.5,1461.5,kg
+8102,Molybdenum and articles,Indonesia,360,World,0,Export,2024,15.0,8.649,8.649,kg
+8102,Molybdenum and articles,Italy,380,World,0,Import,2019,5249287.666,130428.0,130428.0,kg
+8102,Molybdenum and articles,Italy,380,World,0,Import,2020,4740177.363,77695.559,77695.559,kg
+8102,Molybdenum and articles,Italy,380,World,0,Import,2021,6539185.484,114323.0,114323.0,kg
+8102,Molybdenum and articles,Italy,380,World,0,Import,2022,8302503.926,132958.0,132958.0,kg
+8102,Molybdenum and articles,Italy,380,World,0,Import,2023,11782956.109,162468.183,162468.183,kg
+8102,Molybdenum and articles,Italy,380,World,0,Import,2024,16300595.609,221615.0,221615.0,kg
+8102,Molybdenum and articles,Italy,380,World,0,Export,2019,1835055.158,106667.0,106667.0,kg
+8102,Molybdenum and articles,Italy,380,World,0,Export,2020,772556.246,27868.434,27868.434,kg
+8102,Molybdenum and articles,Italy,380,World,0,Export,2021,1938445.135,61073.0,61073.0,kg
+8102,Molybdenum and articles,Italy,380,World,0,Export,2022,1223406.625,36575.16,36575.16,kg
+8102,Molybdenum and articles,Italy,380,World,0,Export,2023,2309170.24,376371.0,376371.0,kg
+8102,Molybdenum and articles,Italy,380,World,0,Export,2024,2792321.864,175234.0,175234.0,kg
+8102,Molybdenum and articles,Japan,392,World,0,Import,2019,73850887.363,1908374.072,1908374.072,kg
+8102,Molybdenum and articles,Japan,392,World,0,Import,2020,44011405.261,1222560.0,1222560.0,kg
+8102,Molybdenum and articles,Japan,392,World,0,Import,2021,75841388.99,1558594.444,1558594.444,kg
+8102,Molybdenum and articles,Japan,392,World,0,Import,2022,83056144.874,1376806.96,1376806.96,kg
+8102,Molybdenum and articles,Japan,392,World,0,Import,2023,105865967.835,1532356.14,1532356.14,kg
+8102,Molybdenum and articles,Japan,392,World,0,Import,2024,99081719.045,1512700.982,1512700.982,kg
+8102,Molybdenum and articles,Japan,392,World,0,Export,2019,48809019.079,530625.542,530625.542,kg
+8102,Molybdenum and articles,Japan,392,World,0,Export,2020,43483160.955,461832.0,461832.0,kg
+8102,Molybdenum and articles,Japan,392,World,0,Export,2021,43729745.046,503349.89,503349.89,kg
+8102,Molybdenum and articles,Japan,392,World,0,Export,2022,33261640.251,404896.99,404896.99,kg
+8102,Molybdenum and articles,Japan,392,World,0,Export,2023,22199295.855,267639.286,267639.286,kg
+8102,Molybdenum and articles,Japan,392,World,0,Export,2024,28352214.289,1413874.703,1413874.703,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Import,2019,64467953.0,996917.52,996917.52,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Import,2020,51221478.0,726128.718,726128.718,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Import,2021,67199068.0,856558.356,856558.356,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Import,2022,65736725.0,748722.136,748722.136,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Import,2023,66905109.0,712810.148,712810.148,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Import,2024,75865053.0,745515.465,745515.465,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Export,2019,25137398.0,512307.223,512307.223,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Export,2020,18795618.0,331034.884,331034.884,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Export,2021,23908414.0,393304.994,393304.994,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Export,2022,22860576.0,392651.481,392651.481,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Export,2023,21365994.0,298645.995,298645.995,kg
+8102,Molybdenum and articles,Rep. of Korea,410,World,0,Export,2024,21529457.0,365326.681,365326.681,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Import,2019,74298841.259,2548615.0,2548615.0,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Import,2020,50304634.306,2004260.0,2004260.0,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Import,2021,67942717.246,1891863.447,1891863.447,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Import,2022,107919502.7,2476967.015,2476967.015,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Import,2023,145503844.73,2447428.163,2447428.163,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Import,2024,139722377.306,2451496.66,2451496.66,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Export,2019,58121657.012,1770940.616,1770940.616,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Export,2020,32315443.549,0.0,0.0,N/A
+8102,Molybdenum and articles,United Kingdom,826,World,0,Export,2021,56153100.575,1465831.609,1465831.609,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Export,2022,84413344.705,1897236.08,1897236.08,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Export,2023,117537327.945,2347433.321,2347433.321,kg
+8102,Molybdenum and articles,United Kingdom,826,World,0,Export,2024,107878783.642,3856255.469,3856255.469,kg
+8102,Molybdenum and articles,USA,842,World,0,Import,2019,109050149.0,2929558.0,2929558.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Import,2020,67388045.0,1889844.0,1939803.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Import,2021,110480144.0,2653502.577,2901565.577,kg
+8102,Molybdenum and articles,USA,842,World,0,Import,2022,124954737.0,2313571.0,2687582.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Import,2023,187627304.0,2653764.0,2811678.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Import,2024,195237896.0,3099928.0,3099928.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Export,2019,56272014.0,992373.0,992373.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Export,2020,42138757.0,866175.0,866175.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Export,2021,48667976.0,945138.0,945138.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Export,2022,53276422.0,952029.0,952029.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Export,2023,59123718.0,1548421.0,1548421.0,kg
+8102,Molybdenum and articles,USA,842,World,0,Export,2024,70547765.0,2033115.0,2033115.0,kg
+8102,Molybdenum and articles,France,251,World,0,Export,2019,2992202.584,910615.127,910615.127,kg
+8102,Molybdenum and articles,France,251,World,0,Export,2020,2474008.419,690320.181,690320.181,kg
+8102,Molybdenum and articles,France,251,World,0,Export,2021,3238604.856,656372.481,656372.481,kg
+8102,Molybdenum and articles,France,251,World,0,Export,2022,6708057.409,995048.964,995048.964,kg
+8102,Molybdenum and articles,France,251,World,0,Export,2023,41560387.828,881174.601,881174.601,kg
+8102,Molybdenum and articles,France,251,World,0,Export,2024,40742837.554,1094860.115,1094860.115,kg
+8102,Molybdenum and articles,France,251,World,0,Import,2019,57187161.67,1729755.073,1729755.073,kg
+8102,Molybdenum and articles,France,251,World,0,Import,2020,40155879.141,1570679.943,1570679.943,kg
+8102,Molybdenum and articles,France,251,World,0,Import,2021,41385345.583,1287935.914,1287935.914,kg
+8102,Molybdenum and articles,France,251,World,0,Import,2022,70887418.409,1538232.926,1538232.926,kg
+8102,Molybdenum and articles,France,251,World,0,Import,2023,95145025.134,5097957.191,5097957.191,kg
+8102,Molybdenum and articles,France,251,World,0,Import,2024,76110416.799,1478476.02,1478476.02,kg
+8102,Molybdenum and articles,India,699,World,0,Export,2019,1863505.338,59970.041,59970.041,kg
+8102,Molybdenum and articles,India,699,World,0,Export,2020,2327648.054,150822.251,150822.251,kg
+8102,Molybdenum and articles,India,699,World,0,Export,2021,3715892.713,273822.669,273822.669,kg
+8102,Molybdenum and articles,India,699,World,0,Export,2022,6440420.243,367793.386,367793.386,kg
+8102,Molybdenum and articles,India,699,World,0,Export,2023,8508604.243,90716.343,90716.343,kg
+8102,Molybdenum and articles,India,699,World,0,Export,2024,13444493.71,87025.198,87025.198,kg
+8102,Molybdenum and articles,India,699,World,0,Import,2019,22975897.484,472734.074,472734.074,kg
+8102,Molybdenum and articles,India,699,World,0,Import,2020,19545355.381,410029.996,410029.996,kg
+8102,Molybdenum and articles,India,699,World,0,Import,2021,29693679.129,545930.138,545930.138,kg
+8102,Molybdenum and articles,India,699,World,0,Import,2022,31517226.893,450546.615,450546.615,kg
+8102,Molybdenum and articles,India,699,World,0,Import,2023,45397237.606,540563.61,540563.61,kg
+8102,Molybdenum and articles,India,699,World,0,Import,2024,46072748.421,603339.782,603339.782,kg

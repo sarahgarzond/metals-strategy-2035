@@ -1,0 +1,90 @@
+product,reporter,year,indicator,indicator_code,value
+24453063,EU27_2020,2019,Exports quantity,EXPQNT,122459
+24453063,EU27_2020,2019,"Exports value, euro",EXPVAL,3942626
+24453063,EU27_2020,2019,Imports quantity,IMPQNT,3771
+24453063,EU27_2020,2019,"Imports value, euro",IMPVAL,3577683
+24453063,EU27_2020,2019,Sold production quantity flag,PQNTFLAG,:E
+24453063,EU27_2020,2019,Sold production quantity,PRODQNT,115720
+24453063,EU27_2020,2019,"Sold production value, euro",PRODVAL,7047766
+24453063,EU27_2020,2019,Sold production value flag,PVALFLAG,:E
+24453063,EU27_2020,2019,Quantity unit,QNTUNIT,KG
+24453063,EU27_2020,2020,Exports quantity,EXPQNT,7845
+24453063,EU27_2020,2020,"Exports value, euro",EXPVAL,3062254
+24453063,EU27_2020,2020,Imports quantity,IMPQNT,5235
+24453063,EU27_2020,2020,"Imports value, euro",IMPVAL,4161014
+24453063,EU27_2020,2020,Sold production quantity flag,PQNTFLAG,:E
+24453063,EU27_2020,2020,Sold production quantity,PRODQNT,72960
+24453063,EU27_2020,2020,"Sold production value, euro",PRODVAL,3625327
+24453063,EU27_2020,2020,Sold production value flag,PVALFLAG,:E
+24453063,EU27_2020,2020,Quantity unit,QNTUNIT,KG
+24453063,EU27_2020,2021,Exports quantity,EXPQNT,3925
+24453063,EU27_2020,2021,"Exports value, euro",EXPVAL,3135130
+24453063,EU27_2020,2021,Imports quantity,IMPQNT,4328
+24453063,EU27_2020,2021,"Imports value, euro",IMPVAL,3862581
+24453063,EU27_2020,2021,Production on own account quantity,OWNPRODQNT,68880
+24453063,EU27_2020,2021,"Production on own account value, euro",OWNPRODVAL,3103000
+24453063,EU27_2020,2021,Production on own account quantity flag,OWNQNTFLAG,:E
+24453063,EU27_2020,2021,Production on own account value flag,OWNVALFLAG,:E
+24453063,EU27_2020,2021,Sold production quantity flag,PQNTFLAG,:E
+24453063,EU27_2020,2021,Sold production quantity,PRODQNT,68880
+24453063,EU27_2020,2021,"Sold production value, euro",PRODVAL,3103000
+24453063,EU27_2020,2021,Sold production value flag,PVALFLAG,:E
+24453063,EU27_2020,2021,Quantity unit,QNTUNIT,KG
+24453063,EU27_2020,2021,Sub-contracted production quantity,SCPRODQNT,0
+24453063,EU27_2020,2021,"Sub-contracted production value, euro",SCPRODVAL,0
+24453063,DE,2019,Exports quantity,EXPQNT,2700
+24453063,DE,2019,"Exports value, euro",EXPVAL,2891760
+24453063,DE,2019,Imports quantity,IMPQNT,1200
+24453063,DE,2019,"Imports value, euro",IMPVAL,5966370
+24453063,DE,2019,Sold production quantity flag,PQNTFLAG,:E
+24453063,DE,2019,Sold production quantity,PRODQNT,114720
+24453063,DE,2019,"Sold production value, euro",PRODVAL,6978398
+24453063,DE,2019,Sold production value flag,PVALFLAG,:E
+24453063,DE,2019,Quantity unit,QNTUNIT,KG
+24453063,DE,2020,Exports quantity,EXPQNT,2828
+24453063,DE,2020,"Exports value, euro",EXPVAL,2640505
+24453063,DE,2020,Imports quantity,IMPQNT,2544
+24453063,DE,2020,"Imports value, euro",IMPVAL,10472376
+24453063,DE,2020,Sold production quantity flag,PQNTFLAG,:E
+24453063,DE,2020,Sold production quantity,PRODQNT,72960
+24453063,DE,2020,"Sold production value, euro",PRODVAL,3625327
+24453063,DE,2020,Sold production value flag,PVALFLAG,:E
+24453063,DE,2020,Quantity unit,QNTUNIT,KG
+24453063,DE,2021,Exports quantity,EXPQNT,3532
+24453063,DE,2021,"Exports value, euro",EXPVAL,2988975
+24453063,DE,2021,Imports quantity,IMPQNT,2963
+24453063,DE,2021,"Imports value, euro",IMPVAL,11370374
+24453063,DE,2021,Production on own account quantity,OWNPRODQNT,68880
+24453063,DE,2021,"Production on own account value, euro",OWNPRODVAL,3103000
+24453063,DE,2021,Production on own account quantity flag,OWNQNTFLAG,:E
+24453063,DE,2021,Production on own account value flag,OWNVALFLAG,:E
+24453063,DE,2021,Sold production quantity flag,PQNTFLAG,:E
+24453063,DE,2021,Sold production quantity,PRODQNT,68880
+24453063,DE,2021,"Sold production value, euro",PRODVAL,3103000
+24453063,DE,2021,Sold production value flag,PVALFLAG,:E
+24453063,DE,2021,Quantity unit,QNTUNIT,KG
+24453063,FR,2019,Exports quantity,EXPQNT,3000
+24453063,FR,2019,"Exports value, euro",EXPVAL,2194520
+24453063,FR,2019,Imports quantity,IMPQNT,43800
+24453063,FR,2019,"Imports value, euro",IMPVAL,1365460
+24453063,FR,2019,Sold production quantity,PRODQNT,0
+24453063,FR,2019,"Sold production value, euro",PRODVAL,0
+24453063,FR,2019,Quantity unit,QNTUNIT,KG
+24453063,FR,2020,Exports quantity,EXPQNT,1859
+24453063,FR,2020,"Exports value, euro",EXPVAL,1483061
+24453063,FR,2020,Imports quantity,IMPQNT,2711
+24453063,FR,2020,"Imports value, euro",IMPVAL,1827296
+24453063,FR,2020,Sold production quantity,PRODQNT,0
+24453063,FR,2020,"Sold production value, euro",PRODVAL,0
+24453063,FR,2020,Quantity unit,QNTUNIT,KG
+24453063,FR,2021,Exports quantity,EXPQNT,1560
+24453063,FR,2021,"Exports value, euro",EXPVAL,1407707
+24453063,FR,2021,Imports quantity,IMPQNT,770
+24453063,FR,2021,"Imports value, euro",IMPVAL,808380
+24453063,FR,2021,Production on own account quantity,OWNPRODQNT,0
+24453063,FR,2021,"Production on own account value, euro",OWNPRODVAL,0
+24453063,FR,2021,Sold production quantity,PRODQNT,0
+24453063,FR,2021,"Sold production value, euro",PRODVAL,0
+24453063,FR,2021,Quantity unit,QNTUNIT,KG
+24453063,FR,2021,Sub-contracted production quantity,SCPRODQNT,0
+24453063,FR,2021,"Sub-contracted production value, euro",SCPRODVAL,0

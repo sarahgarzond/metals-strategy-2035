@@ -1,0 +1,49 @@
+product,product_desc,reporter,year,n,Sold production quantity,"Sold production value, euro",Exports quantity,Imports quantity,Quantity unit,Sold production quantity flag
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),EU27_2020,2021,0,,,,,,
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),EU27_2020,2022,22,6450,900000,176226,559660,KG,:E
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),EU27_2020,2023,23,4000,800000,136170,512350,KG,:R
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),EU27_2020,2024,23,4000,1400000,138032,580820,KG,:R
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),DE,2021,0,,,,,,
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),DE,2022,12,6450,,259514,202525,KG,:E
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),DE,2023,11,,,229112,246003,KG,:C
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),DE,2024,11,,,201576,227793,KG,:C
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),FR,2021,0,,,,,,
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),FR,2022,11,0,0,0,240876,KG,
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),FR,2023,11,0,0,0,242752,KG,
+24453049,Unwrought zirconium; zirconium powders (excluding waste and scrap),FR,2024,11,0,0,0,256117,KG,
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",EU27_2020,2021,0,,,,,,
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",EU27_2020,2022,23,1200000,160000000,198874,244593,KG,:R
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",EU27_2020,2023,23,1000000,80000000,164965,239568,KG,:R
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",EU27_2020,2024,23,1200000,210000000,113491,190458,KG,:R
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",DE,2021,0,,,,,,
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",DE,2022,12,6450,,69085,141211,KG,:E
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",DE,2023,11,,,57270,174202,KG,:C
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",DE,2024,11,,,41958,139669,KG,:C
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",FR,2021,0,,,,,,
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",FR,2022,11,,,0,60088,KG,:C
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",FR,2023,11,,,0,50541,KG,:C
+24453050,"Other zirconium and articles thereof (excluding waste and scrap, zirconium powders and unwrought zirconium), n.e.c.",FR,2024,11,,,0,47387,KG,:C
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",EU27_2020,2021,15,60270,2715000,27208,2537,KG,:E
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",EU27_2020,2022,0,,,,,,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",EU27_2020,2023,0,,,,,,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",EU27_2020,2024,0,,,,,,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",DE,2021,13,60270,2715000,21596,19728,KG,:E
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",DE,2022,0,,,,,,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",DE,2023,0,,,,,,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",DE,2024,0,,,,,,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",FR,2021,11,0,0,25944,3087,KG,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",FR,2022,0,,,,,,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",FR,2023,0,,,,,,
+24453062,"Unwrought hafnium ""celtium""; hafnium powders;",FR,2024,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",EU27_2020,2021,15,68880,3103000,3925,4328,KG,:E
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",EU27_2020,2022,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",EU27_2020,2023,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",EU27_2020,2024,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",DE,2021,13,68880,3103000,3532,2963,KG,:E
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",DE,2022,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",DE,2023,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",DE,2024,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",FR,2021,11,0,0,1560,770,KG,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",FR,2022,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",FR,2023,0,,,,,,
+24453063,"Articles of hafnium ""celtium"" and germanium, n.e.s.",FR,2024,0,,,,,,

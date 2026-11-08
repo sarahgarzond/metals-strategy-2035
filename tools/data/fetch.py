@@ -5,6 +5,9 @@ Every command saves the raw download in data/raw/<source>/, a tidy CSV in data/c
 row to data/sources.csv (type primary, exact query URL, retrieval date), so the market model stays transparent.
 
   python3 tools/data/fetch.py comtrade  --hs 7502,7505,7506,7507 --reporters 276,842,156,392 --years 2019-2024 [--flow X,M]
+  # Prefer a free subscribed key (avoids preview 403). Create at https://comtradeplus.un.org/MyComtrade/APIPortal
+  #   export COMTRADE_API_KEY=...
+  python3 tools/data/fetch.py comtrade-import --file TradeData_….csv   # browser CSV already in data/raw/comtrade/
   python3 tools/data/fetch.py pinksheet                       # World Bank monthly commodity prices (metals)
   python3 tools/data/fetch.py usgs      [--commodity Nickel]  # USGS MCS 2026 data release (production, reserves)
   python3 tools/data/fetch.py prodcom   --product 24451100,24452100 --reporters EU27_2020,DE --years 2019-2024
@@ -14,9 +17,11 @@ row to data/sources.csv (type primary, exact query URL, retrieval date), so the 
   python3 tools/data/fetch.py who       --indicator WHS9_88
   python3 tools/data/fetch.py list                            # show the HS and PRODCOM codes of the portfolio
 
-Codes: UN M49 reporter codes (276 Germany, 842 USA, 156 China, 392 Japan, 410 Korea, 356 India, 250 France,
-826 UK, 380 Italy, 360 Indonesia, 0 World). Not reachable automatically: UNIDO INDSTAT (bot protection) and
-www.iea.org (bot check), so the team downloads those by hand into data/raw/unido/ and data/raw/iea/.
+Codes: UN M49 reporter codes (276 Germany, 842 USA, 156 China, 392 Japan, 410 Korea, 699 India, 251 France,
+826 UK, 380 Italy, 360 Indonesia, 0 World). Note: 250 and 356 are obsolete/empty in current Comtrade
+(France is 251; India ...1974 is 356, current India is 699). Not reachable automatically: UNIDO INDSTAT
+(bot protection) and www.iea.org (bot check), so the team downloads those by hand into data/raw/unido/
+and data/raw/iea/.
 """
 import argparse, csv, fcntl, datetime, io, json, os, re, sys, time, urllib.parse, urllib.request
 
@@ -51,7 +56,7 @@ PRODCOM = {
 }
 
 
-def get(url, binary=False, retries=3):
+def get(url, binary=False, retries=6):
     for i in range(retries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "identity"})
@@ -64,10 +69,15 @@ def get(url, binary=False, retries=3):
             except UnicodeDecodeError:
                 return data.decode("cp1252", "replace")
         except Exception as e:  # noqa: BLE001
+            code = getattr(e, "code", None)
+            # Hard daily quota: stop immediately so the orchestrator can pause for hours.
+            if code == 403 and "Quota" in str(e):
+                raise
             if i == retries - 1:
                 raise
-            print(f"  retry after error: {e}", file=sys.stderr)
-            time.sleep(3 * (i + 1))
+            wait = 30 * (i + 1) if code == 429 else 3 * (i + 1)
+            print(f"  retry after error: {e} (sleep {wait}s)", file=sys.stderr)
+            time.sleep(wait)
 
 
 def save_raw(source, name, data):
@@ -115,17 +125,32 @@ def years(spec):
 
 
 # ------------------------------------------------------------------ UN Comtrade
+def comtrade_url(q):
+    """Prefer free subscribed Data API when COMTRADE_API_KEY is set; else public preview."""
+    key = os.environ.get("COMTRADE_API_KEY", "").strip()
+    params = {k: v for k, v in q.items() if v}
+    if key:
+        params["subscription-key"] = key
+        params.setdefault("maxRecords", "100000")
+        return "https://comtradeapi.un.org/data/v1/get/C/A/HS?" + urllib.parse.urlencode(params), True
+    return "https://comtradeapi.un.org/public/v1/preview/C/A/HS?" + urllib.parse.urlencode(params), False
+
+
 def cmd_comtrade(a):
     out = []
+    used_key = False
     for hs in a.hs.split(","):
         for rep in a.reporters.split(","):
             for flow, yr in [(f, y) for f in a.flow.split(",") for y in years(a.years)]:
                 q = {"reporterCode": rep, "period": str(yr), "cmdCode": hs,
                      "flowCode": flow, "partnerCode": a.partners or None, "includeDesc": "true"}
-                url = "https://comtradeapi.un.org/public/v1/preview/C/A/HS?" + urllib.parse.urlencode({k: v for k, v in q.items() if v})
+                url, used_key = comtrade_url(q)
                 try:
                     txt = get(url)
                 except Exception as e:  # noqa: BLE001
+                    # Propagate hard quota so a sequential pull can stop for the day.
+                    if getattr(e, "code", None) == 403 and "Quota" in str(e):
+                        raise
                     print(f"  FAILED {hs} {rep} {flow} {yr}: {e}")
                     continue
                 save_raw("comtrade", f"hs{hs}_r{rep}_{flow}_{yr}.json", txt)
@@ -134,13 +159,54 @@ def cmd_comtrade(a):
                                 "reporter_code": r.get("reporterCode"), "partner": r.get("partnerDesc"), "partner_code": r.get("partnerCode"),
                                 "flow": r.get("flowDesc") or flow, "year": r.get("period"), "value_usd": r.get("primaryValue"),
                                 "net_weight_kg": r.get("netWgt"), "qty": r.get("qty"), "qty_unit": r.get("qtyUnitAbbr")})
-                time.sleep(1.1)  # public endpoint rate limit
+                # Free subscribed API: 1 call/s; preview: keep ≥3 to 5 s between calls
+                time.sleep(1.2 if used_key else 4.0)
     tag = a.out or f"comtrade_{a.hs.replace(',', '-')}_{a.years}"
     write_clean(f"{tag}.csv", out, ["hs", "hs_desc", "reporter", "reporter_code", "partner", "partner_code", "flow", "year",
                                      "value_usd", "net_weight_kg", "qty", "qty_unit"])
+    api_note = "Subscribed Data API (COMTRADE_API_KEY)" if used_key else "Public preview API"
     log_source(re.sub(r"[^A-Z0-9]+", "_", f"COMTRADE_{a.hs}_{a.years}".upper())[:60], f"Trade flows HS {a.hs}, reporters {a.reporters}, {a.years}", "UN Comtrade database",
                "United Nations Statistics Division", f"UN Comtrade database [HS {a.hs}, {a.years}]",
-               "https://comtradeplus.un.org/", f"Public preview API, flows {a.flow}. Clean file data/clean/{tag}.csv", year=TODAY[:4])
+               "https://comtradeplus.un.org/", f"{api_note}, flows {a.flow}. Clean file data/clean/{tag}.csv", year=TODAY[:4])
+
+
+def cmd_comtrade_import(a):
+    """Turn a Comtrade Plus browser CSV in data/raw/comtrade/ into data/clean/."""
+    path = a.file if os.path.isabs(a.file) else os.path.join(RAW, "comtrade", a.file)
+    if not os.path.exists(path):
+        path = a.file
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        rows_in = list(csv.DictReader(f))
+    out = []
+    for r in rows_in:
+        hs = (r.get("cmdCode") or r.get("commodityCode") or "").strip()
+        if not hs or hs.lower().startswith("all"):
+            continue
+        out.append({
+            "hs": hs,
+            "hs_desc": HS.get(hs, r.get("cmdDesc") or r.get("commodityDesc") or ""),
+            "reporter": r.get("reporterDesc") or r.get("reporterISO") or "",
+            "reporter_code": r.get("reporterCode") or "",
+            "partner": r.get("partnerDesc") or r.get("partnerISO") or "",
+            "partner_code": r.get("partnerCode") or "",
+            "flow": r.get("flowDesc") or r.get("flowCode") or "",
+            "year": r.get("refYear") or r.get("period") or "",
+            "value_usd": r.get("primaryValue") or r.get("cifValue") or r.get("fobValue") or "",
+            "net_weight_kg": r.get("netWgt") or "",
+            "qty": r.get("qty") or "",
+            "qty_unit": r.get("qtyUnitAbbr") or r.get("qtyUnit") or "",
+        })
+    if not out:
+        raise SystemExit(f"No usable commodity rows in {path} (got All Commodities or empty).")
+    hs_set = sorted({r["hs"] for r in out})
+    tag = a.out or f"comtrade_{'-'.join(hs_set[:6])}_import"
+    write_clean(f"{tag}.csv", out, ["hs", "hs_desc", "reporter", "reporter_code", "partner", "partner_code", "flow", "year",
+                                     "value_usd", "net_weight_kg", "qty", "qty_unit"])
+    log_source(re.sub(r"[^A-Z0-9]+", "_", f"COMTRADE_IMPORT_{'-'.join(hs_set[:4])}".upper())[:60],
+               f"Trade flows from Comtrade Plus CSV, HS {','.join(hs_set)}", "UN Comtrade database",
+               "United Nations Statistics Division", f"UN Comtrade database [import {os.path.basename(path)}]",
+               "https://comtradeplus.un.org/", f"Browser download imported from {path}. Clean file data/clean/{tag}.csv",
+               year=TODAY[:4])
 
 
 # ------------------------------------------------------------------ World Bank Pink Sheet
@@ -212,7 +278,15 @@ def cmd_prodcom(a):
                     out.append({"product": prod, "product_desc": PRODCOM.get(prod, ""), "reporter": rep, "year": y,
                                 "indicator": ind["label"].get(code, code), "value": val})
                 time.sleep(0.3)
-    write_clean(a.out or f"prodcom_{a.years}.csv", out, ["product", "product_desc", "reporter", "year", "indicator", "value"])
+    # Never overwrite the portfolio file when a subset of product codes is requested.
+    default_all = ",".join(PRODCOM)
+    if a.out:
+        tag = a.out if a.out.endswith(".csv") else f"{a.out}.csv"
+    elif a.product == default_all:
+        tag = f"prodcom_{a.years}.csv"
+    else:
+        tag = f"prodcom_{a.product.replace(',', '-')}_{a.years}.csv"
+    write_clean(tag, out, ["product", "product_desc", "reporter", "year", "indicator", "value"])
     log_source("EUROSTAT_PRODCOM", f"Sold production, exports, imports, PRODCOM {a.product}", "PRODCOM DS-059358",
                "Eurostat", "Sold production, exports and imports (PRODCOM, DS-059358)",
                "https://ec.europa.eu/eurostat/web/prodcom/database", "Confidential cells are missing, not zero.")
@@ -303,8 +377,9 @@ def cmd_list(a):
 def main():
     ap = argparse.ArgumentParser()
     sp = ap.add_subparsers(dest="cmd", required=True)
-    p = sp.add_parser("comtrade"); p.add_argument("--hs", required=True); p.add_argument("--reporters", default="276,842,156,392,410,356,250,826,380,360")
+    p = sp.add_parser("comtrade"); p.add_argument("--hs", required=True); p.add_argument("--reporters", default="276,842,156,392,410,699,251,826,380,360")
     p.add_argument("--years", default="2019-2024"); p.add_argument("--flow", default="X,M"); p.add_argument("--partners", default=""); p.add_argument("--out", default="")
+    p = sp.add_parser("comtrade-import"); p.add_argument("--file", required=True); p.add_argument("--out", default="")
     sp.add_parser("pinksheet")
     p = sp.add_parser("usgs"); p.add_argument("--commodity", default="")
     p = sp.add_parser("prodcom"); p.add_argument("--product", default=",".join(PRODCOM)); p.add_argument("--reporters", default="EU27_2020,DE")
