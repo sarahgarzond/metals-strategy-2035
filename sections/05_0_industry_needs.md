@@ -1,3 +1,5 @@
 # 5. Industry Needs: Demand, Geography and Market Size
 
-Metals create value only when an industry needs them, so the chain now moves from material to demand, and each of the seven industries follows the same links from size and regions to applications and product forms. Because industry revenue is not alloy demand, each first subsection closes with the best measured size at a named stage, and industries without published alloy tonnage enter chapter 7 as team indices, with indicator tables in appendix A5. To avoid double counting, electrolysers and fuel cells belong to energy, process vessels to chemicals, and sensors and magnetic parts to electronics.
+Each of the seven industry sections starts with market size and geography and then explains applications and product forms. The first subsection ends with the best available measure at a named stage of the value chain. Where alloy tonnage is unavailable, chapter 7 uses an index calculated by the team. Appendix A5 lists the underlying indicators.
+
+To avoid counting applications twice, the study groups electrolyzers and fuel cells under energy, process vessels under chemical processing, and sensors and magnetic parts under electronics.

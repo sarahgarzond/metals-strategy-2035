@@ -1,0 +1,7 @@
+## 4.2 4.2 Cobalt
+
+Export restrictions contribute to cobalt scarcity. The USGS estimates that mines produced 310 kt of contained cobalt in 2025. The Democratic Republic of the Congo produced about 230 kt, or 73 percent. China refined 78.6 percent of the world's 240 kt of refined cobalt (Cobalt Institute, 2026; U.S. Geological Survey, 2026e).
+
+In February 2025, Congo banned cobalt exports. It later set an annual quota of up to 96,600 t for 2026 and 2027. CMOC mined 117,549 t in 2025 and received an export allowance of 31,200 t. The European cobalt metal price rose 130 percent during 2025 (CMOC Group, 2026; Cobalt Institute, 2026; Mining.com, 2026; U.S. Geological Survey, 2026e). The IEA expects 2035 mine supply of 225 kt against demand of 300 to 322 kt, which suggests a lasting supply gap (International Energy Agency, 2026b).
+
+Superalloys use a small share of cobalt but require high-purity metal. In 2025, batteries for vehicles and portable electronics used 206 kt, while superalloys used 20 kt. A few Western refineries supply most of the high-purity metal for superalloys (Cobalt Institute, 2026). Cobalt is used in remelt stock for turbine blades and combustors, cobalt-chromium bar and powder for hip and knee implants, and wear-resistant alloys. These uses are difficult to switch to other metals, so a quota set in Kinshasa can raise costs and disrupt production in places such as Toulouse and Cincinnati.

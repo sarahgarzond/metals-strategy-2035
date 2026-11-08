@@ -1,0 +1,5 @@
+## 4.6 4.6 Tungsten
+
+China controls much of the world's tungsten supply. In 2025, mines produced an estimated 85 kt of contained tungsten. China produced about 67 kt, or 79 percent (U.S. Geological Survey, 2026l). China's first 2025 national mining quota covered 58,000 t of concentrate. Since February 2025, it has required export licenses for ammonium paratungstate, tungsten oxides, unsintered carbide, and specified tungsten alloys. Sintered carbide tools and tungsten wire remain outside these controls (Ministry of Commerce of the People's Republic of China, 2025a, 2025b; Ministry of Natural Resources, 2025).
+
+Carbide for cutting and mining tools accounts for 65 percent of first use. Steels and superalloys account for 14 percent (International Tungsten Industry Association, n.d.). In superalloys, tungsten strengthens cast turbine parts and heat-resistant sheet. Export license decisions can therefore affect gas turbine production. Sandvik's powder business more than doubled orders and revenue in the third quarter of 2026 as tungsten prices rose (Sandvik, 2026).

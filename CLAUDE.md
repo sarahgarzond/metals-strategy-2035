@@ -94,7 +94,8 @@ up to 200 kg per 1 MW rack at 54 VDC, partners Infineon, Navitas, ROHM, Eaton, S
 ## Writing rules (hard, enforced by the house-style lint hook)
 - No dashes of any kind as punctuation (no em dash, no en dash, no " - " and no dash bullets). Write ranges as "2025 to 2035".
 - No semicolons. No buzzwords or filler words (see .claude/skills/house-style/banned_words.txt).
-- No short sentences: every sentence at least 12 words, ideally 18 to 30.
+- Plain, clear style as in the team's improved Google Doc (user instruction, 8 Nov 2026): short direct sentences,
+  at least 6 words each, ideally 10 to 20. Keep the flow between paragraphs.
 - Pragmatic, easy to follow, expert level. Each paragraph opens with a link to the previous one and ends by leading into the next.
 - Alloy names written without hyphens where possible (FeNi36, CuNiSi, CoCr). Official names like Alloy C-276 stay.
 

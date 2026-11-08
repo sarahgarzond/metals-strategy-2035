@@ -1,22 +1,22 @@
 # 4. Metal Markets: Materials, Product Forms and Applications
 
-Every high performance alloy begins as raw materials that the alloy maker does not control, so this chapter follows ten metals through the first three links of the chain, material, product form and application. Table 2 condenses them into a scorecard that already shows the pattern: supply is concentrated in a few countries, while the qualified product forms are made elsewhere.
+Table 2 shows the commercial forms of the ten metals covered in this chapter and the main uses reported for each.
 
-Table 2: Metal scorecard along the first three links, 2025
+Table 2: Commercial forms and main uses by metal
 
-| Metal | Material: world output and largest producer | Price signal | Main product forms | Key high performance applications | Supply risk to 2035 |
-|---|---|---|---|---|---|
-| Nickel | 3.90 Mt contained, Indonesia 67% (USGS), or 4.21 Mt and 63% (IEA) | USD 15,162/t, 41% below the 2022 average | Strip, sheet, plate, bar, wire, tube | Corrosion and heat resistant alloys, superalloys | Medium, Indonesian ore quotas |
-| Cobalt | 310 kt contained, DR Congo 73% | Metal up 130% in 2025 | Alloy grade metal, bar, sheet, powder | Superalloys, CoCr implants, wear alloys | High, Congolese export quota |
-| Chromium | 51 Mt chromite ore, South Africa about 45% | Chromium metal up, ferrochrome down | Ferrochrome, chromium metal | Every corrosion and oxidation resistant alloy | Medium, smelting in China |
-| Molybdenum | 260 kt contained, China about 37% | USD 51/kg oxide, up 7% | Oxide, ferromolybdenum, metal | Pitting resistance in C-276, 625 and 6Mo grades | Medium, Chinese licences on powders |
-| Titanium | 370 kt sponge, China about 70% | USD 12/kg U.S. sponge import value | Sponge, ingot, bar, plate | Airframes, engine cold sections, implants | High for aerospace grade sponge |
-| Tungsten | 85 kt contained, China about 79% | Rising under export licences | APT, carbide, metal | Cast superalloys, heat resistant sheet | High, Chinese quotas and licences |
-| Zirconium | 1.2 Mt concentrates, Australia about 33% | USD 1,800/t premium zircon | Sponge, plate, tube | Acid service equipment, fuel cladding | Medium, nuclear grade is captive |
-| Copper | 23.2 Mt mine, 28.6 Mt refined | USD 9,947/t 2025 average, record above USD 14,500 in 2026 | Cathode, wire rod, strip, foil | Busbars, connectors, CuNi alloys | Medium, mine supply falls by 2035 (IEA) |
-| Aluminium | 74 Mt primary, China about 61% | USD 2,632/t | Sheet, plate, extrusions | Competing material in heat exchangers, busbars | Low |
-| Manganese | 20 Mt contained, South Africa about 38% | USD 4.5 per mtu ore | Ferromanganese, metal | Alloying addition in stainless | Low |
+| Metal | Commercial forms | Main use and company example | Share |
+|---|---|---|---|
+| Nickel | Bar<br>Billet<br>Sheet<br>Plate<br>Tube<br>Battery salts | Stainless steel (Alfa Laval T10 316L plate)<br>Batteries (LG Energy Solution M50L cell)<br>Nickel alloys (Haynes C-276 reactor plate) | 66%<br>16%<br>6% |
+| Cobalt | Remelt stock<br>Bar<br>Powder<br>Cobalt salts | Batteries (LG Energy Solution M50L cell)<br>Superalloys (Haynes 188 combustor sheet) | ≈75%<br>≈7% |
+| Chromium | Ferrochrome<br>Chromium metal<br>Sheet<br>Plate | Stainless steel (Franke MYX 110-55 sink) | >80% |
+| Molybdenum | Ferromolybdenum<br>Plate<br>Sheet<br>Tube | Chemicals & petrochemicals (Alfa Laval T10 C-276 plate)<br>Oil & gas (Alleima SAF 2507 umbilical tube) | 17%<br>14% |
+| Titanium | Sponge<br>Plate<br>Bar<br>Tube<br>Forgings | Aerospace (Airbus A350 landing gear) | >50%* |
+| Tungsten | Carbide powder<br>Inserts<br>Tungsten metal | Carbide products (Sandvik CNMG 4425 insert)<br>Steels & superalloys (Haynes 188 combustor sheet) | 65%<br>14% |
+| Zirconium | Zircon concentrate<br>Sponge<br>Plate<br>Tube | Ceramics (Iluka Premium zircon for tile)<br>Acid service (Alleima Zr 702 exchanger tube)<br>Fuel cladding (Framatome M5 fuel rod cladding) | >50%<br>n.r.<br>n.r. |
+| Copper | Wire<br>Tube<br>Sheet<br>Strip<br>Bar | Construction (Southwire SIMpull THHN wire)<br>Consumer, cooling & electronics (Wieland grooved tube)<br>Power & telecom (Prysmian 12/20 kV Cu cable) | 26%<br>23%<br>17% |
+| Aluminium | Sheet<br>Plate<br>Extrusions<br>Castings<br>Conductor rod | Construction (WICONA WICLINE 75 Eco frame)<br>Transport (Novelis s118 hood inner sheet)<br>Electrical (Southwire Drake ACSR conductor) | ≈25%<br>≈23%<br>≈12% |
+| Manganese | Ferromanganese<br>Silicomanganese<br>Electrolytic metal | Steelmaking (voestalpine MN13 rail crossing) | ≈97% |
 
-*Sources: USGS Mineral Commodity Summaries 2026, IEA, World Bank Pink Sheet, Cobalt Institute, ICSG, IAI and IMOA [USGS_MCS2026_DATA, IEA_CM_NI_SUPPLY_2025_2035, NI_WB_AVG_2022, NI_WB_AVG_2025, CO_USGS_MINE_DRC_2025, CO_CI_METAL_PRICE_2025, CR_MINE_ORE_2025_ZAF, CR_PRICE_METAL_2025, MO_USGS_PRICE_OXIDE_2025, MO_USGS_MINE_CHINA_2025, W_MOFCOM_2025_10, TI_SPONGE_US_PRICE_2025, ZR_MINE_GROSS_2025_WORLD, ZR_PRICE_PREMIUM_CIF_2025, CU_ICSG_MINE_2025, CU_ICSG_REFPROD_2025, CU_WB_CU_2025, LME_CU_RECORD_2026, IEA_CM_CU_BALANCE_2025_2035, USGS_MCS2026_AL, AL_PINK_2025, USGS_MCS2026_MN]. Shares are team calculations on rounded totals, except the Congo share, which USGS publishes.*
+*Company examples identify a specific component or material supplied for that use. Shares refer to the full use category. All shares link to their sources in the table. First use: Ni (2024) and W (2021). Demand or end use: Co and Mo (2025), Cu (2024), Al (2020), Mn (undated). Cr covers ferrochrome (ICDA, 2022). Zr covers zircon output (Iluka, 2024). *Ti covers U.S. metal use (2025), reported as a majority. n.r. = not reported.*
 
-The scorecard sorts the metals into three groups, since nickel and chromium are available in volume, cobalt, tungsten, molybdenum and aerospace grade titanium are scarce through policy or qualification, and copper, aluminium and manganese matter mainly as complementary or competing materials, so nickel, the base of the alloy family, comes first.
+The forms show where each metal enters manufacturing. Ferroalloys go into the melt, while plate, tube, bar and powder go to manufacturers that turn them into components. The profiles below explain how these forms are supplied and used.

@@ -1,14 +1,18 @@
 ## 5.6 Electronics and Electrical Engineering
 
-Electronics has the largest headline numbers and the smallest metal volumes, because booming chip and data centre markets use precision strip, foil and high purity alloys measured in tonnes.
+Electronics has the largest headline market figures but the smallest metal volumes. Chip and data center applications use specialized strip, foil, and high-purity alloys in amounts measured in tonnes.
 
 ### 5.6.1 Demand, Geography and Market Size
 
-The semiconductor boom is real but must be read carefully before it is translated into metal. Semiconductor sales reached USD 795.6 billion in 2025, up 26.2 percent, and WSTS forecasts USD 1.51 trillion for 2026 mainly because memory sales more than triple, so sales value rises without a comparable rise in metal volume [WSTS_WORLD_2025, WSTS_WORLD_2026_SPRING]. Equipment spending is the closer indicator, and SEMI expects 300 mm fab equipment spending of USD 149 billion in 2026 and USD 227 billion in 2029, with fabs in Taiwan, Korea, China and increasingly the United States [SEMI_300MM_2026, SEMI_300MM_2029]. No public source measures FeNi or high purity alloy tonnage for electronics, whose FeNi growth comes from electronics and electric drive sensors rather than from engine alloys.
+Semiconductor sales reached USD 795.6 billion in 2025, up 26.2 percent. WSTS forecasts USD 1.51 trillion in 2026, mainly because it expects memory sales to more than triple. Higher sales value does not imply a similar rise in metal volume [WSTS_WORLD_2025].
+
+Equipment spending is a closer indicator of alloy demand. SEMI expects spending on 300 mm fab equipment to reach USD 149 billion in 2026 and USD 227 billion in 2029. Fabs are located in Taiwan, Korea, China, and increasingly in the United States [SEMI_300MM_2026, SEMI_300MM_2029]. Public sources do not report electronics demand in tonnes of FeNi or high-purity alloy. FeNi growth comes from electronics and electric drive sensors, while demand from engine alloys follows a different trend.
 
 ### 5.6.2 Applications and Opportunities
 
-In data centres, NVIDIA states that a 1 MW rack at 54 VDC needs up to 200 kg of copper busbar and plans 800 VDC distribution with its Kyber racks in 2027, with partners such as Infineon, Vertiv, Eaton and Schneider Electric, and Vertiv raised its copper hedge to 12,946 t by September 2026 [NVDA_800VDC, CO_VERTIV_COPPERHEDGE_2026]. In displays, Dai Nippon Printing doubled its OLED metal mask capacity with an 8th generation line at Kurosaki and expects its invar patents to stay protected [DNP_KUROSAKI_2024, DNP_INVAR_2024]. DNP itself notes that some panel makers test mask free deposition, which TrendForce reports Visionox and TCL CSOT pursue, while Samsung Display and BOE keep fine metal masks on 8.6 generation lines [DNP_INVAR_2024, CO_SDC_FMM_8G6_2025].
+NVIDIA says that a 1 MW data center rack operating at 54 VDC needs up to 200 kg of copper busbar. It plans to use 800 VDC distribution with Kyber racks in 2027. Its partners include Infineon, Vertiv, Eaton, and Schneider Electric. Vertiv raised its copper hedge to 12,946 t by September 2026 [NVDA_800VDC, CO_VERTIV_COPPERHEDGE_2026].
+
+Dai Nippon Printing (DNP) doubled its OLED metal mask capacity with an 8th-generation line at Kurosaki. It expects its invar patents to remain protected [DNP_KUROSAKI_2024, DNP_INVAR_2024]. DNP notes that some panel makers are testing mask-free deposition. TrendForce reports that Visionox and TCL CSOT are pursuing this method, while Samsung Display and BOE continue to use fine metal masks on 8.6-generation lines [DNP_INVAR_2024, CO_SDC_FMM_8G6_2025].
 
 Table 8: High performance metal applications in electronics, outlook to 2035
 
@@ -19,9 +23,9 @@ Table 8: High performance metal applications in electronics, outlook to 2035
 | Grows | Fab gas delivery and chamber components | High purity nickel alloy and stainless strip and tube stock |
 | Stable | Glass seals, lead frames, resistance heating | FeNi42 and FeNi29Co18 strip, resistance wire |
 
-*Sources: team assessment [NVDA_800VDC, DNP_KUROSAKI_2024, SEMI_300MM_2026, CO_INFINEON_FAB_2026].*
+*Sources: team assessment [DNP_KUROSAKI_2024, CO_INFINEON_FAB_2026, NVDA_800VDC, SEMI_300MM_2026].*
 
-Because the filings of TSMC, Applied Materials and Lam Research name no specific alloy, suppliers reach this market through component makers. Infineon's EUR 5 billion Smart Power Fab in Dresden, opened in July 2026, shows that Europe still adds capacity in power electronics [CO_INFINEON_FAB_2026].
+The filings of TSMC, Applied Materials, and Lam Research do not name specific alloys. Alloy suppliers therefore reach these customers through component makers. Infineon's EUR 5 billion Smart Power Fab, which opened in Dresden in July 2026, shows that Europe is still adding power electronics capacity [CO_INFINEON_FAB_2026].
 
 Implications for suppliers:
 

@@ -10,7 +10,7 @@ import json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BANNED = [w.strip().lower() for w in open(os.path.join(HERE, "banned_words.txt")) if w.strip()]
-MIN_WORDS = 12
+MIN_WORDS = 6
 
 
 def prose_lines(text):

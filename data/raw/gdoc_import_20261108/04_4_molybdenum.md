@@ -1,0 +1,7 @@
+## 4.4 4.4 Molybdenum
+
+Molybdenum helps alloys resist corrosion from hot acids and seawater. The amount needed depends on the grade. One tonne of 316L stainless steel contains about 21 kg of molybdenum. One tonne of Alloy C-276 contains about 160 kg, and one tonne of Alloy 625 contains about 90 kg. These grades can therefore require large amounts of molybdenum even when alloy volumes are small (ATI, n.d.; Haynes International, 2023; Outokumpu, 2025).
+
+Much of the world's molybdenum comes from copper mining. This limits how quickly supply can respond to higher prices. The USGS estimates 2025 mine output at 260 kt of contained molybdenum. The International Molybdenum Association reports 672.6 million pounds, or about 305 kt in the team's conversion. Almost all of the difference is in China (International Molybdenum Association, 2026; U.S. Geological Survey, 2026g).
+
+According to the USGS, only China and the United States produce from primary molybdenum mines. Since February 2025, China has required licenses for molybdenum powder exports. The policy excludes the oxide and ferromolybdenum that melt shops buy (Ministry of Commerce of the People's Republic of China, 2025a; U.S. Geological Survey, 2026g). The U.S. oxide price rose 7 percent to an estimated USD 51 per kg in 2025. European use fell 7 percent as the chemical industry slowed (International Molybdenum Association, 2026; U.S. Geological Survey, 2026g).

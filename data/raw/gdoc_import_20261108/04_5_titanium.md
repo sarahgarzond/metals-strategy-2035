@@ -1,0 +1,7 @@
+## 4.5 4.5 Titanium
+
+Titanium can replace nickel alloys in lighter and cooler aerospace parts. Its mineral and metal markets have very different volumes. In 2025, world ilmenite and rutile output reached 9.8 Mt measured as TiO2, mostly for pigment. Titanium sponge output was 370 kt (U.S. Geological Survey, 2026j, 2026k).
+
+China produced about 260 kt of sponge and held 320 kt of the world's 470 kt of capacity. Western aircraft engines use other qualified sources, and the United States has no operating sponge capacity (U.S. Geological Survey, 2026j). Russia produced about 25 kt of sponge in 2025 and shipped USD 715 million of titanium to the ten reporting countries in 2024. Russia's VSMPO-AVISMA describes itself as the leading supplier of titanium for aviation (U.S. Geological Survey, 2026j; United Nations Statistics Division, 2026a; VSMPO-AVISMA Corporation, n.d.).
+
+The scarce forms are aircraft-grade sponge and the ingot, bar, and plate made from it. Osaka Titanium is increasing aircraft-grade capacity from 40 kt to 50 kt by fiscal 2027. Kobe Steel sells titanium castings and forgings for aircraft, and ATI reports lead times of about 20 months for premium titanium. Europe melts and fabricates titanium without making sponge. In 2024, it sold 22.6 kt of wrought titanium and imported 31.7 kt (ATI, 2026b; Eurostat, 2024; Kobe Steel Ltd., 2026; Osaka Titanium Technologies, 2025). Nickel superalloys face a similar shortage of qualified melting capacity.
