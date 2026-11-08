@@ -152,7 +152,9 @@ def decorate(content):
     content = re.sub(r"<p><em>(Sources?:)", r'<p class="source"><em>\1', content)
     def widen(m):
         tbl = m.group(0)
-        return tbl.replace("<table>", '<table class="wide">', 1) if len(re.findall(r"<th[ >]", tbl)) >= 9 else tbl
+        n = len(re.findall(r"<th[ >]", tbl))
+        cls = "wide" if n >= 9 else "dense" if n >= 5 else ""
+        return tbl.replace("<table>", f'<table class="{cls}">', 1) if cls else tbl
     content = re.sub(r"<table>.*?</table>", widen, content, flags=re.S)
     return content
 

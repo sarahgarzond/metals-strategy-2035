@@ -34,18 +34,21 @@ h2,h3{font-weight:400}
 h1 .num,h2 .num,h3 .num{display:inline-block;min-width:36pt}
 /* tables */
 p.caption{margin:0 0 4pt;page-break-after:avoid;break-after:avoid}
-table{width:100%;border-collapse:collapse;margin:0;page-break-inside:avoid;line-height:1.15;text-align:left}
+table{width:100%;border-collapse:collapse;margin:0;page-break-inside:auto;line-height:1.15;text-align:left}
 th,td{border:1pt solid #000;padding:5pt;vertical-align:top;font-weight:400}
 th{background:#EDEDED;text-align:left}
 td p,th p{margin:2pt 0}
 p.source{margin:4pt 0 12pt}
 table.wide th,table.wide td{font-size:10pt;padding:3pt}
+tr{page-break-inside:avoid;break-inside:avoid}
+thead{display:table-header-group}
+table.dense th,table.dense td{font-size:10pt;padding:2pt 3pt}
 table.wide td:first-child,table.wide th:first-child{width:36%}
 /* lists */
 ul{margin:0 0 6pt;padding-left:36pt}
 ul li{list-style:none;position:relative;margin:0 0 4pt}
 ul li:before{content:"\25CF";position:absolute;left:-18pt;font-size:9pt;top:2pt}
-img{max-width:100%;display:block;margin:6pt auto}
+img{max-width:86%;display:block;margin:4pt auto}
 .cite.bad{color:#C0392B;font-weight:700}
 /* references: APA 7, as in the team's document */
 .refs p.ref{line-height:1.15;margin:18pt 0 6pt;padding-left:36pt;text-align:justify}

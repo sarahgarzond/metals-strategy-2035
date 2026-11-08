@@ -1,31 +1,28 @@
 ## 5.2 Oil and Gas
 
-Oil and gas is a stable market for the company, in which spending holds its level to 2035 while its mix moves from oil to gas and from the Middle East toward the Americas and Africa. The barrier that protects margins is not a public standard but the approval lists of operators and pipe makers, which a new supplier takes years to join.
+Oil and gas is a stable rather than a growing market for high performance metals, but beneath its flat total it is moving decisively from oil to gas and from the Middle East toward the Americas and Africa. Corrosion resistant alloys follow that shift, because sour gas, deep water and liquefied natural gas all need materials that ordinary steel cannot provide.
 
-### 5.2.1 Investment, Gas and LNG to 2035
+### 5.2.1 Demand, Geography and Market Size
 
-Upstream oil and gas investment was just under USD 570 billion in 2025 and about USD 546 billion in 2026, with gas up 8 percent and oil slightly down [OG_WEO2025_UPSTREAM_2025, OG_WEI2026_UPSTREAM_OG_2026]. About 40 percent of upstream spending only slows the decline of existing fields, which supports replacement and workover demand for corrosion resistant parts [OG_WEI2025_UPSTREAM_OIL_2025].
+Upstream investment holds its level, and much of it serves to keep existing fields alive rather than to open new ones. Upstream oil and gas investment was just under USD 570 billion in 2025 and about USD 546 billion in 2026, with gas up 8 percent and oil slightly down, and about 40 percent of upstream spending only slows the decline of existing fields [OG_WEO2025_UPSTREAM_2025, OG_WEI2026_UPSTREAM_OG_2026, OG_WEI2025_UPSTREAM_OIL_2025]. Geography is shifting at the same time, as upstream investment rises by over 10 percent in Central and South America and in Africa in 2026, while Qatar's North Field East start up slips to at least the first half of 2027 [OG_WEI2026_SSA_UPSTREAM_2026, OG_LNG_NFE_CAPACITY]. By 2035 the IEA expects upstream spending near today's level in its Stated Policies Scenario, while LNG trade could grow from 560 bcm in 2024 to 880 bcm under current policies [OG_WEO2025_CPS_EXTRA_UPSTREAM, OG_WEO2025_LNG_DEMAND_2024].
 
-Geography is shifting, because upstream investment rises by over 10 percent in Central and South America and in Africa in 2026, while the Middle East falls slightly and Qatar's North Field East start up slips to at least the first half of 2027 [OG_WEI2026_SSA_UPSTREAM_2026, OG_LNG_NFE_CAPACITY].
+### 5.2.2 Applications and Opportunities
 
-### 5.2.2 Key Applications and Opportunities for the Company
+The real barrier to entry in this market is not metallurgy but customer approval. Every producer meets the sour service standard ISO 15156, so margins are protected by operator approval lists, NORSOK M-650 qualification of the mill and the API 6ACRA and API 5LD specifications for valves, wellheads and clad pipe. Clad pipe, which lines carbon steel with a thin nickel alloy layer, is the growing product form, and BUTTING, which describes itself as the global market leader, reports turnover of EUR 880 million [CO_BUTTING_SALES_2025]. Demand is visible in the order books, since TechnipFMC took inbound orders of USD 11.2 billion in 2025, of which USD 10.1 billion were subsea, and ended the year with a backlog of USD 16.6 billion [CO_TECHNIPFMC_ORDERS_2025].
 
-Nickel alloy bar, plate, strip and welding wire serve wells, pipes and LNG equipment. Every producer meets the sour service standard ISO 15156, so the real entry barriers are operator approval lists, NORSOK M-650 qualification of the mill and the API 6ACRA and API 5LD specifications for valve, wellhead and clad pipe material. Clad pipe is the growing form, because it uses a thin nickel alloy liner on carbon steel, and BUTTING, which describes itself as the global market leader, reports turnover of EUR 880 million [CO_BUTTING_SALES_2025].
+Table 4: High performance metal applications in oil and gas, outlook to 2035
 
-Table 4: The company's oil and gas applications, outlook to 2035
-
-| Outlook | Applications | Product forms |
+| Outlook | Applications | Materials and product forms |
 |---|---|---|
-| Grows | Clad and lined pipe, subsea tubes and umbilicals, LNG cryogenic parts | Strip, plate, welding wire, FeNi36 |
-| Stable | Well tools, OCTG accessories, flanges and fittings, sour gas processing | Bar, billet, plate |
+| Grows | Clad and lined pipe, subsea equipment, LNG cryogenic parts | Nickel alloy strip, plate, welding wire, FeNi36 |
+| Stable | Well tools, wellheads, valves and fittings for sour gas | Nickel alloy bar, billet, plate |
 | Falls | Oil only refinery revamps in Europe | Plate |
 
-*Source: VDM Metals application benchmark, outlook is the team's assessment.*
+*Source: team assessment based on IEA, TechnipFMC and BUTTING evidence [OG_WEI2026_UPSTREAM_OG_2026, CO_TECHNIPFMC_ORDERS_2025, CO_BUTTING_SALES_2025].*
 
-Demand is visible in the order books of the equipment makers, as TechnipFMC reported total inbound orders of USD 11.2 billion in 2025, of which subsea accounted for USD 10.1 billion, and a backlog of USD 16.6 billion [CO_TECHNIPFMC_ORDERS_2025]. Competitors are investing at the same time, since Alleima started a fourth VAR furnace at Sandviken in autumn 2025 and Outokumpu is adding about 13,000 t of high nickel flat capacity at Avesta from 2028 [CO_ALLEIMA_VAR_2025, CO_OUTOKUMPU_HINI_CAP_2026]. Acerinox's alloy division, which competes most directly with the company, called oil and gas sluggish in 2025, which shows that the segment rewards approvals rather than volume [ACERINOX_HPA_SALES_2025].
+Competitors are investing despite the flat market, which shows how much the approved positions are worth. Alleima started a fourth vacuum arc remelting furnace at Sandviken in autumn 2025, and Outokumpu is adding about 13,000 t of high nickel flat capacity at Avesta from 2028 [CO_ALLEIMA_VAR_2025, CO_OUTOKUMPU_HINI_CAP_2026].
 
-What the company should do:
+Implications for suppliers:
 
-* Focus sales on gas and offshore projects in Central and South America and in Sub Saharan Africa, where upstream spending grows fastest.
-* Sell more strip and welding wire for clad pipe through BUTTING and similar pipe makers, once NORSOK and API approvals are confirmed.
-* Defend bar for well tools and subsea equipment through framework agreements with service companies rather than single project bids.
+* Concentrate sales on gas and offshore projects in Central and South America and in Sub Saharan Africa.
+* Grow strip and welding wire for clad pipe makers once NORSOK and API approvals are secured.

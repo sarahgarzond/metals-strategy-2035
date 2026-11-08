@@ -6,7 +6,7 @@ The report uses Mt for million tonnes, kt for thousand tonnes, t for metric tonn
 
 ## A2 Reproducible scenario calculations
 
-Each 2035 index uses the formula I(2035) = 100 × (1 + g)^10 with 2025 as the base year, rounded to the nearest integer. For example, the aerospace base case is 100 × 1.045^10 = 155.3, rounded to 155, and the automotive base case is 100 × 0.985^10 = 86.0, rounded to 86. The rates in Table 11 are team assumptions anchored to cited evidence and are not third party alloy forecasts, and no company shipment weights or probabilities are applied.
+Each 2035 index uses the formula I(2035) = 100 × (1 + g)^10 with 2025 as the base year, rounded to the nearest integer. For example, the aerospace base case is 100 × 1.045^10 = 155.3, rounded to 155, and the automotive base case is 100 × 0.985^10 = 86.0, rounded to 86. The rates in Table 12 are team assumptions anchored to cited evidence and are not third party alloy forecasts, and no company shipment weights or probabilities are applied.
 
 Table A1: Demand index 2035 by industry (2025 = 100)
 
@@ -20,19 +20,19 @@ Table A1: Demand index 2035 by industry (2025 = 100)
 | Oil and gas | 90 | 105 | 116 | Strip, plate, bar, welding wire |
 | Automotive | 74 | 86 | 100 | Heat resistant and soft magnetic strip |
 
-*Source: team calculation, I(2035) = 100 × (1 + g)^10 with the rates of Table 11, rounded.*
+*Source: team calculation, I(2035) = 100 × (1 + g)^10 with the rates of Table 12, rounded.*
 
 ## A3 Data sources, product codes and reproducibility
 
-All structured data were pulled with the project's fetch script, which stores raw files, writes clean tables and logs every query with its date and URL in the source register of 1,030 entries. UN Comtrade data cover the product codes HS 7502, 7504, 7505, 7506, 7507, 8105, 8109, 7219, 7220, 7223, 7409, 7606, 8311 and 8411 for ten reporting countries from 2019 to 2024, and Eurostat PRODCOM data cover fifteen nickel, cobalt, stainless, copper and aluminium product codes for the EU and five producer countries. USGS Mineral Commodity Summaries 2026, the World Bank Pink Sheet, OECD STAN and ICIO, UNIDO INDSTAT for Germany and the filings of 61 companies complete the evidence base.
+All structured data were pulled with the project's fetch script, which stores raw files, writes clean tables and logs every query with its date and URL in the source register of more than 1,000 entries. UN Comtrade data cover the product codes HS 7502, 7504, 7505, 7506, 7507, 8105, 8109, 7219, 7220, 7223, 7409, 7606, 8311 and 8411 for ten reporting countries from 2019 to 2024, and Eurostat PRODCOM data cover fifteen nickel, cobalt, stainless, copper and aluminium product codes for the EU and five producer countries. USGS Mineral Commodity Summaries 2026, the World Bank Pink Sheet, OECD STAN and ICIO, UNIDO INDSTAT for Germany and the filings of 61 companies complete the evidence base.
 
-## A4 Information needed before investment
+## A4 Limitations and further research
 
-The market findings must be tested against internal data before they become a business plan. The company needs its actual shipments and net of metal sales by application, conversion margins, production yields and bottleneck hours, its approved customer, grade and form combinations, qualification lead times and firm order coverage. The legal group structure should be validated when comparing competitors, so that VDM Metals and Haynes are counted once inside Acerinox, and scenario rates should be replaced with customer level quantities as soon as these become available.
+The study has three limitations that further research on this market should address. Official statistics stop at the mill product and mix pure nickel with nickel alloys, so the market for specific alloys can only be approximated, and a producer level survey or customs data at the eight digit level would sharpen these estimates. The scenario rates are team assumptions anchored to cited indicators rather than econometric forecasts, and they should be updated as the IEA World Energy Outlook 2026, the next Airbus and Boeing outlooks and new SEMI forecasts are published. Finally, the trade analysis covers ten large reporting countries, so a world mirror data analysis that includes Russia, Sweden and Austria would complete the picture of global corridors.
 
 ## A5 Sector market indicators
 
-The following tables hold the market indicators behind the summary statements in chapter 5, with the same sources and observation years.
+The following tables collect the market indicators behind the industry analysis in chapter 5, with their sources and observation years.
 
 Table A2: Automotive market indicators, 2025 and 2035
 
@@ -94,7 +94,7 @@ Table A6: Chemical industry indicators
 
 *Sources: Cefic (2025, 2026), Eurostat, VCI, BASF Report 2025 [CEFIC_EU27_SALES_2024, CEFIC_EU_SHARE_2024, EUROSTAT_C20_EU27_2025, CEFIC_CAPUTIL_EU27_Q3_2026, VCI_CAPUTIL_2025, BASF_APAC_GROWTH_2035].*
 
-Table A7: Electronics indicators relevant to the company
+Table A7: Electronics indicators relevant to high performance metals
 
 | Indicator | Value | Relevance |
 |---|---|---|
@@ -121,7 +121,7 @@ Table A8: Medical technology indicators
 
 ## A6 Peer benchmark of specialty metal producers
 
-The peer benchmark supports the competitive assessment in section 8.1 and shows margins and current capacity moves of the main competitors.
+The peer benchmark supports the competitive assessment in section 8.1 and shows the margins and current capacity moves of leading specialty metal producers.
 
 Table A9: Peer benchmark of specialty metal producers
 
@@ -131,7 +131,6 @@ Table A9: Peer benchmark of specialty metal producers
 | Carpenter Technology | USD 3,124 m (FY2026) | 22.5% operating | Athens, Alabama expansion, capex USD 355 to 375 m guided |
 | ATI | USD 4,587 m (2025) | 14.0% operating | Fifth VIM furnace in Monroe, about 9 kt a year from 2027 |
 | PCC including Special Metals | USD 10.8 bn (2025) | Not published | Aerospace revenue up 7.5% |
-| Acerinox HPA (VDM and Haynes) | EUR 1,683 m (2025) | 8% EBITDA, EBIT minus EUR 3 m in H1 2026 | VDM EUR 67 m programme, Haynes about USD 200 m |
 | Aubert & Duval | EUR 844 m (2024) | Not published | Owned by Airbus, Safran and Tikehau |
 | Alleima | SEK 18,630 m (2025) | 8.3% adjusted EBIT | Fourth VAR furnace at Sandviken |
 | Outokumpu | EUR 5,468 m (2025) | 3.1% adjusted EBITDA | About 13 kt high nickel flat at Avesta, about EUR 150 m |
@@ -139,4 +138,36 @@ Table A9: Peer benchmark of specialty metal producers
 | Daido Steel | JPY 578 bn (FY2025) | 7.3% operating | JPY 36 bn high alloy melting and forging base |
 | Nippon Yakin Kogyo | JPY 151 bn (FY2025) | 7.3% operating | Sales down 12% on weak high nickel demand |
 
-*Sources: company filings and reports [CO_HWM_SALES_2025, CO_HWM_CAPEX_2025, CO_CRS_SALES_2026, CO_CRS_OPINC_2026, CO_CRS_CAPEX_2026, CO_ATI_SALES_2025, ARGUS_SUPERALLOY, CO_PCC_REV_2025, CO_ACX_HPA_2025, CO_ACX_HPA_H1_2026, CO_ACX_VDM_INV, CO_ACX_HAYN_INV, CO_AD_REV_PRESS_2025, CO_ALLEIMA_REV_2025, CO_ALLEIMA_ADJEBIT_2025, CO_OUTOKUMPU_SALES_2025, CO_OUTOKUMPU_HINI_CAP_2026, CO_APERAM_SALES_2025, CO_APERAM_INVEST_2026, CO_DAIDO_SALES_2026, CO_NIPPONYAKIN_SALES_2026]. Margins as reported or calculated from reported figures, fiscal years differ.*
+*Sources: company filings and reports [CO_HWM_SALES_2025, CO_HWM_CAPEX_2025, CO_CRS_SALES_2026, CO_CRS_OPINC_2026, CO_CRS_CAPEX_2026, CO_ATI_SALES_2025, ARGUS_SUPERALLOY, CO_PCC_REV_2025, CO_AD_REV_PRESS_2025, CO_ALLEIMA_REV_2025, CO_ALLEIMA_ADJEBIT_2025, CO_OUTOKUMPU_SALES_2025, CO_OUTOKUMPU_HINI_CAP_2026, CO_APERAM_SALES_2025, CO_APERAM_INVEST_2026, CO_DAIDO_SALES_2026, CO_NIPPONYAKIN_SALES_2026]. Margins as reported or calculated from reported figures, fiscal years differ.*
+
+## A7 Qualification gates by industry
+
+The qualification gates below determine how quickly a producer can enter each application, and they are referred to in section 8.1.
+
+Table A10: Qualification gates by industry
+
+| Industry | Approval gate | Who approves | Implication |
+|---|---|---|---|
+| Aerospace | AMS specifications, NADCAP accredited processes, part level approval | Engine makers and forgers | Years per part family, start in 2026 |
+| Energy | Casting house and turbine maker approvals, ASME III and RCC-M for nuclear | Turbine makers, utilities, tube makers | Nuclear approvals only with a named programme |
+| Oil and gas | NORSOK M-650, API 6ACRA and API 5LD, operator approval lists | Operators, pipe and equipment makers | Approval lists are the moat |
+| Chemical | Pressure equipment rules (VdTÜV, AD 2000, ASME), corrosion test data | Fabricators, plant operators | Life cycle cost evidence wins |
+| Medical | ASTM F75 and F1537 material standards, supplier audits | Implant makers with ISO 13485 | Few buyers, long relationships |
+
+*Source: team summary of the standards named in chapter 5.*
+
+## A8 Risks and kill criteria
+
+The roadmap in chapter 8 carries known risks, and each of them can be met with a defined response and a point at which a producer should stop, as Table A11 shows.
+
+Table A11: Main risks, responses and kill criteria
+
+| Risk | Early signal | Response | Kill criterion |
+|---|---|---|---|
+| Qualification slower than planned | Part approvals behind schedule | Focus on repair and casting stock, which qualify faster | No long term agreement by end 2028, so no capacity step |
+| Substitution by ceramic matrix composites and titanium aluminide | New engine variants with lower nickel content | Join customer development programmes early | Falling hot section nickel content in new programmes |
+| New Asian superalloy capacity | Japanese and Chinese producers win Western approvals | Speed and service close to European customers | Prices below conversion cost in tenders |
+| Cobalt, tungsten and molybdenum supply | Quota and licence changes | Several sources, revert recovery, stocks | Single source above half of an input |
+| European demand weakness | Chemical utilisation below 75%, falling engine volumes | Shift sales to Asia and the United States | Contribution margin below plan for two years |
+
+*Source: team assessment based on chapters 4 to 7 [CO_DAIDO_HIGHALLOY_2026, CEFIC_CAPUTIL_EU27_Q3_2026].*

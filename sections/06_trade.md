@@ -1,10 +1,24 @@
-# 6. Global Market Dynamics and Trade
+# 6. Global Market Size and Trade
 
-The Trade dimension connects the supply base of chapter 4 to the industries of chapter 5, and it shows that the company competes in a small number of well defined product corridors rather than in a global commodity market. A country can export raw material while importing refined metal or finished alloy, so production leadership does not establish access to the grades and forms a buyer needs. All figures below come from UN Comtrade at product code level and are stated in current US dollars for 2024 unless noted.
+Trade data answer two questions that production statistics cannot, namely how large the market for qualified metal products is and where its value is created, and this chapter answers both before turning to the policies that are reshaping trade.
 
-### 6.1 Germany Leads the Trade in Qualified Nickel Products
+### 6.1 Measuring the Market for Qualified Nickel Products
 
-Among the ten largest producing and consuming countries covered by the data, Germany is the largest exporter of nickel plate, sheet, strip and foil and the second largest exporter of nickel bars, rods and wire, which places the company's home base at the centre of the qualified product trade. German exports of the three nickel mill product codes reached USD 1.42 billion in 2024, against USD 0.97 billion in 2019, an increase of 47 percent [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].
+The only product level market that official statistics measure for Europe is the apparent consumption of nickel mill products, and it is smaller and more concentrated than headline metal figures suggest. EU production plus imports minus exports of nickel bars, plate, strip and tubes amounted to about 72 kt and EUR 889 million in 2024, of which flat products accounted for 57.8 kt [EU_NI_MILL_APPCONS_2024]. These codes mix pure nickel and nickel alloys and some production cells are confidential, so the figures indicate scale rather than an exact alloy market, but they show that the qualified European market is measured in tens of thousands of tonnes rather than in millions.
+
+Table 10: European market for nickel mill products, 2024
+
+| Product code | EU apparent consumption | Main applications |
+|---|---|---|
+| Bars, rods and wire (PRODCOM 24452100) | 5.4 kt, EUR 151 m | Aerospace, energy, oil and gas |
+| Plate, sheet, strip and foil (24452200) | 57.8 kt, EUR 697 m | Chemical, electronics, energy, oil and gas |
+| Tubes and fittings (24452300) | 9.2 kt, EUR 42 m | Chemical, energy, oil and gas |
+
+*Source: Eurostat PRODCOM DS-059358, apparent consumption as sold production plus imports minus exports, team calculation [EU_NI_MILL_APPCONS_2024]. Production cells are partly rounded or confidential.*
+
+### 6.2 Conversion Creates the Trade Surplus
+
+Trade flows reveal that value is earned where metals are converted, not where they are mined. Among the ten large producing and consuming countries covered by the data, Germany is the largest exporter of nickel plate, sheet and strip and the second largest exporter of nickel bars and wire, and its exports of the three nickel mill product codes rose from USD 0.97 billion in 2019 to USD 1.42 billion in 2024, an increase of 47 percent [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].
 
 Figure 2: German exports of nickel mill products rose by 47 percent from 2019 to 2024
 
@@ -12,7 +26,7 @@ Figure 2: German exports of nickel mill products rose by 47 percent from 2019 to
 
 *Source: UN Comtrade, Germany as reporter, exports to the world in current USD [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].*
 
-Table 10: Exports of nickel mill products and related codes by leading country, 2024
+Table 11: Leading exporters of nickel mill products and related codes, 2024
 
 | HS code and product | Leading exporters among the ten countries (USD million) | Germany net trade (USD million) |
 |---|---|---|
@@ -23,20 +37,14 @@ Table 10: Exports of nickel mill products and related codes by leading country, 
 | 8105 Cobalt and articles | United States 418, China 266, United Kingdom 218, Germany 149, Japan 96 | +19 |
 | 8311 Welding wire and electrodes | China 952, United States 380, Korea 196, Germany 160, Japan 148 | +63 |
 
-*Source: UN Comtrade (2026), reporter data for Germany, the United States, China, Japan, Korea, India, France, the United Kingdom, Italy and Indonesia [COMTRADE_PORTFOLIO_WORLD_2019_2024, COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024]. Russia, Sweden and Austria are not covered, so rankings apply to these ten countries. Team calculation of net trade as exports minus imports.*
+*Source: UN Comtrade (2026), reporter data for Germany, the United States, China, Japan, Korea, India, France, the United Kingdom, Italy and Indonesia [COMTRADE_PORTFOLIO_WORLD_2019_2024]. Russia, Sweden and Austria are not covered, so rankings apply to these ten countries. Team calculation of net trade as exports minus imports.*
 
-Germany imports raw nickel worth USD 736 million more than it exports, but exports more nickel mill products than it imports in every product code. Value is therefore created by conversion in Germany, and the export unit value of nickel plate and strip near USD 32,500 per tonne, about twice the exchange price of the metal, shows that buyers pay for qualification and form rather than for nickel content [NI_CT_DE_7506_2024_T].
+The pattern in Table 11 is the market's central economic fact. Germany imports USD 736 million more raw nickel than it exports, yet it exports more than it imports in every nickel mill product, and the export unit value of nickel plate and strip near USD 32,500 per tonne is about twice the exchange price of the contained metal [NI_CT_DE_7506_2024_T]. The same logic separates China, which dominates the export of unwrought nickel, from the United States and Western Europe, which dominate the export of qualified bar, strip and tube.
 
-### 6.2 Corridors and Dependencies
+### 6.3 Corridors and Dependencies
 
-The main German customers for nickel bar and wire are the United Kingdom and the United States, each with about USD 111 million in 2024, followed by Italy and France, which mirrors the engine corridors of section 5.4 [COMTRADE_7505_2019_2024]. Nickel plate and strip goes mainly to Austria, Italy, China and the United States, where chemical, oil and gas and electronics fabricators are located [COMTRADE_7506_2019_2024]. China is a net importer of cobalt products worth about USD 2.9 billion in 2024, which shows that the battery chain, not the alloy industry, sets the cobalt market [COMTRADE_8105_2019_2024].
+The geography of trade mirrors the geography of the industries that buy. German exports of nickel bar and wire go mainly to the United Kingdom and the United States, each with about USD 111 million in 2024, the engine corridors of section 5.4, while plate and strip go mainly to Austria, Italy, China and the United States, where chemical and electronics fabricators work [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024]. Engine trade confirms the picture, as the United Kingdom exported USD 39.8 billion of turbojets and gas turbines in 2024, France USD 22.0 billion and the United States USD 14.1 billion, values that include re exports between engine makers [COMTRADE_PORTFOLIO_WORLD_2019_2024].
 
-Trade in finished equipment confirms in which countries the company's direct buyers sit. Among the ten countries, the United Kingdom exported USD 39.8 billion of turbojets and gas turbines in 2024, France USD 22.0 billion and the United States USD 14.1 billion, although engine trade values include re exports and transfers between engine makers and therefore overstate production [COMTRADE_PORTFOLIO_WORLD_2019_2024]. The OECD input output tables add the industrial view, as world intermediate use of non ferrous metals reached about USD 249 billion in fabricated metal products, USD 220 billion in electrical equipment and USD 109 billion in motor vehicles in 2022 [ICIO_2022_WORLD_C24B_TO_C25, ICIO_2022_WORLD_C24B_TO_C27, ICIO_2022_WORLD_C24B_TO_C29].
+### 6.4 Trade Policy Reshapes Sourcing and Access
 
-### 6.3 Trade Policy Shapes Sourcing and Market Access
-
-Trade policy now changes costs and access faster than demand does, and five measures matter for the company. The United States raised its Section 232 tariffs on steel and aluminium to 50 percent in 2025 and added a 50 percent tariff on the copper content of semifinished copper products from 1 August 2025, which favours local supply in the American market [US_232_COPPER_2025]. The EU Carbon Border Adjustment Mechanism entered its definitive phase on 1 January 2026 and covers iron and steel including ferrochrome and ferronickel, but not nickel products of chapter 75, so it raises the cost of some alloy inputs without protecting nickel alloy mill products [EU_CBAM_2026]. China requires export licences for tungsten and molybdenum products since February 2025, the Democratic Republic of the Congo limits cobalt exports to 96,600 t a year, and Indonesia manages nickel ore output through annual quotas [W_MOFCOM_2025_10, CO_USGS_QUOTA_2026, NI_RKAB_2026_REV]. The EU Critical Raw Materials Act lists nickel, cobalt, tungsten and other alloying metals as strategic or critical and sets diversification targets, which supports European recycling and sourcing projects [W_EU_CRMA_2024].
-
-### 6.4 Implications for the Company
-
-Trade data and policy support three conclusions for the company's sales and sourcing strategy. First, the corridors to the United Kingdom, the United States and France are engine corridors and justify direct key account management, while the American tariff regime argues for finishing or stocking close to American customers. Second, the fabricator corridors to Austria and Italy carry the chemical and oil and gas business and are best served through stock and distribution. Third, dependence on unwrought nickel, cobalt, tungsten and molybdenum calls for multi source contracts and revert recovery, because Germany's trade surplus exists only after conversion, which is also the stage at which the scenarios in chapter 7 measure demand.
+Trade policy now changes costs and market access faster than demand does, and five measures stand out. The United States raised its Section 232 tariffs on steel and aluminium to 50 percent in 2025 and added a 50 percent tariff on the copper content of semifinished copper products from 1 August 2025, which favours local supply in the American market [US_232_COPPER_2025]. The EU Carbon Border Adjustment Mechanism, definitive since 1 January 2026, covers ferrochrome and ferronickel but not the nickel products of chapter 75, so it raises input costs without protecting nickel alloy mill products [EU_CBAM_2026]. China licences exports of tungsten and molybdenum products, Congo caps cobalt exports at 96,600 t a year and Indonesia manages nickel ore through annual quotas, while the EU Critical Raw Materials Act lists nickel, cobalt and tungsten among its strategic or critical materials [W_MOFCOM_2025_10, CO_USGS_QUOTA_2026, NI_RKAB_2026_REV, W_EU_CRMA_2024]. Together these measures reward producers that convert close to their customers and secure several sources of each critical input, which is the setting in which chapter 7 projects demand to 2035.

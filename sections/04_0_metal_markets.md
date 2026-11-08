@@ -1,22 +1,22 @@
-# 4. Metal Markets: Production & Form
+# 4. Metal Markets: Materials, Product Forms and Applications
 
-The Supply dimension starts with the metals themselves, because every alloy the company sells is a conversion of raw materials whose availability, form and price it does not control. Each profile below separates the physical metal market from the qualified products used downstream and states which rung of the stage ladder a figure describes. Table 2 condenses the ten profiles into one scorecard, so that the reader sees at a glance where supply is concentrated, where prices move and where the company's own product forms are directly exposed.
+Every high performance alloy begins as a mixture of raw materials that the alloy maker does not control, so the analysis starts with the metals themselves. This chapter follows each of the ten metals through the first three links of the framework, from the material and its supply, through the product forms in which it reaches industry, to the applications that depend on it. Table 2 condenses the ten profiles into one scorecard, and it already reveals the pattern that the rest of the chapter explains: supply is concentrated in a few countries, while the qualified product forms are made elsewhere.
 
-Table 2: Metal market scorecard, 2025
+Table 2: Metal scorecard along the first three links, 2025
 
-| Metal | World output 2025 (stage, unit) | Largest producer | 2025 price signal | Availability risk to 2035 | Relevance for the company |
+| Metal | Material: world output and largest producer | Price signal | Main product forms | Key high performance applications | Supply risk to 2035 |
 |---|---|---|---|---|---|
-| Nickel | 3.90 Mt contained, mine | Indonesia, about 67% | USD 15,162/t, down 41% from 2022 | Medium: Indonesian ore quotas | Core: base of all nickel alloys and FeNi strip |
-| Cobalt | 310 kt contained, mine | DR Congo, about 74% | Metal up 130% in 2025 | High: Congolese export quota | High: superalloys, CoCr medical bar and powder |
-| Chromium | 51 Mt gross, chromite ore | South Africa, 45% | Ferrochrome led by China | Medium: smelting concentrated in China | High: alloying element in every corrosion alloy |
-| Molybdenum | 260 kt contained, mine | China, about 37% | USD 51/kg oxide, up 7% | Low to medium: copper byproduct | High: C-276, 59 and 625 grades |
-| Titanium | 370 kt sponge | China, about 70% | USD 12/kg U.S. sponge import value | High for aerospace grade sponge | Indirect: substitute and complement |
-| Tungsten | 85 kt contained, mine | China, about 79% | Rising, export licences | High: Chinese quotas and licences | Medium: casting and sheet superalloys |
-| Zirconium | 1.2 Mt gross, concentrates | Australia, about 33% | USD 1,800/t premium zircon | Medium: nuclear grade sponge is captive | Selective: chemical grade Zr plate and tube |
-| Copper | 23.2 Mt mine, 28.6 Mt refined | Chile (mine), China (refined) | USD 9,947/t, LME record in 2026 | Medium: 25% primary gap by 2035 | Moderate: CuNi and copper strip |
-| Aluminium | 74 Mt primary | China, 61% | USD 2,632/t | Low for the company | Low: competing material |
-| Manganese | 20 Mt contained, mine | South Africa, about 38% | USD 4.5 per mtu ore | Low | Low: alloying addition |
+| Nickel | 3.90 Mt contained, Indonesia about 67% | USD 15,162/t, down 41% from 2022 | Strip, sheet, plate, bar, wire, tube | Corrosion and heat resistant alloys, superalloys | Medium, Indonesian ore quotas |
+| Cobalt | 310 kt contained, DR Congo about 74% | Metal up 130% in 2025 | Alloy grade metal, bar, sheet, powder | Superalloys, CoCr implants, wear alloys | High, Congolese export quota |
+| Chromium | 51 Mt chromite ore, South Africa about 45% | Chromium metal up, ferrochrome down | Ferrochrome, chromium metal | Every corrosion and oxidation resistant alloy | Medium, smelting in China |
+| Molybdenum | 260 kt contained, China about 37% | USD 51/kg oxide, up 7% | Oxide, ferromolybdenum, metal | Pitting resistance in C-276, 625 and 6Mo grades | Medium, Chinese export licences |
+| Titanium | 370 kt sponge, China about 70% | USD 12/kg U.S. sponge import value | Sponge, ingot, bar, plate | Airframes, engine cold sections, implants | High for aerospace grade sponge |
+| Tungsten | 85 kt contained, China about 79% | Rising under export licences | APT, carbide, metal | Cast superalloys, heat resistant sheet | High, Chinese quotas and licences |
+| Zirconium | 1.2 Mt concentrates, Australia about 33% | USD 1,800/t premium zircon | Sponge, plate, tube | Acid service equipment, fuel cladding | Medium, nuclear grade is captive |
+| Copper | 23.2 Mt mine, 28.6 Mt refined | USD 9,947/t, LME record in 2026 | Cathode, wire rod, strip, foil | Busbars, connectors, CuNi alloys | Medium, primary gap by 2035 |
+| Aluminium | 74 Mt primary, China about 61% | USD 2,632/t | Sheet, plate, extrusions | Competing material in heat exchangers, busbars | Low |
+| Manganese | 20 Mt contained, South Africa about 38% | USD 4.5 per mtu ore | Ferromanganese, metal | Alloying addition in stainless | Low |
 
-*Sources: USGS Mineral Commodity Summaries 2026 commodity chapters, World Bank Pink Sheet, Cobalt Institute, ICSG, IAI and IMOA as cited in sections 4.1 to 4.7 [USGS_MCS2026_DATA, WB_PINKSHEET, TI_SPONGE_US_PRICE_2025, USGS_MCS2026_MN, LME_CU_RECORD_2026]. Shares are team calculations on rounded USGS country and world totals.*
+*Sources: USGS Mineral Commodity Summaries 2026 commodity chapters, World Bank Pink Sheet, Cobalt Institute, ICSG, IAI and IMOA, as cited in sections 4.1 to 4.7 [USGS_MCS2026_DATA, WB_PINKSHEET, TI_SPONGE_US_PRICE_2025, USGS_MCS2026_MN, LME_CU_RECORD_2026]. Shares are team calculations on rounded USGS country and world totals.*
 
-The scorecard already points to the central finding of this chapter, which is that the company's raw material risk sits in cobalt, tungsten, Indonesian nickel ore policy and aerospace grade titanium sponge, while copper and aluminium matter mainly as competing or complementary materials. Nickel, as the base of the whole portfolio, is therefore the metal that is analysed first.
+The scorecard sorts the ten metals into three groups that structure the rest of the report. Nickel and chromium are the backbone of every high performance alloy and are available in volume, cobalt, tungsten, molybdenum and aerospace grade titanium are scarce because of policy or qualification, and copper, aluminium and manganese matter mainly as complementary or competing materials. Nickel, as the base of the whole alloy family, is therefore the metal that is analysed first.
