@@ -1,6 +1,6 @@
 ## 4.2 Cobalt
 
-Cobalt matters to the company through superalloys and cobalt chromium medical alloys, and its supply is the most concentrated of all ten metals. World mine production was an estimated 310 kt of contained cobalt in 2025, of which the Democratic Republic of the Congo produced about 230 kt, or 73 percent [CO_USGS_MINE_WORLD_2025, CO_USGS_MINE_DRC_2025]. Refining is even more concentrated, because China produced 78.6 percent of the 240 kt of refined cobalt in 2025 [CO_CI_REFINED_2025, CO_CI_CHINA_REF_2025].
+Cobalt matters to the company through superalloys and cobalt chromium medical alloys, and its mine supply is the second most concentrated of the ten metals after tungsten. World mine production was an estimated 310 kt of contained cobalt in 2025, of which the Democratic Republic of the Congo produced about 230 kt, or 74 percent of the rounded total [CO_USGS_MINE_WORLD_2025, CO_USGS_MINE_DRC_2025]. Refining is even more concentrated, because China produced 78.6 percent of the 240 kt of refined cobalt in 2025 [CO_CI_REFINED_2025, CO_CI_CHINA_REF_2025].
 
 Demand is dominated by batteries, which makes alloy buyers a small customer in a large chemical market. Electric vehicle batteries took 113 kt and portable electronics 93 kt in 2025, while superalloys took only 20 kt [CO_CI_EV_2025, CO_CI_PORTABLE_2025, CO_CI_SUPER_2025]. This small share is nevertheless the most demanding one, since aerospace requires alloy grade metal from a handful of qualified refineries.
 

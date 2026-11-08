@@ -4,9 +4,9 @@ The Outlook dimension turns the sector evidence into a common yardstick, so that
 
 ## 7.1 Market Model and Scenario Assumptions
 
-Demand in each industry is indexed to 100 in 2025 and compounded for ten years with the formula I(2035) = 100 × (1 + g)^10, where g is the annual growth rate of relevant alloy demand. Each rate is a team assumption that is anchored to the strongest indicator in chapter 5 and adjusted for material intensity and substitution, as Table 18 shows. Metal prices and exchange rates are held constant, so the indices measure volume and mix rather than value.
+Demand in each industry is indexed to 100 in 2025 and compounded for ten years with the formula I(2035) = 100 × (1 + g)^10, where g is the annual growth rate of relevant alloy demand. Each rate is a team assumption that is anchored to the strongest indicator in chapter 5 and adjusted for material intensity and substitution, as Table 11 shows. Metal prices and exchange rates are held constant, so the indices measure volume and mix rather than value.
 
-Table 18: Scenario assumptions and their evidence anchors
+Table 11: Scenario assumptions and their evidence anchors
 
 | Industry | Downside / base / upside, % a year | Evidence anchor for the base case |
 |---|---|---|
@@ -24,26 +24,26 @@ The downside case assumes delayed projects, weak replacement spending and faster
 
 ## 7.2 Results by Industry, Product, and Region
 
-Table 19 shows that aerospace and energy technology dominate the outlook, while automotive is the only industry that shrinks in the base case.
+Figure 3 shows that aerospace and energy technology dominate the outlook, while automotive is the only industry that shrinks in the base case, and appendix A2 lists every index value.
 
-Table 19: Demand index 2035 by industry (2025 = 100)
-
-| Industry | Downside | Base | Upside | Main product forms |
-|---|---|---|---|---|
-| Aerospace | 122 | 155 | 179 | Superalloy bar and billet, sheet, wire, powder |
-| Energy and environmental technology | 105 | 148 | 188 | Superalloy bar, interconnect strip, Alloy 690, zirconium |
-| Electronics and electrical engineering | 100 | 134 | 163 | FeNi strip and foil, high purity strip |
-| Medical technology | 110 | 128 | 148 | CoCr and zirconium bar, CoCr powder |
-| Chemical processing | 90 | 110 | 128 | Plate, sheet, welding consumables |
-| Oil and gas | 90 | 105 | 116 | Strip, plate, bar, welding wire |
-| Automotive | 74 | 86 | 100 | Heat resistant and soft magnetic strip |
-
-*Source: team calculation, I(2035) = 100 × (1 + g)^10 with the rates of Table 18, rounded.*
-
-Figure 3: Aerospace and energy technology lead demand growth to 2035 in every scenario
+Figure 3: Aerospace and energy technology lead demand growth to 2035 in the base and upside cases
 
 ![Figure 3](fig/fig3_scenarios.svg)
 
-*Source: team calculation based on Tables 18 and 19.*
+*Source: team calculation based on Table 11 and Table A1 in appendix A2.*
 
-Two results of the scenario analysis matter most for the strategy of the company. Aerospace and energy technology together are the only industries that grow by more than 40 percent in the base case, and both depend on the same product family of vacuum melted superalloy bar and billet, so one capacity decision serves two markets. The spread between downside and upside is widest in energy technology, which argues for staged investment that follows signed orders. Regionally the growth sits in European and American engine and turbine supply chains, in Asian chemical construction and in European and American implant markets, which is the geography that chapter 8 turns into priorities.
+Table 12 translates the industry indices into the company's product families, using the simple average of the industries each family serves, and anchors the starting point in measured European consumption. The only product level market that official statistics measure for Europe is apparent consumption of nickel mill products, which combines EU production, imports and exports and amounted to about 72 kt and EUR 889 million in 2024, mixing pure nickel and nickel alloys.
+
+Table 12: European nickel mill product market 2024 and base case direction by product family
+
+| Product family | EU apparent consumption 2024 | Industries served | Base index 2035 |
+|---|---|---|---|
+| Bars, rods and wire (PRODCOM 24452100) | 5.4 kt, EUR 151 m | Aerospace, energy, oil and gas | About 136 |
+| Plate, sheet, strip and foil (24452200) | 57.8 kt, EUR 697 m | Chemical, electronics, energy, oil and gas | About 124 |
+| Tubes and fittings (24452300) | 9.2 kt, EUR 42 m | Chemical, energy, oil and gas | About 121 |
+| Superalloy bar and billet (part of the first row) | Not published separately | Aerospace, energy | About 152 |
+| Precision FeNi strip and foil (part of the second row) | Not published separately | Electronics, automotive | About 110 |
+
+*Source: Eurostat PRODCOM DS-059358, apparent consumption as sold production plus imports minus exports, team calculation [EU_NI_MILL_APPCONS_2024]. Base indices are simple averages of the industry indices in Table A1 and are team estimates. Production cells are partly rounded or confidential, so the tonnes are indicative.*
+
+Two results of the scenario analysis matter most for the strategy of the company. Aerospace and energy technology together are the only industries that grow by more than 40 percent in the base case, and both depend on the same product family of vacuum melted superalloy bar and billet, so one capacity decision serves two markets. The spread between downside and upside is widest in energy technology, which argues for staged investment that follows signed orders. Regionally the growth sits in European and American engine and turbine supply chains, in Asian chemical construction and in European and American implant markets, while European automotive and base chemical demand declines, which is the geography that chapter 8 turns into priorities. Converting the indices into company revenue requires the company's own sales mix by industry, which appendix A4 lists as the first internal data request.

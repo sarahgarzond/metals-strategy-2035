@@ -68,6 +68,14 @@ def apa_reference(s, suffix):
 def cite(md, sources):
     """APA 7 citations. [ID] or [ID1, ID2] gives (Author, Year), [@ID] gives Author (Year)."""
     pattern = re.compile(r"\[(@?)([A-Z][A-Z0-9_]+(?:\s*,\s*[A-Z][A-Z0-9_]+)*)\](?!\()")
+    # canonical document: several data_ids that point to the same document share one reference entry
+    canon, seen = {}, {}
+    for i, s in sources.items():
+        key = ((s.get("author") or "").strip().lower(), (s.get("pub_date") or "").strip(),
+               re.sub(r"\W+", " ", (s.get("title") or "").lower()).strip(), (s.get("url") or s.get("doi") or "").strip().rstrip("/"))
+        canon[i] = seen.setdefault(key, i) if key[2] else i
+    md = re.sub(r"\[(@?)([A-Z][A-Z0-9_]+(?:\s*,\s*[A-Z][A-Z0-9_]+)*)\](?!\()",
+                lambda m: "[" + m.group(1) + ", ".join(dict.fromkeys(canon.get(x.strip(), x.strip()) for x in m.group(2).split(","))) + "]", md)
     used, warn = [], []
     for m in pattern.finditer(md):
         for i in [x.strip() for x in m.group(2).split(",")]:
@@ -142,6 +150,10 @@ def decorate(content):
     content = re.sub(r"<p>(Table \d+:)", r'<p class="caption">\1', content)
     content = re.sub(r"<p>(Figure \d+:)", r'<p class="caption">\1', content)
     content = re.sub(r"<p><em>(Sources?:)", r'<p class="source"><em>\1', content)
+    def widen(m):
+        tbl = m.group(0)
+        return tbl.replace("<table>", '<table class="wide">', 1) if len(re.findall(r"<th[ >]", tbl)) >= 9 else tbl
+    content = re.sub(r"<table>.*?</table>", widen, content, flags=re.S)
     return content
 
 
