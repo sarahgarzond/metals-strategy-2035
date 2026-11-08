@@ -1,18 +1,18 @@
 # 3. Introduction to the Analytical Framework and Methodology
 
-The analysis follows a metal value chain that runs from material through product form, application, industry and geography to market size and growth, and Table 1 shows how the chapters cover its seven links. A figure is only compared with a figure from the same stage, so contained metal is kept apart from gross weight and output from capacity, and mine output, melt, mill products and industry revenue are never added into one market value. The evidence starts with structured statistics from the USGS, UN Comtrade, Eurostat PRODCOM, the World Bank, OECD, UNIDO and the IEA, continues with industry associations, official outlooks and company filings, and uses commercial market reports only as a cross check. Figures that carry the argument are checked against a second source where one exists and single source figures are flagged in the source register, in which every value carries its unit, stage, data type, source and formula, built from workstreams for each metal, each industry and the 61 company profiles.
+The analysis follows a metal value chain from material through product form, application, industry and geography to market size and growth, and Table 1 shows how the chapters cover its seven links. Figures are only compared within one stage, so contained metal is kept apart from gross weight and output from capacity, and mine output, melt, mill products and revenue are never added into one market value. The evidence starts with structured statistics from the USGS, UN Comtrade, Eurostat PRODCOM, the World Bank, OECD, UNIDO and the IEA, continues with industry associations, official outlooks and the 61 company profiles, and uses commercial market reports only as a cross check. Figures that carry the argument are checked against a second source where one exists, and single source figures are flagged in the source register, which records the unit, stage, data type, source and formula of every value.
 
 Table 1: The metal value chain and its evidence
 
 | Link | Guiding question | Main evidence | Chapter |
 |---|---|---|---|
-| Material | Where is the metal mined and refined, and how concentrated is supply? | USGS, IEA critical minerals data, World Bank prices | 4 |
-| Product form | In which qualified forms does the metal reach industry? | Eurostat PRODCOM, producer filings | 4 |
+| Material | Where is supply, and how concentrated is it? | USGS, IEA, World Bank prices | 4 |
+| Product form | In which qualified forms does the metal reach industry? | PRODCOM, producer filings | 4 |
 | Application | Which components need the material, and why? | Standards, associations, filings | 4 and 5 |
-| Industry | Which industries buy these forms, and how fast do they grow? | Airbus, Boeing, IEA, OICA, Cefic, SEMI, OECD | 5 |
-| Geography | In which regions are they bought and made? | IEA regional investment, OECD, UN Comtrade partners | 5 and 6 |
-| Market size | How large is measurable demand today? | Apparent consumption, trade values, end use statistics | 5 and 6 |
-| Growth | How large could demand be in 2035, and what could add to it? | Calibrated demand model and emerging opportunities register | 7 |
+| Industry | Which industries buy, and how fast do they grow? | Airbus, Boeing, IEA, OICA, Cefic, SEMI | 5 |
+| Geography | In which regions are the forms bought and made? | IEA regions, OECD, UN Comtrade | 5 and 6 |
+| Market size | How large is measurable demand today? | Apparent consumption, trade values | 5 and 6 |
+| Growth | How large could demand be in 2035? | Demand model, emerging options register | 7 |
 
 *Source: team framework.*
 

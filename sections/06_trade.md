@@ -4,7 +4,7 @@ Trade data show how large the market for qualified metal products is and where i
 
 ### 6.1 Measuring the Market for Qualified Nickel Products
 
-The only product level market that official statistics measure for Europe is the apparent consumption of nickel mill products, which runs to tens of kilotonnes. EU production plus imports minus exports came to 57.8 kt of nickel plate, sheet, strip and foil and 9.2 kt of tubes in 2024, while the bar figure rests on a confidential production cell [AC_EU_NI_FLAT_2024, AC_EU_NI_TUBE_2024, AC_EU_NI_BAR_2024]. Because Eurostat production values fall below the value of the contained nickel, Table 10 values these tonnes at EU border unit values, a team estimate of about EUR 1.8 to 2.8 bn for flat products and EUR 0.24 to 0.38 bn for tubes [AC_EU_NI_UNITVAL_2024]. The codes cover only alloys in which nickel predominates, so the qualified market is larger, and the unit values show the conversion premium that section 6.2 explains.
+Official statistics measure only one product level market in Europe, the apparent consumption of nickel mill products, which runs to tens of kilotonnes. EU production plus imports minus exports came to 57.8 kt of nickel plate, sheet, strip and foil and 9.2 kt of tubes in 2024, while the bar figure rests on a confidential production cell [AC_EU_NI_FLAT_2024, AC_EU_NI_TUBE_2024, AC_EU_NI_BAR_2024]. Because Eurostat production values fall below the value of the contained nickel, Table 10 values these tonnes at EU border unit values, a team estimate of about EUR 1.8 to 2.8 bn for flat products and EUR 0.24 to 0.38 bn for tubes [AC_EU_NI_UNITVAL_2024]. The codes cover only alloys in which nickel predominates, so the qualified market is larger than Table 10 shows.
 
 Table 10: European market for nickel mill products, 2024
 
@@ -19,13 +19,7 @@ Table 10: European market for nickel mill products, 2024
 
 ### 6.2 Conversion Creates the Trade Surplus
 
-Trade flows show that value is earned where metals are converted, and among the ten reporting countries Germany is the largest exporter of nickel plate, sheet and strip and the second largest of bars and wire, and its exports of the three mill product codes rose from USD 0.968 bn in 2019 to USD 1.418 bn in 2024, an increase of about 47 percent [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].
-
-Figure 2: German exports of nickel mill products rose by about 47 percent from 2019 to 2024
-
-![Figure 2](fig/fig2_de_nickel_exports.svg)
-
-*Source: UN Comtrade, Germany as reporter, exports to the world in current USD [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].*
+Trade flows show that value is earned where metals are converted, and among the ten reporting countries Germany is the largest exporter of nickel plate, sheet and strip and the second largest of bars and wire, and its exports of the three mill product codes rose from USD 0.968 bn in 2019 to USD 1.418 bn in 2024 [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].
 
 Table 11: Leading exporters of nickel mill products and unwrought nickel, 2024
 
@@ -39,6 +33,12 @@ Table 11: Leading exporters of nickel mill products and unwrought nickel, 2024
 *Sources: UN Comtrade reporter data for Germany, the United States, China, Japan, Korea, India, France, the United Kingdom, Italy and Indonesia [COMTRADE_PORTFOLIO_WORLD_2019_2024]. Mirror values are these ten countries' imports from a non reporter, a lower bound [COMTRADE_MIRROR_EXTRA6_2024]. Net trade is a team calculation.*
 
 The pattern in Table 11 is the market's central economic fact. Germany imports USD 736 million more raw nickel than it exports, yet it is a net exporter of every nickel mill product, and its plate and strip carry the conversion premium of section 4.1, as do EU exports at EUR 31.0 per kg against EUR 15.5 for contained nickel [NI_CT_DE_7506_2024_T, AC_EU_NI_UNITVAL_2024, NI_WB_AVG_2024]. Reporter data alone suggest that China leads unwrought nickel exports, but mirror flows show Canada, Norway, Russia and Australia, the main class 1 origins, each shipping about USD 1 bn to the ten reporters, more than Indonesia reports [COMTRADE_MIRROR_EXTRA6_2024]. Austria and Sweden appear in the mirror data as converters on the German pattern, so value accrues where nickel is melted, rolled and drawn, which is where the corridors of section 6.3 run.
+
+Figure 2: German exports of nickel mill products rose by about 47 percent from 2019 to 2024
+
+![Figure 2](fig/fig2_de_nickel_exports.svg)
+
+*Source: UN Comtrade, Germany as reporter, exports to the world in current USD [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].*
 
 ### 6.3 Corridors and Dependencies
 
