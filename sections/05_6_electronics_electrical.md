@@ -1,27 +1,44 @@
 ## 5.6 Electronics and Electrical Engineering
 
-Electronics and electrical engineering is a qualification market for precision strip and wire, and semiconductor revenue is an activity indicator rather than a multiplier for alloy volume. World Semiconductor Trade Statistics reports sales of USD 795.6 billion in 2025, up 26.2 percent, and the implied 2024 level of USD 630.5 billion is the 2025 figure divided by that growth rate, not a printed 2024 cell [WSTS_WORLD_2025, TE_WSTS_2024_IMPLIED]. Most of the soft magnetic and expansion book is iron predominant and sits in chapter 72, so one nickel flat balance cannot size it. Sensors and magnetic components are counted here, and not again in automotive, because section 5.0 made that assignment.
+Electronics and electrical engineering offers growth in precision materials for sensors, shielding, glass seals, display masks and resistance heating, while data centres raise demand for copper power distribution. The company's role is in selected components, so semiconductor sales growth is an indicator of activity rather than a multiplier for alloy volume.
 
-### 5.6.1 Historical and Current Market Overview
+### 5.6.1 Semiconductors, Data Centres and Displays
 
-The 2025 chip expansion was uneven across end markets in the same release, and those end use splits are left as printed context rather than as a new calculation [WSTS_WORLD_2025]. Strong chip sales do not establish the metal content of a package, a sensor or a production tool. Electrification adds a second driver through current measurement and heating elements, and the volume is unit production times alloy content times the share on the relevant design. The table below keeps those designs apart from the chip total so that a sales surge is not read as alloy demand.
+Semiconductor sales reached USD 795.6 billion in 2025, up 26.2 percent, and WSTS forecasts USD 1.51 trillion for 2026, driven mainly by memory [WSTS_WORLD_2025, WSTS_WORLD_2026_SPRING]. Equipment spending is the closer indicator for metals, and SEMI expects 300 mm fab equipment spending of USD 149 billion in 2026 and USD 227 billion in 2029 [SEMI_300MM_2026, SEMI_300MM_2029].
 
-Table 11: Electrical alloys, the code they ship in, and the order test
+Table 13: Electronics indicators relevant to the company
 
-| Book | Form and code | Order test |
-| --- | --- | --- |
-| Expansion alloys 29-18 and 42 | Strip, iron predominant, chapter 72 | Named stamper, sample, then a repeat order |
-| Crofer 22 and Aluchrom | Strip, iron chromium, chapter 72 | Not sized by the nickel flat balance |
-| Konstantan and copper nickel resistance alloys | Wire, chapter 74 | Separate price and buyer from Alloy C-276 plate |
-| Nickel 201 electrolyser strip | Unalloyed nickel in HS 7506 | Financed programme, option in section 5.3 |
-| Soft magnetic grades | Strip | Counted here, not in automotive |
+| Indicator | Value | Relevance |
+|---|---|---|
+| World semiconductor sales | USD 795.6 bn (2025), USD 1.51 tn (2026 forecast) | Activity, not metal volume |
+| 300 mm fab equipment spending | USD 149 bn (2026), USD 227 bn (2029) | Gas delivery and chamber parts in high purity alloys |
+| Copper busbar in a 1 MW rack at 54 VDC | Up to 200 kg | Copper and copper alloy strip and bar |
+| German electrical and electronics value added | EUR 112.2 bn (2023), real output flat in 2025 | Home market for sensor and seal alloys |
+| DNP metal mask capacity | Doubled by the 8th generation Kurosaki line | FeNi36 (invar) ultra thin foil |
 
-*Sources: The grade names are the VDM Metals portfolio used as a benchmark only. Semiconductor sales and the implied prior year are [WSTS_WORLD_2025, TE_WSTS_2024_IMPLIED]. The code map is the capacity rule in Chapter 8.*
+*Sources: WSTS (2026), SEMI (2026), NVIDIA (2025), OECD STAN and ZVEI, Dai Nippon Printing [WSTS_WORLD_2025, SEMI_300MM_2026, NVDA_800VDC, STAN_DEU_C26C27_B1G_2023, ZVEI_PROD_REAL, DNP_KUROSAKI_2024].*
+
+Data centres change the power architecture, since NVIDIA plans 800 VDC distribution with its Kyber racks in 2027 and names Infineon, Vertiv, Eaton and Schneider Electric among its partners [NVDA_800VDC]. Vertiv more than doubled its switchgear and busbar capacity and raised its copper hedge to 12,946 t by September 2026, and Infineon opened its EUR 5 billion Smart Power Fab in Dresden in July 2026 [CO_VERTIV_COPPERHEDGE_2026, CO_INFINEON_FAB_2026].
 
 ### 5.6.2 Key Applications and Opportunities for the Company
 
-The benchmark application, from the VDM Metals portfolio, lists expansion alloys 29-18 and 42, soft magnetic grades, and resistance alloys including HT 70, Konstantan and Aluchrom, for glass and ceramic seals, shielding, toroidal cores, current measuring modules and heating elements. What Münvest would need before this is an order is a stamper or core maker that already pays for the controlled property, a form the mill finishes consistently, and a contribution margin after the sample. The account is unconfirmed where the public record names the specification and not the purchase order.
+The benchmark portfolio lists expansion alloys 42 and 29 18, soft magnetic grades and resistance alloys, used in glass and ceramic seals, shielding, toroidal cores, current measurement and heating elements, plus FeNi36 for display masks.
 
-Infineon, in Germany, reported revenue of EUR 14.7 billion in the year to 30 September 2025, and a 2022 note names copper alloy and iron nickel leadframes from named suppliers without a grade, so the strip account is unconfirmed [CO_INFINEON_REVENUE_FY2025, CO_INFINEON_LEADFRAME_2022]. TSMC reported 2025 net revenue of about USD 121 billion and names fabs in the United States, Japan and Germany without naming a nickel alloy purchase [CO_TSMC_REV_2025, CO_TSMC_FABS_2025]. Applied Materials reported fiscal 2025 net revenue of USD 28.4 billion and states that some parts come from a limited supplier group, again without naming a metal, so expansion alloys 29-18 and 42 stay a specification rather than an order [CO_AMAT_REV_2025, CO_AMAT_SUPPLY_2025]. The contest on this book is Aperam Imphy, Proterial, Nippon Yakin and VDM inside Acerinox High Performance Alloys, counted once, and Aperam Alloys and Specialties is the separate 61 thousand tonne book already in Table 2 [CO_APERAM_AS_2025, NI_ACX_HPA_2025]. Europe is the practical place to start because engineering contact is closer, and Asian qualification is justified only where the return clears the sample cap in Chapter 8. Semiconductor revenue growth does not set the alloy volume, which is why finishing capacity waits for a repeat order.
+Table 14: The company's electronics applications, outlook to 2035
 
-What the company should do: the company should qualify expansion, soft magnetic and resistance strip and wire only with buyers that already pay for the controlled property, and it should stop treating chip sales as alloy demand. Dedicated finishing is added only after sample acceptance, a repeat order and a contribution per bottleneck hour, on the same gate as the other two priorities.
+| Outlook | Applications | Materials and product forms |
+|---|---|---|
+| Grows | OLED fine metal masks for IT panels | FeNi36 ultra thin foil, through mask makers |
+| Grows | Current sensors and shielding in power electronics and data centres | Soft magnetic FeNi strip |
+| Grows | Fab gas delivery and chamber components | High purity nickel alloy and stainless strip and tube stock |
+| Stable | Glass seals, lead frames, resistance heating | FeNi42 strip, resistance wire |
+
+*Source: VDM Metals application benchmark, outlook is the team's assessment.*
+
+The display niche carries a patent barrier, because Dai Nippon Printing holds the world's top share of OLED metal masks and told investors that its invar patents will not expire for the foreseeable future [DNP_INVAR_2024, CO_DNP_FMM_SUPPLY_2025]. The fab equipment filings of TSMC, Applied Materials and Lam Research name no alloy, so qualification must run through their component suppliers rather than through the toolmakers themselves.
+
+What the company should do:
+
+* Partner with a mask maker such as DNP to qualify FeNi36 ultra thin foil, rather than compete with protected processes.
+* Grow soft magnetic and expansion alloy strip with power electronics makers such as Infineon and their stamping suppliers.
+* Qualify high purity alloy strip and tube stock with second tier suppliers of fab gas systems in Germany, Taiwan and the United States.

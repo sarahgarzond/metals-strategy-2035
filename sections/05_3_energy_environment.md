@@ -1,26 +1,45 @@
 ## 5.3 Energy and Environmental Technology
 
-Energy and environmental technology is an option market, because electricity growth and announced hydrogen are activity totals and the alloy order exists only where a programme is financed. Global electricity demand grew 4.4 percent in 2024 and 3 percent in 2025, and the Electricity 2026 forecast is 3.6 percent a year over 2026 to 2030 [EE_ELEC_GROWTH_2024]. Those rates are not applied to nickel alloy tonnes, so the component paths below are qualified one at a time and unfunded hydrogen stays on the stop list.
+Energy and environmental technology contains the company's fastest growing near term market, gas turbines, next to a hydrogen market whose orders have collapsed. The opportunity is therefore component specific, and growth in solar, wind or electricity consumption cannot be translated directly into nickel alloy demand.
 
-### 5.3.1 Historical and Current Market Overview
+### 5.3.1 Gas Turbines, Nuclear and Hydrogen in Numbers
 
-Hydrogen shows the gap between an announcement and a bankable order, because global demand exceeded 100 million tonnes in 2025, low emissions output was about 1 million tonnes, the announced 2030 pipeline is 27 million tonnes, and installed electrolysis exceeded 4 gigawatts [EE_H2_DEMAND_2025, EE_H2_LOWEM_2025, EE_H2_PIPELINE_2030, EE_H2_ELEC_GW_2025]. Committed low emissions output, meaning projects operating, under construction or at a final investment decision, is 4.3 million tonnes a year by 2030 [EE_H2_COMMIT_2030]. Output above 6 million tonnes is the review's conditional case if further projects reach that decision, and it is not a stock already committed. Chapter 7 uses the same split, which is why the table below does not treat the pipeline as alloy demand.
+Gas turbines are the tightest pocket, because data centres and grid stability have created more orders than the industry can build. Siemens Energy told investors in November 2025 that its gas turbine capacity is sold out until fiscal 2028 and will grow from about 17 GW in fiscal 2024 to above 30 GW a year from fiscal 2028 [CO_SIEMENSENERGY_CMD_2025]. The binding constraint is hot section castings and forgings made from nickel base superalloys, not nickel ore.
 
-Table 7: Energy activity and the forms that could become an order
+Table 7: Energy technology indicators relevant to high performance metals
 
-| Reading | Logged figure | What it is not |
-| --- | --- | --- |
-| Electricity demand growth | 4.4 percent in 2024, 3 percent in 2025, 3.6 percent a year from 2026 to 2030 | Not alloy tonnes |
-| Committed low emissions hydrogen | 4.3 million tonnes a year by 2030 | Not the 27 million tonne pipeline |
-| Conditional case | Just over 6 million tonnes if further projects are decided | Not capacity to build against |
-| Alkaline buyer, Germany | thyssenkrupp nucera green hydrogen orders EUR 26 million in 2024/25 | Not a strip contract |
+| Indicator | Latest value | Direction to 2035 | Metal and product form |
+|---|---|---|---|
+| Siemens Energy gas turbine capacity | About 17 GW (FY2024), sold out to FY2028 | Above 30 GW a year from FY2028 | Superalloy bar, billet and forging stock |
+| Reactors under construction | 81 reactors, 88.5 GWe gross, 40 in China | 710 GW installed in 2035 (IEA Net Zero) | Zirconium cladding tube, Alloy 690 tube |
+| Installed electrolysis | More than 4 GW (2025) | Committed 2030 output 4.3 Mt of hydrogen | Nickel strip and mesh |
+| Solid oxide fuel cells, Bloom Energy | 1 GW a year, doubling to 2 GW by end 2026 | Driven by data centre power | Ferritic chromium steel strip |
 
-*Sources: Electricity growth is taken from the same outlook for all three rates [EE_ELEC_GROWTH_2024], hydrogen figures are [EE_H2_COMMIT_2030, EE_H2_PIPELINE_2030, EE_H2_DEMAND_2025, EE_H2_LOWEM_2025, EE_H2_ELEC_GW_2025], and Nucera orders are [CO_TKNUCERA_ORDERS_2025].*
+*Sources: Siemens Energy capital markets day 2025, World Nuclear Association (2026), IEA World Energy Outlook 2025 and Global Hydrogen Review 2026, Bloom Energy results [CO_SIEMENSENERGY_CMD_2025, EE_NUC_WNA_UC, WEO_NZE_NUCLEAR_GW, EE_H2_ELEC_GW_2025, EE_H2_COMMIT_2030, CO_BLOOM_CAP_2026].*
+
+Hydrogen shows the widest gap between political ambition and the orders that reach equipment suppliers. Global hydrogen demand surpassed 100 Mt in 2025, but low emissions production was still only about 1 Mt, and the announced 2030 pipeline shrank to 27 Mt [EE_H2_DEMAND_2025, EE_H2_LOWEM_2025, EE_H2_PIPELINE_2030]. thyssenkrupp nucera, the only named European buyer of nickel electrode material in the company universe, saw green hydrogen orders fall from EUR 356 million to EUR 26 million in fiscal 2024/25 and abandoned solid oxide stack mass production in August 2026 [CO_TKNUCERA_ORDERS_2025, CO_TKNUCERA_SOEC_2026].
 
 ### 5.3.2 Key Applications and Opportunities for the Company
 
-The benchmark application, from the VDM Metals portfolio, names Nickel 201 strip for alkaline electrolyser cathodes and Crofer 22 for solid oxide interconnects. What Münvest would need before this is an order is a financed buyer, a form the mill already finishes, and a contribution that survives the Chapter 7 downside. The account is unconfirmed wherever the public record names the alloy and not the purchase order.
+The company's benchmark portfolio covers superalloys for turbines, Nickel 201 strip for alkaline electrolyser cathodes, ferritic interconnect alloys for solid oxide cells, Alloy 690 and zirconium for nuclear plants, and corrosion alloys for flue gas cleaning and waste to energy boilers.
 
-thyssenkrupp nucera, in Germany, is the named alkaline buyer in the company set, and its green hydrogen orders fell to EUR 26 million in fiscal 2024/25 from a much higher prior year while chlor alkali orders were EUR 322 million [CO_TKNUCERA_ORDERS_2025, CO_TKNUCERA_NICKEL_2025]. The annual report names nickel and titanium as sourced minerals and does not give tonnes, and the company abandoned solid oxide stack mass production in 2026 while keeping a pilot [CO_TKNUCERA_SOEC_2026]. Siemens Energy told investors in November 2025 that gas turbine capacity is sold out until fiscal 2028, with a new unit backlog of about 78 gigawatts, and the metal form there is superalloy casting and forging rather than Nickel 201 strip [CO_SIEMENSENERGY_CMD_2025]. Bloom Energy, in the United States, reported fiscal 2025 revenue of about USD 2.0 billion on energy servers associated with ferritic stainless, and any nickel strip account remains unconfirmed [CO_BLOOM_REV_2025]. Acerinox High Performance Alloys is one competitor on the turbine grades, through Haynes, and it is the same group already counted at 47 thousand finished tonnes [NI_ACX_HPA_2025, CO_ACX_HPA_MIX_2025].
+Table 8: The company's energy applications, outlook to 2035
 
-What the company should do: the company should treat electrolyser strip and powders as an option against a financed programme, and it should stop adding effort where the buyer is not financed. Industrial gas turbine hardware belongs with the aerospace qualification in section 5.4, because 718, 625, X and 230 are being pulled there, and it is not a second capacity case sized to electricity growth.
+| Outlook | Applications | Materials and product forms |
+|---|---|---|
+| Grows strongly | Gas turbine hot section parts and repair | Superalloy bar, billet, welding wire |
+| Grows | Solid oxide fuel cell interconnects for data centre power | Ferritic chromium strip |
+| Grows from 2030 | Nuclear steam generators and fuel | Alloy 690 tube stock, zirconium strip and tube |
+| Uncertain | Alkaline and solid oxide electrolysers | Nickel strip and mesh, interconnect strip |
+| Stable | Flue gas desulphurisation, waste to energy overlay | Plate, welding consumables |
+
+*Source: VDM Metals application benchmark, outlook is the team's assessment.*
+
+The nuclear pull is real but late, as the United States government framework of October 2025 covers at least USD 80 billion of AP1000 reactors, while Alleima is today the only confirmed supplier of Alloy 690 steam generator tube from Sandviken [CO_WESTINGHOUSE_USGOV_2025, CO_ALLEIMA_NUCLEAR_2025]. Bloom Energy is the fastest growing interconnect buyer, with revenue of USD 2,024 million in 2025 and capacity doubling by the end of 2026, although it names neither its alloy grade nor its mill [CO_BLOOM_REV_2025, CO_BLOOM_CAP_2026].
+
+What the company should do:
+
+* Qualify superalloy bar and billet with Siemens Energy and its casting and forging suppliers while capacity is sold out to 2028.
+* Offer ferritic interconnect strip to Bloom Energy and other solid oxide fuel cell makers serving data centres.
+* Prepare Alloy 690 and zirconium qualifications for European and American nuclear programmes that order from about 2028 onward.
+* Treat electrolysers as an option, released for investment only against funded projects and signed purchase volumes.

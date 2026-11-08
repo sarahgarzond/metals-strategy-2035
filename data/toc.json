@@ -1,25 +1,137 @@
 {
-  "_comment": "The team's table of contents (chapters, sections, appendix sections). Body headings at these levels must match it exactly and in this order. Headings below this level (for example 5.1.1 or 4.7.1) may be added, renamed, merged or removed freely.",
-  "entries": [
-    [1, "1. Introduction"],
-    [1, "2. Report Objective and Scope"],
-    [1, "3. Introduction to the Analytical Framework and Methodology"],
-    [1, "4. Metal Markets: Production & Form"],
-    [2, "4.1 Nickel"], [2, "4.2 Cobalt"], [2, "4.3 Chromium"], [2, "4.4 Molybdenum"],
-    [2, "4.5 Titanium"], [2, "4.6 Tungsten"], [2, "4.7 Other Selected Metals"],
-    [1, "5. Industry Needs"],
-    [2, "5.1 Automotive"], [2, "5.2 Oil and Gas"], [2, "5.3 Energy and Environmental Technology"],
-    [2, "5.4 Aerospace"], [2, "5.5 Chemical Processing"], [2, "5.6 Electronics and Electrical Engineering"],
-    [2, "5.7 Medical Technology"],
-    [1, "6. Global Market Dynamics and Trade"],
-    [1, "7. Market Scenarios to 2035"],
-    [2, "7.1 Market Model and Scenario Assumptions"], [2, "7.2 Results by Industry, Product, and Region"],
-    [1, "8. Strategic Recommendations"],
-    [2, "8.1 Priority Products, Industries, Regions, and Customers"], [2, "8.2 Recommended Actions and Implementation Roadmap"],
-    [1, "9. Conclusion"],
-    [1, "References"],
-    [1, "Appendices: Data, Sources, Calculations, and Assumptions"],
-    [2, "A1 Definitions and evidence"], [2, "A2 Reproducible scenario calculations"],
-    [2, "A3 Interpretation of existing sector estimates"], [2, "A4 Information needed before investment"]
+ "_comment": "The team's table of contents (chapters, sections, appendix sections). Body headings at these levels must match it exactly and in this order. Headings below this level (for example 5.1.1 or 4.7.1) may be added, renamed, merged or removed freely.",
+ "entries": [
+  [
+   1,
+   "1. Introduction"
+  ],
+  [
+   1,
+   "2. Report Objective and Scope"
+  ],
+  [
+   1,
+   "3. Introduction to the Analytical Framework and Methodology"
+  ],
+  [
+   1,
+   "4. Metal Markets: Production & Form"
+  ],
+  [
+   2,
+   "4.1 Nickel"
+  ],
+  [
+   2,
+   "4.2 Cobalt"
+  ],
+  [
+   2,
+   "4.3 Chromium"
+  ],
+  [
+   2,
+   "4.4 Molybdenum"
+  ],
+  [
+   2,
+   "4.5 Titanium"
+  ],
+  [
+   2,
+   "4.6 Tungsten"
+  ],
+  [
+   2,
+   "4.7 Other Selected Metals"
+  ],
+  [
+   1,
+   "5. Industry Needs"
+  ],
+  [
+   2,
+   "5.1 Automotive"
+  ],
+  [
+   2,
+   "5.2 Oil and Gas"
+  ],
+  [
+   2,
+   "5.3 Energy and Environmental Technology"
+  ],
+  [
+   2,
+   "5.4 Aerospace"
+  ],
+  [
+   2,
+   "5.5 Chemical Processing"
+  ],
+  [
+   2,
+   "5.6 Electronics and Electrical Engineering"
+  ],
+  [
+   2,
+   "5.7 Medical Technology"
+  ],
+  [
+   1,
+   "6. Global Market Dynamics and Trade"
+  ],
+  [
+   1,
+   "7. Market Scenarios to 2035"
+  ],
+  [
+   2,
+   "7.1 Market Model and Scenario Assumptions"
+  ],
+  [
+   2,
+   "7.2 Results by Industry, Product, and Region"
+  ],
+  [
+   1,
+   "8. Strategic Recommendations"
+  ],
+  [
+   2,
+   "8.1 Priority Products, Industries, Regions, and Customers"
+  ],
+  [
+   2,
+   "8.2 Recommended Actions and Implementation Roadmap"
+  ],
+  [
+   1,
+   "9. Conclusion"
+  ],
+  [
+   1,
+   "References"
+  ],
+  [
+   1,
+   "Appendices: Data, Sources, Calculations, and Assumptions"
+  ],
+  [
+   2,
+   "A1 Definitions and the stage ladder"
+  ],
+  [
+   2,
+   "A2 Reproducible scenario calculations"
+  ],
+  [
+   2,
+   "A3 Data sources, product codes and reproducibility"
+  ],
+  [
+   2,
+   "A4 Information needed before investment"
   ]
+ ]
 }

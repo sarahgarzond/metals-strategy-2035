@@ -1,44 +1,32 @@
 # 6. Global Market Dynamics and Trade
 
-Trade is the point at which the supply profiles become a geography of buyers and sellers. A country can export ore or primary metal and still import the plate, bar or tube a buyer specifies, so production leadership does not by itself create access to a qualified form. This chapter uses UN Comtrade for defined HS codes and years and Eurostat PRODCOM for the European legs, and every figure below names the product, the year and the reporter. The quantity identity in section 4.1 is not repeated, because what this chapter adds is the unit value beside the tonne, the rounding band on bar, and the partner corridors for the codes the priorities ship in.
+The Trade dimension connects the supply base of chapter 4 to the industries of chapter 5, and it shows that the company competes in a small number of well defined product corridors rather than in a global commodity market. A country can export raw material while importing refined metal or finished alloy, so production leadership does not establish access to the grades and forms a buyer needs. All figures below come from UN Comtrade at product code level and are stated in current US dollars for 2024 unless noted.
 
-### 6.1 Product classifications
+### 6.1 Germany Leads the Trade in Qualified Nickel Products
 
-The nickel mill forms map to HS 7505 for bars, rods, profiles and wire, HS 7506 for plates, sheets, strip and foil, and HS 7507 for tubes and fittings. HS 7502 is unwrought nickel, which is outside the mill product identity and is where rotating billet is often declared. Adjacent codes cover cobalt, titanium, welding electrodes and aero engines, and the HS headings still mix pure metal with alloy inside one code, so the four digit split of HS 7506 into unalloyed sheet and nickel alloy sheet is not in the source log and no corridor below is called qualified alloy demand [CT_DE_7506_2024_M].
+Germany is the world's largest exporter of nickel plate, sheet, strip and foil and the second largest exporter of nickel bars, rods and wire, which places the company's home base at the centre of the qualified product trade. German exports of the three nickel mill product codes reached USD 1.42 billion in 2024, against USD 0.97 billion in 2019, an increase of 47 percent [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].
 
-### 6.2 Unit values beside the nickel tonnes
+Table 17: Exports of nickel mill products and related codes by leading country, 2024
 
-Table 14 places a team estimate of euros per tonne beside the 2024 PRODCOM tonnes. EU flat sold production is about EUR 14,476 per tonne, German sold production is about EUR 8,788 per tonne, and EU flat imports are about EUR 47,824 per tonne, against about EUR 35,809 per finished tonne at Acerinox High Performance Alloys [TE_NI_EU_FLAT_SP_UV_2024, TE_NI_DE_FLAT_SP_UV_2024, TE_NI_EU_FLAT_IMP_UV_2024, TE_NI_HPA_FINISH_UV_2025]. The gap is the reason 57.8 million kilograms stays an upper bound on a mixed code.
+| HS code and product | Leading exporters (USD million) | Germany net trade (USD million) |
+|---|---|---|
+| 7505 Nickel bars, rods, profiles, wire | United States 1,400, Germany 638, United Kingdom 402, Italy 388, China 299 | +79 |
+| 7506 Nickel plate, sheet, strip, foil | Germany 578, United States 482, Japan 274, China 85, United Kingdom 59 | +414 |
+| 7507 Nickel tubes and fittings | United States 324, Germany 202, China 195, United Kingdom 168, Italy 141 | +105 |
+| 7502 Unwrought nickel | China 2,068, Indonesia 862, United Kingdom 768, Japan 404, United States 339 | −736 |
+| 8105 Cobalt and articles | United States 418, China 266, United Kingdom 218, Germany 149, Japan 96 | +19 |
+| 8311 Welding wire and electrodes | China 952, United States 380, Korea 196, Germany 160, Japan 148 | +63 |
 
-Table 14: Nickel mill product tonnes and unit values, 2024
+*Source: UN Comtrade (2026), reporter based data for Germany, the United States, China, Japan, Korea, India, France, the United Kingdom, Italy and Indonesia [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024, COMTRADE_7502_2019_2024, COMTRADE_8105_2019_2024, COMTRADE_8311_2019_2024]. Team calculation of net trade as exports minus imports.*
 
-| Area and code | Sold production | Imports | Exports | Apparent consumption | Sold production, EUR per tonne |
-| --- | --- | --- | --- | --- | --- |
-| EU27 flat 24452200 | 80.9 million kg, estimated flag | 14.4 million kg | 37.5 million kg | 57.8 million kg, mixed code ceiling | 14,476 |
-| Germany flat 24452200 | 30.6 million kg | 17.9 million kg | 18.1 million kg | 30.4 million kg | 8,788 |
-| EU27 bar 24452100 | 2.5 million kg, rounded | about 5.6 million kg | about 2.70 million kg | 5.38 million kg, band about 5.1 to 5.6 | not used, cell is rounded |
-| EU27 tube 24452300 | 21.0 million kg, round | 4.7 million kg | 16.5 million kg | 9.2 million kg | not a capacity case |
+The pattern is clear, because Germany imports raw nickel worth USD 736 million more than it exports, but exports more nickel mill products than it imports in every product code. Value is created by conversion in Germany, and the export unit value of nickel plate and strip near USD 32,500 per tonne is about twice the exchange price of the metal, which confirms that buyers pay for qualification and form rather than for nickel content [NI_CT_DE_7506_2024_T].
 
-*Sources: Apparent consumption [AC_EU_NI_FLAT_2024, AC_DE_NI_FLAT_2024, AC_EU_NI_BAR_2024, AC_EU_NI_TUBE_2024]. Unit values and the bar band are team estimates [TE_NI_EU_FLAT_SP_UV_2024, TE_NI_DE_FLAT_SP_UV_2024, TE_NI_BAR_AC_BAND_2024]. German exports of 18,087,152 kilograms sit next to Comtrade HS 7506 exports of 17,775 tonnes [NI_PC_DE_SHEET_X_2024, NI_CT_DE_7506_2024_T].*
+### 6.2 Corridors and Dependencies
 
-Bar, rod and wire is the form where the published EU identity is a net import, and the net importer conclusion holds inside the rounding band [TE_NI_BAR_AC_BAND_2024]. Exports on that row sit above the rounded production figure, which means stock or an estimate that is not a census. Flat products are a net export of a mixed code, so a flat seller faces a code the Union already exports, while a bar seller faces a logged net import that is still a rounded estimate, with United Kingdom supply outside the customs territory. There is no bar investment case until the rounding footnote, United Kingdom supply and HS 7502 are read against the client's own bar book, and that test is a comparison rather than a proposal to add capacity.
+The main German customers for nickel bar and wire are the United Kingdom and the United States, each with about USD 111 million in 2024, followed by Italy and France, which mirrors the aerospace engine corridors of chapter 5.4 [COMTRADE_7505_2019_2024]. Nickel plate and strip goes mainly to Austria, Italy, China and the United States, which reflects the chemical, oil and gas and electronics fabricators in those countries [COMTRADE_7506_2019_2024]. China is a net importer of cobalt products worth about USD 2.9 billion in 2024, which shows that the battery chain, not the alloy industry, sets the cobalt market [COMTRADE_8105_2019_2024].
 
-### 6.3 Corridors for the three priorities
+Trade in finished equipment confirms in which countries the company's direct buyers sit. The United Kingdom exported USD 39.8 billion of turbojets and gas turbines in 2024 and the United States USD 14.1 billion, which places the engine makers that buy superalloy bar in those two countries and in France and Germany [COMTRADE_8411_2019_2024]. The OECD input output tables add the industrial view, as world intermediate use of non ferrous metals reached about USD 249 billion in fabricated metal products, USD 220 billion in electrical equipment and USD 109 billion in motor vehicles in 2022 [ICIO_2022_WORLD_C24B_TO_C25, ICIO_2022_WORLD_C24B_TO_C27, ICIO_2022_WORLD_C24B_TO_C29].
 
-Table 15 gives the reporter, the year, the net position and the leading partners for the codes tied to aerospace bar and billet, alloyed flat, welding wire, titanium, cobalt and engines. OECD intermediate use of non ferrous metals, USD 220 billion into electrical equipment and USD 109 billion into motor vehicles in 2022, stays an industry value and does not measure a corridor [ICIO_2022_WORLD_C24B_TO_C27, ICIO_2022_WORLD_C24B_TO_C29].
+### 6.3 Implications for the Company
 
-Table 15: Germany 2024 corridors, and the engine exporters in the same year
-
-| Reporter and code | Net position | Leading partners by value |
-| --- | --- | --- |
-| Germany HS 7502 unwrought | Net import, 54.6 million kg in and 13.6 million kg out | Norway, Russian Federation, United Kingdom |
-| Germany HS 7505 bar and wire | Nearly balanced on weight, 18.1 million kg out and 17.9 million kg in | Exports to the United Kingdom and the United States, imports from Austria |
-| Germany HS 7506 flat | Net export of a mixed code, 17.8 million kg out and 5.9 million kg in | Austria, Italy, China |
-| Germany HS 7507 tube | Net export, 3.1 million kg out and 2.4 million kg in | United States and Italy |
-| Germany HS 8108 titanium | Net import, 26.6 million kg in and 18.4 million kg out | Russian Federation and the United States |
-| Germany HS 8311 welding | Net import on weight, net export on value | Not nickel alloy wire alone |
-| United Kingdom, France, United States HS 8411 | Exports of USD 39.8 billion, USD 22.0 billion and USD 14.1 billion | Includes parts, not complete engines only |
-
-*Sources: Bilateral extracts [CT_DE_7502_2024, CT_DE_7505_2024, CT_DE_7506_2024_M, COMTRADE_7506, CT_DE_7507_2024, CT_DE_8108_2024, CT_DE_8311_2024, CT_UK_8411_2024_X]. Cobalt HS 8105 is a small German net export of a mixed code and is not repeated as a superalloy balance [CT_DE_8105_2024].*
-
-Qualified aerospace product for a wrought mill is billet, bar, sheet and weld wire, read against HS 7505 and HS 7502, not against the flat balance. Corrosion resistant plate is alloyed flat, read against the alloy split once it exists. Expansion alloys, Crofer and much of the soft magnetic book are chapter 72, Konstantan is chapter 74, and Nickel 201 strip is unalloyed nickel at a different price from Alloy C-276 plate. One flat balance cannot size all three priorities, which is why the scenarios in the next chapter test application demand and do not convert these corridors into a company tonne.
+Trade data supports three conclusions for the company's sales and sourcing strategy. First, the qualified corridors to the United Kingdom, the United States and France are aerospace corridors and justify direct key account management with engine makers and forgers. Second, the European fabricator corridors to Austria and Italy carry the chemical and oil and gas business and are best served through stock and distribution. Third, raw material dependence on unwrought nickel and cobalt calls for multi source contracts, because Germany's trade surplus exists only after conversion, which is also the stage at which the scenarios in chapter 7 measure demand.

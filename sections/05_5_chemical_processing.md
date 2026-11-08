@@ -1,27 +1,45 @@
 ## 5.5 Chemical Processing
 
-Chemical processing is a qualification market for replacement plate and welding products, and growth in chemical sales does not create an equipment order. Cefic reports EU27 chemical industry turnover of EUR 635 billion in 2024, with the EU share of world sales at 13 percent, down from 21 percent in 2009, and those figures describe chemicals rather than alloy tonnes [CEFIC_EU27_SALES_2024, CEFIC_EU_SHARE_2024]. Acerinox described chemical processing as significantly weaker in 2025, which is why new build is not the base case and replacement of a named grade is [ACERINOX_HPA_SALES_2025]. The table below keeps the grade list that makes this the most specific sector text, and it adds the buyer test the other sectors now use.
+Chemical processing is the company's core market for corrosion resistant alloys, but European demand now depends on maintenance and replacement rather than on new plants, while new capacity is built in Asia. The strongest opportunity is equipment where a longer service life pays for a higher material price.
 
-### 5.5.1 Historical and Current Market Overview
+### 5.5.1 European Weakness and Asian Growth
 
-European weakness supports a cautious reading of new plant, while the installed base still needs maintenance when a grade fails in a stated medium. Regional sales shares can guide which fabricators to call, and they are not a regional alloy forecast. Tube is not a capacity recommendation, because the three PRODCOM legs in section 4.1 are a rounded mixed code and subsea and chemical tube stay options with no tonnes [AC_EU_NI_TUBE_2024]. The applications that follow are therefore plate and weld products, read against alloyed flat once that customs split exists, and not against the 57.8 million kilogram ceiling.
+Europe's chemical industry is shrinking in volume and running with spare capacity. EU27 chemical sales were about EUR 635 billion in 2024, but Europe's share of world sales fell from 21 percent in 2009 to 13 percent, while China's rose from 24 to 46 percent [CEFIC_EU27_SALES_2024, CEFIC_EU_SHARE_2024, CEFIC_CN_SHARE_2024]. The EU chemical production index fell 3.2 percent in 2025, and capacity utilisation was 75.0 percent in the third quarter of 2026 against a long term average of 81.3 percent [EUROSTAT_C20_EU27_2025, CEFIC_CAPUTIL_EU27_Q3_2026].
 
-Table 10: Chemical processing, benchmark grades and the order test
+Table 11: Chemical industry indicators
 
-| Grade or form | Duty in the benchmark | Order test |
-| --- | --- | --- |
-| Alloy 59, Alloy C-276, Alloy 625 plate | Acid, caustic and heat exchanger service | Named grade, named medium, replacement or a specified supplier |
-| Nickel 200 and 602 CA | Caustic and high temperature furnace service | Same test, separate from commodity 625 |
-| Welding consumables matching the plate | Fabricated equipment | Repeat quantity before a second sample |
-| Zirconium solutions | Duties stainless does not meet | Benchmark only, not a Münvest qualification |
-| Stainless or a lining | Duty already met | Stop |
+| Indicator | Value | Implication for alloy demand |
+|---|---|---|
+| EU27 chemical sales, 2024 | About EUR 635 bn | Large installed base needing maintenance |
+| EU share of world chemical sales | 13% (2024), from 21% (2009) | New build moves out of Europe |
+| EU chemical production index, 2025 | Down 3.2% | Fewer debottlenecking projects |
+| EU capacity utilisation, Q3 2026 | 75.0% against 81.3% average | Closures, not expansions |
+| German utilisation, 2025 | 72.5% | Weakest home market |
+| Asia Pacific share of growth to 2035 | Over 80% (BASF) | Export projects through fabricators |
 
-*Sources: The grade list is the VDM Metals portfolio used as a benchmark only, the weaker 2025 chemical year is the Acerinox commentary [ACERINOX_HPA_SALES_2025], turnover is [CEFIC_EU27_SALES_2024], and tube tonnes are withheld [AC_EU_NI_TUBE_2024].*
+*Sources: Cefic (2025, 2026), Eurostat, VCI, BASF Report 2025 [CEFIC_EU27_SALES_2024, CEFIC_EU_SHARE_2024, EUROSTAT_C20_EU27_2025, CEFIC_CAPUTIL_EU27_Q3_2026, VCI_CAPUTIL_2025, BASF_APAC_GROWTH_2035].*
+
+New capital follows growth to Asia, as BASF expects over 80 percent of chemical industry growth to be in Asia Pacific by 2035 and started its Zhanjiang Verbund site in November 2025, while it plans 2026 capital spending below depreciation and has closed several Ludwigshafen units [BASF_APAC_GROWTH_2035, BASF_ZHANJIANG_2025, CO_BASF_CAPEX_2026, CO_BASF_CLOSE_2025].
 
 ### 5.5.2 Key Applications and Opportunities for the Company
 
-The benchmark application, from the VDM Metals portfolio, covers Nickel 200, Alloy 59, Alloy C-276, 625, 602 CA and zirconium solutions for acid and caustic service, heat exchangers, vessels, pumps, valves and furnaces. What Münvest would need before this is an order is the actual medium, concentration, temperature and welding procedure, plus a fabricator trial that can close inside a year. Shipment, approval and share remain unconfirmed until the company holds the account. The direct route is usually the fabricator, while the plant operator influences the specification.
+The company's chemical portfolio covers Nickel 200, Alloy 59, C-276, 625, Alloy 31 and zirconium for acids, caustics, heat exchangers, vessels, pumps, valves and furnaces. The evidence from competitors shows that the segment trades volume for price, as Haynes cut chemical processing volume by 20.8 percent in its last standalone year while revenue stayed flat because the price per pound rose 26.7 percent [HAYNES_CPI_REV_FY2023]. Acerinox called chemical processing significantly weaker in 2025 and expects it to stay weak through 2026 [ACERINOX_HPA_SALES_2025].
 
-BUTTING, in Germany, reported turnover of EUR 880 million in 2025 on clad pipe, which shows a fabricator that already buys strip and wire for linings, and the alloy account for Münvest is unconfirmed [CO_BUTTING_SALES_2025]. BASF reported group sales of EUR 59.7 billion in 2025, and the public record names the chemical operator rather than a plate order, so Alloy 59 and Alloy C-276 remain the specification with the account unconfirmed [CO_BASF_SALES_2025]. Alleima took 16 percent of 2025 revenue from chemical and petrochemical customers and is a tube competitor rather than a Münvest qualification, which is why tube stays off the capacity list [CO_ALLEIMA_MIX_2025]. Standard 625 plate is contested by Chinese mills as well as by Special Metals and ATI, while a patented Haynes grade is a different contest inside Acerinox High Performance Alloys, counted once [NI_ACX_HPA_2025, CO_ACX_HPA_MIX_2025]. Where stainless or a lining already meets the duty, the company should leave that tonne alone.
+Table 12: The company's chemical processing applications, outlook to 2035
 
-What the company should do: the company should qualify corrosion resistant plate and matching welding products for replacement equipment where a named grade clears the capacity rule, and it should stop undifferentiated stainless and any tube capacity case. Export projects are qualified through fabricators that can show funding, and a premium grade is proposed only where the documented service life and the actual medium justify it.
+| Outlook | Applications | Materials and product forms |
+|---|---|---|
+| Stable | Replacement heat exchangers, vessels and piping in European plants | Plate, sheet, tube stock, welding consumables |
+| Grows | New plants in China, India and Southeast Asia via EPC contractors | Plate, clad plate, zirconium |
+| Grows | Battery material and hydrometallurgy plants | Plate, welding consumables |
+| Falls | New build in European base chemicals | Plate |
+
+*Source: VDM Metals application benchmark, outlook is the team's assessment.*
+
+The buyers are fabricators and equipment makers, while plant operators such as BASF set the specification, and Alleima is investing SEK 220 million in finishing at Mehsana in India to serve the same Asian demand [CO_ALLEIMA_MEHSANA_2026]. Where stainless steel, linings or other materials meet the duty economically, the company should accept a smaller market rather than assume universal substitution by nickel alloys.
+
+What the company should do:
+
+* Defend European replacement demand with plate and matching welding consumables sold through fabricators.
+* Qualify with EPC contractors and fabricators that build Asian plants, starting in India and Southeast Asia.
+* Sell on documented life cycle cost, with corrosion test data, rather than on the price per tonne.

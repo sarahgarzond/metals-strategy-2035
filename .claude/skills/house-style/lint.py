@@ -30,7 +30,7 @@ def lint_text(text):
     for n, line, s in prose_lines(text):
         is_table = s.startswith("|")
         is_heading = s.startswith("#")
-        is_caption = s.lower().startswith(("figure", "table", "source", "<", "!["))
+        is_caption = s.lstrip("*_ ").lower().startswith(("figure", "table", "source", "<", "!["))
         if re.match(r"^\s*[-–—]\s", line):
             out.append((n, "dash bullet, use prose, a table or a numbered list"))
         if "—" in s or "–" in s:
