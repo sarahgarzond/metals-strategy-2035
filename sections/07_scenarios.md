@@ -1,84 +1,63 @@
 # 7. Growth Scenarios to 2035
 
-This chapter estimates alloy demand through 2035. The team used a calibrated tier 1 model for established applications and a separate tier 2 register for emerging applications [MODEL_AERO_MRO_G].
+This chapter turns the market sizes of chapters 5 and 6 into demand paths to 2035.
 
 ## 7.1 Growth Model and Scenario Assumptions
 
-Tier 1 models demand as D = A × I × S. A represents industry activity, I represents alloy mass per unit, and S represents the share of units using a high-performance alloy. Each factor is a ratio of its 2035 value to its 2025 value. The index sets 2025 at 100. The model uses measured end uses, including the 11,499 t of cobalt used in aviation out of 20.0 kt used in superalloys in 2025. The IEA outlook for nickel outside energy technologies sets the broader limit for the estimates [AERO_CI_AVIATION_CO_2025, IEA_CM_CO_DEMAND_2025_2035].
+Tier 1 models demand as D = A × I × S, with activity A, alloy mass per unit I and the share S of units using a high performance alloy. Each factor is a 2035 to 2025 ratio, so the index is 100 × (1 + g)^10 with g the growth rate a year. P10, P50 and P90 come from 10,000 draws, calibrated to 20.0 kt of superalloy cobalt in 2025, with all parameters in Table A1 [AERO_CI_SUPERALLOY_CO_2025].
 
-Table 12: Tier 1 drivers and assumptions, low to high range
+Energy follows gas turbine output (ratio 1.00 to 2.00, Siemens Energy alone) and nuclear (1.05 to 1.45). Electronics follows SEMI fab capacity, not alloy tonnes. Medical follows hip and knee procedures at 3.0 to 4.1 percent a year. Chemical activity moves −1.0 to 2.5 percent a year. Oil and gas follows upstream investment (0.80 to 1.12) and LNG (1.15 to 1.51). Automotive follows an electric share of 40 to 62 percent in 2035 [CO_SIEMENSENERGY_CMD_2025, SEMI_300MM_PATH, MED_OECD_HIP_RATE_2023, CEFIC_CAPUTIL_EU27_Q3_2026, OG_WEO2025_CPS_EXTRA_UPSTREAM, IEA_GEVO_CN_CARS_2035].
 
-| Industry | Activity driver | Growth range to 2035 | Intensity, share | Key source |
-|---|---|---|---|---|
-| Aerospace | New engines and aftermarket | 2.0 to 5.0% and 3.0 to 4.2% a year | Share 0.90 to 1.03 | [AERO_AIRBUS_GMF2026_DELIVERIES] |
-| Energy | Gas turbines, nuclear, other | Turbine output ratio 1.15 to 1.85 | ±1% a year | [CO_SIEMENSENERGY_CMD_2025] |
-| Electronics | 300 mm fab capacity, components | Index 138 in 2031, then 0 to 6% | −1.5 to +1% a year | [SEMI_300MM_PATH] |
-| Medical | Hip and knee procedures | 3.0 to 4.1% a year | CoCr share 0.90 to 1.02 | [MED_OECD_HIP_RATE_2023] |
-| Chemical | Chemical activity | −1.0 to 2.5% a year | ±0.5% a year | [CEFIC_CAPUTIL_EU27_Q3_2026] |
-| Oil and gas | Upstream investment, LNG | Ratio 0.80 to 1.12 and 1.15 to 1.51 | −1.5 to +1% a year | [OG_WEI2026_SSA_UPSTREAM_2026] |
-| Automotive | Car sales, electric share | Electric share 40 to 62% in 2035 | Turbo alloy 0 to 2% a year | [IEA_GEVO_CN_CARS_2035] |
+Aerospace combines the aftermarket at 3.0 to 4.2 percent a year with new engine deliveries. The outlooks expect 2,103 to 2,181 deliveries a year to 2045 against 1,393 in 2025, a ratio of 1.25 to 1.76 by 2035. The 2025 base already holds the LEAP ramp to 1,802 engines, so P50 growth of 3.7 percent a year is not pessimism [AERO_AIRBUS_GMF2026_DELIVERIES, BOEING_CMO_2026, CO_GE_LEAP_2025, MODEL_ENGINE_PATH_2026].
 
-*Source: team assumptions, all parameters in Table A1.*
-
-The team used a backtest to see how well past trends predicted recent outcomes. A trend fitted through 2019 underestimated gas power investment from 2020 to 2025. It had a mean absolute percentage error of 36.5 percent and a bias of minus 36.0 percent. The trend for EU vehicle output overestimated output by 23.0 percent [MODEL_AERO_MRO_G].
-
-The model corrects half of each growth error, up to 1 percentage point per year. The remaining error widens the range in the Monte Carlo simulation. The team used 10,000 draws and seed 20261108 to estimate P10, P50, and P90, the 10th, 50th, and 90th percentiles.
+The model haircuts guidance, which tends to run ahead of outcomes. For aerospace, its mode is the mean (0.982) of three points, with a median draw of 0.96. Boeing reached a 737 rate of 42 a month in Q4 2025 against a 2026 plan of 47 (0.894). Airbus runs at about 856 of 870 guided deliveries (0.983), and LEAP beat its guidance (1.068) [MODEL_HAIRCUT_AERO, CO_BA_RATES_2025, CO_AIRBUS_9M_2026, CO_GE_9M26_DELIV]. The IEA upstream ratio of 0.951 mixes price bases and is excluded for aerospace, but it sets the other haircuts (median 0.94). The backtest in A2.3 widens the ranges [IEA_WEI_UPSTREAM_REGION_2026].
 
 ## 7.2 Results by Industry, Product, and Region
 
-Figure 3 and Table 13 show growth in turbines, engines, electronics, and implants. The automotive index stays near 98. Its two components move in different directions: combustion parts fall to 66 and electric vehicle parts rise to 192 [MODEL_AERO_MRO_G].
+Measured in tonnes, superalloy bar, billet and remelt stock adds the most volume. It grows from about 193 kt in 2025 to 248 kt in 2035, worth EUR 6.3 to 11.7 bn at 2024 unit values [MODEL_FAMILY_VALUE_2026].
 
-Figure 3: Energy technology and aerospace lead alloy demand to 2035, while automotive stays flat
+Table 13: Alloy demand 2035 by industry, index 2025 = 100
 
-*Source: team calculation, band P10 to P90, line P50 [MODEL_AERO_MRO_G].*
+| Industry | Cobalt base 2025, 2035 | P10 | P50 | P90 | P50 a year | P50 without haircut |
+|---|---|---|---|---|---|---|
+| Aerospace | 11.5, 15.4 kt Co | 121 | 136 | 151 | 3.1% | 143 |
+| Energy | 8.5, 11.0 kt Co | 104 | 132 | 167 | 2.8% | 140 |
+| Electronics | None | 112 | 141 | 177 | 3.5% | 141 |
+| Medical | None | 128 | 136 | 145 | 3.2% | 136 |
+| Chemical | None | 88 | 108 | 134 | 0.8% | 108 |
+| Automotive | None | 84 | 102 | 125 | 0.2% | 108 |
+| Oil and gas | None | 78 | 98 | 122 | −0.2% | 105 |
 
-Table 13: Tier 1 alloy demand index 2035 by industry (2025 = 100)
+*Source: team calculation [MODEL_T1_RESULTS_2035].*
 
-| Industry | P10 | P50 | P90 | P50 growth a year |
+Figure 3: Electronics has the highest alloy demand index to 2035, and automotive stays flat (index, not volume)
+
+*Source: team calculation, band P10 to P90, line P50 [MODEL_T1_RESULTS_2035].*
+
+Electronics has the highest index, but it tracks fab capacity, and its alloy volume is unmeasured. Automotive stays flat because combustion parts fall to 69 while electric vehicle parts rise to 200 [MODEL_T1_RESULTS_2035].
+
+Table 14: Product families 2035, team estimates, never summed
+
+| Product family | 2025 kt | 2035 kt (P10 to P90) | 2035 EUR bn | Index P50 |
 |---|---|---|---|---|
-| Energy | 126 | 156 | 193 | 4.5% |
-| Aerospace | 137 | 147 | 158 | 3.9% |
-| Electronics | 112 | 141 | 176 | 3.5% |
-| Medical | 132 | 140 | 149 | 3.4% |
-| Oil and gas | 93 | 115 | 143 | 1.4% |
-| Chemical | 87 | 109 | 135 | 0.9% |
-| Automotive | 81 | 98 | 119 | −0.2% |
+| Superalloy bar, billet, remelt stock | 193 | 248 (176 to 366) | 6.3 to 11.7 | 129 |
+| Plate, sheet, strip and foil | 282 | 326 (255 to 429) | 10.1 to 15.6 | 116 |
+| Nickel alloy bar, rod and wire | 131 | 153 (116 to 200) | 3.9 to 5.1 | 116 |
+| Tubes and fittings | 45 | 50 (39 to 66) | 1.3 to 2.1 | 112 |
+| Precision FeNi strip and foil | None | None | None | 129 |
 
-*Source: team calculation [MODEL_AERO_MRO_G].*
+*Sources: team calculation, P50, methods in A2.4 [MODEL_FAM_RESULTS_2035, AC_EU_NI_UNITVAL_2024].*
 
-The model projects stronger demand growth for precision FeNi and vacuum-melted bar than for flat products and tubes. The aerospace weight of 0.575 comes from measured data. The team estimated the other weights [MODEL_AERO_MRO_G].
+Supply limits raise costs more than they cap volume. Cobalt mine supply falls 30 percent short of 2035 demand, or 36 percent if the Congo quota holds, but superalloys need only 12 percent of it [MODEL_SUPPLY_OVERLAY_2035]. Table 15 lists every tier change, and the Chinese tungsten licence halt changes none.
 
-Table 14: Product family index 2035 (2025 = 100) and main industry weights
+Table 15: Shock cases and every change of priority tier
 
-| Product family | Main industry weights | P10 | P50 | P90 |
-|---|---|---|---|---|
-| Precision FeNi strip and foil | Electronics 0.60, electric vehicles 0.30 | 134 | 157 | 185 |
-| Superalloy bar, billet, remelt stock | Aerospace 0.575, energy 0.30 | 131 | 143 | 158 |
-| Nickel alloy bar, rod and wire | Chemical 0.25, oil and gas 0.25 | 115 | 128 | 142 |
-| Plate, sheet, strip and foil | Chemical 0.30, energy 0.20 | 113 | 125 | 139 |
-| Tubes and fittings | Oil and gas 0.35, chemical 0.25 | 111 | 125 | 141 |
+| Shock | Exposure | Tier changes |
+|---|---|---|
+| Congo cobalt quota at CMOC entitlement ratio | Mine gap 54% | Turbine remelt stock 1 to 2 (3.70), AM powder 2 to Monitor |
+| Indonesian ore quota cut by 22 to 71% | Mine gap 21 to 55% | Solid oxide strip Option to Monitor |
+| Severe aerospace, two years at −20% | Aerospace index 114 | Alloy 718 bar 1 to 2 (3.45), AM powder 2 to Harvest |
 
-*Source: team calculation, weighted industry indices [MODEL_AERO_MRO_G].*
+*Sources: team calculation, base scores in Table 17 [MODEL_SUPPLY_SHOCKS_2026].*
 
-The supply analysis estimates that IEA cobalt mine supply falls 30 percent short of 2035 demand. The gap reaches 36 percent if the Congo quota stays at its 2026 level. Superalloys require only 13 to 20 percent of the cobalt, so the shortfall is more likely to raise costs than to cap superalloy production. The estimated 21 percent refined nickel gap is an upper bound. Copper mines cover 62 percent of projected demand before scrap is counted [MODEL_AERO_MRO_G, AERO_USGS_CO_SUPER_SHARE].
-
-Engine and turbine growth is concentrated in the United States and Western Europe. The United States accounts for a fifth of superalloy cobalt. China has 40 of the 81 reactors under construction, so much reactor tube demand is tied to China. Asia accounts for more than 80 percent of expected chemical industry growth [BASF_APAC_GROWTH_2035, AERO_USGS_CO_SUPER_SHARE, EE_NUC_WNA_UC].
-
-Table 15 lists emerging opportunities, some drawn from the team's research workbook. The team adds an opportunity to tier 1 only after its stated condition is met [MODEL_AERO_MRO_G, TEAM_WORKBOOK_2035].
-
-Table 15: Tier 2 register, not included in tier 1
-
-| Opportunity, alloy and form | TRL | Evidence | Earliest volume | Signpost |
-|---|---|---|---|---|
-| Solid oxide cells, ferritic strip | 9 | Early signal | 2026 | Strip contract at Bloom Energy |
-| Electrolysers, nickel strip and mesh | 8 to 9 | Early signal | 2026 | Nucera orders above EUR 356 m |
-| Additive engine parts, superalloy powder | 7 to 9 | Early signal | 2027 | Part specification with volume |
-| 800 VDC racks, less copper busbar | 6 to 7 | Early signal | 2027 | Eaton and Vertiv busbar launches |
-| Small reactors, zirconium, Alloy 690 tube | 7 to 8 | Early signal | 2030 | Serial tube order after licence |
-| Hydrogen turbines, castings and sheet | 5 to 7 | Speculative | 2030 | Order with hydrogen supply |
-| Fusion magnets, Alloy C-276 tape foil | 4 to 6 | Speculative | 2030 | Magnet order for a pilot plant |
-| sCO2 recuperators, nickel alloy plate | 5 to 6 | Speculative | 2032 | Pilot above 10 MW |
-
-*Sources: team register, TRL and years are team estimates [CO_BLOOM_CAP_2026, NVDA_800VDC_ROWCUT, MODEL_AERO_MRO_G, TEAM_WORKBOOK_2035].*
-
-Chapter 8 scores the measured opportunities in four growing industries and the emerging applications with dated milestones.
+By region, engine and turbine growth sits in the United States and Western Europe. China builds 40 of the 81 reactors under construction, and Asia takes over 80 percent of chemical growth [BASF_APAC_GROWTH_2035, EE_NUC_WNA_UC]. Emerging uses stay in the tier 2 register of Table A3 until their signposts are met [MODEL_TIER2_REGISTER_2026].

@@ -1,6 +1,6 @@
 # 4. Metal Markets: Materials, Product Forms and Applications
 
-Table 2 shows the commercial forms of the ten metals covered in this chapter and the main uses reported for each.
+The value chain starts with the metal. Table 2 shows the commercial forms of the ten metals in this chapter and their main uses.
 
 Table 2: Commercial forms and main uses by metal
 
@@ -17,6 +17,6 @@ Table 2: Commercial forms and main uses by metal
 | Aluminium | Sheet<br>Plate<br>Extrusions<br>Castings<br>Conductor rod | Construction (WICONA WICLINE 75 Eco frame)<br>Transport (Novelis s118 hood inner sheet)<br>Electrical (Southwire Drake ACSR conductor) | ≈25%<br>≈23%<br>≈12% |
 | Manganese | Ferromanganese<br>Silicomanganese<br>Electrolytic metal | Steelmaking (voestalpine MN13 rail crossing) | ≈97% |
 
-*Company examples identify a specific component or material supplied for that use. Shares refer to the full use category. All shares link to their sources in the table. First use: Ni (2024) and W (2021). Demand or end use: Co and Mo (2025), Cu (2024), Al (2020), Mn (undated). Cr covers ferrochrome (ICDA, 2022). Zr covers zircon output (Iluka, 2024). *Ti covers U.S. metal use (2025), reported as a majority. n.r. = not reported.*
+*Examples name a supplied component or material. Shares cover the full use category. First use: Ni (2024) and W (2021). Demand or end use: Co and Mo (2025), Cu (2024), Al (2020), Mn (undated). Cr covers ferrochrome and Zr covers zircon output. \*Ti covers U.S. metal use (2025), reported as a majority. n.r. = not reported. Sources: [T2_NI_FIRSTUSE_2024, T2_CO_ENDUSE_2025, T2_CR_FECR_STAINLESS, T2_MO_ENDUSE_2025, T2_TI_US_AERO_2025, T2_W_FIRSTUSE, T2_ZR_CERAMICS_2024, T2_CU_ENDUSE_2024, T2_AL_ENDUSE_2020, T2_MN_STEEL].*
 
-The forms show where each metal enters manufacturing. Ferroalloys go into the melt, while plate, tube, bar and powder go to manufacturers that turn them into components. The profiles below explain how these forms are supplied and used.
+Ferroalloys go into the melt, while plate, tube, bar and powder go to component makers. The profiles below show how these forms are supplied.

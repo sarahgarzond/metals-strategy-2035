@@ -1,5 +1,3 @@
 # 5. Industry Needs: Demand, Geography and Market Size
 
-Each of the seven industry sections starts with market size and geography and then explains applications and product forms. The first subsection ends with the best available measure at a named stage of the value chain. Where alloy tonnage is unavailable, chapter 7 uses an index calculated by the team. Appendix A5 lists the underlying indicators.
-
-To avoid counting applications twice, the study groups electrolyzers and fuel cells under energy, process vessels under chemical processing, and sensors and magnetic parts under electronics.
+Each industry section starts with market size and geography and then covers applications and product forms. The first subsection ends with the best measure at a named stage, and chapter 7 uses a team index where tonnage is missing (indicators in appendix A5). To avoid double counting, electrolyzers and fuel cells sit under energy, process vessels under chemical processing, and sensors under electronics.
