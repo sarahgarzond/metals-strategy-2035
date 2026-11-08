@@ -311,6 +311,17 @@ def excel():
     sheet("5_Weights", ["Criterion", "Weight"], [[c, w] for c, w in CRIT])
     sheet("6_Prices", ["Year"] + list(PRICES), [[y] + [PRICES[k][i] for k in PRICES] for i, y in enumerate(YRS)])
     sheet("7_Bridge", ["Step", "EUR m"], BRIDGE)
+    # Round 5: the 2035 outlook outputs (model/outlook_2035.py, model/scoring.py) travel with the workbook. Indices and kt are team estimates.
+    import csv as _csv
+    for nm, fn, cols in [("8_Outlook_industries", "model_tier1_results.csv", None), ("9_Family_tonnes", "model_family_tonnes.csv", None),
+                         ("10_Scores", "model_scores.csv", None), ("11_Supply_shocks", "model_supply_shocks.csv", None)]:
+        fp = os.path.join(HERE, "..", "data", "clean", fn)
+        if os.path.exists(fp):
+            rows_ = list(_csv.reader(open(fp, encoding="utf-8")))
+            if nm == "8_Outlook_industries":
+                keep = [i for i, h in enumerate(rows_[0]) if h in ("level", "industry", "metal", "unit", "index_p10", "index_p50", "index_p90", "p50_2035_without_backtest_shift", "p50_2035_with_backtest_shift_round4_method", "haircut_median")]
+                rows_ = [[r[i] for i in keep] for r in rows_ if r and (r[0] in ("level", "industry", "product_family", "product_family_variant"))]
+            sheet(nm, rows_[0], rows_[1:])
     wb.save(os.path.join(HERE, "Product_Strategy_2035_Market_Model.xlsx"))
 
 
@@ -318,6 +329,10 @@ if __name__ == "__main__":
     for f in (fig_materials, fig_prices, fig_concentration, fig_sectors, fig_regions, fig_matrix, fig_bridge, fig_scen, excel):
         f()
     print(f"Total 2025 {TOT25:.1f} bn, 2035 {TOT35:.1f} bn, CAGR {TOT_G*100:.2f}%")
+    _s25, _r25 = sum(s["v25"] for s in SEC), sum(r["v25"] for r in REG)
+    _s35, _r35 = sum(s["v35"] for s in SEC), sum(r["v35"] for r in REG)
+    print(f"Reconciliation 2025: materials {TOT25:.2f}, sectors {_s25:.2f} ({100*(_s25/TOT25-1):+.2f}%), regions {_r25:.2f} ({100*(_r25/TOT25-1):+.2f}%)")
+    print(f"Reconciliation 2035: materials {TOT35:.2f}, sectors {_s35:.2f} ({100*(_s35/TOT35-1):+.2f}%), regions {_r35:.2f} ({100*(_r35/TOT35-1):+.2f}%)")
     for s in SEC:
         print(f'{s["name"]:40s} {s["v25"]:5.2f} {s["v35"]:5.2f} {s["g"]*100:4.1f}%')
     for r in REG:

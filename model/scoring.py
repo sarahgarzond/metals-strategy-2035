@@ -124,6 +124,7 @@ def weighted(sc, weights=W):
 
 
 def tier(score, evidence, cap=True):
+    score = round(score, 9)   # guards the thresholds against floating point noise only
     if evidence == "E" and cap:
         return "Option" if score >= 3.0 else "Monitor"
     if score >= 3.75:
