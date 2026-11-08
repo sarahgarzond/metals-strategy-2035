@@ -8,3 +8,258 @@
   logged source OECD_STAN_B1G
   wrote 2346 rows to data/clean/prodcom_2019-2024.csv
   logged source EUROSTAT_PRODCOM
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 2828 rows to data/clean/comtrade_7502_2019-2024.csv
+  logged source COMTRADE_7502_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 4578 rows to data/clean/comtrade_7505_2019-2024.csv
+  logged source COMTRADE_7505_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 3600 rows to data/clean/comtrade_7506_2019-2024.csv
+  logged source COMTRADE_7506_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 4176 rows to data/clean/comtrade_7507_2019-2024.csv
+  logged source COMTRADE_7507_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 2815 rows to data/clean/comtrade_7504_2019-2024.csv
+  logged source COMTRADE_7504_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 3999 rows to data/clean/comtrade_8105_2019-2024.csv
+  logged source COMTRADE_8105_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 2033 rows to data/clean/comtrade_8109_2019-2024.csv
+  logged source COMTRADE_8109_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 5960 rows to data/clean/comtrade_7219_2019-2024.csv
+  logged source COMTRADE_7219_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  FAILED 7220 156 X 2023: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 5459 rows to data/clean/comtrade_7220_2019-2024.csv
+  logged source COMTRADE_7220_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 5748 rows to data/clean/comtrade_7223_2019-2024.csv
+  logged source COMTRADE_7223_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 5352 rows to data/clean/comtrade_7409_2019-2024.csv
+  logged source COMTRADE_7409_2019_2024
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 403: Quota Exceeded
+  FAILED 7606 410 M 2023: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 403: Quota Exceeded
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 7186 rows to data/clean/comtrade_7606_2019-2024.csv
+  logged source COMTRADE_7606_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 7500 rows to data/clean/comtrade_8311_2019-2024.csv
+  logged source COMTRADE_8311_2019_2024
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  retry after error: HTTP Error 429: Too Many Requests
+  wrote 8164 rows to data/clean/comtrade_8411_2019-2024.csv
+  logged source COMTRADE_8411_2019_2024
+PULL_ALL DONE

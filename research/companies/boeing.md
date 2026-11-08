@@ -24,16 +24,16 @@
 ## Market statements
 * "The most important raw materials required for our aerospace products are aluminum (sheet, plate, forgings and extrusions), titanium (sheet, plate, forgings and extrusions) and composites." Alternative sources "generally exist" but "qualification of the sources could take a year or more" [CO_BA_RAWMAT_2025]. 10-K p. 4.
 * "Many major components and product equipment items are procured or subcontracted on a sole-source basis" (p. 4).
-* "We and our suppliers have experienced supply chain disruptions and constraints, labor instability and inflationary pressures" (p. 7).
+* "We and our suppliers have experienced supply chain disruptions and constraints, labor instability and inflationary pressures" (p. 8).
 * Q3 2026: the margin reflects "higher estimated supply chain costs". Wing supply is reported as the bottleneck for the 737 and stabilisation at 47 per month is expected to take "into next year" [CO_BA_737RATE_2026] (secondary).
 * A potential durability issue was found on the 777X engine during certification flight testing (10-K p. 37), which ties to GE9X midseal certification at GE.
 
 ## Customers and suppliers
-* Customers: Turkish Airlines, Ethiopian Airlines, Lufthansa (Q3 2026 orders), US government for defense. Non US customers were 46% of 2025 revenue (p. 7).
+* Customers: Turkish Airlines, Ethiopian Airlines, Lufthansa (Q3 2026 orders), US government for defense. Non US customers were 46% of 2025 revenue (p. 10).
 * Suppliers: GE Aerospace and CFM, Rolls-Royce, Spirit (now owned), sole source suppliers not named. Long term metal agreements: not disclosed, TODO(data).
 * Defense: F/A XX Navy fighter selection in Q3 2026, defense backlog USD 101 billion.
 
 ## Sources
-1. The Boeing Company (2026). Annual report on Form 10-K, fiscal 2025, pp. 2, 4, 7, 26, 31, 33 to 38, 41. https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm
+1. The Boeing Company (2026). Annual report on Form 10-K, fiscal 2025, pp. 2, 4, 8, 10, 26, 31, 33 to 38, 41. https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-20251231.htm
 2. The Boeing Company (2026). Boeing reports third quarter results. https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results
 3. Leeham News and Analysis (2026). Wings still pacing Boeing 737 MAX production rate increases. https://leehamnews.com/2026/10/27/wings-still-pacing-boeings-737-max-production-rate-increases/
