@@ -38,14 +38,5 @@ for y, b in zip(yrs, bottom): ax.text(y, b + 20, f"{b:,.0f}", ha="center", fonts
 ax.set_ylabel("USD million"); ax.set_ylim(0, 1600); ax.legend(frameon=False, fontsize=8, ncol=3, loc="upper center", bbox_to_anchor=(0.5, -0.12))
 fig.savefig(os.path.join(OUT, "fig2_de_nickel_exports.svg"), bbox_inches="tight"); plt.close(fig)
 
-# Figure 3: scenario indices 2035
-S = [("Aerospace", 122, 155, 179), ("Energy and environment", 105, 148, 188), ("Electronics", 100, 134, 163), ("Medical", 110, 128, 148),
-     ("Chemical processing", 90, 110, 128), ("Oil and gas", 90, 105, 116), ("Automotive", 74, 86, 100)]
-fig, ax = plt.subplots(figsize=(6.3, 2.8))
-for i, (n, lo, base, hi) in enumerate(reversed(S)):
-    ax.plot([lo, hi], [i, i], color=GREY, lw=6, solid_capstyle="butt")
-    ax.plot(base, i, "o", color=ACC, ms=7); ax.text(hi + 3, i, f"{base}", va="center", fontsize=8)
-ax.axvline(100, color="#555", lw=0.8, ls=":")
-ax.set_yticks(range(len(S))); ax.set_yticklabels([s[0] for s in reversed(S)]); ax.set_xlabel("Demand index 2035, 2025 = 100 (bar: downside to upside, dot: base)")
-fig.savefig(os.path.join(OUT, "fig3_scenarios.svg"), bbox_inches="tight"); plt.close(fig)
+# Figure 3 (fan chart by industry) and figure 4 (supply overlay) are written by model/outlook_2035.py from the Monte Carlo results.
 print("figures written")
