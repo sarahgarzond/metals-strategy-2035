@@ -1,0 +1,499 @@
+hs,country,year,mirror_flow,value_usd,net_weight_kg,n_reporters,reporters
+7219,Australia,2022,exports (partner-reported imports),4191421,893071,6,China;France;India;Indonesia;Rep. of Korea;USA
+7219,Australia,2022,imports (partner-reported exports),106003919,27661919,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Australia,2023,exports (partner-reported imports),639237,225099,6,China;India;Indonesia;Japan;USA;United Kingdom
+7219,Australia,2023,imports (partner-reported exports),76524758,24924415,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Australia,2024,exports (partner-reported imports),1748452,754751,4,China;India;Indonesia;USA
+7219,Australia,2024,imports (partner-reported exports),87308895,32755952,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Austria,2022,exports (partner-reported imports),64809156,10229569,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Austria,2022,imports (partner-reported exports),265871089,51784485,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Austria,2023,exports (partner-reported imports),62728639,9771025,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Austria,2023,imports (partner-reported exports),205464427,50350196,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7219,Austria,2024,exports (partner-reported imports),56144432,11442101,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Austria,2024,imports (partner-reported exports),186693089,51114313,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Canada,2022,exports (partner-reported imports),13144399,2595136,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7219,Canada,2022,imports (partner-reported exports),681782073,161716736,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Canada,2023,exports (partner-reported imports),9945676,1911020,8,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA
+7219,Canada,2023,imports (partner-reported exports),456255785,120561719,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Canada,2024,exports (partner-reported imports),8176371,2107657,8,China;Germany;India;Indonesia;Italy;Japan;USA;United Kingdom
+7219,Canada,2024,imports (partner-reported exports),463973005,153761360,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Norway,2022,exports (partner-reported imports),1548835,246891,6,France;Germany;Indonesia;Italy;Japan;United Kingdom
+7219,Norway,2022,imports (partner-reported exports),27364361,5138376,8,China;France;Germany;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7219,Norway,2023,exports (partner-reported imports),233797,36738,5,France;Germany;Indonesia;Rep. of Korea;United Kingdom
+7219,Norway,2023,imports (partner-reported exports),25774704,4740370,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Norway,2024,exports (partner-reported imports),692886,110866,5,France;Germany;Indonesia;Italy;United Kingdom
+7219,Norway,2024,imports (partner-reported exports),19141408,3788346,7,China;France;Germany;Italy;Rep. of Korea;USA;United Kingdom
+7219,Russian Federation,2022,exports (partner-reported imports),382954,102461,4,China;France;India;Italy
+7219,Russian Federation,2022,imports (partner-reported exports),653446992,233841025,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7219,Russian Federation,2023,exports (partner-reported imports),17096,1240,3,China;France;India
+7219,Russian Federation,2023,imports (partner-reported exports),803119223,367765054,6,China;Germany;India;Indonesia;Italy;Rep. of Korea
+7219,Russian Federation,2024,exports (partner-reported imports),243157,28543,3,China;India;Rep. of Korea
+7219,Russian Federation,2024,imports (partner-reported exports),604901697,336332609,3,China;India;Rep. of Korea
+7219,Sweden,2022,exports (partner-reported imports),935487616,200589906,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Sweden,2022,imports (partner-reported exports),107533296,18572031,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7219,Sweden,2023,exports (partner-reported imports),882700419,185120202,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Sweden,2023,imports (partner-reported exports),94764994,18923588,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Sweden,2024,exports (partner-reported imports),745895264,177075587,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7219,Sweden,2024,imports (partner-reported exports),79862739,19157703,7,China;France;Germany;Italy;Japan;USA;United Kingdom
+7409,Australia,2022,exports (partner-reported imports),18541,4014,4,France;Indonesia;Japan;Rep. of Korea
+7409,Australia,2022,imports (partner-reported exports),17811330,1556770,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Australia,2023,exports (partner-reported imports),29549,473,5,France;Germany;India;Indonesia;USA
+7409,Australia,2023,imports (partner-reported exports),15693798,1320570,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Australia,2024,exports (partner-reported imports),5330,47,4,China;France;Indonesia;USA
+7409,Australia,2024,imports (partner-reported exports),13775917,1110007,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7409,Austria,2022,exports (partner-reported imports),19492287,1924208,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Austria,2022,imports (partner-reported exports),120021458,9778821,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Austria,2023,exports (partner-reported imports),25591938,2273886,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Austria,2023,imports (partner-reported exports),105802921,7970846,7,China;France;Germany;India;Italy;USA;United Kingdom
+7409,Austria,2024,exports (partner-reported imports),18815479,2636876,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Austria,2024,imports (partner-reported exports),95912399,7061896,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Canada,2022,exports (partner-reported imports),9792273,845384,7,China;France;Germany;India;Indonesia;USA;United Kingdom
+7409,Canada,2022,imports (partner-reported exports),112381755,9088457,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Canada,2023,exports (partner-reported imports),11552725,901289,8,China;France;Germany;India;Indonesia;Rep. of Korea;USA;United Kingdom
+7409,Canada,2023,imports (partner-reported exports),106597744,8948197,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7409,Canada,2024,exports (partner-reported imports),19232264,1268311,7,China;France;Germany;Indonesia;Japan;USA;United Kingdom
+7409,Canada,2024,imports (partner-reported exports),149119511,12240103,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7409,Norway,2022,exports (partner-reported imports),224193,19628,4,France;Germany;India;United Kingdom
+7409,Norway,2022,imports (partner-reported exports),934617,59376,6,China;France;Germany;India;Italy;United Kingdom
+7409,Norway,2023,exports (partner-reported imports),307857,28079,3,France;Germany;India
+7409,Norway,2023,imports (partner-reported exports),2614634,148418,6,China;France;Germany;India;Italy;United Kingdom
+7409,Norway,2024,exports (partner-reported imports),174501,3771,4,France;Germany;USA;United Kingdom
+7409,Norway,2024,imports (partner-reported exports),1626975,81968,6,China;France;Germany;India;USA;United Kingdom
+7409,Russian Federation,2022,exports (partner-reported imports),223750,21901,4,China;France;Germany;Italy
+7409,Russian Federation,2022,imports (partner-reported exports),8485750,440877,7,China;France;Germany;India;Italy;Rep. of Korea;USA
+7409,Russian Federation,2023,exports (partner-reported imports),234002,21054,3,China;Italy;Rep. of Korea
+7409,Russian Federation,2023,imports (partner-reported exports),11588706,695387,4,China;Germany;India;Indonesia
+7409,Russian Federation,2024,exports (partner-reported imports),6805,786,1,China
+7409,Russian Federation,2024,imports (partner-reported exports),10230172,561848,3,China;India;Indonesia
+7409,Sweden,2022,exports (partner-reported imports),3798409,417018,7,China;France;Germany;Indonesia;Italy;Rep. of Korea;USA
+7409,Sweden,2022,imports (partner-reported exports),7314110,585655,7,China;France;Germany;Italy;Japan;USA;United Kingdom
+7409,Sweden,2023,exports (partner-reported imports),3255070,279544,8,China;France;Germany;India;Indonesia;Italy;USA;United Kingdom
+7409,Sweden,2023,imports (partner-reported exports),5875372,420560,6,China;France;Germany;Italy;USA;United Kingdom
+7409,Sweden,2024,exports (partner-reported imports),1218346,92391,7,China;France;Germany;India;Italy;USA;United Kingdom
+7409,Sweden,2024,imports (partner-reported exports),7041335,510287,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Australia,2022,exports (partner-reported imports),21809,899,2,Indonesia;USA
+7410,Australia,2022,imports (partner-reported exports),3927930,333772,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Australia,2023,exports (partner-reported imports),7417,1409,2,Germany;USA
+7410,Australia,2023,imports (partner-reported exports),3962086,357656,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7410,Australia,2024,exports (partner-reported imports),4007,1,2,India;USA
+7410,Australia,2024,imports (partner-reported exports),4009773,341174,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Austria,2022,exports (partner-reported imports),15732301,859692,7,China;France;Germany;Italy;Rep. of Korea;USA;United Kingdom
+7410,Austria,2022,imports (partner-reported exports),25412137,978409,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Austria,2023,exports (partner-reported imports),14729170,755326,7,China;France;Germany;Italy;Rep. of Korea;USA;United Kingdom
+7410,Austria,2023,imports (partner-reported exports),19742574,634653,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Austria,2024,exports (partner-reported imports),10673026,424288,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Austria,2024,imports (partner-reported exports),19048918,494257,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Canada,2022,exports (partner-reported imports),698206,54485,6,China;France;Germany;Rep. of Korea;USA;United Kingdom
+7410,Canada,2022,imports (partner-reported exports),40111630,2997518,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Canada,2023,exports (partner-reported imports),464212,31296,7,China;France;Germany;India;Rep. of Korea;USA;United Kingdom
+7410,Canada,2023,imports (partner-reported exports),36803131,2834929,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Canada,2024,exports (partner-reported imports),161190,11767,5,China;France;Rep. of Korea;USA;United Kingdom
+7410,Canada,2024,imports (partner-reported exports),38244984,2742846,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Norway,2022,imports (partner-reported exports),382178,19259,5,China;France;Germany;Italy;United Kingdom
+7410,Norway,2023,exports (partner-reported imports),9110,3,1,United Kingdom
+7410,Norway,2023,imports (partner-reported exports),641151,35263,5,China;France;Germany;Italy;United Kingdom
+7410,Norway,2024,imports (partner-reported exports),1326354,69444,6,China;France;Germany;Italy;Rep. of Korea;United Kingdom
+7410,Russian Federation,2022,exports (partner-reported imports),17760,163,2,China;France
+7410,Russian Federation,2022,imports (partner-reported exports),10779513,887153,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Russian Federation,2023,exports (partner-reported imports),735418,192,5,China;France;India;Japan;Rep. of Korea
+7410,Russian Federation,2023,imports (partner-reported exports),11177490,866460,4,China;Germany;India;United Kingdom
+7410,Russian Federation,2024,exports (partner-reported imports),286307,134,2,China;Rep. of Korea
+7410,Russian Federation,2024,imports (partner-reported exports),9229712,692328,4,China;Germany;India;Rep. of Korea
+7410,Sweden,2022,exports (partner-reported imports),489116,29343,7,China;France;Germany;India;Italy;Rep. of Korea;United Kingdom
+7410,Sweden,2022,imports (partner-reported exports),30977119,2316913,7,China;France;Germany;India;Italy;Rep. of Korea;United Kingdom
+7410,Sweden,2023,exports (partner-reported imports),1521871,53847,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7410,Sweden,2023,imports (partner-reported exports),44217703,3225171,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7410,Sweden,2024,exports (partner-reported imports),523707,20888,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7410,Sweden,2024,imports (partner-reported exports),32288793,2000669,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Australia,2022,exports (partner-reported imports),2485050695,96495063,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Australia,2022,imports (partner-reported exports),8747313,444072,4,France;India;USA;United Kingdom
+7502,Australia,2023,exports (partner-reported imports),1574790147,65403494,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Australia,2023,imports (partner-reported exports),12017909,547747,4,France;Rep. of Korea;USA;United Kingdom
+7502,Australia,2024,exports (partner-reported imports),981079291,55023643,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Australia,2024,imports (partner-reported exports),13282050,778616,4,China;France;USA;United Kingdom
+7502,Austria,2022,exports (partner-reported imports),19273484,1371060,5,China;France;Germany;Italy;USA
+7502,Austria,2022,imports (partner-reported exports),264890734,11283468,4,France;Germany;Italy;United Kingdom
+7502,Austria,2023,exports (partner-reported imports),28003671,1510683,7,China;France;Germany;India;Italy;Rep. of Korea;United Kingdom
+7502,Austria,2023,imports (partner-reported exports),188150145,8039678,4,France;Germany;Italy;United Kingdom
+7502,Austria,2024,exports (partner-reported imports),14986493,832385,4,France;Germany;India;Italy
+7502,Austria,2024,imports (partner-reported exports),181740103,9096175,4,France;Germany;Italy;United Kingdom
+7502,Canada,2022,exports (partner-reported imports),1900521530,76399170,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Canada,2022,imports (partner-reported exports),33726926,1856320,4,France;Germany;USA;United Kingdom
+7502,Canada,2023,exports (partner-reported imports),1840319157,77694652,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Canada,2023,imports (partner-reported exports),20337750,1291380,6,France;Germany;India;Japan;USA;United Kingdom
+7502,Canada,2024,exports (partner-reported imports),1236199571,69925986,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Canada,2024,imports (partner-reported exports),23751349,1284844,6,China;France;Germany;Italy;USA;United Kingdom
+7502,Norway,2022,exports (partner-reported imports),1582811703,61560991,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Norway,2022,imports (partner-reported exports),575847,14147,3,France;USA;United Kingdom
+7502,Norway,2023,exports (partner-reported imports),1573844851,66950201,9,China;France;Germany;India;Indonesia;Japan;Rep. of Korea;USA;United Kingdom
+7502,Norway,2023,imports (partner-reported exports),1254232,38010,3,France;Italy;United Kingdom
+7502,Norway,2024,exports (partner-reported imports),1085858661,61755461,9,China;France;Germany;India;Indonesia;Japan;Rep. of Korea;USA;United Kingdom
+7502,Norway,2024,imports (partner-reported exports),2038225,62464,3,France;Italy;United Kingdom
+7502,Russian Federation,2022,exports (partner-reported imports),2218448721,89422194,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7502,Russian Federation,2022,imports (partner-reported exports),1030313,16917,5,France;Germany;Italy;USA;United Kingdom
+7502,Russian Federation,2023,exports (partner-reported imports),1400082980,60242301,5,China;France;Germany;India;USA
+7502,Russian Federation,2023,imports (partner-reported exports),8137,151,2,China;India
+7502,Russian Federation,2024,exports (partner-reported imports),1048849689,61824757,4,China;France;Germany;India
+7502,Russian Federation,2024,imports (partner-reported exports),142921,3001,2,China;India
+7502,Sweden,2022,exports (partner-reported imports),597939,36350,4,China;Germany;Japan;USA
+7502,Sweden,2022,imports (partner-reported exports),28477092,1397830,4,France;Germany;Italy;United Kingdom
+7502,Sweden,2023,exports (partner-reported imports),914689,29000,2,Germany;India
+7502,Sweden,2023,imports (partner-reported exports),64953130,2649621,6,China;France;Germany;Italy;USA;United Kingdom
+7502,Sweden,2024,exports (partner-reported imports),8775911,803644,6,China;France;Germany;Italy;USA;United Kingdom
+7502,Sweden,2024,imports (partner-reported exports),78127504,4225815,5,France;Germany;Italy;Rep. of Korea;United Kingdom
+7505,Australia,2022,exports (partner-reported imports),63314226,1668962,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7505,Australia,2022,imports (partner-reported exports),3891356,87868,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Australia,2023,exports (partner-reported imports),76604241,2131898,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Australia,2023,imports (partner-reported exports),3212690,69728,8,China;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Australia,2024,exports (partner-reported imports),72861172,1781298,8,China;France;Germany;India;Indonesia;Italy;USA;United Kingdom
+7505,Australia,2024,imports (partner-reported exports),3742652,87011,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Austria,2022,exports (partner-reported imports),353123273,13219965,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Austria,2022,imports (partner-reported exports),81616457,2506824,6,China;France;Germany;Italy;USA;United Kingdom
+7505,Austria,2023,exports (partner-reported imports),375327593,12523456,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Austria,2023,imports (partner-reported exports),76255057,2422205,7,China;France;Germany;India;Italy;USA;United Kingdom
+7505,Austria,2024,exports (partner-reported imports),384140338,12883512,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Austria,2024,imports (partner-reported exports),61466933,1916168,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Canada,2022,exports (partner-reported imports),6695602,110505,5,China;France;Germany;USA;United Kingdom
+7505,Canada,2022,imports (partner-reported exports),61764114,1388968,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7505,Canada,2023,exports (partner-reported imports),8844092,152347,7,China;France;Germany;India;Rep. of Korea;USA;United Kingdom
+7505,Canada,2023,imports (partner-reported exports),81283007,1548015,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Canada,2024,exports (partner-reported imports),6657736,61441,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Canada,2024,imports (partner-reported exports),83138496,1645421,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7505,Norway,2022,exports (partner-reported imports),400461,17069,4,Germany;Italy;USA;United Kingdom
+7505,Norway,2022,imports (partner-reported exports),12732283,301711,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7505,Norway,2023,exports (partner-reported imports),77160,2181,2,Germany;India
+7505,Norway,2023,imports (partner-reported exports),21700242,407000,7,China;France;Germany;India;Italy;USA;United Kingdom
+7505,Norway,2024,exports (partner-reported imports),91760,938,6,China;France;Germany;Italy;USA;United Kingdom
+7505,Norway,2024,imports (partner-reported exports),21704260,406151,6,China;France;Germany;Italy;USA;United Kingdom
+7505,Russian Federation,2022,exports (partner-reported imports),4466223,162441,5,China;France;Germany;India;Rep. of Korea
+7505,Russian Federation,2022,imports (partner-reported exports),14858846,443877,8,China;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Russian Federation,2023,exports (partner-reported imports),3352395,90775,4,China;Germany;India;Rep. of Korea
+7505,Russian Federation,2023,imports (partner-reported exports),24401947,780575,5,China;Germany;India;Japan;Rep. of Korea
+7505,Russian Federation,2024,exports (partner-reported imports),489184,4211,2,China;India
+7505,Russian Federation,2024,imports (partner-reported exports),25747833,901475,3,China;Germany;India
+7505,Sweden,2022,exports (partner-reported imports),81902549,3681114,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Sweden,2022,imports (partner-reported exports),19459936,329408,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7505,Sweden,2023,exports (partner-reported imports),97066607,4042278,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Sweden,2023,imports (partner-reported exports),33973690,500827,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Sweden,2024,exports (partner-reported imports),109084694,5621125,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7505,Sweden,2024,imports (partner-reported exports),38243222,524575,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Australia,2022,exports (partner-reported imports),30653,2250,3,China;Rep. of Korea;USA
+7506,Australia,2022,imports (partner-reported exports),2639575,64531,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Australia,2023,exports (partner-reported imports),8349,527,3,China;France;USA
+7506,Australia,2023,imports (partner-reported exports),2425718,54970,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Australia,2024,exports (partner-reported imports),25845,33,4,Indonesia;Japan;Rep. of Korea;USA
+7506,Australia,2024,imports (partner-reported exports),2575805,57978,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Austria,2022,exports (partner-reported imports),15252191,464271,9,China;France;Germany;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Austria,2022,imports (partner-reported exports),75772978,3602708,7,China;France;Germany;Italy;Japan;USA;United Kingdom
+7506,Austria,2023,exports (partner-reported imports),14767755,309048,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Austria,2023,imports (partner-reported exports),58281905,1916822,7,China;France;Germany;Italy;Japan;USA;United Kingdom
+7506,Austria,2024,exports (partner-reported imports),11469874,234215,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Austria,2024,imports (partner-reported exports),91380319,4059626,6,China;France;Germany;Italy;Japan;USA
+7506,Canada,2022,exports (partner-reported imports),880381,41864,6,China;Germany;India;Indonesia;USA;United Kingdom
+7506,Canada,2022,imports (partner-reported exports),31790701,799217,8,China;France;Germany;India;Japan;Rep. of Korea;USA;United Kingdom
+7506,Canada,2023,exports (partner-reported imports),601037,10602,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7506,Canada,2023,imports (partner-reported exports),33065659,720398,7,China;France;Germany;Japan;Rep. of Korea;USA;United Kingdom
+7506,Canada,2024,exports (partner-reported imports),846219,9511,5,France;Germany;India;USA;United Kingdom
+7506,Canada,2024,imports (partner-reported exports),27523252,703910,7,China;Germany;India;Italy;Japan;USA;United Kingdom
+7506,Norway,2022,exports (partner-reported imports),2014761,66269,4,China;Indonesia;Rep. of Korea;USA
+7506,Norway,2022,imports (partner-reported exports),749469,14596,6,China;France;Germany;Italy;USA;United Kingdom
+7506,Norway,2023,exports (partner-reported imports),919199,51905,4,France;Germany;Indonesia;Rep. of Korea
+7506,Norway,2023,imports (partner-reported exports),1478149,16599,5,China;Germany;Italy;USA;United Kingdom
+7506,Norway,2024,exports (partner-reported imports),41483,877,4,China;Indonesia;Italy;United Kingdom
+7506,Norway,2024,imports (partner-reported exports),2726676,50796,5,China;Germany;Italy;USA;United Kingdom
+7506,Russian Federation,2022,exports (partner-reported imports),22916227,10328,5,India;Japan;Rep. of Korea;USA;United Kingdom
+7506,Russian Federation,2022,imports (partner-reported exports),8147318,198450,6,China;Germany;India;Italy;USA;United Kingdom
+7506,Russian Federation,2023,exports (partner-reported imports),30919597,78216,5,China;India;Japan;Rep. of Korea;United Kingdom
+7506,Russian Federation,2023,imports (partner-reported exports),15921892,389077,4,China;Germany;India;USA
+7506,Russian Federation,2024,exports (partner-reported imports),18006451,101643,4,China;France;India;Japan
+7506,Russian Federation,2024,imports (partner-reported exports),12650883,310476,3,China;India;USA
+7506,Sweden,2022,exports (partner-reported imports),42220421,2346841,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Sweden,2022,imports (partner-reported exports),32254824,1038388,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Sweden,2023,exports (partner-reported imports),62307262,3296797,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Sweden,2023,imports (partner-reported exports),36045216,1065439,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Sweden,2024,exports (partner-reported imports),100864653,6573806,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7506,Sweden,2024,imports (partner-reported exports),29709023,964642,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7507,Australia,2022,exports (partner-reported imports),448863,9103,6,China;France;India;Indonesia;USA;United Kingdom
+7507,Australia,2022,imports (partner-reported exports),4312669,66361,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7507,Australia,2023,exports (partner-reported imports),1868587,46675,5,France;India;Indonesia;USA;United Kingdom
+7507,Australia,2023,imports (partner-reported exports),3064375,37278,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7507,Australia,2024,exports (partner-reported imports),115509,1576,2,Indonesia;United Kingdom
+7507,Australia,2024,imports (partner-reported exports),4722326,28621,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7507,Austria,2022,exports (partner-reported imports),7026193,166502,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7507,Austria,2022,imports (partner-reported exports),7073253,124501,7,China;France;Germany;India;Italy;USA;United Kingdom
+7507,Austria,2023,exports (partner-reported imports),6851252,67662,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7507,Austria,2023,imports (partner-reported exports),11284701,171216,7,China;France;Germany;India;Italy;USA;United Kingdom
+7507,Austria,2024,exports (partner-reported imports),14519217,150776,9,China;France;Germany;India;Indonesia;Italy;Japan;USA;United Kingdom
+7507,Austria,2024,imports (partner-reported exports),10007292,124237,7,China;France;Germany;Italy;Rep. of Korea;USA;United Kingdom
+7507,Canada,2022,exports (partner-reported imports),36087071,900635,8,China;France;Germany;India;Indonesia;Rep. of Korea;USA;United Kingdom
+7507,Canada,2022,imports (partner-reported exports),53652722,839862,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7507,Canada,2023,exports (partner-reported imports),33032462,948788,9,China;France;Germany;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7507,Canada,2023,imports (partner-reported exports),53341762,897877,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7507,Canada,2024,exports (partner-reported imports),53554693,1454884,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+7507,Canada,2024,imports (partner-reported exports),59303843,978447,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7507,Norway,2022,exports (partner-reported imports),113304,587,5,France;Germany;Italy;USA;United Kingdom
+7507,Norway,2022,imports (partner-reported exports),6389047,190112,7,China;France;Germany;India;Italy;USA;United Kingdom
+7507,Norway,2023,exports (partner-reported imports),191578,1786,5,France;Germany;Italy;USA;United Kingdom
+7507,Norway,2023,imports (partner-reported exports),12173651,230084,7,China;France;Germany;India;Italy;USA;United Kingdom
+7507,Norway,2024,exports (partner-reported imports),2610071,5150,7,China;France;Germany;Indonesia;Italy;USA;United Kingdom
+7507,Norway,2024,imports (partner-reported exports),15081180,208815,6,China;France;Germany;Italy;USA;United Kingdom
+7507,Russian Federation,2022,exports (partner-reported imports),945584,13480,2,China;India
+7507,Russian Federation,2022,imports (partner-reported exports),4725719,146486,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7507,Russian Federation,2023,exports (partner-reported imports),10581,232,2,China;Italy
+7507,Russian Federation,2023,imports (partner-reported exports),12540668,341066,4,China;India;Japan;Rep. of Korea
+7507,Russian Federation,2024,imports (partner-reported exports),3156592,82542,3,China;Germany;India
+7507,Sweden,2022,exports (partner-reported imports),81345753,473975,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7507,Sweden,2022,imports (partner-reported exports),4594642,83079,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7507,Sweden,2023,exports (partner-reported imports),13747406,313010,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7507,Sweden,2023,imports (partner-reported exports),4885088,76280,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7507,Sweden,2024,exports (partner-reported imports),72859887,539255,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7507,Sweden,2024,imports (partner-reported exports),3718333,50459,7,France;Germany;India;Italy;Japan;USA;United Kingdom
+7606,Australia,2022,exports (partner-reported imports),1372743,338004,8,China;France;Germany;India;Indonesia;Rep. of Korea;USA;United Kingdom
+7606,Australia,2022,imports (partner-reported exports),661951791,172714521,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Australia,2023,exports (partner-reported imports),1358105,299080,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Australia,2023,imports (partner-reported exports),488985465,152836004,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Australia,2024,exports (partner-reported imports),2242560,796792,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Australia,2024,imports (partner-reported exports),533648662,163838048,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Austria,2022,exports (partner-reported imports),740716602,139329625,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Austria,2022,imports (partner-reported exports),742202588,165543293,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Austria,2023,exports (partner-reported imports),605695047,115410283,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Austria,2023,imports (partner-reported exports),500360979,119440846,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Austria,2024,exports (partner-reported imports),601821421,118427438,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Austria,2024,imports (partner-reported exports),583859521,152483314,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Canada,2022,exports (partner-reported imports),668371011,151676182,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Canada,2022,imports (partner-reported exports),2007392551,448048833,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Canada,2023,exports (partner-reported imports),566326969,144006369,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Canada,2023,imports (partner-reported exports),1847669221,477772282,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Canada,2024,exports (partner-reported imports),515099015,126746465,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+7606,Canada,2024,imports (partner-reported exports),1730956813,462742922,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Norway,2022,exports (partner-reported imports),181222892,37452134,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Norway,2022,imports (partner-reported exports),45559075,9045928,7,China;France;Germany;India;Italy;USA;United Kingdom
+7606,Norway,2023,exports (partner-reported imports),126909064,30886114,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Norway,2023,imports (partner-reported exports),26022725,5896754,7,China;France;Germany;India;Italy;USA;United Kingdom
+7606,Norway,2024,exports (partner-reported imports),141309221,34976724,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Norway,2024,imports (partner-reported exports),23017707,4953731,7,China;France;Germany;India;Italy;USA;United Kingdom
+7606,Russian Federation,2022,exports (partner-reported imports),162293394,28831197,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Russian Federation,2022,imports (partner-reported exports),44093818,11114143,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Russian Federation,2023,exports (partner-reported imports),49357558,6994277,9,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA
+7606,Russian Federation,2023,imports (partner-reported exports),60497401,18314342,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Russian Federation,2024,exports (partner-reported imports),20253133,4274366,6,China;France;India;Indonesia;Japan;Rep. of Korea
+7606,Russian Federation,2024,imports (partner-reported exports),58803740,17738703,7,China;France;Germany;India;Italy;Rep. of Korea;United Kingdom
+7606,Sweden,2022,exports (partner-reported imports),183393557,36051716,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Sweden,2022,imports (partner-reported exports),191569194,42890780,7,China;France;Germany;India;Italy;USA;United Kingdom
+7606,Sweden,2023,exports (partner-reported imports),164466265,36171738,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Sweden,2023,imports (partner-reported exports),134884110,35831587,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+7606,Sweden,2024,exports (partner-reported imports),155567068,35585276,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+7606,Sweden,2024,imports (partner-reported exports),149435526,38800920,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Australia,2022,exports (partner-reported imports),612895,11814,5,France;Germany;Indonesia;Rep. of Korea;USA
+8101,Australia,2022,imports (partner-reported exports),6093656,45551,6,China;Germany;India;Japan;USA;United Kingdom
+8101,Australia,2023,exports (partner-reported imports),381758,14933,6,France;Germany;Indonesia;Japan;USA;United Kingdom
+8101,Australia,2023,imports (partner-reported exports),5291408,51426,8,China;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Australia,2024,exports (partner-reported imports),850068,34940,8,China;France;Germany;India;Indonesia;Japan;Rep. of Korea;USA
+8101,Australia,2024,imports (partner-reported exports),7215491,63529,8,China;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Austria,2022,exports (partner-reported imports),97117202,2033644,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Austria,2022,imports (partner-reported exports),100731535,3307618,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+8101,Austria,2023,exports (partner-reported imports),82045153,1685704,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Austria,2023,imports (partner-reported exports),78061901,2753144,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Austria,2024,exports (partner-reported imports),88796895,1802192,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Austria,2024,imports (partner-reported exports),86168431,3302847,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Canada,2022,exports (partner-reported imports),32575306,780171,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Canada,2022,imports (partner-reported exports),44561147,1151659,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Canada,2023,exports (partner-reported imports),39054192,970552,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Canada,2023,imports (partner-reported exports),38774528,1094309,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+8101,Canada,2024,exports (partner-reported imports),22520745,662054,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Canada,2024,imports (partner-reported exports),35099377,931383,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Norway,2022,exports (partner-reported imports),358782,20340,2,Germany;USA
+8101,Norway,2022,imports (partner-reported exports),495388,3007,5,China;France;Germany;USA;United Kingdom
+8101,Norway,2023,exports (partner-reported imports),51860,2388,2,Germany;United Kingdom
+8101,Norway,2023,imports (partner-reported exports),575109,4311,5,China;Germany;Italy;USA;United Kingdom
+8101,Norway,2024,exports (partner-reported imports),27400,682,2,Germany;United Kingdom
+8101,Norway,2024,imports (partner-reported exports),564475,3603,5,China;Germany;Italy;USA;United Kingdom
+8101,Russian Federation,2022,exports (partner-reported imports),1129148,36491,4,Germany;Japan;Rep. of Korea;USA
+8101,Russian Federation,2022,imports (partner-reported exports),7878629,165120,6,China;Germany;India;Italy;Japan;USA
+8101,Russian Federation,2023,exports (partner-reported imports),1323577,4790,4,China;India;Japan;Rep. of Korea
+8101,Russian Federation,2023,imports (partner-reported exports),6523631,84669,6,China;Germany;India;Italy;Japan;USA
+8101,Russian Federation,2024,exports (partner-reported imports),1075131,2709,1,China
+8101,Russian Federation,2024,imports (partner-reported exports),9239925,125192,2,China;India
+8101,Sweden,2022,exports (partner-reported imports),2239266,44274,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Sweden,2022,imports (partner-reported exports),7034255,141514,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Sweden,2023,exports (partner-reported imports),2716930,72812,9,China;France;Germany;India;Indonesia;Japan;Rep. of Korea;USA;United Kingdom
+8101,Sweden,2023,imports (partner-reported exports),5915566,106135,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Sweden,2024,exports (partner-reported imports),3439948,123060,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8101,Sweden,2024,imports (partner-reported exports),5792220,119278,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+8105,Australia,2022,exports (partner-reported imports),92800233,1665162,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Australia,2022,imports (partner-reported exports),17155825,334545,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+8105,Australia,2023,exports (partner-reported imports),26675539,728586,7,China;France;Germany;Japan;Rep. of Korea;USA;United Kingdom
+8105,Australia,2023,imports (partner-reported exports),11782461,320353,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Australia,2024,exports (partner-reported imports),23452460,748109,6,China;Germany;Japan;Rep. of Korea;USA;United Kingdom
+8105,Australia,2024,imports (partner-reported exports),12590572,390949,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Austria,2022,exports (partner-reported imports),19951702,309957,8,France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Austria,2022,imports (partner-reported exports),9473288,202110,5,France;Germany;India;Italy;United Kingdom
+8105,Austria,2023,exports (partner-reported imports),16007012,249681,6,France;Germany;Italy;Japan;USA;United Kingdom
+8105,Austria,2023,imports (partner-reported exports),5858235,73953,6,China;France;Germany;Italy;USA;United Kingdom
+8105,Austria,2024,exports (partner-reported imports),16591618,241751,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Austria,2024,imports (partner-reported exports),9881393,202995,6,China;France;Germany;Italy;USA;United Kingdom
+8105,Canada,2022,exports (partner-reported imports),329332323,5462303,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Canada,2022,imports (partner-reported exports),64726614,2993370,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Canada,2023,exports (partner-reported imports),245101296,6425982,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Canada,2023,imports (partner-reported exports),39842124,2062574,7,China;France;Germany;Japan;Rep. of Korea;USA;United Kingdom
+8105,Canada,2024,exports (partner-reported imports),173969696,5243504,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Canada,2024,imports (partner-reported exports),30880141,1702856,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8105,Norway,2022,exports (partner-reported imports),223389707,3344563,7,France;Germany;India;Japan;Rep. of Korea;USA;United Kingdom
+8105,Norway,2022,imports (partner-reported exports),350742,1407,7,China;France;Germany;India;Italy;USA;United Kingdom
+8105,Norway,2023,exports (partner-reported imports),120687049,3222738,7,France;Germany;India;Japan;Rep. of Korea;USA;United Kingdom
+8105,Norway,2023,imports (partner-reported exports),1139232,3614,5,China;France;Germany;USA;United Kingdom
+8105,Norway,2024,exports (partner-reported imports),104648958,3191800,7,France;Germany;India;Indonesia;Japan;USA;United Kingdom
+8105,Norway,2024,imports (partner-reported exports),813021,3386,5,China;France;Germany;USA;United Kingdom
+8105,Russian Federation,2022,exports (partner-reported imports),60934082,1517265,7,China;France;Germany;Japan;Rep. of Korea;USA;United Kingdom
+8105,Russian Federation,2022,imports (partner-reported exports),5857980,100943,7,China;France;Germany;India;Italy;USA;United Kingdom
+8105,Russian Federation,2023,exports (partner-reported imports),65111643,8134567,6,China;Germany;India;Indonesia;Japan;USA
+8105,Russian Federation,2023,imports (partner-reported exports),21068290,536811,4,China;Germany;India;Italy
+8105,Russian Federation,2024,exports (partner-reported imports),27006567,5645545,4,China;France;Germany;USA
+8105,Russian Federation,2024,imports (partner-reported exports),4730106,138937,2,China;Germany
+8105,Sweden,2022,exports (partner-reported imports),1535555,30620,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8105,Sweden,2022,imports (partner-reported exports),5258348,42184,7,France;Germany;India;Italy;Japan;USA;United Kingdom
+8105,Sweden,2023,exports (partner-reported imports),4522080,319718,8,China;France;Germany;India;Italy;Japan;Rep. of Korea;United Kingdom
+8105,Sweden,2023,imports (partner-reported exports),7111472,74150,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+8105,Sweden,2024,exports (partner-reported imports),1369490,13941,7,China;France;Germany;India;Italy;Rep. of Korea;USA
+8105,Sweden,2024,imports (partner-reported exports),7059020,75852,6,China;France;Germany;Italy;USA;United Kingdom
+8108,Australia,2022,exports (partner-reported imports),1704507,55225,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+8108,Australia,2022,imports (partner-reported exports),50616202,276847,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Australia,2023,exports (partner-reported imports),2712094,81233,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Australia,2023,imports (partner-reported exports),26082526,326067,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Australia,2024,exports (partner-reported imports),2035510,92088,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+8108,Australia,2024,imports (partner-reported exports),26181379,395095,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Austria,2022,exports (partner-reported imports),18785654,508514,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Austria,2022,imports (partner-reported exports),70364276,2335103,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Austria,2023,exports (partner-reported imports),18724757,540892,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Austria,2023,imports (partner-reported exports),92603786,2794335,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Austria,2024,exports (partner-reported imports),27877382,712752,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Austria,2024,imports (partner-reported exports),91908154,2705018,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Canada,2022,exports (partner-reported imports),71148021,2863308,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Canada,2022,imports (partner-reported exports),174023591,5813758,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Canada,2023,exports (partner-reported imports),82220956,3628989,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Canada,2023,imports (partner-reported exports),188456510,6379903,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Canada,2024,exports (partner-reported imports),85190649,3475242,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Canada,2024,imports (partner-reported exports),217460443,6521336,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Norway,2022,exports (partner-reported imports),2165235,118079,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8108,Norway,2022,imports (partner-reported exports),14893070,338961,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Norway,2023,exports (partner-reported imports),4937529,112284,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8108,Norway,2023,imports (partner-reported exports),18221518,386633,7,China;France;Germany;Italy;Rep. of Korea;USA;United Kingdom
+8108,Norway,2024,exports (partner-reported imports),2542331,70121,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+8108,Norway,2024,imports (partner-reported exports),24945916,582131,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Russian Federation,2022,exports (partner-reported imports),607017636,19912982,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Russian Federation,2022,imports (partner-reported exports),22600166,1115756,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Russian Federation,2023,exports (partner-reported imports),777822246,23989064,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Russian Federation,2023,imports (partner-reported exports),54619665,3872335,8,China;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Russian Federation,2024,exports (partner-reported imports),715413447,20759229,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Russian Federation,2024,imports (partner-reported exports),37586882,1823015,4,China;Germany;India;United Kingdom
+8108,Sweden,2022,exports (partner-reported imports),23638947,1272329,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Sweden,2022,imports (partner-reported exports),99489327,3167608,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Sweden,2023,exports (partner-reported imports),23288357,804490,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Sweden,2023,imports (partner-reported exports),107519896,2840135,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Sweden,2024,exports (partner-reported imports),22814711,814043,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8108,Sweden,2024,imports (partner-reported exports),104850008,2135652,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8109,Australia,2022,exports (partner-reported imports),6479,28,2,Rep. of Korea;USA
+8109,Australia,2022,imports (partner-reported exports),364167,3164,6,China;Germany;India;Japan;USA;United Kingdom
+8109,Australia,2023,exports (partner-reported imports),32418,89,3,Germany;Rep. of Korea;USA
+8109,Australia,2023,imports (partner-reported exports),4666056,50169,6,China;Germany;India;Rep. of Korea;USA;United Kingdom
+8109,Australia,2024,exports (partner-reported imports),67048,26026,3,Germany;USA;United Kingdom
+8109,Australia,2024,imports (partner-reported exports),214949,3354,7,China;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8109,Austria,2022,exports (partner-reported imports),51295,1079,4,Germany;India;USA;United Kingdom
+8109,Austria,2022,imports (partner-reported exports),472643,6437,3,Germany;Japan;USA
+8109,Austria,2023,exports (partner-reported imports),19904,50,2,France;Germany
+8109,Austria,2023,imports (partner-reported exports),1349177,18575,2,Germany;USA
+8109,Austria,2024,exports (partner-reported imports),63440,836,4,France;Germany;USA;United Kingdom
+8109,Austria,2024,imports (partner-reported exports),1526336,6686,2,China;Germany
+8109,Canada,2022,exports (partner-reported imports),2231493,128055,7,China;France;Germany;Indonesia;Rep. of Korea;USA;United Kingdom
+8109,Canada,2022,imports (partner-reported exports),42665735,419623,4,China;Rep. of Korea;USA;United Kingdom
+8109,Canada,2023,exports (partner-reported imports),4187951,82030,5,Germany;Japan;Rep. of Korea;USA;United Kingdom
+8109,Canada,2023,imports (partner-reported exports),40146043,245904,4,China;Germany;Rep. of Korea;USA
+8109,Canada,2024,exports (partner-reported imports),3770112,74213,6,China;France;Germany;Japan;Rep. of Korea;USA
+8109,Canada,2024,imports (partner-reported exports),48691679,355497,4,China;Germany;USA;United Kingdom
+8109,Norway,2022,imports (partner-reported exports),150085,2096,3,Germany;Italy;USA
+8109,Norway,2023,imports (partner-reported exports),189164,7045,2,Germany;USA
+8109,Norway,2024,imports (partner-reported exports),95906,1250,2,Germany;USA
+8109,Russian Federation,2022,exports (partner-reported imports),1227366,21433,5,France;Germany;Rep. of Korea;USA;United Kingdom
+8109,Russian Federation,2022,imports (partner-reported exports),7434302,113043,2,China;USA
+8109,Russian Federation,2023,exports (partner-reported imports),649346,1719,3,France;Germany;Rep. of Korea
+8109,Russian Federation,2023,imports (partner-reported exports),4828043,72404,1,China
+8109,Russian Federation,2024,exports (partner-reported imports),1340380,1897,3,China;Germany;Rep. of Korea
+8109,Russian Federation,2024,imports (partner-reported exports),26669556,342148,1,China
+8109,Sweden,2022,exports (partner-reported imports),4356559,69048,7,China;France;Germany;Japan;Rep. of Korea;USA;United Kingdom
+8109,Sweden,2022,imports (partner-reported exports),17130666,276311,6,China;Germany;India;Italy;Rep. of Korea;USA
+8109,Sweden,2023,exports (partner-reported imports),13235322,160071,7,China;France;Germany;Japan;Rep. of Korea;USA;United Kingdom
+8109,Sweden,2023,imports (partner-reported exports),18571214,308771,5,China;Germany;Rep. of Korea;USA;United Kingdom
+8109,Sweden,2024,exports (partner-reported imports),10791656,95539,6,Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8109,Sweden,2024,imports (partner-reported exports),24358181,367622,5,China;Germany;Rep. of Korea;USA;United Kingdom
+8311,Australia,2022,exports (partner-reported imports),564556,46537,8,China;France;Germany;India;Indonesia;Japan;Rep. of Korea;USA
+8311,Australia,2022,imports (partner-reported exports),30760354,6839907,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Australia,2023,exports (partner-reported imports),691996,71749,7,China;France;India;Indonesia;Rep. of Korea;USA;United Kingdom
+8311,Australia,2023,imports (partner-reported exports),27943875,6681892,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Australia,2024,exports (partner-reported imports),793475,52897,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+8311,Australia,2024,imports (partner-reported exports),26095651,7192588,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Austria,2022,exports (partner-reported imports),44059270,8247013,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Austria,2022,imports (partner-reported exports),13320073,2025757,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+8311,Austria,2023,exports (partner-reported imports),54500388,7845933,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Austria,2023,imports (partner-reported exports),10598987,1969669,8,China;France;Germany;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+8311,Austria,2024,exports (partner-reported imports),51764009,7497324,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Austria,2024,imports (partner-reported exports),9179210,1037438,9,China;France;Germany;India;Indonesia;Italy;Rep. of Korea;USA;United Kingdom
+8311,Canada,2022,exports (partner-reported imports),34627564,6512593,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Canada,2022,imports (partner-reported exports),127044711,20934342,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Canada,2023,exports (partner-reported imports),37954829,7287245,9,China;France;Germany;India;Indonesia;Japan;Rep. of Korea;USA;United Kingdom
+8311,Canada,2023,imports (partner-reported exports),125382019,20658769,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Canada,2024,exports (partner-reported imports),43792692,8288331,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Canada,2024,imports (partner-reported exports),121995495,20027123,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Norway,2022,exports (partner-reported imports),135539,37812,7,China;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8311,Norway,2022,imports (partner-reported exports),14546083,5089728,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Norway,2023,exports (partner-reported imports),192347,35777,8,China;France;Germany;India;Indonesia;Rep. of Korea;USA;United Kingdom
+8311,Norway,2023,imports (partner-reported exports),13034839,3763011,9,China;France;Germany;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Norway,2024,exports (partner-reported imports),71554,3938,6,China;France;Germany;India;USA;United Kingdom
+8311,Norway,2024,imports (partner-reported exports),15557113,4395477,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Russian Federation,2022,exports (partner-reported imports),5421945,220964,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8311,Russian Federation,2022,imports (partner-reported exports),72636664,27627738,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Russian Federation,2023,exports (partner-reported imports),2798176,172509,4,China;Germany;India;Rep. of Korea
+8311,Russian Federation,2023,imports (partner-reported exports),77621678,28806491,8,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA
+8311,Russian Federation,2024,exports (partner-reported imports),172498,5743,3,China;India;Rep. of Korea
+8311,Russian Federation,2024,imports (partner-reported exports),62375657,25262158,7,China;Germany;India;Indonesia;Italy;Japan;Rep. of Korea
+8311,Sweden,2022,exports (partner-reported imports),38960920,2469854,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Sweden,2022,imports (partner-reported exports),8907114,1108599,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Sweden,2023,exports (partner-reported imports),57785855,3294332,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Sweden,2023,imports (partner-reported exports),8084041,882400,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Sweden,2024,exports (partner-reported imports),60694935,4292149,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8311,Sweden,2024,imports (partner-reported exports),9297906,961765,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Australia,2022,exports (partner-reported imports),27316885,106156,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Australia,2022,imports (partner-reported exports),525682095,2546725,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Australia,2023,exports (partner-reported imports),33773446,101410,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Australia,2023,imports (partner-reported exports),653329493,3141891,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Australia,2024,exports (partner-reported imports),28593668,102586,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Australia,2024,imports (partner-reported exports),659748421,1357235,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Austria,2022,exports (partner-reported imports),132638621,3644010,9,China;France;Germany;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Austria,2022,imports (partner-reported exports),145772581,1283158,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+8411,Austria,2023,exports (partner-reported imports),142101061,4164425,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Austria,2023,imports (partner-reported exports),90252786,1121586,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Austria,2024,exports (partner-reported imports),143201052,3332517,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Austria,2024,imports (partner-reported exports),98946151,1008571,7,China;France;Germany;India;Italy;USA;United Kingdom
+8411,Canada,2022,exports (partner-reported imports),6423320308,4746622,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Canada,2022,imports (partner-reported exports),1833601349,4258406,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Canada,2023,exports (partner-reported imports),8132941116,5684432,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Canada,2023,imports (partner-reported exports),2135307605,2806668,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Canada,2024,exports (partner-reported imports),8110430040,5343445,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Canada,2024,imports (partner-reported exports),3148640125,4453417,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Norway,2022,exports (partner-reported imports),140037927,52422,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Norway,2022,imports (partner-reported exports),294569812,309992,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8411,Norway,2023,exports (partner-reported imports),128525593,52924,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Norway,2023,imports (partner-reported exports),446643912,471787,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+8411,Norway,2024,exports (partner-reported imports),147114145,107162,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8411,Norway,2024,imports (partner-reported exports),662105770,486964,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Russian Federation,2022,exports (partner-reported imports),116377990,279539,8,China;France;Germany;India;Italy;Rep. of Korea;USA;United Kingdom
+8411,Russian Federation,2022,imports (partner-reported exports),269755353,2121646,9,China;France;Germany;India;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Russian Federation,2023,exports (partner-reported imports),151208204,159374,7,China;France;Germany;India;Rep. of Korea;USA;United Kingdom
+8411,Russian Federation,2023,imports (partner-reported exports),209761204,236577,6,China;India;Italy;Japan;Rep. of Korea;USA
+8411,Russian Federation,2024,exports (partner-reported imports),194224778,164743,7,China;France;Germany;India;Rep. of Korea;USA;United Kingdom
+8411,Russian Federation,2024,imports (partner-reported exports),277243601,863849,5,China;India;Italy;Japan;Rep. of Korea
+8411,Sweden,2022,exports (partner-reported imports),655420087,1216506,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Sweden,2022,imports (partner-reported exports),299722369,855196,8,China;France;Germany;India;Italy;Japan;USA;United Kingdom
+8411,Sweden,2023,exports (partner-reported imports),911303632,2171179,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Sweden,2023,imports (partner-reported exports),358313316,1085758,8,China;France;Germany;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Sweden,2024,exports (partner-reported imports),1058389671,3543713,10,China;France;Germany;India;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom
+8411,Sweden,2024,imports (partner-reported exports),362389043,953376,9,China;France;Germany;Indonesia;Italy;Japan;Rep. of Korea;USA;United Kingdom

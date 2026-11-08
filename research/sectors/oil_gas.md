@@ -223,6 +223,17 @@ VDM Metals oil and gas brochure, undated, retrieved in 2026. Application benchma
 | NACE / ISO 15156 sour service context | used | ANSI/NACE MR0175-2021/ISO 15156:2020, https://webstore.ansi.org/standards/nace/ANSINACEMR01752021ISO151562020, plus the VDM brochure listing of that standard. Environmental limit tables were not taken from secondary alloy shops. |
 | OECD STAN (B, C19) | blocked | data/clean/oecd_stan_P1.csv and data/clean/oecd_stan_B1G.csv contain only C20 and C24 to C30. Activities B and C19 are absent. tools/data/fetch.py was not run, as instructed. |
 
+
+## Update 8 November 2026: new structured datasets
+
+IEA World Energy Investment 2026 data file (data/clean/iea_wei2026_by_region.csv, USD bn, 2025 money).
+
+1. World upstream oil and gas investment 625 in 2019, 542 in 2025 and 546 in 2026 [IEA_WEI_UPSTREAM_REGION_2026].
+2. Regions, 2019 / 2025 / 2026: North America 219 / 174 / 165, Middle East 75 / 94 / 93, Asia Pacific 101 / 88 / 91, Central and South America 42 / 62 / 68, Eurasia 93 / 47 / 47, Africa 50 / 37 / 42, Europe 45 / 41 / 40.
+3. The Middle East is the only large region where upstream spend is above 2019, and its gas investment roughly doubled from USD 22.9 bn in 2019 to USD 45.4 bn in 2026 [IEA_WEI_ME_GAS_2026]. This confirms the round 3 industry review: the Middle East (Jafurah, North Field, ADNOC sour gas) is the largest sour gas CRA market and has to lead the geography in 5.2, with Central and South America (Brazil pre salt, Guyana) as the fastest grower and Africa recovering from a low base. North America is the largest region but falling.
+4. Buying route. Even where fields are in the Middle East and South America, CRA is specified through operators and bought by EPC contractors and subsea majors (TechnipFMC, SLB, Saipem) and clad pipe makers (BUTTING), often with in country value rules (Saudi IKTVA). The implication for suppliers is approved vendor lists, not field geography.
+
+
 ## Open gaps
 
 TODO(data): OECD STAN output and value added for ISIC B and C19. The clean files do not contain them.

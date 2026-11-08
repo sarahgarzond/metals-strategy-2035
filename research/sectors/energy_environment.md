@@ -208,6 +208,17 @@ Acerinox group, one peer. Haynes International has been part of the Acerinox hig
 | GWEC wind report, Global Wind Report 2026 | used | GWEC news release and the Global Wind Report 2026 PDF: 165 GW new in 2025, 1,299 GW cumulative, 969 GW forecast for 2026 to 2030. https://www.gwec.net/news/global-wind-installations-rise-record-40-as-industry-charts-way-out-of-energy-crisis https://26973329.fs1.hubspotusercontent-eu1.net/hubfs/26973329/2.%20Reports/Global%20Wind%20Report/Global%20Wind%20Report%202026.pdf |
 | OECD STAN (C27, C28, D35) | used | data/clean/oecd_stan_P1.csv and data/clean/oecd_stan_B1G.csv. C27 and C28 output in current prices for Germany, the United States, France, Japan, Korea, Italy and the United Kingdom. D35 is not in either file. China is not in the extract. EE_STAN_DEU_C27_2023 |
 
+
+## Update 8 November 2026: new structured datasets
+
+1. IEA Hydrogen Production Projects Database, June 2026 (data/clean/iea_h2_electrolysis_projects_june2026.csv, team calculation summing capacity in MWel).
+   Electrolysis capacity: operational 4,348 MW in 360 projects, at FID or under construction 19,272 MW in 193 projects, concept or feasibility 858,453 MW, cancelled or dormant 153,928 MW [IEA_H2DB_ELECTROLYSIS_STATUS_2026]. Only about 2 percent of the announced pipeline has reached FID, which quantifies the gap between announcements and orders.
+   Technology: alkaline holds 11,563 MW, or 60 percent, of capacity at FID or construction, PEM 2,884 MW, and solid oxide only 5 MW in operation [IEA_H2DB_ALK_SHARE_2026]. Alkaline stacks use nickel electrodes and nickel plated or nickel mesh parts, so the bankable nickel strip and mesh demand is tied to about 11.6 GW of committed alkaline capacity, mostly in China (9,080 MW of all FID capacity), Saudi Arabia (2,200 MW, NEOM), India (1,757 MW), Sweden (1,240 MW, Stegra) and Germany (1,136 MW).
+   This resolves part of an open gap: the alkaline share is now measured. Still open: kg of nickel per MW.
+2. IEA World Energy Investment 2026 data file (data/clean/iea_wei2026_by_region.csv). Investment in unabated gas and oil fired generation rose from USD 64 bn in 2019 to USD 112 bn in 2025 and USD 114 bn in 2026, nuclear reached USD 82.9 bn in 2025 and electricity networks USD 448 bn in 2025 and USD 541 bn in 2026 [IEA_WEI_GASPOWER_2025]. The near doubling of gas power investment is the macro counterpart of the Siemens Energy order book.
+3. IEA Energy and AI: data centre electricity about 945 TWh in 2030, more than double 2024 [EE_IEA_DATACENTRE_TWH_2030], the driver behind gas turbine orders for data centres.
+
+
 ## Open gaps
 
 TODO(data): OECD STAN D35 (electricity, gas, steam and air conditioning supply) is not in data/clean/oecd_stan_P1.csv or data/clean/oecd_stan_B1G.csv. Activities present are C20 and C24 to C30 only. China is not in the extract. No volume or purchasing power series was available, so nominal output cannot be read as equipment growth.

@@ -1,0 +1,925 @@
+region,item,year,usd_bn_2025
+World,"Total Billion USD (2025, MER)",2015,2654
+World,"Total Billion USD (2025, MER)",2016,2445
+World,"Total Billion USD (2025, MER)",2017,2408
+World,"Total Billion USD (2025, MER)",2018,2386
+World,"Total Billion USD (2025, MER)",2019,2384
+World,"Total Billion USD (2025, MER)",2020,2279
+World,"Total Billion USD (2025, MER)",2021,2421
+World,"Total Billion USD (2025, MER)",2022,2708
+World,"Total Billion USD (2025, MER)",2023,2988
+World,"Total Billion USD (2025, MER)",2024,3131
+World,"Total Billion USD (2025, MER)",2025,3261
+World,"Total Billion USD (2025, MER)",2026,3422
+World,Oil,2015,759
+World,Oil,2016,595
+World,Oil,2017,600
+World,Oil,2018,625
+World,Oil,2019,602
+World,Oil,2020,472
+World,Oil,2021,517
+World,Oil,2022,539
+World,Oil,2023,580
+World,Oil,2024,545
+World,Oil,2025,510
+World,Oil,2026,496
+World,Gas,2015,395
+World,Gas,2016,329
+World,Gas,2017,306
+World,Gas,2018,299
+World,Gas,2019,283
+World,Gas,2020,245
+World,Gas,2021,254
+World,Gas,2022,276
+World,Gas,2023,296
+World,Gas,2024,300
+World,Gas,2025,300
+World,Gas,2026,331
+World,Oil and natural gas (unabated),2015,98.5
+World,Oil and natural gas (unabated),2016,100
+World,Oil and natural gas (unabated),2017,92.3
+World,Oil and natural gas (unabated),2018,76.1
+World,Oil and natural gas (unabated),2019,64
+World,Oil and natural gas (unabated),2020,59.5
+World,Oil and natural gas (unabated),2021,65
+World,Oil and natural gas (unabated),2022,70.8
+World,Oil and natural gas (unabated),2023,75.6
+World,Oil and natural gas (unabated),2024,87.4
+World,Oil and natural gas (unabated),2025,112
+World,Oil and natural gas (unabated),2026,114
+World,Nuclear,2015,46.8
+World,Nuclear,2016,44
+World,Nuclear,2017,38.3
+World,Nuclear,2018,37.2
+World,Nuclear,2019,40.6
+World,Nuclear,2020,47.4
+World,Nuclear,2021,60.8
+World,Nuclear,2022,69
+World,Nuclear,2023,70.9
+World,Nuclear,2024,77.4
+World,Nuclear,2025,82.9
+World,Nuclear,2026,82.8
+World,Electricity networks,2015,314
+World,Electricity networks,2016,322
+World,Electricity networks,2017,308
+World,Electricity networks,2018,296
+World,Electricity networks,2019,293
+World,Electricity networks,2020,296
+World,Electricity networks,2021,314
+World,Electricity networks,2022,322
+World,Electricity networks,2023,353
+World,Electricity networks,2024,403
+World,Electricity networks,2025,448
+World,Electricity networks,2026,541
+World,Memo: Oil & gas upstream,2015,854
+World,Memo: Oil & gas upstream,2016,609
+World,Memo: Oil & gas upstream,2017,590
+World,Memo: Oil & gas upstream,2018,635
+World,Memo: Oil & gas upstream,2019,625
+World,Memo: Oil & gas upstream,2020,459
+World,Memo: Oil & gas upstream,2021,477
+World,Memo: Oil & gas upstream,2022,521
+World,Memo: Oil & gas upstream,2023,583
+World,Memo: Oil & gas upstream,2024,574
+World,Memo: Oil & gas upstream,2025,542
+World,Memo: Oil & gas upstream,2026,546
+Advanced economies,"Total Billion USD (2025, MER)",2015,1211
+Advanced economies,"Total Billion USD (2025, MER)",2016,1054
+Advanced economies,"Total Billion USD (2025, MER)",2017,1063
+Advanced economies,"Total Billion USD (2025, MER)",2018,1096
+Advanced economies,"Total Billion USD (2025, MER)",2019,1079
+Advanced economies,"Total Billion USD (2025, MER)",2020,1010
+Advanced economies,"Total Billion USD (2025, MER)",2021,1117
+Advanced economies,"Total Billion USD (2025, MER)",2022,1243
+Advanced economies,"Total Billion USD (2025, MER)",2023,1338
+Advanced economies,"Total Billion USD (2025, MER)",2024,1373
+Advanced economies,"Total Billion USD (2025, MER)",2025,1426
+Advanced economies,"Total Billion USD (2025, MER)",2026,1514
+Advanced economies,Oil,2015,329
+Advanced economies,Oil,2016,232
+Advanced economies,Oil,2017,255
+Advanced economies,Oil,2018,272
+Advanced economies,Oil,2019,247
+Advanced economies,Oil,2020,167
+Advanced economies,Oil,2021,193
+Advanced economies,Oil,2022,227
+Advanced economies,Oil,2023,243
+Advanced economies,Oil,2024,223
+Advanced economies,Oil,2025,193
+Advanced economies,Oil,2026,178
+Advanced economies,Gas,2015,199
+Advanced economies,Gas,2016,151
+Advanced economies,Gas,2017,142
+Advanced economies,Gas,2018,138
+Advanced economies,Gas,2019,123
+Advanced economies,Gas,2020,100
+Advanced economies,Gas,2021,106
+Advanced economies,Gas,2022,123
+Advanced economies,Gas,2023,135
+Advanced economies,Gas,2024,133
+Advanced economies,Gas,2025,127
+Advanced economies,Gas,2026,135
+Advanced economies,Oil and natural gas (unabated),2015,41.6
+Advanced economies,Oil and natural gas (unabated),2016,41.2
+Advanced economies,Oil and natural gas (unabated),2017,35.3
+Advanced economies,Oil and natural gas (unabated),2018,27.5
+Advanced economies,Oil and natural gas (unabated),2019,21.9
+Advanced economies,Oil and natural gas (unabated),2020,24.9
+Advanced economies,Oil and natural gas (unabated),2021,24.8
+Advanced economies,Oil and natural gas (unabated),2022,25.9
+Advanced economies,Oil and natural gas (unabated),2023,26.8
+Advanced economies,Oil and natural gas (unabated),2024,29.8
+Advanced economies,Oil and natural gas (unabated),2025,48.7
+Advanced economies,Oil and natural gas (unabated),2026,66.3
+Advanced economies,Nuclear,2015,22.4
+Advanced economies,Nuclear,2016,20.8
+Advanced economies,Nuclear,2017,17.4
+Advanced economies,Nuclear,2018,16.1
+Advanced economies,Nuclear,2019,17.1
+Advanced economies,Nuclear,2020,20.8
+Advanced economies,Nuclear,2021,30.9
+Advanced economies,Nuclear,2022,36.3
+Advanced economies,Nuclear,2023,33.5
+Advanced economies,Nuclear,2024,32.9
+Advanced economies,Nuclear,2025,31.9
+Advanced economies,Nuclear,2026,27.2
+Advanced economies,Electricity networks,2015,134
+Advanced economies,Electricity networks,2016,136
+Advanced economies,Electricity networks,2017,139
+Advanced economies,Electricity networks,2018,144
+Advanced economies,Electricity networks,2019,153
+Advanced economies,Electricity networks,2020,162
+Advanced economies,Electricity networks,2021,179
+Advanced economies,Electricity networks,2022,184
+Advanced economies,Electricity networks,2023,204
+Advanced economies,Electricity networks,2024,234
+Advanced economies,Electricity networks,2025,266
+Advanced economies,Electricity networks,2026,306
+Advanced economies,Memo: Oil & gas upstream,2015,392
+Advanced economies,Memo: Oil & gas upstream,2016,239
+Advanced economies,Memo: Oil & gas upstream,2017,254
+Advanced economies,Memo: Oil & gas upstream,2018,289
+Advanced economies,Memo: Oil & gas upstream,2019,278
+Advanced economies,Memo: Oil & gas upstream,2020,182
+Advanced economies,Memo: Oil & gas upstream,2021,194
+Advanced economies,Memo: Oil & gas upstream,2022,238
+Advanced economies,Memo: Oil & gas upstream,2023,268
+Advanced economies,Memo: Oil & gas upstream,2024,250
+Advanced economies,Memo: Oil & gas upstream,2025,226
+Advanced economies,Memo: Oil & gas upstream,2026,216
+China,"Total Billion USD (2025, MER)",2015,532
+China,"Total Billion USD (2025, MER)",2016,550
+China,"Total Billion USD (2025, MER)",2017,556
+China,"Total Billion USD (2025, MER)",2018,536
+China,"Total Billion USD (2025, MER)",2019,568
+China,"Total Billion USD (2025, MER)",2020,580
+China,"Total Billion USD (2025, MER)",2021,567
+China,"Total Billion USD (2025, MER)",2022,697
+China,"Total Billion USD (2025, MER)",2023,824
+China,"Total Billion USD (2025, MER)",2024,883
+China,"Total Billion USD (2025, MER)",2025,901
+China,"Total Billion USD (2025, MER)",2026,944
+China,Oil,2015,56
+China,Oil,2016,47.3
+China,Oil,2017,54.8
+China,Oil,2018,64.1
+China,Oil,2019,71.4
+China,Oil,2020,58.7
+China,Oil,2021,64
+China,Oil,2022,58.6
+China,Oil,2023,66.8
+China,Oil,2024,56.8
+China,Oil,2025,53.1
+China,Oil,2026,46.5
+China,Gas,2015,21.2
+China,Gas,2016,19.9
+China,Gas,2017,21
+China,Gas,2018,25
+China,Gas,2019,25.7
+China,Gas,2020,26.4
+China,Gas,2021,28.3
+China,Gas,2022,35.7
+China,Gas,2023,37.1
+China,Gas,2024,30.8
+China,Gas,2025,29.1
+China,Gas,2026,36.3
+China,Oil and natural gas (unabated),2015,8.72
+China,Oil and natural gas (unabated),2016,9.62
+China,Oil and natural gas (unabated),2017,10.7
+China,Oil and natural gas (unabated),2018,10.6
+China,Oil and natural gas (unabated),2019,9.41
+China,Oil and natural gas (unabated),2020,9.05
+China,Oil and natural gas (unabated),2021,10.3
+China,Oil and natural gas (unabated),2022,11.9
+China,Oil and natural gas (unabated),2023,11.9
+China,Oil and natural gas (unabated),2024,12.4
+China,Oil and natural gas (unabated),2025,13.6
+China,Oil and natural gas (unabated),2026,7.95
+China,Nuclear,2015,14.1
+China,Nuclear,2016,12.9
+China,Nuclear,2017,10.6
+China,Nuclear,2018,8.13
+China,Nuclear,2019,7.14
+China,Nuclear,2020,7.99
+China,Nuclear,2021,9.35
+China,Nuclear,2022,11.4
+China,Nuclear,2023,14.9
+China,Nuclear,2024,20.3
+China,Nuclear,2025,25.6
+China,Nuclear,2026,29.5
+China,Electricity networks,2015,76.1
+China,Electricity networks,2016,88.3
+China,Electricity networks,2017,80.4
+China,Electricity networks,2018,76.7
+China,Electricity networks,2019,74.8
+China,Electricity networks,2020,70.8
+China,Electricity networks,2021,67.9
+China,Electricity networks,2022,68.2
+China,Electricity networks,2023,70.7
+China,Electricity networks,2024,82.2
+China,Electricity networks,2025,88.9
+China,Electricity networks,2026,140
+China,Memo: Oil & gas upstream,2015,53.9
+China,Memo: Oil & gas upstream,2016,38.9
+China,Memo: Oil & gas upstream,2017,42.3
+China,Memo: Oil & gas upstream,2018,50
+China,Memo: Oil & gas upstream,2019,60
+China,Memo: Oil & gas upstream,2020,53.1
+China,Memo: Oil & gas upstream,2021,56.2
+China,Memo: Oil & gas upstream,2022,56.1
+China,Memo: Oil & gas upstream,2023,59.6
+China,Memo: Oil & gas upstream,2024,55.6
+China,Memo: Oil & gas upstream,2025,50.6
+China,Memo: Oil & gas upstream,2026,51.6
+EMDE,"Total Billion USD (2025, MER)",2015,1414
+EMDE,"Total Billion USD (2025, MER)",2016,1358
+EMDE,"Total Billion USD (2025, MER)",2017,1314
+EMDE,"Total Billion USD (2025, MER)",2018,1259
+EMDE,"Total Billion USD (2025, MER)",2019,1276
+EMDE,"Total Billion USD (2025, MER)",2020,1240
+EMDE,"Total Billion USD (2025, MER)",2021,1276
+EMDE,"Total Billion USD (2025, MER)",2022,1435
+EMDE,"Total Billion USD (2025, MER)",2023,1619
+EMDE,"Total Billion USD (2025, MER)",2024,1726
+EMDE,"Total Billion USD (2025, MER)",2025,1795
+EMDE,"Total Billion USD (2025, MER)",2026,1872
+EMDE,Oil,2015,414
+EMDE,Oil,2016,346
+EMDE,Oil,2017,329
+EMDE,Oil,2018,337
+EMDE,Oil,2019,339
+EMDE,Oil,2020,289
+EMDE,Oil,2021,310
+EMDE,Oil,2022,298
+EMDE,Oil,2023,322
+EMDE,Oil,2024,306
+EMDE,Oil,2025,302
+EMDE,Oil,2026,306
+EMDE,Gas,2015,188
+EMDE,Gas,2016,169
+EMDE,Gas,2017,154
+EMDE,Gas,2018,153
+EMDE,Gas,2019,153
+EMDE,Gas,2020,137
+EMDE,Gas,2021,140
+EMDE,Gas,2022,144
+EMDE,Gas,2023,153
+EMDE,Gas,2024,158
+EMDE,Gas,2025,165
+EMDE,Gas,2026,189
+EMDE,Oil and natural gas (unabated),2015,56.9
+EMDE,Oil and natural gas (unabated),2016,59.1
+EMDE,Oil and natural gas (unabated),2017,57
+EMDE,Oil and natural gas (unabated),2018,48.6
+EMDE,Oil and natural gas (unabated),2019,42
+EMDE,Oil and natural gas (unabated),2020,34.6
+EMDE,Oil and natural gas (unabated),2021,40.2
+EMDE,Oil and natural gas (unabated),2022,44.8
+EMDE,Oil and natural gas (unabated),2023,48.8
+EMDE,Oil and natural gas (unabated),2024,57.6
+EMDE,Oil and natural gas (unabated),2025,63.7
+EMDE,Oil and natural gas (unabated),2026,47.5
+EMDE,Nuclear,2015,24.4
+EMDE,Nuclear,2016,23.1
+EMDE,Nuclear,2017,21
+EMDE,Nuclear,2018,21
+EMDE,Nuclear,2019,23.6
+EMDE,Nuclear,2020,26.6
+EMDE,Nuclear,2021,29.9
+EMDE,Nuclear,2022,32.8
+EMDE,Nuclear,2023,37.4
+EMDE,Nuclear,2024,44.5
+EMDE,Nuclear,2025,51
+EMDE,Nuclear,2026,55.7
+EMDE,Electricity networks,2015,180
+EMDE,Electricity networks,2016,187
+EMDE,Electricity networks,2017,169
+EMDE,Electricity networks,2018,152
+EMDE,Electricity networks,2019,140
+EMDE,Electricity networks,2020,134
+EMDE,Electricity networks,2021,135
+EMDE,Electricity networks,2022,138
+EMDE,Electricity networks,2023,149
+EMDE,Electricity networks,2024,169
+EMDE,Electricity networks,2025,182
+EMDE,Electricity networks,2026,236
+EMDE,Memo: Oil & gas upstream,2015,463
+EMDE,Memo: Oil & gas upstream,2016,370
+EMDE,Memo: Oil & gas upstream,2017,337
+EMDE,Memo: Oil & gas upstream,2018,346
+EMDE,Memo: Oil & gas upstream,2019,347
+EMDE,Memo: Oil & gas upstream,2020,277
+EMDE,Memo: Oil & gas upstream,2021,283
+EMDE,Memo: Oil & gas upstream,2022,283
+EMDE,Memo: Oil & gas upstream,2023,315
+EMDE,Memo: Oil & gas upstream,2024,324
+EMDE,Memo: Oil & gas upstream,2025,316
+EMDE,Memo: Oil & gas upstream,2026,330
+North America,"Total Billion USD (2025, MER)",2015,640
+North America,"Total Billion USD (2025, MER)",2016,537
+North America,"Total Billion USD (2025, MER)",2017,557
+North America,"Total Billion USD (2025, MER)",2018,586
+North America,"Total Billion USD (2025, MER)",2019,568
+North America,"Total Billion USD (2025, MER)",2020,477
+North America,"Total Billion USD (2025, MER)",2021,524
+North America,"Total Billion USD (2025, MER)",2022,614
+North America,"Total Billion USD (2025, MER)",2023,669
+North America,"Total Billion USD (2025, MER)",2024,674
+North America,"Total Billion USD (2025, MER)",2025,673
+North America,"Total Billion USD (2025, MER)",2026,710
+North America,Oil,2015,254
+North America,Oil,2016,176
+North America,Oil,2017,203
+North America,Oil,2018,222
+North America,Oil,2019,202
+North America,Oil,2020,132
+North America,Oil,2021,154
+North America,Oil,2022,188
+North America,Oil,2023,205
+North America,Oil,2024,187
+North America,Oil,2025,158
+North America,Oil,2026,144
+North America,Gas,2015,97.3
+North America,Gas,2016,80.2
+North America,Gas,2017,85.4
+North America,Gas,2018,88.8
+North America,Gas,2019,80.3
+North America,Gas,2020,62.7
+North America,Gas,2021,67.4
+North America,Gas,2022,83.5
+North America,Gas,2023,88
+North America,Gas,2024,80.9
+North America,Gas,2025,71.5
+North America,Gas,2026,91.4
+North America,Oil and natural gas (unabated),2015,22.2
+North America,Oil and natural gas (unabated),2016,23.6
+North America,Oil and natural gas (unabated),2017,20.7
+North America,Oil and natural gas (unabated),2018,16
+North America,Oil and natural gas (unabated),2019,12.2
+North America,Oil and natural gas (unabated),2020,12
+North America,Oil and natural gas (unabated),2021,10.6
+North America,Oil and natural gas (unabated),2022,11.6
+North America,Oil and natural gas (unabated),2023,11.5
+North America,Oil and natural gas (unabated),2024,15.6
+North America,Oil and natural gas (unabated),2025,32.1
+North America,Oil and natural gas (unabated),2026,50.9
+North America,Nuclear,2015,13.6
+North America,Nuclear,2016,12.4
+North America,Nuclear,2017,11.1
+North America,Nuclear,2018,9.67
+North America,Nuclear,2019,7.33
+North America,Nuclear,2020,4.9
+North America,Nuclear,2021,6.07
+North America,Nuclear,2022,9.57
+North America,Nuclear,2023,9.99
+North America,Nuclear,2024,8.94
+North America,Nuclear,2025,9.55
+North America,Nuclear,2026,9.27
+North America,Electricity networks,2015,66.7
+North America,Electricity networks,2016,67.3
+North America,Electricity networks,2017,68.1
+North America,Electricity networks,2018,70.3
+North America,Electricity networks,2019,76.3
+North America,Electricity networks,2020,76.6
+North America,Electricity networks,2021,84.7
+North America,Electricity networks,2022,95.2
+North America,Electricity networks,2023,103
+North America,Electricity networks,2024,113
+North America,Electricity networks,2025,125
+North America,Electricity networks,2026,138
+North America,Memo: Oil & gas upstream,2015,273
+North America,Memo: Oil & gas upstream,2016,164
+North America,Memo: Oil & gas upstream,2017,195
+North America,Memo: Oil & gas upstream,2018,230
+North America,Memo: Oil & gas upstream,2019,219
+North America,Memo: Oil & gas upstream,2020,134
+North America,Memo: Oil & gas upstream,2021,146
+North America,Memo: Oil & gas upstream,2022,191
+North America,Memo: Oil & gas upstream,2023,217
+North America,Memo: Oil & gas upstream,2024,195
+North America,Memo: Oil & gas upstream,2025,174
+North America,Memo: Oil & gas upstream,2026,165
+Central and South America,"Total Billion USD (2025, MER)",2015,148
+Central and South America,"Total Billion USD (2025, MER)",2016,128
+Central and South America,"Total Billion USD (2025, MER)",2017,105
+Central and South America,"Total Billion USD (2025, MER)",2018,99.3
+Central and South America,"Total Billion USD (2025, MER)",2019,96
+Central and South America,"Total Billion USD (2025, MER)",2020,101
+Central and South America,"Total Billion USD (2025, MER)",2021,116
+Central and South America,"Total Billion USD (2025, MER)",2022,127
+Central and South America,"Total Billion USD (2025, MER)",2023,150
+Central and South America,"Total Billion USD (2025, MER)",2024,153
+Central and South America,"Total Billion USD (2025, MER)",2025,157
+Central and South America,"Total Billion USD (2025, MER)",2026,164
+Central and South America,Oil,2015,70.4
+Central and South America,Oil,2016,55.6
+Central and South America,Oil,2017,43
+Central and South America,Oil,2018,41.5
+Central and South America,Oil,2019,41.7
+Central and South America,Oil,2020,33.3
+Central and South America,Oil,2021,44.6
+Central and South America,Oil,2022,50
+Central and South America,Oil,2023,59.4
+Central and South America,Oil,2024,64.1
+Central and South America,Oil,2025,68.5
+Central and South America,Oil,2026,70.5
+Central and South America,Gas,2015,20.7
+Central and South America,Gas,2016,15.9
+Central and South America,Gas,2017,13.1
+Central and South America,Gas,2018,11.8
+Central and South America,Gas,2019,10.4
+Central and South America,Gas,2020,8.49
+Central and South America,Gas,2021,11.2
+Central and South America,Gas,2022,10.3
+Central and South America,Gas,2023,12.2
+Central and South America,Gas,2024,12.7
+Central and South America,Gas,2025,11.4
+Central and South America,Gas,2026,18.1
+Central and South America,Oil and natural gas (unabated),2015,4.44
+Central and South America,Oil and natural gas (unabated),2016,4.63
+Central and South America,Oil and natural gas (unabated),2017,4.53
+Central and South America,Oil and natural gas (unabated),2018,4.22
+Central and South America,Oil and natural gas (unabated),2019,3.8
+Central and South America,Oil and natural gas (unabated),2020,2.42
+Central and South America,Oil and natural gas (unabated),2021,3.14
+Central and South America,Oil and natural gas (unabated),2022,3.46
+Central and South America,Oil and natural gas (unabated),2023,3.91
+Central and South America,Oil and natural gas (unabated),2024,4.55
+Central and South America,Oil and natural gas (unabated),2025,4.54
+Central and South America,Oil and natural gas (unabated),2026,2.08
+Central and South America,Nuclear,2015,0.347
+Central and South America,Nuclear,2016,0.174
+Central and South America,Nuclear,2017,0.0119
+Central and South America,Nuclear,2018,0.0239
+Central and South America,Nuclear,2019,0.0239
+Central and South America,Nuclear,2020,0.0239
+Central and South America,Nuclear,2021,0.0239
+Central and South America,Nuclear,2022,0.437
+Central and South America,Nuclear,2023,1.16
+Central and South America,Nuclear,2024,1.46
+Central and South America,Nuclear,2025,1.14
+Central and South America,Nuclear,2026,1.04
+Central and South America,Electricity networks,2015,12.9
+Central and South America,Electricity networks,2016,12.8
+Central and South America,Electricity networks,2017,12.1
+Central and South America,Electricity networks,2018,11
+Central and South America,Electricity networks,2019,9.77
+Central and South America,Electricity networks,2020,19
+Central and South America,Electricity networks,2021,20.8
+Central and South America,Electricity networks,2022,20.1
+Central and South America,Electricity networks,2023,21.2
+Central and South America,Electricity networks,2024,22.5
+Central and South America,Electricity networks,2025,23.1
+Central and South America,Electricity networks,2026,22.1
+Central and South America,Memo: Oil & gas upstream,2015,81.4
+Central and South America,Memo: Oil & gas upstream,2016,62.1
+Central and South America,Memo: Oil & gas upstream,2017,46.9
+Central and South America,Memo: Oil & gas upstream,2018,45
+Central and South America,Memo: Oil & gas upstream,2019,41.8
+Central and South America,Memo: Oil & gas upstream,2020,28.9
+Central and South America,Memo: Oil & gas upstream,2021,38.8
+Central and South America,Memo: Oil & gas upstream,2022,42
+Central and South America,Memo: Oil & gas upstream,2023,53
+Central and South America,Memo: Oil & gas upstream,2024,59.5
+Central and South America,Memo: Oil & gas upstream,2025,61.5
+Central and South America,Memo: Oil & gas upstream,2026,67.6
+Europe,"Total Billion USD (2025, MER)",2015,363
+Europe,"Total Billion USD (2025, MER)",2016,340
+Europe,"Total Billion USD (2025, MER)",2017,347
+Europe,"Total Billion USD (2025, MER)",2018,360
+Europe,"Total Billion USD (2025, MER)",2019,367
+Europe,"Total Billion USD (2025, MER)",2020,387
+Europe,"Total Billion USD (2025, MER)",2021,445
+Europe,"Total Billion USD (2025, MER)",2022,475
+Europe,"Total Billion USD (2025, MER)",2023,508
+Europe,"Total Billion USD (2025, MER)",2024,535
+Europe,"Total Billion USD (2025, MER)",2025,588
+Europe,"Total Billion USD (2025, MER)",2026,629
+Europe,Oil,2015,56.5
+Europe,Oil,2016,41.5
+Europe,Oil,2017,38.5
+Europe,Oil,2018,36.7
+Europe,Oil,2019,34.9
+Europe,Oil,2020,29.2
+Europe,Oil,2021,30.6
+Europe,Oil,2022,29.1
+Europe,Oil,2023,29.1
+Europe,Oil,2024,28.7
+Europe,Oil,2025,27.4
+Europe,Oil,2026,26.9
+Europe,Gas,2015,42.4
+Europe,Gas,2016,31.9
+Europe,Gas,2017,31.5
+Europe,Gas,2018,31.2
+Europe,Gas,2019,32.3
+Europe,Gas,2020,27.6
+Europe,Gas,2021,28.9
+Europe,Gas,2022,28.4
+Europe,Gas,2023,33.4
+Europe,Gas,2024,36.7
+Europe,Gas,2025,39.2
+Europe,Gas,2026,33.1
+Europe,Oil and natural gas (unabated),2015,12.3
+Europe,Oil and natural gas (unabated),2016,11.9
+Europe,Oil and natural gas (unabated),2017,10.7
+Europe,Oil and natural gas (unabated),2018,9.43
+Europe,Oil and natural gas (unabated),2019,8.79
+Europe,Oil and natural gas (unabated),2020,9.99
+Europe,Oil and natural gas (unabated),2021,11.2
+Europe,Oil and natural gas (unabated),2022,12.6
+Europe,Oil and natural gas (unabated),2023,12.9
+Europe,Oil and natural gas (unabated),2024,12.3
+Europe,Oil and natural gas (unabated),2025,14.6
+Europe,Oil and natural gas (unabated),2026,9.96
+Europe,Nuclear,2015,6.58
+Europe,Nuclear,2016,6.35
+Europe,Nuclear,2017,5.38
+Europe,Nuclear,2018,6.14
+Europe,Nuclear,2019,9.59
+Europe,Nuclear,2020,15.6
+Europe,Nuclear,2021,24.3
+Europe,Nuclear,2022,27
+Europe,Nuclear,2023,23
+Europe,Nuclear,2024,22.1
+Europe,Nuclear,2025,21.7
+Europe,Nuclear,2026,18.4
+Europe,Electricity networks,2015,51.1
+Europe,Electricity networks,2016,51.3
+Europe,Electricity networks,2017,52.5
+Europe,Electricity networks,2018,53.8
+Europe,Electricity networks,2019,56.8
+Europe,Electricity networks,2020,63.4
+Europe,Electricity networks,2021,71.1
+Europe,Electricity networks,2022,64.1
+Europe,Electricity networks,2023,77.2
+Europe,Electricity networks,2024,95.6
+Europe,Electricity networks,2025,115
+Europe,Electricity networks,2026,144
+Europe,Memo: Oil & gas upstream,2015,74.7
+Europe,Memo: Oil & gas upstream,2016,50
+Europe,Memo: Oil & gas upstream,2017,41.2
+Europe,Memo: Oil & gas upstream,2018,43.4
+Europe,Memo: Oil & gas upstream,2019,45
+Europe,Memo: Oil & gas upstream,2020,37.3
+Europe,Memo: Oil & gas upstream,2021,36.2
+Europe,Memo: Oil & gas upstream,2022,32.9
+Europe,Memo: Oil & gas upstream,2023,36.2
+Europe,Memo: Oil & gas upstream,2024,39.7
+Europe,Memo: Oil & gas upstream,2025,40.6
+Europe,Memo: Oil & gas upstream,2026,40.5
+Africa,"Total Billion USD (2025, MER)",2015,144
+Africa,"Total Billion USD (2025, MER)",2016,121
+Africa,"Total Billion USD (2025, MER)",2017,104
+Africa,"Total Billion USD (2025, MER)",2018,96.8
+Africa,"Total Billion USD (2025, MER)",2019,95.7
+Africa,"Total Billion USD (2025, MER)",2020,76.2
+Africa,"Total Billion USD (2025, MER)",2021,78.3
+Africa,"Total Billion USD (2025, MER)",2022,87.1
+Africa,"Total Billion USD (2025, MER)",2023,101
+Africa,"Total Billion USD (2025, MER)",2024,102
+Africa,"Total Billion USD (2025, MER)",2025,99.9
+Africa,"Total Billion USD (2025, MER)",2026,111
+Africa,Oil,2015,71.6
+Africa,Oil,2016,52.6
+Africa,Oil,2017,41.2
+Africa,Oil,2018,41.1
+Africa,Oil,2019,37.2
+Africa,Oil,2020,26.7
+Africa,Oil,2021,27.2
+Africa,Oil,2022,32.4
+Africa,Oil,2023,41.6
+Africa,Oil,2024,35.5
+Africa,Oil,2025,31
+Africa,Oil,2026,33.8
+Africa,Gas,2015,32.6
+Africa,Gas,2016,27.6
+Africa,Gas,2017,24.3
+Africa,Gas,2018,21.9
+Africa,Gas,2019,25.3
+Africa,Gas,2020,16.5
+Africa,Gas,2021,14.9
+Africa,Gas,2022,15.1
+Africa,Gas,2023,16.3
+Africa,Gas,2024,18.5
+Africa,Gas,2025,14.6
+Africa,Gas,2026,26.6
+Africa,Oil and natural gas (unabated),2015,11.2
+Africa,Oil and natural gas (unabated),2016,11.7
+Africa,Oil and natural gas (unabated),2017,10.1
+Africa,Oil and natural gas (unabated),2018,6.82
+Africa,Oil and natural gas (unabated),2019,4.98
+Africa,Oil and natural gas (unabated),2020,3.14
+Africa,Oil and natural gas (unabated),2021,3.59
+Africa,Oil and natural gas (unabated),2022,3.73
+Africa,Oil and natural gas (unabated),2023,4.44
+Africa,Oil and natural gas (unabated),2024,5
+Africa,Oil and natural gas (unabated),2025,4.74
+Africa,Oil and natural gas (unabated),2026,1.97
+Africa,Nuclear,2015,0
+Africa,Nuclear,2016,0
+Africa,Nuclear,2017,0
+Africa,Nuclear,2018,0
+Africa,Nuclear,2019,0
+Africa,Nuclear,2020,0
+Africa,Nuclear,2021,0
+Africa,Nuclear,2022,0.37
+Africa,Nuclear,2023,0.74
+Africa,Nuclear,2024,0.74
+Africa,Nuclear,2025,1.11
+Africa,Nuclear,2026,2.09
+Africa,Electricity networks,2015,11.3
+Africa,Electricity networks,2016,10.8
+Africa,Electricity networks,2017,9.75
+Africa,Electricity networks,2018,8.32
+Africa,Electricity networks,2019,6.94
+Africa,Electricity networks,2020,6.46
+Africa,Electricity networks,2021,7.24
+Africa,Electricity networks,2022,8.13
+Africa,Electricity networks,2023,9.08
+Africa,Electricity networks,2024,9.61
+Africa,Electricity networks,2025,9.36
+Africa,Electricity networks,2026,9.17
+Africa,Memo: Oil & gas upstream,2015,91.7
+Africa,Memo: Oil & gas upstream,2016,68.1
+Africa,Memo: Oil & gas upstream,2017,54
+Africa,Memo: Oil & gas upstream,2018,51.7
+Africa,Memo: Oil & gas upstream,2019,49.7
+Africa,Memo: Oil & gas upstream,2020,29.8
+Africa,Memo: Oil & gas upstream,2021,28.1
+Africa,Memo: Oil & gas upstream,2022,32.4
+Africa,Memo: Oil & gas upstream,2023,38.7
+Africa,Memo: Oil & gas upstream,2024,40
+Africa,Memo: Oil & gas upstream,2025,36.6
+Africa,Memo: Oil & gas upstream,2026,41.6
+Middle East,"Total Billion USD (2025, MER)",2015,176
+Middle East,"Total Billion USD (2025, MER)",2016,154
+Middle East,"Total Billion USD (2025, MER)",2017,146
+Middle East,"Total Billion USD (2025, MER)",2018,142
+Middle East,"Total Billion USD (2025, MER)",2019,150
+Middle East,"Total Billion USD (2025, MER)",2020,142
+Middle East,"Total Billion USD (2025, MER)",2021,150
+Middle East,"Total Billion USD (2025, MER)",2022,149
+Middle East,"Total Billion USD (2025, MER)",2023,153
+Middle East,"Total Billion USD (2025, MER)",2024,167
+Middle East,"Total Billion USD (2025, MER)",2025,183
+Middle East,"Total Billion USD (2025, MER)",2026,194
+Middle East,Oil,2015,104
+Middle East,Oil,2016,87
+Middle East,Oil,2017,83.4
+Middle East,Oil,2018,83.8
+Middle East,Oil,2019,94.5
+Middle East,Oil,2020,95.4
+Middle East,Oil,2021,103
+Middle East,Oil,2022,95.5
+Middle East,Oil,2023,91.7
+Middle East,Oil,2024,89.5
+Middle East,Oil,2025,88.6
+Middle East,Oil,2026,93.6
+Middle East,Gas,2015,28.9
+Middle East,Gas,2016,25.2
+Middle East,Gas,2017,25.2
+Middle East,Gas,2018,24.2
+Middle East,Gas,2019,22.9
+Middle East,Gas,2020,21.9
+Middle East,Gas,2021,22
+Middle East,Gas,2022,25.3
+Middle East,Gas,2023,32
+Middle East,Gas,2024,37.2
+Middle East,Gas,2025,43.3
+Middle East,Gas,2026,45.4
+Middle East,Oil and natural gas (unabated),2015,12
+Middle East,Oil and natural gas (unabated),2016,12
+Middle East,Oil and natural gas (unabated),2017,11.6
+Middle East,Oil and natural gas (unabated),2018,10.1
+Middle East,Oil and natural gas (unabated),2019,9.39
+Middle East,Oil and natural gas (unabated),2020,5.4
+Middle East,Oil and natural gas (unabated),2021,4.82
+Middle East,Oil and natural gas (unabated),2022,6.05
+Middle East,Oil and natural gas (unabated),2023,6.06
+Middle East,Oil and natural gas (unabated),2024,11.4
+Middle East,Oil and natural gas (unabated),2025,15.6
+Middle East,Oil and natural gas (unabated),2026,15.6
+Middle East,Nuclear,2015,2.54
+Middle East,Nuclear,2016,2.54
+Middle East,Nuclear,2017,2.54
+Middle East,Nuclear,2018,3.02
+Middle East,Nuclear,2019,3.49
+Middle East,Nuclear,2020,3.07
+Middle East,Nuclear,2021,2.49
+Middle East,Nuclear,2022,1.92
+Middle East,Nuclear,2023,1.67
+Middle East,Nuclear,2024,2.03
+Middle East,Nuclear,2025,1.88
+Middle East,Nuclear,2026,1.69
+Middle East,Electricity networks,2015,19.4
+Middle East,Electricity networks,2016,17.8
+Middle East,Electricity networks,2017,13.8
+Middle East,Electricity networks,2018,11
+Middle East,Electricity networks,2019,10.8
+Middle East,Electricity networks,2020,7.34
+Middle East,Electricity networks,2021,8.09
+Middle East,Electricity networks,2022,8.98
+Middle East,Electricity networks,2023,9.78
+Middle East,Electricity networks,2024,10.7
+Middle East,Electricity networks,2025,10.3
+Middle East,Electricity networks,2026,9.92
+Middle East,Memo: Oil & gas upstream,2015,90.9
+Middle East,Memo: Oil & gas upstream,2016,75.5
+Middle East,Memo: Oil & gas upstream,2017,75.3
+Middle East,Memo: Oil & gas upstream,2018,78.2
+Middle East,Memo: Oil & gas upstream,2019,75
+Middle East,Memo: Oil & gas upstream,2020,63.6
+Middle East,Memo: Oil & gas upstream,2021,67.1
+Middle East,Memo: Oil & gas upstream,2022,75
+Middle East,Memo: Oil & gas upstream,2023,85.9
+Middle East,Memo: Oil & gas upstream,2024,92.8
+Middle East,Memo: Oil & gas upstream,2025,94
+Middle East,Memo: Oil & gas upstream,2026,92.8
+Eurasia,"Total Billion USD (2025, MER)",2015,191
+Eurasia,"Total Billion USD (2025, MER)",2016,182
+Eurasia,"Total Billion USD (2025, MER)",2017,182
+Eurasia,"Total Billion USD (2025, MER)",2018,166
+Eurasia,"Total Billion USD (2025, MER)",2019,161
+Eurasia,"Total Billion USD (2025, MER)",2020,141
+Eurasia,"Total Billion USD (2025, MER)",2021,147
+Eurasia,"Total Billion USD (2025, MER)",2022,138
+Eurasia,"Total Billion USD (2025, MER)",2023,143
+Eurasia,"Total Billion USD (2025, MER)",2024,140
+Eurasia,"Total Billion USD (2025, MER)",2025,132
+Eurasia,"Total Billion USD (2025, MER)",2026,132
+Eurasia,Oil,2015,79.3
+Eurasia,Oil,2016,73.5
+Eurasia,Oil,2017,79.6
+Eurasia,Oil,2018,82.7
+Eurasia,Oil,2019,79.6
+Eurasia,Oil,2020,62.3
+Eurasia,Oil,2021,57.9
+Eurasia,Oil,2022,48.3
+Eurasia,Oil,2023,48.1
+Eurasia,Oil,2024,42.4
+Eurasia,Oil,2025,38.6
+Eurasia,Oil,2026,36.9
+Eurasia,Gas,2015,47.1
+Eurasia,Gas,2016,47.2
+Eurasia,Gas,2017,44.5
+Eurasia,Gas,2018,41.7
+Eurasia,Gas,2019,39.8
+Eurasia,Gas,2020,37.9
+Eurasia,Gas,2021,38.5
+Eurasia,Gas,2022,31.2
+Eurasia,Gas,2023,31.2
+Eurasia,Gas,2024,30.1
+Eurasia,Gas,2025,29.5
+Eurasia,Gas,2026,28
+Eurasia,Oil and natural gas (unabated),2015,7.75
+Eurasia,Oil and natural gas (unabated),2016,8.83
+Eurasia,Oil and natural gas (unabated),2017,8.53
+Eurasia,Oil and natural gas (unabated),2018,6.45
+Eurasia,Oil and natural gas (unabated),2019,4.92
+Eurasia,Oil and natural gas (unabated),2020,4.7
+Eurasia,Oil and natural gas (unabated),2021,7.25
+Eurasia,Oil and natural gas (unabated),2022,8.31
+Eurasia,Oil and natural gas (unabated),2023,11.5
+Eurasia,Oil and natural gas (unabated),2024,14.3
+Eurasia,Oil and natural gas (unabated),2025,14.5
+Eurasia,Oil and natural gas (unabated),2026,12.6
+Eurasia,Nuclear,2015,2.22
+Eurasia,Nuclear,2016,1.68
+Eurasia,Nuclear,2017,1.37
+Eurasia,Nuclear,2018,1.87
+Eurasia,Nuclear,2019,3.79
+Eurasia,Nuclear,2020,6.1
+Eurasia,Nuclear,2021,7.28
+Eurasia,Nuclear,2022,6.74
+Eurasia,Nuclear,2023,6.82
+Eurasia,Nuclear,2024,8.11
+Eurasia,Nuclear,2025,9.26
+Eurasia,Nuclear,2026,9.41
+Eurasia,Electricity networks,2015,8.88
+Eurasia,Electricity networks,2016,8.75
+Eurasia,Electricity networks,2017,8.66
+Eurasia,Electricity networks,2018,8.13
+Eurasia,Electricity networks,2019,7.72
+Eurasia,Electricity networks,2020,7.54
+Eurasia,Electricity networks,2021,6.9
+Eurasia,Electricity networks,2022,6.39
+Eurasia,Electricity networks,2023,7.29
+Eurasia,Electricity networks,2024,8.12
+Eurasia,Electricity networks,2025,8.23
+Eurasia,Electricity networks,2026,8.52
+Eurasia,Memo: Oil & gas upstream,2015,97.6
+Eurasia,Memo: Oil & gas upstream,2016,88.7
+Eurasia,Memo: Oil & gas upstream,2017,91.9
+Eurasia,Memo: Oil & gas upstream,2018,94.2
+Eurasia,Memo: Oil & gas upstream,2019,93.3
+Eurasia,Memo: Oil & gas upstream,2020,77.3
+Eurasia,Memo: Oil & gas upstream,2021,71.8
+Eurasia,Memo: Oil & gas upstream,2022,59.4
+Eurasia,Memo: Oil & gas upstream,2023,57.6
+Eurasia,Memo: Oil & gas upstream,2024,51.7
+Eurasia,Memo: Oil & gas upstream,2025,47
+Eurasia,Memo: Oil & gas upstream,2026,47
+Asia Pacific,"Total Billion USD (2025, MER)",2015,962
+Asia Pacific,"Total Billion USD (2025, MER)",2016,949
+Asia Pacific,"Total Billion USD (2025, MER)",2017,936
+Asia Pacific,"Total Billion USD (2025, MER)",2018,906
+Asia Pacific,"Total Billion USD (2025, MER)",2019,916
+Asia Pacific,"Total Billion USD (2025, MER)",2020,926
+Asia Pacific,"Total Billion USD (2025, MER)",2021,932
+Asia Pacific,"Total Billion USD (2025, MER)",2022,1089
+Asia Pacific,"Total Billion USD (2025, MER)",2023,1232
+Asia Pacific,"Total Billion USD (2025, MER)",2024,1328
+Asia Pacific,"Total Billion USD (2025, MER)",2025,1388
+Asia Pacific,"Total Billion USD (2025, MER)",2026,1445
+Asia Pacific,Oil,2015,107
+Asia Pacific,Oil,2016,91.9
+Asia Pacific,Oil,2017,94.9
+Asia Pacific,Oil,2018,101
+Asia Pacific,Oil,2019,96.2
+Asia Pacific,Oil,2020,77.4
+Asia Pacific,Oil,2021,85.6
+Asia Pacific,Oil,2022,81.3
+Asia Pacific,Oil,2023,90.2
+Asia Pacific,Oil,2024,82.2
+Asia Pacific,Oil,2025,82.1
+Asia Pacific,Oil,2026,78.1
+Asia Pacific,Gas,2015,118
+Asia Pacific,Gas,2016,91.7
+Asia Pacific,Gas,2017,72.1
+Asia Pacific,Gas,2018,70.9
+Asia Pacific,Gas,2019,65.3
+Asia Pacific,Gas,2020,62.5
+Asia Pacific,Gas,2021,62.8
+Asia Pacific,Gas,2022,73.4
+Asia Pacific,Gas,2023,74.7
+Asia Pacific,Gas,2024,75.2
+Asia Pacific,Gas,2025,81.8
+Asia Pacific,Gas,2026,80.9
+Asia Pacific,Oil and natural gas (unabated),2015,28.6
+Asia Pacific,Oil and natural gas (unabated),2016,27.7
+Asia Pacific,Oil and natural gas (unabated),2017,26.2
+Asia Pacific,Oil and natural gas (unabated),2018,23
+Asia Pacific,Oil and natural gas (unabated),2019,19.9
+Asia Pacific,Oil and natural gas (unabated),2020,21.8
+Asia Pacific,Oil and natural gas (unabated),2021,24.4
+Asia Pacific,Oil and natural gas (unabated),2022,25
+Asia Pacific,Oil and natural gas (unabated),2023,25.3
+Asia Pacific,Oil and natural gas (unabated),2024,24.3
+Asia Pacific,Oil and natural gas (unabated),2025,26.4
+Asia Pacific,Oil and natural gas (unabated),2026,20.6
+Asia Pacific,Nuclear,2015,21.5
+Asia Pacific,Nuclear,2016,20.8
+Asia Pacific,Nuclear,2017,17.9
+Asia Pacific,Nuclear,2018,16.4
+Asia Pacific,Nuclear,2019,16.4
+Asia Pacific,Nuclear,2020,17.7
+Asia Pacific,Nuclear,2021,20.6
+Asia Pacific,Nuclear,2022,23
+Asia Pacific,Nuclear,2023,27.5
+Asia Pacific,Nuclear,2024,34
+Asia Pacific,Nuclear,2025,38.3
+Asia Pacific,Nuclear,2026,41
+Asia Pacific,Electricity networks,2015,144
+Asia Pacific,Electricity networks,2016,153
+Asia Pacific,Electricity networks,2017,143
+Asia Pacific,Electricity networks,2018,133
+Asia Pacific,Electricity networks,2019,125
+Asia Pacific,Electricity networks,2020,115
+Asia Pacific,Electricity networks,2021,115
+Asia Pacific,Electricity networks,2022,119
+Asia Pacific,Electricity networks,2023,126
+Asia Pacific,Electricity networks,2024,143
+Asia Pacific,Electricity networks,2025,157
+Asia Pacific,Electricity networks,2026,210
+Asia Pacific,Memo: Oil & gas upstream,2015,145
+Asia Pacific,Memo: Oil & gas upstream,2016,100
+Asia Pacific,Memo: Oil & gas upstream,2017,86.3
+Asia Pacific,Memo: Oil & gas upstream,2018,92.7
+Asia Pacific,Memo: Oil & gas upstream,2019,101
+Asia Pacific,Memo: Oil & gas upstream,2020,88.7
+Asia Pacific,Memo: Oil & gas upstream,2021,88.7
+Asia Pacific,Memo: Oil & gas upstream,2022,88.5
+Asia Pacific,Memo: Oil & gas upstream,2023,95
+Asia Pacific,Memo: Oil & gas upstream,2024,94.7
+Asia Pacific,Memo: Oil & gas upstream,2025,88.4
+Asia Pacific,Memo: Oil & gas upstream,2026,91.1

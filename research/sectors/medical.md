@@ -185,6 +185,12 @@ VDM's list of stainless instruments, nickel imaging alloys and cobalt chromium p
 
 The China market figures in yuan were not re verified. The 82 percent hip and knee price cut was, from the National Healthcare Security Administration briefing of February 2022, and the three OEM filings confirm that VBP is still a live margin risk.
 
+
+## Update 8 November 2026: new structured datasets
+
+China medical device market (source added from the team's Google Doc). The medical device supply chain branch of the China Federation of Logistics and Purchasing estimates China's market at about CNY 1.22 trillion in 2025, up about 30 percent from CNY 941.7 billion in 2024, on incomplete statistics, and device exports of USD 37.0 billion in the first three quarters of 2025, up 5.6 percent [MED_CN_DEVICE_MARKET_2025]. Medium confidence: an industry body estimate reported by Xinhua, not an official statistic. It sits alongside the 82 percent price cut from volume based procurement: a large and growing market by value, but with low unit prices for implants.
+
+
 ## Open gaps
 
 `TODO(data): United States and Japan hip and knee procedure counts, so the OECD file can be compared with the country that is 46.4 percent of the device market.`

@@ -74,6 +74,32 @@ PRODCOM sold production for nickel plate, sheet, strip and foil (24452200), EU27
 | Eurostat Comext / PRODCOM exports and imports | used | data/clean/prodcom_2019-2024.csv product 24452200 |
 | OECD ICIO (inter industry and trade in value added) | used | data/raw/icio/2016-2022_SML.zip and earlier blocks. Clean: data/clean/icio_2019_2022_metal_use_by_industry.csv and data/clean/icio_2019_2022_output_va_focus.csv. Dataset row OECD_ICIO_2025. |
 
+
+## Update 8 November 2026: mirror data for Russia, Sweden, Austria, Canada, Norway and Australia
+
+These six countries do not report in our Comtrade extract, but they appear as partners of the ten reporters (China, France, Germany, India, Indonesia, Italy, Japan, Korea, the United States, the United Kingdom). Their exports are estimated from the ten reporters' imports from them ("mirror" flows) in data/clean/comtrade_mirror_extra6_2022-2024.csv [COMTRADE_MIRROR_EXTRA6_2024]. These are lower bounds, because trade with every other country is missing, and partner-reported imports are valued CIF.
+
+2024 mirror exports, USD million (number of reporting partners in brackets):
+
+| HS code | Canada | Norway | Russia | Australia | Austria | Sweden |
+|---|---:|---:|---:|---:|---:|---:|
+| 7502 Unwrought nickel | 1,236 (10) | 1,086 (9) | 1,049 (4) | 981 (9) | 15 | 9 |
+| 7505 Nickel bars, rods, wire | 7 | 0 | 1 | 73 | 384 (10) | 109 (10) |
+| 7506 Nickel plate, sheet, strip | 1 | 0 | 18 | 0 | 12 | 101 (10) |
+| 7507 Nickel tubes and fittings | 54 | 3 | 0 | 0 | 15 | 73 (9) |
+| 8105 Cobalt and articles | 174 (10) | 105 (7) | 27 | 24 | 17 | 1 |
+| 8108 Titanium and articles | 85 | 3 | 715 (10) | 2 | 28 | 23 |
+| 7219 Stainless flat, 600 mm or wider | 8 | 1 | 0 | 2 | 56 | 746 (10) |
+
+Findings:
+1. The claim that China dominates the export of unwrought nickel is an artefact of the ten reporter sample. China reports USD 2,068 million of HS 7502 exports, but Canada, Norway, Russia and Australia each ship about USD 1 billion to the ten reporters alone, more than Indonesia's own reported USD 862 million. The ten reporters' largest origins of unwrought nickel in 2024 were Canada, Norway, Russia and Australia, ahead of the United Kingdom, Indonesia, the Netherlands and Finland. Class 1 nickel for alloys comes from Vale (Canada), Glencore Nikkelverk (Norway), Nornickel (Russia) and BHP Nickel West (Australia), not from Indonesian NPI.
+2. Russia remains a large supplier in 2024 despite sanctions: USD 1.05 billion of unwrought nickel to four reporters and USD 715 million of titanium (HS 8108) to all ten, which reflects VSMPO-AVISMA. Russian metal produced after 13 April 2024 is barred from LME and CME delivery, so Western alloy makers need audited non Russian class 1 nickel.
+3. Austria is a significant converter: USD 384 million of nickel bars and wire to the ten reporters (voestalpine Böhler and others), the same conversion pattern as Germany.
+4. Sweden's position is in stainless flat (USD 746 million, Outokumpu Avesta) and in nickel strip and tube (USD 101 million and USD 73 million, Alleima and Outokumpu).
+5. Canada and Norway are relevant cobalt refiners (USD 174 million and USD 105 million of HS 8105), which supports cobalt sourcing outside China and the DR Congo.
+
+TODO(data): direct reporter data for the six countries and their trade with third countries needs the Comtrade subscription key (Cursor instructions given to the team on 8 November 2026). Russia has not reported to Comtrade since 2021, so mirror data is the only route for Russia.
+
 ## Open gaps
 - TODO(data): full Comtrade matrix for remaining portfolio HS codes and reporters (resume from HS 7505 after quota reset).
 - TODO(data): UNIDO INDSTAT multi country extract (current file is Germany only: data/clean/unido_indstat_deu_va_2005-2023.csv).

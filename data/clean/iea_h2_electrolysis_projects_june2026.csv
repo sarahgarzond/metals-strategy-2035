@@ -1,0 +1,645 @@
+status,technology,country_iso3,projects,capacity_mwel
+Cancelled,AEM,CAN,1,0.0
+Cancelled,AEM,ITA,1,0.0
+Cancelled,ALK,AUS,8,2190.0
+Cancelled,ALK,BEL,2,0.0
+Cancelled,ALK,BRA,2,0.0
+Cancelled,ALK,CAN,1,0.0
+Cancelled,ALK,CHN,6,0.0
+Cancelled,ALK,COL,1,0.0
+Cancelled,ALK,DEU,4,0.0
+Cancelled,ALK,DNK,2,100.0
+Cancelled,ALK,ESP,4,15.0
+Cancelled,ALK,FIN,1,0.0
+Cancelled,ALK,FRA,5,503.0
+Cancelled,ALK,ITA,1,0.0
+Cancelled,ALK,NOR,2,500.0
+Cancelled,ALK,USA,4,0.0
+Cancelled,Other Electrolysis,ARE,1,0.0
+Cancelled,Other Electrolysis,AUS,22,12892.6
+Cancelled,Other Electrolysis,AUT,5,0.0
+Cancelled,Other Electrolysis,BEL,8,0.0
+Cancelled,Other Electrolysis,BRA,1,0.0
+Cancelled,Other Electrolysis,CAN,8,1559.1
+Cancelled,Other Electrolysis,CHE,2,0.0
+Cancelled,Other Electrolysis,CHL,7,2703.0
+Cancelled,Other Electrolysis,CHN,10,53.7
+Cancelled,Other Electrolysis,COL,5,145.0
+Cancelled,Other Electrolysis,DEU,11,1172.0
+Cancelled,Other Electrolysis,DNK,4,0.0
+Cancelled,Other Electrolysis,EGY,6,4000.0
+Cancelled,Other Electrolysis,ESP,16,700.0
+Cancelled,Other Electrolysis,FIN,5,246.8
+Cancelled,Other Electrolysis,FRA,26,834.0
+Cancelled,Other Electrolysis,GBR,9,100.0
+Cancelled,Other Electrolysis,ITA,7,0.0
+Cancelled,Other Electrolysis,LTU,1,0.0
+Cancelled,Other Electrolysis,MAR,3,8000.0
+Cancelled,Other Electrolysis,MRT,3,35787.1
+Cancelled,Other Electrolysis,NLD,4,0.0
+Cancelled,Other Electrolysis,NOR,9,0.0
+Cancelled,Other Electrolysis,OMN,4,2078.7
+Cancelled,Other Electrolysis,PRT,6,937.0
+Cancelled,Other Electrolysis,ROU,2,0.0
+Cancelled,Other Electrolysis,SWE,2,0.0
+Cancelled,Other Electrolysis,TTO,1,0.0
+Cancelled,Other Electrolysis,TUN,1,0.0
+Cancelled,Other Electrolysis,USA,7,0.0
+Cancelled,Other Electrolysis,ZWE,1,0.0
+Cancelled,PEM,AUS,5,560.0
+Cancelled,PEM,CAN,5,1300.0
+Cancelled,PEM,COL,4,0.0
+Cancelled,PEM,DEU,4,0.0
+Cancelled,PEM,ESP,3,5.0
+Cancelled,PEM,EST,1,0.0
+Cancelled,PEM,FRA,1,85.0
+Cancelled,PEM,GBR,6,1002.1
+Cancelled,PEM,ITA,1,0.0
+Cancelled,PEM,MAR,1,0.0
+Cancelled,PEM,POL,1,0.0
+Cancelled,PEM,PRT,10,0.0
+Cancelled,PEM,SWE,1,0.0
+Cancelled,PEM,USA,3,0.0
+Cancelled,SOEC,GBR,2,1.0
+Cancelled,SOEC,IND,1,0.0
+Concept,ALK,AUS,3,4898.1
+Concept,ALK,CHN,7,4010.6
+Concept,ALK,ESP,1,200.0
+Concept,ALK,FIN,1,250.0
+Concept,ALK,FRA,5,246.1
+Concept,ALK,GBR,1,18.0
+Concept,ALK,IND,1,1001.7
+Concept,ALK,ISL,1,70.0
+Concept,ALK,MAR,1,0.0
+Concept,ALK,MEX,1,160.0
+Concept,ALK,NGA,1,1345.2
+Concept,ALK,NOR,1,819.8
+Concept,ALK,TUN,1,0.0
+Concept,ALK,VNM,1,590.0
+Concept,Other Electrolysis,ALB,1,0.0
+Concept,Other Electrolysis,ARE,9,1557.0
+Concept,Other Electrolysis,ARG,4,9200.0
+Concept,Other Electrolysis,AUS,37,80503.6
+Concept,Other Electrolysis,AUT,1,240.0
+Concept,Other Electrolysis,BEL,2,594.5
+Concept,Other Electrolysis,BHR,1,4.0
+Concept,Other Electrolysis,BRA,23,39344.4
+Concept,Other Electrolysis,CAN,8,672.3
+Concept,Other Electrolysis,CHL,13,14373.7
+Concept,Other Electrolysis,CHN,26,30275.4
+Concept,Other Electrolysis,COD,1,0.0
+Concept,Other Electrolysis,COL,3,3522.9
+Concept,Other Electrolysis,CRI,1,200.0
+Concept,Other Electrolysis,CZE,2,0.4
+Concept,Other Electrolysis,DEU,30,15946.5
+Concept,Other Electrolysis,"DEU
+DNK",2,0.0
+Concept,Other Electrolysis,DJI,2,4000.0
+Concept,Other Electrolysis,DMA,1,164.5
+Concept,Other Electrolysis,DNK,11,15277.8
+Concept,Other Electrolysis,DOM,1,350.0
+Concept,Other Electrolysis,DZA,3,50.0
+Concept,Other Electrolysis,EGY,19,44080.2
+Concept,Other Electrolysis,ESP,46,16135.8
+Concept,Other Electrolysis,"ESP
+FRA",1,0.0
+Concept,Other Electrolysis,EST,4,5.0
+Concept,Other Electrolysis,FIN,9,5005.7
+Concept,Other Electrolysis,FJI,1,7.7
+Concept,Other Electrolysis,FRA,21,2895.0
+Concept,Other Electrolysis,GAB,1,200.0
+Concept,Other Electrolysis,GBR,31,9125.9
+Concept,Other Electrolysis,GRC,3,418.5
+Concept,Other Electrolysis,HUN,1,0.0
+Concept,Other Electrolysis,IDN,8,7438.3
+Concept,Other Electrolysis,IND,29,35042.8
+Concept,Other Electrolysis,IRL,1,0.0
+Concept,Other Electrolysis,ISR,1,30.0
+Concept,Other Electrolysis,ITA,14,3580.0
+Concept,Other Electrolysis,JOR,4,2055.5
+Concept,Other Electrolysis,JPN,1,100.0
+Concept,Other Electrolysis,KAZ,2,958.1
+Concept,Other Electrolysis,LCA,1,6.0
+Concept,Other Electrolysis,LKA,1,0.0
+Concept,Other Electrolysis,LVA,1,1000.0
+Concept,Other Electrolysis,MAR,21,10002.2
+Concept,Other Electrolysis,MEX,10,9254.1
+Concept,Other Electrolysis,MOZ,1,8.7
+Concept,Other Electrolysis,MRT,9,28500.0
+Concept,Other Electrolysis,MYS,6,11331.6
+Concept,Other Electrolysis,NAM,2,1313.8
+Concept,Other Electrolysis,NER,1,0.0
+Concept,Other Electrolysis,NLD,16,11465.0
+Concept,Other Electrolysis,NOR,9,6857.4
+Concept,Other Electrolysis,OMN,8,8233.7
+Concept,Other Electrolysis,PAK,1,400.0
+Concept,Other Electrolysis,PER,2,4800.1
+Concept,Other Electrolysis,PHL,1,4.8
+Concept,Other Electrolysis,POL,4,73.5
+Concept,Other Electrolysis,"POL
+CZE
+SVK
+HUN",1,0.0
+Concept,Other Electrolysis,PRT,9,3195.0
+Concept,Other Electrolysis,"PRT
+ESP",1,0.0
+Concept,Other Electrolysis,PRY,3,225.0
+Concept,Other Electrolysis,"ROM
+DEU
+AUT",1,0.0
+Concept,Other Electrolysis,ROU,2,163.5
+Concept,Other Electrolysis,SAU,2,2494.5
+Concept,Other Electrolysis,SVK,4,430.0
+Concept,Other Electrolysis,SVN,1,0.0
+Concept,Other Electrolysis,SWE,9,3947.2
+Concept,Other Electrolysis,THA,2,2519.5
+Concept,Other Electrolysis,TUN,5,5650.0
+Concept,Other Electrolysis,UGA,1,0.0
+Concept,Other Electrolysis,UKR,16,18572.5
+Concept,Other Electrolysis,URY,2,0.0
+Concept,Other Electrolysis,USA,21,44506.0
+Concept,Other Electrolysis,UZB,1,1299.2
+Concept,Other Electrolysis,VNM,3,4394.0
+Concept,Other Electrolysis,ZAF,5,1606.8
+Concept,PEM,AUS,3,307.0
+Concept,PEM,AUT,1,149.0
+Concept,PEM,COL,2,2280.0
+Concept,PEM,DEU,3,738.7
+Concept,PEM,ESP,1,15.0
+Concept,PEM,EST,1,24.0
+Concept,PEM,IND,1,7303.4
+Concept,PEM,ITA,2,80.0
+Concept,PEM,MEX,1,40.0
+Concept,PEM,POL,1,2.5
+Concept,PEM,PRT,1,200.0
+Concept,PEM,UKR,1,17.5
+Concept,PEM,USA,1,973.8
+Concept,PEM,UZB,2,4400.0
+Concept,PEM,ZAF,1,160.0
+Concept,SOEC,DEU,1,100.0
+Concept,SOEC,EGY,1,250.0
+Concept,SOEC,IDN,2,2000.0
+Concept,SOEC,KOR,2,0.0
+Concept,SOEC,USA,1,324.9
+DEMO,AEM,BEL,1,0.0
+DEMO,AEM,BRA,1,0.0
+DEMO,AEM,DEU,1,1.0
+DEMO,AEM,KOR,1,2.0
+DEMO,ALK,AUS,1,5.0
+DEMO,ALK,BEL,1,0.3
+DEMO,ALK,CAN,4,0.3
+DEMO,ALK,CHE,2,0.3
+DEMO,ALK,CHN,2,0.2
+DEMO,ALK,COK,1,0.1
+DEMO,ALK,COL,1,0.0
+DEMO,ALK,DEU,7,3.1
+DEMO,ALK,DNK,4,11.5
+DEMO,ALK,ESP,6,3.3
+DEMO,ALK,FRA,3,1.1
+DEMO,ALK,GBR,3,1.0
+DEMO,ALK,GRC,2,0.0
+DEMO,ALK,IND,1,0.1
+DEMO,ALK,ISL,1,0.3
+DEMO,ALK,ITA,4,1.2
+DEMO,ALK,JPN,4,4.9
+DEMO,ALK,NLD,1,0.3
+DEMO,ALK,NOR,1,0.0
+DEMO,ALK,NZL,1,0.0
+DEMO,ALK,PRT,1,0.3
+DEMO,ALK,SAU,1,20.0
+DEMO,ALK,SWE,1,0.3
+DEMO,ALK,TUR,2,0.2
+DEMO,ALK,USA,3,0.1
+DEMO,Other Electrolysis,AUS,4,5.0
+DEMO,Other Electrolysis,AUT,3,0.0
+DEMO,Other Electrolysis,BRA,1,0.6
+DEMO,Other Electrolysis,CAN,1,0.0
+DEMO,Other Electrolysis,CHE,1,0.0
+DEMO,Other Electrolysis,CHL,1,2.0
+DEMO,Other Electrolysis,CHN,5,471.8
+DEMO,Other Electrolysis,DEU,5,2.8
+DEMO,Other Electrolysis,DNK,3,2.6
+DEMO,Other Electrolysis,ESP,3,0.4
+DEMO,Other Electrolysis,FIN,1,1.3
+DEMO,Other Electrolysis,FRA,3,1.0
+DEMO,Other Electrolysis,GBR,3,0.1
+DEMO,Other Electrolysis,GRC,1,0.2
+DEMO,Other Electrolysis,IND,3,6.0
+DEMO,Other Electrolysis,IRL,1,0.0
+DEMO,Other Electrolysis,JPN,2,0.0
+DEMO,Other Electrolysis,KOR,1,0.0
+DEMO,Other Electrolysis,LTU,1,1.0
+DEMO,Other Electrolysis,MAR,1,15.0
+DEMO,Other Electrolysis,MYS,1,0.0
+DEMO,Other Electrolysis,NLD,4,1.9
+DEMO,Other Electrolysis,NOR,1,0.0
+DEMO,Other Electrolysis,NZL,1,0.9
+DEMO,Other Electrolysis,PRT,1,11.0
+DEMO,Other Electrolysis,SGP,1,0.0
+DEMO,Other Electrolysis,SWE,1,0.0
+DEMO,Other Electrolysis,THA,1,0.0
+DEMO,Other Electrolysis,USA,1,1.0
+DEMO,PEM,ARE,1,2.1
+DEMO,PEM,AUT,5,2.1
+DEMO,PEM,CHE,2,0.7
+DEMO,PEM,CHN,2,2.2
+DEMO,PEM,COL,3,0.2
+DEMO,PEM,DEU,18,14.6
+DEMO,PEM,DNK,6,0.7
+DEMO,PEM,ESP,5,0.1
+DEMO,PEM,FIN,1,0.0
+DEMO,PEM,FRA,6,3.6
+DEMO,PEM,GBR,1,0.7
+DEMO,PEM,GRC,3,0.0
+DEMO,PEM,ITA,1,1.0
+DEMO,PEM,JPN,4,0.2
+DEMO,PEM,MYS,1,0.0
+DEMO,PEM,NLD,5,11.0
+DEMO,PEM,NOR,3,1.5
+DEMO,PEM,NZL,2,0.0
+DEMO,PEM,PRT,2,1.4
+DEMO,PEM,SWE,1,0.1
+DEMO,PEM,TUR,2,0.0
+DEMO,PEM,USA,13,4.7
+DEMO,SOEC,AUT,1,1.0
+DEMO,SOEC,DEU,9,1.9
+DEMO,SOEC,DNK,4,0.1
+DEMO,SOEC,FIN,2,0.1
+DEMO,SOEC,FRA,3,0.0
+DEMO,SOEC,IND,1,0.0
+DEMO,SOEC,KOR,1,0.1
+DEMO,SOEC,USA,6,4.8
+Decommisioned,AEM,DEU,1,1.0
+Decommisioned,ALK,CAN,2,0.4
+Decommisioned,ALK,EGY,1,0.0
+Decommisioned,ALK,ZWE,1,0.0
+Decommisioned,Other Electrolysis,CHL,1,0.1
+Decommisioned,PEM,FRA,2,1.2
+Decommisioned,PEM,GBR,2,0.0
+Decommisioned,PEM,NLD,1,1.0
+Decommisioned,PEM,NOR,1,0.0
+Dormant,ALK,ARE,1,584.3
+Dormant,ALK,AUS,2,1500.0
+Dormant,ALK,CAN,1,0.0
+Dormant,ALK,CHN,2,90.0
+Dormant,ALK,DEU,1,5.0
+Dormant,ALK,FRA,5,107.0
+Dormant,ALK,NLD,1,40.0
+Dormant,ALK,UKR,1,0.0
+Dormant,Other Electrolysis,ARE,1,692.9
+Dormant,Other Electrolysis,ARG,4,15505.0
+Dormant,Other Electrolysis,AUS,7,10297.0
+Dormant,Other Electrolysis,BRA,2,3763.1
+Dormant,Other Electrolysis,CAN,8,4665.8
+Dormant,Other Electrolysis,CHE,1,2.3
+Dormant,Other Electrolysis,CHL,14,8258.7
+Dormant,Other Electrolysis,CHN,1,0.0
+Dormant,Other Electrolysis,COL,1,40.0
+Dormant,Other Electrolysis,CZE,3,80.0
+Dormant,Other Electrolysis,DEU,2,1050.0
+Dormant,Other Electrolysis,DJI,1,0.0
+Dormant,Other Electrolysis,DNK,4,670.9
+Dormant,Other Electrolysis,EGY,2,2308.8
+Dormant,Other Electrolysis,ESP,5,217.0
+Dormant,Other Electrolysis,FRA,24,2082.5
+Dormant,Other Electrolysis,GBR,1,700.0
+Dormant,Other Electrolysis,GRC,1,10.0
+Dormant,Other Electrolysis,IDN,3,807.6
+Dormant,Other Electrolysis,IND,1,37.0
+Dormant,Other Electrolysis,IRL,3,6350.0
+Dormant,Other Electrolysis,ISL,1,10.0
+Dormant,Other Electrolysis,ITA,7,103.0
+Dormant,Other Electrolysis,JPN,1,3.2
+Dormant,Other Electrolysis,KEN,2,1300.0
+Dormant,Other Electrolysis,KOR,2,1300.0
+Dormant,Other Electrolysis,LVA,2,30.0
+Dormant,Other Electrolysis,NLD,5,6049.7
+Dormant,Other Electrolysis,NZL,1,300.0
+Dormant,Other Electrolysis,POL,2,1099.0
+Dormant,Other Electrolysis,PRY,2,950.0
+Dormant,Other Electrolysis,SWE,2,606.0
+Dormant,Other Electrolysis,UKR,3,1100.0
+Dormant,Other Electrolysis,USA,3,2626.8
+Dormant,PEM,CAN,1,5.0
+Dormant,PEM,COL,1,2.0
+Dormant,PEM,ESP,1,1.0
+Dormant,PEM,FRA,3,41.0
+Dormant,PEM,GBR,3,1020.0
+Dormant,PEM,MEX,1,31.1
+Dormant,PEM,NLD,2,15.0
+Dormant,SOEC,UKR,2,0.0
+FID/Construction,AEM,DEU,1,0.5
+FID/Construction,AEM,GBR,1,1.0
+FID/Construction,AEM,GRC,1,1.1
+FID/Construction,AEM,ITA,8,13.5
+FID/Construction,AEM,NLD,1,1.0
+FID/Construction,AEM,USA,2,2.0
+FID/Construction,ALK,ARE,1,2.5
+FID/Construction,ALK,AUS,2,20.0
+FID/Construction,ALK,AUT,1,4.0
+FID/Construction,ALK,CHN,17,4357.9
+FID/Construction,ALK,DEU,4,235.0
+FID/Construction,ALK,ESP,3,210.0
+FID/Construction,ALK,FRA,3,23.0
+FID/Construction,ALK,GBR,2,10.9
+FID/Construction,ALK,GRC,1,50.0
+FID/Construction,ALK,IND,4,1753.5
+FID/Construction,ALK,ITA,2,6.5
+FID/Construction,ALK,KEN,1,149.4
+FID/Construction,ALK,KOR,1,10.0
+FID/Construction,ALK,NLD,2,220.0
+FID/Construction,ALK,NOR,6,125.0
+FID/Construction,ALK,OMN,1,320.0
+FID/Construction,ALK,PRY,1,145.0
+FID/Construction,ALK,SAU,1,2200.0
+FID/Construction,ALK,SWE,2,1240.0
+FID/Construction,ALK,USA,2,240.0
+FID/Construction,ALK,VNM,1,240.0
+FID/Construction,Other Electrolysis,ARE,1,5.8
+FID/Construction,Other Electrolysis,AUS,3,23.7
+FID/Construction,Other Electrolysis,BEL,1,25.0
+FID/Construction,Other Electrolysis,BRA,2,7.0
+FID/Construction,Other Electrolysis,CAN,1,10.0
+FID/Construction,Other Electrolysis,CHE,1,2.0
+FID/Construction,Other Electrolysis,CHL,1,1.0
+FID/Construction,Other Electrolysis,CHN,14,3437.0
+FID/Construction,Other Electrolysis,COL,1,0.7
+FID/Construction,Other Electrolysis,DEU,8,47.0
+FID/Construction,Other Electrolysis,ESP,4,505.5
+FID/Construction,Other Electrolysis,FIN,1,10.0
+FID/Construction,Other Electrolysis,FRA,2,15.0
+FID/Construction,Other Electrolysis,GBR,8,52.5
+FID/Construction,Other Electrolysis,IDN,1,0.5
+FID/Construction,Other Electrolysis,IND,2,2.4
+FID/Construction,Other Electrolysis,IRL,1,1.2
+FID/Construction,Other Electrolysis,ITA,4,23.2
+FID/Construction,Other Electrolysis,MAR,2,204.0
+FID/Construction,Other Electrolysis,MYS,1,60.0
+FID/Construction,Other Electrolysis,NAM,1,0.2
+FID/Construction,Other Electrolysis,NLD,4,207.5
+FID/Construction,Other Electrolysis,NOR,3,40.0
+FID/Construction,Other Electrolysis,NZL,1,5.0
+FID/Construction,Other Electrolysis,POL,1,5.0
+FID/Construction,Other Electrolysis,ROU,1,20.0
+FID/Construction,Other Electrolysis,SVN,1,34.0
+FID/Construction,Other Electrolysis,USA,3,60.8
+FID/Construction,PEM,AUS,4,5.2
+FID/Construction,PEM,AUT,2,142.0
+FID/Construction,PEM,CAN,2,21.8
+FID/Construction,PEM,CHN,2,1285.2
+FID/Construction,PEM,COL,1,5.0
+FID/Construction,PEM,DEU,15,853.3
+FID/Construction,PEM,ESP,2,35.0
+FID/Construction,PEM,FIN,1,4.0
+FID/Construction,PEM,FRA,1,210.0
+FID/Construction,PEM,GBR,4,73.0
+FID/Construction,PEM,HRV,1,10.0
+FID/Construction,PEM,IND,1,1.0
+FID/Construction,PEM,ITA,2,13.0
+FID/Construction,PEM,KOR,1,2.5
+FID/Construction,PEM,LTU,1,3.0
+FID/Construction,PEM,NLD,1,5.0
+FID/Construction,PEM,NOR,1,5.0
+FID/Construction,PEM,PRT,2,104.0
+FID/Construction,PEM,USA,3,106.1
+Feasibility study,ALK,ARE,1,124.0
+Feasibility study,ALK,AUS,2,560.0
+Feasibility study,ALK,CHL,2,2210.0
+Feasibility study,ALK,CHN,8,2889.7
+Feasibility study,ALK,COL,3,1053.0
+Feasibility study,ALK,CRI,1,120.0
+Feasibility study,ALK,DEU,3,296.8
+Feasibility study,ALK,ESP,5,390.9
+Feasibility study,ALK,FIN,3,600.0
+Feasibility study,ALK,FRA,2,70.0
+Feasibility study,ALK,GBR,2,86.0
+Feasibility study,ALK,GRC,1,20.0
+Feasibility study,ALK,IDN,1,600.0
+Feasibility study,ALK,IND,3,1243.9
+Feasibility study,ALK,ISL,1,30.0
+Feasibility study,ALK,ITA,1,1.0
+Feasibility study,ALK,KOR,1,10.0
+Feasibility study,ALK,MAR,2,2050.0
+Feasibility study,ALK,MRT,1,1650.0
+Feasibility study,ALK,MYS,1,60.0
+Feasibility study,ALK,NLD,3,290.0
+Feasibility study,ALK,NOR,5,346.0
+Feasibility study,ALK,NZL,1,600.0
+Feasibility study,ALK,PRT,4,1050.0
+Feasibility study,ALK,PRY,1,310.0
+Feasibility study,ALK,ROU,1,5.0
+Feasibility study,ALK,SWE,3,392.0
+Feasibility study,ALK,TUN,1,2000.0
+Feasibility study,ALK,USA,5,1264.0
+Feasibility study,Other Electrolysis,AGO,1,204.2
+Feasibility study,Other Electrolysis,ARE,1,2078.7
+Feasibility study,Other Electrolysis,AUS,38,47260.7
+Feasibility study,Other Electrolysis,AUT,3,101.1
+Feasibility study,Other Electrolysis,BEL,3,25.0
+Feasibility study,Other Electrolysis,BGR,1,0.0
+Feasibility study,Other Electrolysis,BRA,32,15299.8
+Feasibility study,Other Electrolysis,CAN,10,7551.0
+Feasibility study,Other Electrolysis,CHE,1,10.0
+Feasibility study,Other Electrolysis,CHL,20,18457.2
+Feasibility study,Other Electrolysis,CHN,21,6242.4
+Feasibility study,Other Electrolysis,COL,3,595.0
+Feasibility study,Other Electrolysis,CYP,2,2.2
+Feasibility study,Other Electrolysis,DEU,38,4729.0
+Feasibility study,Other Electrolysis,DNK,9,1034.6
+Feasibility study,Other Electrolysis,EGY,11,7869.2
+Feasibility study,Other Electrolysis,ESP,87,16475.6
+Feasibility study,Other Electrolysis,EST,2,2053.4
+Feasibility study,Other Electrolysis,FIN,31,5021.4
+Feasibility study,Other Electrolysis,FRA,12,3037.5
+Feasibility study,Other Electrolysis,GBR,42,3322.6
+Feasibility study,Other Electrolysis,GRC,2,150.0
+Feasibility study,Other Electrolysis,IDN,5,488.9
+Feasibility study,Other Electrolysis,IND,36,14857.1
+Feasibility study,Other Electrolysis,IRL,5,187.0
+Feasibility study,Other Electrolysis,ISL,2,360.0
+Feasibility study,Other Electrolysis,ITA,14,1347.0
+Feasibility study,Other Electrolysis,JOR,11,3703.6
+Feasibility study,Other Electrolysis,KAZ,1,20000.0
+Feasibility study,Other Electrolysis,KEN,4,3070.0
+Feasibility study,Other Electrolysis,LVA,1,69.6
+Feasibility study,Other Electrolysis,MAR,4,3454.0
+Feasibility study,Other Electrolysis,MEX,2,2135.0
+Feasibility study,Other Electrolysis,MNG,1,10.0
+Feasibility study,Other Electrolysis,MRT,1,173.0
+Feasibility study,Other Electrolysis,MYS,5,848.7
+Feasibility study,Other Electrolysis,NAM,7,4486.0
+Feasibility study,Other Electrolysis,NLD,28,6112.5
+Feasibility study,Other Electrolysis,NOR,19,2466.9
+Feasibility study,Other Electrolysis,OMN,9,22047.2
+Feasibility study,Other Electrolysis,PAN,3,4675.2
+Feasibility study,Other Electrolysis,PER,2,1989.2
+Feasibility study,Other Electrolysis,PHL,1,30.8
+Feasibility study,Other Electrolysis,POL,6,130.0
+Feasibility study,Other Electrolysis,PRT,9,788.3
+Feasibility study,Other Electrolysis,PRY,2,75.4
+Feasibility study,Other Electrolysis,ROU,1,50.0
+Feasibility study,Other Electrolysis,SAU,2,5019.8
+Feasibility study,Other Electrolysis,SGP,1,110.4
+Feasibility study,Other Electrolysis,SRB,1,346.3
+Feasibility study,Other Electrolysis,SVK,2,80.0
+Feasibility study,Other Electrolysis,SWE,6,1997.7
+Feasibility study,Other Electrolysis,TTO,1,158.9
+Feasibility study,Other Electrolysis,TUR,1,0.0
+Feasibility study,Other Electrolysis,UGA,1,115.4
+Feasibility study,Other Electrolysis,URY,3,1278.2
+Feasibility study,Other Electrolysis,USA,23,8023.3
+Feasibility study,Other Electrolysis,VNM,1,0.0
+Feasibility study,Other Electrolysis,ZAF,5,4713.5
+Feasibility study,PEM,ARG,1,334.7
+Feasibility study,PEM,AUS,5,3117.5
+Feasibility study,PEM,AUT,1,5.0
+Feasibility study,PEM,BEL,1,100.0
+Feasibility study,PEM,BRB,1,13.3
+Feasibility study,PEM,CAN,5,3049.6
+Feasibility study,PEM,CHL,2,307.0
+Feasibility study,PEM,COL,4,2836.3
+Feasibility study,PEM,CRI,1,1.0
+Feasibility study,PEM,CZE,2,34.0
+Feasibility study,PEM,DEU,10,1110.7
+Feasibility study,PEM,DNK,1,1000.0
+Feasibility study,PEM,ESP,8,165.0
+Feasibility study,PEM,FIN,4,2480.0
+Feasibility study,PEM,FRA,3,500.0
+Feasibility study,PEM,GBR,13,381.6
+Feasibility study,PEM,GRC,1,90.0
+Feasibility study,PEM,ITA,5,75.4
+Feasibility study,PEM,KOR,3,206.0
+Feasibility study,PEM,MEX,1,680.6
+Feasibility study,PEM,NLD,4,505.0
+Feasibility study,PEM,NOR,1,300.0
+Feasibility study,PEM,PER,1,133.9
+Feasibility study,PEM,POL,1,45.0
+Feasibility study,PEM,PRT,5,357.3
+Feasibility study,PEM,ROU,1,10.0
+Feasibility study,PEM,USA,7,2849.7
+Feasibility study,PEM,ZAF,1,40.0
+Feasibility study,SOEC,DEU,1,700.0
+Feasibility study,SOEC,ESP,1,74.6
+Feasibility study,SOEC,GBR,2,812.4
+Feasibility study,SOEC,USA,2,310.0
+On hold,ALK,AUS,1,36.0
+On hold,ALK,DNK,2,980.0
+On hold,Other Electrolysis,AGO,1,400.0
+On hold,Other Electrolysis,BRA,5,3900.0
+On hold,Other Electrolysis,DEU,5,2050.0
+On hold,Other Electrolysis,DNK,1,150.0
+On hold,Other Electrolysis,ESP,1,150.0
+On hold,Other Electrolysis,FIN,2,304.2
+On hold,Other Electrolysis,NLD,2,250.0
+On hold,Other Electrolysis,NZL,1,600.0
+On hold,Other Electrolysis,SWE,3,708.0
+On hold,PEM,AUT,1,60.0
+On hold,PEM,NLD,1,500.0
+On hold,PEM,USA,2,200.0
+Operational,AEM,AUT,1,0.3
+Operational,AEM,CHN,1,1.0
+Operational,AEM,CZE,1,0.5
+Operational,AEM,DEU,2,1.5
+Operational,AEM,ITA,1,1.0
+Operational,AEM,NLD,1,0.1
+Operational,ALK,ARG,1,0.8
+Operational,ALK,AUS,2,2.2
+Operational,ALK,AUT,2,3.7
+Operational,ALK,BEL,1,0.3
+Operational,ALK,BRA,1,5.0
+Operational,ALK,CAN,1,0.3
+Operational,ALK,CHE,1,0.5
+Operational,ALK,CHN,19,1508.2
+Operational,ALK,COL,1,2.3
+Operational,ALK,DEU,19,40.5
+Operational,ALK,DNK,11,28.5
+Operational,ALK,ESP,3,2.6
+Operational,ALK,EST,2,2.0
+Operational,ALK,FIN,2,29.0
+Operational,ALK,FRA,9,28.1
+Operational,ALK,GBR,7,7.0
+Operational,ALK,IND,7,36.4
+Operational,ALK,ITA,1,1.5
+Operational,ALK,JPN,2,15.1
+Operational,ALK,KOR,1,10.0
+Operational,ALK,LBN,1,0.1
+Operational,ALK,MYS,1,0.3
+Operational,ALK,NAM,1,12.0
+Operational,ALK,NLD,1,1.4
+Operational,ALK,NOR,5,7.8
+Operational,ALK,OMN,1,20.0
+Operational,ALK,PER,1,25.0
+Operational,ALK,SWE,4,22.5
+Operational,ALK,USA,1,220.0
+Operational,ALK,UZB,1,20.0
+Operational,ALK,ZAF,2,63.5
+Operational,ALK,n/a,1,568.1
+Operational,Other Electrolysis,AUS,2,0.4
+Operational,Other Electrolysis,AUT,1,1.0
+Operational,Other Electrolysis,BRA,1,0.9
+Operational,Other Electrolysis,CHE,2,4.5
+Operational,Other Electrolysis,CHL,4,0.2
+Operational,Other Electrolysis,CHN,11,761.1
+Operational,Other Electrolysis,DEU,7,3.9
+Operational,Other Electrolysis,DNK,2,6.2
+Operational,Other Electrolysis,ESP,3,13.0
+Operational,Other Electrolysis,EST,1,0.1
+Operational,Other Electrolysis,FIN,1,0.7
+Operational,Other Electrolysis,FRA,5,9.4
+Operational,Other Electrolysis,GBR,6,3.8
+Operational,Other Electrolysis,GRC,2,1.1
+Operational,Other Electrolysis,IDN,1,0.3
+Operational,Other Electrolysis,IND,7,7.2
+Operational,Other Electrolysis,IRN,1,0.2
+Operational,Other Electrolysis,ISL,2,6.7
+Operational,Other Electrolysis,JPN,3,16.1
+Operational,Other Electrolysis,NAM,1,4.0
+Operational,Other Electrolysis,NLD,3,2.0
+Operational,Other Electrolysis,NOR,1,1.0
+Operational,Other Electrolysis,PER,1,0.0
+Operational,Other Electrolysis,POL,3,24.8
+Operational,Other Electrolysis,SGP,2,0.1
+Operational,Other Electrolysis,SVN,3,0.6
+Operational,Other Electrolysis,TUR,1,0.0
+Operational,Other Electrolysis,TWN,1,25.0
+Operational,Other Electrolysis,USA,4,8.0
+Operational,Other Electrolysis,n/a,1,59.2
+Operational,PEM,ARE,1,1.2
+Operational,PEM,AUS,10,7.4
+Operational,PEM,AUT,7,25.7
+Operational,PEM,BEL,1,1.0
+Operational,PEM,BRA,1,3.0
+Operational,PEM,CAN,4,25.4
+Operational,PEM,CHE,3,4.8
+Operational,PEM,CHL,3,1.8
+Operational,PEM,CHN,5,23.1
+Operational,PEM,CRI,1,0.0
+Operational,PEM,DEU,34,168.7
+Operational,PEM,DNK,3,58.5
+Operational,PEM,EGY,1,15.0
+Operational,PEM,ESP,7,30.8
+Operational,PEM,FRA,4,8.3
+Operational,PEM,GBR,6,7.7
+Operational,PEM,HUN,3,13.0
+Operational,PEM,IND,7,17.4
+Operational,PEM,ITA,1,0.2
+Operational,PEM,JPN,14,3.6
+Operational,PEM,LVA,1,0.7
+Operational,PEM,NAM,1,5.0
+Operational,PEM,NLD,2,2.5
+Operational,PEM,NOR,4,29.5
+Operational,PEM,NZL,1,1.5
+Operational,PEM,POL,1,2.5
+Operational,PEM,PRT,1,0.3
+Operational,PEM,RUS,1,1.0
+Operational,PEM,SGP,2,0.0
+Operational,PEM,SWE,3,7.0
+Operational,PEM,THA,1,1.0
+Operational,PEM,USA,16,203.7
+Operational,PEM,n/a,1,21.5
+Operational,SOEC,AUT,1,0.1
+Operational,SOEC,DEU,2,1.7
+Operational,SOEC,ESP,1,0.0
+Operational,SOEC,ITA,1,0.0
+Operational,SOEC,NLD,1,2.6
+Various,Electrolysis,n/a,1,23350.8

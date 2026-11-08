@@ -163,6 +163,16 @@ Profiles in `research/companies/nvidia.md`, `research/companies/vertiv.md` and `
 | IEA World Energy Outlook 2025 | used | data/raw/WorldEnergyOutlook2025.pdf, copper shortfall on pages 207 and 250, refined share on page 253. https://www.iea.org/reports/world-energy-outlook-2025 |
 | UNIDO INDSTAT | blocked | No files in data/raw/unido. Automated access is blocked, so global ISIC output for copper using industries was not added. |
 
+
+## Update 8 November 2026: new structured datasets
+
+IEA Critical Minerals Dataset 2026 (data/clean/iea_critical_minerals_demand_2026.csv and _supply_2026.csv).
+
+1. Total copper demand 27,775 kt in 2025 and 32,359 kt in 2035 under Current Policies, of which electricity networks 4,544 kt rising to 6,398 kt and EVs 794 kt rising to 2,146 kt [IEA_CM_CU_BALANCE_2025_2035].
+2. Mine supply in the base case pipeline 23,227 kt in 2025 and 20,733 kt in 2035, refining 27,955 kt rising to 34,501 kt with China at 13,069 kt (47 percent) in 2025. The gap between demand and mine supply has to be closed by scrap and new projects, which is the "primary gap by 2035" in Table 2, now with an IEA anchor.
+3. Data centres. IEA Energy and AI puts data centre electricity use at about 945 TWh in 2030, more than double the about 415 TWh of 2024 [EE_IEA_DATACENTRE_TWH_2030]. This is the demand behind busbars and power distribution copper; the 2024 base is from trade press quoting the report (medium confidence).
+
+
 ## Open gaps
 
 TODO(data): UN Comtrade for HS 7403, HS 7409 and HS 7410, reporters and partners, 2019 to latest, value and kilograms. HS 7408 wire, including wire rod, is also absent and is needed to keep rod trade separate from strip.

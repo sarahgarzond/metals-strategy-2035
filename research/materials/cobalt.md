@@ -205,6 +205,17 @@ Smith & Nephew, customer, United Kingdom. Form 20-F annual report for 2025: orth
 | UNIDO INDSTAT (structural) | blocked | data/raw/unido/ has no dataset, only a placeholder. Automated access is blocked. Team download still needed. |
 | World Energy Outlook 2025 (prior IEA book, context for the 2026 outlook) | used | data/raw/WorldEnergyOutlook2025.pdf via pdftotext, PDF pages 62, 247, 249 and 353. |
 
+
+## Update 8 November 2026: new structured datasets
+
+IEA Critical Minerals Dataset 2026 (data/clean/iea_critical_minerals_demand_2026.csv and _supply_2026.csv).
+
+1. Demand rises from 259 kt in 2025 to 300 kt (Current Policies) or 322 kt (Stated Policies) in 2035. Uses outside energy technologies, which hold superalloys, hard metals and chemicals, grow from 169 kt to 181 kt [IEA_CM_CO_DEMAND_2025_2035].
+2. Mine supply in the IEA base case pipeline falls from 320 kt in 2025 to 252 kt in 2030 and 225 kt in 2035, with the DR Congo falling from 210 kt to 106 kt as known projects deplete, while Indonesia rises from 48 kt to 69 kt [IEA_CM_CO_SUPPLY_2025_2035]. Refining stays concentrated: China 180 of 238 kt (76 percent), Finland 20 kt.
+3. Implication. This is the strongest supply signal in the dataset: committed mine supply falls below 2035 demand unless new projects come forward. It strengthens the cobalt supply risk rating in Table 2 and supports a cobalt stress case in chapter 7. Caveat: the base case counts only projects with a probability weighting, so it understates future supply by design.
+4. Reconciliation. IEA DR Congo mine output 210 kt against USGS 230 kt, and the share is 73 percent in USGS. Use 73 percent in the report (fact check round 3).
+
+
 ## Open gaps
 
 - TODO(data): UN Comtrade HS 8105 and HS 2605, and the chemical codes HS 2822 (oxides and hydroxides) and HS 2833.29 (cobalt sulphate) if the portfolio pull is extended. Public preview quota was exceeded. No substitute trade file exists.

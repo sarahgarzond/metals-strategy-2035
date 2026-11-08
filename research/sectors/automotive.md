@@ -256,6 +256,12 @@ The current text in sections/05_1_automotive.md was not edited. These points sho
 
 UNIDO INDSTAT is not a required row for this sector. data/raw/unido/ has no file, and automated UNIDO access is blocked, so there is no global C29 output in one currency. The World Energy Outlook 2025 was read with pdftotext from data/raw/WorldEnergyOutlook2025.pdf and is the cross check on the 2035 electric share, at https://www.iea.org/reports/world-energy-outlook-2025.
 
+
+## Update 8 November 2026: new structured datasets
+
+EU 2035 car CO2 rule (source added from the team's Google Doc). On 22 October 2026 the European Parliament's Industry (ITRE, 49 to 27, 5 abstentions) and Transport (TRAN, 27 to 18) committees backed a compromise of EPP, S&D and Renew: new cars must cut CO2 by 95 percent instead of 100 percent against 2021 by 2035, and the target can fall to 87.5 percent if manufacturers use low carbon steel made in Europe as credit [AUTO_EU_COMMITTEE_VOTE_2026]. The Commission had proposed 90 percent. The Environment Committee follows in early November and the plenary is likely in December 2026, then the Council. Implication: some combustion and hybrid cars can still be registered in the EU after 2035, which slows but does not reverse the decline of engine alloy demand. The team's Lovguiden source (4 November 2026) could not be read (HTTP 429) and is not used.
+
+
 ## Open gaps
 
 * TODO(data): UN Comtrade for the parts that carry this demand (turbochargers, exhaust systems, spark plugs, nickel strip and foil). Not pulled. Quota exceeded and fetch.py was not run.

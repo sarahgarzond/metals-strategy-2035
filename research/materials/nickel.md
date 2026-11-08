@@ -250,6 +250,16 @@ Nippon Yakin is the Japanese flat product competitor with an integrated ferronic
 | OECD STAN P1 and B1G | used | data/clean/oecd_stan_P1.csv and data/clean/oecd_stan_B1G.csv, activity C24, current prices, national currency. Germany through 2023. Not a nickel balance. |
 | UNIDO INDSTAT | blocked | data/raw/unido contains only an empty placeholder file. No INDSTAT extract is on disk. Automated UNIDO access is blocked, so global manufacturing output by ISIC is not used. |
 
+
+## Update 8 November 2026: new structured datasets
+
+IEA Critical Minerals Dataset 2026 (raw file data/raw/iea/IEA_Critical_Minerals_Dataset_2026.xlsx, clean files data/clean/iea_critical_minerals_demand_2026.csv and _supply_2026.csv).
+
+1. Demand. Total nickel demand was 3,532 kt in 2025 and reaches 4,994 kt in 2035 under Current Policies and 5,292 kt under Stated Policies [IEA_CM_NI_DEMAND_2025_2035]. Demand outside energy technologies, which holds stainless steel and nickel alloys, grows only from 2,906 kt to 3,255 kt, about 1.1 percent a year, so almost all growth comes from batteries, where EV demand rises from 439 kt to 1,294 to 1,536 kt [IEA_CM_NI_OTHER_2025_2035, IEA_CM_NI_EV_2025_2035]. The IEA does not split "other uses" into stainless steel and alloys, so the alloy share stays a team assumption.
+2. Supply. Mine supply in the base case pipeline is 4,207 kt in 2025 and 4,950 kt in 2035, refined supply 3,729 kt and 4,202 kt [IEA_CM_NI_SUPPLY_2025_2035]. Indonesia holds 2,637 kt of mine supply (63 percent) and 1,681 kt of refining (45 percent), China 1,160 kt of refining. Stage check: these are contained nickel, mine and refined kept on separate lines, and the IEA mine total (4.2 Mt) is higher than USGS (3.9 Mt), which is a definitional difference to state, not average.
+3. Implication. Supply grows faster than non battery demand, which supports the surplus reading of chapter 4. The constraint for alloys is the class 1 grade and the qualified product form, not nickel units.
+
+
 ## Open gaps
 
 TODO(data): UN Comtrade preview quota was exceeded on 7 November 2026. HS 2604 nickel ores, HS 7501 mattes, HS 7502 unwrought nickel, HS 7504 powders, HS 7505 bar and wire, HS 7507 tube and HS 7508 other articles were not pulled. HS 7506 is German exports only. German imports and all other reporters are missing, so class 1 sourcing dependence cannot be measured yet.

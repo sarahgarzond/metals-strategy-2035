@@ -1,0 +1,753 @@
+mineral,item,scenario,year,kt
+Copper,Solar PV,Current Policies,2025,1970
+Copper,Solar PV,Current Policies,2030,2044
+Copper,Solar PV,Current Policies,2035,1731
+Copper,Solar PV,Current Policies,2040,1755
+Copper,Solar PV,Current Policies,2045,1990
+Copper,Solar PV,Current Policies,2050,2099
+Copper,Solar PV,Stated Policies,2030,2222
+Copper,Solar PV,Stated Policies,2035,2164
+Copper,Solar PV,Stated Policies,2040,2219
+Copper,Solar PV,Stated Policies,2045,2286
+Copper,Solar PV,Stated Policies,2050,2300
+Copper,Solar PV,High Demand,2030,2803
+Copper,Solar PV,High Demand,2035,2726
+Copper,Solar PV,High Demand,2040,2626
+Copper,Solar PV,High Demand,2045,2448
+Copper,Solar PV,High Demand,2050,2758
+Copper,Wind,Current Policies,2025,542
+Copper,Wind,Current Policies,2030,673
+Copper,Wind,Current Policies,2035,636
+Copper,Wind,Current Policies,2040,523
+Copper,Wind,Current Policies,2045,572
+Copper,Wind,Current Policies,2050,652
+Copper,Wind,Stated Policies,2030,791
+Copper,Wind,Stated Policies,2035,734
+Copper,Wind,Stated Policies,2040,571
+Copper,Wind,Stated Policies,2045,615
+Copper,Wind,Stated Policies,2050,731
+Copper,Wind,High Demand,2030,1172
+Copper,Wind,High Demand,2035,1038
+Copper,Wind,High Demand,2040,919
+Copper,Wind,High Demand,2045,968
+Copper,Wind,High Demand,2050,1314
+Copper,Other low emissions power generation,Current Policies,2025,57.8
+Copper,Other low emissions power generation,Current Policies,2030,123
+Copper,Other low emissions power generation,Current Policies,2035,100
+Copper,Other low emissions power generation,Current Policies,2040,99.7
+Copper,Other low emissions power generation,Current Policies,2045,104
+Copper,Other low emissions power generation,Current Policies,2050,105
+Copper,Other low emissions power generation,Stated Policies,2030,128
+Copper,Other low emissions power generation,Stated Policies,2035,108
+Copper,Other low emissions power generation,Stated Policies,2040,110
+Copper,Other low emissions power generation,Stated Policies,2045,113
+Copper,Other low emissions power generation,Stated Policies,2050,114
+Copper,Other low emissions power generation,High Demand,2030,166
+Copper,Other low emissions power generation,High Demand,2035,155
+Copper,Other low emissions power generation,High Demand,2040,135
+Copper,Other low emissions power generation,High Demand,2045,137
+Copper,Other low emissions power generation,High Demand,2050,121
+Copper,Electric vehicles,Current Policies,2025,794
+Copper,Electric vehicles,Current Policies,2030,1623
+Copper,Electric vehicles,Current Policies,2035,2146
+Copper,Electric vehicles,Current Policies,2040,2359
+Copper,Electric vehicles,Current Policies,2045,2385
+Copper,Electric vehicles,Current Policies,2050,2391
+Copper,Electric vehicles,Stated Policies,2030,1763
+Copper,Electric vehicles,Stated Policies,2035,2561
+Copper,Electric vehicles,Stated Policies,2040,3046
+Copper,Electric vehicles,Stated Policies,2045,3288
+Copper,Electric vehicles,Stated Policies,2050,3476
+Copper,Electric vehicles,High Demand,2030,2017
+Copper,Electric vehicles,High Demand,2035,3258
+Copper,Electric vehicles,High Demand,2040,4143
+Copper,Electric vehicles,High Demand,2045,4473
+Copper,Electric vehicles,High Demand,2050,4750
+Copper,Grid battery storage,Current Policies,2025,137
+Copper,Grid battery storage,Current Policies,2030,180
+Copper,Grid battery storage,Current Policies,2035,292
+Copper,Grid battery storage,Current Policies,2040,369
+Copper,Grid battery storage,Current Policies,2045,463
+Copper,Grid battery storage,Current Policies,2050,512
+Copper,Grid battery storage,Stated Policies,2030,218
+Copper,Grid battery storage,Stated Policies,2035,350
+Copper,Grid battery storage,Stated Policies,2040,460
+Copper,Grid battery storage,Stated Policies,2045,565
+Copper,Grid battery storage,Stated Policies,2050,642
+Copper,Grid battery storage,High Demand,2030,281
+Copper,Grid battery storage,High Demand,2035,441
+Copper,Grid battery storage,High Demand,2040,610
+Copper,Grid battery storage,High Demand,2045,732
+Copper,Grid battery storage,High Demand,2050,859
+Copper,Electricity networks,Current Policies,2025,4544
+Copper,Electricity networks,Current Policies,2030,5637
+Copper,Electricity networks,Current Policies,2035,6398
+Copper,Electricity networks,Current Policies,2040,6693
+Copper,Electricity networks,Current Policies,2045,6572
+Copper,Electricity networks,Current Policies,2050,6430
+Copper,Electricity networks,Stated Policies,2030,5713
+Copper,Electricity networks,Stated Policies,2035,6449
+Copper,Electricity networks,Stated Policies,2040,6631
+Copper,Electricity networks,Stated Policies,2045,6484
+Copper,Electricity networks,Stated Policies,2050,6316
+Copper,Electricity networks,High Demand,2030,6002
+Copper,Electricity networks,High Demand,2035,6924
+Copper,Electricity networks,High Demand,2040,7181
+Copper,Electricity networks,High Demand,2045,6987
+Copper,Electricity networks,High Demand,2050,6815
+Copper,Hydrogen technologies,Current Policies,2025,0.00585
+Copper,Hydrogen technologies,Current Policies,2030,0.0119
+Copper,Hydrogen technologies,Current Policies,2035,0.0132
+Copper,Hydrogen technologies,Current Policies,2040,0.0104
+Copper,Hydrogen technologies,Current Policies,2045,0.01
+Copper,Hydrogen technologies,Current Policies,2050,0.0137
+Copper,Hydrogen technologies,Stated Policies,2030,0.0119
+Copper,Hydrogen technologies,Stated Policies,2035,0.0132
+Copper,Hydrogen technologies,Stated Policies,2040,0.0104
+Copper,Hydrogen technologies,Stated Policies,2045,0.01
+Copper,Hydrogen technologies,Stated Policies,2050,0.0137
+Copper,Hydrogen technologies,High Demand,2030,0.083
+Copper,Hydrogen technologies,High Demand,2035,0.082
+Copper,Hydrogen technologies,High Demand,2040,0.0824
+Copper,Hydrogen technologies,High Demand,2045,0.115
+Copper,Hydrogen technologies,High Demand,2050,0.163
+Copper,Total energy technologies,Current Policies,2025,8003
+Copper,Total energy technologies,Current Policies,2030,10232
+Copper,Total energy technologies,Current Policies,2035,11296
+Copper,Total energy technologies,Current Policies,2040,11822
+Copper,Total energy technologies,Current Policies,2045,12081
+Copper,Total energy technologies,Current Policies,2050,12174
+Copper,Total energy technologies,Stated Policies,2030,10765
+Copper,Total energy technologies,Stated Policies,2035,12364
+Copper,Total energy technologies,Stated Policies,2040,13073
+Copper,Total energy technologies,Stated Policies,2045,13362
+Copper,Total energy technologies,Stated Policies,2050,13559
+Copper,Total energy technologies,High Demand,2030,12302
+Copper,Total energy technologies,High Demand,2035,14552
+Copper,Total energy technologies,High Demand,2040,15668
+Copper,Total energy technologies,High Demand,2045,15828
+Copper,Total energy technologies,High Demand,2050,16572
+Copper,Other uses,Current Policies,2025,19772
+Copper,Other uses,Current Policies,2030,20560
+Copper,Other uses,Current Policies,2035,21063
+Copper,Other uses,Current Policies,2040,21757
+Copper,Other uses,Current Policies,2045,22999
+Copper,Other uses,Current Policies,2050,23714
+Copper,Other uses,Stated Policies,2030,20605
+Copper,Other uses,Stated Policies,2035,21158
+Copper,Other uses,Stated Policies,2040,21911
+Copper,Other uses,Stated Policies,2045,23218
+Copper,Other uses,Stated Policies,2050,24014
+Copper,Other uses,High Demand,2030,19665
+Copper,Other uses,High Demand,2035,19742
+Copper,Other uses,High Demand,2040,20051
+Copper,Other uses,High Demand,2045,20945
+Copper,Other uses,High Demand,2050,21495
+Copper,Total demand,Current Policies,2025,27775
+Copper,Total demand,Current Policies,2030,30792
+Copper,Total demand,Current Policies,2035,32359
+Copper,Total demand,Current Policies,2040,33580
+Copper,Total demand,Current Policies,2045,35080
+Copper,Total demand,Current Policies,2050,35888
+Copper,Total demand,Stated Policies,2030,31370
+Copper,Total demand,Stated Policies,2035,33522
+Copper,Total demand,Stated Policies,2040,34984
+Copper,Total demand,Stated Policies,2045,36579
+Copper,Total demand,Stated Policies,2050,37572
+Copper,Total demand,High Demand,2030,31967
+Copper,Total demand,High Demand,2035,34294
+Copper,Total demand,High Demand,2040,35719
+Copper,Total demand,High Demand,2045,36773
+Copper,Total demand,High Demand,2050,38066
+Copper,Share of energy technologies in total demand,Current Policies,2025,0.288
+Copper,Share of energy technologies in total demand,Current Policies,2030,0.332
+Copper,Share of energy technologies in total demand,Current Policies,2035,0.349
+Copper,Share of energy technologies in total demand,Current Policies,2040,0.352
+Copper,Share of energy technologies in total demand,Current Policies,2045,0.344
+Copper,Share of energy technologies in total demand,Current Policies,2050,0.339
+Copper,Share of energy technologies in total demand,Stated Policies,2030,0.343
+Copper,Share of energy technologies in total demand,Stated Policies,2035,0.369
+Copper,Share of energy technologies in total demand,Stated Policies,2040,0.374
+Copper,Share of energy technologies in total demand,Stated Policies,2045,0.365
+Copper,Share of energy technologies in total demand,Stated Policies,2050,0.361
+Copper,Share of energy technologies in total demand,High Demand,2030,0.385
+Copper,Share of energy technologies in total demand,High Demand,2035,0.424
+Copper,Share of energy technologies in total demand,High Demand,2040,0.439
+Copper,Share of energy technologies in total demand,High Demand,2045,0.43
+Copper,Share of energy technologies in total demand,High Demand,2050,0.435
+Cobalt,Low emissions power generation,Current Policies,2025,0.0123
+Cobalt,Low emissions power generation,Current Policies,2030,0.0281
+Cobalt,Low emissions power generation,Current Policies,2035,0.0109
+Cobalt,Low emissions power generation,Current Policies,2040,0.0133
+Cobalt,Low emissions power generation,Current Policies,2045,0.0127
+Cobalt,Low emissions power generation,Current Policies,2050,0.0181
+Cobalt,Low emissions power generation,Stated Policies,2030,0.0287
+Cobalt,Low emissions power generation,Stated Policies,2035,0.0115
+Cobalt,Low emissions power generation,Stated Policies,2040,0.0141
+Cobalt,Low emissions power generation,Stated Policies,2045,0.0133
+Cobalt,Low emissions power generation,Stated Policies,2050,0.0187
+Cobalt,Low emissions power generation,High Demand,2030,0.0352
+Cobalt,Low emissions power generation,High Demand,2035,0.0323
+Cobalt,Low emissions power generation,High Demand,2040,0.0278
+Cobalt,Low emissions power generation,High Demand,2045,0.0246
+Cobalt,Low emissions power generation,High Demand,2050,0.0261
+Cobalt,Electric vehicles,Current Policies,2025,84.5
+Cobalt,Electric vehicles,Current Policies,2030,119
+Cobalt,Electric vehicles,Current Policies,2035,116
+Cobalt,Electric vehicles,Current Policies,2040,109
+Cobalt,Electric vehicles,Current Policies,2045,118
+Cobalt,Electric vehicles,Current Policies,2050,118
+Cobalt,Electric vehicles,Stated Policies,2030,130
+Cobalt,Electric vehicles,Stated Policies,2035,137
+Cobalt,Electric vehicles,Stated Policies,2040,139
+Cobalt,Electric vehicles,Stated Policies,2045,160
+Cobalt,Electric vehicles,Stated Policies,2050,167
+Cobalt,Electric vehicles,High Demand,2030,147
+Cobalt,Electric vehicles,High Demand,2035,173
+Cobalt,Electric vehicles,High Demand,2040,190
+Cobalt,Electric vehicles,High Demand,2045,219
+Cobalt,Electric vehicles,High Demand,2050,233
+Cobalt,Grid battery storage,Current Policies,2025,5.92
+Cobalt,Grid battery storage,Current Policies,2030,3.83
+Cobalt,Grid battery storage,Current Policies,2035,2.93
+Cobalt,Grid battery storage,Current Policies,2040,0
+Cobalt,Grid battery storage,Current Policies,2045,0
+Cobalt,Grid battery storage,Current Policies,2050,0
+Cobalt,Grid battery storage,Stated Policies,2030,4.64
+Cobalt,Grid battery storage,Stated Policies,2035,3.5
+Cobalt,Grid battery storage,Stated Policies,2040,0
+Cobalt,Grid battery storage,Stated Policies,2045,0
+Cobalt,Grid battery storage,Stated Policies,2050,0
+Cobalt,Grid battery storage,High Demand,2030,5.98
+Cobalt,Grid battery storage,High Demand,2035,4.41
+Cobalt,Grid battery storage,High Demand,2040,0
+Cobalt,Grid battery storage,High Demand,2045,0
+Cobalt,Grid battery storage,High Demand,2050,0
+Cobalt,Hydrogen technologies,Current Policies,2025,0.00972
+Cobalt,Hydrogen technologies,Current Policies,2030,0.0041
+Cobalt,Hydrogen technologies,Current Policies,2035,0.00452
+Cobalt,Hydrogen technologies,Current Policies,2040,0.00357
+Cobalt,Hydrogen technologies,Current Policies,2045,0.00343
+Cobalt,Hydrogen technologies,Current Policies,2050,0.0047
+Cobalt,Hydrogen technologies,Stated Policies,2030,0.0041
+Cobalt,Hydrogen technologies,Stated Policies,2035,0.00452
+Cobalt,Hydrogen technologies,Stated Policies,2040,0.00357
+Cobalt,Hydrogen technologies,Stated Policies,2045,0.00343
+Cobalt,Hydrogen technologies,Stated Policies,2050,0.0047
+Cobalt,Hydrogen technologies,High Demand,2030,0.0285
+Cobalt,Hydrogen technologies,High Demand,2035,0.0281
+Cobalt,Hydrogen technologies,High Demand,2040,0.0283
+Cobalt,Hydrogen technologies,High Demand,2045,0.0396
+Cobalt,Hydrogen technologies,High Demand,2050,0.056
+Cobalt,Total energy technologies,Current Policies,2025,90.4
+Cobalt,Total energy technologies,Current Policies,2030,123
+Cobalt,Total energy technologies,Current Policies,2035,119
+Cobalt,Total energy technologies,Current Policies,2040,109
+Cobalt,Total energy technologies,Current Policies,2045,118
+Cobalt,Total energy technologies,Current Policies,2050,118
+Cobalt,Total energy technologies,Stated Policies,2030,134
+Cobalt,Total energy technologies,Stated Policies,2035,141
+Cobalt,Total energy technologies,Stated Policies,2040,139
+Cobalt,Total energy technologies,Stated Policies,2045,160
+Cobalt,Total energy technologies,Stated Policies,2050,167
+Cobalt,Total energy technologies,High Demand,2030,153
+Cobalt,Total energy technologies,High Demand,2035,177
+Cobalt,Total energy technologies,High Demand,2040,190
+Cobalt,Total energy technologies,High Demand,2045,219
+Cobalt,Total energy technologies,High Demand,2050,233
+Cobalt,Other uses,Current Policies,2025,169
+Cobalt,Other uses,Current Policies,2030,164
+Cobalt,Other uses,Current Policies,2035,181
+Cobalt,Other uses,Current Policies,2040,195
+Cobalt,Other uses,Current Policies,2045,208
+Cobalt,Other uses,Current Policies,2050,222
+Cobalt,Other uses,Stated Policies,2030,164
+Cobalt,Other uses,Stated Policies,2035,181
+Cobalt,Other uses,Stated Policies,2040,195
+Cobalt,Other uses,Stated Policies,2045,208
+Cobalt,Other uses,Stated Policies,2050,222
+Cobalt,Other uses,High Demand,2030,164
+Cobalt,Other uses,High Demand,2035,180
+Cobalt,Other uses,High Demand,2040,193
+Cobalt,Other uses,High Demand,2045,206
+Cobalt,Other uses,High Demand,2050,219
+Cobalt,Total demand,Current Policies,2025,259
+Cobalt,Total demand,Current Policies,2030,286
+Cobalt,Total demand,Current Policies,2035,300
+Cobalt,Total demand,Current Policies,2040,303
+Cobalt,Total demand,Current Policies,2045,327
+Cobalt,Total demand,Current Policies,2050,340
+Cobalt,Total demand,Stated Policies,2030,298
+Cobalt,Total demand,Stated Policies,2035,322
+Cobalt,Total demand,Stated Policies,2040,334
+Cobalt,Total demand,Stated Policies,2045,368
+Cobalt,Total demand,Stated Policies,2050,389
+Cobalt,Total demand,High Demand,2030,317
+Cobalt,Total demand,High Demand,2035,357
+Cobalt,Total demand,High Demand,2040,383
+Cobalt,Total demand,High Demand,2045,425
+Cobalt,Total demand,High Demand,2050,452
+Cobalt,Share of energy technologies in total demand,Current Policies,2025,0.349
+Cobalt,Share of energy technologies in total demand,Current Policies,2030,0.429
+Cobalt,Share of energy technologies in total demand,Current Policies,2035,0.396
+Cobalt,Share of energy technologies in total demand,Current Policies,2040,0.358
+Cobalt,Share of energy technologies in total demand,Current Policies,2045,0.362
+Cobalt,Share of energy technologies in total demand,Current Policies,2050,0.347
+Cobalt,Share of energy technologies in total demand,Stated Policies,2030,0.451
+Cobalt,Share of energy technologies in total demand,Stated Policies,2035,0.438
+Cobalt,Share of energy technologies in total demand,Stated Policies,2040,0.417
+Cobalt,Share of energy technologies in total demand,Stated Policies,2045,0.434
+Cobalt,Share of energy technologies in total demand,Stated Policies,2050,0.429
+Cobalt,Share of energy technologies in total demand,High Demand,2030,0.483
+Cobalt,Share of energy technologies in total demand,High Demand,2035,0.495
+Cobalt,Share of energy technologies in total demand,High Demand,2040,0.496
+Cobalt,Share of energy technologies in total demand,High Demand,2045,0.516
+Cobalt,Share of energy technologies in total demand,High Demand,2050,0.516
+Lithium,Electric vehicles,Current Policies,2025,171
+Lithium,Electric vehicles,Current Policies,2030,333
+Lithium,Electric vehicles,Current Policies,2035,478
+Lithium,Electric vehicles,Current Policies,2040,594
+Lithium,Electric vehicles,Current Policies,2045,641
+Lithium,Electric vehicles,Current Policies,2050,636
+Lithium,Electric vehicles,Stated Policies,2030,365
+Lithium,Electric vehicles,Stated Policies,2035,572
+Lithium,Electric vehicles,Stated Policies,2040,765
+Lithium,Electric vehicles,Stated Policies,2045,876
+Lithium,Electric vehicles,Stated Policies,2050,911
+Lithium,Electric vehicles,High Demand,2030,416
+Lithium,Electric vehicles,High Demand,2035,720
+Lithium,Electric vehicles,High Demand,2040,1037
+Lithium,Electric vehicles,High Demand,2045,1194
+Lithium,Electric vehicles,High Demand,2050,1260
+Lithium,Grid battery storage,Current Policies,2025,31.8
+Lithium,Grid battery storage,Current Policies,2030,34.8
+Lithium,Grid battery storage,Current Policies,2035,49.8
+Lithium,Grid battery storage,Current Policies,2040,57.2
+Lithium,Grid battery storage,Current Policies,2045,68.6
+Lithium,Grid battery storage,Current Policies,2050,72
+Lithium,Grid battery storage,Stated Policies,2030,42.1
+Lithium,Grid battery storage,Stated Policies,2035,59.6
+Lithium,Grid battery storage,Stated Policies,2040,71.2
+Lithium,Grid battery storage,Stated Policies,2045,83.8
+Lithium,Grid battery storage,Stated Policies,2050,90.3
+Lithium,Grid battery storage,High Demand,2030,54.2
+Lithium,Grid battery storage,High Demand,2035,75.1
+Lithium,Grid battery storage,High Demand,2040,94.4
+Lithium,Grid battery storage,High Demand,2045,109
+Lithium,Grid battery storage,High Demand,2050,121
+Lithium,Total energy technologies,Current Policies,2025,203
+Lithium,Total energy technologies,Current Policies,2030,368
+Lithium,Total energy technologies,Current Policies,2035,528
+Lithium,Total energy technologies,Current Policies,2040,652
+Lithium,Total energy technologies,Current Policies,2045,710
+Lithium,Total energy technologies,Current Policies,2050,708
+Lithium,Total energy technologies,Stated Policies,2030,407
+Lithium,Total energy technologies,Stated Policies,2035,632
+Lithium,Total energy technologies,Stated Policies,2040,836
+Lithium,Total energy technologies,Stated Policies,2045,960
+Lithium,Total energy technologies,Stated Policies,2050,1002
+Lithium,Total energy technologies,High Demand,2030,470
+Lithium,Total energy technologies,High Demand,2035,795
+Lithium,Total energy technologies,High Demand,2040,1131
+Lithium,Total energy technologies,High Demand,2045,1302
+Lithium,Total energy technologies,High Demand,2050,1381
+Lithium,Other uses,Current Policies,2025,71.9
+Lithium,Other uses,Current Policies,2030,69.8
+Lithium,Other uses,Current Policies,2035,85.1
+Lithium,Other uses,Current Policies,2040,96
+Lithium,Other uses,Current Policies,2045,108
+Lithium,Other uses,Current Policies,2050,120
+Lithium,Other uses,Stated Policies,2030,69.8
+Lithium,Other uses,Stated Policies,2035,85.1
+Lithium,Other uses,Stated Policies,2040,96
+Lithium,Other uses,Stated Policies,2045,108
+Lithium,Other uses,Stated Policies,2050,120
+Lithium,Other uses,High Demand,2030,69.8
+Lithium,Other uses,High Demand,2035,85.1
+Lithium,Other uses,High Demand,2040,96
+Lithium,Other uses,High Demand,2045,108
+Lithium,Other uses,High Demand,2050,120
+Lithium,Total demand,Current Policies,2025,275
+Lithium,Total demand,Current Policies,2030,438
+Lithium,Total demand,Current Policies,2035,613
+Lithium,Total demand,Current Policies,2040,748
+Lithium,Total demand,Current Policies,2045,817
+Lithium,Total demand,Current Policies,2050,828
+Lithium,Total demand,Stated Policies,2030,476
+Lithium,Total demand,Stated Policies,2035,717
+Lithium,Total demand,Stated Policies,2040,932
+Lithium,Total demand,Stated Policies,2045,1068
+Lithium,Total demand,Stated Policies,2050,1122
+Lithium,Total demand,High Demand,2030,540
+Lithium,Total demand,High Demand,2035,881
+Lithium,Total demand,High Demand,2040,1227
+Lithium,Total demand,High Demand,2045,1410
+Lithium,Total demand,High Demand,2050,1501
+Lithium,Share of energy technologies in total demand,Current Policies,2025,0.738
+Lithium,Share of energy technologies in total demand,Current Policies,2030,0.841
+Lithium,Share of energy technologies in total demand,Current Policies,2035,0.861
+Lithium,Share of energy technologies in total demand,Current Policies,2040,0.872
+Lithium,Share of energy technologies in total demand,Current Policies,2045,0.868
+Lithium,Share of energy technologies in total demand,Current Policies,2050,0.855
+Lithium,Share of energy technologies in total demand,Stated Policies,2030,0.854
+Lithium,Share of energy technologies in total demand,Stated Policies,2035,0.881
+Lithium,Share of energy technologies in total demand,Stated Policies,2040,0.897
+Lithium,Share of energy technologies in total demand,Stated Policies,2045,0.899
+Lithium,Share of energy technologies in total demand,Stated Policies,2050,0.893
+Lithium,Share of energy technologies in total demand,High Demand,2030,0.871
+Lithium,Share of energy technologies in total demand,High Demand,2035,0.903
+Lithium,Share of energy technologies in total demand,High Demand,2040,0.922
+Lithium,Share of energy technologies in total demand,High Demand,2045,0.924
+Lithium,Share of energy technologies in total demand,High Demand,2050,0.92
+Nickel,Solar PV,Current Policies,2025,0.722
+Nickel,Solar PV,Current Policies,2030,0.753
+Nickel,Solar PV,Current Policies,2035,0.645
+Nickel,Solar PV,Current Policies,2040,0.654
+Nickel,Solar PV,Current Policies,2045,0.73
+Nickel,Solar PV,Current Policies,2050,0.769
+Nickel,Solar PV,Stated Policies,2030,0.823
+Nickel,Solar PV,Stated Policies,2035,0.807
+Nickel,Solar PV,Stated Policies,2040,0.828
+Nickel,Solar PV,Stated Policies,2045,0.848
+Nickel,Solar PV,Stated Policies,2050,0.847
+Nickel,Solar PV,High Demand,2030,1.04
+Nickel,Solar PV,High Demand,2035,1.03
+Nickel,Solar PV,High Demand,2040,0.995
+Nickel,Solar PV,High Demand,2045,0.922
+Nickel,Solar PV,High Demand,2050,1.03
+Nickel,Wind,Current Policies,2025,52.1
+Nickel,Wind,Current Policies,2030,58.8
+Nickel,Wind,Current Policies,2035,49.2
+Nickel,Wind,Current Policies,2040,44.9
+Nickel,Wind,Current Policies,2045,51.9
+Nickel,Wind,Current Policies,2050,59.3
+Nickel,Wind,Stated Policies,2030,67.4
+Nickel,Wind,Stated Policies,2035,56.8
+Nickel,Wind,Stated Policies,2040,49.3
+Nickel,Wind,Stated Policies,2045,55.3
+Nickel,Wind,Stated Policies,2050,65.3
+Nickel,Wind,High Demand,2030,91.8
+Nickel,Wind,High Demand,2035,84.2
+Nickel,Wind,High Demand,2040,74.2
+Nickel,Wind,High Demand,2045,75.7
+Nickel,Wind,High Demand,2050,102
+Nickel,Other low emissions power generation,Current Policies,2025,104
+Nickel,Other low emissions power generation,Current Policies,2030,244
+Nickel,Other low emissions power generation,Current Policies,2035,276
+Nickel,Other low emissions power generation,Current Policies,2040,273
+Nickel,Other low emissions power generation,Current Policies,2045,264
+Nickel,Other low emissions power generation,Current Policies,2050,232
+Nickel,Other low emissions power generation,Stated Policies,2030,275
+Nickel,Other low emissions power generation,Stated Policies,2035,302
+Nickel,Other low emissions power generation,Stated Policies,2040,299
+Nickel,Other low emissions power generation,Stated Policies,2045,289
+Nickel,Other low emissions power generation,Stated Policies,2050,254
+Nickel,Other low emissions power generation,High Demand,2030,361
+Nickel,Other low emissions power generation,High Demand,2035,353
+Nickel,Other low emissions power generation,High Demand,2040,381
+Nickel,Other low emissions power generation,High Demand,2045,358
+Nickel,Other low emissions power generation,High Demand,2050,444
+Nickel,Electric vehicles,Current Policies,2025,439
+Nickel,Electric vehicles,Current Policies,2030,909
+Nickel,Electric vehicles,Current Policies,2035,1294
+Nickel,Electric vehicles,Current Policies,2040,1449
+Nickel,Electric vehicles,Current Policies,2045,1492
+Nickel,Electric vehicles,Current Policies,2050,1448
+Nickel,Electric vehicles,Stated Policies,2030,989
+Nickel,Electric vehicles,Stated Policies,2035,1536
+Nickel,Electric vehicles,Stated Policies,2040,1851
+Nickel,Electric vehicles,Stated Policies,2045,2020
+Nickel,Electric vehicles,Stated Policies,2050,2054
+Nickel,Electric vehicles,High Demand,2030,1119
+Nickel,Electric vehicles,High Demand,2035,1920
+Nickel,Electric vehicles,High Demand,2040,2500
+Nickel,Electric vehicles,High Demand,2045,2748
+Nickel,Electric vehicles,High Demand,2050,2839
+Nickel,Grid battery storage,Current Policies,2025,27.6
+Nickel,Grid battery storage,Current Policies,2030,59
+Nickel,Grid battery storage,Current Policies,2035,112
+Nickel,Grid battery storage,Current Policies,2040,160
+Nickel,Grid battery storage,Current Policies,2045,235
+Nickel,Grid battery storage,Current Policies,2050,305
+Nickel,Grid battery storage,Stated Policies,2030,71.4
+Nickel,Grid battery storage,Stated Policies,2035,134
+Nickel,Grid battery storage,Stated Policies,2040,199
+Nickel,Grid battery storage,Stated Policies,2045,287
+Nickel,Grid battery storage,Stated Policies,2050,382
+Nickel,Grid battery storage,High Demand,2030,92.1
+Nickel,Grid battery storage,High Demand,2035,169
+Nickel,Grid battery storage,High Demand,2040,264
+Nickel,Grid battery storage,High Demand,2045,371
+Nickel,Grid battery storage,High Demand,2050,512
+Nickel,Hydrogen technologies,Current Policies,2025,2.31
+Nickel,Hydrogen technologies,Current Policies,2030,4.71
+Nickel,Hydrogen technologies,Current Policies,2035,5.19
+Nickel,Hydrogen technologies,Current Policies,2040,4.09
+Nickel,Hydrogen technologies,Current Policies,2045,3.93
+Nickel,Hydrogen technologies,Current Policies,2050,5.37
+Nickel,Hydrogen technologies,Stated Policies,2030,4.71
+Nickel,Hydrogen technologies,Stated Policies,2035,5.19
+Nickel,Hydrogen technologies,Stated Policies,2040,4.09
+Nickel,Hydrogen technologies,Stated Policies,2045,3.93
+Nickel,Hydrogen technologies,Stated Policies,2050,5.37
+Nickel,Hydrogen technologies,High Demand,2030,32.8
+Nickel,Hydrogen technologies,High Demand,2035,32.3
+Nickel,Hydrogen technologies,High Demand,2040,32.4
+Nickel,Hydrogen technologies,High Demand,2045,45.3
+Nickel,Hydrogen technologies,High Demand,2050,64
+Nickel,Total energy technologies,Current Policies,2025,625
+Nickel,Total energy technologies,Current Policies,2030,1276
+Nickel,Total energy technologies,Current Policies,2035,1738
+Nickel,Total energy technologies,Current Policies,2040,1932
+Nickel,Total energy technologies,Current Policies,2045,2048
+Nickel,Total energy technologies,Current Policies,2050,2051
+Nickel,Total energy technologies,Stated Policies,2030,1409
+Nickel,Total energy technologies,Stated Policies,2035,2037
+Nickel,Total energy technologies,Stated Policies,2040,2403
+Nickel,Total energy technologies,Stated Policies,2045,2656
+Nickel,Total energy technologies,Stated Policies,2050,2763
+Nickel,Total energy technologies,High Demand,2030,1698
+Nickel,Total energy technologies,High Demand,2035,2560
+Nickel,Total energy technologies,High Demand,2040,3253
+Nickel,Total energy technologies,High Demand,2045,3600
+Nickel,Total energy technologies,High Demand,2050,3963
+Nickel,Other uses,Current Policies,2025,2906
+Nickel,Other uses,Current Policies,2030,3055
+Nickel,Other uses,Current Policies,2035,3255
+Nickel,Other uses,Current Policies,2040,3429
+Nickel,Other uses,Current Policies,2045,3594
+Nickel,Other uses,Current Policies,2050,3746
+Nickel,Other uses,Stated Policies,2030,3055
+Nickel,Other uses,Stated Policies,2035,3255
+Nickel,Other uses,Stated Policies,2040,3429
+Nickel,Other uses,Stated Policies,2045,3594
+Nickel,Other uses,Stated Policies,2050,3746
+Nickel,Other uses,High Demand,2030,3100
+Nickel,Other uses,High Demand,2035,3207
+Nickel,Other uses,High Demand,2040,3270
+Nickel,Other uses,High Demand,2045,3318
+Nickel,Other uses,High Demand,2050,3375
+Nickel,Total demand,Current Policies,2025,3532
+Nickel,Total demand,Current Policies,2030,4331
+Nickel,Total demand,Current Policies,2035,4994
+Nickel,Total demand,Current Policies,2040,5361
+Nickel,Total demand,Current Policies,2045,5642
+Nickel,Total demand,Current Policies,2050,5797
+Nickel,Total demand,Stated Policies,2030,4464
+Nickel,Total demand,Stated Policies,2035,5292
+Nickel,Total demand,Stated Policies,2040,5832
+Nickel,Total demand,Stated Policies,2045,6250
+Nickel,Total demand,Stated Policies,2050,6509
+Nickel,Total demand,High Demand,2030,4799
+Nickel,Total demand,High Demand,2035,5767
+Nickel,Total demand,High Demand,2040,6523
+Nickel,Total demand,High Demand,2045,6918
+Nickel,Total demand,High Demand,2050,7338
+Nickel,Share of energy technologies in total demand,Current Policies,2025,0.177
+Nickel,Share of energy technologies in total demand,Current Policies,2030,0.295
+Nickel,Share of energy technologies in total demand,Current Policies,2035,0.348
+Nickel,Share of energy technologies in total demand,Current Policies,2040,0.36
+Nickel,Share of energy technologies in total demand,Current Policies,2045,0.363
+Nickel,Share of energy technologies in total demand,Current Policies,2050,0.354
+Nickel,Share of energy technologies in total demand,Stated Policies,2030,0.316
+Nickel,Share of energy technologies in total demand,Stated Policies,2035,0.385
+Nickel,Share of energy technologies in total demand,Stated Policies,2040,0.412
+Nickel,Share of energy technologies in total demand,Stated Policies,2045,0.425
+Nickel,Share of energy technologies in total demand,Stated Policies,2050,0.424
+Nickel,Share of energy technologies in total demand,High Demand,2030,0.354
+Nickel,Share of energy technologies in total demand,High Demand,2035,0.444
+Nickel,Share of energy technologies in total demand,High Demand,2040,0.499
+Nickel,Share of energy technologies in total demand,High Demand,2045,0.52
+Nickel,Share of energy technologies in total demand,High Demand,2050,0.54
+Magnet rare earth elements,Wind,Current Policies,2025,10.1
+Magnet rare earth elements,Wind,Current Policies,2030,13.1
+Magnet rare earth elements,Wind,Current Policies,2035,13.3
+Magnet rare earth elements,Wind,Current Policies,2040,10.5
+Magnet rare earth elements,Wind,Current Policies,2045,11.5
+Magnet rare earth elements,Wind,Current Policies,2050,13.5
+Magnet rare earth elements,Wind,Stated Policies,2030,15.7
+Magnet rare earth elements,Wind,Stated Policies,2035,15.4
+Magnet rare earth elements,Wind,Stated Policies,2040,11.4
+Magnet rare earth elements,Wind,Stated Policies,2045,12.4
+Magnet rare earth elements,Wind,Stated Policies,2050,15.2
+Magnet rare earth elements,Wind,High Demand,2030,23.9
+Magnet rare earth elements,Wind,High Demand,2035,20.8
+Magnet rare earth elements,Wind,High Demand,2040,18.3
+Magnet rare earth elements,Wind,High Demand,2045,19.6
+Magnet rare earth elements,Wind,High Demand,2050,26.7
+Magnet rare earth elements,Electric vehicles,Current Policies,2025,10.7
+Magnet rare earth elements,Electric vehicles,Current Policies,2030,20
+Magnet rare earth elements,Electric vehicles,Current Policies,2035,24.6
+Magnet rare earth elements,Electric vehicles,Current Policies,2040,25.3
+Magnet rare earth elements,Electric vehicles,Current Policies,2045,25.9
+Magnet rare earth elements,Electric vehicles,Current Policies,2050,26.4
+Magnet rare earth elements,Electric vehicles,Stated Policies,2030,20.9
+Magnet rare earth elements,Electric vehicles,Stated Policies,2035,28.8
+Magnet rare earth elements,Electric vehicles,Stated Policies,2040,33
+Magnet rare earth elements,Electric vehicles,Stated Policies,2045,37
+Magnet rare earth elements,Electric vehicles,Stated Policies,2050,40.9
+Magnet rare earth elements,Electric vehicles,High Demand,2030,24.4
+Magnet rare earth elements,Electric vehicles,High Demand,2035,38.9
+Magnet rare earth elements,Electric vehicles,High Demand,2040,46.1
+Magnet rare earth elements,Electric vehicles,High Demand,2045,50.3
+Magnet rare earth elements,Electric vehicles,High Demand,2050,53.6
+Magnet rare earth elements,Total energy technologies,Current Policies,2025,20.9
+Magnet rare earth elements,Total energy technologies,Current Policies,2030,33.1
+Magnet rare earth elements,Total energy technologies,Current Policies,2035,38
+Magnet rare earth elements,Total energy technologies,Current Policies,2040,35.8
+Magnet rare earth elements,Total energy technologies,Current Policies,2045,37.4
+Magnet rare earth elements,Total energy technologies,Current Policies,2050,39.9
+Magnet rare earth elements,Total energy technologies,Stated Policies,2030,36.6
+Magnet rare earth elements,Total energy technologies,Stated Policies,2035,44.1
+Magnet rare earth elements,Total energy technologies,Stated Policies,2040,44.4
+Magnet rare earth elements,Total energy technologies,Stated Policies,2045,49.5
+Magnet rare earth elements,Total energy technologies,Stated Policies,2050,56.1
+Magnet rare earth elements,Total energy technologies,High Demand,2030,48.3
+Magnet rare earth elements,Total energy technologies,High Demand,2035,59.7
+Magnet rare earth elements,Total energy technologies,High Demand,2040,64.4
+Magnet rare earth elements,Total energy technologies,High Demand,2045,69.9
+Magnet rare earth elements,Total energy technologies,High Demand,2050,80.3
+Magnet rare earth elements,Other uses,Current Policies,2025,71.7
+Magnet rare earth elements,Other uses,Current Policies,2030,79
+Magnet rare earth elements,Other uses,Current Policies,2035,86.9
+Magnet rare earth elements,Other uses,Current Policies,2040,95
+Magnet rare earth elements,Other uses,Current Policies,2045,103
+Magnet rare earth elements,Other uses,Current Policies,2050,111
+Magnet rare earth elements,Other uses,Stated Policies,2030,79
+Magnet rare earth elements,Other uses,Stated Policies,2035,87
+Magnet rare earth elements,Other uses,Stated Policies,2040,95.1
+Magnet rare earth elements,Other uses,Stated Policies,2045,103
+Magnet rare earth elements,Other uses,Stated Policies,2050,111
+Magnet rare earth elements,Other uses,High Demand,2030,79.1
+Magnet rare earth elements,Other uses,High Demand,2035,87.2
+Magnet rare earth elements,Other uses,High Demand,2040,95.5
+Magnet rare earth elements,Other uses,High Demand,2045,104
+Magnet rare earth elements,Other uses,High Demand,2050,112
+Magnet rare earth elements,Total demand,Current Policies,2025,92.6
+Magnet rare earth elements,Total demand,Current Policies,2030,112
+Magnet rare earth elements,Total demand,Current Policies,2035,125
+Magnet rare earth elements,Total demand,Current Policies,2040,131
+Magnet rare earth elements,Total demand,Current Policies,2045,140
+Magnet rare earth elements,Total demand,Current Policies,2050,151
+Magnet rare earth elements,Total demand,Stated Policies,2030,116
+Magnet rare earth elements,Total demand,Stated Policies,2035,131
+Magnet rare earth elements,Total demand,Stated Policies,2040,140
+Magnet rare earth elements,Total demand,Stated Policies,2045,153
+Magnet rare earth elements,Total demand,Stated Policies,2050,167
+Magnet rare earth elements,Total demand,High Demand,2030,127
+Magnet rare earth elements,Total demand,High Demand,2035,147
+Magnet rare earth elements,Total demand,High Demand,2040,160
+Magnet rare earth elements,Total demand,High Demand,2045,174
+Magnet rare earth elements,Total demand,High Demand,2050,192
+Magnet rare earth elements,Share of energy technologies in total demand,Current Policies,2025,0.225
+Magnet rare earth elements,Share of energy technologies in total demand,Current Policies,2030,0.295
+Magnet rare earth elements,Share of energy technologies in total demand,Current Policies,2035,0.304
+Magnet rare earth elements,Share of energy technologies in total demand,Current Policies,2040,0.274
+Magnet rare earth elements,Share of energy technologies in total demand,Current Policies,2045,0.266
+Magnet rare earth elements,Share of energy technologies in total demand,Current Policies,2050,0.264
+Magnet rare earth elements,Share of energy technologies in total demand,Stated Policies,2030,0.316
+Magnet rare earth elements,Share of energy technologies in total demand,Stated Policies,2035,0.337
+Magnet rare earth elements,Share of energy technologies in total demand,Stated Policies,2040,0.318
+Magnet rare earth elements,Share of energy technologies in total demand,Stated Policies,2045,0.324
+Magnet rare earth elements,Share of energy technologies in total demand,Stated Policies,2050,0.335
+Magnet rare earth elements,Share of energy technologies in total demand,High Demand,2030,0.379
+Magnet rare earth elements,Share of energy technologies in total demand,High Demand,2035,0.406
+Magnet rare earth elements,Share of energy technologies in total demand,High Demand,2040,0.403
+Magnet rare earth elements,Share of energy technologies in total demand,High Demand,2045,0.403
+Magnet rare earth elements,Share of energy technologies in total demand,High Demand,2050,0.418
+Graphite (all grades: natural and synthetic),Electric vehicles,Current Policies,2025,2087
+Graphite (all grades: natural and synthetic),Electric vehicles,Current Policies,2030,3804
+Graphite (all grades: natural and synthetic),Electric vehicles,Current Policies,2035,4505
+Graphite (all grades: natural and synthetic),Electric vehicles,Current Policies,2040,3776
+Graphite (all grades: natural and synthetic),Electric vehicles,Current Policies,2045,2205
+Graphite (all grades: natural and synthetic),Electric vehicles,Current Policies,2050,1871
+Graphite (all grades: natural and synthetic),Electric vehicles,Stated Policies,2030,4162
+Graphite (all grades: natural and synthetic),Electric vehicles,Stated Policies,2035,5400
+Graphite (all grades: natural and synthetic),Electric vehicles,Stated Policies,2040,4884
+Graphite (all grades: natural and synthetic),Electric vehicles,Stated Policies,2045,3040
+Graphite (all grades: natural and synthetic),Electric vehicles,Stated Policies,2050,2711
+Graphite (all grades: natural and synthetic),Electric vehicles,High Demand,2030,4747
+Graphite (all grades: natural and synthetic),Electric vehicles,High Demand,2035,6806
+Graphite (all grades: natural and synthetic),Electric vehicles,High Demand,2040,6644
+Graphite (all grades: natural and synthetic),Electric vehicles,High Demand,2045,4167
+Graphite (all grades: natural and synthetic),Electric vehicles,High Demand,2050,3774
+Graphite (all grades: natural and synthetic),Grid battery storage,Current Policies,2025,404
+Graphite (all grades: natural and synthetic),Grid battery storage,Current Policies,2030,424
+Graphite (all grades: natural and synthetic),Grid battery storage,Current Policies,2035,645
+Graphite (all grades: natural and synthetic),Grid battery storage,Current Policies,2040,743
+Graphite (all grades: natural and synthetic),Grid battery storage,Current Policies,2045,697
+Graphite (all grades: natural and synthetic),Grid battery storage,Current Policies,2050,778
+Graphite (all grades: natural and synthetic),Grid battery storage,Stated Policies,2030,513
+Graphite (all grades: natural and synthetic),Grid battery storage,Stated Policies,2035,772
+Graphite (all grades: natural and synthetic),Grid battery storage,Stated Policies,2040,925
+Graphite (all grades: natural and synthetic),Grid battery storage,Stated Policies,2045,851
+Graphite (all grades: natural and synthetic),Grid battery storage,Stated Policies,2050,976
+Graphite (all grades: natural and synthetic),Grid battery storage,High Demand,2030,661
+Graphite (all grades: natural and synthetic),Grid battery storage,High Demand,2035,972
+Graphite (all grades: natural and synthetic),Grid battery storage,High Demand,2040,1227
+Graphite (all grades: natural and synthetic),Grid battery storage,High Demand,2045,1102
+Graphite (all grades: natural and synthetic),Grid battery storage,High Demand,2050,1305
+Graphite (all grades: natural and synthetic),Total energy technologies,Current Policies,2025,2491
+Graphite (all grades: natural and synthetic),Total energy technologies,Current Policies,2030,4227
+Graphite (all grades: natural and synthetic),Total energy technologies,Current Policies,2035,5150
+Graphite (all grades: natural and synthetic),Total energy technologies,Current Policies,2040,4519
+Graphite (all grades: natural and synthetic),Total energy technologies,Current Policies,2045,2902
+Graphite (all grades: natural and synthetic),Total energy technologies,Current Policies,2050,2649
+Graphite (all grades: natural and synthetic),Total energy technologies,Stated Policies,2030,4675
+Graphite (all grades: natural and synthetic),Total energy technologies,Stated Policies,2035,6171
+Graphite (all grades: natural and synthetic),Total energy technologies,Stated Policies,2040,5809
+Graphite (all grades: natural and synthetic),Total energy technologies,Stated Policies,2045,3891
+Graphite (all grades: natural and synthetic),Total energy technologies,Stated Policies,2050,3687
+Graphite (all grades: natural and synthetic),Total energy technologies,High Demand,2030,5408
+Graphite (all grades: natural and synthetic),Total energy technologies,High Demand,2035,7778
+Graphite (all grades: natural and synthetic),Total energy technologies,High Demand,2040,7871
+Graphite (all grades: natural and synthetic),Total energy technologies,High Demand,2045,5269
+Graphite (all grades: natural and synthetic),Total energy technologies,High Demand,2050,5079
+Graphite (all grades: natural and synthetic),Other uses,Current Policies,2025,3287
+Graphite (all grades: natural and synthetic),Other uses,Current Policies,2030,3906
+Graphite (all grades: natural and synthetic),Other uses,Current Policies,2035,4478
+Graphite (all grades: natural and synthetic),Other uses,Current Policies,2040,5009
+Graphite (all grades: natural and synthetic),Other uses,Current Policies,2045,5493
+Graphite (all grades: natural and synthetic),Other uses,Current Policies,2050,5961
+Graphite (all grades: natural and synthetic),Other uses,Stated Policies,2030,3975
+Graphite (all grades: natural and synthetic),Other uses,Stated Policies,2035,4585
+Graphite (all grades: natural and synthetic),Other uses,Stated Policies,2040,5138
+Graphite (all grades: natural and synthetic),Other uses,Stated Policies,2045,5648
+Graphite (all grades: natural and synthetic),Other uses,Stated Policies,2050,6170
+Graphite (all grades: natural and synthetic),Other uses,High Demand,2030,4031
+Graphite (all grades: natural and synthetic),Other uses,High Demand,2035,4708
+Graphite (all grades: natural and synthetic),Other uses,High Demand,2040,5383
+Graphite (all grades: natural and synthetic),Other uses,High Demand,2045,5949
+Graphite (all grades: natural and synthetic),Other uses,High Demand,2050,6444
+Graphite (all grades: natural and synthetic),Total demand,Current Policies,2025,5779
+Graphite (all grades: natural and synthetic),Total demand,Current Policies,2030,8133
+Graphite (all grades: natural and synthetic),Total demand,Current Policies,2035,9628
+Graphite (all grades: natural and synthetic),Total demand,Current Policies,2040,9529
+Graphite (all grades: natural and synthetic),Total demand,Current Policies,2045,8395
+Graphite (all grades: natural and synthetic),Total demand,Current Policies,2050,8610
+Graphite (all grades: natural and synthetic),Total demand,Stated Policies,2030,8650
+Graphite (all grades: natural and synthetic),Total demand,Stated Policies,2035,10756
+Graphite (all grades: natural and synthetic),Total demand,Stated Policies,2040,10947
+Graphite (all grades: natural and synthetic),Total demand,Stated Policies,2045,9539
+Graphite (all grades: natural and synthetic),Total demand,Stated Policies,2050,9856
+Graphite (all grades: natural and synthetic),Total demand,High Demand,2030,9438
+Graphite (all grades: natural and synthetic),Total demand,High Demand,2035,12486
+Graphite (all grades: natural and synthetic),Total demand,High Demand,2040,13254
+Graphite (all grades: natural and synthetic),Total demand,High Demand,2045,11217
+Graphite (all grades: natural and synthetic),Total demand,High Demand,2050,11523
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Current Policies,2025,0.431
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Current Policies,2030,0.52
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Current Policies,2035,0.535
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Current Policies,2040,0.474
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Current Policies,2045,0.346
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Current Policies,2050,0.308
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Stated Policies,2030,0.54
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Stated Policies,2035,0.574
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Stated Policies,2040,0.531
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Stated Policies,2045,0.408
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,Stated Policies,2050,0.374
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,High Demand,2030,0.573
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,High Demand,2035,0.623
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,High Demand,2040,0.594
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,High Demand,2045,0.47
+Graphite (all grades: natural and synthetic),Share of energy technologies in total demand,High Demand,2050,0.441

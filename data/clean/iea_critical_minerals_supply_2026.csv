@@ -1,0 +1,433 @@
+mineral_stage,country,year,kt
+Copper - Mining,Chile,2025,5485
+Copper - Mining,Chile,2030,5369
+Copper - Mining,Chile,2035,4841
+Copper - Mining,Chile,2040,4165
+Copper - Refining,China,2025,13069
+Copper - Refining,China,2030,17121
+Copper - Refining,China,2035,17221
+Copper - Refining,China,2040,17221
+Copper - Mining,Democratic Republic of Congo,2025,3338
+Copper - Mining,Democratic Republic of Congo,2030,4212
+Copper - Mining,Democratic Republic of Congo,2035,3041
+Copper - Mining,Democratic Republic of Congo,2040,2696
+Copper - Refining,Democratic Republic of Congo,2025,2659
+Copper - Refining,Democratic Republic of Congo,2030,3278
+Copper - Refining,Democratic Republic of Congo,2035,2299
+Copper - Refining,Democratic Republic of Congo,2040,1979
+Copper - Mining,Peru,2025,2726
+Copper - Mining,Peru,2030,2712
+Copper - Mining,Peru,2035,2384
+Copper - Mining,Peru,2040,1859
+Copper - Refining,Chile,2025,1741
+Copper - Refining,Chile,2030,1846
+Copper - Refining,Chile,2035,1555
+Copper - Refining,Chile,2040,1359
+Copper - Mining,China,2025,1838
+Copper - Mining,China,2030,2040
+Copper - Mining,China,2035,1965
+Copper - Mining,China,2040,1852
+Copper - Refining,Japan,2025,1431
+Copper - Refining,Japan,2030,1624
+Copper - Refining,Japan,2035,1624
+Copper - Refining,Japan,2040,1624
+Copper - Mining,Russia,2025,1145
+Copper - Mining,Russia,2030,1244
+Copper - Mining,Russia,2035,1424
+Copper - Mining,Russia,2040,1343
+Copper - Refining,Russia,2025,990
+Copper - Refining,Russia,2030,1110
+Copper - Refining,Russia,2035,1110
+Copper - Refining,Russia,2040,1105
+Copper - Mining,United States,2025,1101
+Copper - Mining,United States,2030,1196
+Copper - Mining,United States,2035,823
+Copper - Mining,United States,2040,632
+Copper - Refining,India,2025,646
+Copper - Refining,India,2030,1500
+Copper - Refining,India,2035,1500
+Copper - Refining,India,2040,1500
+Copper - Mining,Rest of world,2025,7594
+Copper - Mining,Rest of world,2030,7798
+Copper - Mining,Rest of world,2035,6255
+Copper - Mining,Rest of world,2040,4636
+Copper - Refining,Rest of world,2025,7419
+Copper - Refining,Rest of world,2030,9904
+Copper - Refining,Rest of world,2035,9192
+Copper - Refining,Rest of world,2040,8922
+Copper - Mining,Total,2025,23227
+Copper - Mining,Total,2030,24571
+Copper - Mining,Total,2035,20733
+Copper - Mining,Total,2040,17183
+Copper - Refining,Total,2025,27955
+Copper - Refining,Total,2030,36383
+Copper - Refining,Total,2035,34501
+Copper - Refining,Total,2040,33710
+Copper - Mining,Top 3 share,2025,0.497
+Copper - Mining,Top 3 share,2030,0.5
+Copper - Mining,Top 3 share,2035,0.495
+Copper - Mining,Top 3 share,2040,0.507
+Copper - Refining,Top 3 share,2025,0.625
+Copper - Refining,Top 3 share,2030,0.611
+Copper - Refining,Top 3 share,2035,0.613
+Copper - Refining,Top 3 share,2040,0.618
+Cobalt - Mining,Democratic Republic of Congo,2025,210
+Cobalt - Mining,Democratic Republic of Congo,2030,121
+Cobalt - Mining,Democratic Republic of Congo,2035,106
+Cobalt - Mining,Democratic Republic of Congo,2040,88.1
+Cobalt - Refining,China,2025,180
+Cobalt - Refining,China,2030,217
+Cobalt - Refining,China,2035,243
+Cobalt - Refining,China,2040,260
+Cobalt - Mining,Indonesia,2025,48.3
+Cobalt - Mining,Indonesia,2030,69.1
+Cobalt - Mining,Indonesia,2035,69.1
+Cobalt - Mining,Indonesia,2040,66.8
+Cobalt - Refining,Finland,2025,20.3
+Cobalt - Refining,Finland,2030,19.9
+Cobalt - Refining,Finland,2035,19.7
+Cobalt - Refining,Finland,2040,19.7
+Cobalt - Mining,Russia,2025,7.69
+Cobalt - Mining,Russia,2030,8.26
+Cobalt - Mining,Russia,2035,8.29
+Cobalt - Mining,Russia,2040,8.29
+Cobalt - Refining,Japan,2025,5.83
+Cobalt - Refining,Japan,2030,6.59
+Cobalt - Refining,Japan,2035,6.51
+Cobalt - Refining,Japan,2040,6.59
+Cobalt - Mining,China,2025,7.38
+Cobalt - Mining,China,2030,7.36
+Cobalt - Mining,China,2035,7.36
+Cobalt - Mining,China,2040,7.36
+Cobalt - Refining,Indonesia,2025,6.17
+Cobalt - Refining,Indonesia,2030,17.4
+Cobalt - Refining,Indonesia,2035,17.4
+Cobalt - Refining,Indonesia,2040,17.4
+Cobalt - Mining,Australia,2025,4.15
+Cobalt - Mining,Australia,2030,4.98
+Cobalt - Mining,Australia,2035,3.94
+Cobalt - Mining,Australia,2040,3.69
+Cobalt - Refining,Canada,2025,6.4
+Cobalt - Refining,Canada,2030,6.4
+Cobalt - Refining,Canada,2035,6.37
+Cobalt - Refining,Canada,2040,2.33
+Cobalt - Mining,Zambia,2025,4.33
+Cobalt - Mining,Zambia,2030,7.49
+Cobalt - Mining,Zambia,2035,7.49
+Cobalt - Mining,Zambia,2040,5.61
+Cobalt - Refining,Norway,2025,2.8
+Cobalt - Refining,Norway,2030,2.8
+Cobalt - Refining,Norway,2035,2.8
+Cobalt - Refining,Norway,2040,2.8
+Cobalt - Mining,Rest of world,2025,38.6
+Cobalt - Mining,Rest of world,2030,33.6
+Cobalt - Mining,Rest of world,2035,23.4
+Cobalt - Mining,Rest of world,2040,20.5
+Cobalt - Refining,Rest of world,2025,16.5
+Cobalt - Refining,Rest of world,2030,25.5
+Cobalt - Refining,Rest of world,2035,27.2
+Cobalt - Refining,Rest of world,2040,26.7
+Cobalt - Mining,Total,2025,320
+Cobalt - Mining,Total,2030,252
+Cobalt - Mining,Total,2035,225
+Cobalt - Mining,Total,2040,200
+Cobalt - Refining,Total clean technologies,2025,238
+Cobalt - Refining,Total clean technologies,2030,295
+Cobalt - Refining,Total clean technologies,2035,323
+Cobalt - Refining,Total clean technologies,2040,335
+Cobalt - Mining,Top 3 share,2025,0.83
+Cobalt - Mining,Top 3 share,2030,0.788
+Cobalt - Mining,Top 3 share,2035,0.813
+Cobalt - Mining,Top 3 share,2040,0.814
+Cobalt - Refining,Top 3 share,2025,0.868
+Cobalt - Refining,Top 3 share,2030,0.86
+Cobalt - Refining,Top 3 share,2035,0.867
+Cobalt - Refining,Top 3 share,2040,0.885
+Lithium - Mining,Australia,2025,104
+Lithium - Mining,Australia,2030,143
+Lithium - Mining,Australia,2035,139
+Lithium - Mining,Australia,2040,120
+Lithium - Refining,China,2025,235
+Lithium - Refining,China,2030,369
+Lithium - Refining,China,2035,374
+Lithium - Refining,China,2040,374
+Lithium - Mining,China,2025,69.9
+Lithium - Mining,China,2030,162
+Lithium - Mining,China,2035,150
+Lithium - Mining,China,2040,150
+Lithium - Refining,Chile,2025,52.1
+Lithium - Refining,Chile,2030,56.6
+Lithium - Refining,Chile,2035,58.4
+Lithium - Refining,Chile,2040,58.6
+Lithium - Mining,Chile,2025,52.1
+Lithium - Mining,Chile,2030,56.6
+Lithium - Mining,Chile,2035,58.4
+Lithium - Mining,Chile,2040,58.6
+Lithium - Refining,Argentina,2025,15.7
+Lithium - Refining,Argentina,2030,51.4
+Lithium - Refining,Argentina,2035,54.1
+Lithium - Refining,Argentina,2040,54.4
+Lithium - Mining,Zimbabwe,2025,27.7
+Lithium - Mining,Zimbabwe,2030,26.6
+Lithium - Mining,Zimbabwe,2035,26.6
+Lithium - Mining,Zimbabwe,2040,26.6
+Lithium - Refining,Australia,2025,6.35
+Lithium - Refining,Australia,2030,16.3
+Lithium - Refining,Australia,2035,25.9
+Lithium - Refining,Australia,2040,26.5
+Lithium - Mining,Argentina,2025,18.7
+Lithium - Mining,Argentina,2030,51.4
+Lithium - Mining,Argentina,2035,54.1
+Lithium - Mining,Argentina,2040,54.4
+Lithium - Refining,Germany,2025,2.98
+Lithium - Refining,Germany,2030,6.44
+Lithium - Refining,Germany,2035,6.62
+Lithium - Refining,Germany,2040,6.62
+Lithium - Mining,Canada,2025,6.65
+Lithium - Mining,Canada,2030,23.9
+Lithium - Mining,Canada,2035,22
+Lithium - Mining,Canada,2040,22
+Lithium - Refining,United States,2025,1.38
+Lithium - Refining,United States,2030,19.1
+Lithium - Refining,United States,2035,19.7
+Lithium - Refining,United States,2040,19.8
+Lithium - Mining,Rest of world,2025,23.5
+Lithium - Mining,Rest of world,2030,77.1
+Lithium - Mining,Rest of world,2035,64.7
+Lithium - Mining,Rest of world,2040,50.2
+Lithium - Refining,Rest of world,2025,5.44
+Lithium - Refining,Rest of world,2030,24.6
+Lithium - Refining,Rest of world,2035,27.7
+Lithium - Refining,Rest of world,2040,27.9
+Lithium - Mining,Total,2025,302
+Lithium - Mining,Total,2030,540
+Lithium - Mining,Total,2035,514
+Lithium - Mining,Total,2040,482
+Lithium - Refining,Total,2025,319
+Lithium - Refining,Total,2030,544
+Lithium - Refining,Total,2035,567
+Lithium - Refining,Total,2040,568
+Lithium - Mining,Top 3 share,2025,0.747
+Lithium - Mining,Top 3 share,2030,0.669
+Lithium - Mining,Top 3 share,2035,0.675
+Lithium - Mining,Top 3 share,2040,0.682
+Lithium - Refining,Top 3 share,2025,0.949
+Lithium - Refining,Top 3 share,2030,0.878
+Lithium - Refining,Top 3 share,2035,0.859
+Lithium - Refining,Top 3 share,2040,0.858
+Nickel - Mining,Indonesia,2025,2637
+Nickel - Mining,Indonesia,2030,3567
+Nickel - Mining,Indonesia,2035,3568
+Nickel - Mining,Indonesia,2040,3568
+Nickel - Refining,Indonesia,2025,1681
+Nickel - Refining,Indonesia,2030,2080
+Nickel - Refining,Indonesia,2035,2081
+Nickel - Refining,Indonesia,2040,2081
+Nickel - Mining,Philippines,2025,482
+Nickel - Mining,Philippines,2030,308
+Nickel - Mining,Philippines,2035,308
+Nickel - Mining,Philippines,2040,308
+Nickel - Refining,China,2025,1160
+Nickel - Refining,China,2030,1194
+Nickel - Refining,China,2035,1194
+Nickel - Refining,China,2040,1194
+Nickel - Mining,Russia,2025,192
+Nickel - Mining,Russia,2030,218
+Nickel - Mining,Russia,2035,218
+Nickel - Mining,Russia,2040,218
+Nickel - Refining,Canada,2025,125
+Nickel - Refining,Canada,2030,134
+Nickel - Refining,Canada,2035,133
+Nickel - Refining,Canada,2040,90.1
+Nickel - Mining,China,2025,147
+Nickel - Mining,China,2030,161
+Nickel - Mining,China,2035,159
+Nickel - Mining,China,2040,152
+Nickel - Refining,Russia,2025,123
+Nickel - Refining,Russia,2030,142
+Nickel - Refining,Russia,2035,142
+Nickel - Refining,Russia,2040,142
+Nickel - Mining,New Caledonia,2025,138
+Nickel - Mining,New Caledonia,2030,207
+Nickel - Mining,New Caledonia,2035,207
+Nickel - Mining,New Caledonia,2040,207
+Nickel - Refining,Japan,2025,108
+Nickel - Refining,Japan,2030,107
+Nickel - Refining,Japan,2035,107
+Nickel - Refining,Japan,2040,107
+Nickel - Mining,Canada,2025,138
+Nickel - Mining,Canada,2030,147
+Nickel - Mining,Canada,2035,137
+Nickel - Mining,Canada,2040,52
+Nickel - Refining,Norway,2025,100
+Nickel - Refining,Norway,2030,92
+Nickel - Refining,Norway,2035,92
+Nickel - Refining,Norway,2040,92
+Nickel - Mining,Brazil,2025,85
+Nickel - Mining,Brazil,2030,82
+Nickel - Mining,Brazil,2035,82
+Nickel - Mining,Brazil,2040,82
+Nickel - Refining,Brazil,2025,64
+Nickel - Refining,Brazil,2030,73
+Nickel - Refining,Brazil,2035,65
+Nickel - Refining,Brazil,2040,65
+Nickel - Mining,Rest of world,2025,388
+Nickel - Mining,Rest of world,2030,408
+Nickel - Mining,Rest of world,2035,271
+Nickel - Mining,Rest of world,2040,271
+Nickel - Refining,Rest of world,2025,367
+Nickel - Refining,Rest of world,2030,409
+Nickel - Refining,Rest of world,2035,387
+Nickel - Refining,Rest of world,2040,387
+Nickel - Mining,Total,2025,4207
+Nickel - Mining,Total,2030,5098
+Nickel - Mining,Total,2035,4950
+Nickel - Mining,Total,2040,4858
+Nickel - Refining,Total,2025,3729
+Nickel - Refining,Total,2030,4231
+Nickel - Refining,Total,2035,4202
+Nickel - Refining,Total,2040,4159
+Nickel - Mining,Top 3 share,2025,0.787
+Nickel - Mining,Top 3 share,2030,0.803
+Nickel - Mining,Top 3 share,2035,0.827
+Nickel - Mining,Top 3 share,2040,0.843
+Nickel - Refining,Top 3 share,2025,0.796
+Nickel - Refining,Top 3 share,2030,0.807
+Nickel - Refining,Top 3 share,2035,0.813
+Nickel - Refining,Top 3 share,2040,0.822
+Graphite - Mining (natural),China,2025,1432
+Graphite - Mining (natural),China,2030,1239
+Graphite - Mining (natural),China,2035,1277
+Graphite - Mining (natural),China,2040,1337
+Graphite - Battery grade,China,2025,2139
+Graphite - Battery grade,China,2030,3026
+Graphite - Battery grade,China,2035,4014
+Graphite - Battery grade,China,2040,4039
+Graphite - Mining (natural),Madagascar,2025,69.7
+Graphite - Mining (natural),Madagascar,2030,170
+Graphite - Mining (natural),Madagascar,2035,168
+Graphite - Mining (natural),Madagascar,2040,165
+Graphite - Battery grade,Japan,2025,68.5
+Graphite - Battery grade,Japan,2030,149
+Graphite - Battery grade,Japan,2035,163
+Graphite - Battery grade,Japan,2040,165
+Graphite - Mining (natural),Mozambique,2025,66.6
+Graphite - Mining (natural),Mozambique,2030,259
+Graphite - Mining (natural),Mozambique,2035,348
+Graphite - Mining (natural),Mozambique,2040,368
+Graphite - Battery grade,Indonesia,2025,32
+Graphite - Battery grade,Indonesia,2030,92.7
+Graphite - Battery grade,Indonesia,2035,97.5
+Graphite - Battery grade,Indonesia,2040,103
+Graphite - Mining (natural),Tanzania,2025,61.8
+Graphite - Mining (natural),Tanzania,2030,263
+Graphite - Mining (natural),Tanzania,2035,283
+Graphite - Mining (natural),Tanzania,2040,283
+Graphite - Battery grade,United States,2025,13.1
+Graphite - Battery grade,United States,2030,14.7
+Graphite - Battery grade,United States,2035,15.3
+Graphite - Battery grade,United States,2040,17.1
+Graphite - Mining (natural),Brazil,2025,64.1
+Graphite - Mining (natural),Brazil,2030,98.5
+Graphite - Mining (natural),Brazil,2035,104
+Graphite - Mining (natural),Brazil,2040,83.9
+Graphite - Battery grade,Korea,2025,5.2
+Graphite - Battery grade,Korea,2030,10.4
+Graphite - Battery grade,Korea,2035,11.1
+Graphite - Battery grade,Korea,2040,11.1
+Graphite - Mining (natural),Russia,2025,28.2
+Graphite - Mining (natural),Russia,2030,30.1
+Graphite - Mining (natural),Russia,2035,50.1
+Graphite - Mining (natural),Russia,2040,48.8
+Graphite - Battery grade,Germany,2025,4.8
+Graphite - Battery grade,Germany,2030,9.6
+Graphite - Battery grade,Germany,2035,10.2
+Graphite - Battery grade,Germany,2040,10.2
+Graphite - Mining (natural),Rest of world,2025,58
+Graphite - Mining (natural),Rest of world,2030,154
+Graphite - Mining (natural),Rest of world,2035,166
+Graphite - Mining (natural),Rest of world,2040,174
+Graphite - Battery grade,Rest of world,2025,3.19
+Graphite - Battery grade,Rest of world,2030,53
+Graphite - Battery grade,Rest of world,2035,121
+Graphite - Battery grade,Rest of world,2040,121
+Graphite - Mining (natural),Total,2025,1781
+Graphite - Mining (natural),Total,2030,2214
+Graphite - Mining (natural),Total,2035,2396
+Graphite - Mining (natural),Total,2040,2460
+Graphite - Battery grade,Total,2025,2266
+Graphite - Battery grade,Total,2030,3356
+Graphite - Battery grade,Total,2035,4432
+Graphite - Battery grade,Total,2040,4467
+Graphite - Mining (natural),Top 3 share,2025,0.881
+Graphite - Mining (natural),Top 3 share,2030,0.795
+Graphite - Mining (natural),Top 3 share,2035,0.796
+Graphite - Mining (natural),Top 3 share,2040,0.808
+Graphite - Battery grade,Top 3 share,2025,0.988
+Graphite - Battery grade,Top 3 share,2030,0.974
+Graphite - Battery grade,Top 3 share,2035,0.964
+Graphite - Battery grade,Top 3 share,2040,0.964
+Magnet rare earth elements - Mining,China,2025,47.2
+Magnet rare earth elements - Mining,China,2030,51.2
+Magnet rare earth elements - Mining,China,2035,56.8
+Magnet rare earth elements - Mining,China,2040,56.8
+Magnet rare earth elements - Refining,China,2025,74.9
+Magnet rare earth elements - Refining,China,2030,81.1
+Magnet rare earth elements - Refining,China,2035,86.4
+Magnet rare earth elements - Refining,China,2040,86.4
+Magnet rare earth elements - Mining,Myanmar,2025,13.1
+Magnet rare earth elements - Mining,Myanmar,2030,10.8
+Magnet rare earth elements - Mining,Myanmar,2035,11
+Magnet rare earth elements - Mining,Myanmar,2040,11
+Magnet rare earth elements - Refining,United States,2025,4.7
+Magnet rare earth elements - Refining,United States,2030,9.39
+Magnet rare earth elements - Refining,United States,2035,11.1
+Magnet rare earth elements - Refining,United States,2040,11.1
+Magnet rare earth elements - Mining,United States,2025,7.4
+Magnet rare earth elements - Mining,United States,2030,9.47
+Magnet rare earth elements - Mining,United States,2035,9.47
+Magnet rare earth elements - Mining,United States,2040,9.47
+Magnet rare earth elements - Refining,Malaysia,2025,4.59
+Magnet rare earth elements - Refining,Malaysia,2030,10.1
+Magnet rare earth elements - Refining,Malaysia,2035,10.1
+Magnet rare earth elements - Refining,Malaysia,2040,10.1
+Magnet rare earth elements - Mining,Australia,2025,4.09
+Magnet rare earth elements - Mining,Australia,2030,11.4
+Magnet rare earth elements - Mining,Australia,2035,12.3
+Magnet rare earth elements - Mining,Australia,2040,12.3
+Magnet rare earth elements - Refining,France,2025,0.991
+Magnet rare earth elements - Refining,France,2030,1.16
+Magnet rare earth elements - Refining,France,2035,1.16
+Magnet rare earth elements - Refining,France,2040,1.16
+Magnet rare earth elements - Mining,Lao People's Democratic Republic,2025,3.75
+Magnet rare earth elements - Mining,Lao People's Democratic Republic,2030,7.66
+Magnet rare earth elements - Mining,Lao People's Democratic Republic,2035,7.66
+Magnet rare earth elements - Mining,Lao People's Democratic Republic,2040,7.66
+Magnet rare earth elements - Refining,Viet Nam,2025,0.98
+Magnet rare earth elements - Refining,Viet Nam,2030,0.98
+Magnet rare earth elements - Refining,Viet Nam,2035,0.98
+Magnet rare earth elements - Refining,Viet Nam,2040,0.98
+Magnet rare earth elements - Mining,Rest of world,2025,4.97
+Magnet rare earth elements - Mining,Rest of world,2030,6.31
+Magnet rare earth elements - Mining,Rest of world,2035,6.31
+Magnet rare earth elements - Mining,Rest of world,2040,6.31
+Magnet rare earth elements - Refining,Rest of world,2025,3.07
+Magnet rare earth elements - Refining,Rest of world,2030,7.91
+Magnet rare earth elements - Refining,Rest of world,2035,8.68
+Magnet rare earth elements - Refining,Rest of world,2040,8.68
+Magnet rare earth elements - Mining,Total,2025,80.5
+Magnet rare earth elements - Mining,Total,2030,96.9
+Magnet rare earth elements - Mining,Total,2035,104
+Magnet rare earth elements - Mining,Total,2040,104
+Magnet rare earth elements - Refining,Total,2025,89.3
+Magnet rare earth elements - Refining,Total,2030,111
+Magnet rare earth elements - Refining,Total,2035,118
+Magnet rare earth elements - Refining,Total,2040,118
+Magnet rare earth elements - Mining,Top 3 share,2025,0.841
+Magnet rare earth elements - Mining,Top 3 share,2030,0.758
+Magnet rare earth elements - Mining,Top 3 share,2035,0.774
+Magnet rare earth elements - Mining,Top 3 share,2040,0.774
+Magnet rare earth elements - Refining,Top 3 share,2025,0.944
+Magnet rare earth elements - Refining,Top 3 share,2030,0.909
+Magnet rare earth elements - Refining,Top 3 share,2035,0.909
+Magnet rare earth elements - Refining,Top 3 share,2040,0.909
