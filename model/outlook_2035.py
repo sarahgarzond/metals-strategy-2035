@@ -773,7 +773,7 @@ def save_fig(fig, name):
         fig.savefig(os.path.join(os.environ["OUTLOOK_PNG_DIR"], name + ".png"), dpi=150, bbox_inches="tight")
 
 
-fig, axs = plt.subplots(2, 4, figsize=(6.6, 3.6), sharex=True)
+fig, axs = plt.subplots(2, 4, figsize=(6.6, 3.6))
 for ax, ind in zip(axs.flat, ORDER):
     q = np.percentile(PATH[ind], [10, 50, 90], axis=0)
     ax.fill_between(yrs, q[0], q[2], color=GREY, alpha=0.6, lw=0)
@@ -784,9 +784,12 @@ for ax, ind in zip(axs.flat, ORDER):
     ax.text(Y1, q[0][-1] - 12, f"{q[0][-1]:.0f}", ha="right", fontsize=7)
     ax.text(Y1 - 0.2, q[1][-1] + 1, "", fontsize=7)
     ax.set_xticks([2025, 2030, 2035])
+    ax.set_xlim(2025, 2035.6)
     ax.tick_params(labelsize=7)
     ax.set_ylim(50, 280)
 ax = axs.flat[7]
+ax.set_xlim(0, 1)
+ax.set_ylim(0, 1)
 ax.axis("off")
 ax.fill_between([0, 1], [0.62, 0.62], [0.78, 0.78], color=GREY, alpha=0.6, lw=0)
 ax.plot([0, 1], [0.70, 0.70], color=ACC, lw=1.8)
