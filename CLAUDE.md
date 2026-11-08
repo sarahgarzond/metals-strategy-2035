@@ -9,6 +9,8 @@ It was imported into sections/*.md with tools/import_gdoc.py. Agents improve the
 This is pure metal market research. Never mention the client company, VDM Metals, Acerinox, Münvest or "the company"
 anywhere in the report body. Recommendations address "producers of high performance metals" in general.
 Haynes may appear only as the source of a public alloy datasheet.
+Exception (user instruction): the title page, cover page and table of contents stay exactly as they are, including
+"Münvest Project Studies" and "Dr. Nicolas Seitz, Münvest". Graders must not flag the title page.
 
 ## Central question (from the draft, chapter 2)
 How do the production, availability, trade and industrial uses of selected metals shape opportunities in high
