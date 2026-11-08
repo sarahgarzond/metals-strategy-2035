@@ -1,0 +1,40 @@
+row_type,year,series,value,unit,source,role
+evidence,2023,LEAP deliveries,1570.0,engines,CO_GE_LEAP_2025,evidence
+evidence,2024,LEAP deliveries,1407.0,engines,CO_GE_LEAP_2025,evidence
+evidence,2025,LEAP deliveries,1802.0,engines,CO_GE_LEAP_2025 / CO_SAFRAN_LEAP_2025,"evidence, base year"
+evidence,2026,"LEAP deliveries, nine months",1565.0,engines,CO_GE_9M26_DELIV,"evidence (9M 2025: 1,240)"
+evidence,2026,"LEAP deliveries, guidance high teens growth",2126.0,engines,CO_GE_Q2LEAP_2026,guidance
+evidence,2028,"LEAP deliveries, plan",2600.0,engines,CO_SAFRAN_LEAP_2025,"plan (capital markets day 2024: 2,500)"
+evidence,2024,Airbus deliveries,766.0,aircraft,CO_AIRBUS_DELIV_2025,evidence
+evidence,2025,Airbus deliveries,793.0,aircraft,CO_AIRBUS_DELIV_2025,evidence
+evidence,2026,"Airbus deliveries, nine months (9M 2025: 507)",547.0,aircraft,CO_AIRBUS_9M_2026,evidence
+evidence,2026,"Airbus deliveries, guidance",870.0,aircraft,CO_AIRBUS_GUIDE_2026,guidance
+evidence,2024,Boeing deliveries,348.0,aircraft,CO_BA_DELIV_2025,evidence
+evidence,2025,Boeing deliveries,600.0,aircraft,CO_BA_DELIV_2025,evidence
+evidence,2026,"Boeing deliveries, nine months",475.0,aircraft,CO_BA_Q3_2026,evidence (search summary)
+evidence,2025,Boeing 737 rate reached in Q4,42.0,aircraft a month,CO_BA_RATES_2025,evidence
+evidence,2026,"Boeing 737 rate, plan",47.0,aircraft a month,CO_BA_RATES_2025,"plan, stable only in 2027"
+evidence,2026 to 2045 average,Airbus GMF new passenger aircraft deliveries a year,2103.0,aircraft,AERO_AIRBUS_GMF2026_DELIVERIES,official requirement
+evidence,2026 to 2045 average,Boeing CMO new airplane deliveries a year,2181.0,aircraft,BOEING_CMO_2026,official requirement
+model median path before haircut,2025,"New engine output index (2025 = 100), modes of the anchors",100.0,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2026,"New engine output index (2025 = 100), modes of the anchors",118.0,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2027,"New engine output index (2025 = 100), modes of the anchors",128.1,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2028,"New engine output index (2025 = 100), modes of the anchors",139.0,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2029,"New engine output index (2025 = 100), modes of the anchors",141.0,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2030,"New engine output index (2025 = 100), modes of the anchors",143.1,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2031,"New engine output index (2025 = 100), modes of the anchors",145.2,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2032,"New engine output index (2025 = 100), modes of the anchors",147.4,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2033,"New engine output index (2025 = 100), modes of the anchors",149.6,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2034,"New engine output index (2025 = 100), modes of the anchors",151.8,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path before haircut,2035,"New engine output index (2025 = 100), modes of the anchors",154.0,index,MODEL_AERO_NEW_E26 / E28 / R35,interpolated at constant growth between anchors
+model median path with haircut,2025,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",100.0,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2026,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",103.7,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2027,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",107.6,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2028,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",111.7,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2029,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",115.8,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2030,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",120.2,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2031,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",124.7,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2032,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",129.3,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2033,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",134.2,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2034,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",139.2,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"
+model median path with haircut,2035,"New engine output index (2025 = 100), median of the draws, haircut applied to the 2035 requirement",144.4,index,"MODEL_AERO_NEW_R35, MODEL_HAIRCUT_AERO","constant compound growth to the 2035 draw, as in the industry index"

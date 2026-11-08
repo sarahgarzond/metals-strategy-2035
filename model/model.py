@@ -311,15 +311,18 @@ def excel():
     sheet("5_Weights", ["Criterion", "Weight"], [[c, w] for c, w in CRIT])
     sheet("6_Prices", ["Year"] + list(PRICES), [[y] + [PRICES[k][i] for k in PRICES] for i, y in enumerate(YRS)])
     sheet("7_Bridge", ["Step", "EUR m"], BRIDGE)
-    # Round 5: the 2035 outlook outputs (model/outlook_2035.py, model/scoring.py) travel with the workbook. Indices and kt are team estimates.
+    # The 2035 outlook outputs (model/outlook_2035.py, model/scoring.py) travel with the workbook. Indices and kt are team estimates.
     import csv as _csv
     for nm, fn, cols in [("8_Outlook_industries", "model_tier1_results.csv", None), ("9_Family_tonnes", "model_family_tonnes.csv", None),
-                         ("10_Scores", "model_scores.csv", None), ("11_Supply_shocks", "model_supply_shocks.csv", None)]:
+                         ("10_Scores", "model_scores.csv", None), ("11_Supply_shocks", "model_supply_shocks.csv", None),
+                         ("12_Melt_programme", "model_combined_programme.csv", None), ("13_Aero_haircut_cases", "model_aerospace_haircut_cases.csv", None),
+                         ("14_Family_value_EUR", "model_family_value.csv", None), ("15_Engine_path", "model_engine_delivery_path.csv", None),
+                         ("16_Shock_tiers", "model_shock_tiers.csv", None), ("17_Comtrade_HS6_alloy", "comtrade_hs6_alloy_summary_2023-2024.csv", None)]:
         fp = os.path.join(HERE, "..", "data", "clean", fn)
         if os.path.exists(fp):
             rows_ = list(_csv.reader(open(fp, encoding="utf-8")))
             if nm == "8_Outlook_industries":
-                keep = [i for i, h in enumerate(rows_[0]) if h in ("level", "industry", "metal", "unit", "index_p10", "index_p50", "index_p90", "p50_2035_without_backtest_shift", "p50_2035_with_backtest_shift_round4_method", "haircut_median")]
+                keep = [i for i, h in enumerate(rows_[0]) if h in ("level", "industry", "metal", "unit", "index_p10", "index_p50", "index_p90", "p50_2035_without_backtest_shift", "p50_2035_with_trend_shift_not_used", "haircut_median")]
                 rows_ = [[r[i] for i in keep] for r in rows_ if r and (r[0] in ("level", "industry", "product_family", "product_family_variant"))]
             sheet(nm, rows_[0], rows_[1:])
     wb.save(os.path.join(HERE, "Product_Strategy_2035_Market_Model.xlsx"))

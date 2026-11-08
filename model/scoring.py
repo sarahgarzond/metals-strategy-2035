@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Opportunity matrix scoring (chapter 8, Table 16 and Table A4) computed from explicit rules.
 
-Round 5: three of the eight criteria are computed from data, never typed in:
+Three of the eight criteria are computed from data, never typed in:
   Market attractiveness  from the end use specific measured pool (rule table MARKET_RULES)
   Growth to 2035        from the P50 growth a year of the most specific model index (GROWTH_BANDS) or, for early signals, from the earliest volume year
   Supply security       from the weakest input of the lead grades (INPUT_SCORE), using the restriction regime of each input element
@@ -65,59 +65,72 @@ def market_score(kind, value, derived=False):
 # regime per input: none 5, form_not_used 4 (control on a form that melters do not buy), price_only 4 (ore quota, alloy feed outside the quota),
 #   quota_minor 3 (Congo cobalt quota, element below 10 percent of the alloy), licence_minor 2 (Chinese licence regime, element below 10 percent),
 #   quota_principal 2 (Congo quota, element above 10 percent), licence_principal 1, halt 1 (active licence halt)
+#   single_source_minor 3 (one country mines at least 90 percent of world output and no control is in force, element below 10 percent of the alloy: niobium, Brazil about 93 percent),
+#   single_source_principal 2 (same concentration, element above 10 percent)
 INPUT_SCORE = {"none": 5, "form_not_used": 4, "price_only": 4, "quota_minor": 3, "licence_minor": 2, "quota_principal": 2,
-               "licence_principal": 1, "halt": 1}
+               "licence_principal": 1, "halt": 1, "single_source_minor": 3, "single_source_principal": 2}
 
-# Opportunity definitions. inputs: (element, regime); judgement: comp, tech, cust, barr, diff carried from round 4 (anchors in Table A4).
+# Opportunity definitions. inputs: (element, regime); judgement: comp, tech, cust, barr, diff (anchors in Table A4).
 # growth: ("index", key) or ("signal", earliest volume year). pool: key into the pool table written by outlook_2035.py.
+# type: main (a row of the matrix), variant (a split of a main row by lead grade), new (row added because the report names it as growing).
+# The judgement values of the three new rows are first pass team judgement on the Table A4 anchors, flagged as such.
+NB = "niobium (Alloy 718 about 5 percent, Brazil about 93 percent of mine output, NB_USGS_BRAZIL_2025)"
+CO_GRADES = "cobalt in wrought cobalt bearing grades (Waspaloy about 13 percent, 720Li about 15 percent: TODO(data) source for 720Li)"
 OPPS = [
-    dict(id="Turbine remelt stock and sheet", growth=("index", "energy"), pool="turbine", derived=True,
+    dict(id="Turbine remelt stock and sheet", type="main", growth=("index", "gas_turbine"), pool="turbine", derived=True,
          inputs=[("cobalt", "quota_minor"), ("nickel", "none"), ("chromium", "none")],
          sens_inputs=[("tungsten (not evidenced for these alloys, TODO(data))", "licence_minor")],
          judgement=dict(competition=2, technology=4, customer=5, barrier=5, differentiation=4)),
-    dict(id="Engine bar and billet", growth=("index", "aerospace"), pool="aviation", derived=False,
-         inputs=[("cobalt", "quota_minor"), ("nickel", "none"), ("niobium and chromium", "none")], sens_inputs=[],
+    dict(id="Engine bar and billet", type="main", growth=("index", "aero_new"), pool="engine_bar", derived=True,
+         inputs=[(CO_GRADES, "quota_principal"), (NB, "single_source_minor"), ("nickel", "none"), ("chromium", "none")],
+         sens_inputs=[],
          judgement=dict(competition=2, technology=5, customer=5, barrier=4, differentiation=4)),
-    dict(id="FeNi36 foil and FeNi strip", growth=("index", "feni"), pool="feni", derived=False,
+    dict(id="Engine bar and billet, Alloy 718 only", type="variant", growth=("index", "aero_new"), pool="engine_bar", derived=True,
+         inputs=[(NB, "single_source_minor"), ("nickel", "none"), ("chromium", "none"), ("cobalt (Alloy 718: 1.00 percent maximum, MO_SM_IN718_COMP)", "none")],
+         sens_inputs=[],
+         judgement=dict(competition=2, technology=5, customer=5, barrier=4, differentiation=4)),
+    dict(id="FeNi36 foil and FeNi strip", type="main", growth=("index", "feni"), pool="feni", derived=False,
          inputs=[("nickel", "none"), ("iron", "none")], sens_inputs=[],
          judgement=dict(competition=2, technology=5, customer=3, barrier=3, differentiation=4)),
-    dict(id="CoCr implant bar and powder", growth=("index", "medical"), pool="medical", derived=False,
+    dict(id="CoCr implant bar and powder", type="main", growth=("index", "medical"), pool="medical", derived=False,
          inputs=[("cobalt (about 60 percent of Co28Cr6Mo)", "quota_principal"), ("chromium", "none")], sens_inputs=[],
          judgement=dict(competition=3, technology=4, customer=4, barrier=5, differentiation=3)),
-    dict(id="Sour service bar, strip, wire", growth=("index", "oil_and_gas"), pool="sour", derived=False,
+    dict(id="Sour service bar, strip, wire", type="main", growth=("index", "oil_and_gas"), pool="sour", derived=False,
          inputs=[("nickel", "none"), ("molybdenum (powder control only)", "form_not_used")], sens_inputs=[],
          judgement=dict(competition=3, technology=3, customer=3, barrier=5, differentiation=3)),
-    dict(id="Chemical plate, welding wire", growth=("index", "chemical"), pool="chemical", derived=False,
+    dict(id="Chemical plate, welding wire", type="main", growth=("index", "chemical"), pool="chemical", derived=False,
          inputs=[("nickel", "none"), ("molybdenum (powder control only)", "form_not_used"),
                  ("tungsten in C-276 (about 4 percent) under the Chinese licence", "licence_minor")], sens_inputs=[],
          judgement=dict(competition=2, technology=3, customer=3, barrier=3, differentiation=3)),
-    dict(id="Alloy 690 bar and hollows", growth=("index", "nuclear"), pool="alloy690", derived=False,
+    dict(id="Alloy 690 bar and hollows", type="main", growth=("index", "nuclear"), pool="alloy690", derived=False,
          inputs=[("nickel", "none"), ("chromium", "none")], sens_inputs=[],
          judgement=dict(competition=3, technology=4, customer=4, barrier=3, differentiation=3)),
-    dict(id="Solid oxide cell strip", growth=("signal", 2026), pool="none", derived=False,
+    dict(id="Solid oxide cell strip", type="main", growth=("signal", 2026), pool="none", derived=False,
          inputs=[("chromium (ferritic steel)", "none"), ("nickel coating", "none")], sens_inputs=[],
          judgement=dict(competition=3, technology=4, customer=2, barrier=3, differentiation=4)),
-    dict(id="Alloy C-276 fusion tape foil", growth=("signal", 2030), pool="none", derived=False,
+    dict(id="Alloy C-276 fusion tape foil", type="main", growth=("signal", 2030), pool="none", derived=False,
          inputs=[("nickel", "none"), ("molybdenum (powder control only)", "form_not_used"),
                  ("tungsten in C-276 (about 4 percent) under the Chinese licence", "licence_minor")], sens_inputs=[],
          judgement=dict(competition=4, technology=5, customer=2, barrier=3, differentiation=5)),
-    dict(id="AM powder, CoCr and nickel superalloy", growth=("index", "aero_new"), pool="am_powder", derived=False,
+    dict(id="AM powder, CoCr and nickel superalloy", type="main", growth=("index", "aero_new"), pool="am_powder", derived=False,
          inputs=[("cobalt (CoCr lead grade F75)", "quota_principal"), ("nickel", "none")], sens_inputs=[],
          judgement=dict(competition=2, technology=4, customer=4, barrier=3, differentiation=3)),
-    dict(id="Car exhaust and turbo alloys", growth=("index", "automotive_thermal"), pool="car", derived=False,
+    dict(id="Car exhaust and turbo alloys", type="main", growth=("index", "automotive_thermal"), pool="car", derived=False,
          inputs=[("nickel", "none"), ("chromium", "none")], sens_inputs=[],
          judgement=dict(competition=3, technology=1, customer=2, barrier=3, differentiation=2)),
+    # rows the report itself names as growing
+    dict(id="Fab gas delivery strip and tube", type="new", growth=("index", "semi_fab"), pool="fab_gas", derived=False,
+         inputs=[("nickel", "none"), ("chromium", "none"), ("molybdenum (powder control only)", "form_not_used")],
+         sens_inputs=[("tungsten if the lead grade is C-276 or C-22 (not evidenced, TODO(data))", "licence_minor")],
+         judgement=dict(competition=3, technology=4, customer=4, barrier=3, differentiation=3)),
+    dict(id="FeNi36 strip for NO96 LNG membrane tanks", type="new", growth=("signal", 2026), pool="none", derived=False,
+         inputs=[("nickel", "none"), ("iron", "none")], sens_inputs=[],
+         judgement=dict(competition=3, technology=4, customer=3, barrier=3, differentiation=4)),
+    dict(id="Superalloy repair wire", type="new", growth=("index", "aero_mro"), pool="none", derived=False,
+         inputs=[("nickel", "none"), ("chromium", "none"), ("niobium (Alloy 718 and 625 type fillers, grade mix assumed)", "single_source_minor")],
+         sens_inputs=[("cobalt bearing fillers (not evidenced, TODO(data))", "quota_minor")],
+         judgement=dict(competition=2, technology=3, customer=3, barrier=3, differentiation=2)),
 ]
-
-# Round 4 hand scored matrix (Table 16 of report v4), kept only to show what the rules changed: mkt, gro, sup, comp, tech, cust, barr, diff
-ROUND4 = {
-    "Turbine remelt stock and sheet": (4, 5, 3, 2, 4, 5, 5, 4), "Engine bar and billet": (5, 4, 3, 2, 5, 5, 4, 4),
-    "FeNi36 foil and FeNi strip": (3, 5, 5, 2, 5, 3, 3, 4), "CoCr implant bar and powder": (3, 4, 2, 3, 4, 4, 5, 3),
-    "Sour service bar, strip, wire": (4, 2, 4, 3, 3, 3, 5, 3), "Chemical plate, welding wire": (5, 2, 4, 2, 3, 3, 3, 3),
-    "Alloy 690 bar and hollows": (2, 2, 5, 3, 4, 4, 3, 3), "Solid oxide cell strip": (2, 3, 4, 3, 4, 2, 3, 4),
-    "Alloy C-276 fusion tape foil": (1, 2, 4, 4, 5, 2, 3, 5), "AM powder, CoCr and nickel superalloy": (2, 3, 3, 2, 4, 4, 3, 3),
-    "Car exhaust and turbo alloys": (3, 1, 5, 3, 1, 2, 3, 2)}
-
 
 def weighted(sc, weights=W):
     return sum(weights[k] * sc[k] for k in weights)
@@ -184,15 +197,42 @@ def score_all(inp, supply_override=None, growth_override=None, label=""):
         sc.update(o["judgement"])
         ev = "E" if pr["pool_kind"] == "none" else "M"
         s = weighted(sc)
-        out.append(dict(opportunity=o["id"], evidence=ev, **{k: sc[k] for k, _ in CRIT}, growth_p50_cagr_pct=("" if g is None else g * 100.0),
+        out.append(dict(opportunity=o["id"], row_type=o["type"], evidence=ev, **{k: sc[k] for k, _ in CRIT}, growth_p50_cagr_pct=("" if g is None else g * 100.0),
                         market_basis=f"{pr['pool_kind']} {pr['pool_value']} {pr['unit']}", supply_weakest=min(regimes, key=lambda x: x[2])[0],
                         supply_if_untested_inputs_counted=sens,
                         weighted_score=s, tier=tier(s, ev), tier_without_early_signal_cap=tier(s, ev, cap=False),
                         score_equal_weights=weighted(sc, EQUAL), tier_equal_weights=tier(weighted(sc, EQUAL), ev),
                         score_barriers_20pct_proportional=weighted(sc, barrier_weights_proportional()),
                         score_barriers_20pct_equal_cut=weighted(sc, barrier_weights_equal_cut()),
-                        round4_score=weighted(dict(zip([k for k, _ in CRIT], ROUND4[o["id"]]))),
                         case=label))
+    return out
+
+
+WEIGHTINGS = [("base weights (15/20/15/10/10/10/10/10)", W), ("equal weights", EQUAL),
+              ("entry barriers 20 percent, others rescaled proportionally", barrier_weights_proportional()),
+              ("entry barriers 20 percent, equal cut of the others", barrier_weights_equal_cut())]
+
+
+def combine(rows, ids, shares, pool_key, inp, label, growth_cagr=None):
+    """One programme that serves several opportunity rows from the same melt shop (for example engine bar plus turbine remelt).
+    market: rule on the combined pool of the programme. growth: band of the share weighted P50 growth of the member rows.
+    supply: the weakest member (one melt shop carries every input). The five judgement criteria: share weighted mean of the member rows (full precision).
+    Returns one dict per weighting with the score and the tier (evidence M)."""
+    by = {r["opportunity"]: r for r in rows}
+    tot = sum(shares)
+    sh = [x / tot for x in shares]
+    pr = inp[("pool", pool_key)]
+    sc = {"market": market_score(pr["pool_kind"], float(pr["pool_value"]), True)}
+    g = sum(w * by[i]["growth_p50_cagr_pct"] / 100.0 for w, i in zip(sh, ids)) if growth_cagr is None else growth_cagr
+    sc["growth"] = growth_score(g)
+    sc["supply"] = min(by[i]["supply"] for i in ids)
+    for k in ("competition", "technology", "customer", "barrier", "differentiation"):
+        sc[k] = sum(w * by[i][k] for w, i in zip(sh, ids))
+    out = []
+    for name, wts in WEIGHTINGS:
+        v = weighted(sc, wts)
+        out.append(dict(programme=label, members=" + ".join(ids), member_shares="/".join(f"{x:.3f}" for x in sh), weighting=name, **{k: sc[k] for k, _ in CRIT},
+                        growth_p50_cagr_pct=g * 100.0, market_basis=f"{pr['pool_kind']} {pr['pool_value']} {pr['unit']}", score=v, tier=tier(v, "M")))
     return out
 
 
