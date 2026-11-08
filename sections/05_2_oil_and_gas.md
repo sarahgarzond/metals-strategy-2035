@@ -4,7 +4,7 @@ Oil and gas is a stable market for high performance metals, in which investment 
 
 ### 5.2.1 Demand, Geography and Market Size
 
-Upstream investment holds its level, and much of it keeps existing fields alive rather than opening new ones. World upstream oil and gas investment fell from USD 625 billion in 2019 to USD 542 billion in 2025 and about USD 546 billion in 2026, with gas up 8 percent in 2026, and about 40 percent of upstream spending only slows the decline of existing fields [IEA_WEI_UPSTREAM_REGION_2026, OG_WEI2026_UPSTREAM_OG_2026, OG_WEI2025_UPSTREAM_OIL_2025]. Behind this flat total, North America remains the largest region at USD 165 billion in 2026 but has fallen from USD 219 billion in 2019, while the Middle East is the largest region spending above its 2019 level, at USD 93 billion against USD 75 billion, and its gas investment roughly doubled from USD 22.9 billion to USD 45.4 billion [IEA_WEI_UPSTREAM_REGION_2026, IEA_WEI_ME_GAS_2026]. Central and South America grew fastest, from USD 42 billion to USD 68 billion, and Sub Saharan Africa recovers by 12 percent in 2026, while LNG trade could grow from 560 bcm in 2024 to 880 bcm in 2035 under current policies [IEA_WEI_UPSTREAM_REGION_2026, OG_WEI2026_SSA_UPSTREAM_2026, OG_WEO2025_LNG_DEMAND_2024]. Upstream investment is thus the best measured stage, since no public source counts the tonnes of nickel alloy, duplex or clad pipe that the industry buys.
+Upstream investment holds its level, but much of it only defends existing output. World upstream oil and gas investment fell from USD 625 billion in 2019 to USD 542 billion in 2025 and about USD 546 billion in 2026, and about 40 percent of upstream spending only slows the decline of existing fields [IEA_WEI_UPSTREAM_REGION_2026, OG_WEI2026_UPSTREAM_OG_2026, OG_WEI2025_UPSTREAM_OIL_2025]. Behind this flat total, North America remains the largest region at USD 165 billion in 2026 but has fallen from USD 219 billion in 2019, while the Middle East is the largest region spending above its 2019 level, at USD 93 billion against USD 75 billion, and its gas investment roughly doubled from USD 22.9 billion to USD 45.4 billion [IEA_WEI_UPSTREAM_REGION_2026, IEA_WEI_ME_GAS_2026]. Central and South America grew fastest, from USD 42 billion to USD 68 billion, and Sub Saharan Africa recovers by 12 percent in 2026, while LNG trade could grow from 560 bcm in 2024 to 880 bcm in 2035 under current policies [IEA_WEI_UPSTREAM_REGION_2026, OG_WEI2026_SSA_UPSTREAM_2026, OG_WEO2025_LNG_DEMAND_2024]. Upstream investment is thus the best measured stage, since no public source counts the tonnes of nickel alloy, duplex or clad pipe that the industry buys.
 
 ### 5.2.2 Applications and Opportunities
 
@@ -16,7 +16,6 @@ Table 4: High performance metal applications in oil and gas, outlook to 2035
 |---|---|---|
 | Grows | Clad and lined pipe, subsea equipment, LNG cryogenic parts | Nickel alloy strip, plate, welding wire, FeNi36 |
 | Stable | Well tools, wellheads, valves and fittings for sour gas | Nickel alloy bar, billet, plate |
-| Shifts to duplex | Umbilical tube | Super and hyper duplex tube |
 
 *Sources: team assessment [OG_WEI2026_UPSTREAM_OG_2026, CO_TECHNIPFMC_ORDERS_2025, OG_ALLEIMA_UMBILICAL, CO_BUTTING_SALES_2025].*
 

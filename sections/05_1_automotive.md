@@ -1,6 +1,6 @@
 ## 5.1 Automotive
 
-The car industry is the clearest case of a market in which high performance alloys lose ground, because electrification removes the turbochargers, exhaust sensors, glow plugs and gaskets that have long consumed heat resistant nickel alloys.
+Automotive is the clearest case of high performance alloys losing ground, because electrification removes the turbochargers, exhaust sensors, glow plugs and gaskets that have long consumed heat resistant nickel alloys.
 
 ### 5.1.1 Demand, Geography and Market Size
 

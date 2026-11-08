@@ -1,6 +1,6 @@
 ## 5.5 Chemical Processing
 
-Chemical processing is the traditional heartland of corrosion resistant alloys, but in Europe it has become a maintenance market while new plants that need alloys for hot acids and chlorides are built in Asia.
+Chemical processing is the traditional heartland of corrosion resistant alloys, but in Europe it has become a maintenance market while new plants are built in Asia.
 
 ### 5.5.1 Demand, Geography and Market Size
 
@@ -21,7 +21,7 @@ Table 7: High performance metal applications in chemical processing, outlook to 
 
 *Sources: team assessment [CEFIC_CAPUTIL_EU27_Q3_2026, BASF_APAC_GROWTH_2035, CO_ALLEIMA_MEHSANA_2026].*
 
-The leading suppliers are moving closer to that new demand, and Alleima is investing SEK 220 million in finishing at Mehsana in India, even though it reported a slowdown in its chemical and petrochemical segment in the same quarter [CO_ALLEIMA_MEHSANA_2026].
+The leading suppliers are moving closer to that new demand, and Alleima is investing SEK 220 million in finishing at Mehsana in India to serve Asian chemical and petrochemical customers [CO_ALLEIMA_MEHSANA_2026].
 
 Implications for suppliers:
 
