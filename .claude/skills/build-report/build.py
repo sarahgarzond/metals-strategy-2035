@@ -70,10 +70,17 @@ def cite(md, sources):
     pattern = re.compile(r"\[(@?)([A-Z][A-Z0-9_]+(?:\s*,\s*[A-Z][A-Z0-9_]+)*)\](?!\()")
     # canonical document: several data_ids that point to the same document share one reference entry
     canon, seen = {}, {}
-    for i, s in sources.items():
-        key = ((s.get("author") or "").strip().lower(), (s.get("pub_date") or "").strip(),
-               re.sub(r"\W+", " ", (s.get("title") or "").lower()).strip(), (s.get("url") or s.get("doi") or "").strip().rstrip("/"))
-        canon[i] = seen.setdefault(key, i) if key[2] else i
+    def _key(s):
+        url = (s.get("url") or s.get("doi") or "").strip().rstrip("/")
+        auth = (s.get("author") or "").strip().lower()
+        if re.search(r"\.(pdf|htm|html)$", url, re.I):
+            return (auth, re.sub(r"[^a-z0-9]", "", url.lower()))  # one specific document file
+        return (auth, (s.get("pub_date") or "").strip(),
+                re.sub(r"\W+", " ", (s.get("title") or "").lower()).strip(), url)
+    # prefer the row with the most precise date as the canonical entry
+    for i, s in sorted(sources.items(), key=lambda kv: -len((kv[1].get("pub_date") or ""))):
+        k = _key(s)
+        canon[i] = seen.setdefault(k, i) if (s.get("title") or "").strip() else i
     md = re.sub(r"\[(@?)([A-Z][A-Z0-9_]+(?:\s*,\s*[A-Z][A-Z0-9_]+)*)\](?!\()",
                 lambda m: "[" + m.group(1) + ", ".join(dict.fromkeys(canon.get(x.strip(), x.strip()) for x in m.group(2).split(","))) + "]", md)
     used, warn = [], []
