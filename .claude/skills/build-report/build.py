@@ -88,13 +88,14 @@ def cite(md, sources):
         taken = {x[-1] for x in ids if x.startswith("__taken__")}
         ids = [x for x in ids if not x.startswith("__taken__")]
         if taken:
-            free = [c for c in "abcdefghijklmnopqrstuvwxyz" if c not in taken]
+            letters = list("abcdefghijklmnopqrstuvwxyz") + [x + y for x in "abcdefghijklmnopqrstuvwxyz" for y in "abcdefghijklmnopqrstuvwxyz"]
+            free = [c for c in letters if c not in taken]
             for k, i in enumerate(sorted(ids, key=lambda x: (sources[x].get("title") or "").lower())):
                 suffix[i] = free[k]
             continue
         if len(ids) > 1:
             for k, i in enumerate(sorted(ids, key=lambda x: (sources[x].get("title") or "").lower())):
-                suffix[i] = "abcdefghijklmnopqrstuvwxyz"[k]
+                suffix[i] = (list("abcdefghijklmnopqrstuvwxyz") + [x + y for x in "abcdefghijklmnopqrstuvwxyz" for y in "abcdefghijklmnopqrstuvwxyz"])[k]
 
     def who(i):
         s = sources[i]

@@ -3,6 +3,7 @@
 | Note | Unit | Sources | Primary | Company reports | Spotlights | Open gaps | Result |
 |---|---|---|---|---|---|---|---|
 | research/materials/aluminium.md | material:aluminium | 17 | 8 | 4 | 3 | 7 | PASS |
+| research/materials/apparent_consumption.md | None:None | 7 | 3 | 0 | 0 | 3 | FAIL |
 | research/materials/chromium.md | material:chromium | 35 | 10 | 11 | 5 | 20 | PASS |
 | research/materials/cobalt.md | material:cobalt | 58 | 23 | 13 | 5 | 33 | PASS |
 | research/materials/copper.md | material:copper | 62 | 31 | 8 | 4 | 8 | PASS |
@@ -20,3 +21,14 @@
 | research/sectors/energy_environment.md | sector:energy_environment | 40 | 17 | 18 | 4 | 17 | PASS |
 | research/sectors/medical.md | sector:medical | 40 | 15 | 17 | 4 | 18 | PASS |
 | research/sectors/oil_gas.md | sector:oil_gas | 39 | 18 | 29 | 3 | 14 | PASS |
+
+## research/materials/apparent_consumption.md
+* missing '## Source coverage' table
+* required source not covered: UN Comtrade (tools/data/fetch.py comtrade)
+* required source not covered: World Bank Commodity Data / Pink Sheet (fetch.py pinksheet)
+* required source not covered: USGS Mineral Commodity Summaries 2026 (fetch.py usgs)
+* required source not covered: Company annual reports, 10-K/20-F, investor presentations (fetch.py sec, company IR sites)
+* only 7 distinct sources (minimum 12)
+* only 3 primary or structured sources (minimum 7)
+* only 0 company report references (minimum 4)
+* only 0 dated spotlight facts (minimum 3)
