@@ -10,7 +10,7 @@ New investment follows that growth to Asia. BASF expects Asia Pacific to provide
 
 ### 5.5.2 Applications and Opportunities
 
-Corrosion-resistant alloys are needed where stainless steel fails, as in sulfuric acid, hydrochloric acid, or chlor-alkali service. In Table 7, European demand is mainly replacement, while new plants and clad plate move to Asia. Alleima is investing SEK 220 million in finishing at Mehsana, India, where its range includes Sanicro 625 (UNS N06625) tube of 6 to 42 mm outside diameter [MO_ALLEIMA_625_MO, CO_ALLEIMA_MEHSANA_2026].
+Corrosion-resistant alloys are needed where stainless steel fails, as in sulfuric acid, hydrochloric acid, or chlor-alkali service. Table 7 separates European replacement from new Asian plants. Alleima is investing SEK 220 million in finishing at Mehsana, India, where its range includes Sanicro 625 (UNS N06625) tube of 6 to 42 mm outside diameter [MO_ALLEIMA_625_MO, CO_ALLEIMA_MEHSANA_2026]. Supply of plate grows as well. Outokumpu's Avesta programme in Sweden adds about 13 kt of high nickel flat capacity, more than a fifth of that EU flat product use [OUTOKUMPU_HNI_KT].
 
 Table 7: High performance metal applications in chemical processing, outlook to 2035
 

@@ -1,8 +1,8 @@
 # 3. Introduction to the Analytical Framework and Methodology
 
-The study follows the seven links of the metal value chain: material, product form, application, industry, geography, market size, and growth. Table 1 shows which chapters cover each link. Figures are compared only at the same stage, so contained metal is kept apart from gross weight and output from capacity. Mine output, alloy melt, mill products, and industry revenue are reported separately.
+The study follows the seven links of the metal value chain: material, product form, application, industry, geography, market size, and growth. Table 1 shows which chapters cover each link. Figures are compared only at the same stage, so contained metal is kept apart from gross weight and output from capacity.
 
-Structured data from the USGS, UN Comtrade, Eurostat PRODCOM, the World Bank, OECD, UNIDO, and the IEA form the base. Associations, official outlooks, and 61 company profiles add detail, and commercial reports serve only as a cross-check. Key figures are checked against a second source where one exists. The source register records each value's unit, stage, type, source, and formula and flags single-source figures.
+Structured data from the USGS, UN Comtrade, Eurostat PRODCOM, the World Bank, OECD, UNIDO, and the IEA form the base. Associations, official outlooks, and 61 company profiles add detail, and commercial reports serve only as a cross-check. Key figures are checked against a second source where one exists, and the source register flags single-source figures.
 
 Table 1: The metal value chain and its evidence
 

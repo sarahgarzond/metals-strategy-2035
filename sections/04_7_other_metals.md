@@ -8,7 +8,7 @@ World output of zirconium concentrates reached about 1.2 Mt gross weight in 2025
 
 ### 4.7.2 Copper
 
-Copper links high-performance materials to electrification, with 2025 mine production of about 23.2 Mt. Flat-rolled products take 11 percent of first use, against 63 percent for wire. Copper averaged USD 9,947 per tonne in 2025 and set records above USD 14,500 in 2026 [CU_IWCC_FIRSTUSE_2024, CU_ICSG_MINE_2025, IEA_CM_CO_DEMAND_2025_2035, LME_CU_RECORD_2026, CU_WB_CU_2025]. Under current policies, the IEA expects output from current mines to fall to 20.7 Mt by 2035, while demand rises from 27.8 Mt to 32.4 Mt. That implies a primary supply deficit of about 25 percent [CU_IEA_GAP_2035, IEA_CM_CO_DEMAND_2025_2035]. Specialized forms include copper-nickel and high-conductivity strip, such as the busbars in section 5.6.
+Copper links high-performance materials to electrification, with 2025 mine production of about 23.2 Mt. Flat-rolled products take 11 percent of first use, against 63 percent for wire. Copper averaged USD 9,947 per tonne in 2025 and reached a record monthly average of USD 14,508 in October 2026 [CU_IWCC_FIRSTUSE_2024, CU_ICSG_MINE_2025, IEA_CM_CO_DEMAND_2025_2035, CU_WB_CU_2025, CU_WB_CU_2026M10]. Under current policies, the IEA expects output from current mines to fall to 20.7 Mt by 2035, while demand rises from 27.8 Mt to 32.4 Mt. That implies a primary supply deficit of about 25 percent [CU_IEA_GAP_2035, IEA_CM_CO_DEMAND_2025_2035]. Specialized forms include copper-nickel and high-conductivity strip, such as the busbars in section 5.6.
 
 ### 4.7.3 Aluminium and Manganese
 

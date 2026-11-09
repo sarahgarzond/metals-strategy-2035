@@ -1,7 +1,7 @@
 # 9. Conclusion
 
-The study asked how supply, trade and industrial use of selected metals shape opportunities through 2035. By volume, superalloy bar, billet and remelt stock leads, growing from 193 kt to 248 kt by 2035, worth EUR 6.3 to 11.7 bn [MODEL_FAMILY_VALUE_2026]. Value comes from conversion into qualified products, while quotas raise cobalt and tungsten costs more than they cap output.
+The study asked how the production, availability, trade and industrial uses of selected metals shape opportunities through 2035. Quotas raise cobalt and tungsten costs more than they cap alloy output. Trade shows that value comes from conversion into qualified bar, strip and tube. By volume, superalloy bar, billet and remelt stock leads, rising from 193 kt to 248 kt by 2035, worth EUR 6.3 to 11.7 bn [MODEL_FAMILY_VALUE_2026].
 
-By index, electronics grows fastest at 141, but its alloy volume is unmeasured, so it yields a priority 2 position in fab gas strip and tube. Priority 1 goes to turbine remelt stock and sheet and to Alloy 718 engine bar for engine and turbine makers in the United States and Europe, best run as one vacuum melt programme. Both depend on cobalt supply and aerospace volumes [MODEL_SCORING_2026].
+Alloy 718 engine bar and billet for open market forgers in the United States and Europe is the only stable priority 1. Turbine casting stock and combustor sheet are priority 2 once cobalt grades count, and electronics yields a priority 2 position in fab gas strip and tube [MODEL_SCORING_2026, MODEL_COMBINED_PROGRAMME_2026].
 
-Team weights carry the estimates, since official data stop at mill products. Producers should therefore secure inputs, qualify early with engine and turbine makers, and add remelt capacity after customers sign.
+Team weights carry these estimates, since official data stop at mill products. Producers should fund 718 billet first, lead with non rotating bar, decide on remelt capacity in Q1 2028 and add cobalt lean remelt stock on the same melt shop.

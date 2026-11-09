@@ -4,9 +4,9 @@ Oil and gas is a stable market for high-performance metals, as investment moves 
 
 ### 5.2.1 Demand, Geography and Market Size
 
-Global upstream oil and gas investment fell from USD 625 billion in 2019 to USD 542 billion in 2025 and was about USD 546 billion in 2026 [OG_WEI2026_SSA_UPSTREAM_2026, IEA_WEI_GASPOWER_2025]. In 2025, about 40 percent of upstream spending went to slowing the decline of existing fields [OG_WEI2025_UPSTREAM_OIL_2025].
+Global upstream oil and gas investment fell from USD 625 billion in 2019 to USD 542 billion in 2025 and was about USD 546 billion in 2026 [OG_WEI2026_SSA_UPSTREAM_2026, IEA_WEI_GASPOWER_2025].
 
-North America remained the largest region, at USD 165 billion in 2026 against USD 219 billion in 2019. Middle East investment rose from USD 75 billion to USD 93 billion, with gas roughly doubling to USD 45.4 billion, and Central and South America grew fastest, from USD 42 billion to USD 68 billion [IEA_WEI_GASPOWER_2025]. Under current policies, LNG trade could rise from 560 bcm in 2024 to 880 bcm in 2035 [OG_WEO2025_CPS_EXTRA_UPSTREAM, IEA_WEI_GASPOWER_2025]. Alloy and clad pipe tonnes are not published, so investment is the best measure.
+North America remained the largest region, at USD 165 billion in 2026 against USD 219 billion in 2019. Middle East investment rose from USD 75 billion to USD 93 billion, with gas roughly doubling to USD 45.4 billion [IEA_WEI_GASPOWER_2025]. Under current policies, LNG trade could rise from 560 bcm in 2024 to 880 bcm in 2035 [OG_WEO2025_CPS_EXTRA_UPSTREAM, IEA_WEI_GASPOWER_2025]. Alloy and clad pipe tonnes are not published, so investment is the best measure.
 
 ### 5.2.2 Applications and Opportunities
 

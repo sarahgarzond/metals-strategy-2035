@@ -4,7 +4,7 @@ Electronics has the largest headline sales but the smallest metal volumes, often
 
 ### 5.6.1 Demand, Geography and Market Size
 
-Semiconductor sales reached USD 795.6 billion in 2025, up 26.2 percent, and WSTS forecasts USD 1.51 trillion in 2026 as memory sales more than triple. Sales value does not translate into metal volume [WSTS_WORLD_2025].
+Semiconductor sales reached USD 795.6 billion in 2025, up 26.2 percent, and WSTS forecasts USD 1.51 trillion in 2026 [WSTS_WORLD_2025].
 
 Equipment spending is a closer alloy indicator. SEMI expects 300 mm fab equipment spending to reach USD 149 billion in 2026 and USD 227 billion in 2029, in Taiwan, Korea, China, and increasingly the United States [SEMI_300MM_2026, SEMI_300MM_2029]. Electronics demand for FeNi or high-purity alloy is not published in tonnes.
 
@@ -25,9 +25,9 @@ Table 8: High performance metal applications in electronics, outlook to 2035
 
 *Sources: team assessment [DNP_KUROSAKI_2024, CO_INFINEON_FAB_2026, NVDA_800VDC, SEMI_300MM_2026].*
 
-TSMC, Applied Materials, and Lam Research filings name no alloys, so suppliers sell through component makers. Infineon's EUR 5 billion Smart Power Fab, opened in Dresden in July 2026, shows that Europe still adds power electronics capacity [CO_INFINEON_FAB_2026].
+TSMC, Applied Materials, and Lam Research filings name no alloys, so alloy reaches fabs through tube finishers. Dockweiler in Germany supplies ultra high purity tube systems, and Valex in the United States sells V22 (UNS N06022) alloy tube beside electropolished stainless [CO_DOCKWEILER_UHP, CO_VALEX_V22]. Infineon's EUR 5 billion Smart Power Fab, opened in Dresden in July 2026, shows that Europe still adds power electronics capacity [CO_INFINEON_FAB_2026].
 
 Implications for suppliers:
 
 * Partner with mask makers to qualify FeNi36 ultra thin foil rather than compete with protected processes.
-* Qualify high purity alloy strip and tube with the component suppliers of fab gas systems.
+* Qualify high purity alloy strip and tube with fab tube finishers such as Dockweiler and Valex.
