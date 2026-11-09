@@ -1,0 +1,16 @@
+kind,name,used_by_key,p50_growth_pct_a_year_with_haircut,p50_growth_pct_a_year_no_haircut,what_it_measures
+industry index (Table 13),Aerospace index,,3.11,3.63,"Weighted blend of all components of the industry, times intensity and alloy share. Scores of single rows do NOT use it."
+industry index (Table 13),Energy index,,2.72,3.35,"Weighted blend of all components of the industry, times intensity and alloy share. Scores of single rows do NOT use it."
+industry index (Table 13),Electronics index,,3.5,,"Weighted blend of all components of the industry, times intensity and alloy share. Scores of single rows do NOT use it."
+industry index (Table 13),Medical index,,3.15,,"Weighted blend of all components of the industry, times intensity and alloy share. Scores of single rows do NOT use it."
+industry index (Table 13),Chemical index,,0.84,,"Weighted blend of all components of the industry, times intensity and alloy share. Scores of single rows do NOT use it."
+industry index (Table 13),Oil and gas index,,-0.19,0.44,"Weighted blend of all components of the industry, times intensity and alloy share. Scores of single rows do NOT use it."
+industry index (Table 13),Automotive index,,0.19,0.81,"Weighted blend of all components of the industry, times intensity and alloy share. Scores of single rows do NOT use it."
+row driver (Tables 17 and A1),Engine deliveries (new engine output),aero_new,3.74,4.29,"Engine delivery path: LEAP 2025 outturn, 2026 guidance, 2028 plan, 2035 Airbus plus Boeing average delivery requirement"
+row driver (Tables 17 and A1),Aerospace aftermarket pull,aero_mro,3.13,3.64,Airbus Global Services Forecast off wing maintenance growth
+row driver (Tables 17 and A1),Gas turbine hot section and fleet aftermarket (equal blend),gas_turbine,3.41,4.06,"Sum of Siemens Energy, GE Vernova and MHI new unit output path blended with fleet aftermarket"
+row driver (Tables 17 and A1),Nuclear tube and cladding,nuclear,1.45,2.1,Operating plus under construction capacity
+row driver (Tables 17 and A1),Semiconductor equipment (300 mm capacity),semi_fab,4.17,,SEMI 300 mm capacity path
+row driver (Tables 17 and A1),Combustion and hybrid car sub index,automotive_thermal,-3.69,-3.05,Car sales times non electric share
+row driver component,"Gas turbine new units, three OEM sum",,3.95,4.61,"Siemens Energy, GE Vernova, MHI output ratio 2035 over 2025"
+row driver component,Gas turbine fleet aftermarket,,2.84,3.5,"Installed fleet hot section parts (team assumption 2.0 / 3.5 / 5.0 percent a year, before haircut)"

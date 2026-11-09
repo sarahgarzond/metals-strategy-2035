@@ -1,5 +1,8 @@
 shock_case,opportunity,row_type,base_score,base_tier,case_score,case_tier,tier_changed,score_change
-Congo cobalt quota tightened,Turbine remelt stock and sheet,main,3.85,1,3.7,2,True,-0.15
+Congo cobalt quota tightened,Casting stock (IGT and aero VIM remelt),main,3.6,2,3.45,2,False,-0.15
+Congo cobalt quota tightened,"Casting stock, cobalt lean grades only",variant,3.75,1,3.6,2,True,-0.15
+Congo cobalt quota tightened,Combustor sheet,main,3.55,2,3.4,2,False,-0.15
+Congo cobalt quota tightened,"Combustor sheet, cobalt lean grades only",variant,3.7,2,3.55,2,False,-0.15
 Congo cobalt quota tightened,Engine bar and billet,main,3.7,2,3.55,2,False,-0.15
 Congo cobalt quota tightened,"Engine bar and billet, Alloy 718 only",variant,3.85,1,3.85,1,False,0.0
 Congo cobalt quota tightened,FeNi36 foil and FeNi strip,main,3.2,Option,3.2,Option,False,0.0
@@ -14,7 +17,10 @@ Congo cobalt quota tightened,Car exhaust and turbo alloys,main,2.35,Harvest,2.35
 Congo cobalt quota tightened,Fab gas delivery strip and tube,new,3.6,2,3.6,2,False,0.0
 Congo cobalt quota tightened,FeNi36 strip for NO96 LNG membrane tanks,new,3.2,Option,3.2,Option,False,0.0
 Congo cobalt quota tightened,Superalloy repair wire,new,2.7,Monitor,2.7,Monitor,False,0.0
-China tungsten licence halt,Turbine remelt stock and sheet,main,3.85,1,3.85,1,False,0.0
+China tungsten licence halt,Casting stock (IGT and aero VIM remelt),main,3.6,2,3.6,2,False,0.0
+China tungsten licence halt,"Casting stock, cobalt lean grades only",variant,3.75,1,3.75,1,False,0.0
+China tungsten licence halt,Combustor sheet,main,3.55,2,3.55,2,False,0.0
+China tungsten licence halt,"Combustor sheet, cobalt lean grades only",variant,3.7,2,3.7,2,False,0.0
 China tungsten licence halt,Engine bar and billet,main,3.7,2,3.7,2,False,0.0
 China tungsten licence halt,"Engine bar and billet, Alloy 718 only",variant,3.85,1,3.85,1,False,0.0
 China tungsten licence halt,FeNi36 foil and FeNi strip,main,3.2,Option,3.2,Option,False,0.0
@@ -29,7 +35,10 @@ China tungsten licence halt,Car exhaust and turbo alloys,main,2.35,Harvest,2.35,
 China tungsten licence halt,Fab gas delivery strip and tube,new,3.6,2,3.6,2,False,0.0
 China tungsten licence halt,FeNi36 strip for NO96 LNG membrane tanks,new,3.2,Option,3.2,Option,False,0.0
 China tungsten licence halt,Superalloy repair wire,new,2.7,Monitor,2.7,Monitor,False,0.0
-Indonesia ore quota cut,Turbine remelt stock and sheet,main,3.85,1,3.85,1,False,0.0
+Indonesia ore quota cut,Casting stock (IGT and aero VIM remelt),main,3.6,2,3.6,2,False,0.0
+Indonesia ore quota cut,"Casting stock, cobalt lean grades only",variant,3.75,1,3.75,1,False,0.0
+Indonesia ore quota cut,Combustor sheet,main,3.55,2,3.55,2,False,0.0
+Indonesia ore quota cut,"Combustor sheet, cobalt lean grades only",variant,3.7,2,3.7,2,False,0.0
 Indonesia ore quota cut,Engine bar and billet,main,3.7,2,3.7,2,False,0.0
 Indonesia ore quota cut,"Engine bar and billet, Alloy 718 only",variant,3.85,1,3.85,1,False,0.0
 Indonesia ore quota cut,FeNi36 foil and FeNi strip,main,3.2,Option,3.05,Option,False,-0.15
@@ -44,7 +53,10 @@ Indonesia ore quota cut,Car exhaust and turbo alloys,main,2.35,Harvest,2.2,Harve
 Indonesia ore quota cut,Fab gas delivery strip and tube,new,3.6,2,3.6,2,False,0.0
 Indonesia ore quota cut,FeNi36 strip for NO96 LNG membrane tanks,new,3.2,Option,3.05,Option,False,-0.15
 Indonesia ore quota cut,Superalloy repair wire,new,2.7,Monitor,2.7,Monitor,False,0.0
-"severe aerospace (2 years at -20 percent, 70 percent recovery)",Turbine remelt stock and sheet,main,3.85,1,3.85,1,False,0.0
+"severe aerospace (2 years at -20 percent, 70 percent recovery)",Casting stock (IGT and aero VIM remelt),main,3.6,2,3.6,2,False,0.0
+"severe aerospace (2 years at -20 percent, 70 percent recovery)","Casting stock, cobalt lean grades only",variant,3.75,1,3.75,1,False,0.0
+"severe aerospace (2 years at -20 percent, 70 percent recovery)",Combustor sheet,main,3.55,2,3.55,2,False,0.0
+"severe aerospace (2 years at -20 percent, 70 percent recovery)","Combustor sheet, cobalt lean grades only",variant,3.7,2,3.7,2,False,0.0
 "severe aerospace (2 years at -20 percent, 70 percent recovery)",Engine bar and billet,main,3.7,2,3.3,2,False,-0.4
 "severe aerospace (2 years at -20 percent, 70 percent recovery)","Engine bar and billet, Alloy 718 only",variant,3.85,1,3.45,2,True,-0.4
 "severe aerospace (2 years at -20 percent, 70 percent recovery)",FeNi36 foil and FeNi strip,main,3.2,Option,3.2,Option,False,0.0

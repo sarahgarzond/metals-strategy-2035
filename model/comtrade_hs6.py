@@ -22,7 +22,10 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 CLEAN = os.path.join(ROOT, "data", "clean")
 NOTE = os.path.join(ROOT, "research", "model", "comtrade_hs6_alloy.md")
 EUR_USD = 1.08
-GROUPS = {"750512": ("Bars, rods, profiles", 7505), "750522": ("Wire", 7505), "750620": ("Plates, sheets, strip, foil", 7506), "750712": ("Tubes and pipes", 7507)}
+GROUPS = {"750512": ("Bars, rods, profiles", 7505), "750522": ("Wire", 7505), "750620": ("Plates, sheets, strip, foil", 7506), "750712": ("Tubes and pipes", 7507),
+          "750220": ("Unwrought nickel alloys (VIM ingot, remelt and casting stock)", 7502)}
+LADDER_ORDER = ["750220", "750522", "750512", "750620", "750712"]   # price ladder by form, from melt stock to finished tube
+FILE_7502 = "comtrade_750210_750220_2023-2024.csv"
 FAMILY = {"bar_rod_wire": (["750512", "750522"], 7505), "flat": (["750620"], 7506), "tube": (["750712"], 7507)}
 
 
@@ -30,7 +33,12 @@ def load():
     a = pd.read_csv(os.path.join(CLEAN, "comtrade_750512_750522_750712_2023-2024.csv"), dtype={"hs": str})
     b = pd.read_csv(os.path.join(CLEAN, "comtrade_750620_2019-2024.csv"), dtype={"hs": str})
     b = b[b.year.isin([2023, 2024])]
-    d = pd.concat([a, b], ignore_index=True)
+    parts = [a, b]
+    f7502 = os.path.join(CLEAN, FILE_7502)
+    if os.path.exists(f7502):
+        c = pd.read_csv(f7502, dtype={"hs": str})
+        parts.append(c[c.hs == "750220"])
+    d = pd.concat(parts, ignore_index=True)
     d = d[d.partner == "World"].copy()
     d["unit_value_usd_per_kg"] = d.value_usd / d.net_weight_kg
     return d
@@ -84,6 +92,41 @@ def build(write_note=True):
         mrows.append(r)
     mr = pd.DataFrame(mrows).sort_values("750512_kt", ascending=False)
     mr.to_csv(os.path.join(CLEAN, "comtrade_hs6_alloy_main_reporters_2024.csv"), index=False)
+    # reporter set reconciliation, 2024 exports: ten reporters (the single basis) against the eight reporters of the four digit files (no France, India)
+    eight = ["China", "Germany", "Indonesia", "Italy", "Japan", "Rep. of Korea", "USA", "United Kingdom"]
+    rec = []
+    for fam, codes in [("bar and wire", ["750512", "750522"]), ("bar (750512)", ["750512"]), ("wire (750522)", ["750522"]), ("flat (750620)", ["750620"]), ("tube (750712)", ["750712"]), ("unwrought alloy (750220)", ["750220"])]:
+        x = d[(d.hs.isin(codes)) & (d.flow == "Export") & (d.year == 2024) & d.net_weight_kg.notna() & (d.net_weight_kg > 0)]
+        if x.empty:
+            continue
+        ten, eig = x.net_weight_kg.sum() / 1e6, x[x.reporter.isin(eight)].net_weight_kg.sum() / 1e6
+        fr_in = x[x.reporter.isin(["France", "India"])].groupby("reporter").net_weight_kg.sum() / 1e6
+        rec.append(dict(family=fam, codes="+".join(codes), flow="Export", year=2024, ten_reporters_kt=round(ten, 2), eight_reporters_kt=round(eig, 2), difference_kt=round(ten - eig, 2),
+                        france_kt=round(float(fr_in.get("France", 0.0)), 2), india_kt=round(float(fr_in.get("India", 0.0)), 2),
+                        basis_used="ten reporters (single basis for all HS 6 figures from round 7)",
+                        note="Eight reporters = reporters of the four digit files (China, Germany, Indonesia, Italy, Japan, Korea, USA, UK). Four digit totals for France and India were not retrievable, so the alloy share of the four digit total exists for eight reporters only."))
+    pd.DataFrame(rec).to_csv(os.path.join(CLEAN, "model_hs6_reporter_reconciliation.csv"), index=False)
+    # price ladder by form, 2024, ten reporters: world export and import unit values and the spread over reporters with at least 0.5 kt
+    lad = []
+    for hs in LADDER_ORDER:
+        r = dict(hs=hs, form=GROUPS[hs][0])
+        for flow in ("Export", "Import"):
+            x = d[(d.hs == hs) & (d.flow == flow) & (d.year == 2024) & d.net_weight_kg.notna() & (d.net_weight_kg > 0)]
+            if x.empty:
+                continue
+            uv = x.value_usd.sum() / x.net_weight_kg.sum()
+            big = x[x.net_weight_kg >= 500_000]
+            rr = (big.value_usd / big.net_weight_kg)
+            k = flow.lower()
+            r[f"{k}_kt"] = round(x.net_weight_kg.sum() / 1e6, 2)
+            r[f"{k}_usd_per_kg"] = round(uv, 1)
+            r[f"{k}_eur_per_kg"] = round(uv / EUR_USD, 1)
+            r[f"{k}_reporter_min_to_max_usd_per_kg"] = f"{rr.min():.1f} to {rr.max():.1f}" if len(rr) else "n/a"
+            r[f"{k}_n_reporters_with_weight"] = int(x.reporter.nunique())
+        lad.append(r)
+    ladder = pd.DataFrame(lad)
+    ladder["basis"] = "ten reporters, World partner, 2024, customs value per kg of net weight, EUR at 1.08 USD per EUR (team assumption)"
+    ladder.to_csv(os.path.join(CLEAN, "model_hs6_price_ladder_2024.csv"), index=False)
     if write_note:
         def md(df):
             cols = list(df.columns)
@@ -91,13 +134,16 @@ def build(write_note=True):
             for _, r in df.iterrows():
                 o.append("| " + " | ".join("n/a" if pd.isna(v) else str(v) for v in r) + " |")
             return "\n".join(o)
+        rec_df = pd.DataFrame(rec)
         L = ["# Alloy only nickel mill product trade, HS 6 digit (UN Comtrade, 2023 and 2024)\n",
-             "Generated by model/comtrade_hs6.py. Do not edit by hand. Source: UN Comtrade public preview API pulled with tools/data/fetch.py comtrade (data_id COMTRADE_750512_750522_750712_2023_2024 and COMTRADE_750610_750620_2019_2024). "
+             "Generated by model/comtrade_hs6.py. Do not edit by hand. Single reporter basis: ten reporters for every figure except the alloy share of the four digit total (eight reporters, no four digit files for France and India). Source: UN Comtrade public preview API pulled with tools/data/fetch.py comtrade (data_id COMTRADE_750512_750522_750712_2023_2024 and COMTRADE_750610_750620_2019_2024). "
              "Reporters: Germany, USA, China, Japan, Korea, India, France, United Kingdom, Italy, Indonesia, partner World, flows X and M. Re-exports are counted by each reporter, so the totals are a traded floor and not a production figure.\n",
              "HS 2022 separates pure nickel from nickel alloys at six digits (750511 and 750512 bars, 750521 and 750522 wire, 750610 and 750620 flat, 750711 and 750712 tubes). Official four digit totals therefore do not have to mix the two: the alloy codes are used here.\n",
              "## Totals and unit values of the alloy codes\n", md(summ.drop(columns=["basis"])),
              "\n## Alloy share of the four digit total (eight reporters of the four digit files)\n",
              md(share[["family", "codes", "flow", "year", "reporters", "total_four_digit_kt", "alloy_only_kt", "alloy_share_of_weight_pct", "alloy_share_of_value_pct", "unit_value_alloy_usd_per_kg", "unit_value_four_digit_usd_per_kg"]]),
+             "\n## Reporter set reconciliation, 2024 exports (ten reporters is the single basis)\n", md(rec_df),
+             "\n## Price ladder by form, 2024 (ten reporters)\n", md(ladder),
              "\n## Main exporters 2024, kt and USD per kg\n", md(mr),
              "\nReading: bars, wire, flat and tubes of nickel are almost all alloy in the traded floor, so the HS 7505, 7506 and 7507 floors used for the family tonnes overstate alloy tonnage by only the pure nickel share shown above. "
              "2024 is the basis. In 2023 Japan reports no net weight for 750522 and 750620 exports (USD 35 m and 321 m), so the 2023 flat and wire tonnage and alloy shares are biased low. In 2024 only Indonesia 750522 (USD 0.2 m) and Italy 750620 (USD 7.9 m) lack a weight. "

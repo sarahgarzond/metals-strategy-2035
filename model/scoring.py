@@ -67,19 +67,35 @@ def market_score(kind, value, derived=False):
 #   quota_principal 2 (Congo quota, element above 10 percent), licence_principal 1, halt 1 (active licence halt)
 #   single_source_minor 3 (one country mines at least 90 percent of world output and no control is in force, element below 10 percent of the alloy: niobium, Brazil about 93 percent),
 #   single_source_principal 2 (same concentration, element above 10 percent)
+#   byproduct_minor 3 (element is a by product of another metal with a tiny world output, price spikes, no control in force, element below 10 percent of the alloy: rhenium in single crystal grades)
 INPUT_SCORE = {"none": 5, "form_not_used": 4, "price_only": 4, "quota_minor": 3, "licence_minor": 2, "quota_principal": 2,
-               "licence_principal": 1, "halt": 1, "single_source_minor": 3, "single_source_principal": 2}
+               "licence_principal": 1, "halt": 1, "single_source_minor": 3, "single_source_principal": 2, "byproduct_minor": 3}
 
 # Opportunity definitions. inputs: (element, regime); judgement: comp, tech, cust, barr, diff (anchors in Table A4).
 # growth: ("index", key) or ("signal", earliest volume year). pool: key into the pool table written by outlook_2035.py.
 # type: main (a row of the matrix), variant (a split of a main row by lead grade), new (row added because the report names it as growing).
 # The judgement values of the three new rows are first pass team judgement on the Table A4 anchors, flagged as such.
 NB = "niobium (Alloy 718 about 5 percent, Brazil about 93 percent of mine output, NB_USGS_BRAZIL_2025)"
-CO_GRADES = "cobalt in wrought cobalt bearing grades (UDIMET alloy R41 10 to 12 percent, MO_SM_R41_CO, primary; Waspaloy about 13 percent, secondary; 720Li about 15 percent: TODO(data) source for 720Li)"
+CO_GRADES = "cobalt in wrought cobalt bearing grades (Waspoloy 12 to 15 percent, MO_WASPALOY_CO; UDIMET alloy R41 10 to 12 percent, MO_SM_R41_CO; 720Li about 15 percent: TODO(data) source for 720Li)"
+CAST_CO = "cobalt in cast and wrought turbine grades (IN939 about 19 percent, industry review figure, TODO(data) source; Waspoloy 12 to 15 percent, MO_WASPALOY_CO)"
+RHENIUM = "rhenium (single crystal grades about 3 to 6 percent, by product, 81 t world mine output, TODO(data) composition source)"
+SHEET_CO = "cobalt in combustor sheet grades (UDIMET alloy 188 cobalt base, MO_SM_UD188_CO; Nimonic 263 19.0 to 21.0 percent, MO_SM_NIM263_CO)"
 OPPS = [
-    dict(id="Turbine remelt stock and sheet", type="main", growth=("index", "gas_turbine"), pool="turbine", derived=True,
-         inputs=[("cobalt", "quota_minor"), ("nickel", "none"), ("chromium", "none")],
+    dict(id="Casting stock (IGT and aero VIM remelt)", type="main", growth=("index", "gas_turbine"), pool="turbine", derived=True,
+         inputs=[(CAST_CO, "quota_principal"), (RHENIUM, "byproduct_minor"), ("nickel", "none"), ("chromium", "none")],
          sens_inputs=[("tungsten (not evidenced for these alloys, TODO(data))", "licence_minor")],
+         judgement=dict(competition=2, technology=4, customer=4, barrier=5, differentiation=4)),
+    dict(id="Casting stock, cobalt lean grades only", type="variant", growth=("index", "gas_turbine"), pool="turbine", derived=True,
+         inputs=[("cobalt (IN738 and GTD 111 about 8.5 to 9.5 percent, below the 10 percent threshold, TODO(data) source)", "quota_minor"), ("nickel", "none"), ("chromium", "none")],
+         sens_inputs=[],
+         judgement=dict(competition=2, technology=4, customer=4, barrier=5, differentiation=4)),
+    dict(id="Combustor sheet", type="main", growth=("index", "gas_turbine"), pool="turbine_sheet", derived=True,
+         inputs=[(SHEET_CO, "quota_principal"), ("nickel", "none"), ("chromium", "none")],
+         sens_inputs=[],
+         judgement=dict(competition=2, technology=4, customer=5, barrier=5, differentiation=4)),
+    dict(id="Combustor sheet, cobalt lean grades only", type="variant", growth=("index", "gas_turbine"), pool="turbine_sheet", derived=True,
+         inputs=[("cobalt (HX 0.5 to 2.5 percent, MO_SM_HX_CO; Alloy 230 5.0 percent maximum, MO_SM_230_CO)", "quota_minor"), ("nickel", "none"), ("chromium", "none")],
+         sens_inputs=[],
          judgement=dict(competition=2, technology=4, customer=5, barrier=5, differentiation=4)),
     dict(id="Engine bar and billet", type="main", growth=("index", "aero_new"), pool="engine_bar", derived=True,
          inputs=[(CO_GRADES, "quota_principal"), (NB, "single_source_minor"), ("nickel", "none"), ("chromium", "none")],

@@ -1,17 +1,17 @@
 kind,key,p50_cagr,pool_kind,pool_value,unit,note
-growth,energy,0.028008237840121852,,,,Table 13 energy index
+growth,energy,0.027173234037491056,,,,Table 13 energy index
 growth,aerospace,0.03114926592302547,,,,Table 13 aerospace index
-growth,feni,0.025656589738213276,,,,Table 14 FeNi family
-growth,medical,0.031510387157430264,,,,Table 13 medical index
-growth,oil_and_gas,-0.0017270340765724868,,,,Table 13 oil and gas index
-growth,chemical,0.008134575275839051,,,,Table 13 chemical index
-growth,nuclear,0.014192427234185345,,,,Nuclear tube and cladding activity ratio (Table A1)
+growth,feni,0.02583085606672575,,,,Table 14 FeNi family
+growth,medical,0.03145340893980442,,,,Table 13 medical index
+growth,oil_and_gas,-0.0019319787193488036,,,,Table 13 oil and gas index
+growth,chemical,0.008362918518247442,,,,Table 13 chemical index
+growth,nuclear,0.014451433106813072,,,,Nuclear tube and cladding activity ratio (Table A1)
 growth,aero_new,0.037416442434083486,,,,"Aerospace new engine output: engine delivery path, with haircut (Table A1)"
-growth,automotive_thermal,-0.03701275496540224,,,,Automotive combustion and hybrid sub index
-growth,gas_turbine,0.03586986981441176,,,,"Energy gas turbine hot section output ratio, with haircut (Table A1)"
+growth,automotive_thermal,-0.03687904719971635,,,,Automotive combustion and hybrid sub index
+growth,gas_turbine,0.03405521917098353,,,,"Energy gas turbine hot section: new unit output of three OEMs and fleet aftermarket, equal blend, with haircut (Table A1)"
 growth,aero_mro,0.03131188590767975,,,,"Aerospace aftermarket and overhaul pull, with haircut (Table A1)"
-growth,semi_fab,0.04154208283166505,,,,Semiconductor equipment 300 mm capacity path (Table A1)
-pool,turbine,,measured_kt_co,8.501,kt Co,"Cobalt Institute 20.0 kt in superalloys minus 11.499 kt aviation (derived remainder, mapped to industrial turbines)"
+growth,semi_fab,0.04169992641863196,,,,Semiconductor equipment 300 mm capacity path (Table A1)
+pool,turbine,,measured_kt_co,6.0,kt Co,"Cobalt Institute 20.0 kt in superalloys times the industrial gas turbine weight 0.300 (team estimate weight), 6.0 kt. The 8.5 kt non aviation remainder is not used"
 pool,aviation,,measured_kt_co,11.499,kt Co,"Cobalt Institute aviation cobalt 2025 (measured, Benchmark data)"
 pool,feni,,none,none,,"No FeNi tonnes, EUR or capacity in square metres in research/. DNP capacity doubling is a signal, not a volume"
 pool,medical,,company_end_use,0.258,EUR bn,"Carpenter medical end use sales USD 278.4 m (fiscal 2026) at 1.08 USD per EUR, bar, billet, wire and powder, mixed alloys"
@@ -22,4 +22,5 @@ pool,chemical,,estimated_eur_bn,0.723,EUR bn,"EU flat 57.8 kt x chemical weight 
 pool,am_powder,,wider_segment,0.355,EUR bn,"Carpenter PEP segment USD 383.0 m mixes titanium, powder, Dynamet and additive, no powder split. Hoganas additive share is limited and undisclosed"
 pool,none,,none,none,,"Signal only, no measured volume of the product"
 pool,engine_bar,,estimated_eur_bn,4.016,EUR bn,"Superalloy bar, billet and remelt stock family P50 193 kt (2025, team estimate, model_family_tonnes.csv) x aerospace weight 0.575 (measured cobalt split, includes cast parts, so an upper bound for wrought bar) x EUR 25.4 to 33.4 per kg x superalloy premium 1.00 to 1.41. Range 2.81 to 5.22. Replaces the 11.499 kt aviation cobalt pool: Alloy 718, the lead billet grade, has no cobalt to speak of (1.00 percent maximum)"
+pool,turbine_sheet,,estimated_eur_bn,0.456,EUR bn,"EU flat 57.8 kt x energy weight 0.2 (team assumption, all energy uses of flat products, not only combustor sheet) x EUR 31.0 to 47.8 per kg. Range 0.36 to 0.55. Upper bound for combustor sheet"
 pool,fab_gas,,estimated_eur_bn,0.114,EUR bn,"EU flat 57.8 kt x electronics weight 0.05 (team assumption) x EUR 31.0 to 47.8 per kg. Range 0.09 to 0.14. Strip only: the tube weight for electronics is not assigned (TODO(data)), so the pool is a lower bound for strip plus tube"

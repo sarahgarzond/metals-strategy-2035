@@ -1,4 +1,8 @@
 hs,product,flow,year,n_reporters,n_rows_without_weight,value_usd_m,net_weight_kt,unit_value_usd_per_kg,unit_value_eur_per_kg,basis
+750220,"Unwrought nickel alloys (VIM ingot, remelt and casting stock)",Export,2023,9,0,813.5,29.93,27.18,25.17,"ten reporters, World partner"
+750220,"Unwrought nickel alloys (VIM ingot, remelt and casting stock)",Export,2024,9,1,652.3,27.85,23.42,21.69,"ten reporters, World partner"
+750220,"Unwrought nickel alloys (VIM ingot, remelt and casting stock)",Import,2023,10,0,735.4,29.08,25.28,23.41,"ten reporters, World partner"
+750220,"Unwrought nickel alloys (VIM ingot, remelt and casting stock)",Import,2024,10,0,725.9,26.28,27.62,25.57,"ten reporters, World partner"
 750512,"Bars, rods, profiles",Export,2023,10,1,2483.7,59.56,41.7,38.61,"ten reporters, World partner"
 750512,"Bars, rods, profiles",Export,2024,10,0,2620.3,64.54,40.6,37.59,"ten reporters, World partner"
 750512,"Bars, rods, profiles",Import,2023,10,0,2013.9,53.97,37.32,34.55,"ten reporters, World partner"
