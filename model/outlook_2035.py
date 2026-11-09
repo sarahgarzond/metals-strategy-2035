@@ -271,7 +271,7 @@ HAIR_AERO = par("MODEL_HAIRCUT_AERO", "Optimism haircut on aerospace activity 20
                 f"Triangular mode {AERO_MEAN:.2f} is the equal weight mean of all three aerospace plan against outcome points: Boeing 737 rate reached in Q4 2025 against the 2026 plan rate ({OT['OT_BA_737_RATE']:.3f}), Airbus 2026 run rate against the 870 guidance ({OT['OT_AIRBUS_2026']:.3f}, a projection) and the LEAP counter evidence ({OT['OT_LEAP_2026']:.3f}). Low 0.80 doubles the Boeing shortfall (team assumption, a delivery ramp that slips about three years). High 1.07 is the LEAP point. The median of the draws is {float(tri_ppf(np.array([0.5]), 0.80, round(AERO_MEAN, 2), 1.07)[0]):.2f} and is the figure quoted in the text. Sensitivities: Boeing point only 0.894, LEAP full year ratio {LEAP_FY_LO/1.18:.3f} to {LEAP_FY_HI/1.18:.3f} instead of 1.068 gives a mean of {np.mean([OT['OT_BA_737_RATE'], OT['OT_AIRBUS_2026'], LEAP_FY_LO/1.18]):.3f}. The IEA investment ratio ({OT['OT_WEI_UPSTREAM']:.3f}) is excluded because it is not an aerospace series and mixes price bases. Memo: 2025 Airbus 793 plus Boeing 600 deliveries are {100*MEMO_DELIV_RATIO:.0f} percent of the Airbus GMF 2025 average annual requirement of 2,171 aircraft, so the ramp is behind the path (backlog 8,754 Airbus aircraft). Three points, one vintage: low evidence.")
 HAIR_OTH = par("MODEL_HAIRCUT_OFFICIAL", "Optimism haircut on energy, oil and gas, automotive activity 2035 (realised over guided), ratio", 0.85, 0.95, 1.02, "ratio", "derived plus team assumption",
                "OG_WEO2025_UPSTREAM_2025 / IEA_WEI_UPSTREAM_REGION_2026",
-               f"Triangular mode 0.95 is the IEA WEI vintage ratio ({OT['OT_WEI_UPSTREAM']:.3f}), the median of the draws is {float(tri_ppf(np.array([0.5]), 0.85, 0.95, 1.02)[0]):.2f} and is the figure quoted in the text. The ratio compares a 2024 price base estimate with a 2025 price base outcome, so it mixes price and volume (no deflator in the repository, TODO(data)). Low 0.85 and high 1.02 are team assumptions: one point, one year ahead, so the width is deliberately generous. Siemens Energy capacity is one OEM only (GE Vernova and Mitsubishi Power are not in research/, TODO(data)).")
+               f"Triangular mode 0.95 is the IEA WEI vintage ratio ({OT['OT_WEI_UPSTREAM']:.3f}), the median of the draws is {float(tri_ppf(np.array([0.5]), 0.85, 0.95, 1.02)[0]):.2f} and is the figure quoted in the text. The ratio compares a 2024 price base estimate with a 2025 price base outcome, so it mixes price and volume (no deflator in the repository, TODO(data)). Low 0.85 and high 1.02 are team assumptions: one point, one year ahead, so the width is deliberately generous. The gas turbine ratio uses three OEMs (Siemens Energy, GE Vernova, Mitsubishi Heavy Industries).")
 HAIR = {}
 _hg = np.random.default_rng(SEED + 2)
 _u_ha = _hg.random(N)
@@ -285,6 +285,26 @@ for _k in ("energy", "oil_and_gas", "automotive"):
 # derived anchors
 airbus_cagr = cagr(23310, 45550, 20)
 gt_ratio = (30.0 / 17.0) ** (4.0 / 5.0)          # Siemens Energy 17 GW FY2024, 30 GW FY2029 midpoint, flat after
+# Three OEM gas turbine path (round 7). Siemens Energy: CO_SIEMENSENERGY_CMD_2025. GE Vernova: CO_GEV_GT_2025 (10-K) and CO_GEV_GT_Q3_2026 (10-Q).
+# Mitsubishi Heavy Industries: CO_MHI_GT_2026 (FY2025 and 1H FY2026 results presentations).
+GT_SIEMENS_BASE = 17.0 * (30.0 / 17.0) ** (1.0 / 5.0)   # Siemens Energy 2025 output on the same path (GW), 19.0
+GEV_DEL_2025 = 15.3        # GE Vernova gas turbine deliveries 2025, GW (10-K)
+GEV_DEL_9M26 = 12.8        # nine months 2026, GW (10-Q)
+GEV_ORD_2025 = 29.8        # orders 2025, GW
+GEV_RATIO_RUN = (GEV_DEL_9M26 / 0.75) / GEV_DEL_2025   # 2026 annualised deliveries over 2025 = 1.12
+GEV_RATIO_ORD = GEV_ORD_2025 / GEV_DEL_2025            # 2025 orders over 2025 deliveries = 1.95
+MHI_BACKLOG_FY24, MHI_ORD_FY25, MHI_BACKLOG_FY25 = 21.0, 16.0, 33.0     # GW, large frame gas turbines
+MHI_ORD_1H26, MHI_BACKLOG_1H26 = 8.0, 37.0
+MHI_DEL_FY25 = MHI_BACKLOG_FY24 + MHI_ORD_FY25 - MHI_BACKLOG_FY25     # implied deliveries FY2025 = 4 GW (rounded inputs)
+MHI_DEL_1H26 = MHI_BACKLOG_FY25 + MHI_ORD_1H26 - MHI_BACKLOG_1H26     # implied deliveries 1H FY2026 = 4 GW
+MHI_RATIO_RUN = (2 * MHI_DEL_1H26) / MHI_DEL_FY25                     # annualised 1H FY2026 over FY2025 = 2.0 (matches the stated doubling of new unit capacity)
+OEM_GT = {   # base 2025 GW, ratio 2035 to 2025 low, mode, high
+    "Siemens Energy": (GT_SIEMENS_BASE, 1.00, gt_ratio, 2.00),
+    "GE Vernova": (GEV_DEL_2025, GEV_RATIO_RUN, math.sqrt(GEV_RATIO_RUN * GEV_RATIO_ORD), GEV_RATIO_ORD),
+    "Mitsubishi Heavy Industries": (MHI_DEL_FY25, 1.00, MHI_RATIO_RUN, MHI_RATIO_RUN),
+}
+_gtw = sum(v[0] for v in OEM_GT.values())
+GT3 = tuple(sum(v[0] * v[i] for v in OEM_GT.values()) / _gtw for i in (1, 2, 3))   # GW weighted low, mode, high
 lng_2025 = 560 * (880 / 560) ** (1 / 11)
 lng_hi = 880 / lng_2025
 semi_2031 = 1.07 * 1.08 ** 3 * 0.94 * 1.09
@@ -331,9 +351,13 @@ par("MODEL_AERO_W", "Weight of aftermarket versus new engine output in the aeros
     "GE Commercial Engines and Services takes 75 percent of revenue from services, but metal pull per revenue dollar is higher for new parts. Equal weights, Dirichlet noise.")
 
 # ENERGY
-e1 = par("MODEL_EN_GT_R", "Gas turbine output ratio 2035 to 2025", 1.00, gt_ratio, 2.00, "ratio", "derived plus team assumption",
-         "CO_SIEMENSENERGY_CMD_2025 / CO_SIEMENSENERGY_CAP_2026 / IEA_WEI_GASPOWER_2025",
-         "Mode: Siemens Energy path 17 GW (FY2024) to 30 GW (FY2029 midpoint of FY2028 to 2030), flat afterwards, as a proxy for world output. This is ONE OEM: GE Vernova and Mitsubishi Power are not profiled in research/ (TODO(data): their announced capacity), so the range is wide, 1.00 to 2.00. Low 1.00: order cycle turns once the backlog is delivered and output returns to the 2025 level (IEA gas power investment 112 in 2025 and 114 USD bn in 2026, flat). High 2.00: capacity keeps growing about 3 percent a year after 2030 or the other OEMs add more than Siemens Energy.")
+e1 = par("MODEL_EN_GT_R", "Gas turbine output ratio 2035 to 2025 (three OEMs)", GT3[0], GT3[1], GT3[2], "ratio", "derived plus team assumption",
+         "CO_SIEMENSENERGY_CMD_2025 / CO_GEV_GT_2025 / CO_GEV_GT_Q3_2026 / CO_MHI_GT_2026 / IEA_WEI_GASPOWER_2025",
+         f"GW weighted mean of three OEM paths (2025 output weights {', '.join(k + ' ' + f(v[0], 1) + ' GW' for k, v in OEM_GT.items())}). "
+         f"Siemens Energy: 17 GW (FY2024) to 30 GW (FY2029 midpoint), flat afterwards, mode {gt_ratio:.3f}, low 1.00 (orders cycle turns), high 2.00 (3 percent a year growth after 2030). "
+         f"GE Vernova: deliveries {GEV_DEL_2025} GW in 2025 and {GEV_DEL_9M26} GW in nine months 2026 (annualised ratio {GEV_RATIO_RUN:.2f} = low), orders {GEV_ORD_2025} GW in 2025 (ratio of orders to deliveries {GEV_RATIO_ORD:.2f} = high, deliveries catch up to the 2025 order rate), mode the geometric mean {OEM_GT['GE Vernova'][2]:.2f}. GE Vernova publishes no 2035 capacity, so this is a team estimate. "
+         f"Mitsubishi Heavy Industries: large frame backlog 21 GW (FY2024), orders 16 GW (FY2025), backlog 33 GW, so implied deliveries {MHI_DEL_FY25:.0f} GW in FY2025 (rounded GW inputs), implied {MHI_DEL_1H26:.0f} GW in 1H FY2026, annualised ratio {MHI_RATIO_RUN:.1f}, consistent with MHI's stated doubling of new unit production capacity. Mode and high {MHI_RATIO_RUN:.1f}, low 1.00. "
+         f"Result low {GT3[0]:.2f}, mode {GT3[1]:.2f}, high {GT3[2]:.2f} (Siemens Energy alone was 1.00 to 2.00, mode 1.575). Slot reservation volumes in GW are not disclosed in the 10-K or 10-Q (TODO(data)).")
 e2 = par("MODEL_EN_NUC_R", "Nuclear fleet and tube demand ratio 2035 to 2025", 1.05, 1.20, 1.45, "ratio", "derived plus team assumption",
          "EE_NUC_IAEA_2025 / EE_NUC_WNA_2030 / CO_WESTINGHOUSE_PIPE_2026",
          "Mode: 377 GW operating plus 56 GWe under construction gives 1.15 by 2030, then 4 percent more. Low: retirements offset additions. High: AP1000 and small reactor programmes beyond the build now under way.")
@@ -344,7 +368,7 @@ ei = par("MODEL_EN_INT", "Alloy mass per GW, annual trend", -0.010, 0.0, 0.010, 
          "No tonne per gigawatt figure is published (the 150 to 500 kg per MW electrolyser figures were rejected in the research note).")
 es = par("MODEL_EN_SHARE", "High performance alloy share of energy hardware, ratio 2035 to 2025", 0.97, 1.0, 1.03, "ratio", "team assumption", "(none, see reason)",
          "Hot section, steam generator tube and exchanger material choices are fixed by codes and qualification.")
-comp("energy", "Gas turbine hot section", 0.55, ("ratio",) + e1, ei, es, "Siemens Energy gas turbine output 17 GW (FY2024) to 30 GW (FY2028 to 2030)", "CO_SIEMENSENERGY_CMD_2025, CO_SIEMENSENERGY_CAP_2026")
+comp("energy", "Gas turbine hot section", 0.55, ("ratio",) + e1, ei, es, "Gas turbine output, three OEMs (Siemens Energy 17 to 30 GW FY2024 to FY2029, GE Vernova deliveries and orders, Mitsubishi Heavy Industries backlog)", "CO_SIEMENSENERGY_CMD_2025, CO_GEV_GT_2025, CO_GEV_GT_Q3_2026, CO_MHI_GT_2026")
 comp("energy", "Nuclear tube and cladding", 0.25, ("ratio",) + e2, ei, es, "Operating nuclear capacity 377 GW plus 56 GWe under construction", "EE_NUC_IAEA_2025, EE_NUC_WNA_2030")
 comp("energy", "Other power and process equipment", 0.20, ("cagr",) + e3, ei, es, "IEA electricity demand growth", "EE_ELEC_GROWTH_2024")
 par("MODEL_EN_W", "Weights gas turbine, nuclear, other in the energy index", 0.55, 0.25, 0.20, "weight", "team assumption", "AERO_GE_COMM_ENG_2025",
@@ -1428,7 +1452,7 @@ d = pd.DataFrame([dict(Test=t["id"], Industry=t["industry"], Used_for=t["use"], 
 L.append(md_table(d))
 L.append(f"\nMemo: 2025 Airbus 793 plus Boeing 600 deliveries = 1,393 against an average annual requirement of {43420/20:.0f} aircraft in Airbus GMF 2025 ({100*MEMO_DELIV_RATIO:.0f} percent). "
          f"Haircut (outcome over outlook, applied to 2035 activity), triangular low/mode/high: aerospace {HAIR_AERO[0]:.2f}/{HAIR_AERO[1]:.2f}/{HAIR_AERO[2]:.2f} (median {float(np.median(HAIR['aerospace'])):.2f}, mean of the three aerospace points {AERO_MEAN:.3f}), energy, oil and gas and automotive {HAIR_OTH[0]:.2f}/{HAIR_OTH[1]:.2f}/{HAIR_OTH[2]:.2f} (median {float(np.median(HAIR['energy'])):.2f}). The median is the figure quoted in the text. "
-         "TODO(data): earlier Airbus GMF and Boeing CMO editions with annual delivery paths, IEA WEO 2020 to 2023 editions. Energy rests on one OEM (Siemens Energy), GE Vernova and Mitsubishi Power are not in research/.\n")
+         "TODO(data): earlier Airbus GMF and Boeing CMO editions with annual delivery paths, IEA WEO 2020 to 2023 editions. Gas turbine slot reservations in GW are not disclosed by GE Vernova (TODO(data)) and GE Vernova and Mitsubishi publish no 2035 capacity, so the three OEM path beyond 2027 is a team estimate.\n")
 L.append("### Product family tonnes, 2025 base and 2035 (kt, team estimate, never summed across families)\n")
 d = pd.DataFrame(tonrows)[["product_family", "base_2025_kt_p10", "base_2025_kt_p50", "base_2025_kt_p90", "kt_2035_p10", "kt_2035_p50", "kt_2035_p90", "evidence"]]
 d.columns = ["Family", "2025 P10", "2025 P50", "2025 P90", "2035 P10", "2035 P50", "2035 P90", "Evidence"]
@@ -1474,7 +1498,7 @@ L.append("\nRules: growth bands from the P50 growth of the model index (5 from 4
          "the other five criteria are carried team judgement. Evidence E (no measured volume) caps the tier at Option. Tier thresholds 3.75 and 3.00. Sensitivities are computed, not rounded by hand.\n")
 L.append("Added rules: market for rows without a cobalt pool uses the product family tonnes (model_family_tonnes.csv) times an end use weight and EU unit values, capped at 4 because the weight is unmeasured. "
          "Supply security adds a single source regime: one country mines at least 90 percent of world output with no control in force, element below 10 percent of the alloy scores 3 (niobium, Brazil about 93 percent, NB_USGS_BRAZIL_2025), above 10 percent scores 2. "
-         "Engine bar lead grades are Alloy 718 (nickel, chromium, niobium 4.75 to 5.5 percent, cobalt 1.00 percent maximum, MO_SM_IN718_COMP) and cobalt bearing wrought grades (Waspaloy about 13 percent cobalt, MO_WASPALOY_CO, 720Li about 15 percent: TODO(data) no source for 720Li in the repository, the grade mix is a stated assumption). "
+         "Engine bar lead grades are Alloy 718 (nickel, chromium, niobium 4.75 to 5.5 percent, cobalt 1.00 percent maximum, MO_SM_IN718_COMP) and cobalt bearing wrought grades (UDIMET alloy R41 cobalt 10.0 to 12.0 percent, Special Metals datasheet, MO_SM_R41_CO, primary; Waspaloy about 13 percent cobalt, MO_WASPALOY_CO, secondary because the Haynes and Special Metals Waspaloy datasheets could not be reached; 720Li about 15 percent: TODO(data) no source for 720Li in the repository, the grade mix is a stated assumption). "
          "The headline row takes the weakest lead grade (cobalt above 10 percent under the Congo quota = 2), the Alloy 718 only variant scores 3 (niobium). "
          "Growth uses the most specific driver: new engine delivery path for engine bar, gas turbine hot section output for turbine remelt, semiconductor equipment path for fab gas strip, aftermarket pull for repair wire. "
          "The judgement values of the three rows added (fab gas strip and tube, FeNi36 strip for NO96 LNG tanks, superalloy repair wire) are first pass team judgement. "
@@ -1609,7 +1633,11 @@ def log_sources():
     rows.append(dict(data_id="MO_WASPALOY_CO", metric="Waspaloy nominal composition: cobalt 13, chromium 19, molybdenum 4, titanium 3 percent", value="13", unit="percent cobalt", year="2026", geography="United States", material="Cobalt", industry="Aerospace",
                      source="Wikipedia Waspaloy (cites the Haynes Waspaloy datasheet)", publisher="Wikimedia Foundation", author="Wikipedia contributors", intext_author="Wikipedia contributors", pub_date="2026", ref_type="webpage",
                      title="Waspaloy", url="https://en.wikipedia.org/wiki/Waspaloy", type="secondary", confidence="low",
-                     notes="Secondary source, the primary Haynes datasheet returned 403 from the cloud session. Used only as the grade mix assumption that wrought cobalt bearing engine grades carry more than 10 percent cobalt. 720Li about 15 percent cobalt is NOT sourced: TODO(data), Special Metals Udimet 720Li datasheet URL not found."))
+                     notes="Secondary source. Primary Waspaloy datasheets tried in round 7: Haynes (haynesintl.com, HTTP 403), Special Metals (no Waspaloy bulletin in its technical bulletin list), ATI and Carpenter (HTTP 404). Replace once a primary page is reachable. The decisive claim (wrought cobalt bearing engine grades carry more than 10 percent cobalt) is now backed by the primary Special Metals UDIMET alloy R41 datasheet, MO_SM_R41_CO (10.0 to 12.0 percent). 720Li about 15 percent cobalt is NOT sourced: TODO(data), no Special Metals Udimet 720Li bulletin exists in its technical bulletin list."))
+    rows.append(dict(data_id="MO_SM_R41_CO", metric="UDIMET alloy R41 limiting composition: cobalt 10.0 to 12.0, chromium 18.0 to 20.0 percent", value="10.0 to 12.0", unit="percent cobalt", year="2026", geography="United States", material="Cobalt;Nickel", industry="Aerospace",
+                     source="Special Metals UDIMET alloy R41 publication", publisher="Special Metals Corporation", author="Special Metals Corporation", intext_author="Special Metals Corporation", pub_date="n.d.", ref_type="report",
+                     title="UDIMET alloy R41", url="https://www.specialmetals.com/documents/technical-bulletins/udimet-alloy-r41.pdf", type="primary", confidence="high",
+                     notes="PDF read in round 7 (page 1 composition table). Wrought precipitation hardened nickel alloy for sheet, bar and forged engine parts. Supports the grade mix assumption in the engine bar supply security score. It is not Waspaloy, so MO_WASPALOY_CO stays as the secondary Waspaloy figure."))
     rows.append(dict(data_id="MO_GTT_NO96", metric="GTT NO96 membrane: primary and secondary membranes of Invar, a 36 percent nickel steel, 0.7 mm thick, 500 mm wide strakes", value="0.7", unit="mm thickness", year="2026", geography="World", material="Nickel", industry="Oil and gas",
                      source="GTT NO96 technologies page", publisher="Gaztransport et Technigaz", author="Gaztransport et Technigaz", intext_author="Gaztransport et Technigaz", pub_date="2026", ref_type="webpage",
                      title="NO96 technologies", url="https://gtt.fr/technologies/no96", type="primary", confidence="high",

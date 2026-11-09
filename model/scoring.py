@@ -75,7 +75,7 @@ INPUT_SCORE = {"none": 5, "form_not_used": 4, "price_only": 4, "quota_minor": 3,
 # type: main (a row of the matrix), variant (a split of a main row by lead grade), new (row added because the report names it as growing).
 # The judgement values of the three new rows are first pass team judgement on the Table A4 anchors, flagged as such.
 NB = "niobium (Alloy 718 about 5 percent, Brazil about 93 percent of mine output, NB_USGS_BRAZIL_2025)"
-CO_GRADES = "cobalt in wrought cobalt bearing grades (Waspaloy about 13 percent, 720Li about 15 percent: TODO(data) source for 720Li)"
+CO_GRADES = "cobalt in wrought cobalt bearing grades (UDIMET alloy R41 10 to 12 percent, MO_SM_R41_CO, primary; Waspaloy about 13 percent, secondary; 720Li about 15 percent: TODO(data) source for 720Li)"
 OPPS = [
     dict(id="Turbine remelt stock and sheet", type="main", growth=("index", "gas_turbine"), pool="turbine", derived=True,
          inputs=[("cobalt", "quota_minor"), ("nickel", "none"), ("chromium", "none")],
