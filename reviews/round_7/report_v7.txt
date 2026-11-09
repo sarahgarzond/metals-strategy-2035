@@ -1,0 +1,2874 @@
+Forging the Future: Market Intelligence and Growth Strategy
+        for High-Performance Metals Through 2035
+
+
+
+
+      Olivia Calistus, Sarah Garzon Diaz and Juhee Kim
+     Technical University of Munich · Campus Heilbronn
+                TUM School of Management
+
+
+                   Münvest Project Studies
+                     Prof. Dr. Miriam Bird
+   Professorship for Entrepreneurship and Family Enterprise
+
+                      Dr. Nicolas Seitz
+                          Münvest
+
+
+
+                      6 December 2026
+                                                                2
+Table of Contents
+
+
+1. Introduction                                                  3
+2. Report Objective and Scope                                    3
+3. Introduction to the Analytical Framework and Methodology      5
+4. Metal Markets: Materials, Product Forms and Applications      6
+    4.1 Nickel                                                   7
+    4.2 Cobalt                                                   9
+    4.3 Chromium                                                 9
+    4.4 Molybdenum                                              10
+    4.5 Titanium                                                10
+    4.6 Tungsten                                                10
+    4.7 Other Selected Metals                                   11
+5. Industry Needs: Demand, Geography and Market Size            12
+    5.1 Automotive                                              12
+    5.2 Oil and Gas                                             13
+    5.3 Energy and Environmental Technology                     15
+    5.4 Aerospace                                               16
+    5.5 Chemical Processing                                     18
+    5.6 Electronics and Electrical Engineering                  19
+    5.7 Medical Technology                                      21
+6. Global Market Size and Trade                                 22
+7. Growth Scenarios to 2035                                     26
+    7.1 Growth Model and Scenario Assumptions                   26
+    7.2 Results by Industry, Product, and Region                26
+8. Strategic Recommendations                                    28
+    8.1 Priority Products, Industries, Regions, and Customers   28
+    8.2 Recommended Actions and Implementation Roadmap          29
+9. Conclusion                                                   30
+
+References                                                      31
+Appendices: Data, Sources, Calculations, and Assumptions        44
+   A1 Definitions and the stage ladder                          44
+   A2 Outlook model, backtest and opportunity scoring           44
+   A3 Data sources, product codes and reproducibility           59
+   A4 Limitations and further research                          59
+   A5 Sector market indicators                                  60
+   A6 Peer benchmark of specialty metal producers               63
+   A7 Qualification gates by industry                           64
+   A8 Risks and kill criteria                                   65
+                                                                                              3
+
+
+1.     Introduction
+For centuries, metals have been among the essential materials on which human societies are
+built, enabling the construction of cities, transport systems, power networks, machinery and
+technologies that support modern economies. Their uses have expanded with each wave of
+industrial development, and today they remain central to established industries as well as
+emerging technologies. This enduring role is reflected in the sector’s economic scale:
+according to McKinsey & Company’s Global Materials Perspective, the global metals and
+mining industry generated approximately US$3.0 trillion in revenue in 2024, after a decline of
+6 percent, and grew by only about 1 percent in 2025 (McKinsey & Company, 2025, 2026).
+
+Within this broad market, high-performance alloys serve applications where ordinary materials
+may not meet the required operating conditions. These engineered materials combine metals
+such as nickel, cobalt, titanium, iron and chromium to provide properties such as strength at
+high temperatures, corrosion resistance, oxidation resistance or reliable performance under
+pressure. Nickel- and cobalt-based superalloys, titanium alloys and corrosion-resistant
+specialty steels are examples. Demand comes from aerospace and defence, power generation,
+chemical processing, oil and gas, medical technology and other industries with demanding
+technical requirements. The production and availability of metals including nickel, cobalt,
+chromium, molybdenum, titanium, tungsten, zirconium, copper, aluminium and manganese
+therefore provide important context for understanding this specialist market.
+The outlook for high-performance alloys to 2035 is positive, although growth is likely to differ
+across alloy types and applications. One market estimate places the segment at US$13.6
+billion in 2025 and projects it to reach US$19.0 billion by 2034 (The Insight Partners, 2025),
+although other providers start as low as US$10.2 billion because they draw the boundary of
+the segment differently (IMARC Group, 2025), while broader industry analysis points to
+continued demand from aerospace, defence, energy and other industrial uses. This growth will
+depend on the pace of investment and technology adoption, as well as the cost and availability
+of alloying metals. The strongest prospects are likely to be in applications where a particular
+combination of material properties, reliability and qualification requirements creates lasting
+value for customers.
+
+2.     Report Objective and Scope
+This project studies selected metals that are essential to high performance alloys and follows
+them from the mine to the industrial applications that depend on them, in order to assess how
+their markets may develop through 2035. It asks one central question: how do the
+concentration of metal supply, the conversion of metals into qualified product forms and the
+needs of seven industries determine where the most attractive opportunities in high
+                                                                                             4
+performance materials will lie through 2035? Four subsidiary questions structure the answer,
+and each maps onto one part of the report. The first asks where the ten metals are mined and
+refined, how exposed that supply is to concentration and export policy, and in which qualified
+forms the metals reach industry. The second asks which industries and regions drive demand
+for these forms today and how large the measurable market is. The third asks how large
+demand could become by 2035, how certain that estimate is and which emerging applications
+could add to it, and the fourth asks where supply security, growth and entry barriers combine
+into the most attractive opportunities.
+
+The study covers ten metals: nickel, cobalt, chromium, molybdenum, titanium, tungsten,
+zirconium, copper, aluminium, and manganese. It examines seven industries: automotive, oil
+and gas, energy and environmental technology, aerospace, chemical processing, electronics
+and electrical engineering, and medical technology. The study uses the latest official data
+available in November 2026. It covers the global market and compares Europe, North
+America, and Asia. The outlook quantifies established uses and evaluates emerging uses
+separately because official statistics do not yet capture them.
+On supply, nickel is in surplus, while export quotas on cobalt, tungsten and molybdenum raise
+costs more than they cap alloy volume, as superalloys need only 11 percent of cobalt mine
+supply in 2035 (Product Strategy 2035 Team, 2026a). On trade, value comes from conversion,
+since countries that make qualified bar, strip and tube earn surpluses that mining countries do
+not.
+On demand, the largest growing pool is superalloy bar, billet and remelt stock, rising from 193
+kt in 2025 to 248 kt in 2035, worth EUR 6.3 to 11.7 bn (Product Strategy 2035 Team, 2026a).
+By index, electronics grows fastest at 141, ahead of aerospace and medical technology at 136
+(Product Strategy 2035 Team, 2026a). Its tonnes are unmeasured, so it yields priority 2 in fab
+gas strip and tube.
+On the outlook, Alloy 718 engine bar and billet is the only priority 1 with sourced grades that
+holds under every weighting (Product Strategy 2035 Team, 2026a). Turbine casting stock
+(3.60) and combustor sheet (3.55) fall to priority 2 once cobalt grades count, and cobalt lean
+casting stock at 3.75 rests on unsourced grades. Under all four weightings, a vacuum melt
+programme is priority 2 with cobalt grades and priority 1 with 718 only (Product Strategy
+2035 Team, 2026a). Producers should fund 718 billet first, lead with non rotating bar and add
+cobalt lean remelt stock on the same melt shop. A severe aerospace downturn would demote
+718 bar to priority 2 (Product Strategy 2035 Team, 2026a). They should stop investing in
+diesel only parts, new European base chemical plants, unfunded electrolysers and captive
+zirconium cladding.
+                                                                                               5
+3.      Introduction to the Analytical Framework and Methodology
+The study follows the seven links of the metal value chain: material, product form,
+application, industry, geography, market size, and growth. Table 1 shows which chapters cover
+each link. Figures are compared only at the same stage, so contained metal is kept apart from
+gross weight and output from capacity.
+
+Structured data from the USGS, UN Comtrade, Eurostat PRODCOM, the World Bank, OECD,
+UNIDO, and the IEA form the base. Associations, official outlooks, and 61 company profiles
+add detail, and commercial reports serve only as a cross-check. Key figures are checked
+against a second source where one exists, and the source register flags single-source figures.
+
+Table 1: The metal value chain and its evidence
+
+ Link          Guiding question                   Main evidence                      Chapter
+
+ Material      How concentrated is supply?        USGS, IEA, World Bank prices       4
+
+ Product       In which qualified forms does it   PRODCOM, producer filings          4
+ form          reach industry?
+
+ Application   Which components need it, and      Standards, associations, filings   4 and 5
+               why?
+
+ Industry      Which industries buy, and how      Airbus, Boeing, IEA, OICA,         5
+               fast do they grow?                 Cefic, SEMI
+
+ Geography     Where are the forms made and       IEA regions, OECD, UN              5 and 6
+               bought?                            Comtrade
+
+ Market size   How large is measurable            Apparent consumption, trade        5 and 6
+               demand today?                      values, family tonnes
+
+ Growth        How large could demand be in       Demand model, emerging             7
+               2035?                              options register
+Tier 1 estimates established demand as industry activity times metal content per unit times the
+share of units using a high-performance alloy. Activity measures such as engine deliveries, gas
+turbine gigawatts, and joint replacements start from measured 2025 values. To test the model,
+the team fitted trends to data through 2019 and compared them with 2020 to 2025 outcomes
+and with earlier official outlooks. A Monte Carlo simulation gives the 10th, 50th, and 90th
+percentiles of 2035 demand, and a supply analysis tests export quotas and licensing changes.
+Tier 2 records emerging applications that current data cannot yet confirm. Examples are
+hydrogen-fueled turbines, supercritical CO2 recuperators, molten salt and small modular
+reactors, fusion magnet tape, and printed engine parts, drawn from patents, pilot plants, draft
+standards, and announced projects. Each is rated for technology readiness, evidence, alloys
+and forms, and earliest commercial volume.
+                                                                                              6
+The register names the event, such as a final investment decision or first serial order, that
+would move each candidate into tier 1. Chapter 8 scores both tiers on the same eight criteria,
+so producers can see which opportunities to monitor and which merit funding.
+
+4.       Metal Markets: Materials, Product Forms and Applications
+
+The value chain starts with the metal. Table 2 shows the commercial forms of the ten metals in
+this chapter and their main uses.
+
+Table 2: Commercial forms and main uses by metal
+
+ Metal           Commercial forms                   Main use and company              Share
+                                                    example
+
+ Nickel          Bar, billet, sheet, plate, tube,   Stainless steel (Alfa Laval T10   66%
+                 battery salts                      316L plate)                       16%
+                                                    Batteries (LG Energy Solution     6%
+                                                    M50L cell)
+                                                    Nickel alloys (Haynes C-276
+                                                    reactor plate)
+
+ Cobalt          Remelt stock, bar, powder,         Batteries (LG Energy Solution     ≈75%
+                 cobalt salts                       M50L cell)                        ≈7%
+                                                    Superalloys (Haynes 188
+                                                    combustor sheet)
+
+ Chromium        Ferrochrome, chromium metal,       Stainless steel (Franke MYX       >80%
+                 sheet, plate                       110-55 sink)
+
+ Molybdenum Ferromolybdenum, plate, sheet,          Chemicals & petrochemicals        17%
+            tube                                    (Alfa Laval T10 C-276 plate)      14%
+                                                    Oil & gas (Alleima SAF 2507
+                                                    umbilical tube)
+
+ Titanium        Sponge, plate, bar, tube,          Aerospace (Airbus A350            >50%
+                 forgings                           landing gear)                     (US)
+
+ Tungsten        Carbide powder, inserts,           Carbide products (Sandvik         65%
+                 tungsten metal                     CNMG 4425 insert)                 14%
+                                                    Steels & superalloys (Haynes
+                                                    188 combustor sheet)
+
+ Zirconium       Zircon concentrate, sponge,        Ceramics (Iluka Premium           >50%
+                 plate, tube                        zircon for tile)                  n.r.
+                                                    Acid service (Alleima Zr 702      n.r.
+                                                    exchanger tube)
+                                                    Fuel cladding (Framatome M5
+                                                    fuel rod cladding)
+                                                                                             7
+
+ Metal            Commercial forms                 Main use and company              Share
+                                                   example
+
+ Copper           Wire, tube, sheet, strip, bar    Construction (Southwire           26%
+                                                   SIMpull THHN wire)                23%
+                                                   Consumer, cooling &               17%
+                                                   electronics (Wieland grooved
+                                                   tube)
+                                                   Power & telecom (Prysmian
+                                                   12/20 kV Cu cable)
+
+ Aluminium        Sheet, plate, extrusions,        Construction (WICONA              ≈25%
+                  castings, conductor rod          WICLINE 75 Eco frame)             ≈23%
+                                                   Transport (Novelis s118 hood      ≈12%
+                                                   inner sheet)
+                                                   Electrical (Southwire Drake
+                                                   ACSR conductor)
+
+ Manganese        Ferromanganese,                  Steelmaking (voestalpine          ≈97%
+                  silicomanganese, electrolytic    MN13 rail crossing)
+                  metal
+Examples name a supplied component or material. Shares cover the full use category. First
+use: Ni (2024, not re-read at source) and W (2021). Demand or end use: Co and Mo (2025),
+Cu (2024), Al (2020, dated), Mn (undated), Ti (2025, U.S. only). Cr covers ferrochrome and Zr
+covers zircon output. n.r. = not reported. Sources: (Cobalt Institute, 2026; CRU International,
+2022; Iluka Resources, 2025; International Chromium Development Association, 2022;
+International Copper Study Group, 2025; International Manganese Institute, n.d.;
+International Molybdenum Association, 2026b; International Tungsten Industry Association,
+n.d.; Nickel Institute, n.d.; U.S. Geological Survey, 2026i).
+Ferroalloys go into the melt, while plate, tube, bar and powder go to component makers. The
+profiles below show how these forms are supplied.
+
+
+4.1      Nickel
+Indonesia has become the largest source of nickel within a decade. The USGS estimates 2025
+mine output at 3.90 Mt of contained nickel, with 2.60 Mt, or about two thirds, from Indonesia.
+The IEA estimates 4.21 Mt, with Indonesia at 63 percent of mining and 45 percent of refining,
+so both show concentrated supply (International Energy Agency, 2026c; U.S. Geological
+Survey, 2026g).
+Primary nickel output reached 3.875 Mt against 3.577 Mt of use, and just over half of Chinese
+and Indonesian supply was nickel pig iron for stainless steel (International Nickel Study
+Group, 2025, 2026). Vacuum-melted alloys need class 1 nickel, and exchange stocks show no
+shortage of it. Chinese metal rose from 47 to about 68 percent of open LME tonnage in the
+                                                                                                            8
+first nine months of 2025. The real constraint is feedstock on approved source lists, such as
+metal from Vale in Canada and Glencore Nikkelverk in Norway (International Nickel Study
+Group, 2025; United Nations Statistics Division, 2026a). US and UK sanctions bar Russian
+metal produced from 13 April 2024 from US imports and exchange warrants (U.S. Department
+of the Treasury, 2024).
+
+The surplus explains the falling price, from a World Bank average of USD 25,834 per tonne in
+2022 to USD 15,162 in 2025 (World Bank, 2026a). Indonesia first cut its 2026 ore quota to
+260 to 270 Mt, then raised it to 290 to 300 Mt, and the International Nickel Study Group cut
+its 2026 surplus forecast to 19 kt, after 299 kt in 2025. The quota is therefore the main swing
+factor for price (Argus Media, 2026a; Indonesia Business Post, 2026; International Nickel
+Study Group, 2026).
+Figure 1: The nickel price has fallen by about 41 percent from its 2022 annual average
+                       30000
+                                                                                   25,834
+                       25000          22,910
+       USD per tonne
+
+
+
+
+                       20000
+                                                                                                   15,162
+                       15000
+                                                             9,595
+                       10000
+
+                       5000
+
+                          0
+                               2010            2012   2014   2016    2018   2020   2022     2024
+
+Source: World Bank Pink Sheet, annual averages of monthly prices, team calculation (World
+Bank, 2026a, 2026c).
+
+Stainless steel uses most nickel, with melt shop output of 64.2 Mt gross in 2025. The IEA
+expects nickel demand outside energy technologies, including stainless steel and alloys, to rise
+from 2,906 kt in 2025 to 3,255 kt in 2035 (International Energy Agency, 2026c;
+worldstainless, 2026).
+
+Nickel alloys reach industry as strip, sheet, plate, bar, wire, and tube, priced well above their
+metal content. German flat product exports averaged about USD 32,500 per tonne in 2024
+(Eurostat, 2026a; United Nations Statistics Division, 2026e). Alloy C-276, with about 57
+percent nickel, 16 percent molybdenum, and 16 percent chromium, held metal worth about
+USD 19,000 per tonne before tungsten. The team estimates the export unit value at about 1.7
+times that metal content (Haynes International, 2023b; U.S. Geological Survey, 2026c, 2026f;
+World Bank, 2026a).
+Producers pass metal costs on through surcharges or index clauses, as ATI does for most of its
+70 million pounds of nickel, and Carpenter for sales outside the 43 percent under firm prices
+                                                                                               9
+(ATI, 2026a; Carpenter Technology, 2026). The base price, not the metal price, therefore
+carries the conversion margin. Special Metals raised its Huntington base prices eight times
+from April 2021 to February 2024, by 5 to 20 percent each time (Special Metals Corporation,
+2024). Form and qualification explain why buyers pay above metal value, while cobalt adds a
+sharper supply risk.
+
+
+4.2    Cobalt
+Export restrictions and concentrated mining make cobalt scarce. The USGS estimates 2025
+mine output at 310 kt of contained cobalt. The Democratic Republic of the Congo mined about
+230 kt, which the USGS puts at 73 percent of the world total. China refined 78.6 percent of the
+world's 240 kt of refined cobalt (Cobalt Institute, 2026; U.S. Geological Survey, 2026d).
+In February 2025, Congo banned cobalt exports, then set an annual quota of up to 96,600 t for
+2026 and 2027. CMOC mined 117,549 t in 2025 and received an export allowance of 31,200 t.
+European cobalt metal prices rose 130 percent in 2025 (Cobalt Institute, 2026; Mining Weekly,
+2026; U.S. Geological Survey, 2026d). The IEA expects 2035 mine supply of 225 kt against
+demand of 300 to 322 kt, a lasting gap (International Energy Agency, 2026c).
+Superalloys use a small share of cobalt but need high-purity metal. In 2025, batteries used 206
+kt and superalloys 20 kt. A few Western refineries supply most of the superalloy grade (Cobalt
+Institute, 2026). Its uses in turbine remelt stock, cobalt-chromium implants, and wear-resistant
+alloys are hard to switch, so a quota set in Kinshasa can halt vacuum melt shops such as
+Cannon-Muskegon, which melts cobalt based casting alloys (Cannon-Muskegon, n.d.).
+
+
+4.3    Chromium
+Chromium gives corrosion-resistant and heat-resistant alloys their protective oxide layer, but it
+is mined and smelted in different countries. World chromite ore output reached an estimated
+51 Mt gross weight in 2025. The USGS puts South Africa at about 23 Mt, while the
+International Chromium Development Association reports 25.2 Mt on a different definition
+(International Chromium Development Association, n.d.; U.S. Geological Survey, 2026c).
+China has little chromite but smelts 9.9 Mt of ferrochrome, mostly for stainless steel
+(International Chromium Development Association, n.d.; U.S. Geological Survey, 2026c;
+worldstainless, 2026).
+Vacuum-melted nickel alloys need purer inputs, such as low-carbon ferrochrome and
+aluminothermic chromium metal. The US chromium metal price rose to an estimated USD
+5.90 per pound in 2025, while ferrochrome fell (U.S. Geological Survey, 2026c). AMG
+Chrome in the United Kingdom supplies low-gas chromium metal for single-crystal turbine
+blades. A vacuum melt shop can stop if it loses this qualified source (AMG Critical Materials
+N.V., n.d.).
+                                                                                            10
+4.4    Molybdenum
+
+Molybdenum helps alloys resist hot acids and seawater, in amounts that depend on the grade.
+One tonne of 316L stainless steel contains about 21 kg, but Alloy C-276 holds about 160 kg
+and Alloy 625 about 90 kg (ATI, n.d.-a; Haynes International, 2023b; Outokumpu, 2025).
+
+Much of the world's molybdenum is a by-product of copper mining, so supply responds slowly
+to price. The USGS estimates 2025 mine output at 260 kt, while the International
+Molybdenum Association reports 672.6 million pounds, about 305 kt, with almost all of the
+gap in China (International Molybdenum Association, 2026a; U.S. Geological Survey, 2026f).
+
+According to the USGS, only China and the United States produce from primary molybdenum
+mines. Since February 2025, China has required licences for molybdenum powder exports.
+The oxide and ferromolybdenum that melt shops buy are excluded (Ministry of Commerce of
+the People's Republic of China, 2025a; U.S. Geological Survey, 2026f). The US oxide price
+rose 7 percent to about USD 51 per kg in 2025, while European use fell 7 percent with the
+chemical slowdown (International Molybdenum Association, 2026a; U.S. Geological Survey,
+2026f).
+
+
+4.5    Titanium
+Titanium replaces nickel alloys in lighter and cooler aerospace parts. In 2025, world ilmenite
+and rutile output reached 9.8 Mt as TiO2, mostly for pigment, but titanium sponge output was
+only 370 kt (U.S. Geological Survey, 2026i, 2026j).
+China produced about 260 kt of sponge and held 320 kt of the world's 470 kt of capacity.
+Western aircraft engines use other qualified sources, and the United States has no operating
+sponge plant (U.S. Geological Survey, 2026i). Russia produced about 25 kt of sponge in 2025
+and shipped USD 715 million of titanium to the ten reporters in 2024 (U.S. Geological Survey,
+2026i; United Nations Statistics Division, 2026a).
+
+The scarce forms are aircraft-grade sponge and the ingot, bar, and plate made from it. Osaka
+Titanium is raising aircraft-grade capacity from 40 kt to 50 kt by fiscal 2027, and ATI reports
+lead times of about 20 months for premium titanium. Europe makes no sponge but sold 22.6 kt
+of wrought titanium in 2024 and imported 31.7 kt (ATI, 2026b; Eurostat, 2026c; Osaka
+Titanium Technologies, 2025). Nickel superalloys face the same shortage of qualified melting
+capacity.
+
+
+4.6    Tungsten
+China controls most of the world's tungsten supply. In 2025, mines produced an estimated 85
+kt of contained tungsten, of which China produced about 67 kt, or 79 percent (U.S. Geological
+Survey, 2026k). China's first 2025 mining quota covered 58,000 t of concentrate. Since
+                                                                                               11
+February 2025, it has required export licences for ammonium paratungstate, tungsten oxides,
+unsintered carbide, and specified tungsten alloys. Sintered carbide tools and tungsten wire
+remain outside these controls (Ministry of Commerce of the People's Republic of China,
+2025a, 2025b; Ministry of Natural Resources, 2025).
+
+Carbide for cutting and mining tools takes 65 percent of first use, and steels and superalloys
+take 14 percent (International Tungsten Industry Association, n.d.). In superalloys, tungsten
+strengthens cast turbine parts and heat-resistant sheet, so export licences can affect gas turbine
+output. Sandvik's powder business more than doubled orders and revenue in the third quarter
+of 2026 as tungsten prices rose (Sandvik, 2026).
+
+4.7     Other Selected Metals
+
+Zirconium and the minor superalloy elements serve narrow but demanding uses, while copper,
+aluminium, and manganese have large markets but small high-performance roles.
+
+4.7.1   Zirconium
+
+World output of zirconium concentrates reached about 1.2 Mt gross weight in 2025, led by
+Australia with 400 kt. Most goes into ceramics, foundry sand, and refractories, and the metal
+market is far smaller (U.S. Geological Survey, 2026l). Fuel makers and integrated producers
+such as ATI control their own nuclear cladding supply, so the open market covers mainly plate
+and tube for acid service (ATI, 2026a).
+
+
+4.7.2   Copper
+Copper links high-performance materials to electrification, with 2025 mine production of
+about 23.2 Mt. Flat-rolled products take 11 percent of first use, against 63 percent for wire.
+Copper averaged USD 9,947 per tonne in 2025 and reached a record monthly average of USD
+14,508 in October 2026 (International Copper Study Group, 2025, 2026; International Energy
+Agency, 2026c; World Bank, 2026b, 2026c). Under current policies, the IEA expects output
+from current mines to fall to 20.7 Mt by 2035, while demand rises from 27.8 Mt to 32.4 Mt.
+That implies a primary supply deficit of about 25 percent (International Energy Agency,
+2026b, 2026c). Specialized forms include copper-nickel and high-conductivity strip, such as
+the busbars in section 5.6.
+
+
+4.7.3   Aluminium and Manganese
+Aluminium can replace heavier alloys where temperatures and corrosion allow. World primary
+output reached about 74 Mt in 2025, 61 percent of it in China. European primary output has
+fallen to about 955 kt, against demand of about 9 Mt (European Aluminium, n.d.; Federation
+                                                                                             12
+of Aluminium Consumers in Europe, 2024; International Aluminium Institute, 2026; U.S.
+Geological Survey, 2026b).
+Manganese demand follows carbon steel output. Mines produced about 20 Mt of contained
+manganese in 2025, about 81 percent from South Africa, Gabon, Ghana, and Australia. The
+ore price fell to about USD 4.5 per metric ton unit, so supply risk and growth potential for
+alloy producers are limited (International Manganese Institute, 2026; U.S. Geological Survey,
+2026e).
+
+
+4.7.4   Additional Metals
+Iron matters in FeNi36 for display masks and FeNi42 for lead frames, whose value lies mainly
+in rolling to tight specifications. Alloy 718 contains about 5 percent niobium. Brazil mines
+about 93 percent of the world's niobium, and CBMM sells it as vacuum-grade nickel-niobium.
+Single-crystal turbine blades contain rhenium, of which mines produced only about 81 t in
+2025 (CBMM, n.d.; RTX, 2026; U.S. Geological Survey, 2026a, 2026h). These supply facts
+frame the industry demand in chapter 5.
+
+5.      Industry Needs: Demand, Geography and Market Size
+Each industry section starts with market size and geography and then covers applications and
+product forms. The first subsection ends with the best measure at a named stage, and chapter 7
+uses a team index where tonnage is missing (indicators in appendix A5). To avoid double
+counting, electrolyzers and fuel cells sit under energy, process vessels under chemical
+processing, and sensors under electronics.
+
+5.1     Automotive
+
+Electrification cuts demand for the heat-resistant nickel alloys of combustion vehicles, because
+electric cars need no turbochargers, exhaust sensors, or glow plugs.
+
+5.1.1   Demand, Geography and Market Size
+The world produced 96.4 million motor vehicles in 2025, 34.5 million of them in China. EU
+car registrations reached 10.8 million, 17 percent below the 2019 level (European Automobile
+Manufacturers' Association, 2026a; International Organization of Motor Vehicle
+Manufacturers, 2026).
+Over 20 million electric cars were sold in 2025, about a quarter of the market. The IEA
+expects about half of global sales by 2035 and more than 90 percent in China and the EU
+(International Energy Agency, 2026d). Batteries do not replace the lost engine alloy nickel,
+because lithium iron phosphate cathodes contain none and held over 55 percent of the 2025
+market (International Energy Agency, 2026d).
+                                                                                                13
+European policy may slow the shift. In October 2026, two European Parliament committees
+backed a 95 percent cut in new car CO2 emissions by 2035, or 87.5 percent with low-carbon
+steel credits (electrive, 2026).
+The best nickel measure covers battery cathodes, at 439 kt in 2025 and 1,294 kt to 1,536 kt in
+2035, while declining engine alloy tonnage is not published (International Energy Agency,
+2026c).
+
+
+5.1.2     Applications and Opportunities
+Hybrid and gasoline engines keep turbochargers in production for another decade, after close
+to 50 million units in 2025. Garrett expects output to fall toward its 2022 level by 2030 and the
+turbo share of gasoline engines to peak at 54 percent in 2032 (Garrett Motion, 2026).
+BorgWarner won three gasoline turbocharger programs in October 2026, starting in 2027
+(BorgWarner, 2026). Exhaust valves show the same exposure at grade level. Special Metals
+sells INCONEL alloy 751, with at least 70 percent nickel, mainly for exhaust valves of
+combustion engines (Special Metals Corporation, n.d.-b).
+Table 3: High performance metal applications in automotive, outlook to 2035
+
+ Outlook         Applications                                     Materials and product forms
+
+ Grows           Current sensors and magnetic shielding in        Soft magnetic FeNi strip
+                 electric drives and chargers
+
+ Stable to       Turbocharger parts for hybrids and gasoline      Heat resistant nickel alloy
+ 2030            engines                                          bar and strip
+
+ Falls           Glow plugs, diesel exhaust parts, valves and     Nickel alloys, heat resistant
+                 injectors                                        stainless strip
+
+Sources: team assessment (BorgWarner, 2026; Garrett Motion, 2026; International Energy
+Agency, 2026d).
+
+Implications for suppliers:
+      ●   Treat engine alloys for cars as a cash business to 2030 and avoid new capacity for
+          diesel only parts.
+      ●   Shift product development toward soft magnetic FeNi strip for sensors and shielding in
+          electric drives.
+
+5.2       Oil and Gas
+Oil and gas is a stable market for high-performance metals, as investment moves from oil to
+gas. Sour gas, deepwater fields, and liquefied natural gas (LNG) need alloys that ordinary steel
+cannot replace.
+                                                                                               14
+5.2.1     Demand, Geography and Market Size
+Global upstream oil and gas investment fell from USD 625 billion in 2019 to USD 542 billion
+in 2025 and was about USD 546 billion in 2026 (International Energy Agency, 2026i, 2026j).
+North America remained the largest region, at USD 165 billion in 2026 against USD 219
+billion in 2019. Middle East investment rose from USD 75 billion to USD 93 billion, with gas
+roughly doubling to USD 45.4 billion (International Energy Agency, 2026j). Under current
+policies, LNG trade could rise from 560 bcm in 2024 to 880 bcm in 2035 (International
+Energy Agency, 2025b, 2026j). Alloy and clad pipe tonnes are not published, so investment is
+the best measure.
+
+
+5.2.2     Applications and Opportunities
+Customer approval is the main entry barrier. ISO 15156 sets which alloys suit sour service, but
+producers still need NORSOK M-650 qualification and operator approval for each product
+form (International Organization for Standardization, 2020; Standards Norway, 2011). Orders
+flow through the vendor lists of EPC contractors and subsea firms such as SLB and
+TechnipFMC, which booked USD 10.1 billion in subsea orders in 2025 (SLB Limited, 2026;
+TechnipFMC, 2026).
+Forms include nickel alloy bar for wellheads and completion tools, corrosion-resistant tubing,
+umbilical tube, and clad pipe. Alleima's hyper duplex SAF 3007 succeeds super duplex SAF
+2507 in umbilicals, and clad pipe maker BUTTING reports EUR 880 million in turnover
+(Alleima, n.d.-b; BUTTING, 2026).
+LNG carriers add a smaller FeNi market than trade growth suggests. Only GTT's NO96
+membrane uses Invar, a 36 percent nickel steel, in 0.7 mm strakes, while Mark III and Mark
+III Flex use corrugated 304L stainless steel (Gaztransport et Technigaz, 2026a, 2026b).
+FeNi36 demand therefore follows the unpublished NO96 share of orders. Aperam doubled
+Imphy capacity in 2025 to supply shipyards with Invar M93 (Aperam, 2025b, n.d.).
+Table 4: High performance metal applications in oil and gas, outlook to 2035
+
+ Outlook Applications                                     Materials and product forms
+
+ Grows       Clad and lined pipe, subsea equipment        Nickel alloy strip, plate, welding
+                                                          wire
+
+ Option      NO96 membrane tanks on LNG carriers          FeNi36 strip
+ Stable      Well tools, wellheads, well tubing, valves   Nickel alloy bar, billet, plate,
+             and fittings for sour gas                    corrosion resistant tubing
+
+Sources: team assessment (Alleima, n.d.-b; BUTTING, 2026; Gaztransport et Technigaz,
+2026b; TechnipFMC, 2026).
+                                                                                             15
+Implications for suppliers:
+      ●   Monitor sour service: keep NORSOK M-650 and operator approvals current and serve
+          vendor lists from existing capacity.
+      ●   Sell strip and welding wire to clad pipe makers selectively, and keep NO96 FeNi36
+          strip as an option.
+
+5.3       Energy and Environmental Technology
+
+Energy technology shows two trends: gas turbine makers struggle to fill orders, while many
+hydrogen projects have yet to place any.
+
+5.3.1     Demand, Geography and Market Size
+Gas turbine orders grow as data centres need power and grids need stability, and all three large
+makers are adding capacity. Siemens Energy is sold out until fiscal 2028 and plans to raise
+annual capacity from about 17 GW in fiscal 2024 to more than 30 GW (Siemens Energy,
+2025). GE Vernova reached a 20 GW annual run rate in 2026 and plans 30 GW in 2030. In
+July 2026 it held 116 GW under contract, 63 GW of it slot reservations (GE Vernova Inc.,
+2026c). Mitsubishi Heavy Industries booked 16 GW in fiscal 2025, held a 37 GW backlog in
+September 2026, and plans to double its new unit capacity (Mitsubishi Heavy Industries,
+2026). Gas-fired power investment rose from USD 64 billion in 2019 to USD 112 billion in
+2025, and data centres may use about 945 TWh in 2030, twice their 2024 use (International
+Energy Agency, 2025a, 2026j).
+
+Hydrogen demand for alloys moves far more slowly. Low-emissions hydrogen output was
+about 1 Mt in 2025, and the 2030 pipeline fell to 27 Mt (International Energy Agency, 2026e,
+2026f). The IEA lists 4.3 GW of operating electrolysis and 19.3 GW at final investment
+decision or under construction, 60 percent of it nickel-using alkaline units (International
+Energy Agency, 2026h). Green hydrogen orders at thyssenkrupp nucera fell from EUR 356
+million to EUR 26 million in fiscal 2024/25 (thyssenkrupp nucera, 2025). The IEA puts
+hydrogen nickel use at 2.3 kt in 2025 and 5.2 kt to 32 kt in 2035 (International Energy Agency,
+2026c).
+Nuclear power offers steadier but slower demand. Of 81 reactors under construction, 40 are in
+China, and an October 2025 US framework covers at least USD 80 billion of AP1000 reactors
+(K&L Gates, 2025; World Nuclear Association, 2026b). The best metal measure is cobalt: the
+team puts turbine superalloys at about 6.0 kt of cobalt in 2025, 30 percent of the superalloy
+total (team estimate) (Product Strategy 2035 Team, 2026a).
+                                                                                                    16
+5.3.2     Applications and Opportunities
+
+Table 5 shows when each energy opportunity generates demand. Bloom Energy plans to
+double solid oxide output to 2 GW a year by the end of 2026 but does not name its
+interconnect material (Bloom Energy, 2026).
+Alleima is reopening its Sandviken mill to raise steam generator tube capacity by about 60
+percent. It melts its own alloys there, so the expansion creates little open demand for hollows
+(Alleima, 2026a).
+Table 5: High performance metal applications in energy technology, outlook to 2035
+
+ Outlook           Applications                               Materials and product forms
+
+ Grows             Gas turbine blades, vanes, combustors      Superalloy remelt stock,
+ strongly          and repair                                 combustor sheet, welding wire
+
+ Grows from        Nuclear steam generator tube               Alloy 690 tube, mostly from
+ 2030                                                         integrated mills
+
+ Option            Solid oxide cell interconnects, alkaline   Coated ferritic strip, nickel strip
+                   electrolyser electrodes                    and mesh
+
+Sources: team assessment (International Energy Agency, 2026h; Siemens Energy, 2025;
+thyssenkrupp nucera, 2025; World Nuclear Association, 2026b).
+
+Implications for suppliers:
+      ●   Qualify superalloy remelt stock and combustor sheet with turbine casting houses while
+          capacity is sold out to 2028.
+      ●   Treat electrolysers, fuel cells and nuclear tube as options released only against signed
+          volumes or outside hollow purchases.
+
+5.4       Aerospace
+
+Aerospace is a major growth source for high-performance metals. Jet engine hot sections use
+nickel and cobalt superalloys, which suppliers cannot melt and forge fast enough.
+
+5.4.1     Demand, Geography and Market Size
+Airbus expects the passenger fleet to grow from 23,310 aircraft in 2025 to 45,550 in 2045,
+needing 42,060 new aircraft, and Boeing expects 43,625 deliveries on a broader definition
+(Airbus, 2026c; Boeing, 2026b). Engine output grows faster, and CFM delivered 1,802 LEAP
+engines in 2025, up 28 percent (GE Aerospace, 2026a; Safran, 2026a).
+Maintenance and defence add further demand. Airbus projects aviation services to grow from
+USD 209 billion in 2026 to USD 422 billion in 2045, with materials driving over 85 percent of
+                                                                                                17
+off-wing maintenance (Airbus, 2026d). GE delivered 635 defence engines in 2025, up from
+490 (GE Aerospace, 2026a).
+Cobalt is the best measured indicator. The Cobalt Institute estimates that aviation used 11,499 t
+of the 20 kt of cobalt in superalloys in 2025, and the USGS reports that 51 percent of US
+cobalt goes into superalloys, mainly for engines. Nickel alloy tonnage is not published (Cobalt
+Institute, 2026; U.S. Geological Survey, 2026d).
+
+5.4.2     Applications and Opportunities
+Rotating parts set the highest entry bar in Table 6. At ATI in Lockport and Special Metals in
+Huntington and New Hartford, disc and shaft billet passes through vacuum induction melting,
+electroslag remelting, and vacuum arc remelting. The most demanding discs use powder,
+whose quality Pratt and Whitney's geared turbofan issue put in focus (ATI, 2026a; RTX, 2026;
+Special Metals Corporation, n.d.-d, n.d.-e). Engine makers also specify approved melt routes,
+and GE Aerospace says first approval for a rotating part can take several years (GE Aerospace,
+2026a).
+Table 6: High performance metal applications in aerospace, outlook to 2035
+
+ Outlook         Applications                                 Materials and product forms
+
+ Grows           Discs, shafts, casings and rings for LEAP,   Triple melt superalloy bar and
+ strongly        GE9X, Trent and military engines             billet, powder for discs, sheet
+
+ Grows           Engine repair and overhaul                   Welding wire, repair alloys
+ Grows           Additively manufactured combustor and        CoCr and nickel superalloy
+                 nozzle parts                                 powder
+
+ Stable          Combustor and wear parts, with nickel        Cobalt alloy sheet and plate
+                 alloys replacing some cobalt grades
+
+Sources: team assessment (Airbus, 2026a; ATI, 2026a; Safran, 2026a).
+
+Producers answer shortages with supply agreements and new capacity. ATI earned USD
+1,762.9 million from commercial jet engines in 2025 under long-term agreements with GE
+Aerospace, Safran, Rolls-Royce, and Pratt and Whitney (ATI, 2026a). It reports forging lead
+times above two years (ATI, 2026b).
+The buyers of billet fall into two groups. Integrated groups melt for their own forges and
+foundries. PCC makes castings, forgings and alloys in all mill forms, and Howmet makes
+alloy and billet at Glossop and Ickles in England (Berkshire Hathaway, 2026; Howmet
+Aerospace, 2026). Forgers without a melt shop buy on the open market. Otto Fuchs forges
+Inconel 718 engine parts in Meinerzhagen, and Safran committed EUR 150 million to a
+30,000 t press at Gennevilliers for about 14,000 hot section parts a year from 2029 (OTTO
+                                                                                              18
+FUCHS KG, n.d.; Safran, 2026b). Casting stock is a more closed market, because PCC
+Airfoils counts Cannon-Muskegon, which melts nickel and cobalt casting alloys, among its
+operations, and Doncasters melts its own vacuum superalloys (Cannon-Muskegon, n.d.;
+Doncasters, n.d.; PCC Airfoils, n.d.).
+Competitors are expanding too, such as voestalpine Böhler Aerospace in Austria, which forges
+nickel base engine discs and holds about EUR 1 billion of orders over five years. Aperam
+bought Universal Stainless for an enterprise value of USD 537 million in January 2025
+(Aperam, 2025a; voestalpine AG, 2026; voestalpine BOHLER Aerospace, n.d.). In China,
+Western Superconducting's superalloy unit raised first half 2025 revenue 83 percent to RMB
+282 million, while superalloy and special steel maker Fushun Special Steel lost RMB 805
+million in 2025. A market report puts national output near 64.5 kt (Fushun Special Steel, 2026;
+Western Superconducting Technologies, 2026; Zhiyan Consulting, 2026). A new qualified
+European supplier can still enter, but that window narrows as this capacity arrives around
+2030.
+
+Implications for suppliers:
+      ●   Start part level qualifications with engine makers and open market forgers such as Otto
+          Fuchs now, because rotating approvals take several years.
+      ●   Build the repair wire and powder business alongside, because off wing maintenance
+          grows by 3.7 percent a year (Airbus, 2026d).
+
+5.5       Chemical Processing
+Chemical processing has long used corrosion-resistant alloys, but European demand now
+comes mainly from maintenance while new plants rise in Asia.
+
+
+5.5.1     Demand, Geography and Market Size
+Europe's chemical industry produces less and has spare capacity, with EU27 sales of about
+EUR 635 billion in 2024. Europe's share of world sales fell from 21 to 13 percent since 2009,
+while China's rose from 24 to 46 percent (European Chemical Industry Council, 2025a,
+2025b). EU chemical output fell 3.2 percent in 2025, and utilization was 75.0 percent in the
+third quarter of 2026, against a long-term 81.3 percent (European Chemical Industry Council,
+2026b; Eurostat, 2026b).
+New investment follows that growth to Asia. BASF expects Asia Pacific to provide over 80
+percent of chemical growth by 2035 and opened its Zhanjiang Verbund site in November 2025
+(BASF, 2026). The closest metal stage measure is EU use of nickel flat products, 57.8 kt in
+2024 across all end uses, with an unknown chemical share (Eurostat, 2025).
+                                                                                                 19
+5.5.2     Applications and Opportunities
+Corrosion-resistant alloys are needed where stainless steel fails, as in sulfuric acid,
+hydrochloric acid, or chlor-alkali service. Table 7 separates European replacement from new
+Asian plants. Alleima is investing SEK 220 million in finishing at Mehsana, India, where its
+range includes Sanicro 625 (UNS N06625) tube of 6 to 42 mm outside diameter (Alleima,
+2025, 2026b). Supply of plate grows as well. Outokumpu's Avesta programme in Sweden adds
+about 13 kt of high nickel flat capacity, more than a fifth of that EU flat product use
+(Outokumpu, 2026c).
+Table 7: High performance metal applications in chemical processing, outlook to 2035
+
+ Outlook       Applications                        Materials and product forms
+
+ Stable        Replacement heat exchangers,        C-276, C-22 and 59 type NiCrMo alloys and
+               vessels and piping in European      Alloy 625 as plate, sheet and welding
+               plants                              consumables
+
+ Grows         New plants in China, India and      Plate, clad plate, zirconium plate and tube
+               Southeast Asia
+
+ Selective Battery material plants, where          Plate for selected duties, welding
+           titanium and linings dominate           consumables
+ Falls         New build in European base          Plate
+               chemicals
+
+Sources: team assessment (Alleima, 2026b; BASF, 2026; European Chemical Industry
+Council, 2026b).
+
+Implications for suppliers:
+      ●   Harvest European replacement demand: sell plate and welding consumables from
+          existing capacity on documented life cycle cost.
+      ●   Serve Asian EPC tenders only from existing plate capacity, without new investment.
+
+5.6       Electronics and Electrical Engineering
+Electronics has the largest headline sales but the smallest metal volumes, often tonnes of
+specialized strip, foil, and high-purity alloy.
+
+
+5.6.1     Demand, Geography and Market Size
+Semiconductor sales reached USD 795.6 billion in 2025, up 26.2 percent, and WSTS forecasts
+USD 1.51 trillion in 2026 (World Semiconductor Trade Statistics, 2026).
+                                                                                             20
+Equipment spending is a closer alloy indicator. SEMI expects 300 mm fab equipment
+spending to reach USD 149 billion in 2026 and USD 227 billion in 2029, in Taiwan, Korea,
+China, and increasingly the United States (SEMI, 2026b). Electronics demand for FeNi or
+high-purity alloy is not published in tonnes.
+
+5.6.2     Applications and Opportunities
+NVIDIA says that a 1 MW data centre rack at 54 VDC needs up to 200 kg of copper busbar,
+and it plans 800 VDC Kyber racks in 2027 with partners including Infineon, Vertiv, Eaton, and
+Schneider Electric. Vertiv raised its copper hedge to 12,946 t by September 2026 (NVIDIA,
+2025; Vertiv, 2026).
+Dai Nippon Printing (DNP) doubled OLED metal mask capacity with an 8th-generation
+Kurosaki line and expects its invar patents to stay protected (Dai Nippon Printing, 2024a,
+2024b). Some panel makers test mask-free deposition. TrendForce names Visionox and TCL
+CSOT, while Samsung Display and BOE keep fine metal masks on 8.6-generation lines (Dai
+Nippon Printing, 2024b; TrendForce, 2025).
+Table 8: High performance metal applications in electronics, outlook to 2035
+
+ Outlook Applications                                       Materials and product forms
+
+ Grows       OLED fine metal masks for IT panels, at        FeNi36 ultra thin foil
+             risk from mask free patterning
+
+ Grows       Current sensors and shielding in power         Soft magnetic FeNi strip
+             electronics and data centres
+
+ Grows       Fab gas delivery and chamber components        High purity nickel alloy and
+                                                            stainless strip and tube stock
+
+ Stable      Glass seals, lead frames, resistance heating   FeNi42 and FeNi29Co18 strip,
+                                                            resistance wire
+
+Sources: team assessment (Dai Nippon Printing, 2024a; Evertiq, 2026; NVIDIA, 2025; SEMI,
+2026b).
+
+TSMC, Applied Materials, and Lam Research filings name no alloys, so alloy reaches fabs
+through tube finishers. Dockweiler in Germany supplies ultra high purity tube systems, and
+Valex in the United States sells V22 (UNS N06022) alloy tube beside electropolished stainless
+(Dockweiler, n.d.; Valex, n.d.). Infineon's EUR 5 billion Smart Power Fab, opened in Dresden
+in July 2026, shows that Europe still adds power electronics capacity (Evertiq, 2026).
+
+Implications for suppliers:
+   ●      Partner with mask makers to qualify FeNi36 ultra thin foil rather than compete with
+          protected processes.
+                                                                                              21
+      ●   Qualify high purity alloy strip and tube with fab tube finishers such as Dockweiler and
+          Valex.
+
+5.7       Medical Technology
+
+Medical technology offers the steadiest growth of the seven industries. Aging populations
+drive demand for cobalt-chromium, titanium, and zirconium implants, largely independent of
+business cycles.
+
+5.7.1     Demand, Geography and Market Size
+Joint replacements are the most measurable driver of implant metal. In 2023, the OECD
+average was 198 hip and 156 knee replacements per 100,000 people (OECD, 2025). Europe's
+medtech market was about EUR 173 billion in 2025, and the United States held 46.4 percent
+of 2024 device sales (MedTech Europe, 2025, 2026). Central purchasing in China cut hip and
+knee prices by about 82 percent (National Healthcare Security Administration, 2022).
+Because implant alloy tonnage is not published, procedures are the best measure. The 35
+OECD members reporting both recorded about 2.75 million hip and knee replacements in
+2023, excluding the United States and Japan (OECD, 2025).
+
+
+5.7.2     Applications and Opportunities
+A few large companies buy most implant metals, so approval matters greatly. Stryker reported
+USD 9,469 million in orthopaedic revenue in 2025, and the four leading groups more than
+USD 20 billion in implants (Johnson & Johnson, 2025; Smith & Nephew, 2026; Stryker,
+2026). Mill demand still swings quickly, as Carpenter's medical sales fell 24 percent to USD
+224.3 million excluding surcharge in fiscal 2026, as customers cut inventories (Carpenter
+Technology, 2026).
+ASTM standards differ by product form. ASTM F75 covers cast CoCrMo, including knee
+femoral castings and casting alloy sold as ingot or bar. ASTM F1537 covers wrought CoCrMo
+bar, rod, and wire, and ASTM F3213 covers powder bed fusion, used for the printed talus
+implant the FDA approved in 2023 (ASTM International, 2017, 2020, 2023; U.S. Food and
+Drug Administration, 2023). Incumbents already hold these approvals, as Carpenter sells
+BioDur CCM Plus bar and powder to ASTM F1537 and ISO 5832-12, and ATI lists cobalt
+based alloys for medical use (ATI, n.d.-b; Carpenter Technology, n.d.).
+Smith & Nephew's OXINIUM, an oxidized Zr2.5Nb femoral component with 94.1 percent
+survivorship at 20 years, replaces some CoCr. It needs wrought Zr2.5Nb bar to ASTM F2384
+(ASTM International, 2024, n.d.; Smith & Nephew, 2026). The supplier is not disclosed, and
+ATI is a possible source because it lists zirconium niobium alloys for medical use (ATI, n.d.-
+b).
+                                                                                             22
+Table 9: High performance metal applications in medical technology, outlook to 2035
+
+ Outlook Applications                               Materials and product forms
+
+ Grows       Cast knee femoral components           CoCrMo casting alloy, ingot and bar to
+                                                    ASTM F75
+
+ Grows       Wrought hip and knee components        CoCrMo bar to ASTM F1537
+ Grows       Additively manufactured implants       CoCrMo powder to ASTM F3213
+
+ Grows       Oxidized zirconium femoral             Zr2.5Nb bar to ASTM F2384
+             components
+ Falls       Implants for China under central       CoCr bar
+             purchasing
+
+Sources: team assessment (ASTM International, 2023; National Healthcare Security
+Administration, 2022; Smith & Nephew, 2026).
+
+Implications for suppliers:
+      ●   Offer CoCrMo casting alloy to ASTM F75 and bar to ASTM F1537 to implant makers
+          in Europe and the United States.
+      ●   Develop CoCrMo powder to ASTM F3213 and Zr2.5Nb bar to ASTM F2384, and pass
+          the supplier audits of the device makers.
+
+6.        Global Market Size and Trade
+Chapter 5 measured each industry at its own stage. This chapter sizes the global market at the
+mill product stage and then follows trade routes and policies.
+
+
+6.1       Global Market Size by Product Family
+Six digit customs data separate nickel alloys from pure nickel. In 2024, ten major reporters
+exported 95.1 kt of alloy bar, rod and wire (HS 750512 and 750522), 41.3 kt of alloy flat
+products (750620), and 18.0 kt of alloy tubes (750712). They also shipped 27.9 kt of
+unwrought alloy (750220), the code for VIM remelt ingot and casting stock (United Nations
+Statistics Division, 2026b, 2026d, 2026f). For the eight reporters with four digit data, alloys
+make up 97, 85 and 87 percent of bar and wire, flat and tube exports by weight, so the totals in
+section 6.2 track alloy trade (team calculation).
+Unit values rise with each conversion step, which gives a first price ladder by form.
+Unwrought alloy averaged USD 23.4 per kg in 2024, flat products 34.0, wire 36.5, bar 40.6
+and tube 58.3, or 2.5 times remelt ingot (Product Strategy 2035 Team, 2026a).
+                                                                                                         23
+Exports are only a floor, so world output has to be estimated. EU apparent consumption,
+production plus imports minus exports, was 57.8 kt of flat products and 9.2 kt of tubes in
+2024. Bar data are confidential (Eurostat, 2025).
+
+Table 10 scales these anchors to world team estimates. Superalloys divide the 20 kt of cobalt
+used in superalloys in 2025 by an assumed cobalt content. Flat products and tubes divide EU
+use by an assumed EU share of 12 to 30 percent, and bar applies a multiple of 1.0 to 2.5 to
+exports. The families overlap, so the rows are never summed (Product Strategy 2035 Team,
+2026a).
+Table 10: Global market size by nickel alloy product family, 2025 (team estimates, not
+summable)
+Product family               Traded floor   EU use 2024, unit value   World 2025, kt P50   World 2025,
+                             2024, kt       (EUR/kg)                  (P10 to P90)         EUR bn
+Superalloy bar, billet and   27.9 in 750220 Not separated             193 (138 to 279)     4.9 to 9.1
+remelt stock
+Nickel alloy bar, rod and    95.1           Confidential, 25.4 to     155 (121 to 200)     3.9 to 5.2
+wire                                        33.4
+Flat products (plate,        41.3           57.8 kt, 31.0 to 47.8     282 (224 to 364)     8.7 to 13.5
+sheet, strip, foil)
+Tubes and fittings           18.0           9.2 kt, 26.1 to 41.1      45 (36 to 58)        1.2 to 1.8
+Precision FeNi strip and     No separate    Not reported              Not estimable        Not estimable
+foil                         code
+
+Sources: UN Comtrade alloy codes, ten reporters, 2024, and Eurostat PRODCOM (Eurostat,
+2025; United Nations Statistics Division, 2026b, 2026d, 2026f). Superalloy bar sits in the bar
+codes, casting stock in 750220. Team estimates at constant 2024 unit values, superalloy
+premium 1.00 to 1.41, method in appendix A2.4 (Product Strategy 2035 Team, 2026a).
+
+The wide ranges still rank the families: flat products lead in tonnes and value, and superalloys
+rank second in value. The superalloy range is plausible mainly in its upper half, because the
+cobalt method likely understates melt from revert (Product Strategy 2035 Team, 2026a).
+Section 6.2 shows where these products are converted and shipped.
+
+
+6.2     Conversion Creates the Trade Surplus
+Trade data also show where conversion happens. Germany leads the ten reporters in flat
+product exports and ranks second in bars and wire, and Figure 2 shows its growth (United
+Nations Statistics Division, 2026c, 2026e, 2026g).
+                                                                                            24
+Table 11: Leading exporters of nickel mill products and unwrought nickel, 2024
+
+ HS code and            Leading exporters among the ten reporters (USD     Germany net
+ product                million)                                           trade (USD
+                                                                           million)
+ 7505 Nickel bars,      United States 1,400, Germany 638, France 428,      +79
+ rods, profiles, wire   United Kingdom 402, Italy 388 (mirror: Austria
+                        384)
+
+ 7506 Nickel plate,     Germany 578, United States 482, Japan 274,         +414
+ sheet, strip, foil     France 110, China 85 (mirror: Sweden 101)
+
+ 7507 Nickel tubes      United States 324, Germany 202, China 195,         +105
+ and fittings           United Kingdom 168, Italy 141
+
+ 7502 Unwrought         China 2,068, Indonesia 862, United Kingdom         −736
+ nickel                 768 (mirror: Canada 1,236, Norway 1,086,
+                        Russia 1,049, Australia 981)
+
+Sources: UN Comtrade, reporters Germany, United States, China, Japan, Korea, India,
+France, United Kingdom, Italy and Indonesia (United Nations Statistics Division, 2026h).
+Mirror values are their imports from non reporters, a lower bound (United Nations Statistics
+Division, 2026a). Net trade is a team calculation.
+
+Germany is a net importer of USD 736 million of raw nickel, yet a net exporter of every mill
+product in Table 11. EU flat product exports reach EUR 31.0 per kg, against EUR 15.5 for the
+contained nickel, which is the conversion premium of section 4.1 (European Central Bank,
+2025; Eurostat, 2025; United Nations Statistics Division, 2026e; World Bank, 2026a).
+Partner import data also show where class 1 nickel comes from. Canada, Norway, Russia, and
+Australia each shipped about USD 1 bn to the ten reporters, more than Indonesia reports
+(United Nations Statistics Division, 2026a). Austria and Sweden appear as converters like
+Germany, and section 6.3 follows the routes to their buyers.
+
+6.3    Corridors and Dependencies
+The main trade routes follow the buyers. In 2024, Germany exported about USD 111 to 112
+million of nickel bar and wire each to the United Kingdom and the United States, both key
+engine markets. German plate and strip go mainly to Austria, Italy, China, and the United
+States, where chemical and electronics fabricators operate (United Nations Statistics Division,
+2026c, 2026e). British turbojet and gas turbine exports reached USD 39.8 bn in 2024,
+including re-exports (United Nations Statistics Division, 2026h). The United States exported
+the most alloy bar, 26.4 kt at USD 44.2 per kg, against 10.4 kt at USD 34.4 per kg from
+Germany (United Nations Statistics Division, 2026d). Remelt ingot follows the casting houses.
+The United States and the United Kingdom are each other's largest suppliers of unwrought
+                                                                                                                    25
+alloy, at USD 66 and 62 million in 2024 (United Nations Statistics Division, 2026b). These
+corridors are exposed to the trade policies described next.
+Figure 2: German exports of nickel mill products rose by about 47 percent from 2019 to 2024
+                                                                                       1,529
+                     1500                                                                               1,418
+                                                                        1,354
+       USD million
+
+
+
+
+                            968                         991
+                     1000                   894
+
+
+
+                     500
+
+
+
+                       0
+                            2019           2020         2021            2022           2023            2024
+                              Bars, rods, wire (7505)     Plate, sheet, strip (7506)       Tubes, fittings (7507)
+
+
+Source: UN Comtrade, Germany as reporter, exports to the world in current USD (United
+Nations Statistics Division, 2026c, 2026e, 2026g).
+
+6.4    Trade Policy Reshapes Sourcing and Access
+Trade policy can change costs and access quickly. In 2025, the United States raised Section
+232 tariffs on steel and aluminium to 50 percent and, from 1 August, taxed the copper content
+of copper semis at 50 percent (The White House, 2025a). The general US duty on nickel mill
+products (HS 7505 to 7507) is 2 to 3 percent (United States International Trade Commission,
+2026b). Iron based grades differ, because customs classify an alloy by the metal that
+predominates by weight. FeNi36 and Alloy 800H, with at least 39.5 percent iron, are therefore
+steel and carry the 50 percent Section 232 tariff (Executive Office of the President, 2018;
+Special Metals Corporation, n.d.-a; United States International Trade Commission, 2026a).
+Tariffs on EU goods have shifted several times. The joint statement of 21 August 2025 capped
+the combined tariff on most EU goods at 15 percent, and from February 2026 a 10 percent
+surcharge applied for 150 days (Executive Office of the President, 2026a, 2026b; The White
+House, 2025b). Since 24 July 2026, a Section 301 action sets the combined EU rate at 10
+percent where the general duty is lower. Goods under Section 232 are exempt, and the
+exemption lists could not be checked for HS 7505 to 7507 (Office of the United States Trade
+Representative, 2026). EU mills supplying US forgers may therefore pay up to 10 percent on
+nickel alloys that US mills such as ATI and Carpenter avoid.
+The EU Carbon Border Adjustment Mechanism entered its definitive phase on 1 January 2026.
+It covers ferrochrome and ferronickel but not the nickel products of HS chapter 75, so it raises
+input costs without protecting alloy mill products (Ernst & Young, 2025). With the quotas and
+                                                                                              26
+licences of chapter 4, these measures favour conversion near customers and several qualified
+sources per critical input, conditions that chapter 7 carries into the growth scenarios.
+
+
+7.     Growth Scenarios to 2035
+This chapter turns the market sizes of chapters 5 and 6 into demand paths to 2035. Engine and
+turbine alloys add the most tonnes, electronics has the fastest index, and supply shocks raise
+costs more than they cap volume.
+
+7.1    Growth Model and Scenario Assumptions
+Tier 1 models demand as D = A × I × S, with activity A, alloy mass per unit I and the share S
+of units using a high performance alloy. Each factor is a 2035 to 2025 ratio, so the index is 100
+× (1 + g)^10 with g the growth rate a year. The low, central and high cases are P10, P50 and
+P90 of 10,000 draws, calibrated to 20.0 kt of superalloy cobalt in 2025, with all parameters in
+Table A1 (Cobalt Institute, 2026).
+Each rate follows one published driver. Energy follows the turbine output of Siemens Energy,
+GE Vernova and Mitsubishi Heavy Industries (ratio 1.12 to 1.98), a fleet aftermarket of 2.0 to
+5.0 percent a year and nuclear (1.05 to 1.45). Its cobalt base is 6.0 kt, a weight of 0.300 on
+20.0 kt (GE Vernova Inc., 2026b; Mitsubishi Heavy Industries, 2026; Product Strategy 2035
+Team, 2026a; Siemens Energy, 2025). Electronics follows SEMI fab capacity, medical follows
+procedures at 3.0 to 4.1 percent a year, and chemicals move −1.0 to 2.5 percent. Oil and gas
+follows upstream investment and LNG, and automotive an electric share of 40 to 62 percent
+(European Chemical Industry Council, 2026b; International Energy Agency, 2025b, 2026d;
+OECD, 2025; SEMI, 2026a).
+Aerospace combines the aftermarket at 3.0 to 4.2 percent a year with new engine deliveries
+(Airbus, 2026d; Boeing, 2026b). The outlooks expect 2,103 to 2,181 deliveries a year to 2045
+against 1,393 in 2025, a ratio of 1.25 to 1.76 by 2035. The 2025 base already holds the LEAP
+ramp to 1,802 engines (Airbus, 2026c; Boeing, 2026b; GE Aerospace, 2026a; Product Strategy
+2035 Team, 2026a).
+The model haircuts guidance, which tends to run ahead of outcomes. The aerospace median of
+0.96 rests on Boeing (0.894), Airbus (0.983) and LEAP (1.068), and other guided drivers take
+0.94 (Product Strategy 2035 Team, 2026a). Without it, aerospace would reach 143 and energy
+139, and A2.3 gives the backtest.
+
+7.2    Results by Industry, Product, and Region
+Measured in tonnes, superalloy bar, billet and remelt stock adds the most volume, from about
+193 kt in 2025 to 248 kt in 2035 (Table 13). Table 12 separates the industry index, which
+blends all components, from the row driver that Table 14 scores.
+                                                                                                                                                                                                       27
+Table 12: Alloy demand 2035 by industry, index 2025 = 100, and growth of the scored driver
+Industry                                          Cobalt 2025, 2035                     P10        P50      P90        Index a year               Row driver, P50 a year
+Electronics                                       None                                  112        141      177        3.5%                       300 mm fab capacity, 4.2%
+Aerospace                                         11.5, 15.4 kt Co                      121        136      151        3.1%                       Engine deliveries, 3.7%
+Medical                                           None                                  128        136      145        3.2%                       Hip and knee procedures
+Energy                                            6.0, 7.7 kt Co                        105        131      162        2.7%                       Turbines and aftermarket, 3.4%
+Chemical                                          None                                  87         109      135        0.8%                       Chemical output
+Automotive                                        None                                  84         102      124        0.2%                       Combustion parts, −3.7%
+Oil and gas                                       None                                  79         98       122        −0.2%                      Upstream and LNG
+
+Sources: team calculation (Product Strategy 2035 Team, 2026a).
+
+Figure 3: Electronics leads by index, but aerospace and energy carry the measured cobalt
+tonnes
+                                                        Aerospace                       Energy and environment                      Electronics                             Medical technology
+
+                                           250                                  250                                    250                                     250
+
+                                           200                                  200                                    200                                     200
+                                                                                                                                              177
+                                                                                                         162
+                                                                    151                                                                                                                    145
+                                           150                                  150                                    150                              141    150
+                                                                          136                                    131                                                                             136
+          Alloy demand index, 2025 = 100
+
+
+
+
+                                                                    121                                                                                                                    128
+                                           100                                  100                      105           100                        112          100
+
+                                            50                                   50                                     50                                      50
+                                                 2025    2030        2035             2025     2030         2035             2025    2030         2035               2025        2030       2035
+
+                                                         Chemical                             Oil and gas                           Automotive
+
+                                           250                                  250                                    250
+
+                                           200                                  200                                    200
+
+                                           150                                  150                                    150                                             Band: P10 to P90
+                                                                    135                                                                                                Line: P50
+                                                                                                         122                                  124
+                                                                          109                                                                                          Labels: 2035 P10,
+                                           100                                  100                              98    100                              102            P50 (blue), P90
+                                                                     87                                     79                                    84                   10,000 draws
+                                                                                                                                                                       Index, 2025 = 100
+                                            50                                   50                                     50
+                                                 2025    2030        2035             2025     2030         2035             2025    2030         2035
+
+
+
+Source: team calculation, band P10 to P90, line P50 (Product Strategy 2035 Team, 2026a).
+
+The aerospace index grows 3.1 percent a year and engine deliveries 3.7 percent, because the
+aftermarket half grows 3.1 percent. The energy index grows 2.7 percent and the turbine blend
+3.4 percent, because nuclear adds only 1.5 percent. Automotive stays flat because combustion
+parts fall to 69 while electric vehicle parts rise to 199 (Product Strategy 2035 Team, 2026a).
+Table 13: Product families 2035, team estimates, never summed
+Product family                                                                                2025 kt            2035 kt (P10 to P90)                         2035 EUR bn                   Index P50
+Superalloy bar, billet, remelt stock                                                          193                248 (175 to 365)                             6.3 to 11.7                   129
+Plate, sheet, strip and foil                                                                  282                325 (253 to 428)                             10.1 to 15.5                  115
+Nickel alloy bar, rod and wire                                                                155                180 (139 to 236)                             4.6 to 6.0                    116
+Tubes and fittings                                                                            45                 50 (39 to 67)                                1.3 to 2.1                    112
+Precision FeNi strip and foil                                                                 None               None                                         None                          129
+                                                                                                  28
+Sources: team calculation, methods in A2.4 (Eurostat, 2025; Product Strategy 2035 Team,
+2026a).
+
+By region, the team estimate holds 2025 shares constant (Product Strategy 2035 Team, 2026a).
+Of the energy index of 131, Asia Pacific holds 43 points, North America 26 and Europe 22, or
+2.6, 1.6 and 1.3 kt of cobalt. North America holds 32 of 98 oil and gas points, and Asia Pacific
+63 of 102 automotive points and 6.9 of 8.7 chemical growth points. Aerospace and electronics
+lack a regional driver (TODO(data): regional engine and fab data searched).
+Supply limits raise costs more than they cap volume. Cobalt mine supply falls 30 percent short
+of 2035 demand, or 54 percent under a tight Congo quota, but superalloys need only 11
+percent of it. Of the shocks in Table A5, the tight quota moves cobalt lean casting stock to
+priority 2 (3.60), a severe aerospace case moves Alloy 718 bar to priority 2 (3.45), and the
+tungsten licence halt changes no tier (Product Strategy 2035 Team, 2026a). Emerging uses
+stay in Table A3.
+
+8.      Strategic Recommendations
+This chapter turns chapters 4 to 7 into priorities and actions for producers. It recommends
+funding Alloy 718 billet first and adding cobalt lean remelt stock on the same melt shop.
+
+8.1     Priority Products, Industries, Regions, and Customers
+Table 14 scores opportunities from 1 to 5 for a producer that already melts and rolls these
+alloys. Growth weighs 20 percent, market and supply security 15 percent each, and the other
+criteria 10 percent. Priority 1 starts at 3.75 and priority 2 at 3.00, with all rows in Table A5
+(Product Strategy 2035 Team, 2026a).
+Table 14: Leading opportunities, weighted scores (1 = low, 5 = high attractiveness)
+Opportunity         Ev Market Growth Supply Compet. Tech. Customer Barriers Diff. Score Priority
+718 bar, billet     M 4        4      3       2        5     5         4       4      3.85   1
+Casting, Co lean    M 4        4      3       2        4     4         5       4      3.75   1, prov.
+Engine bar, all     M 4        4      2       2        5     5         4       4      3.70   2
+Casting, all        M 4        4      2       2        4     4         5       4      3.60   2
+Fab gas tube        M 2        5      4       3        4     4         3       3      3.60   2
+Combustor, all      M 3        4      2       2        4     5         5       4      3.55   2
+
+Source: team assessment (Product Strategy 2035 Team, 2026a). Ev evidence (M measured),
+Co cobalt, competitive intensity 5 = low, Diff. differentiation, prov. provisional.
+
+Alloy 718 engine bar and billet is the only priority 1 that rests on sourced grades and holds
+under every weighting. It carries about 5 percent niobium from Brazil and at most 1 percent
+                                                                                               29
+cobalt, and engine deliveries grow 3.7 percent a year on a pool of up to EUR 4.0 bn (Product
+Strategy 2035 Team, 2026a; Special Metals Corporation, 2007a; U.S. Geological Survey,
+2026h). Buyers are European and US open market forgers such as Safran at Gennevilliers,
+Otto Fuchs and Leistritz, because PCC and ATI melt for their own forges (Berkshire
+Hathaway, 2026; Leistritz Turbinentechnik, n.d.; OTTO FUCHS KG, n.d.; Safran, 2026b).
+Turbine alloys pass the threshold only in cobalt lean grades. Cobalt lean casting stock scores
+3.75, but its grade list (IN738, GTD 111) is not yet sourced. With alloy 188 and Nimonic 263
+counted, casting stock scores 3.60 and combustor sheet 3.55 (Special Metals Corporation, n.d.-
+c, n.d.-f). Turbine demand grows 3.4 percent a year, sold to casting houses such as Howmet
+and CPP (GE Aerospace, 2026c; Howmet Aerospace, 2026; Product Strategy 2035 Team,
+2026a). With cobalt grades, a combined vacuum melt programme is priority 2 under all four
+weightings, and the 718 only programme is priority 1 under all four (Product Strategy 2035
+Team, 2026a).
+Fab gas strip and tube grows 4.2 percent a year on only EUR 0.11 bn, but it uses existing
+rolling lines and reaches Applied Materials and Lam Research. Priority 2 also covers CoCr
+implant bar for Stryker and Zimmer Biomet (3.45), Alloy 690 (3.15) and AM powder (3.00),
+while FeNi36 foil and NO96 strip stay options (Stryker, 2026; Zimmer Biomet, 2026).
+
+8.2    Recommended Actions and Implementation Roadmap
+Producers should qualify first and add capacity after customers sign, because remelting, billet
+conversion and inspection are the bottleneck. Non rotating 718 bar to AMS 5662 and 5663
+qualifies fastest and brings the first revenue (Special Metals Corporation, 2007a).
+A team estimate built on the Avesta remelt programme puts the step at EUR 2.3k to 17.3k per
+annual tonne. That is EUR 3.5 to 26 m for 1.5 kt or EUR 6.9 to 51.9 m for 3 kt. Sales of EUR
+38 to 71 m per 1.5 kt earn EUR 5.3 to 17.5 m of operating profit, a payback of 0.6 to 5.9 years
+(Outokumpu, 2026b; Product Strategy 2035 Team, 2026a).
+A decision in Q1 2028 gives the first approved tonne in 2030 in the fast case and 2031 in the
+central case. Competitor capacity is on stream by the end of 2029, so only the fast case lands
+before the window narrows (Argus Media, 2026b; Product Strategy 2035 Team, 2026a).
+Table 15: Roadmap 2026 to 2035 with owners, gates and kill criteria
+
+ Initiative, owner   2026 to 2028       Gate, 2029 to 2035 milestones and kill criterion
+
+ 1. 718 billet,      Non rotating bar   Gate Q4 2027: 1.5 kt signed or in qualification, 0.5
+ board               with two forgers   kt non rotating. Remelt step 2030, 1.5 kt by 2034.
+                                        Kill: under 0.5 kt signed in Q4 2028
+
+ 2. Remelt stock,    Source grades,     Same shop from 2031. Kill: no order by Q4 2029
+ metallurgy          qualify one caster
+                                                                                               30
+
+ Initiative, owner   2026 to 2028         Gate, 2029 to 2035 milestones and kill criterion
+ 3. Fab gas tube,    Qualify gas          Supply from 2029. Kill: no order by Q4 2028
+ quality             system makers
+ 4. CoCr,            Keep ASTM F75        Powder from 2030. Kill: no agreement by Q4 2029
+ regulatory          and F1537
+
+ 5. Alloy 690,       Hold ASME and        Hollows from 2030. Kill: no reactor order by Q4
+ quality             RCC-M                2030
+                     approvals
+
+ 6. Inputs,          Second cobalt        Revert loop 2030. Kill: one source above 50 percent
+ procurement         and niobium          in Q4 2028
+                     sources
+
+Sources: team plan and estimates (Alleima, n.d.-a; ASTM International, 2020, 2023; Product
+Strategy 2035 Team, 2026a).
+
+Table A15 rates ten risks with dated kill criteria. Producers should stop investing in diesel only
+parts (index 69), new European base chemical plants (75.0 percent utilisation), unfunded
+electrolyser capacity and captive zirconium cladding (European Chemical Industry Council,
+2026b; Product Strategy 2035 Team, 2026a).
+
+9.     Conclusion
+The study asked how the production, availability, trade and industrial uses of selected metals
+shape opportunities through 2035. Quotas raise cobalt and tungsten costs more than they cap
+alloy output. Trade shows that value comes from conversion into qualified bar, strip and tube.
+By volume, superalloy bar, billet and remelt stock leads, rising from 193 kt to 248 kt by 2035,
+worth EUR 6.3 to 11.7 bn (Product Strategy 2035 Team, 2026a).
+Alloy 718 engine bar and billet for open market forgers in the United States and Europe is the
+only stable priority 1. Turbine casting stock and combustor sheet are priority 2 once cobalt
+grades count, and electronics yields a priority 2 position in fab gas strip and tube (Product
+Strategy 2035 Team, 2026a).
+Team weights carry these estimates, since official data stop at mill products. Producers should
+fund 718 billet first, lead with non rotating bar, decide on remelt capacity in Q1 2028 and add
+cobalt lean remelt stock on the same melt shop.
+                                                                                          31
+
+
+References
+Airbus. (2026a, February 19). Airbus reports full-year (FY) 2025 results.
+       https://www.bnains.org/archives/communiques/EADS/20260219_Communique_result
+       ats_annuels_2025_Airbus_EN.pdf
+Airbus. (2026b, October 28). Airbus reports nine-month (9M) 2026 results.
+       https://www.airbus.com/en/newsroom/press-releases/2026-10-airbus-reports-nine-
+       month-9m-2026-results
+Airbus. (2026c, July). Global market forecast 2026. https://www.airbus.com/en/products-
+       services/commercial-aircraft/global-market-forecast
+Airbus. (2026d). Global services forecast 2026 to 2045.
+       https://mediaassets.airbus.com/pm_38_940_940428-wytkob8rtd.pdf
+Alleima. (2025, May 9). Sanicro 625 tube and pipe, seamless.
+       https://www.alleima.com/en/technical-center/material-datasheets/tube-and-pipe-
+       seamless/sanicro-625/
+Alleima. (2026a). Annual report 2025. https://www.alleima.com/siteassets/documents/ir/2025-
+       ar/alleima-annual-report-2025.pdf
+Alleima. (2026b). Interim report third quarter 2026.
+       https://www.alleima.com/siteassets/documents/ir/2026-q3/alleima-q3-2026.pdf
+Alleima. (n.d.-a). Nuclear steam generator tubes. https://www.alleima.com/en/products/tube-
+       pipe/tubular-products/nuclear-steam-generator-tubing/
+Alleima. (n.d.-b). Umbilical tubing in super-duplex and hyper-duplex steel.
+       https://www.alleima.com/en/products/tube-pipe/tubular-products/umbilical-tubes/
+American Nuclear Society. (2026, August 5). Westinghouse updates: AP1000 potential, IPO,
+      Amentum partnership. Nuclear Newswire. https://www.ans.org/news/2026-08-
+      05/article-8272/westinghouse-updates-ap1000-potential-ipo-amentum-partnership/
+Aperam. (2025a, January 23). Aperam completes acquisition of Universal Stainless & Alloy
+      Products.
+      https://www.aperam.com/sites/default/files/documents/Press_Release_Aperam_Acquis
+      ition_Universal_Stainless__Alloy_Products.pdf
+Aperam. (2025b). Creating value through infinite, world-changing materials: Half year report
+      2025. https://www.aperam.com/sites/default/files/documents/Aperam_HYR_2025.pdf
+Aperam. (2026, February 6). Full year and fourth quarter 2025 results.
+      https://www.aperam.com/sites/default/files/documents/Q4_2025_ER_PressRelease_E
+      N.pdf
+Aperam. (n.d.). Aperam Alloys Imphy. Retrieved October 25, 2026, from
+      https://www.aperam.com/alloys/what-is-alloys/imphy/
+Argus Media. (2026a). Indonesia to cut nickel mining quota in 2026.
+      https://www.argusmedia.com/en/news-and-insights/latest-market-news/2787275-
+      indonesia-to-cut-nickel-mining-quota-in-2026
+Argus Media. (2026b, July). Jet engines driving nickel, PQ titanium demand.
+      https://www.argusmedia.com/ja/news-and-insights/latest-market-news/2860247-jet-
+      engines-driving-nickel-pq-titanium-demand
+                                                                                          32
+Armees.com. (2025, August 27). Aubert & Duval, le ministre de l’Industrie salue une
+      renaissance industrielle exemplaire. https://armees.com/aubert-duval-renaissance-
+      industrielle-exemplaire/
+ASTM International. (2017). Standard for additive manufacturing: Finished part properties:
+     Standard specification for cobalt-28 chromium-6 molybdenum via powder bed fusion
+     (ASTM F3213-17). https://store.astm.org/f3213-17.html
+ASTM International. (2020). Standard specification for wrought cobalt-28chromium-
+     6molybdenum alloys for surgical implants (UNS R31537, UNS R31538, and UNS
+     R31539) (ASTM F1537-20). https://store.astm.org/f1537-20.html
+ASTM International. (2023). Standard specification for cobalt-28 chromium-6 molybdenum
+     alloy castings and casting alloy for surgical implants (UNS R30075) (ASTM F75-23).
+     https://store.astm.org/f0075-23.html
+ASTM International. (2024). Standard specification for wrought zirconium-2.5niobium alloy
+     for surgical implant applications (UNS R60901) (ASTM F2384-24).
+     https://store.astm.org/f2384-24.html
+ASTM International. (n.d.). Oxidized zirconium for total joint arthroplasty (STP).
+     https://store.astm.org/stp37544s.html
+ATI. (2026a, February 20). Annual report on Form 10-K for the fiscal year ended December
+       28, 2025.
+       https://www.sec.gov/Archives/edgar/data/1018963/000162828026010140/ati-
+       20251228.htm
+ATI. (2026b, October 29). ATI Q3 2026 earnings call corrected transcript.
+       https://s27.q4cdn.com/226628310/files/content_files/ATI-US-CORRECTED-
+       TRANSCRIPT-ATI-IncATIUS-Q3-2026-Earnings-Call-29October2026-830-ET-AM-
+       28-10-2026-2026-10-28-0-993afd.pdf
+ATI. (n.d.-a). ATI 625 technical data sheet, sheet and plate.
+       https://www.atimaterials.com/Products/Documents/datasheets/nickel-cobalt/nickel-
+       based/ati_625_ludlum_version_tds_en_v1.pdf
+ATI. (n.d.-b). Medical. https://www.atimaterials.com/markets/medical
+BASF. (2026, February 27). BASF Report 2025: Material investments.
+      https://report.basf.com/2025/en/combined-managements-report/fundamentals-of-the-
+      group/strategy/material-investments-and-portfolio-measures/material-investments.html
+Berkshire Hathaway. (2026, March 2). Annual report on Form 10-K for the fiscal year ended
+       December 31, 2025.
+       https://www.sec.gov/Archives/edgar/data/1067983/000119312526083899/brka-
+       20251231.htm
+Bloom Energy. (2026, April 8). Notice of 2026 annual meeting of stockholders and proxy
+      statement.
+      https://www.sec.gov/Archives/edgar/data/1664703/000162828026024237/be-
+      20260408.htm
+Boeing. (2026a, January 30). Annual report on Form 10-K for the fiscal year ended December
+      31, 2025. https://www.sec.gov/Archives/edgar/data/12927/000162828026004357/ba-
+      20251231.htm
+                                                                                           33
+Boeing. (2026b, July 18). Commercial market outlook 2026 to 2045.
+      https://www.boeing.com/content/dam/boeing/v2/products/commercial-market-
+      outlook/downloads/2026-cmo-presentation.pdf
+BorgWarner. (2026, October). BorgWarner reports third quarter 2026 results [Form 8-K,
+     Exhibit 99.1].
+     https://www.sec.gov/Archives/edgar/data/908255/000090825526000060/a20260930ex
+     991pressrelease.htm
+BUTTING. (2026). BUTTING Group: Group overview (company website).
+     https://www.butting.com/en/group/
+Cannon-Muskegon. (n.d.). Vacuum melt alloys.
+      https://www.cannonmuskegon.com/products/vacuum-melt-alloy
+Carpenter Technology. (2026, August 12). Annual report on Form 10-K for the fiscal year
+      ended June 30, 2026.
+      https://www.sec.gov/Archives/edgar/data/17843/000001784326000034/crs-
+      20260630.htm
+Carpenter Technology. (n.d.). Micro-Melt BioDur CCM Plus.
+      https://www.carpentertechnology.com/alloy-finder/micro-melt-biodur-ccm-plus
+CBMM. (n.d.). Niobium products. https://niobium.tech/en/this-is-niobium/niobium-products
+Cobalt Institute. (2026, May). Cobalt market report 2025. https://www.cobaltinstitute.org/wp-
+       content/uploads/2026/05/Cobalt-Market-Report-2025.pdf
+CRU International. (2022). Opportunities for aluminium in a post-Covid economy.
+      International Aluminium Institute. https://international-aluminium.org/wp-
+      content/uploads/2022/03/CRU-Opportunities-for-aluminium-in-a-post-Covid-
+      economy-Report.pdf
+Dai Nippon Printing. (2024a, June 12). DNP commences operation of metal mask production
+       line for OLED manufacturing at Kurosaki plant.
+       https://www.global.dnp/en/news/detail/2024/06/0612_20175265/
+Dai Nippon Printing. (2024b, July 11). DNP Group IR Day Q&A summary.
+       https://www.global.dnp/content/dam/dnp-
+       global/pdf/en/ir/library/presentation/dnp_e_24irday_qa.pdf
+Daido Steel. (2026, May 15). Fiscal 2025 financial results briefing.
+       https://daido.co.jp/en/common/pdf/pages/ir/library/presentation/202603.pdf
+Dockweiler. (n.d.). High-purity stainless steel solutions for semiconductor industry.
+     https://www.dockweiler.com/en/
+Doncasters. (n.d.). Vacuum-melted superalloys. https://www.doncasters.com/our-
+      expertise/superalloys/vacuum-melted-superalloys/
+electrive. (2026, October 23). EU Auto Package: Committee votes to relax CO2 rules.
+        https://www.electrive.com/2026/10/23/eu-auto-package-committee-vote-to-relax-
+        co%E2%82%82-rules/
+Ernst & Young. (2025, December 23). European Commission publishes provisional
+       implementing acts and their annexes regarding CBAM.
+       https://www.ey.com/en_gl/technical/tax-alerts/european-commission-publishes-
+       provisional-implementing-acts-and-their-annexes-regarding-cbam
+                                                                                            34
+European Aluminium. (n.d.). Aluminium industry. https://european-aluminium.eu/about-
+      aluminium/aluminium-industry/
+European Automobile Manufacturers' Association. (2026a, April 2). Economic and market
+      report: Global and EU auto industry, full year 2025.
+      https://www.acea.auto/files/Economic_and_Market_Report-Full_year_2025.pdf
+European Automobile Manufacturers' Association. (2026b, January 27). New car
+      registrations: +1.8% in 2025, battery electric 17.4% market share.
+      https://www.acea.auto/pc-registrations/new-car-registrations-1-8-in-2025-battery-
+      electric-17-4-market-share/
+European Central Bank. (2025). Euro foreign exchange reference rates: US dollar
+      (EXR.A.USD.EUR.SP00.A).
+      https://data.ecb.europa.eu/data/datasets/EXR/EXR.A.USD.EUR.SP00.A
+European Chemical Industry Council. (2025a, December 15). Cefic launches 2025 Facts and
+      Figures report. https://cefic.org/news/cefic-launches-2025-facts-figures-report/
+European Chemical Industry Council. (2025b, December 15). Facts and figures of the
+      European chemical industry: Profile. https://cefic.org/facts-and-figures-of-the-
+      european-chemical-industry/profile/
+European Chemical Industry Council. (2026a, October 5). Cefic's Chemical Trends Report Q3
+      2026 is out. https://cefic.org/news/cefics-chemical-trends-report-q3-2026-is-out/
+European Chemical Industry Council. (2026b, August). Chemical Trends Report.
+      https://cefic.org/app/uploads/2026/09/Chemical-Trends-Report-Q2-2026.pdf
+Eurostat. (2025). Sold production, exports and imports by PRODCOM list (NACE Rev. 2),
+       annual data (DS-059358), codes 24452100, 24452200 and 24452300.
+       https://ec.europa.eu/eurostat/databrowser/view/DS-059358/
+Eurostat. (2026a). Exports of nickel plates, sheets, strip and foil.
+       https://ec.europa.eu/eurostat/databrowser/view/DS-056120/
+Eurostat. (2026b, November 6). Production in industry, annual data (STS_INPR_A).
+       https://doi.org/10.2908/STS_INPR_A
+Eurostat. (2026c). Sold production, exports and imports (PRODCOM, DS-059358).
+       https://ec.europa.eu/eurostat/web/prodcom/database
+Evertiq. (2026, July 2). Infineon opens the world largest fab for power semiconductors and
+       analog/mixed-signal technologies in Dresden. https://evertiq.com/design/2026-07-02-
+       infineon-opens-5-billion-smart-power-fab-in-dresden
+Executive Office of the President. (2018, March 15). Adjusting imports of steel into the United
+       States (Proclamation 9705). Federal Register.
+       https://www.govinfo.gov/content/pkg/FR-2018-03-15/html/2018-05478.htm
+Executive Office of the President. (2026a, February 25). Ending certain tariff actions
+       (Executive Order 14389). Federal Register.
+       https://www.federalregister.gov/documents/2026/02/25/2026-03832/ending-certain-
+       tariff-actions
+Executive Office of the President. (2026b, February 25). Imposing a temporary import
+       surcharge to address fundamental international payments problems (Proclamation
+       11012). Federal Register. https://www.federalregister.gov/documents/2026/02/25/2026-
+                                                                                             35
+       03824/imposing-a-temporary-import-surcharge-to-address-fundamental-international-
+       payments-problems
+Federation of Aluminium Consumers in Europe. (2024). The EU aluminium industry in a
+       world in upheaval: Key risks and opportunities. https://face-
+       aluminium.com/files/uploads/2025/01/The-EU-aluminium-industry-in-a-world-in-
+       upheaval.-Key-risks-and-opportunities.-3.12.24-FACE.pdf
+Fushun Special Steel Co., Ltd. (2026). Annual report 2025 (600399).
+      https://static.cninfo.com.cn/finalpage/2026-05-19/1225313481.PDF
+Garrett Motion. (2026, February 19). Annual report on Form 10-K for the fiscal year ended
+        December 31, 2025.
+        https://www.sec.gov/Archives/edgar/data/1735707/000173570726000009/gtx-
+        20251231.htm
+Gaztransport et Technigaz. (2026a). Mark III technologies. https://gtt.fr/technologies/markiii
+Gaztransport et Technigaz. (2026b). NO96 technologies. https://gtt.fr/technologies/no96
+GE Aerospace. (2026a, January 29). Annual report on Form 10-K for the fiscal year ended
+      December 31, 2025.
+      https://www.sec.gov/Archives/edgar/data/40545/000004054526000008/ge-
+      20251231.htm
+GE Aerospace. (2026b, July 23). GE Aerospace 2Q26 recent events recap.
+      https://www.geaerospace.com/news/investor-relations/ir-updates/2q26-recent-events-
+      recap
+GE Aerospace. (2026c, October 20). Quarterly report on Form 10-Q for the quarter ended
+      September 30, 2026.
+      https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/ge-
+      20260930.htm
+GE Vernova Inc. (2026a, January 29). Annual report on Form 10-K for the year ended
+      December 31, 2025.
+      https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-
+      20251231.htm
+GE Vernova Inc. (2026b, October 28). Quarterly report on Form 10-Q for the quarter ended
+      September 30, 2026.
+      https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-
+      20260930.htm
+GE Vernova Inc. (2026c, July 22). Second quarter 2026 earnings webcast transcript.
+      https://www.gevernova.com/sites/default/files/gev_webcast_transcript_07222026.pdf
+Haynes International. (2023a, November 16). Annual report on Form 10-K for the fiscal year
+      ended September 30, 2023.
+      https://www.sec.gov/Archives/edgar/data/858655/000155837023019161/hayn-
+      20230930x10k.htm
+Haynes International. (2023b). HASTELLOY C-276 alloy. https://haynesintl.com/wp-
+      content/uploads/2024/08/c-276.pdf
+Howmet Aerospace. (2026, February 12). Annual report on Form 10-K for the fiscal year
+     ended December 31, 2025.
+                                                                                                36
+       https://www.sec.gov/Archives/edgar/data/4281/000000428126000012/hwm-
+       20251231.htm
+Iluka Resources. (2025). Annual report 2024. https://www.iluka.com/media/hlbhtwnj/final-
+       iluka-ar24-25225.pdf
+IMARC Group. (2025). High performance alloys market report.
+     https://www.imarcgroup.com/high-performance-alloys-market
+Indonesia Business Post. (2026, October 30). Energy ministry approves raising nickel ore
+       quota to 300 million metric tons. https://indonesiabusinesspost.com/7711/energy-and-
+       resources/energy-ministry-approves-raising-nickel-ore-quota-to-300mmt-for-the-rest-
+       of-2026
+International Aluminium Institute. (2026). Primary aluminium production.
+        https://international-aluminium.org/statistics/primary-aluminium-production/
+International Atomic Energy Agency. (2026). Operating experience with nuclear power
+        stations in member states 2026. https://www-
+        pub.iaea.org/MTCD/publications/PDF/OPEX_2026_web.pdf
+International Chromium Development Association. (2022). Quantifying the improvement in
+        the environmental impact of the production of high carbon ferrochromium (HC FeCr):
+        High carbon ferrochromium life cycle assessment (LCA) summary.
+        https://www.icdacr.com/wp-content/uploads/2022/10/ICDA-HC-FeCr-LCA-summary-
+        2022.pdf
+International Chromium Development Association. (n.d.). Market insights: chromium market
+        overview and analysis. https://www.icdacr.com/market-insights/
+International Civil Aviation Organization. (n.d.). Route group and global compound annual
+        growth rates of forecasted RPKs. https://www.icao.int/sites/default/files/sp-
+        files/sustainability/Documents/tables%20of%20the%20traffic%20forecasts_v2.pdf
+International Copper Study Group. (2025). The world copper factbook 2025.
+        https://icsg.org/download/2025-10-the-world-copper-factbook/?
+        filename=Factbook2025.pdf
+International Copper Study Group. (2026). Copper market forecast and preliminary 2025
+        statistics. https://icsg.org/
+International Energy Agency. (2025a, April 10). AI is set to drive surging electricity demand
+        from data centres while offering the potential to transform how the energy sector
+        works. https://www.iea.org/news/ai-is-set-to-drive-surging-electricity-demand-from-
+        data-centres-while-offering-the-potential-to-transform-how-the-energy-sector-works
+International Energy Agency. (2025b, November). World energy outlook 2025.
+        https://www.iea.org/reports/world-energy-outlook-2025
+International Energy Agency. (2026a). Electricity 2026: Executive summary.
+        https://www.iea.org/reports/electricity-2026/executive-summary
+International Energy Agency. (2026b). Global critical minerals outlook 2026.
+        https://www.iea.org/files/19c60aa0-ee07-4a20-a138-
+        33c967ac5008/GlobalCriticalMineralsOutlook2026.pdf
+International Energy Agency. (2026c). Global critical minerals outlook 2026: Dataset.
+        https://www.iea.org/data-and-statistics/data-product/global-critical-minerals-outlook-
+        2026
+                                                                                                 37
+International Energy Agency. (2026d, May). Global EV outlook 2026: Growing sales amid an
+        energy crisis. https://www.iea.org/reports/global-ev-outlook-2026
+International Energy Agency. (2026e). Global hydrogen review 2026: Demand.
+        https://www.iea.org/reports/global-hydrogen-review-2026/demand
+International Energy Agency. (2026f). Global hydrogen review 2026: Production.
+        https://www.iea.org/reports/global-hydrogen-review-2026/production
+International Energy Agency. (2026g, October 1). Global LNG capacity tracker.
+        https://www.iea.org/data-and-statistics/data-tools/global-lng-capacity-tracker
+International Energy Agency. (2026h, June). Hydrogen production projects database.
+        https://www.iea.org/data-and-statistics/data-product/hydrogen-production-and-
+        infrastructure-projects-database
+International Energy Agency. (2026i). World energy investment 2026.
+        https://www.iea.org/reports/world-energy-investment-2026
+International Energy Agency. (2026j). World energy investment 2026: Data file.
+        https://www.iea.org/data-and-statistics/data-product/world-energy-investment-2026-
+        datafile
+International Manganese Institute. (2026). IMnI annual review 2025.
+        https://www.manganese.org/sites/default/files/2026-
+        04/2025%20Annual%20Review.pdf
+International Manganese Institute. (n.d.). Manganese in steel.
+        https://www.manganese.org/en/manganese-steel
+International Molybdenum Association. (2026a, April 1). Global molybdenum production and
+        use rises in 2025. IMOA. https://www.imoa.info/news-events-blog/latest-news-
+        details.php?lang=en&objectID=835
+International Molybdenum Association. (2026b). IMOA annual review 2025/2026.
+        https://www.imoa.info/download_files/annualreview/IMOA_AnnualReview_2025_20
+        26.pdf
+International Nickel Study Group. (2025, December). The world nickel market in 2025 and
+        2026. Stainless Steel World Magazine. https://insg.org/index.php/about-nickel/the-
+        market-2025-12/
+International Nickel Study Group. (2026, October 13). INSG October 2026 meetings press
+        release. https://insg.org/wp-content/uploads/2026/10/pressrel_INSG-Press-Release-
+        October_2026md92nd71j.pdf
+International Organization for Standardization. (2020). Petroleum and natural gas industries:
+        Materials for use in H2S-containing environments in oil and gas production, Parts 1 to
+        3 (ANSI/NACE MR0175-2021/ISO 15156:2020).
+        https://webstore.ansi.org/standards/nace/ANSINACEMR01752021ISO151562020
+International Organization of Motor Vehicle Manufacturers. (2026, April 23). Auto industry
+        growth shifted east in 2025 amid global repositioning. https://oica.net/auto-industry-
+        growth-shifted-east-in-2025-amid-global-repositioning/
+International Tungsten Industry Association. (n.d.). Applications and markets.
+        https://www.itia.info/applications-markets/
+                                                                                           38
+Johnson & Johnson. (2025, October 14). Johnson & Johnson announces intent to separate its
+      Orthopaedics business. https://www.jnj.com/media-center/press-releases/johnson-
+      johnson-announces-intent-to-separate-its-orthopaedics-business
+K&L Gates. (2025, October 30). US government announces historic 80 billion nuclear
+     partnership with Westinghouse, Cameco and Brookfield. https://www.klgates.com/US-
+     Government-Announces-Historic-80-Billion-Nuclear-Partnership-with-Westinghouse-
+     Electric-Company-Cameco-Corporation-and-Brookfield-Asset-Management-to-
+     Construct-AP1000-Reactor-Fleet-10-30-2025
+Leeham News and Analysis. (2026, October 27). Wings still pacing Boeing 737 MAX
+      production rate increases. https://leehamnews.com/2026/10/27/wings-still-pacing-
+      boeings-737-max-production-rate-increases/
+Leistritz Turbinentechnik. (n.d.). Leistritz Turbine Technology.
+        https://turbines.leistritz.com/en/start
+McKinsey & Company. (2025). Global materials perspective 2025.
+     https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-
+     materials-perspective-2025
+McKinsey & Company. (2026). Global materials perspective 2026.
+     https://www.mckinsey.com/industries/energy-and-materials/our-insights/global-
+     materials-perspective
+MedTech Europe. (2025, September). The European medical technology industry in figures
+     2025. https://www.medtecheurope.org/wp-content/uploads/2025/09/medtech-europe-
+     facts-and-figures-2025-digital.pdf
+MedTech Europe. (2026, October 6). Market: the European medical technology in figures.
+     https://www.medtecheurope.org/datahub/market/
+Metal AM. (2025). Wohlers Report 2025 shows global additive manufacturing industry growth
+       over 9%. https://www.metal-am.com/wohlers-report-2025-shows-global-additive-
+       manufacturing-industry-growth-over-9/
+Mining Weekly. (2026, January 16). China's CMOC bets on copper growth, maintains cobalt
+      target. https://www.miningweekly.com/article/chinas-cmoc-bets-on-copper-growth-
+      maintains-cobalt-target-2026-01-16
+Ministry of Commerce of the People's Republic of China. (2025a, February 4). Announcement
+       No. 10 of 2025 on export controls for tungsten tellurium bismuth molybdenum and
+       indium related items.
+       https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2025/art_c1512f4bd517419f8e0c66
+       b233ef03cf.html
+Ministry of Commerce of the People's Republic of China. (2025b). Identification questions on
+       tungsten and related dual use items.
+       https://exportcontrol.mofcom.gov.cn/article/cjwt/202503/1112.html
+Ministry of Natural Resources. (2025, April 3). Notice on the 2025 first batch tungsten mining
+       total control index. Hunan government portal.
+       http://www.hunan.gov.cn/zqt/zcsd/202504/t20250422_33650022.html
+Mitsubishi Heavy Industries, Ltd. (2026, November). Financial results presentation, 1H
+       FY2026 (appendix p. 22) and FY2025 (appendix p. 31).
+       https://www.mhi.com/finance/library/result/pdf/fy20262q/presentation.pdf
+                                                                                                 39
+National Healthcare Security Administration. (2022, February 12). China's national medical
+       bulk-buy program to be expanded. State Council Information Office.
+       https://english.www.gov.cn/statecouncil/ministries/202202/12/content_WS620713efc6
+       d09c94e48a4f82.html
+Nickel Institute. (n.d.). Nickel applications. https://nickelinstitute.org/en/nickel-applications/
+NVIDIA. (2025, May 20). NVIDIA 800 V HVDC architecture will power the next generation
+     of AI factories. NVIDIA Technical Blog. https://developer.nvidia.com/blog/nvidia-800-
+     v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/
+OECD. (2025, November 13). Health at a Glance 2025: Hip and knee replacement.
+     https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-
+     report/hip-and-knee-replacement_a4d0ff34.html
+OECD. (2026). STAN database for structural analysis (ISIC Rev. 4), 2025 edition. https://data-
+     explorer.oecd.org/
+Office of the United States Trade Representative. (2026, July 28). Notice of actions in Section
+       301 investigations of acts, policies, and practices of various economies related to the
+       failure of each economy to impose and effectively enforce a prohibition on the
+       importation of goods produced with forced labor. Federal Register.
+       https://www.federalregister.gov/documents/2026/07/28/2026-15181/notice-of-actions-
+       in-section-301-investigations-of-acts-policies-and-practices-of-various-economies
+Osaka Titanium Technologies. (2025, December 26). Notice of funding through two-step loans
+      under the Economic Security Promotion Act. https://www.osaka-ti.co.jp/e/e_ir/pdf/e-
+      ir20251226.pdf
+OTTO FUCHS KG. (n.d.). Nickel: Material expertise. https://www.otto-
+     fuchs.com/en/competences/materials-expertise/nickel
+Outokumpu. (2025, November 17). Supra range stainless steels.
+      https://www.outokumpu.com/en/products/product-ranges/supra
+Outokumpu. (2026a). Annual report 2025.
+      https://www.outokumpu.com/-/media/files/investors/annual-reports/annual-report-
+      2025/outokumpu_full_annual_report_2025.pdf
+Outokumpu. (2026b, November 6). Interim report January to September 2026.
+      https://www.outokumpu.com/-/media/files/investors/interim-reports/2026-
+      results/interim-report-q3_2026_final.pdf
+Outokumpu. (2026c, August). Investor presentation August 2026.
+      https://www.outokumpu.com/-/media/files/investors/presentations/2026/investor-
+      presentation-august-2026--final.pdf
+PCC Airfoils. (n.d.). PCC Airfoils. https://www.pccairfoils.com/
+Product Strategy 2035 Team. (2026a). Product Strategy 2035 two tier outlook model
+       parameters. https://github.com/sarahgarzond/metals-strategy-2035
+Product Strategy 2035 Team. (2026b). Team research workbook: 2035 candidate applications
+       [Unpublished dataset]. https://github.com/sarahgarzond/metals-strategy-2035
+RTX. (2026, February 6). Annual report on Form 10-K for the fiscal year ended December 31,
+      2025. https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-
+      20251231.htm
+                                                                                              40
+Safran. (2026a, February 13). FY 2025 results and investor update (presentation).
+        https://www.edrmagazine.eu/wp-content/uploads/2026/03/2025-Q4-Safran.pdf
+Safran. (2026b, April 13). Safran upgrades and strengthens forging capabilities at historic
+        Gennevilliers site. https://www.safran-group.com/pressroom/safran-upgrades-and-
+        strenghtens-forging-capabilities-historic-gennevilliers-site-2026-04-13
+Sandvik. (2026, October 22). Interim report third quarter 2026.
+      https://www.home.sandvik/siteassets/investors/reports--presentations/interim-
+      reports/2026/interim-report-third-quarter-2026.pdf
+SEMI. (2026a). 300mm fab outlook report. https://www.semi.org/en/products-services/market-
+      data/300mm-fab-outlook
+SEMI. (2026b, October 13). Global 300mm fab equipment spending to reach $227 billion in
+      2029 as buildout accelerates, SEMI projects. https://www.semi.org/en/semi-press-
+      release/global-300mm-fab-equipment-spending-to-reach-227-billion-in-2029-as-
+      buildout-accelerates-semi-projects
+Siemens Energy. (2025, November 20). Capital Markets Day 2025: Gas Services.
+      https://assets.siemens-energy.com/dam/5fc093ca-4fd8-482c-8390-
+      b39b004f66f3/251120_CMD-2025_Gas_Services_FINAL-pdf_Original%20file.pdf
+SLB Limited. (2026, January 23). Annual report on Form 10-K for the fiscal year ended
+      December 31, 2025.
+      https://www.sec.gov/Archives/edgar/data/87347/000119312526021017/slb-
+      20251231.htm
+Smith & Nephew. (2026, March 16). Annual report 2025 (Form 20-F for the year ended
+      December 31, 2025).
+      https://www.sec.gov/Archives/edgar/data/845982/000110465926028258/snn-
+      20251231x20f.htm
+Special Metals Corporation. (2004). Waspaloy.
+       https://www.specialmetals.com/documents/technical-bulletins/waspoloy.pdf
+Special Metals Corporation. (2005). INCONEL alloy HX.
+       https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-
+       hx.pdf
+Special Metals Corporation. (2007a). INCONEL alloy 718.
+       https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-
+       718.pdf
+Special Metals Corporation. (2007b). INCONEL alloy N06230.
+       https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-
+       n06230.pdf
+Special Metals Corporation. (2024, February 15). Special Metals news: base price increases.
+       https://specialmetals.com/news
+Special Metals Corporation. (n.d.-a). INCOLOY alloys 800H and 800HT.
+       https://www.specialmetals.com/documents/technical-bulletins/incoloy/incoloy-alloy-
+       800h-800ht.pdf
+Special Metals Corporation. (n.d.-b). INCONEL alloy 751.
+       https://www.specialmetals.com/documents/technical-bulletins/inconel/inconel-alloy-
+       751.pdf
+                                                                                             41
+Special Metals Corporation. (n.d.-c). NIMONIC alloy 263.
+       https://www.specialmetals.com/documents/technical-bulletins/nimonic-alloy-263.pdf
+Special Metals Corporation. (n.d.-d). SMC Huntington: The biggest in nickel alloy production.
+       https://specialmetals.com/divisions/huntington.html
+Special Metals Corporation. (n.d.-e). SMC New Hartford and Dunkirk: Aerospace industry
+       recognition. https://specialmetals.com/divisions/new-hartford.html
+Special Metals Corporation. (n.d.-f). UDIMET alloy 188.
+       https://www.specialmetals.com/documents/technical-bulletins/udimet-alloy-188.pdf
+Special Metals Corporation. (n.d.-g). UDIMET alloy R41.
+       https://www.specialmetals.com/documents/technical-bulletins/udimet-alloy-r41.pdf
+Standards Norway. (2011). Qualification of manufacturers of special materials (NORSOK M-
+       650:2011). https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-
+       standard-categories/m-material/
+Stockholm International Peace Research Institute. (2026, April). Trends in world military
+      expenditure, 2025. https://doi.org/10.55163/zlhq1057
+Stryker. (2026, February 11). Annual report on Form 10-K for the fiscal year ended December
+       31, 2025.
+       https://www.sec.gov/Archives/edgar/data/310764/000031076426000010/syk-
+       20251231.htm
+TechnipFMC. (2026, February 19). Annual report on Form 10-K for the fiscal year ended
+       December 31, 2025.
+       https://www.sec.gov/Archives/edgar/data/1681459/000168145926000010/fti-
+       20251231.htm
+The Insight Partners. (2025). High-performance alloys market size and forecast to 2034.
+       https://www.theinsightpartners.com/reports/high-performance-alloys-market
+The White House. (2025a, July 30). Fact sheet: President Donald J. Trump takes action to
+      address the threat to national security from imports of copper.
+      https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-
+      takes-action-to-address-the-threat-to-national-security-from-imports-of-copper/
+The White House. (2025b, August 21). Joint statement on a United States-European Union
+      framework on an agreement on reciprocal, fair, and balanced trade.
+      https://www.whitehouse.gov/briefings-statements/2025/08/joint-statement-on-a-united-
+      states-european-union-framework-on-an-agreement-on-reciprocal-fair-and-balanced-
+      trade/
+thyssenkrupp nucera. (2025, December). thyssenkrupp nucera returns to profit in 2024/2025
+       despite decline in sales. https://www.thyssenkrupp-nucera.com/newsroom/news-press-
+       releases/thyssenkrupp-nucera-returns-to-profit-in-2024-2025-despite-decline-in-sales
+thyssenkrupp nucera. (2026, August 11). thyssenkrupp nucera cuts fiscal 2026 outlook after
+       abandoning SOEC stack production. https://live.euronext.com/en/financial-
+       news/thyssenkrupp-nucera-cuts-fiscal-2026-outlook-after-abandoning-soec-stack-
+       production
+TrendForce. (2025, October 28). Intensifying competition in IT OLED panel generations as
+      FMM camp leads and FMM free camp accelerates.
+      https://www.trendforce.com/presscenter/news/20251028-12756.html
+                                                                                             42
+U.S. Department of the Treasury. (2024, April 12). United States and United Kingdom take
+       action to reduce Russian revenue from metals. https://home.treasury.gov/news/press-
+       releases/jy2249
+U.S. Food and Drug Administration. (2023, November 17). restor3d Total Talus Replacement
+       H230003. https://www.fda.gov/medical-devices/recently-approved-devices/restor3d-
+       total-talus-replacement-h230003
+U.S. Geological Survey. (2026a). Mineral commodity summaries 2026 data release: Rhenium.
+       https://www.sciencebase.gov/catalog/item/69837e43b66b01367d7ec7c7
+U.S. Geological Survey. (2026b). Mineral commodity summaries 2026: Aluminum.
+       https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
+U.S. Geological Survey. (2026c). Mineral commodity summaries 2026: Chromium.
+       https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-chromium.pdf
+U.S. Geological Survey. (2026d). Mineral commodity summaries 2026: Cobalt.
+       https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-cobalt.pdf
+U.S. Geological Survey. (2026e). Mineral commodity summaries 2026: Manganese.
+       https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf
+U.S. Geological Survey. (2026f, February). Mineral commodity summaries 2026:
+       Molybdenum. https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-molybdenum.pdf
+U.S. Geological Survey. (2026g). Mineral commodity summaries 2026: Nickel.
+       https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf
+U.S. Geological Survey. (2026h). Mineral commodity summaries 2026: Niobium.
+       https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf
+U.S. Geological Survey. (2026i). Mineral commodity summaries 2026: Titanium and titanium
+       dioxide. https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium.pdf
+U.S. Geological Survey. (2026j). Mineral commodity summaries 2026: Titanium mineral
+       concentrates. https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-titanium-
+       minerals.pdf
+U.S. Geological Survey. (2026k). Mineral commodity summaries 2026: Tungsten.
+       https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tungsten.pdf
+U.S. Geological Survey. (2026l, February). Mineral commodity summaries 2026: Zirconium
+       and hafnium. https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-zirconium-
+       hafnium.pdf
+United Nations Statistics Division. (2026a). UN Comtrade database [HS 7502, 7505, 7506,
+       7507, 8105, 8108, 7219, mirror flows, 2022 to 2024]. https://comtradeplus.un.org/
+United Nations Statistics Division. (2026b). UN Comtrade database [HS 750210, 750220,
+       2023 to 2024]. https://comtradeplus.un.org/
+United Nations Statistics Division. (2026c). UN Comtrade database [HS 7505, 2019-2024].
+       https://comtradeplus.un.org/
+United Nations Statistics Division. (2026d). UN Comtrade database [HS
+       750512,750522,750712, 2023-2024]. https://comtradeplus.un.org/
+United Nations Statistics Division. (2026e). UN Comtrade database [HS 7506, 2019-2024].
+       https://comtradeplus.un.org/
+                                                                                               43
+United Nations Statistics Division. (2026f). UN Comtrade database [HS 750610, 750620,
+       2019-2024]. https://comtradeplus.un.org/
+United Nations Statistics Division. (2026g). UN Comtrade database [HS 7507, 2019-2024].
+       https://comtradeplus.un.org/
+United Nations Statistics Division. (2026h). UN Comtrade database [portfolio HS, World
+       partner, 2019-2024]. https://comtradeplus.un.org/
+United States International Trade Commission. (2026a). Harmonized tariff schedule of the
+       United States (2026 Revision 22): Section XV and chapter 72.
+       https://hts.usitc.gov/reststop/file?release=currentRelease&filename=Chapter%2072
+United States International Trade Commission. (2026b). Harmonized tariff schedule of the
+       United States: Chapter 75, nickel and articles thereof. https://hts.usitc.gov/
+Valex. (n.d.). Valex: Ultra-high purity electropolished stainless steel tube and components.
+        https://www.valex.com/
+Verband der Chemischen Industrie. (2026, March 13). Quarterly report 4/2025: Chemical
+      industry in Germany. https://www.vci.de/vci-
+      online/presse/pressemitteilungen/quartely-report-4-2025.jsp
+Vertiv. (2026, October 28). Quarterly report on Form 10-Q for the quarter ended September
+        30, 2026.
+        https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-
+        20260930.htm
+voestalpine AG. (2026). Annual report 2025/26.
+       https://www.voestalpine.com/group/static/sites/group/.downloads/en/publications-
+       2025-26/2025-26-annual-report.pdf
+voestalpine BOHLER Aerospace. (n.d.). voestalpine BOHLER Aerospace.
+       https://www.voestalpine.com/bohler-aerospace/en/
+Western Superconducting Technologies Co., Ltd. (2026). 2025 annual results (688122).
+      https://cj.sina.com.cn/articles/view/1850649324/6e4eaaec00102g2l0
+World Bank. (2026a). Commodity markets pink sheet.
+      https://www.worldbank.org/en/research/commodity-markets
+World Bank. (2026b, November 3). World Bank commodity price data (The Pink Sheet)
+      monthly prices.
+      https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-
+      0050012026/related/CMO-Historical-Data-Monthly.xlsx
+World Bank. (2026c). World Bank commodity price data (The Pink Sheet), monthly prices.
+      https://thedocs.worldbank.org/en/doc/18675f1d1639c7a34d463f59263ba0a2-
+      0050012025/related/CMO-Historical-Data-Monthly.xlsx
+World Nuclear Association. (2026a). World nuclear outlook report 2026. https://world-
+      nuclear.org/our-association/publications/world-nuclear-outlook-report/world-nuclear-
+      outlook-report-2026-full-document
+World Nuclear Association. (2026b). World nuclear power reactors and uranium
+      requirements. https://world-nuclear.org/information-library/facts-and-figures/world-
+      nuclear-power-reactors-and-uranium-requirements
+                                                                                            44
+World Semiconductor Trade Statistics. (2026, June 2). Global semiconductor market surges
+      beyond USD 1.5 trillion in 2026.
+      https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-
+      2026-May.pdf
+worldstainless. (2026, February 27). Stainless steel melt shop production increases by 2.1% in
+       2025. https://worldstainless.org/media/press-releases/stainless-steel-melt-shop-
+       production-increases-by-2-1-in-2025/
+Zhiyan Consulting. (2026). China superalloy industry analysis.
+       https://www.chyxx.com/industry/1261405.html
+Zimmer Biomet. (2026, February 20). Annual report on Form 10-K for the fiscal year ended
+     December 31, 2025.
+     https://www.sec.gov/Archives/edgar/data/1136869/000119312526059853/zbh-
+     20251231.htm
+ZVEI. (2026, October). German electro and digital industry: facts and figures.
+       https://www.zvei.org/fileadmin/user_upload/Presse_und_Medien/Publikationen/Regel
+       maessige_Publikationen/Daten_Zahlen_und_Fakten/Die_deutsche_Elektroindustrie_D
+       aten_Zahlen_Fakten/Fact-Sheet-October-2026.pdf
+
+Appendices: Data, Sources, Calculations, and Assumptions
+
+A1     Definitions and the stage ladder
+Mt means million tonnes, kt means thousand tonnes, and t means metric tonnes. GW means
+gigawatts, and bcm means billion cubic meters. Prices are in current U.S. dollars or euros for
+the year stated.
+The value chain has five separate stages: contained metal in mine output, refined metal or
+intermediates, alloy melt, mill products, and finished components. Examples of intermediates
+are nickel pig iron and cobalt hydroxide. Mill products include strip, sheet, plate, bar, and
+wire. The study reports each stage separately. It also separates contained metal from gross
+weight, actual output from capacity, and commodity benchmark prices such as the World Bank
+Pink Sheet from prices for qualified alloy products.
+
+A2     Outlook model, backtest and opportunity scoring
+This appendix documents the formulas, parameters, tests and scoring rules behind chapters 7
+and 8. Values are team estimates unless a source is listed. Running python3
+model/outlook_2035.py from the repository root reproduces every result in chapters 7 and 8,
+writes data/clean/model_*.csv and research/model/outlook_results.md, and calls
+model/scoring.py for the opportunity scores (Product Strategy 2035 Team, 2026a).
+
+A2.1 Formulas and simulation settings
+The model divides each industry j into components k, for example new engines and the
+aftermarket in aerospace. The 2035 index is I(j) = 100 × Σ w(k) × A(k) × H(k) × (1 + i(k))^10
+                                                                                                45
+× S(k) × exp(10 × σ(j) × ε). A is the activity ratio from 2025 to 2035, H the optimism haircut
+on drivers taken from official guidance, i the annual trend in alloy mass per unit, S the ratio of
+the share using high performance alloy and w the component weight. σ carries the backtest
+error into the range, and ε is a standard normal draw.
+No trend shift is added to the growth rate. The drivers are official guidance and scenarios, so
+adding a backtest trend error on top would count the same optimism twice. σ equals half the
+root mean square growth error of the backtest series, capped at 3 percentage points a year.
+A product family index is the weighted sum of the industry indices, with the weights in Table
+A1. Cobalt tonnes are the 2025 base times the index and the cobalt content ratio. Paths
+between 2025 and 2035 grow at a constant compound rate for each component.
+The simulation uses 10,000 draws and random seed 20261108, with triangular distributions on
+the low, mode and high values of Table A1. A Gaussian copula links the activity drivers with a
+global cycle weight of 0.2 and an industry weight of 0.3. Intensity and share are drawn
+independently. Component and family weights vary in a Dirichlet distribution with
+concentration 40, or 8 for the FeNi family because its weights rest on less evidence. These
+settings are team assumptions, because the backtest windows are short and include the
+pandemic.
+
+A2.2 Parameters and their sources
+Table A1 lists each tier 1 parameter, its range and its evidence. A parameter without a cited
+source is a team assumption, and research/model/outlook_results.md gives the reason for each
+one.
+Table A1: Tier 1 model parameters, low / mode / high
+
+ Industry        Parameter          Low / mode /         Basis and source
+                                    high
+
+ Aerospace       Aftermarket        3.0 / 3.7 / 4.2%     Sourced (Airbus, 2026d; Boeing,
+                 growth a year                           2026b; International Civil Aviation
+                                                         Organization, n.d.)
+ Aerospace       New engine         1.25 / 1.54 / 1.76   Engine delivery path: average
+                 output ratio                            deliveries 2026 to 2045 of 2,103 and
+                 2035 to 2025,                           2,181 aircraft against 1,393 in 2025
+                 before haircut                          (Airbus, 2026a, 2026c; Boeing,
+                                                         2026a, 2026b)
+
+ Aerospace       New engine      1.11 / 1.18 / 1.20      LEAP guidance of high teens growth
+                 output 2026 and and 1.25 / 1.39 /       and the 2028 plan of 2,500 to 2,600
+                 2028 over       1.44                    engines (GE Aerospace, 2026b,
+                 2025, evidence                          2026c; Safran, 2026a)
+                 only
+                                                                                          46
+
+Industry    Parameter         Low / mode /         Basis and source
+                              high
+
+Aerospace   Optimism          0.80 / 0.98 /        Mean of three plan against outcome
+            haircut on 2035   1.07, median         points in Table A2 (Product Strategy
+            activity          0.96                 2035 Team, 2026a)
+Aerospace   Superalloy        −1.0 / 0.0 / 1.0%    Team assumption (Airbus, 2026c)
+            mass per
+            engine, trend a
+            year
+
+Aerospace   Superalloy        0.90 / 0.98 / 1.03   Team assumption, ceramic composites
+            share of hot                           and TiAl
+            section, ratio
+
+Aerospace   Weights new       0.5 and 0.5          Team assumption (GE Aerospace,
+            engines and                            2026a)
+            aftermarket
+
+Energy      Gas turbine       1.12 / 1.62 / 1.98   GW weighted paths of Siemens
+            output ratio,                          Energy (19.0 GW in 2025, about 30
+            three makers                           GW from FY2029), GE Vernova (15.3
+                                                   GW, 24 GW planned for 2028 and 30
+                                                   GW for 2030) and Mitsubishi Heavy
+                                                   Industries (about 4 GW) (GE Vernova
+                                                   Inc., 2026a, 2026b, 2026c; Mitsubishi
+                                                   Heavy Industries, 2026; Product
+                                                   Strategy 2035 Team, 2026a; Siemens
+                                                   Energy, 2025)
+Energy      Gas turbine       2.0 / 3.5 / 5.0%     Team assumption below the value
+            fleet                                  growth of service backlogs (GE
+            aftermarket                            Vernova Inc., 2026b; Product Strategy
+            growth a year                          2035 Team, 2026a)
+
+Energy      Nuclear fleet     1.05 / 1.20 / 1.45   Derived (American Nuclear Society,
+            and tube ratio                         2026; International Atomic Energy
+                                                   Agency, 2026; World Nuclear
+                                                   Association, 2026a)
+
+Energy      Other             2.0 / 3.0 / 3.6%     Electricity demand proxy
+            equipment                              (International Energy Agency, 2026a)
+            growth a year
+
+Energy      Alloy mass per    −1.0 / 0.0 / 1.0%    Team assumption
+            GW, trend a
+            year
+
+Energy      Alloy share of    0.97 / 1.00 / 1.03   Team assumption
+            hardware, ratio
+                                                                                            47
+
+Industry      Parameter         Low / mode /         Basis and source
+                                high
+
+Energy        Weights new       0.275, 0.275,        Team assumption (Product Strategy
+              turbines,         0.25, 0.20           2035 Team, 2026a)
+              turbine
+              aftermarket,
+              nuclear, other
+
+Energy        Cobalt base       6.0 kt               Family weight 0.300 on 20.0 kt of
+              2025                                   superalloy cobalt (Product Strategy
+                                                     2035 Team, 2026a)
+
+Energy, oil   Optimism          0.85 / 0.95 /        IEA investment vintage ratio 0.951,
+and gas,      haircut on 2035   1.02, median         price bases differ (Product Strategy
+automotive    activity          0.94                 2035 Team, 2026a)
+
+Electronics   Realisation of    0.85 / 1.00 / 1.05   SEMI index 138 in 2031 (SEMI,
+              SEMI path to                           2026a)
+              2031
+Electronics   Capacity          0.0 / 3.0 / 6.0%     Team assumption (SEMI, 2026a)
+              growth 2031 to
+              2035 a year
+
+Electronics   Components        0.0 / 2.5 / 6.0%     Team assumption (Dai Nippon
+              and masks                              Printing, 2024b; ZVEI, 2026)
+              growth a year
+Electronics   Alloy per unit,   −1.5 / 0.0 / 1.0%    Team assumption (NVIDIA, 2025)
+              trend a year
+
+Electronics   Alloy share,      0.95 / 1.00 / 1.05   Team assumption (Dai Nippon
+              ratio                                  Printing, 2024b)
+
+Electronics   Weights           0.6 and 0.4          Team assumption (SEMI, 2026b)
+              equipment and
+              components
+
+Medical       Hip and knee      3.0 / 3.5 / 4.1%     Derived, 30 OECD countries 2013 to
+              procedures                             2024 (OECD, 2025)
+              growth a year
+
+Medical       Other medical     1.8 / 3.0 / 5.6%     MedTech Europe value growth
+              uses growth a                          (MedTech Europe, 2025, 2026)
+              year
+
+Medical       Alloy per         −0.5 / 0.0 / 0.5%    Team assumption
+              procedure,
+              trend a year
+                                                                                           48
+
+Industry      Parameter         Low / mode /         Basis and source
+                                high
+
+Medical       CoCr and          0.90 / 0.97 / 1.02   Team assumption, oxidised zirconium
+              nickel share,                          and titanium
+              ratio
+
+Medical       Weights           0.8 and 0.2          Team assumption (Stryker, 2026)
+              implants and
+              other
+
+Chemical      Activity growth   −1.0 / 1.0 / 2.5%    Team assumption (BASF, 2026;
+              a year                                 European Chemical Industry Council,
+                                                     2026a, 2026b)
+Chemical      Alloy per         −0.5 / 0.0 / 0.5%    Team assumption
+              output, trend a
+              year
+
+Chemical      Alloy share,      0.97 / 1.00 / 1.03   Team assumption
+              ratio
+
+Oil and gas   Real upstream    0.80 / 1.00 / 1.12    IEA scenarios (International Energy
+              investment ratio                       Agency, 2025b, 2026i)
+
+Oil and gas   LNG trade ratio   1.15 / 1.35 / 1.51   IEA, 560 to 880 bcm (International
+                                                     Energy Agency, 2025b, 2026g)
+
+Oil and gas   Alloy per unit,   −1.5 / −0.5 /        Team assumption, clad pipe saves
+              trend a year      1.0%                 material
+
+Oil and gas   Corrosion         0.97 / 1.00 / 1.03   Team assumption
+              resistant alloy
+              share, ratio
+
+Oil and gas   Weights           0.7 and 0.3          Team assumption (International
+              upstream and                           Energy Agency, 2026i)
+              LNG
+
+Automotive    New car sales     0.95 / 1.00 / 1.10   Team assumption (European
+              ratio                                  Automobile Manufacturers'
+                                                     Association, 2026a; International
+                                                     Energy Agency, 2025b)
+
+Automotive    Electric share    40 / 50 / 62%        IEA scenarios (International Energy
+              of sales 2035                          Agency, 2026d)
+
+Automotive    Heat resistant    0.0 / 1.0 / 2.0%     Team assumption (Garrett Motion,
+              alloy per                              2026)
+              combustion car,
+              trend a year
+                                                                                         49
+
+Industry     Parameter           Low / mode /         Basis and source
+                                 high
+
+Automotive   Nickel alloy        0.95 / 1.00 / 1.03   Team assumption
+             share of turbo
+             parts, ratio
+Automotive   Precision alloy     −1.0 / 0.0 / 2.0%    Team assumption
+             per electric car,
+             trend a year
+
+Automotive   Weights             0.75 and 0.25        Team assumption (Garrett Motion,
+             thermal and                              2026)
+             electric vehicle
+             parts
+
+All          Nickel content      0.98 / 1.00 / 1.02   Team assumption
+             of alloy class,
+             ratio
+
+All          Cobalt content,     0.92 / 1.00 / 1.04   Team assumption (Mining Weekly,
+             aerospace and       and 0.90 / 1.00 /    2026)
+             other, ratio        1.03
+
+Families     Superalloy bar,     Aerospace 0.575, Aerospace weight measured (Cobalt
+             billet and          energy 0.300, car Institute, 2026)
+             remelt stock        thermal 0.050,
+                                 oil and gas
+                                 0.040, chemical
+                                 0.035
+Families     Nickel alloy        Chemical 0.25,       Team assumption (Alleima, 2026a;
+             bar, rod and        oil and gas 0.25,    Haynes International, 2023a)
+             wire                energy 0.20,
+                                 aerospace 0.15,
+                                 medical, car
+                                 thermal,
+                                 electronics 0.05
+                                 each
+
+Families     Plate, sheet,       Chemical 0.30,       Team assumption (ATI, 2026a)
+             strip and foil      energy 0.20,
+                                 aerospace 0.20,
+                                 oil and gas 0.15,
+                                 car thermal 0.10,
+                                 electronics 0.05
+                                                                                        50
+
+Industry   Parameter          Low / mode /         Basis and source
+                              high
+
+Families   Tubes and          Oil and gas 0.35,    Team assumption (Alleima, 2026a;
+           fittings           chemical 0.25,       International Atomic Energy Agency,
+                              energy 0.25,         2026)
+                              aerospace, car
+                              thermal, medical
+                              0.05 each
+Families   Precision FeNi     OLED mask foil       Team assumption, fab tools use no
+           strip and foil     0.40, EV sensors     FeNi (Dai Nippon Printing, 2024b;
+                              and shielding        TrendForce, 2025)
+                              0.25, lead frames
+                              and seals 0.35
+
+FeNi       OLED mask          −3.0 / 3.0 / 8.3%    DNP mask sales growth against mask
+           foil growth a                           free routes (Dai Nippon Printing,
+           year                                    2024a; Product Strategy 2035 Team,
+                                                   2026a)
+
+FeNi       Share of lines     0.50 / 0.90 / 1.00   Team assumption (TrendForce, 2025)
+           still using fine
+           metal masks,
+           ratio
+FeNi       FeNi share of      0.50 / 0.85 / 1.05   Team assumption, competing FeCo,
+           EV sensor and                           ferrite and nanocrystalline cores
+           shielding parts,
+           ratio
+Tonnes     Virgin cobalt      4 / 8 / 15%          Team assumption (Cobalt Institute,
+           content of                              2026)
+           superalloy melt
+
+Tonnes     Share of           75 / 85 / 95%        Team assumption (ATI, 2026a)
+           superalloy melt
+           leaving as bar,
+           billet or remelt
+           stock
+
+Tonnes     EU27 share of    12 / 20 / 30%          Team assumption (International
+           world nickel                            Nickel Study Group, 2026;
+           mill product use                        worldstainless, 2026)
+
+Tonnes     World bar, rod     1.0 / 1.5 / 2.5      Team assumption (United Nations
+           and wire output                         Statistics Division, 2026d)
+           over the HS 6
+           traded floor
+                                                                                                         51
+
+ Industry         Parameter           Low / mode /            Basis and source
+                                      high
+
+ Value            Superalloy          1.00 / 1.22 / 1.41      Sales per finished tonne of a listed
+                  premium over                                alloy producer, EUR 35.8 per kg
+                  the EU bar unit                             (Product Strategy 2035 Team, 2026a)
+                  value
+
+ Shock            Severe              0.0 / 0.7 / 1.0         Team assumption, backlogs favour
+                  aerospace case,                             recovery (Product Strategy 2035
+                  share of the lost                           Team, 2026a)
+                  level recovered
+                  by 2035
+
+Sources: model/outlook_2035.py and research/model/outlook_results.md (Product Strategy
+2035 Team, 2026a). The calibration in data/clean/model_calibration.csv reproduces the 20.0
+kt of superalloy cobalt in 2025 exactly and leaves the IEA nickel and cobalt totals for 2035
+with plausible remainders (International Energy Agency, 2026c).
+
+
+A2.3 Backtest and plan against outcome tests
+The backtest fits a log linear trend to each series through 2019 and compares it with outcomes
+from 2020 to the latest year. All series widen the ranges, while the four plan against outcome
+points in Table A2 set the optimism haircuts.
+Table A2: Backtest of tier 1 drivers and plan against outcome tests
+Series                  Industry         Basis          Test period MAPE    Bias %    Ratio or    Used
+                                                                    %                 growth      for
+                                                                                      error
+IEA upstream            Oil and gas      Real           2020 to   17.3      −7.6      −3.45 pp    Range
+investment                                              2025
+IEA gas power           Energy           Real           2020 to   36.5      −36.0     −20.68 pp   Range
+investment                                              2025
+IEA nuclear investment Energy            Real           2020 to   50.3      −50.3     −16.42 pp   Range
+                                                        2025
+OECD hip and knee       Medical          Counts         2020 to   9.7       9.2       −0.53 pp    Range
+procedures                                              2024
+OECD STAN output        Several          Nominal        2020 to   7.5 to    −11.0     −5.65 to    Range
+C30, C26, C27, C20,                                     2023      14.9      to 14.9   0.31 pp
+C29
+Eurostat C29 volume,    Automotive       Real           2020 to   23.0      23.0      3.22 pp     Range
+EU27                                                    2025
+Eurostat C29 volume,    Automotive       Real           2020 to   17.2 to   17.2 to   2.02 to     Range
+DE, ES, FR, IT                                          2025      49.1      49.1      7.02 pp
+Boeing 737 rate in Q4   Aerospace        Units          2025 to   10.6      11.9      0.894       Haircut
+2025 against the 2026                                   2026
+plan rate
+                                                                                                 52
+Series                 Industry         Basis      Test period MAPE   Bias %   Ratio or   Used
+                                                               %               growth     for
+                                                                               error
+Airbus 2026 run rate   Aerospace        Units      2026,       1.7    1.7      0.983      Haircut
+against the 870                                    projected
+guidance
+LEAP 2026 nine month Aerospace          Units      2026        6.8    −6.3     1.068      Haircut
+growth against
+guidance
+IEA WEI 2025 estimate Energy, oil and   Mixed       2025       4.9    5.2      0.951      Haircut
+against WEI 2026      gas, automotive   price bases
+outcome
+
+Sources: team calculation on IEA, OECD, Eurostat and company data (Airbus, 2026a, 2026b;
+Boeing, 2026a; Eurostat, 2026b; GE Aerospace, 2026b, 2026c; International Energy Agency,
+2025b, 2026j; Leeham News and Analysis, 2026; OECD, 2025, 2026; Product Strategy 2035
+Team, 2026a). Bias is the mean of projection minus outcome over outcome. The growth error
+is the trend slope minus the realised slope, in percentage points a year.
+
+The Boeing point compares the rate reached in Q4 2025 with the rate planned for 2026, so it
+measures the gap still to close. Boeing expects to be stable at 47 a month only in 2027, which
+confirms a delay of about one year (Leeham News and Analysis, 2026). The Airbus point
+projects the full year from nine months at the 2025 seasonality. The LEAP point is counter
+evidence, since engines beat their guidance while airframe rates slipped. A full year LEAP
+ratio of 1.000 to 1.014 instead of 1.068 would lower the mean of the three points to 0.959.
+The IEA ratio compares an estimate on a 2024 price basis with an outcome on a 2025 price
+basis, so it mixes price and volume. It is excluded from the aerospace haircut and is kept only
+for energy, oil and gas, and automotive, with a deliberately wide range. Adding the backtest
+trend error as a growth shift on top of guidance would give P50 indices of 154 for energy, 115
+for oil and gas, 140 for medical technology and 98 for automotive. That would double count
+the guidance, so the shift is not used (Product Strategy 2035 Team, 2026a).
+
+
+A2.4 Product family tonnes, values and shock arithmetic
+The family tonnes in Table 13 are team estimates at the mill product stage in gross weight, and
+they overlap, so they are never summed. Superalloy bar, billet and remelt stock divides the
+20.0 kt of cobalt in superalloys by a virgin cobalt content of 4 to 15 percent and multiplies by
+the 75 to 95 percent that leaves the mill as bar, billet or remelt stock. This gives 193 kt at P50
+in 2025, with a P10 to P90 range of 138 to 279 kt (Cobalt Institute, 2026; Product Strategy
+2035 Team, 2026a).
+Two cross checks bound this figure. ATI's fifth VIM furnace at Monroe adds about 9 kt a year
+from 2027, 5 percent of the P50 (Argus Media, 2026b). China's reported output of 64.5 kt in
+2025, taken from a market report and used only for triangulation, equals 33 percent of the P50
+                                                                                                 53
+(Zhiyan Consulting, 2026). A listed producer's high performance alloy melt of 83 kt, which
+includes corrosion resistant grades, equals 43 percent, so the range is most plausible in its
+upper half (Product Strategy 2035 Team, 2026a).
+The other families start from measured trade or consumption. All traded floors use one basis,
+the 2024 exports of the ten reporters of chapter 6. Long products use the HS 750512 and
+750522 alloy only exports of 95.1 kt, times 1.0 to 2.5 for output that never crosses a border.
+This gives 155 kt at P50 in 2025, with a P10 to P90 range of 121 to 200 kt. Flat products
+divide the EU27 apparent consumption of 57.8 kt by an EU share of world use of 12 to 30
+percent, and tubes do the same with 9.2 kt. The HS 6 alloy only floors of 41.3 kt for flat
+products and 18.0 kt for tubes sit below both results. The eight reporter totals without France
+and India (80.3, 38.2 and 15.3 kt) are a memo only, because the four digit files of those two
+reporters are empty (Eurostat, 2026c; Product Strategy 2035 Team, 2026a; United Nations
+Statistics Division, 2026d). FeNi foil is not estimable, because no foil tonnes are published.
+Values multiply the P50 tonnes by the 2024 extra EU unit values of EUR 25.4 to 33.4 per kg
+for bar, 31.0 to 47.8 for flat products and 26.1 to 41.1 for tubes. The superalloy family adds a
+premium of 1.00 to 1.41 over bar (Eurostat, 2025; Product Strategy 2035 Team, 2026a). The
+2025 central ranges are EUR 4.9 to 9.1 bn for superalloys, 3.9 to 5.2 bn for long products, 8.7
+to 13.5 bn for flat products and 1.2 to 1.8 bn for tubes. The 2035 values keep the 2024 unit
+values constant. At superalloy values, the 1.5 kt gate of Table 15 equals EUR 38 to 71 m of
+annual sales, or 0.8 percent of the 2025 family (Product Strategy 2035 Team, 2026a).
+The cost effects behind the shock cases of Table A5 are team arithmetic. At 8 percent virgin
+cobalt, a 25 percent rise in the cobalt price adds about USD 746 per tonne of superalloy and
+USD 5,595 per tonne of CoCr. A doubling of the 2025 tungsten concentrate price would add
+about USD 1,917 per tonne of Alloy C-276. Each USD 1,000 per tonne on LME nickel adds
+about USD 10 per tonne of alloy for every percentage point of nickel, which the monthly
+surcharge passes on (ATI, 2026a; Haynes International, 2023b; Product Strategy 2035 Team,
+2026a; U.S. Geological Survey, 2026d). The severe aerospace case cuts aerospace output by
+20 percent in 2026 and 2027 and recovers 70 percent of the lost level. Its 2035 aerospace
+index is 114 (96 to 133), the superalloy family index falls from 129 to 116, and aviation cobalt
+falls from 15.4 to 13.0 kt (Boeing, 2026a; Product Strategy 2035 Team, 2026a).
+
+
+A2.5 Tier 2 register and further candidates
+Table A3 lists the full tier 2 register and the research workbook candidates that are not yet
+assessed. Two powder positions sit in tier 1 instead: captive disc powder inside the superalloy
+family, and open market AM powder, scored in Table A5 (Metal AM, 2025; RTX, 2026).
+Table A3: Tier 2 register and further candidates
+                                                                                                               54
+Opportunity                Alloy and product        TRL and             Earliest   Signpost for tier 1
+                           form                     evidence            volume
+Electrolysers              Nickel strip, wire and   8 to 9, early       2026 to    Orders and investment
+                           mesh                     signal              2028       decisions recover
+Solid oxide cells          Coated ferritic strip    9 for fuel cells,   2026 to    Purchased strip contract
+                                                    early signal        2028       with a cell maker
+New additive hot section   Superalloy powder        6 to 8, early       2027 to    Part specification with a
+parts                                               signal              2030       volume call
+800 VDC racks              Copper busbar and        6 to 7, early       2027       Eaton, Schneider and
+                           strip, less copper       signal                         Vertiv busbar launches
+Small reactors             Zirconium cladding,      7 to 8, early       2030 to    Serial tube order after a
+                           Alloy 690 tube           signal              2033       licence
+Hydrogen turbines          Castings, forgings,      5 to 7,             2030 to    Order with a hydrogen
+                           combustor sheet          speculative         2035       supply contract
+Fusion magnets             Alloy C-276 tape foil    4 to 6,             2030 to    Magnet order for a pilot
+                                                    speculative         2035       plant
+sCO2 recuperators          Nickel alloy plate and 5 to 6,               2032 to    Pilot above 10 MW
+                           strip                  speculative           2035
+Molten salt reactors       NiMoCr plate and         3 to 5,             2035 or    Construction permit and
+                           tube                     speculative         later      ASME code case
+Superhot geothermal        Nickel alloy tube and    4 to 6,             2032 to    Well above 400 °C with a
+casing                     clad pipe                speculative         2035       published casing alloy
+Liquid hydrogen aircraft   Aluminium sheet,         3 to 4,             2038 or    Airframer programme
+tanks                      austenitic tube          speculative         later      launch
+Concentrating solar        Nickel alloy plate,      Not assessed        Not        Workbook candidate
+receivers                  tube, forgings                               assessed
+Stationary PEM fuel cell   Coated stainless thin    Not assessed        Not        Workbook candidate
+plates                     strip                                        assessed
+Robotic surgery and        NiTi and CoNiCrMo        Not assessed        Not        Workbook candidates
+cardiovascular devices     fine wire and tube                           assessed
+Compact electronics        CuCrZr and copper        Not assessed        Not        Workbook candidate
+cooling                    powder                                       assessed
+
+Sources: team register and research workbook, TRL and years are team estimates (NVIDIA,
+2025; Product Strategy 2035 Team, 2026a, 2026b; thyssenkrupp nucera, 2026; World Nuclear
+Association, 2026b).
+
+
+A2.6 Scoring rules for the opportunity matrix
+Table 14 scores opportunities for a producer that already melts and rolls high performance
+alloys. Market, growth and supply security are computed from data by model/scoring.py. The
+other five criteria are team judgement on the anchors of Table A4. The weighted score is the
+sum of each score times its weight. Rows without measured volume (E) are capped at Option,
+priority 1 starts at 3.75, priority 2 at 3.00 and Monitor at 2.75 (Product Strategy 2035 Team,
+2026a).
+Market uses the pool specific to the end use. Rows without a cobalt pool use the family tonnes
+times an end use weight and EU unit values, capped at 4 because the weight is unmeasured.
+                                                                                                           55
+Engine bar thus uses 193 kt times the aerospace weight of 0.575, about EUR 4.0 bn, an upper
+bound for wrought bar because cast parts share the weight. Growth uses the most specific
+driver, so row growth differs from the industry index of Table 12. Engine bar uses the engine
+delivery path (3.7 percent a year against 3.1 for the aerospace index). Casting stock and
+combustor sheet use an equal blend of three maker turbine output and the fleet aftermarket
+(3.4 against 2.7 for the energy index). Fab gas strip uses the SEMI path (4.2) and repair wire
+the aftermarket (3.1) (Product Strategy 2035 Team, 2026a).
+Supply security takes the weakest input of the lead grades. A single source rule applies where
+one country mines at least 90 percent of world output with no control in force. Such an
+element scores 3 below 10 percent of the alloy and 2 above it. Alloy 718, with 4.75 to 5.50
+percent niobium from Brazil (93 percent of world output) and at most 1 percent cobalt, scores
+3. Cobalt bearing wrought grades such as Waspaloy (12 to 15 percent cobalt) and UDIMET
+alloy R41 (10 to 12 percent) score 2 under the Congo quota (Special Metals Corporation,
+2004, 2007a, n.d.-g; U.S. Geological Survey, 2026h). Combustor sheet scores 2 with alloy
+188, a cobalt base grade, and Nimonic 263 (19 to 21 percent), and 3 with HX (0.5 to 2.5
+percent) and Alloy 230 (5 percent at most) (Special Metals Corporation, 2005, 2007b, n.d.-c,
+n.d.-f). Cobalt lean casting stock assumes IN738 and GTD 111 at about 8.5 to 9.5 percent
+cobalt, which keeps it at 3 (TODO(data): no datasheet for IN738, GTD 111 or IN939 is in the
+repository, so this row stays provisional).
+The combined vacuum melt programme treats engine bar and turbine casting stock as one melt
+shop, with shares of 0.657 and 0.343. It uses the combined pool of EUR 6.1 bn, the share
+weighted growth, the weakest supply input and the share weighted judgement scores. With
+cobalt grades it scores 3.67 to 3.74 and stays priority 2 under all four weightings, while the
+718 only variant scores 3.82 to 3.87 and is priority 1 under all four (Product Strategy 2035
+Team, 2026a). The judgement values of the fab gas, NO96 and repair wire rows are first pass
+team judgement.
+Table A4: Scoring rules, weights and evidence
+Criterion,        Evidence used         Score 5               Score 3                Score 1
+weight
+Market            Measured or           At least 10 kt of     2 to 5 kt of cobalt,   No measured or
+attractiveness,   estimated 2025 pool   contained cobalt in   EUR 0.30 to 0.75 bn,   estimable volume
+15%               specific to the end   the end use (4 from   or a measured
+                  use (chapters 5 and   5 kt, or from EUR     company niche (2
+                  6, A2.4)              0.75 bn)              below these, or a
+                                                              mixed segment)
+Growth to 2035, P50 growth a year of 4.0% a year or more 2.0 to 2.9% a year (2       Below 0%, or tier 2
+20%             the most specific    (4 from 3.0%)       from 0%), or tier 2         volume after 2033
+                driver, tier 2 by                        volume by 2028
+                earliest volume
+                                                                                                               56
+Criterion,         Evidence used          Score 5                Score 3                Score 1
+weight
+Supply security, Weakest input of the Nickel, iron or            Cobalt below 10%       Active licence halt (2
+15%              lead grades (chapter chromium without           under the Congo        for a licence regime or
+                 4, Table A5)         export restriction (4      quota, or a single     quota element above
+                                      for a quota on ore or      source element below   10%)
+                                      a form melters do          10%
+                                      not buy)
+Competitive        Qualified suppliers    Demand above           Several qualified      Price competition with
+intensity, 10%     and long term          qualified capacity,    suppliers competing    new Asian capacity (2
+                   agreements (A6)        no dominant            on service             for an oligopoly with
+                                          incumbent                                     agreements)
+Technology         Process route and  Triple melt, foil          Standard grade on a    Commodity grade in
+attractiveness,    how many producers below 0.1 mm or            qualified route        decline
+10%                master it          similar rare routes
+Customer           Buyer backlog,         Named buyers with      Fragmented or cyclical Collapsing orders or
+attractiveness,    concentration and      sold out capacity or   buyers                 state price cuts
+10%                pricing (chapter 5)    growing backlog
+Entry barriers,    Time to approval       Passable within       Programme specific or Captive supply chain
+10%                and protection         about two years and moderate approvals      closed to outsiders
+                   afterwards (A7)        protective thereafter
+                                          (4 for three to five
+                                          years)
+Differentiation    Scope for grade,       Customer specific      Partly standardised    Interchangeable
+potential, 10%     tolerance or service   grades or tolerances   products               products
+                   advantage
+
+Source: team scoring rules (Product Strategy 2035 Team, 2026a).
+
+Table A5 lists every scored row with its weighting sensitivities and every change of tier in the
+four shock cases of chapter 7. The equal weight and 20 percent entry barrier columns test
+whether a tier depends on the base weights.
+Table A5: All scored rows, weighting sensitivities and shock cases
+Opportunity                               Ev Mkt, Comp,          Score Tier      Equal   Barriers Tier change
+                                             Gro, Tech,                          weights 20%      in a shock
+                                             Sup Cust,
+                                                  Barr,
+                                                  Diff
+Engine bar and billet, Alloy 718          M 4, 4, 2, 5, 5, 4, 3.85     1         3.88    3.87      Severe
+                                            3     4                                                aerospace:
+                                                                                                   3.45, 2
+Casting stock, cobalt lean grades         M 4, 4, 2, 4, 4, 5, 3.75     1         3.75    3.89      Congo
+                                            3     4                                                quota: 3.60,
+                                                                                                   2
+Combustor sheet, HX and Alloy 230         M 3, 4, 2, 4, 5, 5, 3.70     2         3.75    3.84      None
+                                            3     4
+Engine bar and billet, all grades         M 4, 4, 2, 5, 5, 4, 3.70     2         3.75    3.73      None
+                                            2     4
+Casting stock, all grades                 M 4, 4, 2, 4, 4, 5, 3.60     2         3.62    3.76      None
+                                            2     4
+                                                                                                   57
+Opportunity                        Ev Mkt, Comp,        Score Tier       Equal   Barriers Tier change
+                                      Gro, Tech,                         weights 20%      in a shock
+                                      Sup Cust,
+                                           Barr,
+                                           Diff
+Fab gas strip and tube             M 2, 5, 3, 4, 4, 3, 3.60     2        3.50    3.53     None
+                                     4     3
+Combustor sheet, all grades        M 3, 4, 2, 4, 5, 5, 3.55     2        3.62    3.71     None
+                                     2     4
+CoCr implant bar and powder        M 3, 4, 3, 4, 4, 5, 3.45     2        3.50    3.62     None
+                                     2     3
+FeNi36 foil and FeNi strip         E   1, 3, 2, 5, 3, 3, 3.20   Option   3.25    3.18     None
+                                       5     4
+FeNi36 strip for NO96 LNG tanks    E   1, 3, 3, 4, 3, 3, 3.20   Option   3.25    3.18     None
+                                       5     4
+Alloy 690 bar and hollows          M 2, 2, 3, 4, 4, 3, 3.15     2        3.25    3.13     None
+                                     5     3
+Solid oxide cell strip             E   1, 3, 3, 4, 2, 3, 3.10   Option   3.12    3.09     Indonesian
+                                       5     4                                            quota: 2.95,
+                                                                                          Monitor
+AM powder, CoCr and superalloy     M 2, 4, 2, 4, 4, 3, 3.00     2        3.00    3.00     Congo
+                                     2     3                                              quota: 2.85,
+                                                                                          Monitor;
+                                                                                          Severe
+                                                                                          aerospace:
+                                                                                          2.60,
+                                                                                          Harvest
+Sour service bar, strip, wire      M 3, 1, 3, 3, 3, 5, 2.95     Monitor 3.12     3.18     None
+                                     4     3
+Alloy C-276 fusion tape foil       E   1, 2, 4, 5, 2, 3, 2.75   Monitor 3.00     2.78     None
+                                       2     5
+Superalloy repair wire             E   1, 4, 2, 3, 3, 3, 2.70   Monitor 2.62     2.73     None
+                                       3     2
+Chemical plate, welding wire       M 3, 2, 2, 3, 3, 3, 2.55     Harvest 2.62     2.60     None
+                                     2     3
+Car exhaust and turbo alloys       M 2, 1, 3, 1, 2, 3, 2.35     Harvest 2.38     2.42     None
+                                     5     2
+Memo: vacuum melt programme,       M 4, 4, Share    3.67        2        3.71    3.74     None
+cobalt grades                        2     weighted
+Memo: vacuum melt programme, 718   M 4, 4, Share    3.82        1        3.83    3.87     Congo
+only                                 3     weighted                                       quota: 3.67,
+                                                                                          2; Severe
+                                                                                          aerospace:
+                                                                                          3.62, 2
+
+Source: team calculation (Product Strategy 2035 Team, 2026a). The 20 percent barrier
+column rescales the other weights proportionally, and an equal cut of the others gives the
+same tiers. The Congo case tightens the quota to the CMOC entitlement ratio (mine gap 54
+percent), the Indonesian case cuts the ore quota by 22 to 71 percent, and the severe aerospace
+                                                                                            58
+case runs two years at minus 20 percent with 70 percent recovery. The Chinese tungsten
+licence halt changes no tier. Without the aerospace haircut, the 718 row scores 4.05 and the
+cobalt grade programme 3.87, both priority 1 (Product Strategy 2035 Team, 2026a).
+
+
+A2.7 Investment case and timing of a 718 remelt step
+The investment case in 8.2 is a team estimate for a remelt step (VAR or ESR) with billet
+conversion and inspection. It excludes the VIM stage, qualification cost and working capital
+(Product Strategy 2035 Team, 2026a). Only one disclosed pair of capex and tonnes exists in
+the research, the Outokumpu Avesta high nickel programme of about EUR 150 m for about 13
+kt. Its first phase, ESR remelting for EUR 30 m, gives the floor of EUR 2,308 per annual
+tonne. The whole programme gives the central value of EUR 11,538, and the high value of
+EUR 17,308 adds a small scale premium of 1.5 times, a team assumption (Outokumpu, 2026b,
+2026c).
+
+Other moves bound the step but give no usable value per tonne. Aperam's VIM complex at
+Imphy sits inside a EUR 160 m programme for four sites, and Carpenter guides group capex
+of USD 355 to 375 m for its Athens expansion (Aperam, 2026; Carpenter Technology, 2026).
+Alleima's fourth VAR furnace at Sandviken ran about four months from installation to
+operation, with no capex disclosed. ATI's fifth VIM furnace at Monroe adds about 9 kt a year
+from the second half of 2027, so a 1.5 kt step equals 17 percent of one such furnace (Alleima,
+2026a; Argus Media, 2026b).
+The capex range gives a cheque of EUR 3.5, 17.3 or 26.0 m for 1.5 kt a year and EUR 6.9,
+34.6 or 51.9 m for 3 kt. Sales at 1.5 kt use the superalloy unit values of EUR 25.4, 35.9 and
+47.1 per kg, which gives EUR 38.1, 53.8 and 70.7 m a year at full use. The group operating
+margins of ATI (14.0 percent) and Howmet (24.8 percent), with 19.4 percent in between, give
+EUR 5.3, 10.4 and 17.5 m of operating profit. Simple payback before tax is 0.2 to 4.9 years,
+with 1.7 years in the central case. A three year ramp at 33, 67 and 100 percent of sales gives
+0.6 to 5.9 years, counted from the first approved tonne (ATI, 2026a; Eurostat, 2025; Howmet
+Aerospace, 2026; Product Strategy 2035 Team, 2026a). These are group margins, not the
+margin of a remelt step, so the range is deliberately wide.
+The timing follows the disclosed build times. A decision in Q1 2028 plus 1.5 to 2.5 years of
+build and 0.5 to 2.0 years of qualification gives a first approved tonne in Q1 2030 (fast), mid
+2031 (central) or mid 2032 (slow). The fast case qualifies non rotating Alloy 718 bar to AMS
+5662 and 5663 while the furnace is commissioned. The central case allows 12 to 24 months
+for the approval of a new furnace, and the slow case reflects rotating grades, where ATI quotes
+forging lead times above two years (ATI, 2026b; Special Metals Corporation, 2007a). The
+announced additions of other melters are on stream by the end of 2029, so only the fast case
+lands inside the window, and revenue from added capacity starts about 2031. The gate of 1.5
+                                                                                               59
+kt signed or in qualification by Q4 2027, with at least 0.5 kt of non rotating bar signed, keeps a
+qualification delay from ending the programme on timing alone.
+
+A3     Data sources, product codes and reproducibility
+The team collected structured data with the project's fetch script. The script saves raw files,
+creates clean tables, and records each query's date and URL in a source register with more than
+1,000 entries.
+The UN Comtrade data cover HS 7502, 7504, 7505, 7506, 7507, 8105, 8109, 7219, 7220,
+7223, 7409, 7606, 8311, and 8411 for ten reporting countries from 2019 to 2024. The HS 6
+digit alloy codes 750512, 750522, 750620 and 750712 separate nickel alloys from pure nickel
+for 2023 and 2024 and set the traded floors in A2.4 (Product Strategy 2035 Team, 2026a).
+Eurostat PRODCOM covers fifteen nickel, cobalt, stainless, copper, and aluminium product
+codes for the EU and five producer countries. Other sources include USGS Mineral
+Commodity Summaries 2026, the World Bank Pink Sheet, OECD STAN and ICIO, UNIDO
+INDSTAT for Germany, and filings from 61 companies.
+
+Table 10 in chapter 6 estimates market values by multiplying EU apparent consumption by the
+lower and higher of the 2024 unit values for exports and imports outside the EU. The team
+used these figures because Eurostat production values fall below the value of the nickel
+contained in the products.
+For flat products, 57.8 kt × EUR 31.0 per kg gives EUR 1.79 bn, and 57.8 kt × EUR 47.8 per
+kg gives EUR 2.76 bn. For tubes, 9.2 kt × EUR 26.1 per kg gives EUR 0.24 bn, and 9.2 kt ×
+EUR 41.1 per kg gives EUR 0.38 bn. The team did not value bars because the production
+figure is confidential (Eurostat, 2025, 2026c).
+The team calculated unit values by dividing trade value by trade quantity in PRODCOM DS-
+059358. The resulting range reflects the mix of grades traded across the EU border. It does not
+represent a quoted list price.
+
+A4     Limitations and further research
+The study has three main limitations. First, official data stop at the mill product stage. HS 6
+digit trade data separate nickel alloys from pure nickel, but PRODCOM production data do
+not, and no source gives tonnes by alloy grade. A survey of producers or Comext data at the
+eight digit level could sharpen the estimates.
+Second, tier 1 uses published activity drivers, but its alloy intensity, use shares, and product
+family weights are team assumptions. Nickel alloy tonnes by industry are not published, and
+the backtest periods are short. The aerospace haircut rests on three points of one vintage. The
+gas turbine driver combines Siemens Energy, GE Vernova and Mitsubishi Heavy Industries,
+but the makers publish no output beyond 2030, so the path to 2035 is a team estimate. The
+                                                                                               60
+investment case rests on one disclosed pair of capex and tonnes. The team should rerun the
+model when the IEA World Energy Outlook 2026, the next Airbus and Boeing outlooks, and
+new SEMI forecasts become available.
+Third, the trade analysis covers ten large reporting countries. A global analysis of mirror data
+that includes Russia, Sweden, and Austria would give a fuller picture of trade routes.
+
+A5     Sector market indicators
+The following tables list the market indicators used in chapter 5. Each table identifies the
+sources and years of observation.
+Table A6: Automotive market indicators, 2025 and 2035
+
+ Indicator                   2025                      2035               Source basis
+
+ World motor vehicle         96.4 million              No official        OICA
+ production                                            forecast
+
+ Electric share of new       25%                       About 50%          IEA, both
+ car sales, world                                                         exploratory
+                                                                          scenarios
+ Electric share of car       Close to 55%              Above 90%          IEA
+ sales, China
+ Electric share of car       26.8% (BEV 17.4%          Above 90% of       ACEA, IEA Stated
+ registrations, EU           plus PHEV 9.4%, team      light duty sales   Policies
+                             sum)
+
+ Turbocharger                Close to 50 million       Back toward        Garrett citing S&P
+ production                  units                     2022 level by      Global Mobility
+                                                       2030
+
+Sources: (European Automobile Manufacturers' Association, 2026a, 2026b; Garrett Motion,
+2026; International Energy Agency, 2026d; International Organization of Motor Vehicle
+Manufacturers, 2026).
+
+Table A7: Oil and gas indicators, today and 2035
+
+ Indicator               Today                     2035                           Source
+                                                                                  basis
+
+ Upstream oil and        USD 542 bn (2025),        Near today's level (Stated     IEA
+ gas investment          USD 546 bn (2026),        Policies), about 10% higher
+                         2025 prices               (Current Policies)
+ Oil demand              100 mb/d (2024)           Peak near 102 mb/d around      IEA Stated
+                                                   2030, back near 100 mb/d       Policies
+ LNG trade               560 bcm (2024)            880 bcm (Current Policies)     IEA
+                                                                                               61
+
+ Indicator             Today                      2035                            Source
+                                                                                  basis
+
+ Upstream growth       Africa +13.7%, Central     Continued shift                 IEA
+ regions 2026          and South America
+                       +9.9%
+
+Sources: (International Energy Agency, 2025b, 2026j). Regional growth is a team calculation
+from the WEI 2026 regional data.
+
+Table A8: Energy technology indicators relevant to high performance metals
+
+ Indicator             Latest value                 Direction to 2035     Metal and product
+                                                                          form
+
+ Siemens Energy        About 17 GW (FY2024),        Above 30 GW a         Superalloy bar,
+ gas turbine           sold out to FY2028           year from FY2028      billet and forging
+ capacity                                                                 stock
+
+ GE Vernova gas        15.3 GW delivered            24 GW planned for     Casting stock,
+ turbines              (2025), 36.7 GW ordered      2028, 30 GW for       combustor sheet
+                       in nine months of 2026       2030
+
+ Reactors under        81 reactors, 88.5 GWe        710 GW installed in Zirconium cladding
+ construction          gross, 40 in China           2035 (IEA Net       tube, Alloy 690
+                                                    Zero)               tube
+
+ Installed             More than 4 GW (2025)        Committed 2030        Nickel strip and
+ electrolysis                                       output 4.3 Mt of      mesh
+                                                    hydrogen
+
+ Solid oxide fuel      1 GW a year, doubling to     Driven by data        Interconnect
+ cells, Bloom          2 GW by end 2026             centre power          material not
+ Energy                                                                   disclosed
+
+Sources: (Bloom Energy, 2026; GE Vernova Inc., 2026a, 2026b, 2026c; International Energy
+Agency, 2025b, 2026f; Siemens Energy, 2025; World Nuclear Association, 2026b).
+
+Table A9: Aerospace market indicators, today and 2035
+
+ Indicator                      Today                    2035                    Source basis
+
+ Passenger fleet, aircraft of   23,310 (2025)            About 32,600 (team      Airbus GMF
+ 100 seats or more                                       interpolation)          2026
+ Commercial fleet, wider        About 28,000 (2025) About 38,000                 Boeing
+ definition                                                                      CMO 2026
+ New generation share of        39% (2025)               82%                     Airbus
+ fleet
+                                                                                              62
+
+ Indicator                      Today                  2035                     Source basis
+
+ Aviation services market       USD 209 bn (2026)      USD 422 bn in 2045,      Airbus GSF
+                                                       3.8% a year              2026
+ Cobalt used in aviation        11,499 t (2025)        Grows with fleet and     Cobalt
+                                                       engine output            Institute
+
+ World military expenditure     USD 2,887 bn           Rising in Europe         SIPRI
+                                (2025), Europe
+                                +14%
+
+Sources: (Airbus, 2026a, 2026c, 2026d; Boeing, 2026b; Cobalt Institute, 2026; Stockholm
+International Peace Research Institute, 2026). The 2035 passenger fleet is a team estimate on
+a constant growth path and not an Airbus figure.
+
+Table A10: Chemical industry indicators
+
+ Indicator                       Value                     Implication for alloy demand
+
+ EU27 chemical sales, 2024       About EUR 635 bn          Large installed base needing
+                                                           maintenance
+
+ EU share of world chemical      13% (2024), from 21%      New build moves out of Europe
+ sales                           (2009)
+ EU chemical production          Down 3.2%                 Fewer debottlenecking projects
+ index, 2025
+ EU capacity utilisation, Q3     75.0% against 81.3%       Closures, not expansions
+ 2026                            average
+ German utilisation, 2025        72.5%                     Weakest home market
+
+ Asia Pacific share of growth    Over 80% (BASF)           Export projects through
+ to 2035                                                   fabricators
+
+Sources: (BASF, 2026; European Chemical Industry Council, 2025a, 2025b, 2026b; Eurostat,
+2026b; Verband der Chemischen Industrie, 2026).
+
+Table A11: Electronics indicators relevant to high performance metals
+
+ Indicator                       Value                          Relevance
+ World semiconductor sales       USD 795.6 bn (2025), USD       Activity, not metal volume
+                                 1.51 tn (2026 forecast)
+ 300 mm fab equipment            USD 149 bn (2026), USD         Gas delivery and chamber
+ spending                        227 bn (2029)                  parts in high purity alloys
+                                                                                              63
+
+ Indicator                       Value                          Relevance
+ Copper busbar in a 1 MW         Up to 200 kg                   Copper and copper alloy strip
+ rack at 54 VDC                                                 and bar
+ German electrical and           EUR 112.2 bn (2023), real      Home market for sensor and
+ electronics value added         output flat in 2025            seal alloys
+
+ DNP metal mask capacity         Doubled by the 8th             FeNi36 (invar) ultra thin foil
+                                 generation Kurosaki line
+
+Sources: (Dai Nippon Printing, 2024a; NVIDIA, 2025; OECD, 2026; SEMI, 2026b; World
+Semiconductor Trade Statistics, 2026; ZVEI, 2026).
+
+Table A12: Medical technology indicators
+
+ Indicator                            Value                    Relevance
+
+ Hip replacements per 100,000         198 (2023)               Volume driver for CoCr and
+ people, OECD average                                          zirconium bar
+
+ Knee replacements per 100,000        156 (2023)               Volume driver for CoCr bar
+ people, OECD average                                          and powder
+
+ European medtech market              About EUR 173 bn         Devices and diagnostics, not
+                                      (2025)                   metal
+
+ Stryker orthopaedics revenue         USD 9,469 m (2025)       Largest implant buyer
+
+ Zimmer Biomet knees and hips         USD 3,322 m and USD Names cobalt chrome as a
+                                      2,094 m (2025)      purchased commodity
+
+ China volume based procurement       Implant prices cut by    Volume without margin
+                                      about 82% (2022)
+
+Sources: (MedTech Europe, 2026; National Healthcare Security Administration, 2022; OECD,
+2025; Stryker, 2026; Zimmer Biomet, 2026).
+
+A6     Peer benchmark of specialty metal producers
+The peer comparison supports the competition scores in section 8.1. It shows the margins of
+leading specialty metal producers and how they are changing capacity. Howmet and PCC also
+cast and forge, so they are customers as well as peers.
+Table A13: Peer benchmark of specialty metal producers
+
+ Company               Revenue, latest        Margin          Capacity move
+                       year
+
+ Howmet                USD 8,252 m            24.8%           Engine products capacity, USD
+ Aerospace             (2025)                 operating       453 m capex
+                                                                                                 64
+
+ Company               Revenue, latest       Margin            Capacity move
+                       year
+
+ Carpenter             USD 3,124 m           22.5%             Athens, Alabama expansion,
+ Technology            (FY2026)              operating         capex USD 355 to 375 m
+                                                               guided
+ ATI                   USD 4,587 m           14.0%             Fifth VIM furnace in Monroe,
+                       (2025)                operating         about 9 kt a year from 2027
+ PCC including         USD 10.8 bn           Not published     Aerospace revenue up 7.5%
+ Special Metals        (2025)
+ Aubert & Duval        EUR 844 m             Not published     Owned by Airbus, Safran and
+                       (2024)                                  Tikehau
+
+ Alleima               SEK 18,630 m          8.3% adjusted     Fourth VAR furnace at
+                       (2025)                EBIT              Sandviken
+
+ Outokumpu             EUR 5,468 m           3.1% adjusted     About 13 kt high nickel flat at
+                       (2025)                EBITDA            Avesta, about EUR 150 m
+
+ Aperam                EUR 6,080 m           5.6% adjusted     New VIM complex at Imphy
+                       (2025)                EBITDA            within EUR 160 m programme
+
+ Daido Steel           JPY 578 bn (FY to     7.3% operating High alloy melting and forging
+                       March 2026)                          base
+
+Sources: company filings and reports (Alleima, 2026a; Aperam, 2026; Argus Media, 2026b;
+Armees.com, 2025; ATI, 2026a; Berkshire Hathaway, 2026; Carpenter Technology, 2026;
+Daido Steel, 2026; Howmet Aerospace, 2026; Outokumpu, 2026a, 2026b). Margins as
+reported or calculated from reported figures, fiscal years differ. The Daido margin divides
+operating profit of JPY 42.1 bn by revenue of JPY 578.1 bn from its fact book.
+
+A7     Qualification gates by industry
+The qualification requirements below affect how quickly a producer can enter each
+application. They support the entry barrier scores in Table 14 and the gates in Table 18.
+Table A14: Qualification gates by industry
+
+ Industry      Approval gate                             Who approves       Implication
+ Aerospace AMS 5662 and 5663 for 718 bar and             Engine makers      Non rotating bar
+           forgings, AMS 5596 for 718 sheet,             and forgers        first, rotating parts
+           NADCAP accredited processes, part                                take years
+           level approval
+                                                                                                               65
+
+ Industry       Approval gate                                     Who approves            Implication
+ Energy         Casting house and turbine maker                   Turbine makers,         Nuclear approvals
+                approvals. For nuclear tube, ASME                 utilities, tube         only with a named
+                SB 163 and RCC-M M4105 product                    makers                  programme
+                approvals plus a nuclear quality
+                assurance programme
+
+ Oil and        NORSOK M-650, API 6ACRA and                       Operators, pipe         Approval lists are
+ gas            API 5LD, operator approval lists                  and equipment           the moat
+                                                                  makers
+
+ Chemical       Pressure equipment rules (VdTÜV,                  Fabricators,            Life cycle cost
+                AD 2000, ASME), corrosion test data               plant operators         evidence wins
+ Medical        ASTM F75 and F1537 material                       Implant makers          Few buyers, long
+                standards and their ISO equivalents,              with ISO 13485          relationships
+                supplier audits
+
+Sources: team summary of the standards named in chapter 5 (Alleima, n.d.-a; ASTM
+International, 2020, 2023; Special Metals Corporation, 2007a).
+
+A8      Risks and kill criteria
+The roadmap in Table 15 depends on the risks below. Table A15 rates each risk for likelihood
+and impact and gives an early signal, a response and a numeric kill criterion with a date. The
+kill criteria match those of Table 15.
+Table A15: Main risks, likelihood, impact and kill criteria
+Risk                     Likelihood           Impact            Early signal and          Kill criterion
+                                                                response
+Qualification slower     High, rotating       High, first       No non rotating           Under 0.5 kt of non
+than planned             approvals take       tonne after       approval by Q4 2027.      rotating bar signed by
+(initiative 1)           several years        2031              Lead with AMS 5662        Q4 2028
+                                                                and 5663 bar
+Severe aerospace         Low, Airbus alone    High, 718 bar     Airbus and Boeing         Deliveries below 1,114
+downturn (initiative     has a backlog of     falls to 3.45     deliveries 20 percent     aircraft in both 2026
+1)                       8,754 aircraft       and priority 2    below the 1,393 of        and 2027
+                                                                2025. Shift volume to
+                                                                turbine casting stock
+Substitution by          Medium, both         Medium, the       Composite turbine         A programme launched
+ceramic composites       already fly, no      share ratio has   blades in a new engine.   by Q4 2028 that cuts
+and titanium             displacement         a low case of     Join customer             superalloy hot section
+aluminide (initiatives   published            0.90              programmes                mass by more than 10
+1 and 2)                                                                                  percent
+New Asian superalloy Medium, China            Medium, price     Chinese or Japanese       Asian bids below the
+capacity (initiatives 1 already melts about   pressure on       melters win Western       EU unit value floor of
+and 2)                  a third of the P50    second            approvals. Compete on     EUR 25.4 per kg in
+                                              sources           speed and service         two tenders by Q4
+                                                                                          2029
+                                                                                                               66
+Risk                     Likelihood            Impact         Early signal and          Kill criterion
+                                                              response
+Cobalt quota and         Medium, the Congo Medium,            Quota at the CMOC         Lead grades above 10
+grade risk (initiative   quota is in force casting stock      entitlement ratio. Use    percent cobalt, or no
+2)                                         falls to 3.60 at   refiners outside the      casting order by Q4
+                                           the CMOC           hydroxide chain and       2029
+                                           ratio              revert
+Fab gas qualification    Medium, alloy         Low, pool of   No gas system maker       No order by Q4 2028
+fails (initiative 3)     volumes are           EUR 0.11 bn    trial by Q4 2027
+                         unmeasured
+CoCr price cuts          Medium, Chinese       Medium,        Price clauses in tenders. No supply agreement
+(initiative 4)           procurement cut       volume         Keep ASTM F75 and         by Q4 2029
+                         implant prices by     without        F1537
+                         about 82 percent      margin
+No Western reactor       Medium, 40 of 81      Low, pool of   No AP1000 or AP300        No reactor tube order
+order (initiative 5)     reactors are in       EUR 0.08 bn    tube order. Hold          by Q4 2030
+                         China                                approvals only
+Input concentration      Medium, Brazil      High for all     One supplier above 40     One source above 50
+(initiative 6)           mines 93 percent of lead grades      percent of an input       percent of cobalt or
+                         niobium                                                        niobium in Q4 2028
+European demand          High, EU chemical     Medium,        Utilisation below 75      Contribution margin
+weakness (all)           utilisation is 75.0   harvest rows   percent. Shift sales to   below plan in both
+                         percent               lose volume    Asia and the United       2028 and 2029
+                                                              States
+
+Source: team assessment based on chapters 4 to 7 (Airbus, 2026a; European Chemical
+Industry Council, 2026b; Eurostat, 2025; National Healthcare Security Administration, 2022;
+Product Strategy 2035 Team, 2026a; U.S. Geological Survey, 2026h; World Nuclear
+Association, 2026b; Zhiyan Consulting, 2026). Likelihood and impact are team judgement.
+The delivery threshold of 1,114 aircraft is 80 percent of the 2025 deliveries.
+
