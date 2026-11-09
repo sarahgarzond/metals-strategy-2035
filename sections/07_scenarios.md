@@ -32,6 +32,8 @@ Table 13: Alloy demand 2035 by industry, index 2025 = 100
 
 Figure 3: Electronics has the highest alloy demand index to 2035, and automotive stays flat (index, not volume)
 
+![Figure 3](fig/fig3_scenarios.svg)
+
 *Source: team calculation, band P10 to P90, line P50 [MODEL_T1_RESULTS_2035].*
 
 Electronics has the highest index, but it tracks fab capacity, and its alloy volume is unmeasured. Automotive stays flat because combustion parts fall to 69 while electric vehicle parts rise to 200 [MODEL_T1_RESULTS_2035].

@@ -45,6 +45,8 @@ Reporter data suggest that China leads unwrought nickel exports, but partner imp
 
 Figure 2: German exports of nickel mill products rose by about 47 percent from 2019 to 2024
 
+![Figure 2](fig/fig2_de_nickel_exports.svg)
+
 *Source: UN Comtrade, Germany as reporter, exports to the world in current USD [COMTRADE_7505_2019_2024, COMTRADE_7506_2019_2024, COMTRADE_7507_2019_2024].*
 
 ### 6.3 Corridors and Dependencies

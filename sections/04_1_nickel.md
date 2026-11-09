@@ -8,6 +8,8 @@ The surplus explains the falling price, from a World Bank average of USD 25,834 
 
 Figure 1: The nickel price has fallen by about 41 percent from its 2022 annual average
 
+![Figure 1](fig/fig1_nickel_price.svg)
+
 *Source: World Bank Pink Sheet, annual averages of monthly prices, team calculation [NI_WB_AVG_2022, CU_WB_CU_2025].*
 
 Stainless steel uses most nickel, with melt shop output of 64.2 Mt gross in 2025. The IEA expects nickel demand outside energy technologies, including stainless steel and alloys, to rise from 2,906 kt in 2025 to 3,255 kt in 2035 [IEA_CM_CO_DEMAND_2025_2035, CR_SS_MELT_2025_WORLD].
